@@ -2,7 +2,7 @@
 
 Who's On First is a gazetteer of places. Not quite _all_ the places in the world but a whole lot of them and, we hope, the kinds of places that we mostly share in common.
 
-This repository contains records for administrative places in **United States of America**.
+This repository contains records for administrative places in the **United States of America**.
 
 See this [README](https://github.com/whosonfirst-data/whosonfirst-data/blob/master/README.md) file for a Who's On First project overview, project principles, caveats, and licensing information.
 
