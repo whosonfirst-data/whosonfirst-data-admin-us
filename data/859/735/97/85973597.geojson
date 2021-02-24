@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000039,
-    "geom:area_square_m":368438.133284,
+    "geom:area_square_m":368416.338725,
     "geom:bbox":"-97.726527,40.720315,-97.720885,40.727599",
     "geom:latitude":40.72403,
     "geom:longitude":-97.723648,
@@ -15,11 +15,11 @@
     "gn:population":30,
     "iso:country":"US",
     "lbl:latitude":40.724066,
-    "lbl:longitude":-97.723686,
+    "lbl:longitude":-97.723685,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
     "mps:latitude":40.724066,
-    "mps:longitude":-97.723686,
+    "mps:longitude":-97.723685,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -103,19 +103,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":368843,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3129645",
+    "uscensus:intptlat":"+40.7240300",
+    "uscensus:intptlon":"-097.7236479",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Lushton",
+    "uscensus:namelsad":"Lushton village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"29645",
+    "uscensus:placens":"02399203",
+    "uscensus:statefp":"31",
     "wd:wordcount":777,
     "wof:belongsto":[
-        85688563,
         102191575,
-        404520829,
         85633793,
-        102083493
+        102083493,
+        404520829,
+        85688563
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -124,14 +141,16 @@
         "gn:id":5072450,
         "gp:id":2443158,
         "qs_pg:id":1051379,
+        "uscensus:geoid":3129645,
         "wd:id":"Q3288860",
         "wk:page":"Lushton, Nebraska"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"4779207c4274e744ef6837faee0f8117",
+    "wof:geomhash":"8b223d5ec6d915e8a19527fe9151243d",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -146,7 +165,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335970,
+    "wof:lastmodified":1613615711,
     "wof:name":"Lushton",
     "wof:parent_id":404520829,
     "wof:placetype":"locality",
@@ -163,5 +182,5 @@
     -97.720885,
     40.727599
 ],
-  "geometry": {"coordinates":[[[-97.726488,40.72376],[-97.72649,40.723862],[-97.726527,40.727586],[-97.725297,40.727586],[-97.721219,40.727599],[-97.720985,40.727599],[-97.720975,40.726119],[-97.72093599999999,40.724102],[-97.720885,40.720325],[-97.72127399999999,40.720324],[-97.723885,40.720315],[-97.725222,40.720319],[-97.725696,40.72032],[-97.72569900000001,40.721584],[-97.72641299999999,40.721701],[-97.726488,40.72376]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-97.726527,40.727586],[-97.725297,40.727586],[-97.724341,40.727589],[-97.721219,40.727599],[-97.720985,40.727599],[-97.720975,40.726119],[-97.72093599999999,40.724102],[-97.720885,40.720325],[-97.72127399999999,40.720324],[-97.723885,40.720315],[-97.725222,40.720319],[-97.725696,40.72032],[-97.72569900000001,40.721584],[-97.72641299999999,40.721701],[-97.726485,40.72369],[-97.726488,40.72376],[-97.72649,40.723862],[-97.726494,40.72436],[-97.726527,40.727586]]],"type":"Polygon"}
 }

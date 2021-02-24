@@ -11,11 +11,11 @@
     "geom:longitude":-93.47757,
     "iso:country":"US",
     "lbl:latitude":39.922076,
-    "lbl:longitude":-93.478288,
+    "lbl:longitude":-93.478287,
     "lbl:max_zoom":17.0,
     "lbl:min_zoom":12.5,
     "mps:latitude":39.922076,
-    "mps:longitude":-93.478288,
+    "mps:longitude":-93.478287,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -105,23 +105,40 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"wk",
+    "uscensus:aland":460727,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"2913852",
+    "uscensus:intptlat":"+39.9219437",
+    "uscensus:intptlon":"-093.4775699",
+    "uscensus:lsad":"25",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Chula",
+    "uscensus:namelsad":"Chula city",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"13852",
+    "uscensus:placens":"02393522",
+    "uscensus:statefp":"29",
     "wd:elevation":227.0,
     "wd:latitude":39.9217,
     "wd:longitude":-93.4778,
     "wd:population":210,
     "wd:wordcount":735,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404517479,
         85633793,
-        102086169
+        102086169,
+        404517479,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -130,12 +147,14 @@
         "gn:id":4381213,
         "gp:id":2380206,
         "qs_pg:id":196248,
+        "uscensus:geoid":2913852,
         "wd:id":"Q966882",
         "wk:page":"Chula, Missouri"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"290aab458f7d5fa3ff501d845b0ae85e",
     "wof:hierarchy":[
@@ -152,7 +171,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335833,
+    "wof:lastmodified":1613615449,
     "wof:name":"Chula",
     "wof:parent_id":404517479,
     "wof:placetype":"locality",

@@ -17,7 +17,7 @@
     "mps:latitude":43.599555,
     "mps:longitude":-70.337468,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:azb_x_preferred":[
         "\u0627\u0633\u06a9\u0627\u0631\u0628\u0631\u0648"
@@ -111,18 +111,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":12880387,
+    "uscensus:awater":34431,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"2366110",
+    "uscensus:intptlat":"+43.5994572",
+    "uscensus:intptlon":"-070.3319672",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Scarborough",
+    "uscensus:namelsad":"Scarborough CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"66110",
+    "uscensus:placens":"02377954",
+    "uscensus:statefp":"23",
     "wd:wordcount":1796,
     "wof:belongsto":[
-        85688769,
         102191575,
-        404475433,
         85633793,
-        102087463
+        102087463,
+        404475433,
+        85688769
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -130,12 +147,14 @@
         "gn:id":4977882,
         "gp:id":2489542,
         "qs_pg:id":1241723,
+        "uscensus:geoid":2366110,
         "wd:id":"Q2076311",
         "wk:page":"Scarborough, Maine"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"df5201ac00c823c2471d2d94a43fb2fe",
     "wof:hierarchy":[
@@ -149,7 +168,7 @@
         }
     ],
     "wof:id":85949003,
-    "wof:lastmodified":1582335705,
+    "wof:lastmodified":1613616154,
     "wof:name":"Scarborough",
     "wof:parent_id":404475433,
     "wof:placetype":"locality",

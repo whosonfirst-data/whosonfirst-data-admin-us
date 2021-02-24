@@ -4,22 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.00002,
-    "geom:area_square_m":172364.638442,
-    "geom:bbox":"-96.804703,46.948228,-96.798593,46.952145",
-    "geom:latitude":46.950335,
-    "geom:longitude":-96.801823,
+    "geom:area":0.000019,
+    "geom:area_square_m":164431.686374,
+    "geom:bbox":"-96.804886,46.94822,-96.798965,46.952153",
+    "geom:latitude":46.950296,
+    "geom:longitude":-96.802119,
     "gn:elevation":273,
     "gn:latitude":46.9508,
     "gn:longitude":-96.80258,
     "gn:population":56,
     "iso:country":"US",
-    "lbl:latitude":46.950364,
-    "lbl:longitude":-96.801824,
+    "lbl:latitude":46.950268,
+    "lbl:longitude":-96.802158,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
-    "mps:latitude":46.950364,
-    "mps:longitude":-96.801824,
+    "mps:latitude":46.950268,
+    "mps:longitude":-96.802158,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -105,22 +105,39 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":157457,
+    "uscensus:awater":7406,
+    "uscensus:classfp":"C5",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3858120",
+    "uscensus:intptlat":"+46.9504803",
+    "uscensus:intptlon":"-096.8033348",
+    "uscensus:lsad":"25",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"North River",
+    "uscensus:namelsad":"North River city",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"58120",
+    "uscensus:placens":"01036197",
+    "uscensus:statefp":"38",
     "wd:elevation":273.0,
     "wd:latitude":46.949167,
     "wd:longitude":-96.8025,
     "wd:wordcount":686,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404478895,
         85633793,
-        102082073
+        102082073,
+        404478895,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -129,14 +146,16 @@
         "gn:id":5060702,
         "gp:id":2461546,
         "qs_pg:id":1351724,
+        "uscensus:geoid":3858120,
         "wd:id":"Q2231747",
         "wk:page":"North River, North Dakota"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"4075ee1eec8f4daa1835fbbc4dc09f36",
+    "wof:geomhash":"458ab1200b62f90f536cbc39cc6ae40c",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -151,7 +170,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335643,
+    "wof:lastmodified":1613614844,
     "wof:name":"North River",
     "wof:parent_id":404478895,
     "wof:placetype":"locality",
@@ -165,10 +184,10 @@
     "wof:tags":[]
 },
   "bbox": [
-    -96.804703,
-    46.948228,
-    -96.798593,
-    46.952145
+    -96.804886,
+    46.94822,
+    -96.798965,
+    46.952153
 ],
-  "geometry": {"coordinates":[[[-96.804633,46.949001],[-96.804703,46.951412],[-96.804631,46.952094],[-96.80456100000001,46.952145],[-96.803732,46.952119],[-96.802826,46.952102],[-96.801962,46.952067],[-96.80175699999999,46.952044],[-96.801663,46.952004],[-96.79925,46.951985],[-96.79867400000001,46.951974],[-96.798593,46.951214],[-96.79868500000001,46.950273],[-96.798856,46.949613],[-96.799156,46.949215],[-96.799706,46.948789],[-96.80022,46.948587],[-96.800327,46.948545],[-96.80094800000001,46.948435],[-96.801766,46.948684],[-96.802758,46.948564],[-96.804649,46.948228],[-96.804633,46.949001]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-96.804817,46.948799],[-96.804793,46.949],[-96.80475300000001,46.95013],[-96.804744,46.95068],[-96.80474100000001,46.95083],[-96.804731,46.951413],[-96.80470699999999,46.952153],[-96.80456100000001,46.952145],[-96.80449900000001,46.952143],[-96.80445400000001,46.952142],[-96.803732,46.952119],[-96.802826,46.952102],[-96.801962,46.952067],[-96.80175699999999,46.952044],[-96.801706,46.952023],[-96.801665,46.952006],[-96.80165,46.951985],[-96.79924200000001,46.951895],[-96.799012,46.951887],[-96.798976,46.951559],[-96.798965,46.951148],[-96.799031,46.950707],[-96.799178,46.950063],[-96.799516,46.949334],[-96.800051,46.948899],[-96.8004,46.948691],[-96.80119000000001,46.948557],[-96.801293,46.94854],[-96.802719,46.948411],[-96.803057,46.948379],[-96.803281,46.948358],[-96.803797,46.948309],[-96.80454400000001,46.948238],[-96.804581,46.948234],[-96.804635,46.948229],[-96.804649,46.948229],[-96.804886,46.94822],[-96.804817,46.948799]]],"type":"Polygon"}
 }

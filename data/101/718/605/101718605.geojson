@@ -17,7 +17,7 @@
     "mps:latitude":40.156123,
     "mps:longitude":-75.829022,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:ceb_x_preferred":[
         "Elverson"
@@ -81,18 +81,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":2574887,
+    "uscensus:awater":28807,
+    "uscensus:classfp":"C5",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"4223440",
+    "uscensus:intptlat":"+40.1537195",
+    "uscensus:intptlon":"-075.8308258",
+    "uscensus:lsad":"21",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Elverson",
+    "uscensus:namelsad":"Elverson borough",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"23440",
+    "uscensus:placens":"01215069",
+    "uscensus:statefp":"42",
     "wd:wordcount":892,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404482919,
         85633793,
-        102081275
+        102081275,
+        404482919,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -101,12 +118,14 @@
         "gn:id":5188659,
         "gp:id":2399213,
         "qs_pg:id":1051902,
+        "uscensus:geoid":4223440,
         "wd:id":"Q1134239",
         "wk:page":"Elverson, Pennsylvania"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"50b550ab6ab52265e0b912f09282b185",
     "wof:hierarchy":[
@@ -123,7 +142,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582338321,
+    "wof:lastmodified":1613614944,
     "wof:name":"Elverson",
     "wof:parent_id":404482919,
     "wof:placetype":"locality",

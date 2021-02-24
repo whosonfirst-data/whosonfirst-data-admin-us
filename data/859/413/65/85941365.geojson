@@ -21,7 +21,7 @@
     "mps:latitude":40.247323,
     "mps:longitude":-86.724413,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u0643\u0644\u0627\u0631\u0643\u0633"
@@ -91,19 +91,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":705650,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"1812898",
+    "uscensus:intptlat":"+40.2472059",
+    "uscensus:intptlon":"-086.7244123",
+    "uscensus:lsad":"43",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Clarks Hill",
+    "uscensus:namelsad":"Clarks Hill town",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"12898",
+    "uscensus:placens":"02396648",
+    "uscensus:statefp":"18",
     "wd:wordcount":779,
     "wof:belongsto":[
-        85688709,
         102191575,
-        404500609,
         85633793,
-        102087121
+        102087121,
+        404500609,
+        85688709
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -112,12 +129,14 @@
         "gn:id":4919059,
         "gp:id":2380791,
         "qs_pg:id":155865,
+        "uscensus:geoid":1812898,
         "wd:id":"Q928758",
         "wk:page":"Clarks Hill, Indiana"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"3d5854e92b8c0514cfec31e268affb64",
     "wof:hierarchy":[
@@ -134,7 +153,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335612,
+    "wof:lastmodified":1613615985,
     "wof:name":"Clarks Hill",
     "wof:parent_id":404500609,
     "wof:placetype":"locality",

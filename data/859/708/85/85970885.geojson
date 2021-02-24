@@ -11,11 +11,11 @@
     "geom:longitude":-94.605154,
     "iso:country":"US",
     "lbl:latitude":37.272794,
-    "lbl:longitude":-94.608049,
+    "lbl:longitude":-94.608048,
     "lbl:max_zoom":17.0,
     "lbl:min_zoom":12.5,
     "mps:latitude":37.272794,
-    "mps:longitude":-94.608049,
+    "mps:longitude":-94.608048,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -105,23 +105,40 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"wk",
+    "uscensus:aland":945113,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"2902098",
+    "uscensus:intptlat":"+37.2729411",
+    "uscensus:intptlon":"-094.6051541",
+    "uscensus:lsad":"25",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Asbury",
+    "uscensus:namelsad":"Asbury city",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"02098",
+    "uscensus:placens":"02393995",
+    "uscensus:statefp":"29",
     "wd:elevation":274.0,
     "wd:latitude":37.2747,
     "wd:longitude":-94.6033,
     "wd:population":207,
     "wd:wordcount":756,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404515667,
         85633793,
-        102087525
+        102087525,
+        404515667,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -130,12 +147,14 @@
         "gn:id":4375159,
         "gp:id":2356413,
         "qs_pg:id":1244466,
+        "uscensus:geoid":2902098,
         "wd:id":"Q966950",
         "wk:page":"Asbury, Missouri"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"91bd8997c11380090ee50852a93ecfe8",
     "wof:hierarchy":[
@@ -152,7 +171,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335490,
+    "wof:lastmodified":1613616786,
     "wof:name":"Asbury",
     "wof:parent_id":404515667,
     "wof:placetype":"locality",

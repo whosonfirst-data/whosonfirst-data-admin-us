@@ -13,11 +13,11 @@
     "gn:population":555,
     "iso:country":"US",
     "lbl:latitude":40.358881,
-    "lbl:longitude":-80.385018,
+    "lbl:longitude":-80.385017,
     "lbl:max_zoom":17.0,
     "lbl:min_zoom":12.5,
     "mps:latitude":40.358881,
-    "mps:longitude":-80.385018,
+    "mps:longitude":-80.385017,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -68,21 +68,38 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":1520993,
+    "uscensus:awater":0,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"4271232",
+    "uscensus:intptlat":"+40.3595247",
+    "uscensus:intptlon":"-080.3850169",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Slovan",
+    "uscensus:namelsad":"Slovan CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"71232",
+    "uscensus:placens":"02631304",
+    "uscensus:statefp":"42",
     "wd:latitude":40.3579,
     "wd:longitude":-80.3894,
     "wd:wordcount":28,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404487849,
         85633793,
-        102081343
+        102081343,
+        404487849,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -91,12 +108,14 @@
         "gn:id":5212566,
         "gp:id":2494766,
         "qs_pg:id":1052046,
+        "uscensus:geoid":4271232,
         "wd:id":"Q5641044",
         "wk:page":"Slovan, Pennsylvania"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"27ce19ee0a78d62482c3c346d082d7c0",
     "wof:hierarchy":[
@@ -113,7 +132,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582338286,
+    "wof:lastmodified":1613616234,
     "wof:name":"Slovan",
     "wof:parent_id":404487849,
     "wof:placetype":"locality",

@@ -21,7 +21,7 @@
     "mps:latitude":43.465224,
     "mps:longitude":-76.232574,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u0645\u0643\u0633\u064a\u0643\u0648"
@@ -91,19 +91,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":5554763,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3646811",
+    "uscensus:intptlat":"+43.4652180",
+    "uscensus:intptlon":"-076.2325741",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Mexico",
+    "uscensus:namelsad":"Mexico village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"46811",
+    "uscensus:placens":"02390978",
+    "uscensus:statefp":"36",
     "wd:wordcount":1458,
     "wof:belongsto":[
-        85688543,
         102191575,
-        404522961,
         85633793,
-        102081783
+        102081783,
+        404522961,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -112,12 +129,14 @@
         "gn:id":5126705,
         "gp:id":2449980,
         "qs_pg:id":157063,
+        "uscensus:geoid":3646811,
         "wd:id":"Q478556",
         "wk:page":"Mexico, New York"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"2beba38a41cce61a6cbeb681a025f7be",
     "wof:hierarchy":[
@@ -134,7 +153,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335820,
+    "wof:lastmodified":1613616613,
     "wof:name":"Mexico",
     "wof:parent_id":404522961,
     "wof:placetype":"locality",

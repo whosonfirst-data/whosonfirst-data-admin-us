@@ -11,11 +11,11 @@
     "geom:longitude":-90.772354,
     "iso:country":"US",
     "lbl:latitude":37.763871,
-    "lbl:longitude":-90.771603,
+    "lbl:longitude":-90.771602,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.5,
     "mps:latitude":37.763871,
-    "mps:longitude":-90.771603,
+    "mps:longitude":-90.771602,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":12.0,
@@ -240,18 +240,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":424340,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"2910432",
+    "uscensus:intptlat":"+37.7647714",
+    "uscensus:intptlon":"-090.7723537",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Caledonia",
+    "uscensus:namelsad":"Caledonia village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"10432",
+    "uscensus:placens":"02397530",
+    "uscensus:statefp":"29",
     "wd:wordcount":817,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404517787,
         85633793,
-        102087487
+        102087487,
+        404517787,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -260,12 +277,14 @@
         "gn:id":4379528,
         "gp:id":2373204,
         "qs_pg:id":1306447,
+        "uscensus:geoid":2910432,
         "wd:id":"Q594529",
         "wk:page":"Caledonia, Missouri"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"640b0db94a769a73b4d4eceb9088b77a",
     "wof:hierarchy":[
@@ -282,7 +301,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335832,
+    "wof:lastmodified":1613615492,
     "wof:name":"Caledonia",
     "wof:parent_id":404517787,
     "wof:placetype":"locality",

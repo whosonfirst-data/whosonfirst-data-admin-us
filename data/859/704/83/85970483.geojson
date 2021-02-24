@@ -11,11 +11,11 @@
     "geom:longitude":-93.638931,
     "iso:country":"US",
     "lbl:latitude":39.098711,
-    "lbl:longitude":-93.639719,
+    "lbl:longitude":-93.639718,
     "lbl:max_zoom":17.0,
     "lbl:min_zoom":12.5,
     "mps:latitude":39.098711,
-    "mps:longitude":-93.639719,
+    "mps:longitude":-93.639718,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -102,23 +102,40 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"wk",
+    "uscensus:aland":921741,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"2916408",
+    "uscensus:intptlat":"+39.0991952",
+    "uscensus:intptlon":"-093.6389312",
+    "uscensus:lsad":"25",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Corder",
+    "uscensus:namelsad":"Corder city",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"16408",
+    "uscensus:placens":"02393635",
+    "uscensus:statefp":"29",
     "wd:elevation":264.0,
     "wd:latitude":39.0994,
     "wd:longitude":-93.6389,
     "wd:population":404,
     "wd:wordcount":766,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404517211,
         85633793,
-        102086905
+        102086905,
+        404517211,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -127,12 +144,14 @@
         "gn:id":4382384,
         "gp:id":2384962,
         "qs_pg:id":234736,
+        "uscensus:geoid":2916408,
         "wd:id":"Q963909",
         "wk:page":"Corder, Missouri"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"433951a1782f2229b418c45f4bde9ea2",
     "wof:hierarchy":[
@@ -149,7 +168,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335991,
+    "wof:lastmodified":1613615445,
     "wof:name":"Corder",
     "wof:parent_id":404517211,
     "wof:placetype":"locality",

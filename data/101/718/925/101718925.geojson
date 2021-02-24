@@ -17,7 +17,7 @@
     "mps:latitude":41.563443,
     "mps:longitude":-80.225675,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:azb_x_preferred":[
         "\u062c\u0646\u06cc\u0648\u0627"
@@ -84,18 +84,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":564927,
+    "uscensus:awater":0,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"4228768",
+    "uscensus:intptlat":"+41.5620144",
+    "uscensus:intptlon":"-080.2259790",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Geneva",
+    "uscensus:namelsad":"Geneva CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"28768",
+    "uscensus:placens":"02389835",
+    "uscensus:statefp":"42",
     "wd:wordcount":440,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404486153,
         85633793,
-        102080911
+        102080911,
+        404486153,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -104,12 +121,14 @@
         "gn:id":5190946,
         "gp:id":2409494,
         "qs_pg:id":796176,
+        "uscensus:geoid":4228768,
         "wd:id":"Q1181723",
         "wk:page":"Geneva, Pennsylvania"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"c16bb7137da17a9be75deb9390f44e1e",
     "wof:hierarchy":[
@@ -126,7 +145,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582338324,
+    "wof:lastmodified":1613616182,
     "wof:name":"Geneva",
     "wof:parent_id":404486153,
     "wof:placetype":"locality",

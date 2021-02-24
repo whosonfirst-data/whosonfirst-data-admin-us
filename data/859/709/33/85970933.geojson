@@ -11,11 +11,11 @@
     "geom:longitude":-91.84499,
     "iso:country":"US",
     "lbl:latitude":38.478642,
-    "lbl:longitude":-91.844985,
+    "lbl:longitude":-91.844986,
     "lbl:max_zoom":16.0,
     "lbl:min_zoom":12.0,
     "mps:latitude":38.478642,
-    "mps:longitude":-91.844985,
+    "mps:longitude":-91.844986,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -123,23 +123,40 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"wk",
+    "uscensus:aland":3020059,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"2943238",
+    "uscensus:intptlat":"+38.4787982",
+    "uscensus:intptlon":"-091.8449888",
+    "uscensus:lsad":"25",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Linn",
+    "uscensus:namelsad":"Linn city",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"43238",
+    "uscensus:placens":"02395719",
+    "uscensus:statefp":"29",
     "wd:elevation":258.0,
     "wd:latitude":38.4831,
     "wd:longitude":-91.8469,
     "wd:population":1459,
     "wd:wordcount":987,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404518431,
         85633793,
-        102086907
+        102086907,
+        404518431,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -148,12 +165,14 @@
         "gn:id":4828677,
         "gp:id":2439844,
         "qs_pg:id":155473,
+        "uscensus:geoid":2943238,
         "wd:id":"Q962282",
         "wk:page":"Linn, Missouri"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"372febf15335efae24f958b7f52d9e44",
     "wof:hierarchy":[
@@ -170,7 +189,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335520,
+    "wof:lastmodified":1613615675,
     "wof:name":"Linn",
     "wof:parent_id":404518431,
     "wof:placetype":"locality",

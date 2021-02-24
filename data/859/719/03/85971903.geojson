@@ -11,11 +11,11 @@
     "geom:longitude":-94.348553,
     "iso:country":"US",
     "lbl:latitude":38.32207,
-    "lbl:longitude":-94.348555,
+    "lbl:longitude":-94.348553,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.5,
     "mps:latitude":38.32207,
-    "mps:longitude":-94.348555,
+    "mps:longitude":-94.348553,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":12.0,
@@ -90,21 +90,38 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":183774,
+    "uscensus:awater":468,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"2956468",
+    "uscensus:intptlat":"+38.3216305",
+    "uscensus:intptlon":"-094.3489854",
+    "uscensus:lsad":"43",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Passaic",
+    "uscensus:namelsad":"Passaic town",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"56468",
+    "uscensus:placens":"02396849",
+    "uscensus:statefp":"29",
     "wd:elevation":265.0,
     "wd:latitude":38.3217,
     "wd:longitude":-94.3481,
     "wd:wordcount":734,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404516337,
         85633793,
-        102085289
+        102085289,
+        404516337,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -113,12 +130,14 @@
         "gn:id":4402608,
         "gp:id":2469036,
         "qs_pg:id":153595,
+        "uscensus:geoid":2956468,
         "wd:id":"Q953119",
         "wk:page":"Passaic, Missouri"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"f0354db24e9fefc67518146c2134463b",
     "wof:hierarchy":[
@@ -135,7 +154,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336267,
+    "wof:lastmodified":1613615747,
     "wof:name":"Passaic",
     "wof:parent_id":404516337,
     "wof:placetype":"locality",

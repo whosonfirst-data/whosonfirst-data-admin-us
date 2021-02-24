@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000105,
-    "geom:area_square_m":979491.453436,
+    "geom:area_square_m":979491.453437,
     "geom:bbox":"-99.397544,40.924032,-99.382668,40.931201",
     "geom:latitude":40.927611,
     "geom:longitude":-99.39012,
@@ -106,19 +106,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":980672,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3132130",
+    "uscensus:intptlat":"+40.9276109",
+    "uscensus:intptlon":"-099.3901197",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Miller",
+    "uscensus:namelsad":"Miller village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"32130",
+    "uscensus:placens":"02399355",
+    "uscensus:statefp":"31",
     "wd:wordcount":795,
     "wof:belongsto":[
-        85688563,
         102191575,
-        404518549,
         85633793,
-        102084305
+        102084305,
+        1729396025,
+        85688563
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -127,20 +144,22 @@
         "gn:id":5073165,
         "gp:id":2451301,
         "qs_pg:id":1051389,
+        "uscensus:geoid":3132130,
         "wd:id":"Q1990721",
         "wk:page":"Miller, Nebraska"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"dcd336e0d492ec79215d7aa350f7c53a",
+    "wof:geomhash":"c4853d13dfcc9633701a3eeda886546f",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
             "country_id":85633793,
             "county_id":102084305,
-            "localadmin_id":404518549,
+            "localadmin_id":1729396025,
             "locality_id":85973529,
             "region_id":85688563
         }
@@ -149,9 +168,9 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335969,
+    "wof:lastmodified":1613614660,
     "wof:name":"Miller",
-    "wof:parent_id":404518549,
+    "wof:parent_id":1729396025,
     "wof:placetype":"locality",
     "wof:population":136,
     "wof:population_rank":1,
@@ -166,5 +185,5 @@
     -99.382668,
     40.931201
 ],
-  "geometry": {"coordinates":[[[-99.397454,40.926534],[-99.39753899999999,40.928645],[-99.397544,40.930065],[-99.39754000000001,40.931131],[-99.396373,40.931136],[-99.396134,40.931132],[-99.395833,40.931141],[-99.39322199999999,40.931157],[-99.39269299999999,40.931161],[-99.391749,40.931177],[-99.38831399999999,40.931201],[-99.38396,40.931138],[-99.38279900000001,40.931122],[-99.382797,40.93103],[-99.382735,40.927209],[-99.382668,40.924065],[-99.38753800000001,40.924082],[-99.388119,40.924061],[-99.39588500000001,40.924032],[-99.39744,40.924096],[-99.397454,40.926534]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-99.39754000000001,40.931131],[-99.396373,40.931136],[-99.396134,40.931132],[-99.395833,40.931141],[-99.39322199999999,40.931157],[-99.39269299999999,40.931161],[-99.391749,40.931177],[-99.38831399999999,40.931201],[-99.38396,40.931138],[-99.38279900000001,40.931122],[-99.382797,40.93103],[-99.382735,40.927209],[-99.382668,40.924065],[-99.38753800000001,40.924082],[-99.388119,40.924061],[-99.39588500000001,40.924032],[-99.39744,40.924096],[-99.397454,40.926534],[-99.39753899999999,40.928645],[-99.397544,40.930065],[-99.39754000000001,40.931131]]],"type":"Polygon"}
 }

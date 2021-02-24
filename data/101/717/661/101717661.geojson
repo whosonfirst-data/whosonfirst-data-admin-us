@@ -19,7 +19,7 @@
     "mps:latitude":39.848103,
     "mps:longitude":-79.903358,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ceb_x_preferred":[
         "Masontown"
@@ -80,19 +80,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":3912259,
+    "uscensus:awater":83801,
+    "uscensus:classfp":"C5",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"4248000",
+    "uscensus:intptlat":"+39.8513136",
+    "uscensus:intptlon":"-079.9059296",
+    "uscensus:lsad":"21",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Masontown",
+    "uscensus:namelsad":"Masontown borough",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"48000",
+    "uscensus:placens":"01215232",
+    "uscensus:statefp":"42",
     "wd:wordcount":642,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404483215,
         85633793,
-        102080959
+        102080959,
+        404483215,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -101,12 +118,14 @@
         "gn:id":4559490,
         "gp:id":2446699,
         "qs_pg:id":1099758,
+        "uscensus:geoid":4248000,
         "wd:id":"Q1181880",
         "wk:page":"Masontown, Pennsylvania"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"562378059f35e051ffbd3354346015c4",
     "wof:hierarchy":[
@@ -123,7 +142,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582338219,
+    "wof:lastmodified":1613615059,
     "wof:name":"Masontown",
     "wof:parent_id":404483215,
     "wof:placetype":"locality",

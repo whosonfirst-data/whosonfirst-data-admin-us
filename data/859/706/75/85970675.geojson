@@ -21,7 +21,7 @@
     "mps:latitude":40.061615,
     "mps:longitude":-94.764497,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:azb_x_preferred":[
         "\u0631\u06cc"
@@ -103,22 +103,39 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":310369,
+    "uscensus:awater":1786,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"2960842",
+    "uscensus:intptlat":"+40.0609614",
+    "uscensus:intptlon":"-094.7644411",
+    "uscensus:lsad":"25",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Rea",
+    "uscensus:namelsad":"Rea city",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"60842",
+    "uscensus:placens":"02396330",
+    "uscensus:statefp":"29",
     "wd:elevation":328.0,
     "wd:latitude":40.0611,
     "wd:longitude":-94.7644,
     "wd:wordcount":671,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404518057,
         85633793,
-        102087503
+        102087503,
+        404518057,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -126,12 +143,14 @@
         "gn:id":5056993,
         "gp:id":2479069,
         "qs_pg:id":984528,
+        "uscensus:geoid":2960842,
         "wd:id":"Q508385",
         "wk:page":"Rea, Missouri"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"e2005fa6cf5574133094437e2bdffe61",
     "wof:hierarchy":[
@@ -145,7 +164,7 @@
         }
     ],
     "wof:id":85970675,
-    "wof:lastmodified":1582335472,
+    "wof:lastmodified":1613615697,
     "wof:name":"Rea",
     "wof:parent_id":404518057,
     "wof:placetype":"locality",

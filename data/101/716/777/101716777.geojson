@@ -17,7 +17,7 @@
     "mps:latitude":40.01721,
     "mps:longitude":-78.503086,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:cat_x_preferred":[
         "Bedford"
@@ -126,16 +126,34 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
-    "src:geom_alt":[],
+    "src:geom":"uscensus",
+    "src:geom_alt":[
+        "quattroshapes"
+    ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":2810340,
+    "uscensus:awater":72377,
+    "uscensus:classfp":"C5",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"4204944",
+    "uscensus:intptlat":"+40.0151148",
+    "uscensus:intptlon":"-078.5030174",
+    "uscensus:lsad":"21",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Bedford",
+    "uscensus:namelsad":"Bedford borough",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"04944",
+    "uscensus:placens":"01214895",
+    "uscensus:statefp":"42",
     "wd:wordcount":1701,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404484405,
         85633793,
-        102080939
+        102080939,
+        404484405,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -144,10 +162,14 @@
         "gn:id":5179630,
         "gp:id":12589732,
         "qs_pg:id":834773,
+        "uscensus:geoid":4204944,
         "wd:id":"Q1133571",
         "wk:page":"Bedford, Pennsylvania"
     },
     "wof:country":"US",
+    "wof:geom_alt":[
+        "quattroshapes"
+    ],
     "wof:geomhash":"f9cd47511ce67ede81e4d0611aae6a30",
     "wof:hierarchy":[
         {
@@ -163,7 +185,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1566626963,
+    "wof:lastmodified":1613615099,
     "wof:name":"Bedford",
     "wof:parent_id":404484405,
     "wof:placetype":"locality",

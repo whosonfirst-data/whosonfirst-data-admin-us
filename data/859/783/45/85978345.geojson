@@ -21,7 +21,7 @@
     "mps:latitude":42.513408,
     "mps:longitude":-73.608389,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u0646\u0627\u0633\u0627\u0648"
@@ -70,18 +70,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":1809749,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3649506",
+    "uscensus:intptlat":"+42.5139631",
+    "uscensus:intptlon":"-073.6107498",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Nassau",
+    "uscensus:namelsad":"Nassau village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"49506",
+    "uscensus:placens":"02391005",
+    "uscensus:statefp":"36",
     "wof:belongsto":[
-        85688543,
         102191575,
-        404523067,
         85633793,
-        102081773
+        102081773,
+        404523067,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -90,12 +107,14 @@
         "gn:id":5128313,
         "gp:id":2457217,
         "qs_pg:id":187590,
+        "uscensus:geoid":3649506,
         "wd:id":"Q11695104",
         "wk:page":"Nassau (town), New York"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"e27c7752afbd7b757d1e6128f679678d",
     "wof:hierarchy":[
@@ -112,7 +131,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335875,
+    "wof:lastmodified":1613616692,
     "wof:name":"Nassau",
     "wof:parent_id":404523067,
     "wof:placetype":"locality",

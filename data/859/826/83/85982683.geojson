@@ -15,11 +15,11 @@
     "gn:population":26,
     "iso:country":"US",
     "lbl:latitude":47.342451,
-    "lbl:longitude":-97.223002,
+    "lbl:longitude":-97.223001,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
     "mps:latitude":47.342451,
-    "mps:longitude":-97.223002,
+    "mps:longitude":-97.223001,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -85,19 +85,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":659913,
+    "uscensus:awater":0,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"3807620",
+    "uscensus:intptlat":"+47.3430844",
+    "uscensus:intptlon":"-097.2231241",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Blanchard",
+    "uscensus:namelsad":"Blanchard CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"07620",
+    "uscensus:placens":"02584337",
+    "uscensus:statefp":"38",
     "wd:wordcount":142,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404479653,
         85633793,
-        102081481
+        102081481,
+        404479653,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -106,12 +123,14 @@
         "gn:id":5058345,
         "gp:id":2365292,
         "qs_pg:id":10877,
+        "uscensus:geoid":3807620,
         "wd:id":"Q881383",
         "wk:page":"Blanchard, North Dakota"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"648cb7c58bf1d1a4a9a3c19cf1e9e7af",
     "wof:hierarchy":[
@@ -128,7 +147,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335653,
+    "wof:lastmodified":1613615129,
     "wof:name":"Blanchard",
     "wof:parent_id":404479653,
     "wof:placetype":"locality",

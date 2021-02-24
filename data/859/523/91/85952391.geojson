@@ -17,7 +17,7 @@
     "mps:latitude":43.032806,
     "mps:longitude":-83.163359,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:ara_x_preferred":[
         "\u0628\u0644\u062f\u0629 \u0623\u062a\u064a\u0643\u0627"
@@ -55,17 +55,34 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":12367981,
+    "uscensus:awater":499027,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"2604020",
+    "uscensus:intptlat":"+43.0243949",
+    "uscensus:intptlon":"-083.1609821",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Attica",
+    "uscensus:namelsad":"Attica CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"04020",
+    "uscensus:placens":"02628660",
+    "uscensus:statefp":"26",
     "wof:belongsto":[
-        85688599,
         102191575,
-        404508053,
         85633793,
-        102083637
+        102083637,
+        404508053,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -74,12 +91,14 @@
         "gn:id":4984510,
         "gp:id":2357170,
         "qs_pg:id":250659,
+        "uscensus:geoid":2604020,
         "wd:id":"Q1920333",
         "wk:page":"Attica Township, Michigan"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"bc05ac4d2f4243bb741fb89bbb3cabfb",
     "wof:hierarchy":[
@@ -96,7 +115,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336325,
+    "wof:lastmodified":1613615835,
     "wof:name":"Attica",
     "wof:parent_id":404508053,
     "wof:placetype":"locality",

@@ -19,7 +19,7 @@
     "mps:latitude":45.636693,
     "mps:longitude":-87.992704,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u0628\u064a\u0645\u0628\u064a\u0646"
@@ -74,19 +74,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":1548788,
+    "uscensus:awater":1799,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"5561750",
+    "uscensus:intptlat":"+45.6366760",
+    "uscensus:intptlon":"-087.9913056",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Pembine",
+    "uscensus:namelsad":"Pembine CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"61750",
+    "uscensus:placens":"02586540",
+    "uscensus:statefp":"55",
     "wd:wordcount":891,
     "wof:belongsto":[
-        85688517,
         102191575,
-        404493931,
         85633793,
-        102081785
+        102081785,
+        404493931,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -95,12 +112,14 @@
         "gn:id":5266493,
         "gp:id":2470080,
         "qs_pg:id":450371,
+        "uscensus:geoid":5561750,
         "wd:id":"Q3709078",
         "wk:page":"Pembine, Wisconsin"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"82ecb18a099a893efda0eacebd6352a3",
     "wof:hierarchy":[
@@ -117,7 +136,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582338128,
+    "wof:lastmodified":1613616317,
     "wof:name":"Pembine",
     "wof:parent_id":404493931,
     "wof:placetype":"locality",

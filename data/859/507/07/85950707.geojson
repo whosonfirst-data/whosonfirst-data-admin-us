@@ -21,7 +21,7 @@
     "mps:latitude":42.491399,
     "mps:longitude":-72.188258,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u0628\u064a\u062a\u0631\u0633\u0647\u0627\u0645"
@@ -112,19 +112,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":3195125,
+    "uscensus:awater":0,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"2553085",
+    "uscensus:intptlat":"+42.4910422",
+    "uscensus:intptlon":"-072.1872489",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Petersham",
+    "uscensus:namelsad":"Petersham CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"53085",
+    "uscensus:placens":"02630529",
+    "uscensus:statefp":"25",
     "wd:wordcount":1693,
     "wof:belongsto":[
-        85688645,
         102191575,
-        404476681,
         85633793,
-        102084655
+        102084655,
+        404476681,
+        85688645
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -133,12 +150,14 @@
         "gn:id":4947085,
         "gp:id":2470968,
         "qs_pg:id":933662,
+        "uscensus:geoid":2553085,
         "wd:id":"Q2426756",
         "wk:page":"Petersham, Massachusetts"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"66e2358fb031c722d629ed9616fccf80",
     "wof:hierarchy":[
@@ -155,7 +174,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335968,
+    "wof:lastmodified":1613614952,
     "wof:name":"Petersham",
     "wof:parent_id":404476681,
     "wof:placetype":"locality",

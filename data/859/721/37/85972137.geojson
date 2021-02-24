@@ -11,11 +11,11 @@
     "geom:longitude":-93.359417,
     "iso:country":"US",
     "lbl:latitude":38.899253,
-    "lbl:longitude":-93.359509,
+    "lbl:longitude":-93.359508,
     "lbl:max_zoom":17.0,
     "lbl:min_zoom":12.5,
     "mps:latitude":38.899253,
-    "mps:longitude":-93.359509,
+    "mps:longitude":-93.359508,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -99,23 +99,40 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"wk",
+    "uscensus:aland":512175,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"2933256",
+    "uscensus:intptlat":"+38.8993568",
+    "uscensus:intptlon":"-093.3594174",
+    "uscensus:lsad":"25",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Houstonia",
+    "uscensus:namelsad":"Houstonia city",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"33256",
+    "uscensus:placens":"02394428",
+    "uscensus:statefp":"29",
     "wd:elevation":231.0,
     "wd:latitude":38.8986,
     "wd:longitude":-93.3589,
     "wd:population":220,
     "wd:wordcount":774,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404517421,
         85633793,
-        102087467
+        102087467,
+        404517421,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -124,12 +141,14 @@
         "gn:id":4391365,
         "gp:id":2424904,
         "qs_pg:id":293594,
+        "uscensus:geoid":2933256,
         "wd:id":"Q952785",
         "wk:page":"Houstonia, Missouri"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"e85f05039da0adfabee23454b5ee0af9",
     "wof:hierarchy":[
@@ -146,7 +165,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336271,
+    "wof:lastmodified":1613615474,
     "wof:name":"Houstonia",
     "wof:parent_id":404517421,
     "wof:placetype":"locality",

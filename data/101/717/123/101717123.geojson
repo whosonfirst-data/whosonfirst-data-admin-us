@@ -12,14 +12,14 @@
     "gn:elevation":243,
     "gn:population":399,
     "iso:country":"US",
-    "lbl:latitude":40.154114,
+    "lbl:latitude":40.154113,
     "lbl:longitude":-79.742255,
     "lbl:max_zoom":17.0,
     "lbl:min_zoom":12.5,
-    "mps:latitude":40.154114,
+    "mps:latitude":40.154113,
     "mps:longitude":-79.742255,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:cat_x_preferred":[
         "Smithton"
@@ -89,19 +89,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":264667,
+    "uscensus:awater":39500,
+    "uscensus:classfp":"C5",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"4271424",
+    "uscensus:intptlat":"+40.1538078",
+    "uscensus:intptlon":"-079.7416674",
+    "uscensus:lsad":"21",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Smithton",
+    "uscensus:namelsad":"Smithton borough",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"71424",
+    "uscensus:placens":"01215722",
+    "uscensus:statefp":"42",
     "wd:wordcount":585,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404484119,
         85633793,
-        102081383
+        102081383,
+        404484119,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -110,12 +127,14 @@
         "gn:id":5212680,
         "gp:id":2495071,
         "qs_pg:id":1078042,
+        "uscensus:geoid":4271424,
         "wd:id":"Q1180625",
         "wk:page":"Smithton, Pennsylvania"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"2d2ceacc3b7665b063a901912e14ae2c",
     "wof:hierarchy":[
@@ -132,7 +151,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582338228,
+    "wof:lastmodified":1613615089,
     "wof:name":"Smithton",
     "wof:parent_id":404484119,
     "wof:placetype":"locality",

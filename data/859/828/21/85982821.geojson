@@ -15,11 +15,11 @@
     "gn:population":254,
     "iso:country":"US",
     "lbl:latitude":39.343959,
-    "lbl:longitude":-83.598908,
+    "lbl:longitude":-83.598909,
     "lbl:max_zoom":17.0,
     "lbl:min_zoom":12.5,
     "mps:latitude":39.343959,
-    "mps:longitude":-83.598908,
+    "mps:longitude":-83.598909,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -100,19 +100,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":440060,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3935210",
+    "uscensus:intptlat":"+39.3439458",
+    "uscensus:intptlon":"-083.6000788",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Highland",
+    "uscensus:namelsad":"Highland village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"35210",
+    "uscensus:placens":"02398503",
+    "uscensus:statefp":"39",
     "wd:wordcount":797,
     "wof:belongsto":[
-        85688485,
         102191575,
-        404525483,
         85633793,
-        102084797
+        102084797,
+        404525483,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -121,14 +138,16 @@
         "gn:id":4514194,
         "gp:id":2421385,
         "qs_pg:id":1145742,
+        "uscensus:geoid":3935210,
         "wd:id":"Q981295",
         "wk:page":"Highland, Ohio"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"625107dd79e39282aa091d86565df24f",
+    "wof:geomhash":"b41ca45e942769348d5be9d9ea0d8b2b",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -143,7 +162,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335630,
+    "wof:lastmodified":1613616545,
     "wof:name":"Highland",
     "wof:parent_id":404525483,
     "wof:placetype":"locality",
@@ -160,5 +179,5 @@
     -83.595118,
     39.347115
 ],
-  "geometry": {"coordinates":[[[-83.60536399999999,39.344899],[-83.605507,39.345437],[-83.603587,39.345891],[-83.59893099999999,39.346819],[-83.59662,39.347115],[-83.596155,39.345354],[-83.596007,39.344795],[-83.595118,39.341113],[-83.595291,39.341078],[-83.597033,39.341099],[-83.599345,39.341095],[-83.599689,39.341243],[-83.60187999999999,39.342176],[-83.60454900000001,39.342145],[-83.60580299999999,39.343298],[-83.605799,39.343437],[-83.60536399999999,39.344899]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-83.605799,39.343437],[-83.60536399999999,39.344899],[-83.605507,39.345437],[-83.603587,39.345891],[-83.59893099999999,39.346819],[-83.59662,39.347115],[-83.596155,39.345354],[-83.596007,39.344795],[-83.595118,39.341113],[-83.595291,39.341078],[-83.597033,39.341099],[-83.599345,39.341095],[-83.599689,39.341243],[-83.60187999999999,39.342176],[-83.60454900000001,39.342145],[-83.60580299999999,39.343298],[-83.605799,39.343437]]],"type":"Polygon"}
 }

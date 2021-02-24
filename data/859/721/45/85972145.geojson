@@ -11,11 +11,11 @@
     "geom:longitude":-93.092984,
     "iso:country":"US",
     "lbl:latitude":38.68121,
-    "lbl:longitude":-93.092984,
+    "lbl:longitude":-93.092985,
     "lbl:max_zoom":17.0,
     "lbl:min_zoom":12.5,
     "mps:latitude":38.68121,
-    "mps:longitude":-93.092984,
+    "mps:longitude":-93.092985,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -99,23 +99,40 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"wk",
+    "uscensus:aland":779190,
+    "uscensus:awater":874,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"2968384",
+    "uscensus:intptlat":"+38.6807279",
+    "uscensus:intptlon":"-093.0923996",
+    "uscensus:lsad":"25",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Smithton",
+    "uscensus:namelsad":"Smithton city",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"68384",
+    "uscensus:placens":"02395902",
+    "uscensus:statefp":"29",
     "wd:elevation":266.0,
     "wd:latitude":38.6806,
     "wd:longitude":-93.0925,
     "wd:population":570,
     "wd:wordcount":825,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404517435,
         85633793,
-        102087467
+        102087467,
+        404517435,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -124,12 +141,14 @@
         "gn:id":4409195,
         "gp:id":2495070,
         "qs_pg:id":1244486,
+        "uscensus:geoid":2968384,
         "wd:id":"Q958514",
         "wk:page":"Smithton, Missouri"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"d2c73725c85f54305f8749af3903c6ff",
     "wof:hierarchy":[
@@ -146,7 +165,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336271,
+    "wof:lastmodified":1613615486,
     "wof:name":"Smithton",
     "wof:parent_id":404517435,
     "wof:placetype":"locality",

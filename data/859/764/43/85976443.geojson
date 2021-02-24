@@ -21,7 +21,7 @@
     "mps:latitude":40.907611,
     "mps:longitude":-74.966846,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Hoop"
@@ -233,19 +233,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":1591543,
+    "uscensus:awater":1549,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"3433030",
+    "uscensus:intptlat":"+40.9120857",
+    "uscensus:intptlon":"-074.9588954",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Hope",
+    "uscensus:namelsad":"Hope CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"33030",
+    "uscensus:placens":"02584002",
+    "uscensus:statefp":"34",
     "wd:wordcount":3917,
     "wof:belongsto":[
-        85688607,
         102191575,
-        404477597,
         85633793,
-        102083873
+        102083873,
+        404477597,
+        85688607
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -254,11 +271,13 @@
         "gn:id":5099296,
         "gp:id":2424178,
         "qs_pg:id":1270835,
+        "uscensus:geoid":3433030,
         "wd:id":"Q190507"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"ea1ae346336e2f87bcc81be8a788b5d4",
     "wof:hierarchy":[
@@ -275,7 +294,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335441,
+    "wof:lastmodified":1613615019,
     "wof:name":"Hope",
     "wof:parent_id":404477597,
     "wof:placetype":"locality",

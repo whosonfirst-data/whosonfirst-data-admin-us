@@ -19,7 +19,7 @@
     "mps:latitude":40.504968,
     "mps:longitude":-77.667591,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:azb_x_preferred":[
         "\u0644\u0627\u0646\u0642\u0641\u0644\u0648"
@@ -65,19 +65,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":1668457,
+    "uscensus:awater":705,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"4244528",
+    "uscensus:intptlat":"+40.5066415",
+    "uscensus:intptlon":"-077.6656486",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Longfellow",
+    "uscensus:namelsad":"Longfellow CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"44528",
+    "uscensus:placens":"02584481",
+    "uscensus:statefp":"42",
     "wd:wordcount":66,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404488111,
         85633793,
-        102081333
+        102081333,
+        404488111,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -86,12 +103,14 @@
         "gn:id":5198918,
         "gp:id":2441663,
         "qs_pg:id":951329,
+        "uscensus:geoid":4244528,
         "wd:id":"Q6673778",
         "wk:page":"Longfellow, Pennsylvania"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"82800036463d2642a8c1a8dea3e0fa2a",
     "wof:hierarchy":[
@@ -108,7 +127,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582338180,
+    "wof:lastmodified":1613616070,
     "wof:name":"Longfellow",
     "wof:parent_id":404488111,
     "wof:placetype":"locality",

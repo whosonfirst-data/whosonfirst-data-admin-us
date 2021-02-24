@@ -13,11 +13,11 @@
     "gn:population":120,
     "iso:country":"US",
     "lbl:latitude":43.237538,
-    "lbl:longitude":-99.517649,
+    "lbl:longitude":-99.51765,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
     "mps:latitude":43.237538,
-    "mps:longitude":-99.517649,
+    "mps:longitude":-99.51765,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -296,19 +296,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":1311957,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C5",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"4615300",
+    "uscensus:intptlat":"+43.2378339",
+    "uscensus:intptlon":"-099.5175113",
+    "uscensus:lsad":"43",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Dallas",
+    "uscensus:namelsad":"Dallas town",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"15300",
+    "uscensus:placens":"01267346",
+    "uscensus:statefp":"46",
     "wd:wordcount":857,
     "wof:belongsto":[
-        85688693,
         102191575,
-        404490567,
         85633793,
-        102086069
+        102086069,
+        404490567,
+        85688693
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -317,12 +334,14 @@
         "gn:id":5227190,
         "gp:id":2388925,
         "qs_pg:id":158133,
+        "uscensus:geoid":4615300,
         "wd:id":"Q2300556",
         "wk:page":"Dallas, South Dakota"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"218e06916e181db9479237e4b2a866d7",
     "wof:hierarchy":[
@@ -339,7 +358,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582338201,
+    "wof:lastmodified":1613615194,
     "wof:name":"Dallas",
     "wof:parent_id":404490567,
     "wof:placetype":"locality",

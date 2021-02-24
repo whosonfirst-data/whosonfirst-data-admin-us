@@ -4,18 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.000008,
-    "geom:area_square_m":73905.262518,
-    "geom:bbox":"-88.067755,43.192117,-88.063353,43.19496",
-    "geom:latitude":43.193761,
-    "geom:longitude":-88.064945,
+    "geom:area":0.000006,
+    "geom:area_square_m":56106.835671,
+    "geom:bbox":"-88.067129,43.192116,-88.063353,43.194772",
+    "geom:latitude":43.193703,
+    "geom:longitude":-88.064679,
     "iso:country":"US",
-    "lbl:latitude":43.193781,
-    "lbl:longitude":-88.064767,
+    "lbl:latitude":43.193733,
+    "lbl:longitude":-88.064454,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.5,
+    "mps:latitude":43.193733,
+    "mps:longitude":-88.064454,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:afr_x_preferred":[
         "Milwaukee"
@@ -335,17 +337,31 @@
     "qs:level":"localadmin",
     "qs:source":"US Census",
     "qs:type":"city",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
+    "src:geom_alt":[
+        "quattroshapes"
+    ],
+    "src:lbl_centroid":"mapshaper",
+    "uscensus:countyfp":131,
+    "uscensus:geoid":5513153000,
+    "uscensus:name":"Milwaukee",
+    "uscensus:namelsad":"Milwaukee city",
+    "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081745
+        102081745,
+        85688517
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "uscensus:geoid":5513153000
+    },
     "wof:country":"US",
-    "wof:geomhash":"f4bc6e61e9e559460464ec4c65df8cea",
+    "wof:geom_alt":[
+        "quattroshapes"
+    ],
+    "wof:geomhash":"1a0d7f12f65f70f9af32ff6b876cebe1",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -356,7 +372,7 @@
         }
     ],
     "wof:id":404492493,
-    "wof:lastmodified":1566633633,
+    "wof:lastmodified":1605056008,
     "wof:name":"Milwaukee",
     "wof:parent_id":102081745,
     "wof:placetype":"localadmin",
@@ -366,10 +382,10 @@
     "wof:tags":[]
 },
   "bbox": [
-    -88.067755,
-    43.192117,
+    -88.067129,
+    43.192116,
     -88.063353,
-    43.19496
+    43.194772
 ],
-  "geometry": {"coordinates":[[[-88.06478799999999,43.19212],[-88.06775500000001,43.194895],[-88.06338599999999,43.19496],[-88.06335300000001,43.192117],[-88.06478799999999,43.19212]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-88.063383,43.194766],[-88.06337600000001,43.194391],[-88.063357,43.193326],[-88.063354,43.192685],[-88.06335300000001,43.192117],[-88.06358899999999,43.192116],[-88.06429300000001,43.192118],[-88.06712899999999,43.19475],[-88.06647599999999,43.194754],[-88.063507,43.194772],[-88.063383,43.194766]]],"type":"Polygon"}
 }

@@ -15,11 +15,11 @@
     "gn:population":2,
     "iso:country":"US",
     "lbl:latitude":42.946073,
-    "lbl:longitude":-98.569734,
+    "lbl:longitude":-98.569735,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
     "mps:latitude":42.946073,
-    "mps:longitude":-98.569734,
+    "mps:longitude":-98.569735,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -101,19 +101,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":331388,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3120295",
+    "uscensus:intptlat":"+42.9460804",
+    "uscensus:intptlon":"-098.5697347",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Gross",
+    "uscensus:namelsad":"Gross village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"20295",
+    "uscensus:placens":"02398211",
+    "uscensus:statefp":"31",
     "wd:wordcount":638,
     "wof:belongsto":[
-        85688563,
         102191575,
-        404518543,
         85633793,
-        102082225
+        102082225,
+        404518543,
+        85688563
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -122,14 +139,16 @@
         "gn:id":5069502,
         "gp:id":2415195,
         "qs_pg:id":156538,
+        "uscensus:geoid":3120295,
         "wd:id":"Q2462991",
         "wk:page":"Gross, Nebraska"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"c9e19d7aa32869c681df8d6acd509cdd",
+    "wof:geomhash":"becf9f7c739e211319ef19544d022b81",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -144,7 +163,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335888,
+    "wof:lastmodified":1613615679,
     "wof:name":"Gross",
     "wof:parent_id":404518543,
     "wof:placetype":"locality",
@@ -161,5 +180,5 @@
     -98.564726,
     42.947942
 ],
-  "geometry": {"coordinates":[[[-98.574648,42.947869],[-98.57464899999999,42.947942],[-98.564727,42.947927],[-98.56472599999999,42.947866],[-98.564744,42.947005],[-98.564791,42.946549],[-98.564774,42.9463],[-98.564801,42.946112],[-98.564858,42.945951],[-98.565022,42.94579],[-98.565153,42.945715],[-98.565049,42.94569],[-98.56495200000001,42.945618],[-98.564875,42.945525],[-98.56482699999999,42.945389],[-98.564865,42.944235],[-98.565984,42.944214],[-98.567278,42.944219],[-98.5699,42.944211],[-98.57223500000001,42.944212],[-98.573989,42.944208],[-98.57463300000001,42.94421],[-98.574648,42.947869]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-98.57464899999999,42.947942],[-98.564727,42.947927],[-98.56472599999999,42.947866],[-98.564744,42.947005],[-98.564791,42.946549],[-98.564774,42.9463],[-98.564801,42.946112],[-98.564858,42.945951],[-98.565022,42.94579],[-98.565153,42.945715],[-98.565049,42.94569],[-98.56495200000001,42.945618],[-98.564875,42.945525],[-98.56482699999999,42.945389],[-98.564865,42.944235],[-98.565984,42.944214],[-98.567278,42.944219],[-98.5699,42.944211],[-98.57223500000001,42.944212],[-98.573989,42.944208],[-98.57463300000001,42.94421],[-98.574648,42.947869],[-98.57464899999999,42.947942]]],"type":"Polygon"}
 }

@@ -4,18 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.00007,
-    "geom:area_square_m":578630.729662,
-    "geom:bbox":"-99.579305,48.309867,-99.567826,48.316319",
-    "geom:latitude":48.313213,
-    "geom:longitude":-99.573407,
+    "geom:area":0.000066,
+    "geom:area_square_m":539196.449771,
+    "geom:bbox":"-99.578687,48.310197,-99.567834,48.316286",
+    "geom:latitude":48.313243,
+    "geom:longitude":-99.573257,
     "iso:country":"US",
-    "lbl:latitude":48.313113,
-    "lbl:longitude":-99.57333,
+    "lbl:latitude":48.313242,
+    "lbl:longitude":-99.573257,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
-    "mz:hierarchy_label":0,
-    "mz:is_current":-1,
+    "mps:latitude":48.313242,
+    "mps:longitude":-99.573257,
+    "mz:hierarchy_label":1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "York"
@@ -291,18 +293,32 @@
     "qs:pop":23,
     "qs:source":"US Census",
     "qs:type":"city",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
+    "src:geom_alt":[
+        "quattroshapes"
+    ],
+    "src:lbl_centroid":"mapshaper",
     "src:population":"quattroshapes",
+    "uscensus:countyfp":5,
+    "uscensus:geoid":3800587860,
+    "uscensus:name":"York",
+    "uscensus:namelsad":"York city",
+    "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688525,
-        102082071
+        102082071,
+        85688525
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "uscensus:geoid":3800587860
+    },
     "wof:country":"US",
-    "wof:geomhash":"eda266f573f8117d7fb907c56de4e7e3",
+    "wof:geom_alt":[
+        "quattroshapes"
+    ],
+    "wof:geomhash":"6f011f5e61431a9059359af435d2face",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -313,7 +329,7 @@
         }
     ],
     "wof:id":404478709,
-    "wof:lastmodified":1566631320,
+    "wof:lastmodified":1605055333,
     "wof:name":"York",
     "wof:parent_id":102082071,
     "wof:placetype":"localadmin",
@@ -325,10 +341,10 @@
     "wof:tags":[]
 },
   "bbox": [
-    -99.579305,
-    48.309867,
-    -99.567826,
-    48.316319
+    -99.578687,
+    48.310197,
+    -99.567834,
+    48.316286
 ],
-  "geometry": {"coordinates":[[[-99.57930500000001,48.310857],[-99.579222,48.316319],[-99.56787300000001,48.316298],[-99.567826,48.309867],[-99.57343899999999,48.309919],[-99.57930500000001,48.310857]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-99.578687,48.316286],[-99.57338,48.316274],[-99.56787300000001,48.31626],[-99.56786099999999,48.314981],[-99.56784399999999,48.313412],[-99.567842,48.312742],[-99.567842,48.312505],[-99.567841,48.31228],[-99.567841,48.312209],[-99.567841,48.312172],[-99.56783900000001,48.310724],[-99.56783799999999,48.310329],[-99.567834,48.310197],[-99.573412,48.310211],[-99.57842599999999,48.310227],[-99.57863999999999,48.310226],[-99.57864499999999,48.310771],[-99.578672,48.313822],[-99.578675,48.314339],[-99.578687,48.316286]]],"type":"Polygon"}
 }

@@ -19,7 +19,7 @@
     "mps:latitude":40.548628,
     "mps:longitude":-77.674732,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:azb_x_preferred":[
         "\u0627\u0633\u062a\u0631\u0648\u0631\u0632 \u0645\u06cc\u0644\u0632"
@@ -71,19 +71,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":4909387,
+    "uscensus:awater":596,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"4274848",
+    "uscensus:intptlat":"+40.5444193",
+    "uscensus:intptlon":"-077.6774738",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Strodes Mills",
+    "uscensus:namelsad":"Strodes Mills CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"74848",
+    "uscensus:placens":"02584516",
+    "uscensus:statefp":"42",
     "wd:wordcount":81,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404488181,
         85633793,
-        102081333
+        102081333,
+        404488181,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -92,12 +109,14 @@
         "gn:id":5214526,
         "gp:id":2500978,
         "qs_pg:id":1146791,
+        "uscensus:geoid":4274848,
         "wd:id":"Q7624236",
         "wk:page":"Strodes Mills, Pennsylvania"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"fc70704322ec22bf75fb009e8e0615ba",
     "wof:hierarchy":[
@@ -114,7 +133,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582338186,
+    "wof:lastmodified":1613616071,
     "wof:name":"Strodes Mills",
     "wof:parent_id":404488181,
     "wof:placetype":"locality",

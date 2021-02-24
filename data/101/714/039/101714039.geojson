@@ -17,7 +17,7 @@
     "mps:latitude":40.926913,
     "mps:longitude":-81.401669,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:azb_x_preferred":[
         "\u0642\u0631\u06cc\u0646\u062a\u0627\u0648\u0646"
@@ -90,18 +90,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":7098128,
+    "uscensus:awater":0,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"3932298",
+    "uscensus:intptlat":"+40.9273808",
+    "uscensus:intptlon":"-081.4020458",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Greentown",
+    "uscensus:namelsad":"Greentown CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"32298",
+    "uscensus:placens":"02393030",
+    "uscensus:statefp":"39",
     "wd:wordcount":577,
     "wof:belongsto":[
-        85688485,
         102191575,
-        404525793,
         85633793,
-        102083731
+        102083731,
+        404525793,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -110,12 +127,14 @@
         "gn:id":5156485,
         "gp:id":2414520,
         "qs_pg:id":1051801,
+        "uscensus:geoid":3932298,
         "wd:id":"Q2503361",
         "wk:page":"Greentown, Ohio"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"bebb2d2f4089e990dad0a4bad1a0cc78",
     "wof:hierarchy":[
@@ -132,7 +151,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582338007,
+    "wof:lastmodified":1613616561,
     "wof:name":"Greentown",
     "wof:parent_id":404525793,
     "wof:placetype":"locality",

@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000024,
-    "geom:area_square_m":224981.508354,
+    "geom:area_square_m":224971.460758,
     "geom:bbox":"-96.438334,41.092346,-96.429987,41.09641",
     "geom:latitude":41.094564,
     "geom:longitude":-96.433137,
@@ -15,11 +15,11 @@
     "gn:population":114,
     "iso:country":"US",
     "lbl:latitude":41.094388,
-    "lbl:longitude":-96.433056,
+    "lbl:longitude":-96.433057,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
     "mps:latitude":41.094388,
-    "mps:longitude":-96.433056,
+    "mps:longitude":-96.433057,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -112,19 +112,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":225252,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3131640",
+    "uscensus:intptlat":"+41.0945639",
+    "uscensus:intptlon":"-096.4331366",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Memphis",
+    "uscensus:namelsad":"Memphis village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"31640",
+    "uscensus:placens":"02399311",
+    "uscensus:statefp":"31",
     "wd:wordcount":797,
     "wof:belongsto":[
-        85688563,
         102191575,
-        404520955,
         85633793,
-        102082199
+        102082199,
+        404520955,
+        85688563
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -133,14 +150,16 @@
         "gn:id":5072924,
         "gp:id":2449324,
         "qs_pg:id":29720,
+        "uscensus:geoid":3131640,
         "wd:id":"Q3289795",
         "wk:page":"Memphis, Nebraska"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"aabb0ebce596eedf663738742eae3088",
+    "wof:geomhash":"c98fead7493e4019e0f9e6f6cf17067d",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -155,7 +174,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336313,
+    "wof:lastmodified":1613615710,
     "wof:name":"Memphis",
     "wof:parent_id":404520955,
     "wof:placetype":"locality",
@@ -172,5 +191,5 @@
     -96.429987,
     41.09641
 ],
-  "geometry": {"coordinates":[[[-96.438334,41.095995],[-96.437932,41.095986],[-96.43664,41.095956],[-96.43526900000001,41.095938],[-96.43527,41.09641],[-96.429987,41.096394],[-96.42999500000001,41.095947],[-96.429996,41.095217],[-96.43004000000001,41.092346],[-96.43376600000001,41.092378],[-96.435253,41.093504],[-96.436322,41.094346],[-96.43683,41.094746],[-96.43773400000001,41.095458],[-96.438334,41.095995]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-96.438334,41.095995],[-96.437932,41.095986],[-96.43664,41.095956],[-96.43526900000001,41.095938],[-96.43526900000001,41.096152],[-96.43527,41.09641],[-96.429987,41.096394],[-96.42999500000001,41.095947],[-96.429996,41.095217],[-96.43004000000001,41.092346],[-96.430449,41.09235],[-96.43376600000001,41.092378],[-96.435253,41.093504],[-96.436322,41.094346],[-96.43683,41.094746],[-96.43773400000001,41.095458],[-96.437928,41.095632],[-96.43821699999999,41.09589],[-96.438232,41.095904],[-96.438334,41.095995]]],"type":"Polygon"}
 }

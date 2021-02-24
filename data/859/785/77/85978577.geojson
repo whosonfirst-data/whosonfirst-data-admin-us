@@ -21,7 +21,7 @@
     "mps:latitude":42.534802,
     "mps:longitude":-78.432748,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ceb_x_preferred":[
         "Arcade"
@@ -79,19 +79,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":6861862,
+    "uscensus:awater":8312,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3602407",
+    "uscensus:intptlat":"+42.5305944",
+    "uscensus:intptlon":"-078.4418086",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Arcade",
+    "uscensus:namelsad":"Arcade village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"02407",
+    "uscensus:placens":"02391519",
+    "uscensus:statefp":"36",
     "wd:wordcount":787,
     "wof:belongsto":[
-        85688543,
         102191575,
-        404523399,
         85633793,
-        102082389
+        102082389,
+        404523399,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -100,12 +117,14 @@
         "gn:id":5107290,
         "gp:id":2355505,
         "qs_pg:id":1283817,
+        "uscensus:geoid":3602407,
         "wd:id":"Q4785058",
         "wk:page":"Arcade, New York"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"66d56cbd7ec0d62bd5184a38e4dfe726",
     "wof:hierarchy":[
@@ -122,7 +141,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335820,
+    "wof:lastmodified":1613616651,
     "wof:name":"Arcade",
     "wof:parent_id":404523399,
     "wof:placetype":"locality",

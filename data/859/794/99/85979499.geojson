@@ -21,7 +21,7 @@
     "mps:latitude":42.876238,
     "mps:longitude":-78.018851,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u0628\u0627\u0641\u064a\u0648\u0644\u064a\u0648\u0646"
@@ -82,18 +82,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":8578450,
+    "uscensus:awater":0,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"3656781",
+    "uscensus:intptlat":"+42.8793991",
+    "uscensus:intptlon":"-078.0220393",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Pavilion",
+    "uscensus:namelsad":"Pavilion CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"56781",
+    "uscensus:placens":"02628177",
+    "uscensus:statefp":"36",
     "wof:belongsto":[
-        85688543,
         102191575,
-        404522467,
         85633793,
-        102083105
+        102083105,
+        404522467,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -102,12 +119,14 @@
         "gn:id":5130716,
         "gp:id":2469360,
         "qs_pg:id":157107,
+        "uscensus:geoid":3656781,
         "wd:id":"Q3708933",
         "wk:page":"Pavilion, New York"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"f8b288f6854b3879043ecbb2ba258d91",
     "wof:hierarchy":[
@@ -124,7 +143,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335938,
+    "wof:lastmodified":1613616627,
     "wof:name":"Pavilion",
     "wof:parent_id":404522467,
     "wof:placetype":"locality",

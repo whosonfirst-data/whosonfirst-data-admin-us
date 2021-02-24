@@ -21,7 +21,7 @@
     "mps:latitude":42.329243,
     "mps:longitude":-75.769634,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u063a\u0631\u064a\u0646\u064a"
@@ -88,19 +88,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":2765341,
+    "uscensus:awater":97388,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3630411",
+    "uscensus:intptlat":"+42.3300683",
+    "uscensus:intptlon":"-075.7676855",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Greene",
+    "uscensus:namelsad":"Greene village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"30411",
+    "uscensus:placens":"02390870",
+    "uscensus:statefp":"36",
     "wd:wordcount":948,
     "wof:belongsto":[
-        85688543,
         102191575,
-        404522133,
         85633793,
-        102082367
+        102082367,
+        404522133,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -109,12 +126,14 @@
         "gn:id":5119353,
         "gp:id":2414244,
         "qs_pg:id":1097492,
+        "uscensus:geoid":3630411,
         "wd:id":"Q5603833",
         "wk:page":"Greene, New York"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"16ecbcb027ed47f6eea2bbb2deb87af4",
     "wof:hierarchy":[
@@ -131,7 +150,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335830,
+    "wof:lastmodified":1613616588,
     "wof:name":"Greene",
     "wof:parent_id":404522133,
     "wof:placetype":"locality",

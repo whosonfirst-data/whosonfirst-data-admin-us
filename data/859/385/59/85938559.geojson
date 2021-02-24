@@ -4,22 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.00005,
-    "geom:area_square_m":461612.773237,
-    "geom:bbox":"-89.722727,41.506658,-89.715086,41.514858",
-    "geom:latitude":41.51119,
-    "geom:longitude":-89.718402,
+    "geom:area":0.000048,
+    "geom:area_square_m":445242.625817,
+    "geom:bbox":"-89.722391,41.506658,-89.715086,41.514895",
+    "geom:latitude":41.511165,
+    "geom:longitude":-89.718206,
     "gn:elevation":196,
     "gn:latitude":41.51281,
     "gn:longitude":-89.72066,
     "gn:population":75,
     "iso:country":"US",
-    "lbl:latitude":41.511841,
-    "lbl:longitude":-89.717711,
+    "lbl:latitude":41.511194,
+    "lbl:longitude":-89.717771,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
-    "mps:latitude":41.511841,
-    "mps:longitude":-89.717711,
+    "mps:latitude":41.511194,
+    "mps:longitude":-89.717771,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -97,19 +97,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":445840,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"1752155",
+    "uscensus:intptlat":"+41.5111650",
+    "uscensus:intptlon":"-089.7182055",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"New Bedford",
+    "uscensus:namelsad":"New Bedford village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"52155",
+    "uscensus:placens":"02399455",
+    "uscensus:statefp":"17",
     "wd:wordcount":716,
     "wof:belongsto":[
-        85688697,
         102191575,
-        404497387,
         85633793,
-        102082267
+        102082267,
+        404497387,
+        85688697
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -118,14 +135,16 @@
         "gn:id":4903444,
         "gp:id":2458023,
         "qs_pg:id":930320,
+        "uscensus:geoid":1752155,
         "wd:id":"Q2672071",
         "wk:page":"New Bedford, Illinois"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"dff6893a9f3f5417bf67d680ee7cb414",
+    "wof:geomhash":"4775d19dd44df80b26ce00e77c682a6c",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -140,7 +159,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335830,
+    "wof:lastmodified":1613615189,
     "wof:name":"New Bedford",
     "wof:parent_id":404497387,
     "wof:placetype":"locality",
@@ -152,10 +171,10 @@
     "wof:tags":[]
 },
   "bbox": [
-    -89.722727,
+    -89.722391,
     41.506658,
     -89.715086,
-    41.514858
+    41.514895
 ],
-  "geometry": {"coordinates":[[[-89.722078,41.51484],[-89.72175799999999,41.514849],[-89.721585,41.514858],[-89.72045199999999,41.514858],[-89.720264,41.514852],[-89.72009,41.514842],[-89.715592,41.514764],[-89.715234,41.51477],[-89.715227,41.514667],[-89.71521199999999,41.51455],[-89.71518500000001,41.514345],[-89.71518,41.514274],[-89.715171,41.513653],[-89.715187,41.512907],[-89.715219,41.511048],[-89.715086,41.506743],[-89.720051,41.506658],[-89.72002500000001,41.509701],[-89.720015,41.510933],[-89.721395,41.510951],[-89.72272700000001,41.510972],[-89.72271499999999,41.514843],[-89.722078,41.51484]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-89.722391,41.514845],[-89.72175799999999,41.514849],[-89.72009,41.514869],[-89.718626,41.514893],[-89.718143,41.51485],[-89.715446,41.514895],[-89.71523000000001,41.514894],[-89.71521199999999,41.51455],[-89.71518500000001,41.514345],[-89.71518,41.514274],[-89.715171,41.513653],[-89.715187,41.512907],[-89.71517900000001,41.511048],[-89.71510499999999,41.507613],[-89.715086,41.506743],[-89.720051,41.506658],[-89.72002500000001,41.509701],[-89.72001299999999,41.511141],[-89.72073,41.511154],[-89.72204000000001,41.511147],[-89.72205099999999,41.512601],[-89.72238,41.512602],[-89.722381,41.512747],[-89.722387,41.513967],[-89.722391,41.514766],[-89.722391,41.514845]]],"type":"Polygon"}
 }

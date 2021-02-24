@@ -19,7 +19,7 @@
     "mps:latitude":43.927066,
     "mps:longitude":-72.673147,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u0631\u0627\u0646\u062f\u0648\u0644\u0641"
@@ -107,19 +107,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":11034268,
+    "uscensus:awater":96186,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"5058000",
+    "uscensus:intptlat":"+43.9302153",
+    "uscensus:intptlon":"-072.6798925",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Randolph",
+    "uscensus:namelsad":"Randolph CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"58000",
+    "uscensus:placens":"02586650",
+    "uscensus:statefp":"50",
     "wd:wordcount":1268,
     "wof:belongsto":[
-        85688763,
         102191575,
-        404527177,
         85633793,
-        102087431
+        102087431,
+        404527177,
+        85688763
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -128,12 +145,14 @@
         "gn:id":5240140,
         "gp:id":2478621,
         "qs_pg:id":187992,
+        "uscensus:geoid":5058000,
         "wd:id":"Q1441076",
         "wk:page":"Randolph, Vermont"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"a1ca5dd6678002f1449e9baf18390f31",
     "wof:hierarchy":[
@@ -150,7 +169,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582338241,
+    "wof:lastmodified":1613615658,
     "wof:name":"Randolph",
     "wof:parent_id":404527177,
     "wof:placetype":"locality",

@@ -19,7 +19,7 @@
     "mps:latitude":44.212159,
     "mps:longitude":-72.196525,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u063a\u0631\u0648\u062a\u0648\u0646"
@@ -92,19 +92,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":5305941,
+    "uscensus:awater":55031,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"5030475",
+    "uscensus:intptlat":"+44.2189140",
+    "uscensus:intptlon":"-072.2010976",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Groton",
+    "uscensus:namelsad":"Groton CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"30475",
+    "uscensus:placens":"02586635",
+    "uscensus:statefp":"50",
     "wd:wordcount":811,
     "wof:belongsto":[
-        85688763,
         102191575,
-        404527231,
         85633793,
-        102080755
+        102080755,
+        404527231,
+        85688763
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -112,12 +129,14 @@
         "gn:id":5236670,
         "gp:id":2415221,
         "qs_pg:id":1270749,
+        "uscensus:geoid":5030475,
         "wd:id":"Q1947759",
         "wk:page":"Groton, Vermont"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"2ebf41442f9ede3dbc31f26021380349",
     "wof:hierarchy":[
@@ -131,7 +150,7 @@
         }
     ],
     "wof:id":101728387,
-    "wof:lastmodified":1582338243,
+    "wof:lastmodified":1613615655,
     "wof:name":"Groton",
     "wof:parent_id":404527231,
     "wof:placetype":"locality",

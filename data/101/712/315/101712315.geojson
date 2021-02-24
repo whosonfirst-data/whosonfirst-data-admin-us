@@ -11,11 +11,11 @@
     "geom:longitude":-81.068519,
     "iso:country":"US",
     "lbl:latitude":39.520277,
-    "lbl:longitude":-81.06833,
+    "lbl:longitude":-81.068331,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.5,
     "mps:latitude":39.520277,
-    "mps:longitude":-81.06833,
+    "mps:longitude":-81.068331,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":12.0,
@@ -96,22 +96,44 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
-    "src:geom_alt":[],
+    "src:geom":"uscensus",
+    "src:geom_alt":[
+        "quattroshapes"
+    ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":900373,
+    "uscensus:awater":97282,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3948286",
+    "uscensus:intptlat":"+39.5183993",
+    "uscensus:intptlon":"-081.0733202",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Matamoras",
+    "uscensus:namelsad":"Matamoras village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"48286",
+    "uscensus:placens":"02399272",
+    "uscensus:statefp":"39",
     "wof:belongsto":[
-        85688485,
         102191575,
-        404526361,
         85633793,
-        102084767
+        102084767,
+        404526361,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "gp:id":23417878,
+        "uscensus:geoid":3948286,
         "wd:id":"Q2598854"
     },
     "wof:country":"US",
+    "wof:geom_alt":[
+        "quattroshapes"
+    ],
     "wof:geomhash":"f9b368184fda5e39ffd08cb96327e248",
     "wof:hierarchy":[
         {
@@ -124,7 +146,7 @@
         }
     ],
     "wof:id":101712315,
-    "wof:lastmodified":1566626106,
+    "wof:lastmodified":1613615574,
     "wof:name":"Matamoras",
     "wof:parent_id":404526361,
     "wof:placetype":"locality",

@@ -11,11 +11,11 @@
     "geom:longitude":-91.857253,
     "iso:country":"US",
     "lbl:latitude":39.548704,
-    "lbl:longitude":-91.857252,
+    "lbl:longitude":-91.857253,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.5,
     "mps:latitude":39.548704,
-    "mps:longitude":-91.857252,
+    "mps:longitude":-91.857253,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":12.0,
@@ -90,18 +90,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":2132368,
+    "uscensus:awater":23795,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"2971026",
+    "uscensus:intptlat":"+39.5488689",
+    "uscensus:intptlon":"-091.8568042",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Stoutsville",
+    "uscensus:namelsad":"Stoutsville village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"71026",
+    "uscensus:placens":"02399912",
+    "uscensus:statefp":"29",
     "wd:wordcount":700,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404516877,
         85633793,
-        102081223
+        102081223,
+        404516877,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -110,12 +127,14 @@
         "gn:id":4410428,
         "gp:id":2500626,
         "qs_pg:id":331101,
+        "uscensus:geoid":2971026,
         "wd:id":"Q1992088",
         "wk:page":"Stoutsville, Missouri"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"2185e75b0d0bfc169adbafe652d15fd3",
     "wof:hierarchy":[
@@ -132,7 +151,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336268,
+    "wof:lastmodified":1613615776,
     "wof:name":"Stoutsville",
     "wof:parent_id":404516877,
     "wof:placetype":"locality",

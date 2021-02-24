@@ -11,11 +11,11 @@
     "geom:longitude":-91.444944,
     "iso:country":"US",
     "lbl:latitude":38.735661,
-    "lbl:longitude":-91.444945,
+    "lbl:longitude":-91.444944,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
     "mps:latitude":38.735661,
-    "mps:longitude":-91.444945,
+    "mps:longitude":-91.444944,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -96,23 +96,40 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"wk",
+    "uscensus:aland":228212,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"2945200",
+    "uscensus:intptlat":"+38.7356573",
+    "uscensus:intptlon":"-091.4449441",
+    "uscensus:lsad":"43",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"McKittrick",
+    "uscensus:namelsad":"McKittrick town",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"45200",
+    "uscensus:placens":"02396745",
+    "uscensus:statefp":"29",
     "wd:elevation":158.0,
     "wd:latitude":38.735,
     "wd:longitude":-91.44361,
     "wd:population":61,
     "wd:wordcount":651,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404516987,
         85633793,
-        102086903
+        102086903,
+        404516987,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -121,12 +138,14 @@
         "gn:id":4397837,
         "gp:id":2448203,
         "qs_pg:id":1048800,
+        "uscensus:geoid":2945200,
         "wd:id":"Q965282",
         "wk:page":"McKittrick, Missouri"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"5bc84199b919ebaf9091573ea421b969",
     "wof:hierarchy":[
@@ -143,7 +162,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336347,
+    "wof:lastmodified":1613615789,
     "wof:name":"McKittrick",
     "wof:parent_id":404516987,
     "wof:placetype":"locality",

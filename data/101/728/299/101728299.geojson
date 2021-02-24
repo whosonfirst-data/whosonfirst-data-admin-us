@@ -19,7 +19,7 @@
     "mps:latitude":44.597037,
     "mps:longitude":-72.612595,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:bul_x_preferred":[
         "\u0425\u0430\u0439\u0434 \u041f\u0430\u0440\u043a"
@@ -87,19 +87,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":2999833,
+    "uscensus:awater":10305,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"5034975",
+    "uscensus:intptlat":"+44.5990814",
+    "uscensus:intptlon":"-072.6083635",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Hyde Park",
+    "uscensus:namelsad":"Hyde Park village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"34975",
+    "uscensus:placens":"02378307",
+    "uscensus:statefp":"50",
     "wd:wordcount":593,
     "wof:belongsto":[
-        85688763,
         102191575,
-        404527153,
         85633793,
-        102080785
+        102080785,
+        404527153,
+        85688763
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -108,12 +125,14 @@
         "gn:id":5237276,
         "gp:id":2426301,
         "qs_pg:id":1077924,
+        "uscensus:geoid":5034975,
         "wd:id":"Q2051042",
         "wk:page":"Hyde Park (town), Vermont"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"7b0fbfeb790532a66cd0529c258bed8c",
     "wof:hierarchy":[
@@ -130,7 +149,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582338243,
+    "wof:lastmodified":1613615648,
     "wof:name":"Hyde Park",
     "wof:parent_id":404527153,
     "wof:placetype":"locality",

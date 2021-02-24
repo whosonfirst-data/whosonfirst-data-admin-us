@@ -15,11 +15,11 @@
     "gn:population":25,
     "iso:country":"US",
     "lbl:latitude":46.402232,
-    "lbl:longitude":-97.814923,
+    "lbl:longitude":-97.814922,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
     "mps:latitude":46.402232,
-    "mps:longitude":-97.814923,
+    "mps:longitude":-97.814922,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -106,22 +106,39 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":395535,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C5",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3823340",
+    "uscensus:intptlat":"+46.4022684",
+    "uscensus:intptlon":"-097.8148799",
+    "uscensus:lsad":"25",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Elliott",
+    "uscensus:namelsad":"Elliott city",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"23340",
+    "uscensus:placens":"01036022",
+    "uscensus:statefp":"38",
     "wd:elevation":406.0,
     "wd:latitude":46.4025,
     "wd:longitude":-97.814167,
     "wd:wordcount":669,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404479373,
         85633793,
-        102081505
+        102081505,
+        404479373,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -130,12 +147,14 @@
         "gn:id":5059059,
         "gp:id":2398706,
         "qs_pg:id":1051240,
+        "uscensus:geoid":3823340,
         "wd:id":"Q771127",
         "wk:page":"Elliott, North Dakota"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"a7335bb7efb83d83306690b02bcc7523",
     "wof:hierarchy":[
@@ -152,7 +171,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336049,
+    "wof:lastmodified":1613615133,
     "wof:name":"Elliott",
     "wof:parent_id":404479373,
     "wof:placetype":"locality",

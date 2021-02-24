@@ -4,18 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.000225,
-    "geom:area_square_m":1979534.231272,
-    "geom:bbox":"-95.223451,44.592216,-95.203235,44.60357",
-    "geom:latitude":44.597877,
-    "geom:longitude":-95.213302,
+    "geom:area":0.000223,
+    "geom:area_square_m":1966028.668418,
+    "geom:bbox":"-95.223583,44.592459,-95.20322,44.604773",
+    "geom:latitude":44.597999,
+    "geom:longitude":-95.213359,
     "iso:country":"US",
-    "lbl:latitude":44.597878,
-    "lbl:longitude":-95.213302,
+    "lbl:latitude":44.597949,
+    "lbl:longitude":-95.213358,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
+    "mps:latitude":44.597949,
+    "mps:longitude":-95.213358,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ady_x_preferred":[
         "\u0414\u0435\u043b\u0438"
@@ -438,18 +440,32 @@
     "qs:pop":70,
     "qs:source":"US Census",
     "qs:type":"city",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
+    "src:geom_alt":[
+        "quattroshapes"
+    ],
+    "src:lbl_centroid":"mapshaper",
     "src:population":"quattroshapes",
+    "uscensus:countyfp":127,
+    "uscensus:geoid":2712715544,
+    "uscensus:name":"Delhi",
+    "uscensus:namelsad":"Delhi city",
+    "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688727,
-        102087799
+        102087799,
+        85688727
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "uscensus:geoid":2712715544
+    },
     "wof:country":"US",
-    "wof:geomhash":"dbbb3a6c650a516e29040569e85cfc45",
+    "wof:geom_alt":[
+        "quattroshapes"
+    ],
+    "wof:geomhash":"2d2201a3317d8f2fdb9cd9b69832218f",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -460,7 +476,7 @@
         }
     ],
     "wof:id":404510543,
-    "wof:lastmodified":1566632150,
+    "wof:lastmodified":1605055615,
     "wof:name":"Delhi",
     "wof:parent_id":102087799,
     "wof:placetype":"localadmin",
@@ -472,10 +488,10 @@
     "wof:tags":[]
 },
   "bbox": [
-    -95.223451,
-    44.592216,
-    -95.203235,
-    44.60357
+    -95.223583,
+    44.592459,
+    -95.20322,
+    44.604773
 ],
-  "geometry": {"coordinates":[[[-95.20983099999999,44.603428],[-95.20323500000001,44.603435],[-95.203267,44.592216],[-95.223451,44.592369],[-95.223252,44.60357],[-95.20983099999999,44.603428]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-95.223583,44.603429],[-95.21848900000001,44.603418],[-95.209654,44.603403],[-95.20969599999999,44.604773],[-95.20831099999999,44.604705],[-95.208302,44.603652],[-95.20829999999999,44.603416],[-95.20829999999999,44.6034],[-95.203306,44.603388],[-95.203276,44.599762],[-95.20322,44.594006],[-95.203232,44.592459],[-95.20820000000001,44.592473],[-95.210954,44.592481],[-95.21834699999999,44.592502],[-95.22349199999999,44.592517],[-95.22351,44.594674],[-95.22355,44.599424],[-95.22355399999999,44.599788],[-95.223563,44.600998],[-95.223583,44.603429]]],"type":"Polygon"}
 }

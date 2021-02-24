@@ -4,18 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.000015,
-    "geom:area_square_m":138469.634955,
+    "geom:area":0.000016,
+    "geom:area_square_m":148482.823119,
     "geom:bbox":"-79.038203,40.452324,-79.026633,40.454785",
-    "geom:latitude":40.453585,
-    "geom:longitude":-79.03243,
+    "geom:latitude":40.453632,
+    "geom:longitude":-79.032451,
     "iso:country":"US",
-    "lbl:latitude":40.453587,
-    "lbl:longitude":-79.03243,
+    "lbl:latitude":40.453661,
+    "lbl:longitude":-79.032451,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
+    "mps:latitude":40.453661,
+    "mps:longitude":-79.032451,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Armagh"
@@ -177,18 +179,32 @@
     "qs:pop":122,
     "qs:source":"US Census",
     "qs:type":"boro",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
+    "src:geom_alt":[
+        "quattroshapes"
+    ],
+    "src:lbl_centroid":"mapshaper",
     "src:population":"quattroshapes",
+    "uscensus:countyfp":63,
+    "uscensus:geoid":4206303032,
+    "uscensus:name":"Armagh",
+    "uscensus:namelsad":"Armagh borough",
+    "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688481,
-        102081387
+        102081387,
+        85688481
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "uscensus:geoid":4206303032
+    },
     "wof:country":"US",
-    "wof:geomhash":"2cadf09a319ea090b94b671813022ccb",
+    "wof:geom_alt":[
+        "quattroshapes"
+    ],
+    "wof:geomhash":"285f93a30cad517fb8bc8aaa050b0fb8",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -199,7 +215,7 @@
         }
     ],
     "wof:id":404483467,
-    "wof:lastmodified":1566631640,
+    "wof:lastmodified":1605055447,
     "wof:name":"Armagh",
     "wof:parent_id":102081387,
     "wof:placetype":"localadmin",
@@ -216,5 +232,5 @@
     -79.026633,
     40.454785
 ],
-  "geometry": {"coordinates":[[[-79.033936,40.452768],[-79.037525,40.452324],[-79.038203,40.453677],[-79.026976,40.454785],[-79.026633,40.453542],[-79.033936,40.452768]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-79.03783,40.45302],[-79.038203,40.453677],[-79.03746700000001,40.453824],[-79.035184,40.454086],[-79.031965,40.454453],[-79.026976,40.454785],[-79.026826,40.454276],[-79.026633,40.453542],[-79.02920399999999,40.453266],[-79.03183,40.45299],[-79.033936,40.452768],[-79.037525,40.452324],[-79.03783,40.45302]]],"type":"Polygon"}
 }

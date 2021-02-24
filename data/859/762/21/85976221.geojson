@@ -4,22 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.000042,
-    "geom:area_square_m":405307.92085,
-    "geom:bbox":"-74.8572,38.954538,-74.846818,38.963141",
-    "geom:latitude":38.958852,
-    "geom:longitude":-74.852009,
+    "geom:area":0.000045,
+    "geom:area_square_m":431971.05931,
+    "geom:bbox":"-74.8572,38.953943,-74.846258,38.963047",
+    "geom:latitude":38.958514,
+    "geom:longitude":-74.851734,
     "gn:elevation":2,
     "gn:latitude":38.95956,
     "gn:longitude":-74.85239,
     "gn:population":136,
     "iso:country":"US",
-    "lbl:latitude":38.958865,
-    "lbl:longitude":-74.852009,
+    "lbl:latitude":38.958521,
+    "lbl:longitude":-74.851734,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
-    "mps:latitude":38.958865,
-    "mps:longitude":-74.852009,
+    "mps:latitude":38.958521,
+    "mps:longitude":-74.851734,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -91,19 +91,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":432296,
+    "uscensus:awater":0,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"3417815",
+    "uscensus:intptlat":"+38.9585136",
+    "uscensus:intptlon":"-074.8517343",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Diamond Beach",
+    "uscensus:namelsad":"Diamond Beach CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"17815",
+    "uscensus:placens":"02389406",
+    "uscensus:statefp":"34",
     "wd:wordcount":863,
     "wof:belongsto":[
-        85688607,
         102191575,
-        404477947,
         85633793,
-        102086777
+        102086777,
+        404477947,
+        85688607
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -111,14 +128,16 @@
         "gn:id":4501512,
         "gp:id":23417709,
         "qs_pg:id":983645,
+        "uscensus:geoid":3417815,
         "wd:id":"Q1085779",
         "wk:page":"Diamond Beach, New Jersey"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"6809cd411cb560a9fa4a3e842073a08f",
+    "wof:geomhash":"e6f4f5ff16f107f9a97cb4d4905a28f6",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -130,7 +149,7 @@
         }
     ],
     "wof:id":85976221,
-    "wof:lastmodified":1582335517,
+    "wof:lastmodified":1613615013,
     "wof:name":"Diamond Beach",
     "wof:parent_id":404477947,
     "wof:placetype":"locality",
@@ -143,9 +162,9 @@
 },
   "bbox": [
     -74.8572,
-    38.954538,
-    -74.846818,
-    38.963141
+    38.953943,
+    -74.846258,
+    38.963047
 ],
-  "geometry": {"coordinates":[[[-74.856459,38.95996],[-74.856118,38.960609],[-74.85589400000001,38.961263],[-74.855583,38.961476],[-74.855324,38.961666],[-74.854794,38.962057],[-74.854258,38.962452],[-74.853722,38.962847],[-74.853324,38.963141],[-74.851653,38.961781],[-74.849897,38.960349],[-74.848411,38.959052],[-74.847514,38.958387],[-74.846818,38.957749],[-74.850514,38.954698],[-74.850748,38.954538],[-74.852318,38.955934],[-74.852535,38.956033],[-74.852735,38.956252],[-74.853945,38.957162],[-74.854096,38.957272],[-74.85584799999999,38.958732],[-74.85720000000001,38.959754],[-74.856459,38.95996]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-74.85345100000001,38.963047],[-74.85180200000001,38.961672],[-74.850269,38.960403],[-74.850065,38.960227],[-74.848535,38.958962],[-74.847734,38.958288],[-74.84694,38.957649],[-74.84625800000001,38.957064],[-74.84675,38.956625],[-74.84760199999999,38.955911],[-74.84894799999999,38.954911],[-74.849557,38.954406],[-74.850031,38.953943],[-74.852318,38.955934],[-74.852535,38.956033],[-74.852735,38.956252],[-74.853945,38.957162],[-74.854096,38.957272],[-74.85584799999999,38.958732],[-74.85720000000001,38.959754],[-74.856459,38.95996],[-74.856118,38.960609],[-74.85589400000001,38.961263],[-74.855583,38.961476],[-74.855324,38.961666],[-74.854794,38.962057],[-74.854258,38.962452],[-74.853722,38.962847],[-74.85345100000001,38.963047]]],"type":"Polygon"}
 }

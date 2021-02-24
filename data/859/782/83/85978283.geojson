@@ -21,7 +21,7 @@
     "mps:latitude":42.623721,
     "mps:longitude":-75.335523,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u0642\u0631\u064a\u0629 \u0646\u064a\u0648 \u0628\u0631\u0644\u064a\u0646"
@@ -76,18 +76,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":2759671,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3649946",
+    "uscensus:intptlat":"+42.6239828",
+    "uscensus:intptlon":"-075.3353170",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"New Berlin",
+    "uscensus:namelsad":"New Berlin village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"49946",
+    "uscensus:placens":"02391008",
+    "uscensus:statefp":"36",
     "wof:belongsto":[
-        85688543,
         102191575,
-        404522139,
         85633793,
-        102082367
+        102082367,
+        404522139,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -96,6 +113,7 @@
         "gn:id":5108863,
         "gp:id":2363015,
         "qs_pg:id":486830,
+        "uscensus:geoid":3649946,
         "wd:id":"Q3461896",
         "wk:page":"New Berlin (village), New York"
     },
@@ -104,7 +122,8 @@
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"8cc376f02f43f52048be804bfd19777a",
     "wof:hierarchy":[
@@ -121,7 +140,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335830,
+    "wof:lastmodified":1613616617,
     "wof:name":"New Berlin",
     "wof:parent_id":404522139,
     "wof:placetype":"locality",

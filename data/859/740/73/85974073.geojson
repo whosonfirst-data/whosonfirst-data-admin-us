@@ -15,11 +15,11 @@
     "gn:population":23,
     "iso:country":"US",
     "lbl:latitude":42.689499,
-    "lbl:longitude":-97.027223,
+    "lbl:longitude":-97.027222,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
     "mps:latitude":42.689499,
-    "mps:longitude":-97.027223,
+    "mps:longitude":-97.027222,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -106,19 +106,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":189245,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3135560",
+    "uscensus:intptlat":"+42.6895112",
+    "uscensus:intptlon":"-097.0272220",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Obert",
+    "uscensus:namelsad":"Obert village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"35560",
+    "uscensus:placens":"02399551",
+    "uscensus:statefp":"31",
     "wd:wordcount":694,
     "wof:belongsto":[
-        85688563,
         102191575,
-        404518601,
         85633793,
-        102082819
+        102082819,
+        404518601,
+        85688563
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -127,14 +144,16 @@
         "gn:id":5074347,
         "gp:id":2464014,
         "qs_pg:id":1352554,
+        "uscensus:geoid":3135560,
         "wd:id":"Q2518076",
         "wk:page":"Obert, Nebraska"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"313d8d6d2103b665557fe6bf94b044d6",
+    "wof:geomhash":"ad5d6c62a6257cdcf57a1c42faaef78e",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -149,7 +168,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335811,
+    "wof:lastmodified":1613615697,
     "wof:name":"Obert",
     "wof:parent_id":404518601,
     "wof:placetype":"locality",
@@ -166,5 +185,5 @@
     -97.024669,
     42.691643
 ],
-  "geometry": {"coordinates":[[[-97.02963099999999,42.688022],[-97.029646,42.688202],[-97.02966499999999,42.688425],[-97.02967599999999,42.689494],[-97.02968199999999,42.690243],[-97.029691,42.690518],[-97.029713,42.691264],[-97.02971599999999,42.691589],[-97.02928799999999,42.691643],[-97.026636,42.691599],[-97.025369,42.691597],[-97.02473500000001,42.691508],[-97.024669,42.690176],[-97.024761,42.689496],[-97.02481,42.68856],[-97.024717,42.687438],[-97.02959,42.687343],[-97.02963099999999,42.688022]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-97.02971599999999,42.691589],[-97.02928799999999,42.691643],[-97.026636,42.691599],[-97.025369,42.691597],[-97.02473500000001,42.691508],[-97.024669,42.690176],[-97.024761,42.689496],[-97.02481,42.68856],[-97.024717,42.687438],[-97.02959,42.687343],[-97.02963099999999,42.688022],[-97.029646,42.688202],[-97.02966499999999,42.688425],[-97.02967599999999,42.689494],[-97.02968199999999,42.690243],[-97.029691,42.690518],[-97.029713,42.691264],[-97.02971599999999,42.691589]]],"type":"Polygon"}
 }

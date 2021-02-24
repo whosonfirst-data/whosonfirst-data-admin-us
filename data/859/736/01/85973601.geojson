@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000081,
-    "geom:area_square_m":753776.546909,
+    "geom:area_square_m":753776.54691,
     "geom:bbox":"-97.501864,40.965799,-97.49215,40.976799",
     "geom:latitude":40.970305,
     "geom:longitude":-97.496644,
@@ -15,11 +15,11 @@
     "gn:population":62,
     "iso:country":"US",
     "lbl:latitude":40.969594,
-    "lbl:longitude":-97.496644,
+    "lbl:longitude":-97.496645,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
     "mps:latitude":40.969594,
-    "mps:longitude":-97.496644,
+    "mps:longitude":-97.496645,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -103,19 +103,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":754690,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3148690",
+    "uscensus:intptlat":"+40.9703046",
+    "uscensus:intptlon":"-097.4966446",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Thayer",
+    "uscensus:namelsad":"Thayer village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"48690",
+    "uscensus:placens":"02399965",
+    "uscensus:statefp":"31",
     "wd:wordcount":770,
     "wof:belongsto":[
-        85688563,
         102191575,
-        404520841,
         85633793,
-        102083493
+        102083493,
+        404520841,
+        85688563
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -124,14 +141,16 @@
         "gn:id":5080162,
         "gp:id":2505098,
         "qs_pg:id":10451,
+        "uscensus:geoid":3148690,
         "wd:id":"Q2091820",
         "wk:page":"Thayer, Nebraska"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"7eb281f615704beff5e3b9325c419be3",
+    "wof:geomhash":"e157380db27ae287cb244bf119c5f6ea",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -146,7 +165,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335526,
+    "wof:lastmodified":1613615730,
     "wof:name":"Thayer",
     "wof:parent_id":404520841,
     "wof:placetype":"locality",
@@ -163,5 +182,5 @@
     -97.49215,
     40.976799
 ],
-  "geometry": {"coordinates":[[[-97.501774,40.965983],[-97.501806,40.968112],[-97.50184299999999,40.971078],[-97.501846,40.971364],[-97.501864,40.973215],[-97.49774600000001,40.973262],[-97.497721,40.974214],[-97.497209,40.974224],[-97.497207,40.973268],[-97.49587,40.973282],[-97.495859,40.973832],[-97.494607,40.973753],[-97.494556,40.975176],[-97.49572499999999,40.975257],[-97.495745,40.976031],[-97.49457200000001,40.97601],[-97.49459299999999,40.976781],[-97.49217299999999,40.976799],[-97.49215,40.973339],[-97.49239900000001,40.966052],[-97.500135,40.965799],[-97.501773,40.96588],[-97.501774,40.965983]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-97.501864,40.973215],[-97.49774600000001,40.973262],[-97.497721,40.974214],[-97.497209,40.974224],[-97.497207,40.973268],[-97.49587,40.973282],[-97.495859,40.973832],[-97.494607,40.973753],[-97.494556,40.975176],[-97.49572499999999,40.975257],[-97.495745,40.976031],[-97.49457200000001,40.97601],[-97.49459299999999,40.976781],[-97.49217299999999,40.976799],[-97.49215,40.973339],[-97.49239900000001,40.966052],[-97.500135,40.965799],[-97.501773,40.96588],[-97.501774,40.965983],[-97.501806,40.968112],[-97.50184299999999,40.971078],[-97.501846,40.971364],[-97.501864,40.973215]]],"type":"Polygon"}
 }

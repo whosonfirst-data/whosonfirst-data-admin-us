@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000293,
-    "geom:area_square_m":2634793.466899,
+    "geom:area_square_m":2634793.4669,
     "geom:bbox":"-83.196715,43.405162,-83.175827,43.420396",
     "geom:latitude":43.412806,
     "geom:longitude":-83.186262,
@@ -177,18 +177,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":2639498,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"2643380",
+    "uscensus:intptlat":"+43.4128054",
+    "uscensus:intptlon":"-083.1862623",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Kingston",
+    "uscensus:namelsad":"Kingston village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"43380",
+    "uscensus:placens":"02398354",
+    "uscensus:statefp":"26",
     "wd:wordcount":398,
     "wof:belongsto":[
-        85688599,
         102191575,
-        404506519,
         85633793,
-        102082989
+        102082989,
+        404506519,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -197,13 +214,15 @@
         "gn:id":4998197,
         "gp:id":2432777,
         "qs_pg:id":198443,
+        "uscensus:geoid":2643380,
         "wd:id":"Q2064988"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"a53b9f938b397811696e237673be5c81",
+    "wof:geomhash":"478f9763eed8908d1c458bb06e45f41a",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -218,7 +237,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335785,
+    "wof:lastmodified":1613615874,
     "wof:name":"Kingston",
     "wof:parent_id":404506519,
     "wof:placetype":"locality",
@@ -233,5 +252,5 @@
     -83.175827,
     43.420396
 ],
-  "geometry": {"coordinates":[[[-83.19611,43.419875],[-83.193062,43.419961],[-83.19105500000001,43.420007],[-83.18610200000001,43.420132],[-83.17608,43.420396],[-83.175827,43.413132],[-83.17668,43.413115],[-83.176466,43.409257],[-83.17630200000001,43.40583],[-83.186516,43.405491],[-83.188203,43.405443],[-83.191294,43.405343],[-83.196445,43.405162],[-83.196715,43.412794],[-83.195768,43.412806],[-83.19611,43.419875]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-83.196715,43.412794],[-83.195768,43.412806],[-83.19611,43.419875],[-83.193062,43.419961],[-83.19105500000001,43.420007],[-83.18610200000001,43.420132],[-83.17608,43.420396],[-83.175827,43.413132],[-83.17668,43.413115],[-83.176466,43.409257],[-83.17630200000001,43.40583],[-83.186516,43.405491],[-83.188203,43.405443],[-83.191294,43.405343],[-83.196445,43.405162],[-83.196715,43.412794]]],"type":"Polygon"}
 }

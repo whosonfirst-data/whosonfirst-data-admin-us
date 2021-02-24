@@ -19,7 +19,7 @@
     "mps:latitude":44.405498,
     "mps:longitude":-72.311541,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u0643\u0627\u0628\u0648\u062a"
@@ -86,19 +86,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":2926459,
+    "uscensus:awater":473,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"5011050",
+    "uscensus:intptlat":"+44.4065767",
+    "uscensus:intptlon":"-072.3162321",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Cabot",
+    "uscensus:namelsad":"Cabot CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"11050",
+    "uscensus:placens":"02729388",
+    "uscensus:statefp":"50",
     "wd:wordcount":660,
     "wof:belongsto":[
-        85688763,
         102191575,
-        404527071,
         85633793,
-        102080779
+        102080779,
+        404527071,
+        85688763
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -108,12 +125,14 @@
         "gp:id":2372923,
         "loc:id":"nr92033726",
         "qs_pg:id":313082,
+        "uscensus:geoid":5011050,
         "wd:id":"Q2932446",
         "wk:page":"Cabot, Vermont"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"dc3a486f3d7b45456071c5359f3c4c26",
     "wof:hierarchy":[
@@ -130,7 +149,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582338238,
+    "wof:lastmodified":1613615641,
     "wof:name":"Cabot",
     "wof:parent_id":404527071,
     "wof:placetype":"locality",

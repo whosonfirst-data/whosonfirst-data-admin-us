@@ -19,7 +19,7 @@
     "mps:latitude":41.407935,
     "mps:longitude":-75.852746,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:azb_x_preferred":[
         "\u0622\u067e\u0631 \u0627\u06a9\u0633\u062a\u0631"
@@ -68,16 +68,34 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
-    "src:geom_alt":[],
+    "src:geom":"uscensus",
+    "src:geom_alt":[
+        "quattroshapes"
+    ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":5093154,
+    "uscensus:awater":237929,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"4279016",
+    "uscensus:intptlat":"+41.4045237",
+    "uscensus:intptlon":"-075.8546931",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Upper Exeter",
+    "uscensus:namelsad":"Upper Exeter CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"79016",
+    "uscensus:placens":"02633417",
+    "uscensus:statefp":"42",
     "wof:belongsto":[
-        85688481,
         102191575,
-        404486225,
         85633793,
-        102081351
+        102081351,
+        404486225,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -85,10 +103,14 @@
         "gn:id":5216821,
         "gp:id":2510251,
         "qs_pg:id":1191594,
+        "uscensus:geoid":4279016,
         "wd:id":"Q7898633",
         "wk:page":"Upper Exeter, Pennsylvania"
     },
     "wof:country":"US",
+    "wof:geom_alt":[
+        "quattroshapes"
+    ],
     "wof:geomhash":"f7254500c33a49a0efa1bbf4e41f791a",
     "wof:hierarchy":[
         {
@@ -101,7 +123,7 @@
         }
     ],
     "wof:id":101719337,
-    "wof:lastmodified":1566626623,
+    "wof:lastmodified":1613616191,
     "wof:name":"Upper Exeter",
     "wof:parent_id":404486225,
     "wof:placetype":"locality",

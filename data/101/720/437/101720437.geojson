@@ -19,7 +19,7 @@
     "mps:latitude":40.201326,
     "mps:longitude":-76.367759,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ceb_x_preferred":[
         "Penryn"
@@ -56,17 +56,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
-    "src:geom_alt":[],
+    "src:geom":"uscensus",
+    "src:geom_alt":[
+        "quattroshapes"
+    ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":4888237,
+    "uscensus:awater":33181,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"4259344",
+    "uscensus:intptlat":"+40.1958167",
+    "uscensus:intptlon":"-076.3697719",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Penryn",
+    "uscensus:namelsad":"Penryn CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"59344",
+    "uscensus:placens":"02584497",
+    "uscensus:statefp":"42",
     "wd:wordcount":38,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404485339,
         85633793,
-        102081377
+        102081377,
+        404485339,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -75,10 +93,14 @@
         "gn:id":5205613,
         "gp:id":28745516,
         "qs_pg:id":1248552,
+        "uscensus:geoid":4259344,
         "wd:id":"Q5853107",
         "wk:page":"Penryn, Pennsylvania"
     },
     "wof:country":"US",
+    "wof:geom_alt":[
+        "quattroshapes"
+    ],
     "wof:geomhash":"561970e51dbc896ff87d1f6b6f96e5a8",
     "wof:hierarchy":[
         {
@@ -94,7 +116,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1566627096,
+    "wof:lastmodified":1613614878,
     "wof:name":"Penryn",
     "wof:parent_id":404485339,
     "wof:placetype":"locality",

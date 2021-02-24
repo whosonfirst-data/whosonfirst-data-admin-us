@@ -10,11 +10,11 @@
     "geom:latitude":41.664667,
     "geom:longitude":-84.434679,
     "iso:country":"US",
-    "lbl:latitude":41.664569,
+    "lbl:latitude":41.664568,
     "lbl:longitude":-84.435403,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.5,
-    "mps:latitude":41.664569,
+    "mps:latitude":41.664568,
     "mps:longitude":-84.435403,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
@@ -84,18 +84,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":652762,
+    "uscensus:awater":1322,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"3901588",
+    "uscensus:intptlat":"+41.6636177",
+    "uscensus:intptlon":"-084.4342968",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Alvordton",
+    "uscensus:namelsad":"Alvordton CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"01588",
+    "uscensus:placens":"02628857",
+    "uscensus:statefp":"39",
     "wd:wordcount":646,
     "wof:belongsto":[
-        85688485,
         102191575,
-        404524209,
         85633793,
-        102084817
+        102084817,
+        404524209,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -104,14 +121,16 @@
         "gn:id":5145663,
         "gp:id":2354070,
         "qs_pg:id":1169216,
+        "uscensus:geoid":3901588,
         "wd:id":"Q2926361",
         "wk:page":"Alvordton, Ohio"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"770bddded9763ea26b8bd59cd2f8b29a",
+    "wof:geomhash":"5b4b06e977bcc3683bfe69daf63bac13",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -126,7 +145,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582337995,
+    "wof:lastmodified":1613616734,
     "wof:name":"Alvordton",
     "wof:parent_id":404524209,
     "wof:placetype":"locality",
@@ -141,5 +160,5 @@
     -84.42802,
     41.668218
 ],
-  "geometry": {"coordinates":[[[-84.438739,41.668218],[-84.437613,41.668208],[-84.437606,41.667741],[-84.43760399999999,41.667615],[-84.43683,41.667635],[-84.43677099999999,41.667627],[-84.433683,41.667207],[-84.43303899999999,41.667606],[-84.428095,41.667655],[-84.42806899999999,41.665914],[-84.428067,41.66554],[-84.428055,41.664957],[-84.42804099999999,41.664023],[-84.428028,41.663145],[-84.42802,41.662621],[-84.43248800000001,41.662636],[-84.43343900000001,41.662637],[-84.437515,41.660684],[-84.439841,41.659574],[-84.439857,41.659825],[-84.43993399999999,41.662453],[-84.44018199999999,41.665882],[-84.440118,41.668094],[-84.438739,41.668218]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-84.440118,41.668094],[-84.438739,41.668218],[-84.437613,41.668208],[-84.437606,41.667741],[-84.43760399999999,41.667615],[-84.43683,41.667635],[-84.43677099999999,41.667627],[-84.433683,41.667207],[-84.43303899999999,41.667606],[-84.428095,41.667655],[-84.42806899999999,41.665914],[-84.428067,41.66554],[-84.428055,41.664957],[-84.42804099999999,41.664023],[-84.428028,41.663145],[-84.42802,41.662621],[-84.43248800000001,41.662636],[-84.43343900000001,41.662637],[-84.437515,41.660684],[-84.439841,41.659574],[-84.439857,41.659825],[-84.43993399999999,41.662453],[-84.44018199999999,41.665882],[-84.440118,41.668094]]],"type":"Polygon"}
 }

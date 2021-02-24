@@ -21,7 +21,7 @@
     "mps:latitude":42.33485,
     "mps:longitude":-78.454948,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u0641\u0631\u0627\u0646\u0643\u0644\u064a\u0646\u0641\u064a\u0644"
@@ -67,19 +67,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":2849025,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3627331",
+    "uscensus:intptlat":"+42.3347456",
+    "uscensus:intptlon":"-078.4547656",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Franklinville",
+    "uscensus:namelsad":"Franklinville village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"27331",
+    "uscensus:placens":"02390850",
+    "uscensus:statefp":"36",
     "wd:wordcount":1322,
     "wof:belongsto":[
-        85688543,
         102191575,
-        404521761,
         85633793,
-        102081853
+        102081853,
+        404521761,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -87,12 +104,14 @@
         "gn:id":5117902,
         "gp:id":2407052,
         "qs_pg:id":186191,
+        "uscensus:geoid":3627331,
         "wd:id":"Q5492171",
         "wk:page":"Franklinville, New York"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"119b8c071b221d4a8edc2cda17b2d780",
     "wof:hierarchy":[
@@ -106,7 +125,7 @@
         }
     ],
     "wof:id":85977569,
-    "wof:lastmodified":1582336246,
+    "wof:lastmodified":1613615526,
     "wof:name":"Franklinville",
     "wof:parent_id":404521761,
     "wof:placetype":"locality",

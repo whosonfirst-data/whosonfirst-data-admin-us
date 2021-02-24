@@ -12,14 +12,14 @@
     "gn:elevation":266,
     "gn:population":256,
     "iso:country":"US",
-    "lbl:latitude":43.506491,
+    "lbl:latitude":43.506492,
     "lbl:longitude":-88.708441,
     "lbl:max_zoom":17.0,
     "lbl:min_zoom":12.5,
-    "mps:latitude":43.506491,
+    "mps:latitude":43.506492,
     "mps:longitude":-88.708441,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u0628\u0648\u0631\u0646\u064a\u062a"
@@ -65,19 +65,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":648697,
+    "uscensus:awater":0,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"5511250",
+    "uscensus:intptlat":"+43.5064962",
+    "uscensus:intptlon":"-088.7084406",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Burnett",
+    "uscensus:namelsad":"Burnett CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"11250",
+    "uscensus:placens":"02586461",
+    "uscensus:statefp":"55",
     "wd:wordcount":627,
     "wof:belongsto":[
-        85688517,
         102191575,
-        404493379,
         85633793,
-        102081887
+        102081887,
+        404493379,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -86,14 +103,16 @@
         "gn:id":5247228,
         "gp:id":2372130,
         "qs_pg:id":158280,
+        "uscensus:geoid":5511250,
         "wd:id":"Q1657793",
         "wk:page":"Burnett, Wisconsin"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"b7fd2c63981182c635b77ab232b4cf31",
+    "wof:geomhash":"7c1c91b07cc173b6790b50a2d910ba77",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -108,7 +127,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582338128,
+    "wof:lastmodified":1613616330,
     "wof:name":"Burnett",
     "wof:parent_id":404493379,
     "wof:placetype":"locality",
@@ -125,5 +144,5 @@
     -88.70248,
     43.510069
 ],
-  "geometry": {"coordinates":[[[-88.71154300000001,43.510052],[-88.710888,43.510045],[-88.710399,43.510045],[-88.709549,43.510044],[-88.708648,43.510048],[-88.708257,43.510056],[-88.707769,43.510058],[-88.706239,43.510054],[-88.705493,43.510059],[-88.704838,43.510065],[-88.703722,43.510066],[-88.70327399999999,43.510069],[-88.70337000000001,43.507325],[-88.70337000000001,43.504791],[-88.703371,43.504694],[-88.703649,43.504676],[-88.704396,43.50471],[-88.70247999999999,43.503002],[-88.703163,43.502993],[-88.705181,43.502969],[-88.708676,43.502928],[-88.713483,43.502871],[-88.71349600000001,43.505622],[-88.71351799999999,43.51005],[-88.71154300000001,43.510052]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-88.71351799999999,43.51005],[-88.71154300000001,43.510052],[-88.710888,43.510045],[-88.710399,43.510045],[-88.709549,43.510044],[-88.708648,43.510048],[-88.708257,43.510056],[-88.707769,43.510058],[-88.706239,43.510054],[-88.705493,43.510059],[-88.704838,43.510065],[-88.703722,43.510066],[-88.70327399999999,43.510069],[-88.70337000000001,43.507325],[-88.70337000000001,43.504791],[-88.703371,43.504694],[-88.703649,43.504676],[-88.704396,43.50471],[-88.70247999999999,43.503002],[-88.703163,43.502993],[-88.705181,43.502969],[-88.708676,43.502928],[-88.713483,43.502871],[-88.71349600000001,43.505622],[-88.71351799999999,43.51005]]],"type":"Polygon"}
 }

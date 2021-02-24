@@ -5,17 +5,19 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000284,
-    "geom:area_square_m":2616762.487765,
+    "geom:area_square_m":2617821.232202,
     "geom:bbox":"-84.757645,41.832265,-84.737994,41.846912",
-    "geom:latitude":41.839581,
-    "geom:longitude":-84.747827,
+    "geom:latitude":41.839583,
+    "geom:longitude":-84.74783,
     "iso:country":"US",
     "lbl:latitude":41.839584,
-    "lbl:longitude":-84.747827,
+    "lbl:longitude":-84.74783,
     "lbl:max_zoom":16.0,
     "lbl:min_zoom":12.0,
+    "mps:latitude":41.839584,
+    "mps:longitude":-84.74783,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ady_x_preferred":[
         "\u041d\u0435\u043f\u044d"
@@ -210,18 +212,32 @@
     "qs:pop":1078,
     "qs:source":"US Census",
     "qs:type":"city",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
+    "src:geom_alt":[
+        "quattroshapes"
+    ],
+    "src:lbl_centroid":"mapshaper",
     "src:population":"quattroshapes",
+    "uscensus:countyfp":59,
+    "uscensus:geoid":2605967500,
+    "uscensus:name":"Reading",
+    "uscensus:namelsad":"Reading city",
+    "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688599,
-        102083705
+        102083705,
+        85688599
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "uscensus:geoid":2605967500
+    },
     "wof:country":"US",
-    "wof:geomhash":"540a07468fbc09eaef0584133c83cd2f",
+    "wof:geom_alt":[
+        "quattroshapes"
+    ],
+    "wof:geomhash":"29180a36618cc6c57884f9c97c0a53bb",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -232,7 +248,7 @@
         }
     ],
     "wof:id":404505985,
-    "wof:lastmodified":1566631171,
+    "wof:lastmodified":1605055285,
     "wof:name":"Reading",
     "wof:parent_id":102083705,
     "wof:placetype":"localadmin",
@@ -249,5 +265,5 @@
     -84.737994,
     41.846912
 ],
-  "geometry": {"coordinates":[[[-84.74783499999999,41.832311],[-84.757645,41.832368],[-84.757544,41.846912],[-84.747893,41.846857],[-84.737994,41.846763],[-84.738106,41.832265],[-84.74783499999999,41.832311]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-84.757645,41.832368],[-84.757626,41.836047],[-84.757544,41.846912],[-84.749943,41.846872],[-84.747893,41.846857],[-84.745417,41.846853],[-84.737994,41.846763],[-84.738026,41.84399],[-84.73805400000001,41.839615],[-84.738106,41.832265],[-84.74555700000001,41.832296],[-84.74783499999999,41.832311],[-84.757645,41.832368]]],"type":"Polygon"}
 }

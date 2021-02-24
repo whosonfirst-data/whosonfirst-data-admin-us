@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000071,
-    "geom:area_square_m":660650.877064,
+    "geom:area_square_m":660650.877063,
     "geom:bbox":"-99.505441,41.34701,-99.495791,41.354697",
     "geom:latitude":41.350852,
     "geom:longitude":-99.500611,
@@ -15,11 +15,11 @@
     "gn:population":83,
     "iso:country":"US",
     "lbl:latitude":41.350857,
-    "lbl:longitude":-99.50061,
+    "lbl:longitude":-99.500611,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
     "mps:latitude":41.350857,
-    "mps:longitude":-99.50061,
+    "mps:longitude":-99.500611,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -100,19 +100,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":661515,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3104650",
+    "uscensus:intptlat":"+41.3508524",
+    "uscensus:intptlon":"-099.5006108",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Berwyn",
+    "uscensus:namelsad":"Berwyn village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"04650",
+    "uscensus:placens":"02398107",
+    "uscensus:statefp":"31",
     "wd:wordcount":162,
     "wof:belongsto":[
-        85688563,
         102191575,
-        404519653,
         85633793,
-        102084301
+        102084301,
+        404519653,
+        85688563
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -121,13 +138,15 @@
         "gn:id":5063968,
         "gp:id":2363239,
         "qs_pg:id":156521,
+        "uscensus:geoid":3104650,
         "wd:id":"Q971120"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"be62a924a36051f4d05abd26d185f011",
+    "wof:geomhash":"9dcaddf1d049c065eef90fe3809abf12",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -142,7 +161,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335887,
+    "wof:lastmodified":1613615629,
     "wof:name":"Berwyn",
     "wof:parent_id":404519653,
     "wof:placetype":"locality",
@@ -159,5 +178,5 @@
     -99.495791,
     41.354697
 ],
-  "geometry": {"coordinates":[[[-99.505441,41.349747],[-99.50542799999999,41.350431],[-99.50537199999999,41.350819],[-99.50543,41.351603],[-99.505432,41.353157],[-99.50543399999999,41.354485],[-99.50374100000001,41.354507],[-99.503708,41.354507],[-99.50091500000001,41.354539],[-99.500384,41.35454],[-99.495791,41.354697],[-99.495859,41.350907],[-99.495937,41.348167],[-99.495955,41.347483],[-99.495965,41.34701],[-99.497056,41.347011],[-99.500322,41.347178],[-99.500888,41.347172],[-99.50454000000001,41.347143],[-99.505427,41.347133],[-99.505441,41.349747]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-99.50542799999999,41.350431],[-99.50537199999999,41.350819],[-99.50543,41.351603],[-99.505432,41.353157],[-99.50543399999999,41.354485],[-99.50374100000001,41.354507],[-99.503708,41.354507],[-99.50091500000001,41.354539],[-99.500384,41.35454],[-99.495791,41.354697],[-99.495859,41.350907],[-99.495937,41.348167],[-99.495955,41.347483],[-99.495965,41.34701],[-99.497056,41.347011],[-99.500322,41.347178],[-99.500888,41.347172],[-99.50454000000001,41.347143],[-99.505427,41.347133],[-99.505441,41.349747],[-99.50542799999999,41.350431]]],"type":"Polygon"}
 }

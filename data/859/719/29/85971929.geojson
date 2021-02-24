@@ -11,11 +11,11 @@
     "geom:longitude":-93.695224,
     "iso:country":"US",
     "lbl:latitude":38.582742,
-    "lbl:longitude":-93.695082,
+    "lbl:longitude":-93.695083,
     "lbl:max_zoom":17.0,
     "lbl:min_zoom":12.5,
     "mps:latitude":38.582742,
-    "mps:longitude":-93.695082,
+    "mps:longitude":-93.695083,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -102,23 +102,40 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"wk",
+    "uscensus:aland":1315435,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"2941402",
+    "uscensus:intptlat":"+38.5832479",
+    "uscensus:intptlon":"-093.6952240",
+    "uscensus:lsad":"25",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Leeton",
+    "uscensus:namelsad":"Leeton city",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"41402",
+    "uscensus:placens":"02395670",
+    "uscensus:statefp":"29",
     "wd:elevation":289.0,
     "wd:latitude":38.5836,
     "wd:longitude":-93.6953,
     "wd:population":566,
     "wd:wordcount":796,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404515679,
         85633793,
-        102085307
+        102085307,
+        404515679,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -127,12 +144,14 @@
         "gn:id":4394876,
         "gp:id":2437956,
         "qs_pg:id":252543,
+        "uscensus:geoid":2941402,
         "wd:id":"Q958326",
         "wk:page":"Leeton, Missouri"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"bf0f1373a1cc4bec5d2764d602a1c1c1",
     "wof:hierarchy":[
@@ -149,7 +168,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336267,
+    "wof:lastmodified":1613616803,
     "wof:name":"Leeton",
     "wof:parent_id":404515679,
     "wof:placetype":"locality",

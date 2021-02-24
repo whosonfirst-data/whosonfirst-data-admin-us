@@ -17,7 +17,7 @@
     "mps:latitude":38.949611,
     "mps:longitude":-90.593047,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:ara_x_preferred":[
         "\u0628\u0631\u0648\u0633\u0644"
@@ -93,18 +93,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":1444748,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"1709148",
+    "uscensus:intptlat":"+38.9484887",
+    "uscensus:intptlon":"-090.5890687",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Brussels",
+    "uscensus:namelsad":"Brussels village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"09148",
+    "uscensus:placens":"02397479",
+    "uscensus:statefp":"17",
     "wd:wordcount":749,
     "wof:belongsto":[
-        85688697,
         102191575,
-        404497425,
         85633793,
-        102087559
+        102087559,
+        404497425,
+        85688697
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -113,12 +130,14 @@
         "gn:id":4234671,
         "gp:id":2370839,
         "qs_pg:id":11253,
+        "uscensus:geoid":1709148,
         "wd:id":"Q2718202",
         "wk:page":"Brussels, Illinois"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"6d32fac4a9d42ab6ed13d0d7071dccb5",
     "wof:hierarchy":[
@@ -135,7 +154,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335830,
+    "wof:lastmodified":1613615143,
     "wof:name":"Brussels",
     "wof:parent_id":404497425,
     "wof:placetype":"locality",

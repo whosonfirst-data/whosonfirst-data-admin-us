@@ -10,11 +10,11 @@
     "geom:latitude":40.377003,
     "geom:longitude":-77.865437,
     "iso:country":"US",
-    "lbl:latitude":40.376819,
+    "lbl:latitude":40.37682,
     "lbl:longitude":-77.865017,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.5,
-    "mps:latitude":40.376819,
+    "mps:latitude":40.37682,
     "mps:longitude":-77.865017,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
@@ -84,18 +84,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":654315,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C5",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"4240016",
+    "uscensus:intptlat":"+40.3770029",
+    "uscensus:intptlon":"-077.8654367",
+    "uscensus:lsad":"21",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Kistler",
+    "uscensus:namelsad":"Kistler borough",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"40016",
+    "uscensus:placens":"01215456",
+    "uscensus:statefp":"42",
     "wd:wordcount":1268,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404483761,
         85633793,
-        102081333
+        102081333,
+        404483761,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -104,12 +121,14 @@
         "gn:id":5196342,
         "gp:id":2433200,
         "qs_pg:id":1342307,
+        "uscensus:geoid":4240016,
         "wd:id":"Q1181092",
         "wk:page":"Kistler, Pennsylvania"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"08e0ea8dd941d3562420b4a77ca17512",
     "wof:hierarchy":[
@@ -126,7 +145,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582338260,
+    "wof:lastmodified":1613615058,
     "wof:name":"Kistler",
     "wof:parent_id":404483761,
     "wof:placetype":"locality",

@@ -17,7 +17,7 @@
     "mps:latitude":38.349435,
     "mps:longitude":-85.934873,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:azb_x_preferred":[
         "\u0642\u0627\u0644\u0646\u0627"
@@ -93,18 +93,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":6918241,
+    "uscensus:awater":20156,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"1826206",
+    "uscensus:intptlat":"+38.3571325",
+    "uscensus:intptlon":"-085.9386804",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Galena",
+    "uscensus:namelsad":"Galena CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"26206",
+    "uscensus:placens":"02393016",
+    "uscensus:statefp":"18",
     "wd:wordcount":970,
     "wof:belongsto":[
-        85688709,
         102191575,
-        404500547,
         85633793,
-        102087137
+        102087137,
+        404500547,
+        85688709
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -113,12 +130,14 @@
         "gn:id":4257835,
         "gp:id":2408426,
         "qs_pg:id":900105,
+        "uscensus:geoid":1826206,
         "wd:id":"Q3322315",
         "wk:page":"Galena, Indiana"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"b59538904b15218695ad543f656f138b",
     "wof:hierarchy":[
@@ -135,7 +154,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336027,
+    "wof:lastmodified":1613615987,
     "wof:name":"Galena",
     "wof:parent_id":404500547,
     "wof:placetype":"locality",

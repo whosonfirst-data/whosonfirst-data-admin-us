@@ -11,11 +11,11 @@
     "geom:longitude":-92.674581,
     "iso:country":"US",
     "lbl:latitude":38.377455,
-    "lbl:longitude":-92.674582,
+    "lbl:longitude":-92.674581,
     "lbl:max_zoom":17.0,
     "lbl:min_zoom":12.5,
     "mps:latitude":38.377455,
-    "mps:longitude":-92.674582,
+    "mps:longitude":-92.674581,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -108,23 +108,40 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"wk",
+    "uscensus:aland":706515,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"2903376",
+    "uscensus:intptlat":"+38.3774079",
+    "uscensus:intptlon":"-092.6745811",
+    "uscensus:lsad":"25",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Barnett",
+    "uscensus:namelsad":"Barnett city",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"03376",
+    "uscensus:placens":"02394066",
+    "uscensus:statefp":"29",
     "wd:elevation":295.0,
     "wd:latitude":38.3769,
     "wd:longitude":-92.6747,
     "wd:population":203,
     "wd:wordcount":730,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404516999,
         85633793,
-        102081217
+        102081217,
+        404516999,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -133,12 +150,14 @@
         "gn:id":4375817,
         "gp:id":2359417,
         "qs_pg:id":195465,
+        "uscensus:geoid":2903376,
         "wd:id":"Q967416",
         "wk:page":"Barnett, Missouri"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"ea0b97092fedbc2804ac140ed24d615f",
     "wof:hierarchy":[
@@ -155,7 +174,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335833,
+    "wof:lastmodified":1613615749,
     "wof:name":"Barnett",
     "wof:parent_id":404516999,
     "wof:placetype":"locality",

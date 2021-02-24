@@ -13,13 +13,13 @@
     "gn:population":12,
     "iso:country":"US",
     "lbl:latitude":43.527178,
-    "lbl:longitude":-98.589463,
+    "lbl:longitude":-98.589466,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
     "mps:latitude":43.527178,
-    "mps:longitude":-98.589463,
+    "mps:longitude":-98.589466,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:cat_x_preferred":[
         "Aurora Center"
@@ -86,19 +86,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":111691,
+    "uscensus:awater":0,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"4602860",
+    "uscensus:intptlat":"+43.5271552",
+    "uscensus:intptlon":"-098.5894656",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Aurora Center",
+    "uscensus:namelsad":"Aurora Center CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"02860",
+    "uscensus:placens":"02393323",
+    "uscensus:statefp":"46",
     "wd:wordcount":402,
     "wof:belongsto":[
-        85688693,
         102191575,
-        404488707,
         85633793,
-        102086839
+        102086839,
+        404488707,
+        85688693
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -106,12 +123,14 @@
         "gn:id":5226091,
         "gp:id":2357494,
         "qs_pg:id":607393,
+        "uscensus:geoid":4602860,
         "wd:id":"Q2312955",
         "wk:page":"Aurora Center, South Dakota"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"3db864fef44e11f2d1a233e53f0cd502",
     "wof:hierarchy":[
@@ -125,7 +144,7 @@
         }
     ],
     "wof:id":101722309,
-    "wof:lastmodified":1582337935,
+    "wof:lastmodified":1613616060,
     "wof:name":"Aurora Center",
     "wof:parent_id":404488707,
     "wof:placetype":"locality",
