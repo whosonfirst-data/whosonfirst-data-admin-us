@@ -15,11 +15,11 @@
     "gn:population":305,
     "iso:country":"US",
     "lbl:latitude":42.535224,
-    "lbl:longitude":-99.700704,
+    "lbl:longitude":-99.700703,
     "lbl:max_zoom":17.0,
     "lbl:min_zoom":12.5,
     "mps:latitude":42.535224,
-    "mps:longitude":-99.700704,
+    "mps:longitude":-99.700703,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -115,23 +115,40 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"wk",
+    "uscensus:aland":1500517,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3129050",
+    "uscensus:intptlat":"+42.5352522",
+    "uscensus:intptlon":"-099.7026980",
+    "uscensus:lsad":"25",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Long Pine",
+    "uscensus:namelsad":"Long Pine city",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"29050",
+    "uscensus:placens":"02395757",
+    "uscensus:statefp":"31",
     "wd:elevation":732.0,
     "wd:latitude":42.535833,
     "wd:longitude":-99.702778,
     "wd:population":305,
     "wd:wordcount":943,
     "wof:belongsto":[
-        85688563,
         102191575,
-        404519333,
         85633793,
-        102082245
+        102082245,
+        404519333,
+        85688563
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -140,12 +157,14 @@
         "gn:id":5072296,
         "gp:id":2441594,
         "qs_pg:id":1051376,
+        "uscensus:geoid":3129050,
         "wd:id":"Q957991",
         "wk:page":"Long Pine, Nebraska"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"ad9796d085bfd5e820818159ab0bb9e1",
     "wof:hierarchy":[
@@ -162,7 +181,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335542,
+    "wof:lastmodified":1613615620,
     "wof:name":"Long Pine",
     "wof:parent_id":404519333,
     "wof:placetype":"locality",

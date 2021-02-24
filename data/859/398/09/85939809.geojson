@@ -15,13 +15,13 @@
     "gn:population":178,
     "iso:country":"US",
     "lbl:latitude":40.255244,
-    "lbl:longitude":-91.184832,
+    "lbl:longitude":-91.184831,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
     "mps:latitude":40.255244,
-    "mps:longitude":-91.184832,
+    "mps:longitude":-91.184831,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u0648\u0633\u062a \u0628\u0648\u064a\u0646\u062a"
@@ -105,19 +105,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":434820,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"1780762",
+    "uscensus:intptlat":"+40.2555762",
+    "uscensus:intptlon":"-091.1833075",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"West Point",
+    "uscensus:namelsad":"West Point village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"80762",
+    "uscensus:placens":"02400141",
+    "uscensus:statefp":"17",
     "wd:wordcount":436,
     "wof:belongsto":[
-        85688697,
         102191575,
-        404496439,
         85633793,
-        102082845
+        102082845,
+        404496439,
+        85688697
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -126,12 +143,14 @@
         "gn:id":4916059,
         "gp:id":2517583,
         "qs_pg:id":253063,
+        "uscensus:geoid":1780762,
         "wd:id":"Q2077751",
         "wk:page":"West Point, Illinois"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"174c4295f3693c9c4c2d736730ea2f1c",
     "wof:hierarchy":[
@@ -148,7 +167,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335487,
+    "wof:lastmodified":1613615379,
     "wof:name":"West Point",
     "wof:parent_id":404496439,
     "wof:placetype":"locality",

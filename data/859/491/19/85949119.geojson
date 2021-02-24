@@ -17,7 +17,7 @@
     "mps:latitude":46.764372,
     "mps:longitude":-67.835994,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:ara_x_preferred":[
         "\u0641\u0648\u0631\u062a \u0641\u064a\u0631\u0641\u064a\u0644\u062f"
@@ -78,30 +78,49 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":7584778,
+    "uscensus:awater":301285,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"2325580",
+    "uscensus:intptlat":"+46.7670648",
+    "uscensus:intptlon":"-067.8319403",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Fort Fairfield",
+    "uscensus:namelsad":"Fort Fairfield CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"25580",
+    "uscensus:placens":"02377910",
+    "uscensus:statefp":"23",
     "wd:wordcount":1054,
     "wof:belongsto":[
-        85688769,
         102191575,
-        404475379,
         85633793,
-        102081161
+        102081161,
+        404475379,
+        85688769
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "fips:code":"2325580",
         "gn:id":4964605,
         "qs_pg:id":1152641,
+        "uscensus:geoid":2325580,
         "wd:id":"Q3461783",
         "wk:page":"Fort Fairfield, Maine"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"bbd34ad595db14614b1a6fc90cd5b8c5",
     "wof:hierarchy":[
@@ -115,7 +134,7 @@
         }
     ],
     "wof:id":85949119,
-    "wof:lastmodified":1582335759,
+    "wof:lastmodified":1613616137,
     "wof:name":"Fort Fairfield",
     "wof:parent_id":404475379,
     "wof:placetype":"locality",

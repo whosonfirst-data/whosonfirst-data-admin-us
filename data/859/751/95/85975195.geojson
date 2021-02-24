@@ -21,7 +21,7 @@
     "mps:latitude":43.443034,
     "mps:longitude":-71.476955,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:cat_x_preferred":[
         "Belmont"
@@ -109,19 +109,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":3257718,
+    "uscensus:awater":32745,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"3304660",
+    "uscensus:intptlat":"+43.4399657",
+    "uscensus:intptlon":"-071.4788542",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Belmont",
+    "uscensus:namelsad":"Belmont CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"04660",
+    "uscensus:placens":"02629713",
+    "uscensus:statefp":"33",
     "wd:wordcount":1032,
     "wof:belongsto":[
-        85688689,
         102191575,
-        404477087,
         85633793,
-        102086503
+        102086503,
+        404477087,
+        85688689
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -129,12 +146,14 @@
         "gn:id":5083288,
         "gp:id":2362233,
         "qs_pg:id":354790,
+        "uscensus:geoid":3304660,
         "wd:id":"Q2310774",
         "wk:page":"Belmont, New Hampshire"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"ed5c468b84db04ed6607e8f1cde250cf",
     "wof:hierarchy":[
@@ -148,7 +167,7 @@
         }
     ],
     "wof:id":85975195,
-    "wof:lastmodified":1582335949,
+    "wof:lastmodified":1613615023,
     "wof:name":"Belmont",
     "wof:parent_id":404477087,
     "wof:placetype":"locality",

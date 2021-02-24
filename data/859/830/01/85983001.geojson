@@ -4,22 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.00007,
-    "geom:area_square_m":660812.335559,
-    "geom:bbox":"-83.627348,39.994518,-83.617613,40.004638",
-    "geom:latitude":39.999963,
-    "geom:longitude":-83.622593,
+    "geom:area":0.000063,
+    "geom:area_square_m":597061.986687,
+    "geom:bbox":"-83.626877,39.994098,-83.617009,40.004003",
+    "geom:latitude":39.999627,
+    "geom:longitude":-83.621903,
     "gn:elevation":377,
     "gn:latitude":39.99923,
     "gn:longitude":-83.62159,
     "gn:population":272,
     "iso:country":"US",
-    "lbl:latitude":40.000117,
-    "lbl:longitude":-83.622686,
+    "lbl:latitude":39.999513,
+    "lbl:longitude":-83.621997,
     "lbl:max_zoom":17.0,
     "lbl:min_zoom":12.5,
-    "mps:latitude":40.000117,
-    "mps:longitude":-83.622686,
+    "mps:latitude":39.999513,
+    "mps:longitude":-83.621997,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -97,19 +97,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":597654,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3912560",
+    "uscensus:intptlat":"+39.9996265",
+    "uscensus:intptlon":"-083.6219030",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Catawba",
+    "uscensus:namelsad":"Catawba village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"12560",
+    "uscensus:placens":"02397575",
+    "uscensus:statefp":"39",
     "wd:wordcount":795,
     "wof:belongsto":[
-        85688485,
         102191575,
-        404523637,
         85633793,
-        102083685
+        102083685,
+        404523637,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -118,14 +135,16 @@
         "gn:id":4508064,
         "gp:id":2376255,
         "qs_pg:id":327355,
+        "uscensus:geoid":3912560,
         "wd:id":"Q1844924",
         "wk:page":"Catawba, Ohio"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"70079427a5dd85eb9e316d44cb1ff99a",
+    "wof:geomhash":"33b5cb2d95031611cc13c0905479816a",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -140,7 +159,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336195,
+    "wof:lastmodified":1613616688,
     "wof:name":"Catawba",
     "wof:parent_id":404523637,
     "wof:placetype":"locality",
@@ -152,10 +171,10 @@
     "wof:tags":[]
 },
   "bbox": [
-    -83.627348,
-    39.994518,
-    -83.617613,
-    40.004638
+    -83.626877,
+    39.994098,
+    -83.617009,
+    40.004003
 ],
-  "geometry": {"coordinates":[[[-83.62517200000001,40.003774],[-83.624427,40.003863],[-83.617953,40.004638],[-83.617885,40.004112],[-83.61761300000001,40.003339],[-83.617932,40.002301],[-83.61840599999999,40.000535],[-83.61878900000001,39.999393],[-83.619496,39.996997],[-83.619764,39.996301],[-83.623116,39.994865],[-83.623893,39.994518],[-83.62599,39.995562],[-83.626077,39.995843],[-83.62671400000001,39.998434],[-83.62678200000001,39.998636],[-83.626724,39.999036],[-83.626958,40.000145],[-83.62719,40.001231],[-83.627348,40.00195],[-83.62517200000001,40.003774]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-83.62687699999999,40.001272],[-83.624087,40.003298],[-83.62405,40.003314],[-83.623306,40.003383],[-83.62309999999999,40.003402],[-83.62297100000001,40.003414],[-83.622674,40.003441],[-83.61763999999999,40.003907],[-83.617289,40.004003],[-83.617009,40.003155],[-83.61703,40.003143],[-83.617065,40.003049],[-83.61730300000001,40.002341],[-83.617571,40.001539],[-83.61765800000001,40.001281],[-83.617749,40.001009],[-83.617819,40.0008],[-83.61793400000001,40.000459],[-83.61805699999999,40.000091],[-83.61827099999999,39.999166],[-83.618942,39.996279],[-83.623141,39.994464],[-83.624042,39.994098],[-83.624692,39.995712],[-83.62495,39.996367],[-83.625062,39.996648],[-83.625113,39.996767],[-83.625563,39.997899],[-83.625719,39.998458],[-83.62646700000001,40.000267],[-83.62687699999999,40.001272]]],"type":"Polygon"}
 }

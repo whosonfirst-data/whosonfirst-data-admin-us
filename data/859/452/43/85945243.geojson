@@ -11,11 +11,11 @@
     "geom:longitude":-95.628451,
     "iso:country":"US",
     "lbl:latitude":39.393816,
-    "lbl:longitude":-95.628479,
+    "lbl:longitude":-95.62848,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
     "mps:latitude":39.393816,
-    "mps:longitude":-95.628479,
+    "mps:longitude":-95.62848,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -108,23 +108,40 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"wk",
+    "uscensus:aland":290947,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"2017625",
+    "uscensus:intptlat":"+39.3937945",
+    "uscensus:intptlon":"-095.6284508",
+    "uscensus:lsad":"25",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Denison",
+    "uscensus:namelsad":"Denison city",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"17625",
+    "uscensus:placens":"02394515",
+    "uscensus:statefp":"20",
     "wd:elevation":318.0,
     "wd:latitude":39.3933,
     "wd:longitude":-95.6283,
     "wd:population":187,
     "wd:wordcount":1276,
     "wof:belongsto":[
-        85688555,
         102191575,
-        404504161,
         85633793,
-        102082125
+        102082125,
+        404504161,
+        85688555
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -133,12 +150,14 @@
         "gn:id":4270345,
         "gp:id":2391101,
         "qs_pg:id":589243,
+        "uscensus:geoid":2017625,
         "wd:id":"Q2666642",
         "wk:page":"Denison, Kansas"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"64c17e6329cb7748236455cd495e3685",
     "wof:hierarchy":[
@@ -155,7 +174,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335715,
+    "wof:lastmodified":1613614750,
     "wof:name":"Denison",
     "wof:parent_id":404504161,
     "wof:placetype":"locality",

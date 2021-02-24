@@ -21,7 +21,7 @@
     "mps:latitude":43.034,
     "mps:longitude":-70.940685,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u0646\u064a\u0648\u0641\u064a\u0644\u062f\u0632"
@@ -109,19 +109,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":984324,
+    "uscensus:awater":0,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"3351300",
+    "uscensus:intptlat":"+43.0354772",
+    "uscensus:intptlon":"-070.9390420",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Newfields",
+    "uscensus:namelsad":"Newfields CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"51300",
+    "uscensus:placens":"02629731",
+    "uscensus:statefp":"33",
     "wd:wordcount":888,
     "wof:belongsto":[
-        85688689,
         102191575,
-        404476763,
         85633793,
-        102086507
+        102086507,
+        404476763,
+        85688689
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -129,12 +146,14 @@
         "gn:id":5090229,
         "gp:id":2459443,
         "qs_pg:id":187615,
+        "uscensus:geoid":3351300,
         "wd:id":"Q2417067",
         "wk:page":"Newfields, New Hampshire"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"3b27b090c62484053457befdbebd90fe",
     "wof:hierarchy":[
@@ -151,7 +170,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335950,
+    "wof:lastmodified":1613614946,
     "wof:name":"Newfields",
     "wof:parent_id":404476763,
     "wof:placetype":"locality",

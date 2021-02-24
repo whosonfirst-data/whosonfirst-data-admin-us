@@ -4,22 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.000152,
-    "geom:area_square_m":1358591.924141,
-    "geom:bbox":"-93.934168,43.579619,-93.918208,43.590341",
-    "geom:latitude":43.584707,
-    "geom:longitude":-93.926092,
+    "geom:area":0.000124,
+    "geom:area_square_m":1113344.253942,
+    "geom:bbox":"-93.930797,43.579523,-93.918211,43.590279",
+    "geom:latitude":43.584582,
+    "geom:longitude":-93.924795,
     "gn:elevation":344,
     "gn:latitude":43.58634,
     "gn:longitude":-93.92662,
     "gn:population":198,
     "iso:country":"US",
-    "lbl:latitude":43.584933,
-    "lbl:longitude":-93.927156,
+    "lbl:latitude":43.584398,
+    "lbl:longitude":-93.925718,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
-    "mps:latitude":43.584933,
-    "mps:longitude":-93.927156,
+    "mps:latitude":43.584398,
+    "mps:longitude":-93.925718,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -127,22 +127,39 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":1115372,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C5",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"2722940",
+    "uscensus:intptlat":"+43.5845815",
+    "uscensus:intptlon":"-093.9247948",
+    "uscensus:lsad":"25",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Frost",
+    "uscensus:namelsad":"Frost city",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"22940",
+    "uscensus:placens":"02394830",
+    "uscensus:statefp":"27",
     "wd:elevation":344.0,
     "wd:latitude":43.586389,
     "wd:longitude":-93.926667,
     "wd:wordcount":791,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404509609,
         85633793,
-        102087833
+        102087833,
+        404509609,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -151,14 +168,16 @@
         "gn:id":5027530,
         "gp:id":2407894,
         "qs_pg:id":896663,
+        "uscensus:geoid":2722940,
         "wd:id":"Q2230717",
         "wk:page":"Frost, Minnesota"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"5080a4fb42156ea6342b79a0ab679f1b",
+    "wof:geomhash":"c4b46c5acaf774a2299c745d171bb1a3",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -173,7 +192,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336278,
+    "wof:lastmodified":1613616051,
     "wof:name":"Frost",
     "wof:parent_id":404509609,
     "wof:placetype":"locality",
@@ -185,10 +204,10 @@
     "wof:tags":[]
 },
   "bbox": [
-    -93.934168,
-    43.579619,
-    -93.918208,
-    43.590341
+    -93.930797,
+    43.579523,
+    -93.918211,
+    43.590279
 ],
-  "geometry": {"coordinates":[[[-93.934168,43.590267],[-93.93152499999999,43.590341],[-93.92806899999999,43.59024],[-93.92324000000001,43.59024],[-93.923202,43.588438],[-93.918227,43.588473],[-93.918227,43.58842],[-93.918211,43.587384],[-93.91823599999999,43.586683],[-93.918269,43.586349],[-93.918263,43.586218],[-93.918237,43.585686],[-93.91824800000001,43.581333],[-93.91820800000001,43.579619],[-93.92815899999999,43.579627],[-93.933144,43.579625],[-93.93337,43.585427],[-93.93337099999999,43.586698],[-93.933443,43.589929],[-93.933629,43.590025],[-93.933854,43.590154],[-93.93405300000001,43.590236],[-93.934168,43.590267]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-93.93075899999999,43.584521],[-93.930742,43.586684],[-93.93072600000001,43.588842],[-93.93072600000001,43.589335],[-93.930716,43.590195],[-93.928633,43.590219],[-93.928169,43.590224],[-93.92806899999999,43.590227],[-93.927134,43.590235],[-93.926922,43.590237],[-93.92321,43.590279],[-93.92321800000001,43.589545],[-93.92322,43.589281],[-93.923202,43.588438],[-93.918227,43.588473],[-93.918227,43.58842],[-93.918211,43.587384],[-93.91823599999999,43.586683],[-93.918314,43.586349],[-93.918344,43.586208],[-93.918339,43.585681],[-93.918301,43.581065],[-93.918288,43.57959],[-93.92816000000001,43.579541],[-93.930797,43.579523],[-93.93075899999999,43.584521]]],"type":"Polygon"}
 }

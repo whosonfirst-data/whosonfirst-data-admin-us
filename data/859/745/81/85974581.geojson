@@ -15,11 +15,11 @@
     "gn:population":75,
     "iso:country":"US",
     "lbl:latitude":40.207796,
-    "lbl:longitude":-96.234316,
+    "lbl:longitude":-96.234315,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
     "mps:latitude":40.207796,
-    "mps:longitude":-96.234316,
+    "mps:longitude":-96.234315,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -100,22 +100,39 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":349530,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3147080",
+    "uscensus:intptlat":"+40.2072888",
+    "uscensus:intptlon":"-096.2329013",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Steinauer",
+    "uscensus:namelsad":"Steinauer village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"47080",
+    "uscensus:placens":"02399893",
+    "uscensus:statefp":"31",
     "wd:elevation":370.0,
     "wd:latitude":40.208056,
     "wd:longitude":-96.2325,
     "wd:wordcount":782,
     "wof:belongsto":[
-        85688563,
         102191575,
-        404520157,
         85633793,
-        102082223
+        102082223,
+        404520157,
+        85688563
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -124,12 +141,14 @@
         "gn:id":5079622,
         "gp:id":2499508,
         "qs_pg:id":826941,
+        "uscensus:geoid":3147080,
         "wd:id":"Q2161350",
         "wk:page":"Steinauer, Nebraska"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"c31f7d4fd1bb1576cb94a7f5afd6610c",
     "wof:hierarchy":[
@@ -146,7 +165,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336319,
+    "wof:lastmodified":1613615707,
     "wof:name":"Steinauer",
     "wof:parent_id":404520157,
     "wof:placetype":"locality",

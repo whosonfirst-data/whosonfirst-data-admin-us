@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000385,
-    "geom:area_square_m":3523161.127782,
+    "geom:area_square_m":3523161.127783,
     "geom:bbox":"-79.111769,42.28693,-79.089946,42.304785",
     "geom:latitude":42.295846,
     "geom:longitude":-79.100858,
@@ -21,7 +21,7 @@
     "mps:latitude":42.295795,
     "mps:longitude":-79.100858,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u062a\u0634\u0631\u064a \u0643\u0631\u064a\u0643"
@@ -86,19 +86,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":3528530,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3615187",
+    "uscensus:intptlat":"+42.2958455",
+    "uscensus:intptlon":"-079.1008582",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Cherry Creek",
+    "uscensus:namelsad":"Cherry Creek village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"15187",
+    "uscensus:placens":"02391601",
+    "uscensus:statefp":"36",
     "wd:wordcount":833,
     "wof:belongsto":[
-        85688543,
         102191575,
-        404521251,
         85633793,
-        102081811
+        102081811,
+        404521251,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -107,14 +124,16 @@
         "gn:id":5112430,
         "gp:id":2379016,
         "qs_pg:id":1038242,
+        "uscensus:geoid":3615187,
         "wd:id":"Q5092318",
         "wk:page":"Cherry Creek, New York"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"2be8035f4eb8aadd675fa8edbd2d6deb",
+    "wof:geomhash":"f5fe08044d65220ce16476fadc17ac71",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -129,7 +148,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336241,
+    "wof:lastmodified":1613615513,
     "wof:name":"Cherry Creek",
     "wof:parent_id":404521251,
     "wof:placetype":"locality",
@@ -146,5 +165,5 @@
     -79.089946,
     42.304785
 ],
-  "geometry": {"coordinates":[[[-79.10705400000001,42.30472],[-79.10545500000001,42.304702],[-79.103002,42.304748],[-79.101696,42.304629],[-79.093086,42.304716],[-79.089978,42.30471],[-79.089946,42.302544],[-79.09005500000001,42.293338],[-79.09004,42.292554],[-79.090023,42.287415],[-79.09003199999999,42.286934],[-79.09231,42.28693],[-79.09854300000001,42.28693],[-79.106579,42.287005],[-79.111592,42.287012],[-79.111599,42.287218],[-79.111769,42.293377],[-79.111767,42.293649],[-79.111746,42.29778],[-79.111746,42.298394],[-79.111712,42.304183],[-79.111672,42.304785],[-79.10705400000001,42.30472]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-79.111767,42.293649],[-79.111746,42.29778],[-79.111746,42.298394],[-79.111712,42.304183],[-79.111672,42.304785],[-79.10705400000001,42.30472],[-79.10545500000001,42.304702],[-79.103002,42.304748],[-79.101696,42.304629],[-79.093086,42.304716],[-79.089978,42.30471],[-79.089946,42.302544],[-79.09005500000001,42.293338],[-79.09004,42.292554],[-79.090023,42.287415],[-79.09003199999999,42.286934],[-79.09231,42.28693],[-79.09854300000001,42.28693],[-79.106579,42.287005],[-79.111592,42.287012],[-79.111599,42.287218],[-79.111769,42.293377],[-79.111767,42.293649]]],"type":"Polygon"}
 }

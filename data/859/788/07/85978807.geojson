@@ -21,7 +21,7 @@
     "mps:latitude":42.548125,
     "mps:longitude":-75.245531,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:deu_x_preferred":[
         "Morris"
@@ -79,18 +79,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":1931190,
+    "uscensus:awater":20683,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3648483",
+    "uscensus:intptlat":"+42.5481183",
+    "uscensus:intptlon":"-075.2452916",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Morris",
+    "uscensus:namelsad":"Morris village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"48483",
+    "uscensus:placens":"02390996",
+    "uscensus:statefp":"36",
     "wof:belongsto":[
-        85688543,
         102191575,
-        404522981,
         85633793,
-        102082399
+        102082399,
+        404522981,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -99,12 +116,14 @@
         "gn:id":5127533,
         "gp:id":2454253,
         "qs_pg:id":18033,
+        "uscensus:geoid":3648483,
         "wd:id":"Q3709301",
         "wk:page":"Morris (town), New York"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"95f858a060039b31c647823816bf674c",
     "wof:hierarchy":[
@@ -121,7 +140,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336240,
+    "wof:lastmodified":1613616644,
     "wof:name":"Morris",
     "wof:parent_id":404522981,
     "wof:placetype":"locality",

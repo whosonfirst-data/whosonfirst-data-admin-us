@@ -13,11 +13,11 @@
     "gn:population":38,
     "iso:country":"US",
     "lbl:latitude":39.959871,
-    "lbl:longitude":-77.248339,
+    "lbl:longitude":-77.24834,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
     "mps:latitude":39.959871,
-    "mps:longitude":-77.248339,
+    "mps:longitude":-77.24834,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -74,19 +74,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":155379,
+    "uscensus:awater":0,
+    "uscensus:classfp":"U2",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"4226328",
+    "uscensus:intptlat":"+39.9597977",
+    "uscensus:intptlon":"-077.2483401",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Flora Dale",
+    "uscensus:namelsad":"Flora Dale CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"26328",
+    "uscensus:placens":"02633655",
+    "uscensus:statefp":"42",
     "wd:wordcount":212,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404484909,
         85633793,
-        102080899
+        102080899,
+        404484909,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -94,14 +111,16 @@
         "gn:id":4557994,
         "gp:id":2404461,
         "qs_pg:id":1332267,
+        "uscensus:geoid":4226328,
         "wd:id":"Q5460458",
         "wk:page":"Floradale, Pennsylvania"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"cf94b10bdd026f9eb85c8df76ecb6fc9",
+    "wof:geomhash":"f8719e852c0d471e8dfe5693746114cf",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -113,7 +132,7 @@
         }
     ],
     "wof:id":101720555,
-    "wof:lastmodified":1582338288,
+    "wof:lastmodified":1613615070,
     "wof:name":"Flora Dale",
     "wof:parent_id":404484909,
     "wof:placetype":"locality",
@@ -130,5 +149,5 @@
     -77.245854,
     39.961889
 ],
-  "geometry": {"coordinates":[[[-77.250666,39.961768],[-77.249835,39.961889],[-77.248724,39.961876],[-77.248696,39.961678],[-77.24866900000001,39.961436],[-77.248626,39.961122],[-77.248527,39.961123],[-77.247259,39.961074],[-77.246117,39.961018],[-77.24586499999999,39.961],[-77.24585399999999,39.957492],[-77.24605099999999,39.95754],[-77.24678400000001,39.957624],[-77.24773,39.957697],[-77.24811200000001,39.957687],[-77.24815700000001,39.957686],[-77.248282,39.958623],[-77.24901300000001,39.958667],[-77.24958100000001,39.958702],[-77.250883,39.958791],[-77.251042,39.961714],[-77.250666,39.961768]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-77.251042,39.961714],[-77.250666,39.961768],[-77.249835,39.961889],[-77.248724,39.961876],[-77.248696,39.961678],[-77.24866900000001,39.961436],[-77.248626,39.961122],[-77.248527,39.961123],[-77.247259,39.961074],[-77.246117,39.961018],[-77.24586499999999,39.961],[-77.24585399999999,39.957492],[-77.24605099999999,39.95754],[-77.24678400000001,39.957624],[-77.24773,39.957697],[-77.24811200000001,39.957687],[-77.24815700000001,39.957686],[-77.248282,39.958623],[-77.24901300000001,39.958667],[-77.24958100000001,39.958702],[-77.250883,39.958791],[-77.251042,39.961714]]],"type":"Polygon"}
 }

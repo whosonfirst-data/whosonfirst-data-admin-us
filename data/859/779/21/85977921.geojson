@@ -21,7 +21,7 @@
     "mps:latitude":43.018522,
     "mps:longitude":-74.031838,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u063a\u0627\u0644\u0648\u0627\u064a"
@@ -79,19 +79,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":662979,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3628101",
+    "uscensus:intptlat":"+43.0185160",
+    "uscensus:intptlon":"-074.0318378",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Galway",
+    "uscensus:namelsad":"Galway village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"28101",
+    "uscensus:placens":"02390856",
+    "uscensus:statefp":"36",
     "wd:wordcount":1217,
     "wof:belongsto":[
-        85688543,
         102191575,
-        404521591,
         85633793,
-        102082413
+        102082413,
+        404521591,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -100,14 +117,16 @@
         "gn:id":5118209,
         "gp:id":2408595,
         "qs_pg:id":1038331,
+        "uscensus:geoid":3628101,
         "wd:id":"Q5519453",
         "wk:page":"Galway, New York"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"9cb448c8fba9ca75a0f0e8522dc9718e",
+    "wof:geomhash":"2b12129f4418f4fddeed8d7e374eb35c",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -122,7 +141,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335884,
+    "wof:lastmodified":1613615526,
     "wof:name":"Galway",
     "wof:parent_id":404521591,
     "wof:placetype":"locality",
@@ -139,5 +158,5 @@
     -74.026303,
     43.022542
 ],
-  "geometry": {"coordinates":[[[-74.032089,43.022132],[-74.027295,43.022542],[-74.02681200000001,43.018832],[-74.026303,43.015293],[-74.031057,43.014954],[-74.036343,43.014522],[-74.03689900000001,43.018072],[-74.037407,43.021644],[-74.032089,43.022132]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-74.037407,43.021644],[-74.032089,43.022132],[-74.027295,43.022542],[-74.02681200000001,43.018832],[-74.026303,43.015293],[-74.031057,43.014954],[-74.036343,43.014522],[-74.03689900000001,43.018072],[-74.037407,43.021644]]],"type":"Polygon"}
 }

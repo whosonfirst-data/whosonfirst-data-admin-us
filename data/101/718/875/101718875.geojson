@@ -19,7 +19,7 @@
     "mps:latitude":39.930837,
     "mps:longitude":-77.24915,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:cat_x_preferred":[
         "Biglerville"
@@ -95,19 +95,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":1686050,
+    "uscensus:awater":5107,
+    "uscensus:classfp":"C5",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"4206296",
+    "uscensus:intptlat":"+39.9295126",
+    "uscensus:intptlon":"-077.2468418",
+    "uscensus:lsad":"21",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Biglerville",
+    "uscensus:namelsad":"Biglerville borough",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"06296",
+    "uscensus:placens":"01214753",
+    "uscensus:statefp":"42",
     "wd:wordcount":1327,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404482787,
         85633793,
-        102080899
+        102080899,
+        404482787,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -115,12 +132,14 @@
         "gn:id":4556595,
         "gp:id":2364217,
         "qs_pg:id":687348,
+        "uscensus:geoid":4206296,
         "wd:id":"Q1130809",
         "wk:page":"Biglerville, Pennsylvania"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"fb623a5b8989129cffa2854bb08d274b",
     "wof:hierarchy":[
@@ -134,7 +153,7 @@
         }
     ],
     "wof:id":101718875,
-    "wof:lastmodified":1582338320,
+    "wof:lastmodified":1613614944,
     "wof:name":"Biglerville",
     "wof:parent_id":404482787,
     "wof:placetype":"locality",

@@ -4,18 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.000131,
-    "geom:area_square_m":1154853.139353,
-    "geom:bbox":"-97.12893,44.354921,-97.11956,44.369464",
-    "geom:latitude":44.362263,
-    "geom:longitude":-97.124256,
+    "geom:area":0.000149,
+    "geom:area_square_m":1313002.130408,
+    "geom:bbox":"-97.12893,44.354921,-97.11808,44.369474",
+    "geom:latitude":44.362302,
+    "geom:longitude":-97.123658,
     "iso:country":"US",
-    "lbl:latitude":44.362241,
-    "lbl:longitude":-97.124256,
+    "lbl:latitude":44.362215,
+    "lbl:longitude":-97.123658,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
-    "mz:hierarchy_label":0,
-    "mz:is_current":-1,
+    "mps:latitude":44.362215,
+    "mps:longitude":-97.123658,
+    "mz:hierarchy_label":1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Arlington"
@@ -159,18 +161,32 @@
     "qs:pop":8,
     "qs:source":"US Census",
     "qs:type":"city",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
+    "src:geom_alt":[
+        "quattroshapes"
+    ],
+    "src:lbl_centroid":"mapshaper",
     "src:population":"quattroshapes",
+    "uscensus:countyfp":11,
+    "uscensus:geoid":4601102180,
+    "uscensus:name":"Arlington",
+    "uscensus:namelsad":"Arlington city",
+    "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688693,
-        102086013
+        102086013,
+        85688693
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "uscensus:geoid":4601102180
+    },
     "wof:country":"US",
-    "wof:geomhash":"336bfa8b080ae6e8c9ea76597a3933a9",
+    "wof:geom_alt":[
+        "quattroshapes"
+    ],
+    "wof:geomhash":"b3222de43bc863b86ceffd1a493347c1",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -181,7 +197,7 @@
         }
     ],
     "wof:id":404488767,
-    "wof:lastmodified":1566633012,
+    "wof:lastmodified":1605055810,
     "wof:name":"Arlington",
     "wof:parent_id":102086013,
     "wof:placetype":"localadmin",
@@ -195,8 +211,8 @@
   "bbox": [
     -97.12893,
     44.354921,
-    -97.11956,
-    44.369464
+    -97.11808,
+    44.369474
 ],
-  "geometry": {"coordinates":[[[-97.12893,44.355125],[-97.12882399999999,44.359435],[-97.128773,44.361124],[-97.128714,44.36946],[-97.11956000000001,44.369464],[-97.11993,44.354921],[-97.12893,44.355125]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-97.128714,44.36946],[-97.12767700000001,44.369474],[-97.12251000000001,44.369461],[-97.119556,44.369464],[-97.11808000000001,44.369465],[-97.118965,44.355644],[-97.118993,44.355222],[-97.119012,44.354923],[-97.119933,44.354921],[-97.12174,44.354951],[-97.127234,44.354996],[-97.12836,44.35499],[-97.12866200000001,44.355061],[-97.12893,44.355125],[-97.128923,44.356081],[-97.128844,44.357835],[-97.12882399999999,44.359435],[-97.128777,44.36042],[-97.128773,44.361124],[-97.128771,44.361569],[-97.128764,44.361988],[-97.128767,44.362249],[-97.128765,44.362623],[-97.128764,44.362849],[-97.128749,44.363698],[-97.12873399999999,44.364495],[-97.128744,44.364965],[-97.128744,44.366074],[-97.12872400000001,44.367895],[-97.12872299999999,44.36814],[-97.128714,44.36946]]],"type":"Polygon"}
 }

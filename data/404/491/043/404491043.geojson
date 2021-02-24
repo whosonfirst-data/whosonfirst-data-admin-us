@@ -4,18 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.000049,
-    "geom:area_square_m":426265.972297,
+    "geom:area":0.000048,
+    "geom:area_square_m":421150.791838,
     "geom:bbox":"-98.326859,45.156111,-98.317944,45.162168",
-    "geom:latitude":45.159171,
-    "geom:longitude":-98.322583,
+    "geom:latitude":45.159204,
+    "geom:longitude":-98.322555,
     "iso:country":"US",
-    "lbl:latitude":45.159115,
-    "lbl:longitude":-98.322583,
+    "lbl:latitude":45.159197,
+    "lbl:longitude":-98.322555,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
-    "mz:hierarchy_label":0,
-    "mz:is_current":-1,
+    "mps:latitude":45.159197,
+    "mps:longitude":-98.322555,
+    "mz:hierarchy_label":1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u0628\u0631\u064a\u0646\u062a\u0641\u0648\u0631\u062f"
@@ -117,18 +119,32 @@
     "qs:pop":77,
     "qs:source":"US Census",
     "qs:type":"town",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
+    "src:geom_alt":[
+        "quattroshapes"
+    ],
+    "src:lbl_centroid":"mapshaper",
     "src:population":"quattroshapes",
+    "uscensus:countyfp":115,
+    "uscensus:geoid":4611507060,
+    "uscensus:name":"Brentford",
+    "uscensus:namelsad":"Brentford town",
+    "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688693,
-        102086027
+        102086027,
+        85688693
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "uscensus:geoid":4611507060
+    },
     "wof:country":"US",
-    "wof:geomhash":"b5a3aa7711d50c70915b4707636a8f05",
+    "wof:geom_alt":[
+        "quattroshapes"
+    ],
+    "wof:geomhash":"c68d9bfdea8d5ccd444c1353c6172e90",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -139,7 +155,7 @@
         }
     ],
     "wof:id":404491043,
-    "wof:lastmodified":1566632051,
+    "wof:lastmodified":1605055587,
     "wof:name":"Brentford",
     "wof:parent_id":102086027,
     "wof:placetype":"localadmin",
@@ -156,5 +172,5 @@
     -98.317944,
     45.162168
 ],
-  "geometry": {"coordinates":[[[-98.32253,45.156116],[-98.326584,45.156292],[-98.326859,45.161842],[-98.32586999999999,45.162168],[-98.317944,45.16203],[-98.31849099999999,45.161145],[-98.318467,45.156312],[-98.32121100000001,45.156111],[-98.32253,45.156116]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-98.32117599999999,45.156111],[-98.321336,45.156111],[-98.321455,45.156112],[-98.32169399999999,45.156112],[-98.32253,45.156116],[-98.32253,45.156198],[-98.32252800000001,45.156295],[-98.32386,45.156272],[-98.326584,45.156292],[-98.326859,45.161842],[-98.326499,45.161837],[-98.326267,45.161831],[-98.32589,45.161818],[-98.32586999999999,45.162168],[-98.322472,45.162097],[-98.317944,45.16203],[-98.318016,45.161308],[-98.318031,45.16116],[-98.31849099999999,45.161145],[-98.31845,45.156322],[-98.32118,45.156321],[-98.321179,45.156193],[-98.32117599999999,45.156111]]],"type":"Polygon"}
 }

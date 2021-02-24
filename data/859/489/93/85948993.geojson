@@ -17,7 +17,7 @@
     "mps:latitude":43.859934,
     "mps:longitude":-70.100023,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:ara_x_preferred":[
         "\u0641\u0631\u064a\u0628\u0648\u0631\u062a"
@@ -111,18 +111,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":4443771,
+    "uscensus:awater":0,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"2326490",
+    "uscensus:intptlat":"+43.8570507",
+    "uscensus:intptlon":"-070.1025926",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Freeport",
+    "uscensus:namelsad":"Freeport CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"26490",
+    "uscensus:placens":"02377912",
+    "uscensus:statefp":"23",
     "wd:wordcount":1573,
     "wof:belongsto":[
-        85688769,
         102191575,
-        404475527,
         85633793,
-        102087463
+        102087463,
+        404475527,
+        85688769
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -132,12 +149,14 @@
         "gp:id":2407348,
         "nyt:id":"N77369443724258503171",
         "qs_pg:id":14266,
+        "uscensus:geoid":2326490,
         "wd:id":"Q1453617",
         "wk:page":"Freeport, Maine"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"b696ed4420a25d36eae109b68126f22c",
     "wof:hierarchy":[
@@ -151,7 +170,7 @@
         }
     ],
     "wof:id":85948993,
-    "wof:lastmodified":1582336117,
+    "wof:lastmodified":1613616139,
     "wof:name":"Freeport",
     "wof:parent_id":404475527,
     "wof:placetype":"locality",

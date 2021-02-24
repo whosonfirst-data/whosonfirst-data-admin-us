@@ -19,7 +19,7 @@
     "mps:latitude":43.76553,
     "mps:longitude":-89.460533,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u0628\u0627\u0643\u0648\u0627\u0643\u064a"
@@ -68,19 +68,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":1243982,
+    "uscensus:awater":0,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"5560950",
+    "uscensus:intptlat":"+43.7653023",
+    "uscensus:intptlon":"-089.4597898",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Packwaukee",
+    "uscensus:namelsad":"Packwaukee CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"60950",
+    "uscensus:placens":"02586539",
+    "uscensus:statefp":"55",
     "wd:wordcount":453,
     "wof:belongsto":[
-        85688517,
         102191575,
-        404494055,
         85633793,
-        102081849
+        102081849,
+        404494055,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -89,12 +106,14 @@
         "gn:id":5266122,
         "gp:id":2467372,
         "qs_pg:id":271455,
+        "uscensus:geoid":5560950,
         "wd:id":"Q1886363",
         "wk:page":"Packwaukee, Wisconsin"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"778818acb3229d8230ee30f1fbb406c3",
     "wof:hierarchy":[
@@ -111,7 +130,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582338140,
+    "wof:lastmodified":1613616362,
     "wof:name":"Packwaukee",
     "wof:parent_id":404494055,
     "wof:placetype":"locality",

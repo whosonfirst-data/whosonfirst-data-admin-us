@@ -21,7 +21,7 @@
     "mps:latitude":42.183909,
     "mps:longitude":-76.671175,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:cat_x_preferred":[
         "Erin"
@@ -100,18 +100,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":1935745,
+    "uscensus:awater":24605,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"3624625",
+    "uscensus:intptlat":"+42.1840789",
+    "uscensus:intptlon":"-076.6717029",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Erin",
+    "uscensus:namelsad":"Erin CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"24625",
+    "uscensus:placens":"02632285",
+    "uscensus:statefp":"36",
     "wof:belongsto":[
-        85688543,
         102191575,
-        404521269,
         85633793,
-        102081819
+        102081819,
+        404521269,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -120,12 +137,14 @@
         "gn:id":5116649,
         "gp:id":2400084,
         "qs_pg:id":1210852,
+        "uscensus:geoid":3624625,
         "wd:id":"Q19461602",
         "wk:page":"Erin (CDP), New York"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"70819f95fe28711850a3281448c263ea",
     "wof:hierarchy":[
@@ -142,7 +161,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336310,
+    "wof:lastmodified":1613615513,
     "wof:name":"Erin",
     "wof:parent_id":404521269,
     "wof:placetype":"locality",

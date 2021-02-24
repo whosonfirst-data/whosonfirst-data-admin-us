@@ -19,7 +19,7 @@
     "mps:latitude":39.725066,
     "mps:longitude":-77.513834,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:azb_x_preferred":[
         "\u067e\u0646 \u0645\u0627\u0631"
@@ -53,18 +53,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":1912992,
+    "uscensus:awater":17949,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"4258776",
+    "uscensus:intptlat":"+39.7263232",
+    "uscensus:intptlon":"-077.5159702",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Pen Mar",
+    "uscensus:namelsad":"Pen Mar CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"58776",
+    "uscensus:placens":"02634268",
+    "uscensus:statefp":"42",
     "wof:belongsto":[
-        85688481,
         102191575,
-        404485519,
         85633793,
-        102081365
+        102081365,
+        404485519,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -73,12 +90,14 @@
         "gn:id":4560271,
         "gp:id":2470111,
         "qs_pg:id":1162009,
+        "uscensus:geoid":4258776,
         "wd:id":"Q3374623",
         "wk:page":"Pen Mar, Maryland"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"f5e5e2b5ebf653619dcea8955903d6c0",
     "wof:hierarchy":[
@@ -95,7 +114,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582338277,
+    "wof:lastmodified":1613614891,
     "wof:name":"Pen Mar",
     "wof:parent_id":404485519,
     "wof:placetype":"locality",

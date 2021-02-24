@@ -4,18 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.000314,
-    "geom:area_square_m":2894820.216363,
+    "geom:area":0.000313,
+    "geom:area_square_m":2885170.568358,
     "geom:bbox":"-76.875939,41.797002,-76.845287,41.808926",
-    "geom:latitude":41.802885,
-    "geom:longitude":-76.860782,
+    "geom:latitude":41.8029,
+    "geom:longitude":-76.860811,
     "iso:country":"US",
-    "lbl:latitude":41.802836,
-    "lbl:longitude":-76.860782,
+    "lbl:latitude":41.802833,
+    "lbl:longitude":-76.86081,
     "lbl:max_zoom":17.0,
     "lbl:min_zoom":12.5,
+    "mps:latitude":41.802833,
+    "mps:longitude":-76.86081,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ceb_x_preferred":[
         "Sylvania"
@@ -69,18 +71,32 @@
     "qs:pop":219,
     "qs:source":"US Census",
     "qs:type":"boro",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
+    "src:geom_alt":[
+        "quattroshapes"
+    ],
+    "src:lbl_centroid":"mapshaper",
     "src:population":"quattroshapes",
+    "uscensus:countyfp":15,
+    "uscensus:geoid":4201575944,
+    "uscensus:name":"Sylvania",
+    "uscensus:namelsad":"Sylvania borough",
+    "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688481,
-        102081319
+        102081319,
+        85688481
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "uscensus:geoid":4201575944
+    },
     "wof:country":"US",
-    "wof:geomhash":"ce9facb49ed49f4df245ffcb5ad1fac6",
+    "wof:geom_alt":[
+        "quattroshapes"
+    ],
+    "wof:geomhash":"6fc810db7ec7fc6e932445f1ce19ef89",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -91,7 +107,7 @@
         }
     ],
     "wof:id":404482739,
-    "wof:lastmodified":1566631431,
+    "wof:lastmodified":1605055375,
     "wof:name":"Sylvania",
     "wof:parent_id":102081319,
     "wof:placetype":"localadmin",
@@ -108,5 +124,5 @@
     -76.845287,
     41.808926
 ],
-  "geometry": {"coordinates":[[[-76.854972,41.797762],[-76.875671,41.797002],[-76.875939,41.80729],[-76.846155,41.808926],[-76.845287,41.79879],[-76.84890300000001,41.798632],[-76.854972,41.797762]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-76.875939,41.80729],[-76.862542,41.808026],[-76.86022,41.808151],[-76.857788,41.808286],[-76.857147,41.808321],[-76.856769,41.808343],[-76.854997,41.80844],[-76.854266,41.80848],[-76.846155,41.808926],[-76.84593099999999,41.806305],[-76.845896,41.805892],[-76.84580099999999,41.804792],[-76.845653,41.80309],[-76.845636,41.802862],[-76.845527,41.801594],[-76.845287,41.79879],[-76.84890300000001,41.798632],[-76.853302,41.798526],[-76.853281,41.797805],[-76.853308,41.797855],[-76.854811,41.797768],[-76.854972,41.797762],[-76.858429,41.797635],[-76.875671,41.797002],[-76.87571699999999,41.798774],[-76.875753,41.800175],[-76.875805,41.802179],[-76.875839,41.803041],[-76.87584699999999,41.804212],[-76.875939,41.80729]]],"type":"Polygon"}
 }

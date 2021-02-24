@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000113,
-    "geom:area_square_m":1028804.472239,
+    "geom:area_square_m":1028804.47224,
     "geom:bbox":"-75.99207,42.830189,-75.977294,42.839202",
     "geom:latitude":42.834657,
     "geom:longitude":-75.984687,
@@ -15,13 +15,13 @@
     "gn:population":352,
     "iso:country":"US",
     "lbl:latitude":42.83465,
-    "lbl:longitude":-75.984688,
+    "lbl:longitude":-75.984687,
     "lbl:max_zoom":17.0,
     "lbl:min_zoom":12.5,
     "mps:latitude":42.83465,
-    "mps:longitude":-75.984688,
+    "mps:longitude":-75.984687,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u0641\u0627\u0628\u064a\u0648\u0633"
@@ -88,19 +88,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":1030508,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3624867",
+    "uscensus:intptlat":"+42.8346571",
+    "uscensus:intptlon":"-075.9846875",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Fabius",
+    "uscensus:namelsad":"Fabius village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"24867",
+    "uscensus:placens":"02390830",
+    "uscensus:statefp":"36",
     "wd:wordcount":800,
     "wof:belongsto":[
-        85688543,
         102191575,
-        404522827,
         85633793,
-        102082351
+        102082351,
+        404522827,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -109,14 +126,16 @@
         "gn:id":5116777,
         "gp:id":2401147,
         "qs_pg:id":687742,
+        "uscensus:geoid":3624867,
         "wd:id":"Q2838045",
         "wk:page":"Fabius, New York"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"0ff184d1af65e8189225fc87c6863164",
+    "wof:geomhash":"cc1e9ddf76e9cfbfbffcd7118a996215",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -131,7 +150,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335877,
+    "wof:lastmodified":1613616590,
     "wof:name":"Fabius",
     "wof:parent_id":404522827,
     "wof:placetype":"locality",
@@ -148,5 +167,5 @@
     -75.977294,
     42.839202
 ],
-  "geometry": {"coordinates":[[[-75.99207,42.838301],[-75.991805,42.838292],[-75.981596,42.838926],[-75.97823699999999,42.839202],[-75.977836,42.835556],[-75.977294,42.830945],[-75.982973,42.830678],[-75.985056,42.830542],[-75.986833,42.830453],[-75.99097,42.830189],[-75.991406,42.832295],[-75.99174499999999,42.834292],[-75.99207,42.838301]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-75.991805,42.838292],[-75.981596,42.838926],[-75.97823699999999,42.839202],[-75.977836,42.835556],[-75.977294,42.830945],[-75.982973,42.830678],[-75.985056,42.830542],[-75.986833,42.830453],[-75.99097,42.830189],[-75.991406,42.832295],[-75.99174499999999,42.834292],[-75.99207,42.838301],[-75.991805,42.838292]]],"type":"Polygon"}
 }

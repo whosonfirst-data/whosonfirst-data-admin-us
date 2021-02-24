@@ -11,11 +11,11 @@
     "geom:longitude":-83.467099,
     "iso:country":"US",
     "lbl:latitude":43.653558,
-    "lbl:longitude":-83.467099,
+    "lbl:longitude":-83.467098,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.5,
     "mps:latitude":43.653558,
-    "mps:longitude":-83.467099,
+    "mps:longitude":-83.467098,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":12.0,
@@ -87,18 +87,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":2432133,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"2681420",
+    "uscensus:intptlat":"+43.6535233",
+    "uscensus:intptlon":"-083.4670985",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Unionville",
+    "uscensus:namelsad":"Unionville village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"81420",
+    "uscensus:placens":"02400025",
+    "uscensus:statefp":"26",
     "wd:wordcount":750,
     "wof:belongsto":[
-        85688599,
         102191575,
-        404508037,
         85633793,
-        102082989
+        102082989,
+        404508037,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -107,14 +124,16 @@
         "gn:id":5012957,
         "gp:id":2509988,
         "qs_pg:id":1063201,
+        "uscensus:geoid":2681420,
         "wd:id":"Q261427",
         "wk:page":"Unionville, Michigan"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"8a6e8c1929e6aeaf73ebeaf4da2a634a",
+    "wof:geomhash":"b7741d490662ecaf78cf85465ea6a0b9",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -129,7 +148,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335841,
+    "wof:lastmodified":1613615838,
     "wof:name":"Unionville",
     "wof:parent_id":404508037,
     "wof:placetype":"locality",
@@ -144,5 +163,5 @@
     -83.457636,
     43.661653
 ],
-  "geometry": {"coordinates":[[[-83.47626200000001,43.660677],[-83.466486,43.66081],[-83.466498,43.661504],[-83.459079,43.661653],[-83.458972,43.657397],[-83.458664,43.657384],[-83.457733,43.657355],[-83.45763599999999,43.653924],[-83.458478,43.653906],[-83.45840200000001,43.652242],[-83.45813800000001,43.645698],[-83.464562,43.645543],[-83.46618100000001,43.645514],[-83.466195,43.646312],[-83.471903,43.646328],[-83.475956,43.646346],[-83.476191,43.646337],[-83.47619400000001,43.646969],[-83.47627,43.650355],[-83.47627300000001,43.650711],[-83.476354,43.653421],[-83.476387,43.660672],[-83.47626200000001,43.660677]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-83.476387,43.660672],[-83.47626200000001,43.660677],[-83.466486,43.66081],[-83.466498,43.661504],[-83.459079,43.661653],[-83.458972,43.657397],[-83.458664,43.657384],[-83.457733,43.657355],[-83.45763599999999,43.653924],[-83.458478,43.653906],[-83.45840200000001,43.652242],[-83.45813800000001,43.645698],[-83.464562,43.645543],[-83.46618100000001,43.645514],[-83.466195,43.646312],[-83.471903,43.646328],[-83.475956,43.646346],[-83.476191,43.646337],[-83.47619400000001,43.646969],[-83.47627,43.650355],[-83.47627300000001,43.650711],[-83.476354,43.653421],[-83.476387,43.660672]]],"type":"Polygon"}
 }

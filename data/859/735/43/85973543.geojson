@@ -15,11 +15,11 @@
     "gn:population":154,
     "iso:country":"US",
     "lbl:latitude":40.98378,
-    "lbl:longitude":-96.66919,
+    "lbl:longitude":-96.669193,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
     "mps:latitude":40.98378,
-    "mps:longitude":-96.66919,
+    "mps:longitude":-96.669193,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -103,19 +103,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":400084,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3112280",
+    "uscensus:intptlat":"+40.9837593",
+    "uscensus:intptlon":"-096.6691933",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Davey",
+    "uscensus:namelsad":"Davey village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"12280",
+    "uscensus:placens":"02398686",
+    "uscensus:statefp":"31",
     "wd:wordcount":839,
     "wof:belongsto":[
-        85688563,
         102191575,
-        404520081,
         85633793,
-        102083503
+        102083503,
+        404520081,
+        85688563
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -124,14 +141,16 @@
         "gn:id":5066696,
         "gp:id":2389573,
         "qs_pg:id":209382,
+        "uscensus:geoid":3112280,
         "wd:id":"Q2691236",
         "wk:page":"Davey, Nebraska"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"36c9aefddac0bc7ec37fecf5b2ea4d28",
+    "wof:geomhash":"32d63581c43c2c0e23deec80e251ded2",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -146,7 +165,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335969,
+    "wof:lastmodified":1613615732,
     "wof:name":"Davey",
     "wof:parent_id":404520081,
     "wof:placetype":"locality",
@@ -163,5 +182,5 @@
     -96.666068,
     40.987422
 ],
-  "geometry": {"coordinates":[[[-96.672248,40.982457],[-96.672151,40.983582],[-96.672066,40.984578],[-96.671936,40.987422],[-96.670968,40.987411],[-96.67050500000001,40.987406],[-96.668778,40.987386],[-96.666963,40.987364],[-96.666068,40.987353],[-96.66637900000001,40.980167],[-96.67149999999999,40.980171],[-96.671908,40.980173],[-96.672121,40.980187],[-96.672387,40.98019],[-96.672386,40.980205],[-96.672426,40.980208],[-96.672248,40.982457]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-96.672426,40.980208],[-96.672248,40.982457],[-96.672151,40.983582],[-96.672066,40.984578],[-96.671936,40.987422],[-96.670968,40.987411],[-96.67050500000001,40.987406],[-96.668778,40.987386],[-96.666963,40.987364],[-96.666068,40.987353],[-96.66637900000001,40.980167],[-96.67149999999999,40.980171],[-96.671908,40.980173],[-96.672121,40.980187],[-96.672387,40.98019],[-96.672386,40.980205],[-96.672426,40.980208]]],"type":"Polygon"}
 }

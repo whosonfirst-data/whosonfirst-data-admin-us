@@ -21,7 +21,7 @@
     "mps:latitude":42.902376,
     "mps:longitude":-78.258868,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:azb_x_preferred":[
         "\u0622\u0644\u06a9\u0633\u0627\u0646\u062f\u0631"
@@ -91,21 +91,38 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":1132465,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3601154",
+    "uscensus:intptlat":"+42.9020210",
+    "uscensus:intptlon":"-078.2591135",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Alexander",
+    "uscensus:namelsad":"Alexander village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"01154",
+    "uscensus:placens":"02391506",
+    "uscensus:statefp":"36",
     "wd:latitude":42.901667,
     "wd:longitude":-78.256389,
     "wd:wordcount":776,
     "wof:belongsto":[
-        85688543,
         102191575,
-        404522453,
         85633793,
-        102083105
+        102083105,
+        404522453,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -114,12 +131,14 @@
         "gn:id":5106935,
         "gp:id":2352987,
         "qs_pg:id":9787,
+        "uscensus:geoid":3601154,
         "wd:id":"Q4718118",
         "wk:page":"Alexander, New York"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"b3f15a99ff8de452cfc6daf37598fedf",
     "wof:hierarchy":[
@@ -136,7 +155,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336250,
+    "wof:lastmodified":1613616602,
     "wof:name":"Alexander",
     "wof:parent_id":404522453,
     "wof:placetype":"locality",

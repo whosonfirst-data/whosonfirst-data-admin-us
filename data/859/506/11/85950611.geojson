@@ -21,7 +21,7 @@
     "mps:latitude":42.560607,
     "mps:longitude":-73.162192,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u062a\u0634\u064a\u0634\u0627\u064a\u0631"
@@ -109,19 +109,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":993406,
+    "uscensus:awater":0,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"2513310",
+    "uscensus:intptlat":"+42.5611388",
+    "uscensus:intptlon":"-073.1623437",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Cheshire",
+    "uscensus:namelsad":"Cheshire CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"13310",
+    "uscensus:placens":"02630525",
+    "uscensus:statefp":"25",
     "wd:wordcount":2245,
     "wof:belongsto":[
-        85688645,
         102191575,
-        404475911,
         85633793,
-        102084369
+        102084369,
+        404475911,
+        85688645
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -129,12 +146,14 @@
         "gn:id":4932915,
         "gp:id":2379236,
         "qs_pg:id":1050592,
+        "uscensus:geoid":2513310,
         "wd:id":"Q612187",
         "wk:page":"Cheshire, Massachusetts"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"df660e4b05013be755e06a811cfd2cb2",
     "wof:hierarchy":[
@@ -148,7 +167,7 @@
         }
     ],
     "wof:id":85950611,
-    "wof:lastmodified":1582335918,
+    "wof:lastmodified":1613616156,
     "wof:name":"Cheshire",
     "wof:parent_id":404475911,
     "wof:placetype":"locality",

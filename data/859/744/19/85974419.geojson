@@ -15,11 +15,11 @@
     "gn:population":46,
     "iso:country":"US",
     "lbl:latitude":41.614773,
-    "lbl:longitude":-97.502501,
+    "lbl:longitude":-97.502499,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
     "mps:latitude":41.614773,
-    "mps:longitude":-97.502501,
+    "mps:longitude":-97.502499,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -106,19 +106,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":82266,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3148410",
+    "uscensus:intptlat":"+41.6147991",
+    "uscensus:intptlon":"-097.5024784",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Tarnov",
+    "uscensus:namelsad":"Tarnov village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"48410",
+    "uscensus:placens":"02399955",
+    "uscensus:statefp":"31",
     "wd:wordcount":773,
     "wof:belongsto":[
-        85688563,
         102191575,
-        404520289,
         85633793,
-        102084277
+        102084277,
+        404520289,
+        85688563
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -127,14 +144,16 @@
         "gn:id":5080058,
         "gp:id":2504138,
         "qs_pg:id":1051432,
+        "uscensus:geoid":3148410,
         "wd:id":"Q1882766",
         "wk:page":"Tarnov, Nebraska"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"0828fd2320b76b123b059242e17cc11b",
+    "wof:geomhash":"198b99af768a6fdedb29e3e9ec27e74f",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -149,7 +168,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336237,
+    "wof:lastmodified":1613615713,
     "wof:name":"Tarnov",
     "wof:parent_id":404520289,
     "wof:placetype":"locality",
@@ -166,5 +185,5 @@
     -97.500828,
     41.616386
 ],
-  "geometry": {"coordinates":[[[-97.50391,41.613813],[-97.503907,41.614074],[-97.50391,41.614364],[-97.50391399999999,41.614873],[-97.503919,41.615384],[-97.503919,41.615404],[-97.503927,41.616375],[-97.502731,41.616386],[-97.501223,41.616379],[-97.50117299999999,41.615873],[-97.501125,41.61537],[-97.501077,41.614879],[-97.50107,41.614843],[-97.500974,41.614326],[-97.500958,41.614241],[-97.50090899999999,41.613779],[-97.500828,41.613289],[-97.50240700000001,41.613284],[-97.50391500000001,41.613285],[-97.50391,41.613813]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-97.503927,41.616375],[-97.502731,41.616386],[-97.501223,41.616379],[-97.50117299999999,41.615873],[-97.501125,41.61537],[-97.501077,41.614879],[-97.50107,41.614843],[-97.500974,41.614326],[-97.500958,41.614241],[-97.50090899999999,41.613779],[-97.500828,41.613289],[-97.50240700000001,41.613284],[-97.50391500000001,41.613285],[-97.50391,41.613813],[-97.503907,41.614074],[-97.50391,41.614364],[-97.50391399999999,41.614873],[-97.503919,41.615384],[-97.503919,41.615404],[-97.503927,41.616375]]],"type":"Polygon"}
 }

@@ -4,18 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.000306,
-    "geom:area_square_m":2579868.748731,
-    "geom:bbox":"-96.806647,47.071113,-96.785334,47.085764",
-    "geom:latitude":47.078387,
-    "geom:longitude":-96.795936,
+    "geom:area":0.000313,
+    "geom:area_square_m":2632487.92203,
+    "geom:bbox":"-96.806767,47.071113,-96.785012,47.085749",
+    "geom:latitude":47.07842,
+    "geom:longitude":-96.795872,
     "iso:country":"US",
-    "lbl:latitude":47.07841,
-    "lbl:longitude":-96.795936,
+    "lbl:latitude":47.078428,
+    "lbl:longitude":-96.795864,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
+    "mps:latitude":47.078428,
+    "mps:longitude":-96.795864,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Georgetown"
@@ -195,18 +197,32 @@
     "qs:pop":129,
     "qs:source":"US Census",
     "qs:type":"city",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
+    "src:geom_alt":[
+        "quattroshapes"
+    ],
+    "src:lbl_centroid":"mapshaper",
     "src:population":"quattroshapes",
+    "uscensus:countyfp":27,
+    "uscensus:geoid":2702723498,
+    "uscensus:name":"Georgetown",
+    "uscensus:namelsad":"Georgetown city",
+    "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688727,
-        102087681
+        102087681,
+        85688727
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "uscensus:geoid":2702723498
+    },
     "wof:country":"US",
-    "wof:geomhash":"aa9f2616f85c98ce7891a0962cd477f7",
+    "wof:geom_alt":[
+        "quattroshapes"
+    ],
+    "wof:geomhash":"c6b3d322624222a17fde2c69d9f64801",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -217,7 +233,7 @@
         }
     ],
     "wof:id":404509115,
-    "wof:lastmodified":1566632974,
+    "wof:lastmodified":1605055798,
     "wof:name":"Georgetown",
     "wof:parent_id":102087681,
     "wof:placetype":"localadmin",
@@ -229,10 +245,10 @@
     "wof:tags":[]
 },
   "bbox": [
-    -96.806647,
+    -96.806767,
     47.071113,
-    -96.785334,
-    47.085764
+    -96.785012,
+    47.085749
 ],
-  "geometry": {"coordinates":[[[-96.7928,47.071211],[-96.806647,47.071113],[-96.80646,47.085499],[-96.7854,47.085764],[-96.78533400000001,47.071159],[-96.7928,47.071211]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-96.80676699999999,47.078375],[-96.806623,47.08202],[-96.80656500000001,47.083334],[-96.806476,47.085543],[-96.80647399999999,47.085582],[-96.79629300000001,47.085699],[-96.795883,47.085694],[-96.79411399999999,47.085692],[-96.79320300000001,47.085691],[-96.78519900000001,47.085749],[-96.78502899999999,47.079233],[-96.78501199999999,47.078573],[-96.78504700000001,47.075248],[-96.785088,47.071287],[-96.785167,47.071286],[-96.79081100000001,47.071262],[-96.79212,47.071229],[-96.792242,47.071232],[-96.7928,47.071211],[-96.792858,47.071208],[-96.79303400000001,47.071202],[-96.793094,47.0712],[-96.793449,47.071189],[-96.793649,47.071186],[-96.795317,47.071167],[-96.795874,47.071161],[-96.798028,47.071151],[-96.804492,47.071122],[-96.80646299999999,47.071113],[-96.806605,47.071113],[-96.806635,47.07249],[-96.80676699999999,47.078339],[-96.80676699999999,47.078375]]],"type":"Polygon"}
 }

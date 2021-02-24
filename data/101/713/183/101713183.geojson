@@ -11,11 +11,11 @@
     "geom:longitude":-83.784369,
     "iso:country":"US",
     "lbl:latitude":41.189962,
-    "lbl:longitude":-83.78437,
+    "lbl:longitude":-83.784369,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.5,
     "mps:latitude":41.189962,
-    "mps:longitude":-83.78437,
+    "mps:longitude":-83.784369,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":12.0,
@@ -96,18 +96,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":1920211,
+    "uscensus:awater":29912,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3936568",
+    "uscensus:intptlat":"+41.1903996",
+    "uscensus:intptlon":"-083.7849103",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Hoytville",
+    "uscensus:namelsad":"Hoytville village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"36568",
+    "uscensus:placens":"02398551",
+    "uscensus:statefp":"39",
     "wd:wordcount":903,
     "wof:belongsto":[
-        85688485,
         102191575,
-        404524219,
         85633793,
-        102084781
+        102084781,
+        404524219,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -116,12 +133,14 @@
         "gn:id":5158140,
         "gp:id":2425135,
         "qs_pg:id":273672,
+        "uscensus:geoid":3936568,
         "wd:id":"Q2667018",
         "wk:page":"Hoytville, Ohio"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"8e8211ddbf9f50793edff477b9de4734",
     "wof:hierarchy":[
@@ -138,7 +157,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582337999,
+    "wof:lastmodified":1613616708,
     "wof:name":"Hoytville",
     "wof:parent_id":404524219,
     "wof:placetype":"locality",

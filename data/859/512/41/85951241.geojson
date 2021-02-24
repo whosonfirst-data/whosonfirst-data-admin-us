@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000332,
-    "geom:area_square_m":2995807.692556,
+    "geom:area_square_m":2995807.692555,
     "geom:bbox":"-85.083674,43.199862,-85.064198,43.217255",
     "geom:latitude":43.208628,
     "geom:longitude":-85.073932,
@@ -75,17 +75,34 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":2851269,
+    "uscensus:awater":149743,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"2673100",
+    "uscensus:intptlat":"+43.2097784",
+    "uscensus:intptlon":"-085.0798469",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Sheridan",
+    "uscensus:namelsad":"Sheridan village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"73100",
+    "uscensus:placens":"02399801",
+    "uscensus:statefp":"26",
     "wof:belongsto":[
-        85688599,
         102191575,
-        404507877,
         85633793,
-        102083741
+        102083741,
+        404507877,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -94,13 +111,15 @@
         "gn:id":5009635,
         "gp:id":2492404,
         "qs_pg:id":960823,
+        "uscensus:geoid":2673100,
         "wd:id":"Q2692385"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"c7ff07c7d05e26dd9091e6b548861a13",
+    "wof:geomhash":"20b7f277d2d1119eee08fd5b5b9e76cc",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -115,7 +134,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336344,
+    "wof:lastmodified":1613616016,
     "wof:name":"Sheridan",
     "wof:parent_id":404507877,
     "wof:placetype":"locality",
@@ -130,5 +149,5 @@
     -85.064198,
     43.217255
 ],
-  "geometry": {"coordinates":[[[-85.07464,43.217235],[-85.073537,43.217252],[-85.06427499999999,43.217255],[-85.06428,43.216564],[-85.064218,43.215595],[-85.064251,43.214618],[-85.064216,43.213518],[-85.064198,43.212107],[-85.064251,43.206239],[-85.06426,43.204834],[-85.064261,43.204673],[-85.064306,43.200126],[-85.07368099999999,43.200091],[-85.083674,43.199862],[-85.08360500000001,43.2062],[-85.083601,43.20672],[-85.083528,43.213543],[-85.083495,43.217185],[-85.07464,43.217235]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-85.08360500000001,43.2062],[-85.083601,43.20672],[-85.083528,43.213543],[-85.083495,43.217185],[-85.07464,43.217235],[-85.073537,43.217252],[-85.06427499999999,43.217255],[-85.06428,43.216564],[-85.064218,43.215595],[-85.064251,43.214618],[-85.064216,43.213518],[-85.064198,43.212107],[-85.064251,43.206239],[-85.06426,43.204834],[-85.064261,43.204673],[-85.064306,43.200126],[-85.07368099999999,43.200091],[-85.083674,43.199862],[-85.08360500000001,43.2062]]],"type":"Polygon"}
 }

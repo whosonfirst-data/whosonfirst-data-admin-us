@@ -4,18 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.000032,
-    "geom:area_square_m":276465.083215,
-    "geom:bbox":"-90.31577,44.999005,-90.308303,45.005175",
-    "geom:latitude":45.00129,
-    "geom:longitude":-90.311843,
+    "geom:area":0.000029,
+    "geom:area_square_m":257513.135256,
+    "geom:bbox":"-90.31577,44.999033,-90.308953,45.005366",
+    "geom:latitude":45.001556,
+    "geom:longitude":-90.312395,
     "iso:country":"US",
-    "lbl:latitude":45.0013,
-    "lbl:longitude":-90.311842,
+    "lbl:latitude":45.001309,
+    "lbl:longitude":-90.312389,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
+    "mps:latitude":45.001309,
+    "mps:longitude":-90.312389,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:bre_x_preferred":[
         "Dorchester"
@@ -93,18 +95,32 @@
     "qs:pop":5,
     "qs:source":"US Census",
     "qs:type":"village",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
+    "src:geom_alt":[
+        "quattroshapes"
+    ],
+    "src:lbl_centroid":"mapshaper",
     "src:population":"quattroshapes",
+    "uscensus:countyfp":73,
+    "uscensus:geoid":5507320450,
+    "uscensus:name":"Dorchester",
+    "uscensus:namelsad":"Dorchester village",
+    "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081881
+        102081881,
+        85688517
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "uscensus:geoid":5507320450
+    },
     "wof:country":"US",
-    "wof:geomhash":"9312236742fc3c189c56f8e8de173047",
+    "wof:geom_alt":[
+        "quattroshapes"
+    ],
+    "wof:geomhash":"3e1f376ac674791a014b4473165d6a33",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -115,7 +131,7 @@
         }
     ],
     "wof:id":404495295,
-    "wof:lastmodified":1566633543,
+    "wof:lastmodified":1605055982,
     "wof:name":"Dorchester",
     "wof:parent_id":102081881,
     "wof:placetype":"localadmin",
@@ -128,9 +144,9 @@
 },
   "bbox": [
     -90.31577,
-    44.999005,
-    -90.308303,
-    45.005175
+    44.999033,
+    -90.308953,
+    45.005366
 ],
-  "geometry": {"coordinates":[[[[-90.315763,45.002557],[-90.313945,45.003585],[-90.308387,45.003558],[-90.308303,44.999047],[-90.314897,44.999005],[-90.315763,45.001801],[-90.315763,45.002557]]],[[[-90.315679,45.005175],[-90.31577,45.003588],[-90.31572799999999,45.004402],[-90.315679,45.005175]]]],"type":"MultiPolygon"}
+  "geometry": {"coordinates":[[[-90.315731,45.00436],[-90.31572799999999,45.004402],[-90.315679,45.005175],[-90.31566599999999,45.005366],[-90.31504099999999,45.005363],[-90.31505,45.005161],[-90.315079,45.004297],[-90.31459599999999,45.004295],[-90.314618,45.00359],[-90.314381,45.003588],[-90.313945,45.003585],[-90.313771,45.003584],[-90.31263199999999,45.003577],[-90.310658,45.003567],[-90.308953,45.00356],[-90.30933400000001,44.99904],[-90.31047100000001,44.999033],[-90.31468099999999,44.999054],[-90.314897,44.999055],[-90.314956,44.999055],[-90.314926,45.001543],[-90.315763,45.001546],[-90.315763,45.001801],[-90.315763,45.002186],[-90.315763,45.002557],[-90.315764,45.003068],[-90.31577,45.003588],[-90.315748,45.004089],[-90.315731,45.00436]]],"type":"Polygon"}
 }

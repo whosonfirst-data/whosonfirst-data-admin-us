@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000136,
-    "geom:area_square_m":1234570.270503,
+    "geom:area_square_m":1234570.270502,
     "geom:bbox":"-75.518848,42.892023,-75.505481,42.903475",
     "geom:latitude":42.897741,
     "geom:longitude":-75.512291,
@@ -21,7 +21,7 @@
     "mps:latitude":42.897776,
     "mps:longitude":-75.512291,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u0645\u0627\u062f\u064a\u0633\u0648\u0646"
@@ -85,19 +85,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":1236628,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3644424",
+    "uscensus:intptlat":"+42.8977412",
+    "uscensus:intptlon":"-075.5122910",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Madison",
+    "uscensus:namelsad":"Madison village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"44424",
+    "uscensus:placens":"02390956",
+    "uscensus:statefp":"36",
     "wd:wordcount":673,
     "wof:belongsto":[
-        85688543,
         102191575,
-        404522675,
         85633793,
-        102080989
+        102080989,
+        404522675,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -106,14 +123,16 @@
         "gn:id":5125627,
         "gp:id":2443937,
         "qs_pg:id":884937,
+        "uscensus:geoid":3644424,
         "wd:id":"Q9026711",
         "wk:page":"Madison, New York"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"d163408f506d8083daa88f6d42816f57",
+    "wof:geomhash":"ceb80ce2d8f57f8a476b8e12c9d1d597",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -128,7 +147,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336305,
+    "wof:lastmodified":1613616590,
     "wof:name":"Madison",
     "wof:parent_id":404522675,
     "wof:placetype":"locality",
@@ -145,5 +164,5 @@
     -75.505481,
     42.903475
 ],
-  "geometry": {"coordinates":[[[-75.518567,42.902929],[-75.513289,42.903177],[-75.50658,42.903475],[-75.506399,42.901744],[-75.506314,42.900898],[-75.50626,42.900442],[-75.506074,42.898558],[-75.505661,42.894464],[-75.50557000000001,42.893567],[-75.505481,42.892684],[-75.508745,42.892513],[-75.511517,42.892367],[-75.515658,42.892172],[-75.518173,42.892023],[-75.51830200000001,42.893465],[-75.51856600000001,42.897305],[-75.518647,42.898482],[-75.51884800000001,42.900553],[-75.518705,42.901247],[-75.51866200000001,42.901463],[-75.518721,42.902934],[-75.518567,42.902929]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-75.518705,42.901247],[-75.51866200000001,42.901463],[-75.518721,42.902934],[-75.518567,42.902929],[-75.513289,42.903177],[-75.50658,42.903475],[-75.506399,42.901744],[-75.506314,42.900898],[-75.50626,42.900442],[-75.506074,42.898558],[-75.505661,42.894464],[-75.50557000000001,42.893567],[-75.505481,42.892684],[-75.508745,42.892513],[-75.511517,42.892367],[-75.515658,42.892172],[-75.518173,42.892023],[-75.51830200000001,42.893465],[-75.51856600000001,42.897305],[-75.518647,42.898482],[-75.51884800000001,42.900553],[-75.518705,42.901247]]],"type":"Polygon"}
 }

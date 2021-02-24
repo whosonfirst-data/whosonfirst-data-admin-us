@@ -13,11 +13,11 @@
     "gn:population":225,
     "iso:country":"US",
     "lbl:latitude":40.388179,
-    "lbl:longitude":-78.717842,
+    "lbl:longitude":-78.717841,
     "lbl:max_zoom":17.0,
     "lbl:min_zoom":12.5,
     "mps:latitude":40.388179,
-    "mps:longitude":-78.717842,
+    "mps:longitude":-78.717841,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -92,19 +92,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":859035,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C5",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"4285528",
+    "uscensus:intptlat":"+40.3875752",
+    "uscensus:intptlon":"-078.7171052",
+    "uscensus:lsad":"21",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Wilmore",
+    "uscensus:namelsad":"Wilmore borough",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"85528",
+    "uscensus:placens":"01215039",
+    "uscensus:statefp":"42",
     "wd:wordcount":1475,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404485499,
         85633793,
-        102080879
+        102080879,
+        404485499,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -113,12 +130,14 @@
         "gn:id":5219659,
         "gp:id":2521399,
         "qs_pg:id":260321,
+        "uscensus:geoid":4285528,
         "wd:id":"Q1183248",
         "wk:page":"Wilmore, Pennsylvania"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"5ff0bc1ab6be0122fd2219a56b66ad8b",
     "wof:hierarchy":[
@@ -135,7 +154,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582338229,
+    "wof:lastmodified":1613614887,
     "wof:name":"Wilmore",
     "wof:parent_id":404485499,
     "wof:placetype":"locality",

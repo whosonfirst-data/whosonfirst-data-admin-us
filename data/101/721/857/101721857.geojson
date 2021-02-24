@@ -19,7 +19,7 @@
     "mps:latitude":43.550196,
     "mps:longitude":-97.498379,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u0628\u0631\u064a\u062f\u062c\u0648\u0648\u062a\u0631"
@@ -110,21 +110,38 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":2914154,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C5",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"4607180",
+    "uscensus:intptlat":"+43.5502099",
+    "uscensus:intptlon":"-097.4983837",
+    "uscensus:lsad":"25",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Bridgewater",
+    "uscensus:namelsad":"Bridgewater city",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"07180",
+    "uscensus:placens":"01267295",
+    "uscensus:statefp":"46",
     "wd:latitude":43.550278,
     "wd:longitude":-97.500278,
     "wd:wordcount":927,
     "wof:belongsto":[
-        85688693,
         102191575,
-        404490577,
         85633793,
-        102086859
+        102086859,
+        404490577,
+        85688693
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -133,12 +150,14 @@
         "gn:id":5226509,
         "gp:id":2369014,
         "qs_pg:id":449651,
+        "uscensus:geoid":4607180,
         "wd:id":"Q2300650",
         "wk:page":"Bridgewater, South Dakota"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"33136a931a6a552d002bcde9dbb0f64f",
     "wof:hierarchy":[
@@ -155,7 +174,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582338197,
+    "wof:lastmodified":1613615225,
     "wof:name":"Bridgewater",
     "wof:parent_id":404490577,
     "wof:placetype":"locality",

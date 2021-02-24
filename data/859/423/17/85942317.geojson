@@ -11,11 +11,11 @@
     "geom:longitude":-85.463971,
     "iso:country":"US",
     "lbl:latitude":39.878185,
-    "lbl:longitude":-85.464029,
+    "lbl:longitude":-85.464028,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.5,
     "mps:latitude":39.878185,
-    "mps:longitude":-85.464029,
+    "mps:longitude":-85.464028,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":12.0,
@@ -189,18 +189,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":286155,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"1829682",
+    "uscensus:intptlat":"+39.8785498",
+    "uscensus:intptlon":"-085.4639709",
+    "uscensus:lsad":"43",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Greensboro",
+    "uscensus:namelsad":"Greensboro town",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"29682",
+    "uscensus:placens":"02396975",
+    "uscensus:statefp":"18",
     "wd:wordcount":796,
     "wof:belongsto":[
-        85688709,
         102191575,
-        404500799,
         85633793,
-        102087085
+        102087085,
+        404500799,
+        85688709
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -209,12 +226,14 @@
         "gn:id":4258300,
         "gp:id":2414462,
         "qs_pg:id":1072940,
+        "uscensus:geoid":1829682,
         "wd:id":"Q2156562",
         "wk:page":"Greensboro, Indiana"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"1437bc91747dfa9c7a4b4b2f2a9d4e41",
     "wof:hierarchy":[
@@ -231,7 +250,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335666,
+    "wof:lastmodified":1613615946,
     "wof:name":"Greensboro",
     "wof:parent_id":404500799,
     "wof:placetype":"locality",

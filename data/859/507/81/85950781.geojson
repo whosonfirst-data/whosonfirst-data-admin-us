@@ -21,7 +21,7 @@
     "mps:latitude":42.17744,
     "mps:longitude":-72.925563,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:cat_x_preferred":[
         "Blandford"
@@ -106,19 +106,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":2979218,
+    "uscensus:awater":5519,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"2506050",
+    "uscensus:intptlat":"+42.1750062",
+    "uscensus:intptlon":"-072.9238623",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Blandford",
+    "uscensus:namelsad":"Blandford CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"06050",
+    "uscensus:placens":"02630522",
+    "uscensus:statefp":"25",
     "wd:wordcount":3169,
     "wof:belongsto":[
-        85688645,
         102191575,
-        404475971,
         85633793,
-        102084627
+        102084627,
+        404475971,
+        85688645
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -127,12 +144,14 @@
         "gn:id":4930780,
         "gp:id":2365341,
         "qs_pg:id":1050584,
+        "uscensus:geoid":2506050,
         "wd:id":"Q2302498",
         "wk:page":"Blandford, Massachusetts"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"da76971c1376f712a900b859ad72d536",
     "wof:hierarchy":[
@@ -149,7 +168,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335967,
+    "wof:lastmodified":1613616140,
     "wof:name":"Blandford",
     "wof:parent_id":404475971,
     "wof:placetype":"locality",

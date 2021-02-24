@@ -4,22 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.000111,
-    "geom:area_square_m":979383.447372,
-    "geom:bbox":"-95.062439,44.376268,-95.047058,44.383744",
-    "geom:latitude":44.38004,
-    "geom:longitude":-95.054739,
+    "geom:area":0.00011,
+    "geom:area_square_m":975166.748451,
+    "geom:bbox":"-95.062439,44.376402,-95.047137,44.383744",
+    "geom:latitude":44.380059,
+    "geom:longitude":-95.054751,
     "gn:elevation":320,
     "gn:latitude":44.38163,
     "gn:longitude":-95.05249,
     "gn:population":153,
     "iso:country":"US",
-    "lbl:latitude":44.380049,
-    "lbl:longitude":-95.05474,
+    "lbl:latitude":44.380051,
+    "lbl:longitude":-95.054752,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
-    "mps:latitude":44.380049,
-    "mps:longitude":-95.05474,
+    "mps:latitude":44.380051,
+    "mps:longitude":-95.054752,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -133,23 +133,40 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"wk",
+    "uscensus:aland":977131,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C5",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"2711836",
+    "uscensus:intptlat":"+44.3800594",
+    "uscensus:intptlon":"-095.0547511",
+    "uscensus:lsad":"25",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Clements",
+    "uscensus:namelsad":"Clements city",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"11836",
+    "uscensus:placens":"02393557",
+    "uscensus:statefp":"27",
     "wd:elevation":320.0,
     "wd:latitude":44.381667,
     "wd:longitude":-95.0525,
     "wd:population":153,
     "wd:wordcount":802,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404510541,
         85633793,
-        102087799
+        102087799,
+        404510541,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -158,14 +175,16 @@
         "gn:id":5021569,
         "gp:id":2381374,
         "qs_pg:id":349674,
+        "uscensus:geoid":2711836,
         "wd:id":"Q2188877",
         "wk:page":"Clements, Minnesota"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"278eb349b0b9ff331e6cfa595e7fbbda",
+    "wof:geomhash":"b694c12b60ad6bdbe0e1fe481a8c8bdd",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -180,7 +199,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335592,
+    "wof:lastmodified":1613615436,
     "wof:name":"Clements",
     "wof:parent_id":404510541,
     "wof:placetype":"locality",
@@ -193,9 +212,9 @@
 },
   "bbox": [
     -95.062439,
-    44.376268,
-    -95.047058,
+    44.376402,
+    -95.047137,
     44.383744
 ],
-  "geometry": {"coordinates":[[[-95.062333,44.377066],[-95.062371,44.379881],[-95.062439,44.383619],[-95.057281,44.383655],[-95.055885,44.383665],[-95.05444799999999,44.383677],[-95.053704,44.383684],[-95.053031,44.383691],[-95.051582,44.383706],[-95.047239,44.383744],[-95.047224,44.383301],[-95.047213,44.382909],[-95.047073,44.37848],[-95.047177,44.377827],[-95.04709699999999,44.377781],[-95.04705800000001,44.377714],[-95.04705800000001,44.377128],[-95.047123,44.377021],[-95.04710900000001,44.376923],[-95.047106,44.37639],[-95.05721200000001,44.376433],[-95.060849,44.376402],[-95.06232,44.376268],[-95.062333,44.377066]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-95.062439,44.383619],[-95.057281,44.383655],[-95.055885,44.383665],[-95.05444799999999,44.383677],[-95.053704,44.383684],[-95.053031,44.383691],[-95.051582,44.383706],[-95.047239,44.383744],[-95.04716500000001,44.383743],[-95.047161,44.383319],[-95.047155,44.382614],[-95.04715299999999,44.382447],[-95.04715299999999,44.382373],[-95.04714199999999,44.37848],[-95.047141,44.378052],[-95.047141,44.377806],[-95.04714,44.377699],[-95.047139,44.377129],[-95.04713700000001,44.376468],[-95.055357,44.376425],[-95.05721200000001,44.376433],[-95.060849,44.376402],[-95.06232199999999,44.376405],[-95.062333,44.377066],[-95.06233400000001,44.377138],[-95.062371,44.379881],[-95.062439,44.383619]]],"type":"Polygon"}
 }

@@ -11,11 +11,11 @@
     "geom:longitude":-93.523861,
     "iso:country":"US",
     "lbl:latitude":39.457409,
-    "lbl:longitude":-93.525278,
+    "lbl:longitude":-93.525277,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
     "mps:latitude":39.457409,
-    "mps:longitude":-93.525278,
+    "mps:longitude":-93.525277,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -108,23 +108,40 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"wk",
+    "uscensus:aland":1413243,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"2906832",
+    "uscensus:intptlat":"+39.4579275",
+    "uscensus:intptlon":"-093.5238611",
+    "uscensus:lsad":"25",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Bogard",
+    "uscensus:namelsad":"Bogard city",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"06832",
+    "uscensus:placens":"02394213",
+    "uscensus:statefp":"29",
     "wd:elevation":263.0,
     "wd:latitude":39.4569,
     "wd:longitude":-93.5244,
     "wd:population":164,
     "wd:wordcount":768,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404516481,
         85633793,
-        102085313
+        102085313,
+        404516481,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -133,12 +150,14 @@
         "gn:id":4377789,
         "gp:id":2366271,
         "qs_pg:id":963779,
+        "uscensus:geoid":2906832,
         "wd:id":"Q936093",
         "wk:page":"Bogard, Missouri"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"7faadc6629483d0cfb78701628e68d74",
     "wof:hierarchy":[
@@ -155,7 +174,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335832,
+    "wof:lastmodified":1613615777,
     "wof:name":"Bogard",
     "wof:parent_id":404516481,
     "wof:placetype":"locality",

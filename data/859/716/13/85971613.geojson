@@ -11,11 +11,11 @@
     "geom:longitude":-93.551408,
     "iso:country":"US",
     "lbl:latitude":37.548693,
-    "lbl:longitude":-93.551407,
+    "lbl:longitude":-93.551408,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.5,
     "mps:latitude":37.548693,
-    "mps:longitude":-93.551407,
+    "mps:longitude":-93.551408,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":12.0,
@@ -96,18 +96,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":420460,
+    "uscensus:awater":781,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"2900568",
+    "uscensus:intptlat":"+37.5484712",
+    "uscensus:intptlon":"-093.5505223",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Aldrich",
+    "uscensus:namelsad":"Aldrich village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"00568",
+    "uscensus:placens":"02397926",
+    "uscensus:statefp":"29",
     "wd:wordcount":715,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404515877,
         85633793,
-        102087499
+        102087499,
+        404515877,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -116,12 +133,14 @@
         "gn:id":4374577,
         "gp:id":2352943,
         "qs_pg:id":376216,
+        "uscensus:geoid":2900568,
         "wd:id":"Q3013324",
         "wk:page":"Aldrich, Missouri"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"322a9bea94bca6c6abd60a2a0a638baa",
     "wof:hierarchy":[
@@ -138,7 +157,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336335,
+    "wof:lastmodified":1613616800,
     "wof:name":"Aldrich",
     "wof:parent_id":404515877,
     "wof:placetype":"locality",

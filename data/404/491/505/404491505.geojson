@@ -4,18 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.000002,
-    "geom:area_square_m":19997.645617,
-    "geom:bbox":"-90.928815,46.544522,-90.92725,46.547361",
-    "geom:latitude":46.545724,
-    "geom:longitude":-90.927788,
+    "geom:area":0.000005,
+    "geom:area_square_m":41780.977143,
+    "geom:bbox":"-90.929195,46.535677,-90.927157,46.573996",
+    "geom:latitude":46.540593,
+    "geom:longitude":-90.927902,
     "iso:country":"US",
-    "lbl:latitude":46.545569,
-    "lbl:longitude":-90.927863,
+    "lbl:latitude":46.536778,
+    "lbl:longitude":-90.928106,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.5,
+    "mps:latitude":46.536778,
+    "mps:longitude":-90.928106,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:cat_x_preferred":[
         "Ashland"
@@ -113,17 +115,31 @@
     "qs:level":"localadmin",
     "qs:source":"US Census",
     "qs:type":"city",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
+    "src:geom_alt":[
+        "quattroshapes"
+    ],
+    "src:lbl_centroid":"mapshaper",
+    "uscensus:countyfp":7,
+    "uscensus:geoid":5500703225,
+    "uscensus:name":"Ashland",
+    "uscensus:namelsad":"Ashland city",
+    "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081781
+        102081781,
+        85688517
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "uscensus:geoid":5500703225
+    },
     "wof:country":"US",
-    "wof:geomhash":"249b3fae4e870ceebfc24eaed8873c71",
+    "wof:geom_alt":[
+        "quattroshapes"
+    ],
+    "wof:geomhash":"17060c3ef5a89da4ef0cb18ebdb2de81",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -134,7 +150,7 @@
         }
     ],
     "wof:id":404491505,
-    "wof:lastmodified":1566632012,
+    "wof:lastmodified":1605055574,
     "wof:name":"Ashland",
     "wof:parent_id":102081781,
     "wof:placetype":"localadmin",
@@ -144,10 +160,10 @@
     "wof:tags":[]
 },
   "bbox": [
-    -90.928815,
-    46.544522,
-    -90.92725,
-    46.547361
+    -90.929195,
+    46.535677,
+    -90.927157,
+    46.573996
 ],
-  "geometry": {"coordinates":[[[-90.92725,46.547361],[-90.927255,46.544522],[-90.928815,46.545177],[-90.928011,46.546472],[-90.92725,46.547361]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[[-90.92715699999999,46.573996],[-90.927166,46.573376],[-90.92716,46.573121],[-90.927503,46.573066],[-90.92765799999999,46.573534],[-90.92770400000001,46.573673],[-90.92778,46.573909],[-90.927374,46.573975],[-90.92715699999999,46.573996]]],[[[-90.92730299999999,46.540522],[-90.92731000000001,46.5401],[-90.92731999999999,46.53843],[-90.92734,46.53669],[-90.92734,46.536121],[-90.92734,46.535677],[-90.92919500000001,46.536209],[-90.92730299999999,46.540522]]]],"type":"MultiPolygon"}
 }

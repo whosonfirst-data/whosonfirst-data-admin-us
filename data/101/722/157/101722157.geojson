@@ -13,11 +13,11 @@
     "gn:population":31,
     "iso:country":"US",
     "lbl:latitude":45.856815,
-    "lbl:longitude":-99.205784,
+    "lbl:longitude":-99.205783,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
     "mps:latitude":45.856815,
-    "mps:longitude":-99.205784,
+    "mps:longitude":-99.205783,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -101,17 +101,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
-    "src:geom_alt":[],
+    "src:geom":"uscensus",
+    "src:geom_alt":[
+        "quattroshapes"
+    ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":718020,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C5",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"4638860",
+    "uscensus:intptlat":"+45.8566610",
+    "uscensus:intptlon":"-099.2057880",
+    "uscensus:lsad":"43",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Long Lake",
+    "uscensus:namelsad":"Long Lake town",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"38860",
+    "uscensus:placens":"01267464",
+    "uscensus:statefp":"46",
     "wd:wordcount":737,
     "wof:belongsto":[
-        85688693,
         102191575,
-        404488973,
         85633793,
-        102086837
+        102086837,
+        404488973,
+        85688693
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -119,10 +137,14 @@
         "gn:id":5229420,
         "gp:id":2441570,
         "qs_pg:id":1344924,
+        "uscensus:geoid":4638860,
         "wd:id":"Q2030816",
         "wk:page":"Long Lake, South Dakota"
     },
     "wof:country":"US",
+    "wof:geom_alt":[
+        "quattroshapes"
+    ],
     "wof:geomhash":"4b71bf1ab09df5ddefc7bb7372c6e8a4",
     "wof:hierarchy":[
         {
@@ -135,7 +157,7 @@
         }
     ],
     "wof:id":101722157,
-    "wof:lastmodified":1566625660,
+    "wof:lastmodified":1613616087,
     "wof:name":"Long Lake",
     "wof:parent_id":404488973,
     "wof:placetype":"locality",

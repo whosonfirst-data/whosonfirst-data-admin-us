@@ -19,7 +19,7 @@
     "mps:latitude":45.623536,
     "mps:longitude":-88.353149,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u063a\u0648\u062f\u0645\u0627\u0646"
@@ -83,19 +83,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":4304662,
+    "uscensus:awater":94380,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"5529750",
+    "uscensus:intptlat":"+45.6193628",
+    "uscensus:intptlon":"-088.3514125",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Goodman",
+    "uscensus:namelsad":"Goodman CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"29750",
+    "uscensus:placens":"02586493",
+    "uscensus:statefp":"55",
     "wd:wordcount":494,
     "wof:belongsto":[
-        85688517,
         102191575,
-        404493847,
         85633793,
-        102081785
+        102081785,
+        404493847,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -104,12 +121,14 @@
         "gn:id":5254545,
         "gp:id":2412080,
         "qs_pg:id":1174013,
+        "uscensus:geoid":5529750,
         "wd:id":"Q1659246",
         "wk:page":"Goodman, Wisconsin"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"9ac2fd949e06dd15f09aa4dffeedd982",
     "wof:hierarchy":[
@@ -126,7 +145,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582338136,
+    "wof:lastmodified":1613616341,
     "wof:name":"Goodman",
     "wof:parent_id":404493847,
     "wof:placetype":"locality",

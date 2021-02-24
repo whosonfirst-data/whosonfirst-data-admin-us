@@ -11,11 +11,11 @@
     "geom:longitude":-85.51317,
     "iso:country":"US",
     "lbl:latitude":39.033375,
-    "lbl:longitude":-85.51111,
+    "lbl:longitude":-85.511111,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.5,
     "mps:latitude":39.033375,
-    "mps:longitude":-85.51111,
+    "mps:longitude":-85.511111,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":12.0,
@@ -69,18 +69,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":980298,
+    "uscensus:awater":0,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"1809622",
+    "uscensus:intptlat":"+39.0325423",
+    "uscensus:intptlon":"-085.5131701",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Butlerville",
+    "uscensus:namelsad":"Butlerville CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"09622",
+    "uscensus:placens":"02587013",
+    "uscensus:statefp":"18",
     "wd:wordcount":250,
     "wof:belongsto":[
-        85688709,
         102191575,
-        404501047,
         85633793,
-        102086971
+        102086971,
+        404501047,
+        85688709
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -89,12 +106,14 @@
         "gn:id":4255263,
         "gp:id":2372626,
         "qs_pg:id":152391,
+        "uscensus:geoid":1809622,
         "wd:id":"Q5002709",
         "wk:page":"Butlerville, Indiana"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"33ebc4fc6a74304ac2fa280e72246818",
     "wof:hierarchy":[
@@ -111,7 +130,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336087,
+    "wof:lastmodified":1613615907,
     "wof:name":"Butlerville",
     "wof:parent_id":404501047,
     "wof:placetype":"locality",

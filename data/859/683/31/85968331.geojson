@@ -21,7 +21,7 @@
     "mps:latitude":47.264229,
     "mps:longitude":-96.809925,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:eng_x_preferred":[
         "Hendrum"
@@ -49,19 +49,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":840827,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C5",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"2728484",
+    "uscensus:intptlat":"+47.2640494",
+    "uscensus:intptlon":"-096.8104097",
+    "uscensus:lsad":"25",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Hendrum",
+    "uscensus:namelsad":"Hendrum city",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"28484",
+    "uscensus:placens":"02394351",
+    "uscensus:statefp":"27",
     "wd:wordcount":17,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404510287,
         85633793,
-        102087699
+        102087699,
+        404510287,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -70,11 +87,13 @@
         "gn:id":5029873,
         "gp:id":2420014,
         "qs_pg:id":15580,
+        "uscensus:geoid":2728484,
         "wd:id":"Q5714047"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"4db18496f69184bfd2d94ac536851f02",
     "wof:hierarchy":[
@@ -91,7 +110,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336120,
+    "wof:lastmodified":1613615415,
     "wof:name":"Hendrum",
     "wof:parent_id":404510287,
     "wof:placetype":"locality",

@@ -17,7 +17,7 @@
     "mps:latitude":39.749254,
     "mps:longitude":-90.535253,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:ara_x_preferred":[
         "\u0628\u0644\u0648\u0641\u0633"
@@ -102,18 +102,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":2311823,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"1706899",
+    "uscensus:intptlat":"+39.7492538",
+    "uscensus:intptlon":"-090.5352526",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Bluffs",
+    "uscensus:namelsad":"Bluffs village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"06899",
+    "uscensus:placens":"02398143",
+    "uscensus:statefp":"17",
     "wd:wordcount":470,
     "wof:belongsto":[
-        85688697,
         102191575,
-        404498699,
         85633793,
-        102080837
+        102080837,
+        404498699,
+        85688697
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -122,12 +139,14 @@
         "gn:id":4234125,
         "gp:id":2366083,
         "qs_pg:id":1236258,
+        "uscensus:geoid":1706899,
         "wd:id":"Q2569637",
         "wk:page":"Bluffs, Illinois"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"334cfca267091f4f8187e8858a23ba5c",
     "wof:hierarchy":[
@@ -144,7 +163,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336230,
+    "wof:lastmodified":1613615323,
     "wof:name":"Bluffs",
     "wof:parent_id":404498699,
     "wof:placetype":"locality",

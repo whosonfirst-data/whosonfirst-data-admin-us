@@ -17,7 +17,7 @@
     "mps:latitude":44.496174,
     "mps:longitude":-86.236612,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:ara_x_preferred":[
         "\u0628\u0644\u062f\u0629 \u0623\u0631\u0643\u0627\u062f\u064a\u0627"
@@ -55,17 +55,34 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":1351375,
+    "uscensus:awater":590,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"2603300",
+    "uscensus:intptlat":"+44.4927463",
+    "uscensus:intptlon":"-086.2377470",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Arcadia",
+    "uscensus:namelsad":"Arcadia CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"03300",
+    "uscensus:placens":"02583716",
+    "uscensus:statefp":"26",
     "wof:belongsto":[
-        85688599,
         102191575,
-        404507489,
         85633793,
-        102083761
+        102083761,
+        404507489,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -74,12 +91,14 @@
         "gn:id":4984337,
         "gp:id":2355514,
         "qs_pg:id":1050757,
+        "uscensus:geoid":2603300,
         "wd:id":"Q1938176",
         "wk:page":"Arcadia Township, Manistee County, Michigan"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"4e724495239c9e32e3feb23e073eac3a",
     "wof:hierarchy":[
@@ -96,7 +115,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336293,
+    "wof:lastmodified":1613616019,
     "wof:name":"Arcadia",
     "wof:parent_id":404507489,
     "wof:placetype":"locality",

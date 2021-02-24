@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000033,
-    "geom:area_square_m":311392.168948,
+    "geom:area_square_m":311392.16895,
     "geom:bbox":"-87.256605,40.446806,-87.250212,40.452263",
     "geom:latitude":40.449499,
     "geom:longitude":-87.253451,
@@ -15,11 +15,11 @@
     "gn:population":217,
     "iso:country":"US",
     "lbl:latitude":40.44949,
-    "lbl:longitude":-87.253449,
+    "lbl:longitude":-87.25345,
     "lbl:max_zoom":17.0,
     "lbl:min_zoom":12.5,
     "mps:latitude":40.44949,
-    "mps:longitude":-87.253449,
+    "mps:longitude":-87.25345,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -97,19 +97,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":311734,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"1860084",
+    "uscensus:intptlat":"+40.4494993",
+    "uscensus:intptlon":"-087.2534511",
+    "uscensus:lsad":"43",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Pine Village",
+    "uscensus:namelsad":"Pine Village town",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"60084",
+    "uscensus:placens":"02396857",
+    "uscensus:statefp":"18",
     "wd:wordcount":903,
     "wof:belongsto":[
-        85688709,
         102191575,
-        404500643,
         85633793,
-        102087047
+        102087047,
+        404500643,
+        85688709
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -118,14 +135,16 @@
         "gn:id":4924824,
         "gp:id":2472476,
         "qs_pg:id":271877,
+        "uscensus:geoid":1860084,
         "wd:id":"Q2713207",
         "wk:page":"Pine Village, Indiana"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"4318ba6f9d29d1123622527ad5291c0f",
+    "wof:geomhash":"a983ccc8b06694e332141277e0b060e4",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -140,7 +159,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336024,
+    "wof:lastmodified":1613615952,
     "wof:name":"Pine Village",
     "wof:parent_id":404500643,
     "wof:placetype":"locality",
@@ -157,5 +176,5 @@
     -87.250212,
     40.452263
 ],
-  "geometry": {"coordinates":[[[-87.256541,40.452202],[-87.25485500000001,40.452261],[-87.254801,40.452263],[-87.254828,40.452096],[-87.25435899999999,40.452105],[-87.25355,40.452101],[-87.253085,40.452099],[-87.252488,40.452098],[-87.25241200000001,40.452097],[-87.251124,40.452093],[-87.250316,40.452092],[-87.250276,40.450131],[-87.250274,40.450032],[-87.250263,40.449501],[-87.250224,40.447611],[-87.250212,40.446982],[-87.250607,40.446971],[-87.251794,40.446939],[-87.25219,40.446929],[-87.254338,40.446843],[-87.25493899999999,40.446836],[-87.25660499999999,40.446806],[-87.25659400000001,40.447036],[-87.256562,40.450071],[-87.256546,40.450283],[-87.25655999999999,40.45028],[-87.256541,40.452202]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-87.25659400000001,40.447036],[-87.256562,40.450071],[-87.256546,40.450283],[-87.25655999999999,40.45028],[-87.256541,40.452202],[-87.25485500000001,40.452261],[-87.254801,40.452263],[-87.254828,40.452096],[-87.25435899999999,40.452105],[-87.25355,40.452101],[-87.253085,40.452099],[-87.252488,40.452098],[-87.25241200000001,40.452097],[-87.251124,40.452093],[-87.250316,40.452092],[-87.250276,40.450131],[-87.250274,40.450032],[-87.250263,40.449501],[-87.250224,40.447611],[-87.250212,40.446982],[-87.250607,40.446971],[-87.251794,40.446939],[-87.25219,40.446929],[-87.254338,40.446843],[-87.25493899999999,40.446836],[-87.25660499999999,40.446806],[-87.25659400000001,40.447036]]],"type":"Polygon"}
 }

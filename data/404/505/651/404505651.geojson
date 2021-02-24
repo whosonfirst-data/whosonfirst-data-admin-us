@@ -4,18 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.000279,
-    "geom:area_square_m":2515511.869683,
+    "geom:area":0.00028,
+    "geom:area_square_m":2525192.602048,
     "geom:bbox":"-83.903287,43.168634,-83.883317,43.184091",
-    "geom:latitude":43.176344,
-    "geom:longitude":-83.893191,
+    "geom:latitude":43.176345,
+    "geom:longitude":-83.893185,
     "iso:country":"US",
-    "lbl:latitude":43.176175,
-    "lbl:longitude":-83.893191,
+    "lbl:latitude":43.176161,
+    "lbl:longitude":-83.893185,
     "lbl:max_zoom":16.0,
     "lbl:min_zoom":12.0,
+    "mps:latitude":43.176161,
+    "mps:longitude":-83.893185,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:bre_x_preferred":[
         "Montrose"
@@ -102,18 +104,32 @@
     "qs:pop":1657,
     "qs:source":"US Census",
     "qs:type":"city",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
+    "src:geom_alt":[
+        "quattroshapes"
+    ],
+    "src:lbl_centroid":"mapshaper",
     "src:population":"quattroshapes",
+    "uscensus:countyfp":49,
+    "uscensus:geoid":2604955280,
+    "uscensus:name":"Montrose",
+    "uscensus:namelsad":"Montrose city",
+    "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688599,
-        102083111
+        102083111,
+        85688599
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "uscensus:geoid":2604955280
+    },
     "wof:country":"US",
-    "wof:geomhash":"db2b8adbc64e90d8d52e9f556c29a03d",
+    "wof:geom_alt":[
+        "quattroshapes"
+    ],
+    "wof:geomhash":"ccbd5a2dafbacf3519df0d284f10ce33",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -124,7 +140,7 @@
         }
     ],
     "wof:id":404505651,
-    "wof:lastmodified":1566631163,
+    "wof:lastmodified":1605055282,
     "wof:name":"Montrose",
     "wof:parent_id":102083111,
     "wof:placetype":"localadmin",
@@ -141,5 +157,5 @@
     -83.883317,
     43.184091
 ],
-  "geometry": {"coordinates":[[[-83.89304799999999,43.184091],[-83.883318,43.183277],[-83.883634,43.176237],[-83.88331700000001,43.169506],[-83.902331,43.168634],[-83.902764,43.176187],[-83.90328700000001,43.183359],[-83.893057,43.183296],[-83.89304799999999,43.184091]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-83.902764,43.176187],[-83.90328700000001,43.183359],[-83.902614,43.183341],[-83.899371,43.183362],[-83.896518,43.183322],[-83.895472,43.183351],[-83.894291,43.183303],[-83.893057,43.183296],[-83.89304799999999,43.184091],[-83.888211,43.183994],[-83.888158,43.183417],[-83.883318,43.183277],[-83.883331,43.180415],[-83.883634,43.176237],[-83.88343399999999,43.172787],[-83.883342,43.170452],[-83.88331700000001,43.169506],[-83.891299,43.169149],[-83.892437,43.169066],[-83.894261,43.168967],[-83.90116,43.168649],[-83.902331,43.168634],[-83.90235699999999,43.169191],[-83.902377,43.169639],[-83.90241399999999,43.170014],[-83.902764,43.176187]]],"type":"Polygon"}
 }

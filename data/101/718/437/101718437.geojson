@@ -13,11 +13,11 @@
     "gn:population":441,
     "iso:country":"US",
     "lbl:latitude":40.392958,
-    "lbl:longitude":-77.941596,
+    "lbl:longitude":-77.941595,
     "lbl:max_zoom":17.0,
     "lbl:min_zoom":12.5,
     "mps:latitude":40.392958,
-    "mps:longitude":-77.941596,
+    "mps:longitude":-77.941595,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -87,19 +87,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":473752,
+    "uscensus:awater":21838,
+    "uscensus:classfp":"C5",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"4247248",
+    "uscensus:intptlat":"+40.3919756",
+    "uscensus:intptlon":"-077.9416466",
+    "uscensus:lsad":"21",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Mapleton",
+    "uscensus:namelsad":"Mapleton borough",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"47248",
+    "uscensus:placens":"01215271",
+    "uscensus:statefp":"42",
     "wd:wordcount":540,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404483285,
         85633793,
-        102080901
+        102080901,
+        404483285,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -108,12 +125,14 @@
         "gn:id":5199828,
         "gp:id":2445351,
         "qs_pg:id":1058224,
+        "uscensus:geoid":4247248,
         "wd:id":"Q1185596",
         "wk:page":"Mapleton, Pennsylvania"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"755bbc42a7032b29491e4d943fd76304",
     "wof:hierarchy":[
@@ -130,7 +149,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582338321,
+    "wof:lastmodified":1613615061,
     "wof:name":"Mapleton",
     "wof:parent_id":404483285,
     "wof:placetype":"locality",

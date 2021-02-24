@@ -17,7 +17,7 @@
     "mps:latitude":41.878033,
     "mps:longitude":-86.544037,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:azb_x_preferred":[
         "\u0646\u06cc\u0648\u062a\u0631\u0648\u06cc"
@@ -60,18 +60,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":3430821,
+    "uscensus:awater":4753,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"2657660",
+    "uscensus:intptlat":"+41.8817968",
+    "uscensus:intptlon":"-086.5423576",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"New Troy",
+    "uscensus:namelsad":"New Troy CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"57660",
+    "uscensus:placens":"02628670",
+    "uscensus:statefp":"26",
     "wd:wordcount":132,
     "wof:belongsto":[
-        85688599,
         102191575,
-        404505791,
         85633793,
-        102083151
+        102083151,
+        404505791,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -80,12 +97,14 @@
         "gn:id":5003414,
         "gp:id":2459046,
         "qs_pg:id":478422,
+        "uscensus:geoid":2657660,
         "wd:id":"Q16895833",
         "wk:page":"New Troy, Michigan"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"e1eda58ffea50ba957bca010153d75f9",
     "wof:hierarchy":[
@@ -102,7 +121,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336294,
+    "wof:lastmodified":1613614712,
     "wof:name":"New Troy",
     "wof:parent_id":404505791,
     "wof:placetype":"locality",

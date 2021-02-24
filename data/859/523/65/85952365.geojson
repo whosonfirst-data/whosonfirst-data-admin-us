@@ -17,7 +17,7 @@
     "mps:latitude":45.271897,
     "mps:longitude":-84.941182,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:azb_x_preferred":[
         "\u0648\u0627\u0644\u0648\u0648\u0646 \u0644\u06cc\u06a9"
@@ -79,18 +79,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":3508941,
+    "uscensus:awater":0,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"2683140",
+    "uscensus:intptlat":"+45.2718657",
+    "uscensus:intptlon":"-084.9411809",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Walloon Lake",
+    "uscensus:namelsad":"Walloon Lake CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"83140",
+    "uscensus:placens":"02583769",
+    "uscensus:statefp":"26",
     "wd:wordcount":352,
     "wof:belongsto":[
-        85688599,
         102191575,
-        404507137,
         85633793,
-        102083739
+        102083739,
+        404507137,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -99,12 +116,14 @@
         "gn:id":5013973,
         "gp:id":2513696,
         "qs_pg:id":902323,
+        "uscensus:geoid":2683140,
         "wd:id":"Q22074936",
         "wk:page":"Walloon Lake, Michigan"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"b1f9baaf321b156d8678b7cb8cd626aa",
     "wof:hierarchy":[
@@ -121,7 +140,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336325,
+    "wof:lastmodified":1613616014,
     "wof:name":"Walloon Lake",
     "wof:parent_id":404507137,
     "wof:placetype":"locality",

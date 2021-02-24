@@ -4,18 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.000028,
-    "geom:area_square_m":246328.842663,
-    "geom:bbox":"-93.454491,43.722079,-93.44726,43.727673",
-    "geom:latitude":43.725351,
-    "geom:longitude":-93.451035,
+    "geom:area":0.000022,
+    "geom:area_square_m":192393.29743,
+    "geom:bbox":"-93.453666,43.721702,-93.447306,43.727695",
+    "geom:latitude":43.725424,
+    "geom:longitude":-93.45087,
     "iso:country":"US",
-    "lbl:latitude":43.725525,
-    "lbl:longitude":-93.450967,
+    "lbl:latitude":43.725779,
+    "lbl:longitude":-93.45087,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
+    "mps:latitude":43.725779,
+    "mps:longitude":-93.45087,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Manchester"
@@ -393,18 +395,32 @@
     "qs:pop":57,
     "qs:source":"US Census",
     "qs:type":"city",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
+    "src:geom_alt":[
+        "quattroshapes"
+    ],
+    "src:lbl_centroid":"mapshaper",
     "src:population":"quattroshapes",
+    "uscensus:countyfp":47,
+    "uscensus:geoid":2704739716,
+    "uscensus:name":"Manchester",
+    "uscensus:namelsad":"Manchester city",
+    "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688727,
-        102087887
+        102087887,
+        85688727
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "uscensus:geoid":2704739716
+    },
     "wof:country":"US",
-    "wof:geomhash":"7f6f6c62ca7e5513db300d008d413114",
+    "wof:geom_alt":[
+        "quattroshapes"
+    ],
+    "wof:geomhash":"855e28df14a643209a5d3fc82694ced5",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -415,7 +431,7 @@
         }
     ],
     "wof:id":404514509,
-    "wof:lastmodified":1566633685,
+    "wof:lastmodified":1605056023,
     "wof:name":"Manchester",
     "wof:parent_id":102087887,
     "wof:placetype":"localadmin",
@@ -427,10 +443,10 @@
     "wof:tags":[]
 },
   "bbox": [
-    -93.454491,
-    43.722079,
-    -93.44726,
-    43.727673
+    -93.453666,
+    43.721702,
+    -93.447306,
+    43.727695
 ],
-  "geometry": {"coordinates":[[[-93.452369,43.723885],[-93.454491,43.723889],[-93.45448399999999,43.727643],[-93.44880999999999,43.727673],[-93.44726,43.722079],[-93.452369,43.723885]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-93.453666,43.727695],[-93.451978,43.72769],[-93.451763,43.72769],[-93.44880999999999,43.727678],[-93.448802,43.727123],[-93.448803,43.726473],[-93.448785,43.725017],[-93.44877,43.724681],[-93.44873800000001,43.723928],[-93.448731,43.723888],[-93.44852,43.723884],[-93.44810099999999,43.723877],[-93.44791499999999,43.723874],[-93.447892,43.723874],[-93.4478,43.723872],[-93.447306,43.723864],[-93.44731899999999,43.722135],[-93.44753300000001,43.722136],[-93.447885,43.722644],[-93.447919,43.722125],[-93.44792200000001,43.722059],[-93.447925,43.722004],[-93.44794400000001,43.721702],[-93.44931099999999,43.723869],[-93.44933,43.723868],[-93.449422,43.723868],[-93.449608,43.723869],[-93.451278,43.723873],[-93.451221,43.7233],[-93.452029,43.723314],[-93.45205199999999,43.723882],[-93.452369,43.723885],[-93.453351,43.723895],[-93.453666,43.723893],[-93.453666,43.727695]]],"type":"Polygon"}
 }

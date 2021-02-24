@@ -21,7 +21,7 @@
     "mps:latitude":42.393934,
     "mps:longitude":-75.178238,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:deu_x_preferred":[
         "Otego"
@@ -61,18 +61,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":3002942,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3655618",
+    "uscensus:intptlat":"+42.3927987",
+    "uscensus:intptlon":"-075.1800706",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Otego",
+    "uscensus:namelsad":"Otego village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"55618",
+    "uscensus:placens":"02391042",
+    "uscensus:statefp":"36",
     "wof:belongsto":[
-        85688543,
         102191575,
-        404522987,
         85633793,
-        102082399
+        102082399,
+        404522987,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -81,12 +98,14 @@
         "gn:id":5130084,
         "gp:id":2466697,
         "qs_pg:id":268756,
+        "uscensus:geoid":3655618,
         "wd:id":"Q7108497",
         "wk:page":"Otego (town), New York"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"ad9e6e502b2d4adfefd97aadff8fad1e",
     "wof:hierarchy":[
@@ -103,7 +122,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336240,
+    "wof:lastmodified":1613616636,
     "wof:name":"Otego",
     "wof:parent_id":404522987,
     "wof:placetype":"locality",

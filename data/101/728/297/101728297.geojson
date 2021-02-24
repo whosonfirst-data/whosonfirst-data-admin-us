@@ -19,7 +19,7 @@
     "mps:latitude":44.639551,
     "mps:longitude":-72.880019,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u0643\u0627\u0645\u0628\u0631\u064a\u062f\u062c"
@@ -102,19 +102,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":3203686,
+    "uscensus:awater":61696,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"5011425",
+    "uscensus:intptlat":"+44.6373070",
+    "uscensus:intptlon":"-072.8814058",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Cambridge",
+    "uscensus:namelsad":"Cambridge village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"11425",
+    "uscensus:placens":"02378302",
+    "uscensus:statefp":"50",
     "wd:wordcount":758,
     "wof:belongsto":[
-        85688763,
         102191575,
-        404527147,
         85633793,
-        102080785
+        102080785,
+        404527147,
+        85688763
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -123,12 +140,14 @@
         "gn:id":5234499,
         "gp:id":2373557,
         "qs_pg:id":1221170,
+        "uscensus:geoid":5011425,
         "wd:id":"Q1028276",
         "wk:page":"Cambridge, Vermont"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"2ada52c3c78b3449531244734c04f81b",
     "wof:hierarchy":[
@@ -145,7 +164,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582338242,
+    "wof:lastmodified":1613615660,
     "wof:name":"Cambridge",
     "wof:parent_id":404527147,
     "wof:placetype":"locality",

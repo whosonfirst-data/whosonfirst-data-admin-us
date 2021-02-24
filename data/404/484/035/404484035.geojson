@@ -4,18 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.000244,
-    "geom:area_square_m":2321299.489873,
-    "geom:bbox":"-79.343331,39.807318,-79.32105,39.822818",
-    "geom:latitude":39.81529,
-    "geom:longitude":-79.332458,
+    "geom:area":0.000245,
+    "geom:area_square_m":2327718.949007,
+    "geom:bbox":"-79.343581,39.807318,-79.32105,39.822818",
+    "geom:latitude":39.815295,
+    "geom:longitude":-79.332483,
     "iso:country":"US",
     "lbl:latitude":39.814465,
-    "lbl:longitude":-79.332246,
+    "lbl:longitude":-79.332269,
     "lbl:max_zoom":17.0,
     "lbl:min_zoom":12.5,
+    "mps:latitude":39.814465,
+    "mps:longitude":-79.332269,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ceb_x_preferred":[
         "Ursina"
@@ -54,18 +56,32 @@
     "qs:pop":225,
     "qs:source":"US Census",
     "qs:type":"boro",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
+    "src:geom_alt":[
+        "quattroshapes"
+    ],
+    "src:lbl_centroid":"mapshaper",
     "src:population":"quattroshapes",
+    "uscensus:countyfp":111,
+    "uscensus:geoid":4211179424,
+    "uscensus:name":"Ursina",
+    "uscensus:namelsad":"Ursina borough",
+    "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688481,
-        102081361
+        102081361,
+        85688481
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "uscensus:geoid":4211179424
+    },
     "wof:country":"US",
-    "wof:geomhash":"7e6d737814f5bde81a6b0aad81af8fc2",
+    "wof:geom_alt":[
+        "quattroshapes"
+    ],
+    "wof:geomhash":"16e5357642e9289433e3dcac8f8218cf",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -76,7 +92,7 @@
         }
     ],
     "wof:id":404484035,
-    "wof:lastmodified":1566631700,
+    "wof:lastmodified":1605055465,
     "wof:name":"Ursina",
     "wof:parent_id":102081361,
     "wof:placetype":"localadmin",
@@ -88,10 +104,10 @@
     "wof:tags":[]
 },
   "bbox": [
-    -79.343331,
+    -79.343581,
     39.807318,
     -79.32105,
     39.822818
 ],
-  "geometry": {"coordinates":[[[-79.34333100000001,39.815107],[-79.343169,39.819477],[-79.32391200000001,39.822818],[-79.32200899999999,39.82111],[-79.32105,39.820229],[-79.32446,39.811702],[-79.33054799999999,39.807318],[-79.340041,39.808657],[-79.34333100000001,39.815107]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-79.34333100000001,39.815107],[-79.343581,39.815594],[-79.343566,39.815836],[-79.343401,39.817363],[-79.343311,39.818161],[-79.343169,39.819477],[-79.339634,39.820091],[-79.33852899999999,39.820282],[-79.33804000000001,39.820368],[-79.32747500000001,39.822202],[-79.324327,39.822749],[-79.32391200000001,39.822818],[-79.323815,39.82273],[-79.323781,39.822736],[-79.32293,39.821955],[-79.32200899999999,39.82111],[-79.321949,39.821055],[-79.32105,39.820229],[-79.321136,39.820013],[-79.321707,39.818583],[-79.32446,39.811702],[-79.33054799999999,39.807318],[-79.330584,39.807323],[-79.330635,39.807331],[-79.331782,39.807492],[-79.340041,39.808657],[-79.34243499999999,39.813348],[-79.342574,39.813621],[-79.34333100000001,39.815107]]],"type":"Polygon"}
 }

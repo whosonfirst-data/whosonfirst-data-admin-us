@@ -19,7 +19,7 @@
     "mps:latitude":44.796937,
     "mps:longitude":-88.268154,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:azb_x_preferred":[
         "\u0642\u0631\u06cc\u0646 \u0648\u0644\u06cc"
@@ -65,12 +65,29 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":483064,
+    "uscensus:awater":0,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"5531475",
+    "uscensus:intptlat":"+44.7969346",
+    "uscensus:intptlon":"-088.2681558",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Green Valley",
+    "uscensus:namelsad":"Green Valley CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"31475",
+    "uscensus:placens":"02585064",
+    "uscensus:statefp":"55",
     "wd:wordcount":150,
     "wof:belongsto":[
         102191575,
@@ -86,14 +103,16 @@
         "gn:id":5255039,
         "gp:id":2414064,
         "qs_pg:id":158359,
+        "uscensus:geoid":5531475,
         "wd:id":"Q5603373",
         "wk:page":"Green Valley (CDP), Wisconsin"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"f5af54e0612386f5f81a883564aaae5e",
+    "wof:geomhash":"aeda55d57ba080effdb18ffb1c965dfe",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -108,7 +127,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1587163107,
+    "wof:lastmodified":1613616431,
     "wof:name":"Green Valley",
     "wof:parent_id":404492261,
     "wof:placetype":"locality",
@@ -125,5 +144,5 @@
     -88.262556,
     44.799444
 ],
-  "geometry": {"coordinates":[[[-88.27364799999999,44.799381],[-88.27038400000001,44.7994],[-88.262556,44.799444],[-88.262565,44.798934],[-88.26262199999999,44.795718],[-88.26264399999999,44.79452],[-88.27070500000001,44.794433],[-88.270707,44.79441],[-88.273719,44.794386],[-88.273718,44.794401],[-88.273701,44.79556],[-88.27364799999999,44.799381]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-88.273718,44.794401],[-88.273701,44.79556],[-88.27364799999999,44.799381],[-88.27038400000001,44.7994],[-88.262556,44.799444],[-88.262565,44.798934],[-88.26262199999999,44.795718],[-88.26264399999999,44.79452],[-88.27070500000001,44.794433],[-88.270707,44.79441],[-88.273719,44.794386],[-88.273718,44.794401]]],"type":"Polygon"}
 }

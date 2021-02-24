@@ -4,24 +4,24 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.000025,
-    "geom:area_square_m":229870.4525,
-    "geom:bbox":"-86.235776,41.712485,-86.228595,41.716076",
-    "geom:latitude":41.714297,
-    "geom:longitude":-86.23219,
+    "geom:area":0.000026,
+    "geom:area_square_m":237568.542554,
+    "geom:bbox":"-86.235776,41.712384,-86.228595,41.716076",
+    "geom:latitude":41.714238,
+    "geom:longitude":-86.232189,
     "gn:elevation":222,
     "gn:latitude":41.71394,
     "gn:longitude":-86.23556,
     "gn:population":133,
     "iso:country":"US",
-    "lbl:latitude":41.714297,
-    "lbl:longitude":-86.23219,
+    "lbl:latitude":41.714233,
+    "lbl:longitude":-86.232189,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
-    "mps:latitude":41.714297,
-    "mps:longitude":-86.23219,
+    "mps:latitude":41.714233,
+    "mps:longitude":-86.232189,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u0627\u064a\u0646\u062f\u064a\u0627\u0646 \u0648\u064a\u0644\u064a\u062c"
@@ -100,19 +100,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":237898,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"1836306",
+    "uscensus:intptlat":"+41.7142383",
+    "uscensus:intptlon":"-086.2321889",
+    "uscensus:lsad":"43",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Indian Village",
+    "uscensus:namelsad":"Indian Village town",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"36306",
+    "uscensus:placens":"02397006",
+    "uscensus:statefp":"18",
     "wd:wordcount":771,
     "wof:belongsto":[
-        85688709,
         102191575,
-        404501455,
         85633793,
-        102086969
+        102086969,
+        404501455,
+        85688709
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -121,14 +138,16 @@
         "gn:id":4921830,
         "gp:id":2427006,
         "qs_pg:id":980299,
+        "uscensus:geoid":1836306,
         "wd:id":"Q3293501",
         "wk:page":"Indian Village, Indiana"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"ac2aba82c1f03938d76d6fc173ca166f",
+    "wof:geomhash":"d79947ef4b2c680503ca96d3058686aa",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -143,7 +162,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335664,
+    "wof:lastmodified":1613615910,
     "wof:name":"Indian Village",
     "wof:parent_id":404501455,
     "wof:placetype":"locality",
@@ -156,9 +175,9 @@
 },
   "bbox": [
     -86.235776,
-    41.712485,
+    41.712384,
     -86.228595,
     41.716076
 ],
-  "geometry": {"coordinates":[[[-86.235693,41.716004],[-86.235353,41.715997],[-86.23485700000001,41.716],[-86.234549,41.71601],[-86.234414,41.716019],[-86.233512,41.716026],[-86.23344400000001,41.716016],[-86.233451,41.71603],[-86.233071,41.716026],[-86.231307,41.716044],[-86.228607,41.716076],[-86.228601,41.715999],[-86.228596,41.714735],[-86.228595,41.714426],[-86.228656,41.712747],[-86.228669,41.712579],[-86.228791,41.712579],[-86.23110800000001,41.712581],[-86.235737,41.712485],[-86.235742,41.712637],[-86.235742,41.713045],[-86.235743,41.713086],[-86.235753,41.713766],[-86.23575700000001,41.714241],[-86.235765,41.715239],[-86.23577400000001,41.715884],[-86.235776,41.716011],[-86.235693,41.716004]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-86.235776,41.716011],[-86.235693,41.716004],[-86.235353,41.715997],[-86.23485700000001,41.716],[-86.234549,41.71601],[-86.234414,41.716019],[-86.233512,41.716026],[-86.23344400000001,41.716016],[-86.233451,41.71603],[-86.233071,41.716026],[-86.231307,41.716044],[-86.228607,41.716076],[-86.228601,41.715999],[-86.228596,41.714735],[-86.228595,41.714426],[-86.228656,41.712747],[-86.228669,41.712579],[-86.22866999999999,41.712478],[-86.231101,41.712446],[-86.23573399999999,41.712384],[-86.235737,41.712485],[-86.235742,41.712637],[-86.235742,41.713045],[-86.235743,41.713086],[-86.235747,41.713383],[-86.235753,41.713766],[-86.23575700000001,41.714241],[-86.235765,41.715239],[-86.23577400000001,41.715884],[-86.235776,41.716011]]],"type":"Polygon"}
 }

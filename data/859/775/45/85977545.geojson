@@ -21,7 +21,7 @@
     "mps:latitude":42.03826,
     "mps:longitude":-78.338507,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u0642\u0631\u064a\u0629 \u0628\u0648\u0631\u062a\u0641\u064a\u0644"
@@ -64,18 +64,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":2077309,
+    "uscensus:awater":0,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3659498",
+    "uscensus:intptlat":"+42.0367059",
+    "uscensus:intptlon":"-078.3372563",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Portville",
+    "uscensus:namelsad":"Portville village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"59498",
+    "uscensus:placens":"02391081",
+    "uscensus:statefp":"36",
     "wof:belongsto":[
-        85688543,
         102191575,
-        404521793,
         85633793,
-        102081853
+        102081853,
+        404521793,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -83,12 +100,14 @@
         "gn:id":5132065,
         "gp:id":2475768,
         "qs_pg:id":473674,
+        "uscensus:geoid":3659498,
         "wd:id":"Q3461621",
         "wk:page":"Portville (village), New York"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"bbfde4097dd6cb9bf95e3e21fe6a1790",
     "wof:hierarchy":[
@@ -102,7 +121,7 @@
         }
     ],
     "wof:id":85977545,
-    "wof:lastmodified":1582336246,
+    "wof:lastmodified":1613615523,
     "wof:name":"Portville",
     "wof:parent_id":404521793,
     "wof:placetype":"locality",

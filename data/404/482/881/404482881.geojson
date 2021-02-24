@@ -4,18 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.00003,
-    "geom:area_square_m":284276.519709,
+    "geom:area":0.000031,
+    "geom:area_square_m":284771.997585,
     "geom:bbox":"-79.899065,41.002505,-79.893729,41.009496",
     "geom:latitude":41.00606,
-    "geom:longitude":-79.896452,
+    "geom:longitude":-79.896456,
     "iso:country":"US",
     "lbl:latitude":41.006023,
-    "lbl:longitude":-79.896452,
+    "lbl:longitude":-79.896456,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
+    "mps:latitude":41.006023,
+    "mps:longitude":-79.896456,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:eng_x_preferred":[
         "West Sunbury"
@@ -33,18 +35,32 @@
     "qs:pop":192,
     "qs:source":"US Census",
     "qs:type":"boro",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
+    "src:geom_alt":[
+        "quattroshapes"
+    ],
+    "src:lbl_centroid":"mapshaper",
     "src:population":"quattroshapes",
+    "uscensus:countyfp":19,
+    "uscensus:geoid":4201984064,
+    "uscensus:name":"West Sunbury",
+    "uscensus:namelsad":"West Sunbury borough",
+    "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688481,
-        102083677
+        102083677,
+        85688481
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "uscensus:geoid":4201984064
+    },
     "wof:country":"US",
-    "wof:geomhash":"63eec9caf7124de86f3cd4913716186e",
+    "wof:geom_alt":[
+        "quattroshapes"
+    ],
+    "wof:geomhash":"4be60843722ecd5dc2e400a9f15dda4d",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -55,7 +71,7 @@
         }
     ],
     "wof:id":404482881,
-    "wof:lastmodified":1566631442,
+    "wof:lastmodified":1605055379,
     "wof:name":"West Sunbury",
     "wof:parent_id":102083677,
     "wof:placetype":"localadmin",
@@ -72,5 +88,5 @@
     -79.893729,
     41.009496
 ],
-  "geometry": {"coordinates":[[[-79.897426,41.00271],[-79.89906499999999,41.002833],[-79.89836,41.009496],[-79.896038,41.00939],[-79.89372899999999,41.009285],[-79.89469800000001,41.002505],[-79.897426,41.00271]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-79.89906499999999,41.002833],[-79.899024,41.00328],[-79.898768,41.005731],[-79.89873799999999,41.006112],[-79.898668,41.006704],[-79.89858,41.007554],[-79.898512,41.008073],[-79.898473,41.008437],[-79.89836,41.009496],[-79.896038,41.00939],[-79.89372899999999,41.009285],[-79.893973,41.007581],[-79.89406200000001,41.006959],[-79.894098,41.006701],[-79.89409999999999,41.006684],[-79.894153,41.006318],[-79.89420699999999,41.005939],[-79.894265,41.005535],[-79.894445,41.004276],[-79.894475,41.004066],[-79.89469800000001,41.002505],[-79.896953,41.002674],[-79.897426,41.00271],[-79.897806,41.002738],[-79.89906499999999,41.002833]]],"type":"Polygon"}
 }

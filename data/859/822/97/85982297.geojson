@@ -4,22 +4,22 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.000323,
-    "geom:area_square_m":2730118.746931,
-    "geom:bbox":"-103.850174,46.911032,-103.830062,46.927522",
-    "geom:latitude":46.919317,
-    "geom:longitude":-103.840298,
+    "geom:area":0.00032,
+    "geom:area_square_m":2703913.723223,
+    "geom:bbox":"-103.850167,46.911689,-103.829275,46.927522",
+    "geom:latitude":46.919513,
+    "geom:longitude":-103.839973,
     "gn:elevation":829,
     "gn:latitude":46.91835,
     "gn:longitude":-103.83881,
     "gn:population":56,
     "iso:country":"US",
-    "lbl:latitude":46.919264,
-    "lbl:longitude":-103.840297,
+    "lbl:latitude":46.919596,
+    "lbl:longitude":-103.839971,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
-    "mps:latitude":46.919264,
-    "mps:longitude":-103.840297,
+    "mps:latitude":46.919596,
+    "mps:longitude":-103.839971,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
@@ -107,22 +107,39 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":2668606,
+    "uscensus:awater":42371,
+    "uscensus:classfp":"C5",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"3871780",
+    "uscensus:intptlat":"+46.9194401",
+    "uscensus:intptlon":"-103.8405901",
+    "uscensus:lsad":"25",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Sentinel Butte",
+    "uscensus:namelsad":"Sentinel Butte city",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"71780",
+    "uscensus:placens":"01036258",
+    "uscensus:statefp":"38",
     "wd:elevation":829.0,
     "wd:latitude":46.918611,
     "wd:longitude":-103.838889,
     "wd:wordcount":788,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404482173,
         85633793,
-        102082053
+        102082053,
+        404482173,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -131,14 +148,16 @@
         "gn:id":5692022,
         "gp:id":2490853,
         "qs_pg:id":159608,
+        "uscensus:geoid":3871780,
         "wd:id":"Q2278968",
         "wk:page":"Sentinel Butte, North Dakota"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
-    "wof:geomhash":"531730a55e6684f039cd29f8ef821d79",
+    "wof:geomhash":"28c0bb0b3b36b55eb9d3ded3ff53fba9",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -153,7 +172,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582336124,
+    "wof:lastmodified":1613614928,
     "wof:name":"Sentinel Butte",
     "wof:parent_id":404482173,
     "wof:placetype":"locality",
@@ -167,10 +186,10 @@
     "wof:tags":[]
 },
   "bbox": [
-    -103.850174,
-    46.911032,
-    -103.830062,
+    -103.850167,
+    46.911689,
+    -103.829275,
     46.927522
 ],
-  "geometry": {"coordinates":[[[-103.85011299999999,46.916866],[-103.850084,46.918972],[-103.850122,46.927522],[-103.84257100000001,46.927493],[-103.830062,46.927486],[-103.830077,46.927318],[-103.830516,46.918966],[-103.830517,46.91895],[-103.830547,46.918388],[-103.83058800000001,46.917593],[-103.83059900000001,46.917228],[-103.83080099999999,46.911042],[-103.83986400000001,46.911042],[-103.840208,46.911037],[-103.84451799999999,46.911032],[-103.846254,46.911035],[-103.850174,46.911053],[-103.85011299999999,46.916866]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-103.85011299999999,46.916866],[-103.850084,46.918972],[-103.850122,46.927522],[-103.84257100000001,46.927493],[-103.830062,46.927486],[-103.830077,46.927318],[-103.830502,46.918978],[-103.830517,46.91895],[-103.829559,46.918921],[-103.829275,46.918922],[-103.829278,46.918221],[-103.829289,46.917465],[-103.829307,46.916347],[-103.829358,46.911702],[-103.83078,46.9117],[-103.838289,46.911689],[-103.839646,46.911699],[-103.83969,46.911699],[-103.839866,46.9117],[-103.84022,46.911703],[-103.840473,46.911705],[-103.841133,46.911706],[-103.84171000000001,46.911706],[-103.841887,46.911706],[-103.843149,46.911701],[-103.844407,46.911708],[-103.84511500000001,46.911709],[-103.850167,46.91173],[-103.85011299999999,46.916866]]],"type":"Polygon"}
 }

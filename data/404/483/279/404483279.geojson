@@ -4,18 +4,20 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
-    "geom:area":0.000034,
-    "geom:area_square_m":325330.997626,
-    "geom:bbox":"-78.205564,40.207783,-78.193412,40.214371",
-    "geom:latitude":40.211413,
+    "geom:area":0.000033,
+    "geom:area_square_m":310351.585558,
+    "geom:bbox":"-78.205564,40.207504,-78.193412,40.214371",
+    "geom:latitude":40.21121,
     "geom:longitude":-78.199977,
     "iso:country":"US",
-    "lbl:latitude":40.210194,
+    "lbl:latitude":40.210145,
     "lbl:longitude":-78.200069,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.0,
+    "mps:latitude":40.210145,
+    "mps:longitude":-78.200069,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ceb_x_preferred":[
         "Coalmont"
@@ -60,18 +62,32 @@
     "qs:pop":106,
     "qs:source":"US Census",
     "qs:type":"boro",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
+    "src:geom_alt":[
+        "quattroshapes"
+    ],
+    "src:lbl_centroid":"mapshaper",
     "src:population":"quattroshapes",
+    "uscensus:countyfp":61,
+    "uscensus:geoid":4206114640,
+    "uscensus:name":"Coalmont",
+    "uscensus:namelsad":"Coalmont borough",
+    "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688481,
-        102080901
+        102080901,
+        85688481
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "uscensus:geoid":4206114640
+    },
     "wof:country":"US",
-    "wof:geomhash":"76a6de53079cbfc20000b77fa667f4fc",
+    "wof:geom_alt":[
+        "quattroshapes"
+    ],
+    "wof:geomhash":"f25b83de1e46dc4ca27c91cb213ec055",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -82,7 +98,7 @@
         }
     ],
     "wof:id":404483279,
-    "wof:lastmodified":1566631635,
+    "wof:lastmodified":1605055445,
     "wof:name":"Coalmont",
     "wof:parent_id":102080901,
     "wof:placetype":"localadmin",
@@ -95,9 +111,9 @@
 },
   "bbox": [
     -78.205564,
-    40.207783,
+    40.207504,
     -78.193412,
     40.214371
 ],
-  "geometry": {"coordinates":[[[-78.20041999999999,40.212213],[-78.19408300000001,40.213874],[-78.193412,40.212665],[-78.197394,40.210827],[-78.199119,40.207783],[-78.201697,40.208599],[-78.205564,40.213541],[-78.203658,40.214371],[-78.20041999999999,40.212213]]],"type":"Polygon"}
+  "geometry": {"coordinates":[[[-78.205564,40.213541],[-78.20540800000001,40.213609],[-78.204578,40.21397],[-78.203913,40.21426],[-78.203658,40.214371],[-78.202235,40.21261],[-78.20175399999999,40.212334],[-78.20041999999999,40.212213],[-78.199788,40.212192],[-78.19931800000001,40.212221],[-78.19570299999999,40.213308],[-78.19408300000001,40.213874],[-78.194075,40.213864],[-78.19371599999999,40.213215],[-78.193412,40.212665],[-78.197394,40.210827],[-78.199119,40.207783],[-78.19979600000001,40.207608],[-78.200194,40.207504],[-78.200211,40.207515],[-78.201697,40.208599],[-78.20236300000001,40.209369],[-78.204534,40.212216],[-78.205355,40.213269],[-78.205564,40.213541]]],"type":"Polygon"}
 }

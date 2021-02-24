@@ -17,7 +17,7 @@
     "mps:latitude":40.492356,
     "mps:longitude":-80.297041,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:azb_x_preferred":[
         "\u06a9\u0644\u06cc\u0646\u062a\u0648\u0646"
@@ -69,18 +69,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":2149769,
+    "uscensus:awater":0,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"4214296",
+    "uscensus:intptlat":"+40.4926612",
+    "uscensus:intptlon":"-080.2959877",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Clinton",
+    "uscensus:namelsad":"Clinton CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"14296",
+    "uscensus:placens":"02631255",
+    "uscensus:statefp":"42",
     "wd:wordcount":112,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404484901,
         85633793,
-        102080887
+        102080887,
+        404484901,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -88,6 +105,7 @@
         "gn:id":5184623,
         "gp:id":2381762,
         "qs_pg:id":280135,
+        "uscensus:geoid":4214296,
         "wd:id":"Q5134032",
         "wk:page":"Clinton, Pennsylvania"
     },
@@ -96,7 +114,8 @@
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"c0eb1282206605480ce9113817d1016d",
     "wof:hierarchy":[
@@ -110,7 +129,7 @@
         }
     ],
     "wof:id":101720501,
-    "wof:lastmodified":1582338288,
+    "wof:lastmodified":1613615073,
     "wof:name":"Clinton",
     "wof:parent_id":404484901,
     "wof:placetype":"locality",

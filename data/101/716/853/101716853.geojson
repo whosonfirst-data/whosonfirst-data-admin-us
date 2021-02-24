@@ -10,11 +10,11 @@
     "geom:latitude":40.372999,
     "geom:longitude":-75.20408,
     "iso:country":"US",
-    "lbl:latitude":40.372601,
+    "lbl:latitude":40.3726,
     "lbl:longitude":-75.204234,
     "lbl:max_zoom":18.0,
     "lbl:min_zoom":13.5,
-    "mps:latitude":40.372601,
+    "mps:latitude":40.3726,
     "mps:longitude":-75.204234,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
@@ -96,18 +96,35 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "uscensus:aland":1509626,
+    "uscensus:awater":1078,
+    "uscensus:classfp":"C5",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"4220104",
+    "uscensus:intptlat":"+40.3769203",
+    "uscensus:intptlon":"-075.2059483",
+    "uscensus:lsad":"21",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Dublin",
+    "uscensus:namelsad":"Dublin borough",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"20104",
+    "uscensus:placens":"01214965",
+    "uscensus:statefp":"42",
     "wd:wordcount":703,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404482753,
         85633793,
-        102080987
+        102080987,
+        404482753,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -116,12 +133,14 @@
         "gn:id":5187443,
         "gp:id":2393964,
         "qs_pg:id":238335,
+        "uscensus:geoid":4220104,
         "wd:id":"Q1130963",
         "wk:page":"Dublin, Pennsylvania"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"24f2d568e532ac3259ed9835ebeddc69",
     "wof:hierarchy":[
@@ -138,7 +157,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582338263,
+    "wof:lastmodified":1613614919,
     "wof:name":"Dublin",
     "wof:parent_id":404482753,
     "wof:placetype":"locality",

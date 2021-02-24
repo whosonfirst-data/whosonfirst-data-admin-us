@@ -15,11 +15,11 @@
     "gn:population":12,
     "iso:country":"US",
     "lbl:latitude":46.357094,
-    "lbl:longitude":-101.305382,
+    "lbl:longitude":-101.305383,
     "lbl:max_zoom":13.0,
     "lbl:min_zoom":8.0,
     "mps:latitude":46.357094,
-    "mps:longitude":-101.305382,
+    "mps:longitude":-101.305383,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":6.0,
@@ -73,23 +73,40 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"wk",
+    "uscensus:aland":743420,
+    "uscensus:awater":0,
+    "uscensus:classfp":"U1",
+    "uscensus:funcstat":"S",
+    "uscensus:geoid":"3865100",
+    "uscensus:intptlat":"+46.3571430",
+    "uscensus:intptlon":"-101.3053831",
+    "uscensus:lsad":"57",
+    "uscensus:mtfcc":"G4210",
+    "uscensus:name":"Raleigh",
+    "uscensus:namelsad":"Raleigh CDP",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"65100",
+    "uscensus:placens":"02584354",
+    "uscensus:statefp":"38",
     "wd:elevation":96.0,
     "wd:latitude":35.818889,
     "wd:longitude":-78.644722,
     "wd:population":439896,
     "wd:wordcount":10593,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404478967,
         85633793,
-        102081497
+        102081497,
+        404478967,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -98,11 +115,13 @@
         "gn:id":5691183,
         "gp:id":2478306,
         "qs_pg:id":270748,
+        "uscensus:geoid":3865100,
         "wd:id":"Q7286881"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"c90c89ff395ed1e9b7f53a3247130076",
     "wof:hierarchy":[
@@ -119,7 +138,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582335653,
+    "wof:lastmodified":1613614856,
     "wof:name":"Raleigh",
     "wof:parent_id":404478967,
     "wof:placetype":"locality",

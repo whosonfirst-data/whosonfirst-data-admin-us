@@ -19,7 +19,7 @@
     "mps:latitude":44.729378,
     "mps:longitude":-72.382215,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u0623\u0644\u0628\u0627\u0646\u064a"
@@ -116,19 +116,36 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
-    "src:geom":"quattroshapes",
+    "src:geom":"uscensus",
     "src:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
+    "uscensus:aland":3992913,
+    "uscensus:awater":25599,
+    "uscensus:classfp":"C1",
+    "uscensus:funcstat":"A",
+    "uscensus:geoid":"5000400",
+    "uscensus:intptlat":"+44.7299323",
+    "uscensus:intptlon":"-072.3817580",
+    "uscensus:lsad":"47",
+    "uscensus:mtfcc":"G4110",
+    "uscensus:name":"Albany",
+    "uscensus:namelsad":"Albany village",
+    "uscensus:pcicbsa":"N",
+    "uscensus:pcinecta":"N",
+    "uscensus:placefp":"00400",
+    "uscensus:placens":"02378297",
+    "uscensus:statefp":"50",
     "wd:wordcount":871,
     "wof:belongsto":[
-        85688763,
         102191575,
-        404527037,
         85633793,
-        102087443
+        102087443,
+        404527037,
+        85688763
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -137,12 +154,14 @@
         "gn:id":5233165,
         "gp:id":2352637,
         "qs_pg:id":1210401,
+        "uscensus:geoid":5000400,
         "wd:id":"Q2255535",
         "wk:page":"Albany, Vermont"
     },
     "wof:country":"US",
     "wof:geom_alt":[
-        "quattroshapes_pg"
+        "quattroshapes_pg",
+        "quattroshapes"
     ],
     "wof:geomhash":"f1a37ad25dc08d3bdcbac5660593a65a",
     "wof:hierarchy":[
@@ -159,7 +178,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1582338237,
+    "wof:lastmodified":1613615644,
     "wof:name":"Albany",
     "wof:parent_id":404527037,
     "wof:placetype":"locality",
