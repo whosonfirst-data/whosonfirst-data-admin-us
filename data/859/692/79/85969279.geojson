@@ -124,7 +124,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":7064517,
     "uscensus:awater":1138812,
     "uscensus:classfp":"U1",
@@ -142,11 +143,11 @@
     "uscensus:placens":"02628688",
     "uscensus:statefp":"27",
     "wof:belongsto":[
-        85688727,
         102191575,
-        404511341,
         85633793,
-        102087001
+        102087001,
+        404511341,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -154,10 +155,11 @@
         "gn:id":5040385,
         "gp:id":2466473,
         "qs_pg:id":1051116,
-        "uscensus:geoid":2748760,
+        "uscensus:geoid":"2748760",
         "wd:id":"Q13417490",
         "wk:page":"Osage Township, Becker County, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -175,11 +177,11 @@
         }
     ],
     "wof:id":85969279,
-    "wof:lastmodified":1690883116,
+    "wof:lastmodified":1722051635,
     "wof:name":"Osage",
     "wof:parent_id":404511341,
     "wof:placetype":"locality",
-    "wof:population":323,
+    "wof:population":278,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

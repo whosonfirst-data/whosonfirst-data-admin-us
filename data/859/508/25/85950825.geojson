@@ -182,7 +182,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":7454288,
     "uscensus:awater":115078,
     "uscensus:classfp":"U2",
@@ -200,11 +201,11 @@
     "uscensus:placens":"02378021",
     "uscensus:statefp":"25",
     "wof:belongsto":[
-        85688645,
         102191575,
-        404476025,
         85633793,
-        102084403
+        102084403,
+        404476025,
+        85688645
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -213,10 +214,11 @@
         "gn:id":4937222,
         "gp:id":2406680,
         "qs_pg:id":819327,
-        "uscensus:geoid":2524855,
+        "uscensus:geoid":"2524855",
         "wd:id":"Q830669",
         "wk:page":"Foxborough, Massachusetts"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -237,11 +239,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884009,
+    "wof:lastmodified":1722051680,
     "wof:name":"Foxborough",
     "wof:parent_id":404476025,
     "wof:placetype":"locality",
-    "wof:population":5625,
+    "wof:population":6325,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

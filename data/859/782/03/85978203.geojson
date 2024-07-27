@@ -292,7 +292,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":781586,
     "uscensus:awater":14641,
     "uscensus:classfp":"C1",
@@ -310,11 +311,11 @@
     "uscensus:placens":"02391645",
     "uscensus:statefp":"36",
     "wof:belongsto":[
-        85688543,
         102191575,
-        404523025,
         85633793,
-        102083079
+        102083079,
+        404523025,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -323,10 +324,11 @@
         "gn:id":5115302,
         "gp:id":2393652,
         "qs_pg:id":265906,
-        "uscensus:geoid":3620896,
+        "uscensus:geoid":"3620896",
         "wd:id":"Q1766514",
         "wk:page":"Dresden, Yates County, New York"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -347,11 +349,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883650,
+    "wof:lastmodified":1722051660,
     "wof:name":"Dresden",
     "wof:parent_id":404523025,
     "wof:placetype":"locality",
-    "wof:population":308,
+    "wof:population":292,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

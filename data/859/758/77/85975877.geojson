@@ -160,7 +160,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":5506594,
     "uscensus:awater":3223028,
     "uscensus:classfp":"C5",
@@ -181,11 +182,11 @@
     "wd:longitude":-73.9525,
     "wd:wordcount":6982,
     "wof:belongsto":[
-        85688607,
         102191575,
-        404477285,
         85633793,
-        102086773
+        102086773,
+        404477285,
+        85688607
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -193,10 +194,11 @@
         "gn:id":5097677,
         "gp:id":2399694,
         "qs_pg:id":1051519,
-        "uscensus:geoid":3421510,
+        "uscensus:geoid":"3421510",
         "wd:id":"Q281839",
         "wk:page":"Englewood Cliffs, New Jersey"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -214,11 +216,11 @@
         }
     ],
     "wof:id":85975877,
-    "wof:lastmodified":1690884243,
+    "wof:lastmodified":1722051693,
     "wof:name":"Englewood Cliffs",
     "wof:parent_id":404477285,
     "wof:placetype":"locality",
-    "wof:population":5281,
+    "wof:population":5321,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

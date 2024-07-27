@@ -62,7 +62,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":3332312,
     "uscensus:awater":5350,
     "uscensus:classfp":"U1",
@@ -80,11 +81,11 @@
     "uscensus:placens":"02584567",
     "uscensus:statefp":"46",
     "wof:belongsto":[
-        85688693,
         102191575,
-        404491231,
         85633793,
-        102086007
+        102086007,
+        404491231,
+        85688693
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -93,7 +94,7 @@
         "gn:id":5230787,
         "gp:id":2480176,
         "qs_pg:id":2444,
-        "uscensus:geoid":4654145
+        "uscensus:geoid":"4654145"
     },
     "wof:concordances_alt":{
         "gn:id":[
@@ -103,6 +104,7 @@
             390647
         ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -123,11 +125,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1706240794,
+    "wof:lastmodified":1722051941,
     "wof:name":"Renner Corner",
     "wof:parent_id":404491231,
     "wof:placetype":"locality",
-    "wof:population":305,
+    "wof:population":351,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

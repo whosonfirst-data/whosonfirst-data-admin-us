@@ -104,7 +104,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":325294,
     "uscensus:awater":0,
     "uscensus:classfp":"U1",
@@ -123,11 +124,11 @@
     "uscensus:statefp":"46",
     "wd:wordcount":421,
     "wof:belongsto":[
-        85688693,
         102191575,
-        404488703,
         85633793,
-        102086839
+        102086839,
+        404488703,
+        85688693
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -135,10 +136,11 @@
         "gn:id":5232180,
         "gp:id":2500562,
         "qs_pg:id":483039,
-        "uscensus:geoid":4661940,
+        "uscensus:geoid":"4661940",
         "wd:id":"Q2792458",
         "wk:page":"Storla, South Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -156,7 +158,7 @@
         }
     ],
     "wof:id":101722313,
-    "wof:lastmodified":1690888214,
+    "wof:lastmodified":1722051823,
     "wof:name":"Storla",
     "wof:parent_id":404488703,
     "wof:placetype":"locality",

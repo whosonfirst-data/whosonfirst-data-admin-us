@@ -103,7 +103,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":4379660,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -121,11 +122,11 @@
     "uscensus:placens":"02391529",
     "uscensus:statefp":"36",
     "wof:belongsto":[
-        85688543,
         102191575,
-        404523401,
         85633793,
-        102082389
+        102082389,
+        404523401,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -134,10 +135,11 @@
         "gn:id":5107486,
         "gp:id":2357171,
         "qs_pg:id":184737,
-        "uscensus:geoid":3603001,
+        "uscensus:geoid":"3603001",
         "wd:id":"Q1778101",
         "wk:page":"Attica (town), New York"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -158,11 +160,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885935,
+    "wof:lastmodified":1722051779,
     "wof:name":"Attica",
     "wof:parent_id":404523401,
     "wof:placetype":"locality",
-    "wof:population":2547,
+    "wof:population":2443,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

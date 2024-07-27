@@ -92,7 +92,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":2893595,
     "uscensus:awater":12276,
     "uscensus:classfp":"C5",
@@ -110,11 +111,11 @@
     "uscensus:placens":"01582869",
     "uscensus:statefp":"55",
     "wof:belongsto":[
-        85688517,
         102191575,
-        404491847,
         85633793,
-        102081827
+        102081827,
+        404491847,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -123,10 +124,11 @@
         "gn:id":5246849,
         "gp:id":2369959,
         "qs_pg:id":218452,
-        "uscensus:geoid":5510075,
+        "uscensus:geoid":"5510075",
         "wd:id":"Q2322312",
         "wk:page":"Brooklyn (village), Wisconsin"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -147,11 +149,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889284,
+    "wof:lastmodified":1722051875,
     "wof:name":"Brooklyn",
     "wof:parent_id":404491847,
     "wof:placetype":"locality",
-    "wof:population":1401,
+    "wof:population":1571,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

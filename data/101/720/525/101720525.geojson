@@ -90,6 +90,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":8216816,
     "uscensus:awater":0,
     "uscensus:classfp":"U1",
@@ -108,11 +110,11 @@
     "uscensus:statefp":"42",
     "wd:wordcount":303,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404484901,
         85633793,
-        102080887
+        102080887,
+        404484901,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -120,10 +122,11 @@
         "gn:id":5194741,
         "gp:id":2426661,
         "qs_pg:id":240209,
-        "uscensus:geoid":4236768,
+        "uscensus:geoid":"4236768",
         "wd:id":"Q6006328",
         "wk:page":"Imperial, Pennsylvania"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -141,10 +144,12 @@
         }
     ],
     "wof:id":101720525,
-    "wof:lastmodified":1690890296,
+    "wof:lastmodified":1722051923,
     "wof:name":"Imperial",
     "wof:parent_id":404484901,
     "wof:placetype":"locality",
+    "wof:population":2796,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

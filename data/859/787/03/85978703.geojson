@@ -196,7 +196,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":15161078,
     "uscensus:awater":36700878,
     "uscensus:classfp":"C5",
@@ -214,11 +215,11 @@
     "uscensus:placens":"00979445",
     "uscensus:statefp":"36",
     "wof:belongsto":[
-        85688543,
         102191575,
-        404523385,
         85633793,
-        102082373
+        102082373,
+        404523385,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -227,10 +228,11 @@
         "gn:id":5134693,
         "gp:id":2486221,
         "qs_pg:id":1149172,
-        "uscensus:geoid":3664309,
+        "uscensus:geoid":"3664309",
         "wd:id":"Q1379757",
         "wk:page":"Rye (city), New York"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -251,11 +253,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690886222,
+    "wof:lastmodified":1722051793,
     "wof:name":"Rye",
     "wof:parent_id":404523385,
     "wof:placetype":"locality",
-    "wof:population":15720,
+    "wof:population":16202,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -103,7 +103,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1622975,
     "uscensus:awater":190800,
     "uscensus:classfp":"C1",
@@ -122,11 +123,11 @@
     "uscensus:statefp":"36",
     "wd:wordcount":1068,
     "wof:belongsto":[
-        85688543,
         102191575,
-        404521161,
         85633793,
-        102081755
+        102081755,
+        404521161,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -134,13 +135,14 @@
         "gn:id":5132005,
         "gp:id":28744625,
         "qs_pg:id":465202,
-        "uscensus:geoid":3659245,
+        "uscensus:geoid":"3659245",
         "wd:id":"Q3452586",
         "wk:page":"Port Dickinson, New York"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1127443
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -158,11 +160,11 @@
         }
     ],
     "wof:id":85977977,
-    "wof:lastmodified":1690883960,
+    "wof:lastmodified":1722051677,
     "wof:name":"Port Dickinson",
     "wof:parent_id":404521161,
     "wof:placetype":"locality",
-    "wof:population":1641,
+    "wof:population":1669,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

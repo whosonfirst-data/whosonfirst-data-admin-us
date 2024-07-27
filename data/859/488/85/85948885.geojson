@@ -353,6 +353,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":88437047,
     "uscensus:awater":3597593,
     "uscensus:classfp":"C5",
@@ -374,11 +376,11 @@
     "wd:longitude":-70.1925,
     "wd:wordcount":6420,
     "wof:belongsto":[
-        85688769,
         102191575,
-        404475337,
         85633793,
-        102087457
+        102087457,
+        404475337,
+        85688769
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -386,10 +388,11 @@
         "gn:id":4969398,
         "gp:id":2438757,
         "qs_pg:id":823298,
-        "uscensus:geoid":2338740,
+        "uscensus:geoid":"2338740",
         "wd:id":"Q501170",
         "wk:page":"Lewiston, Maine"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -407,11 +410,13 @@
         }
     ],
     "wof:id":85948885,
-    "wof:lastmodified":1690884866,
+    "wof:lastmodified":1722051727,
     "wof:megacity":0,
     "wof:name":"Lewiston",
     "wof:parent_id":404475337,
     "wof:placetype":"locality",
+    "wof:population":38404,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:scale":7,
     "wof:superseded_by":[],

@@ -103,7 +103,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":6703914,
     "uscensus:awater":298738,
     "uscensus:classfp":"C1",
@@ -121,11 +122,11 @@
     "uscensus:placens":"02390889",
     "uscensus:statefp":"36",
     "wof:belongsto":[
-        85688543,
         102191575,
-        404521881,
         85633793,
-        102081877
+        102081877,
+        404521881,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -134,10 +135,11 @@
         "gn:id":5120545,
         "gp:id":2420310,
         "qs_pg:id":485424,
-        "uscensus:geoid":3634121,
+        "uscensus:geoid":"3634121",
         "wd:id":"Q3134036",
         "wk:page":"Herkimer (village), New York"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -158,11 +160,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883911,
+    "wof:lastmodified":1722051675,
     "wof:name":"Herkimer",
     "wof:parent_id":404521881,
     "wof:placetype":"locality",
-    "wof:population":7743,
+    "wof:population":7235,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

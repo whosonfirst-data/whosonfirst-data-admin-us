@@ -145,7 +145,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":7515267,
     "uscensus:awater":90775,
     "uscensus:classfp":"C5",
@@ -166,11 +167,11 @@
     "wd:longitude":-74.0451,
     "wd:wordcount":6633,
     "wof:belongsto":[
-        85688607,
         102191575,
-        404477551,
         85633793,
-        102086773
+        102086773,
+        404477551,
+        85688607
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -178,10 +179,11 @@
         "gn:id":5099087,
         "gp:id":2422152,
         "qs_pg:id":1051536,
-        "uscensus:geoid":3431920,
+        "uscensus:geoid":"3431920",
         "wd:id":"Q1082777",
         "wk:page":"Hillsdale, New Jersey"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -199,11 +201,11 @@
         }
     ],
     "wof:id":85975989,
-    "wof:lastmodified":1690884664,
+    "wof:lastmodified":1722051716,
     "wof:name":"Hillsdale",
     "wof:parent_id":404477551,
     "wof:placetype":"locality",
-    "wof:population":10219,
+    "wof:population":10062,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

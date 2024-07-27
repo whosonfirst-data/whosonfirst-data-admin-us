@@ -166,7 +166,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":8034828,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -188,11 +189,11 @@
     "wd:longitude":-94.040833,
     "wd:wordcount":681,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404515155,
         85633793,
-        102087847
+        102087847,
+        404515155,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -201,10 +202,11 @@
         "gn:id":5029340,
         "gp:id":2417435,
         "qs_pg:id":1337103,
-        "uscensus:geoid":2727098,
+        "uscensus:geoid":"2727098",
         "wd:id":"Q2230698",
         "wk:page":"Harding, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -225,7 +227,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882608,
+    "wof:lastmodified":1722051610,
     "wof:name":"Harding",
     "wof:parent_id":404515155,
     "wof:placetype":"locality",

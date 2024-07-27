@@ -95,7 +95,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":1177657,
     "uscensus:awater":0,
     "uscensus:classfp":"U1",
@@ -113,21 +114,22 @@
     "uscensus:placens":"02633311",
     "uscensus:statefp":"42",
     "wof:belongsto":[
-        85688481,
         102191575,
-        404487161,
         85633793,
-        102080959
+        102080959,
+        404487161,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "fips:code":"4272552",
         "gn:id":4561362,
         "qs_pg:id":595095,
-        "uscensus:geoid":4272552,
+        "uscensus:geoid":"4272552",
         "wd:id":"Q6132816",
         "wk:page":"South Uniontown, Pennsylvania"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -145,11 +147,11 @@
         }
     ],
     "wof:id":101719771,
-    "wof:lastmodified":1690889524,
+    "wof:lastmodified":1722051886,
     "wof:name":"South Uniontown",
     "wof:parent_id":404487161,
     "wof:placetype":"locality",
-    "wof:population":1360,
+    "wof:population":1301,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

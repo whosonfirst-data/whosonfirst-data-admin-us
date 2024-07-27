@@ -441,8 +441,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
-    "src:population_date":"2010-01-01",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":208465394,
     "uscensus:awater":8657577,
     "uscensus:classfp":"C5",
@@ -462,11 +462,11 @@
     "wd:population":287208,
     "wd:wordcount":7633,
     "wof:belongsto":[
-        85688485,
         102191575,
-        404525355,
         85633793,
-        102084787
+        102084787,
+        404525355,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -475,10 +475,11 @@
         "gn:id":5174035,
         "gp:id":2506911,
         "qs_pg:id":765512,
-        "uscensus:geoid":3977000,
+        "uscensus:geoid":"3977000",
         "wd:id":"Q49239",
         "wk:page":"Toledo, Ohio"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -499,12 +500,13 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690888787,
+    "wof:lastmodified":1722051851,
     "wof:megacity":0,
     "wof:name":"Toledo",
     "wof:parent_id":404525355,
     "wof:placetype":"locality",
-    "wof:population":287208,
+    "wof:population":265304,
+    "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:scale":6,
     "wof:superseded_by":[],

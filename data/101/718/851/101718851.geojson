@@ -131,7 +131,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1414125,
     "uscensus:awater":19834,
     "uscensus:classfp":"C5",
@@ -150,11 +151,11 @@
     "uscensus:statefp":"42",
     "wd:wordcount":1535,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404482777,
         85633793,
-        102080899
+        102080899,
+        404482777,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -162,10 +163,11 @@
         "gn:id":4556216,
         "gp:id":2351521,
         "qs_pg:id":237136,
-        "uscensus:geoid":4200116,
+        "uscensus:geoid":"4200116",
         "wd:id":"Q1133516",
         "wk:page":"Abbottstown, Pennsylvania"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -183,11 +185,11 @@
         }
     ],
     "wof:id":101718851,
-    "wof:lastmodified":1690890450,
+    "wof:lastmodified":1722051931,
     "wof:name":"Abbottstown",
     "wof:parent_id":404482777,
     "wof:placetype":"locality",
-    "wof:population":1011,
+    "wof:population":1041,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

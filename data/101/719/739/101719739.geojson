@@ -112,7 +112,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":2089154,
     "uscensus:awater":56682,
     "uscensus:classfp":"U1",
@@ -130,11 +131,11 @@
     "uscensus:placens":"02390290",
     "uscensus:statefp":"42",
     "wof:belongsto":[
-        85688481,
         102191575,
-        404483851,
         85633793,
-        102081271
+        102081271,
+        404483851,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -143,10 +144,11 @@
         "gn:id":5211850,
         "gp:id":2492296,
         "qs_pg:id":6317,
-        "uscensus:geoid":4270064,
+        "uscensus:geoid":"4270064",
         "wd:id":"Q1183657",
         "wk:page":"Shenandoah Heights, Pennsylvania"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -167,11 +169,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889483,
+    "wof:lastmodified":1722051884,
     "wof:name":"Shenandoah Heights",
     "wof:parent_id":404483851,
     "wof:placetype":"locality",
-    "wof:population":1233,
+    "wof:population":1200,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

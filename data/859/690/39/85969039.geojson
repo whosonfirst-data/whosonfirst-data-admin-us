@@ -160,7 +160,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1204975,
     "uscensus:awater":14727,
     "uscensus:classfp":"C5",
@@ -178,11 +179,11 @@
     "uscensus:placens":"02394876",
     "uscensus:statefp":"27",
     "wof:belongsto":[
-        85688727,
         102191575,
-        404509655,
         85633793,
-        102087887
+        102087887,
+        404509655,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -191,9 +192,10 @@
         "gn:id":5027779,
         "gp:id":2409490,
         "qs_pg:id":156306,
-        "uscensus:geoid":2723354,
+        "uscensus:geoid":"2723354",
         "wd:id":"Q1924473"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -214,11 +216,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885419,
+    "wof:lastmodified":1722051754,
     "wof:name":"Geneva",
     "wof:parent_id":404509655,
     "wof:placetype":"locality",
-    "wof:population":555,
+    "wof:population":502,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

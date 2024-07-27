@@ -107,7 +107,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":4929867,
     "uscensus:awater":7560,
     "uscensus:classfp":"U2",
@@ -126,11 +127,11 @@
     "uscensus:statefp":"42",
     "wd:wordcount":448,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404486165,
         85633793,
-        102080911
+        102080911,
+        404486165,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -139,10 +140,11 @@
         "gn:id":7258515,
         "gp:id":23417976,
         "qs_pg:id":288346,
-        "uscensus:geoid":4263011,
+        "uscensus:geoid":"4263011",
         "wd:id":"Q1184516",
         "wk:page":"Pymatuning North, Pennsylvania"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -163,7 +165,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690890483,
+    "wof:lastmodified":1722051932,
     "wof:name":"Pymatuning North",
     "wof:parent_id":404486165,
     "wof:placetype":"locality",

@@ -72,7 +72,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":5378107,
     "uscensus:awater":11982,
     "uscensus:classfp":"U1",
@@ -90,11 +91,11 @@
     "uscensus:placens":"02584447",
     "uscensus:statefp":"42",
     "wof:belongsto":[
-        85688481,
         102191575,
-        404486961,
         85633793,
-        102081377
+        102081377,
+        404486961,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -103,10 +104,11 @@
         "gn:id":4557316,
         "gp:id":2384097,
         "qs_pg:id":185520,
-        "uscensus:geoid":4215584,
+        "uscensus:geoid":"4215584",
         "wd:id":"Q2222269",
         "wk:page":"Conestoga Township, Lancaster County, Pennsylvania"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -127,11 +129,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690890278,
+    "wof:lastmodified":1722051922,
     "wof:name":"Conestoga",
     "wof:parent_id":404486961,
     "wof:placetype":"locality",
-    "wof:population":1258,
+    "wof:population":1160,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

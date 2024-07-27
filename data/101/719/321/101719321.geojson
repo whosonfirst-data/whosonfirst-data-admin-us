@@ -90,6 +90,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":2119223,
     "uscensus:awater":0,
     "uscensus:classfp":"U1",
@@ -107,11 +109,11 @@
     "uscensus:placens":"02628697",
     "uscensus:statefp":"42",
     "wof:belongsto":[
-        85688481,
         102191575,
-        404486985,
         85633793,
-        102081351
+        102081351,
+        404486985,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -120,9 +122,10 @@
         "gn:id":5193682,
         "gp:id":2421955,
         "qs_pg:id":271612,
-        "uscensus:geoid":4234776,
+        "uscensus:geoid":"4234776",
         "wd:id":"Q5762911"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -143,10 +146,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889583,
+    "wof:lastmodified":1722051890,
     "wof:name":"Hilldale",
     "wof:parent_id":404486985,
     "wof:placetype":"locality",
+    "wof:population":1110,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

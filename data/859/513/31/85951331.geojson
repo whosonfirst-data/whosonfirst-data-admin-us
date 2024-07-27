@@ -121,6 +121,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":3473970,
     "uscensus:awater":206344,
     "uscensus:classfp":"C1",
@@ -139,11 +141,11 @@
     "uscensus:statefp":"26",
     "wd:wordcount":1293,
     "wof:belongsto":[
-        85688599,
         102191575,
-        404509029,
         85633793,
-        102083023
+        102083023,
+        404509029,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -152,13 +154,14 @@
         "gn:id":4987661,
         "gp:id":28744274,
         "qs_pg:id":354482,
-        "uscensus:geoid":2612480,
+        "uscensus:geoid":"2612480",
         "wd:id":"Q2557041",
         "wk:page":"Caledonia, Michigan"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1112737
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -179,10 +182,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690886065,
+    "wof:lastmodified":1722051786,
     "wof:name":"Caledonia",
     "wof:parent_id":404509029,
     "wof:placetype":"locality",
+    "wof:population":1775,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

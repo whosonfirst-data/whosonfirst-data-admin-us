@@ -178,7 +178,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":51464912,
     "uscensus:awater":16166554,
     "uscensus:classfp":"C5",
@@ -200,11 +201,11 @@
     "wd:longitude":-71.4703,
     "wd:wordcount":2004,
     "wof:belongsto":[
-        85688689,
         102191575,
-        404477095,
         85633793,
-        102086503
+        102086503,
+        404477095,
+        85688689
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -212,13 +213,14 @@
         "gn:id":5088438,
         "gp:id":2434465,
         "qs_pg:id":274758,
-        "uscensus:geoid":3340180,
+        "uscensus:geoid":"3340180",
         "wd:id":"Q993431",
         "wk:page":"Laconia, New Hampshire"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1143075
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -236,11 +238,11 @@
         }
     ],
     "wof:id":85975071,
-    "wof:lastmodified":1690884560,
+    "wof:lastmodified":1722051710,
     "wof:name":"Laconia",
     "wof:parent_id":404477095,
     "wof:placetype":"locality",
-    "wof:population":15951,
+    "wof:population":17142,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

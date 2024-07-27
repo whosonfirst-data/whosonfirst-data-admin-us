@@ -288,6 +288,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":19537909,
     "uscensus:awater":1734586,
     "uscensus:classfp":"C5",
@@ -309,11 +311,11 @@
     "wd:longitude":-88.0642,
     "wd:wordcount":2380,
     "wof:belongsto":[
-        85688599,
         102191575,
-        404507317,
         85633793,
-        102083107
+        102083107,
+        404507317,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -322,13 +324,14 @@
         "gn:id":4997244,
         "gp:id":2427612,
         "qs_pg:id":234797,
-        "uscensus:geoid":2640960,
+        "uscensus:geoid":"2640960",
         "wd:id":"Q567814",
         "wk:page":"Iron Mountain, Michigan"
     },
     "wof:concordances_alt":{
         "qs_pg:id":463498
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -349,11 +352,13 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884503,
+    "wof:lastmodified":1722051707,
     "wof:megacity":0,
     "wof:name":"Iron Mountain",
     "wof:parent_id":404507317,
     "wof:placetype":"locality",
+    "wof:population":7519,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:scale":8,
     "wof:superseded_by":[],

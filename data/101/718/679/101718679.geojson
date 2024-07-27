@@ -114,6 +114,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":4096381,
     "uscensus:awater":530613,
     "uscensus:classfp":"C5",
@@ -132,11 +134,11 @@
     "uscensus:statefp":"42",
     "wd:wordcount":1005,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404484935,
         85633793,
-        102080887
+        102080887,
+        404484935,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -144,10 +146,11 @@
         "gn:id":5191236,
         "gp:id":2410655,
         "qs_pg:id":14728,
-        "uscensus:geoid":4229432,
+        "uscensus:geoid":"4229432",
         "wd:id":"Q596244",
         "wk:page":"Glassport, Pennsylvania"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -165,10 +168,12 @@
         }
     ],
     "wof:id":101718679,
-    "wof:lastmodified":1690890498,
+    "wof:lastmodified":1722051933,
     "wof:name":"Glassport",
     "wof:parent_id":404484935,
     "wof:placetype":"locality",
+    "wof:population":4301,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

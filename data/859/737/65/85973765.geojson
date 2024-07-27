@@ -121,7 +121,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1492898,
     "uscensus:awater":391,
     "uscensus:classfp":"C1",
@@ -140,11 +141,11 @@
     "uscensus:statefp":"31",
     "wd:wordcount":962,
     "wof:belongsto":[
-        85688563,
         102191575,
-        404518641,
         85633793,
-        102082247
+        102082247,
+        404518641,
+        85688563
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -153,10 +154,11 @@
         "gn:id":5070461,
         "gp:id":2425053,
         "qs_pg:id":211474,
-        "uscensus:geoid":3123340,
+        "uscensus:geoid":"3123340",
         "wd:id":"Q963066",
         "wk:page":"Howells, Nebraska"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -177,7 +179,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690881745,
+    "wof:lastmodified":1722051568,
     "wof:name":"Howells",
     "wof:parent_id":404518641,
     "wof:placetype":"locality",

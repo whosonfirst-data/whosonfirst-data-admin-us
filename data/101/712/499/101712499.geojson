@@ -145,6 +145,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":9870655,
     "uscensus:awater":44096,
     "uscensus:classfp":"C2",
@@ -163,11 +165,11 @@
     "uscensus:statefp":"39",
     "wd:wordcount":959,
     "wof:belongsto":[
-        85688485,
         102191575,
-        404524441,
         85633793,
-        102084837
+        102084837,
+        404524441,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -176,13 +178,14 @@
         "gn:id":5165694,
         "gp:id":2465881,
         "qs_pg:id":18653,
-        "uscensus:geoid":3958604,
+        "uscensus:geoid":"3958604",
         "wd:id":"Q1253863",
         "wk:page":"Orange, Ohio"
     },
     "wof:concordances_alt":{
         "qs_pg:id":394342
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -203,10 +206,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690888777,
+    "wof:lastmodified":1722051850,
     "wof:name":"Orange",
     "wof:parent_id":404524441,
     "wof:placetype":"locality",
+    "wof:population":3495,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

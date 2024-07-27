@@ -122,7 +122,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":671347,
     "uscensus:awater":30301,
     "uscensus:classfp":"C5",
@@ -141,11 +142,11 @@
     "uscensus:statefp":"46",
     "wd:wordcount":751,
     "wof:belongsto":[
-        85688693,
         102191575,
-        404489927,
         85633793,
-        102086003
+        102086003,
+        404489927,
+        85688693
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -154,10 +155,11 @@
         "gn:id":5230222,
         "gp:id":2465601,
         "qs_pg:id":973345,
-        "uscensus:geoid":4646980,
+        "uscensus:geoid":"4646980",
         "wd:id":"Q2478093",
         "wk:page":"Onaka, South Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -178,7 +180,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690888233,
+    "wof:lastmodified":1722051824,
     "wof:name":"Onaka",
     "wof:parent_id":404489927,
     "wof:placetype":"locality",

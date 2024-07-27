@@ -305,6 +305,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":40693589,
     "uscensus:awater":121091,
     "uscensus:classfp":"C1",
@@ -325,11 +327,11 @@
     "wd:longitude":-91.388611,
     "wd:wordcount":5213,
     "wof:belongsto":[
-        85688697,
         102191575,
-        404497309,
         85633793,
-        102086213
+        102086213,
+        404497309,
+        85688697
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -337,13 +339,14 @@
         "gn:id":4247703,
         "gp:id":2477868,
         "qs_pg:id":274590,
-        "uscensus:geoid":1762367,
+        "uscensus:geoid":"1762367",
         "wd:id":"Q575750",
         "wk:page":"Quincy, Illinois"
     },
     "wof:concordances_alt":{
         "qs_pg:id":821568
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -361,11 +364,13 @@
         }
     ],
     "wof:id":85938427,
-    "wof:lastmodified":1690883518,
+    "wof:lastmodified":1722051654,
     "wof:megacity":0,
     "wof:name":"Quincy",
     "wof:parent_id":404497309,
     "wof:placetype":"locality",
+    "wof:population":38803,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:scale":7,
     "wof:superseded_by":[],

@@ -305,6 +305,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":35066187,
     "uscensus:awater":585417,
     "uscensus:classfp":"C2",
@@ -326,11 +328,11 @@
     "wd:longitude":-84.115,
     "wd:wordcount":6463,
     "wof:belongsto":[
-        85688485,
         102191575,
-        404523541,
         85633793,
-        102083673
+        102083673,
+        404523541,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -338,13 +340,14 @@
         "gn:id":5160783,
         "gp:id":2439322,
         "qs_pg:id":239812,
-        "uscensus:geoid":3943554,
+        "uscensus:geoid":"3943554",
         "wd:id":"Q983974",
         "wk:page":"Lima, Ohio"
     },
     "wof:concordances_alt":{
         "qs_pg:id":354994
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -362,11 +365,13 @@
         }
     ],
     "wof:id":101712003,
-    "wof:lastmodified":1690888830,
+    "wof:lastmodified":1722051853,
     "wof:megacity":0,
     "wof:name":"Lima",
     "wof:parent_id":404523541,
     "wof:placetype":"locality",
+    "wof:population":34794,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:scale":7,
     "wof:superseded_by":[],

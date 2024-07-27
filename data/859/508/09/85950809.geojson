@@ -148,7 +148,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":27907444,
     "uscensus:awater":2556901,
     "uscensus:classfp":"U1",
@@ -166,11 +167,11 @@
     "uscensus:placens":"02378217",
     "uscensus:statefp":"25",
     "wof:belongsto":[
-        85688645,
         102191575,
-        404476265,
         85633793,
-        102084463
+        102084463,
+        404476265,
+        85688645
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -178,10 +179,11 @@
         "gn:id":4950267,
         "gp:id":2489227,
         "qs_pg:id":155973,
-        "uscensus:geoid":2560050,
+        "uscensus:geoid":"2560050",
         "wd:id":"Q257438",
         "wk:page":"Saugus, Massachusetts"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -199,11 +201,11 @@
         }
     ],
     "wof:id":85950809,
-    "wof:lastmodified":1690884005,
+    "wof:lastmodified":1722051680,
     "wof:name":"Saugus",
     "wof:parent_id":404476265,
     "wof:placetype":"locality",
-    "wof:population":26628,
+    "wof:population":29333,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

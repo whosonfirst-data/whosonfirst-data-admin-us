@@ -139,6 +139,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":6398777,
     "uscensus:awater":71738,
     "uscensus:classfp":"C1",
@@ -156,11 +158,11 @@
     "uscensus:placens":"02399509",
     "uscensus:statefp":"39",
     "wof:belongsto":[
-        85688485,
         102191575,
-        404526739,
         85633793,
-        102084781
+        102084781,
+        404526739,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -169,10 +171,11 @@
         "gn:id":5164653,
         "gp:id":2460613,
         "qs_pg:id":479841,
-        "uscensus:geoid":3956154,
+        "uscensus:geoid":"3956154",
         "wd:id":"Q2599127",
         "wk:page":"North Baltimore, Ohio"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -193,10 +196,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690888413,
+    "wof:lastmodified":1722051833,
     "wof:name":"North Baltimore",
     "wof:parent_id":404526739,
     "wof:placetype":"locality",
+    "wof:population":3392,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

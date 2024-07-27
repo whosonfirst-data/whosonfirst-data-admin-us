@@ -182,7 +182,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":15092424,
     "uscensus:awater":4671208,
     "uscensus:classfp":"C5",
@@ -200,11 +201,11 @@
     "uscensus:placens":"01462161",
     "uscensus:statefp":"50",
     "wof:belongsto":[
-        85688763,
         102191575,
-        404527277,
         85633793,
-        102087443
+        102087443,
+        404527277,
+        85688763
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -213,10 +214,11 @@
         "gn:id":5239058,
         "gp:id":2459590,
         "qs_pg:id":487005,
-        "uscensus:geoid":5048850,
+        "uscensus:geoid":"5048850",
         "wd:id":"Q1012011",
         "wk:page":"Newport (city), Vermont"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -237,11 +239,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889823,
+    "wof:lastmodified":1722051902,
     "wof:name":"Newport",
     "wof:parent_id":404527277,
     "wof:placetype":"locality",
-    "wof:population":4589,
+    "wof:population":4336,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

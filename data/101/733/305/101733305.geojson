@@ -107,7 +107,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1840499,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -126,11 +127,11 @@
     "uscensus:statefp":"55",
     "wd:wordcount":874,
     "wof:belongsto":[
-        85688517,
         102191575,
-        404492829,
         85633793,
-        102081781
+        102081781,
+        404492829,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -138,10 +139,11 @@
         "gn:id":5262039,
         "gp:id":2446651,
         "qs_pg:id":1244821,
-        "uscensus:geoid":5549900,
+        "uscensus:geoid":"5549900",
         "wd:id":"Q2049851",
         "wk:page":"Mason, Wisconsin"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -159,11 +161,11 @@
         }
     ],
     "wof:id":101733305,
-    "wof:lastmodified":1690889231,
+    "wof:lastmodified":1722051872,
     "wof:name":"Mason",
     "wof:parent_id":404492829,
     "wof:placetype":"locality",
-    "wof:population":93,
+    "wof:population":105,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

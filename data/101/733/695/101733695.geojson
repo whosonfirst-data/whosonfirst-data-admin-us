@@ -92,7 +92,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":2918870,
     "uscensus:awater":0,
     "uscensus:classfp":"U1",
@@ -111,11 +112,11 @@
     "uscensus:statefp":"55",
     "wd:wordcount":45,
     "wof:belongsto":[
-        85688517,
         102191575,
-        404494675,
         85633793,
-        102081769
+        102081769,
+        404494675,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -124,10 +125,11 @@
         "gn:id":5278978,
         "gp:id":2520052,
         "qs_pg:id":1165805,
-        "uscensus:geoid":5587000,
+        "uscensus:geoid":"5587000",
         "wd:id":"Q7996933",
         "wk:page":"Whittlesey, Wisconsin"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -148,7 +150,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889203,
+    "wof:lastmodified":1722051871,
     "wof:name":"Whittlesey",
     "wof:parent_id":404494675,
     "wof:placetype":"locality",

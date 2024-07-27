@@ -142,7 +142,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":40780911,
     "uscensus:awater":499023,
     "uscensus:classfp":"C1",
@@ -160,11 +161,11 @@
     "uscensus:placens":"02398041",
     "uscensus:statefp":"17",
     "wof:belongsto":[
-        85688697,
         102191575,
-        404497623,
         85633793,
-        102084317
+        102084317,
+        404497623,
+        85688697
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -173,10 +174,11 @@
         "gn:id":4884141,
         "gp:id":2359662,
         "qs_pg:id":813584,
-        "uscensus:geoid":1704013,
+        "uscensus:geoid":"1704013",
         "wd:id":"Q287459",
         "wk:page":"Bartlett, Illinois"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -197,11 +199,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885503,
+    "wof:lastmodified":1722051758,
     "wof:name":"Bartlett",
     "wof:parent_id":404497623,
     "wof:placetype":"locality",
-    "wof:population":41208,
+    "wof:population":40706,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

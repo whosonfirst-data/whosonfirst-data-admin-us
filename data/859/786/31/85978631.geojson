@@ -94,7 +94,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":780850,
     "uscensus:awater":14892,
     "uscensus:classfp":"C1",
@@ -112,11 +113,11 @@
     "uscensus:placens":"02391097",
     "uscensus:statefp":"36",
     "wof:belongsto":[
-        85688543,
         102191575,
-        404522601,
         85633793,
-        102083115
+        102083115,
+        404522601,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -125,10 +126,11 @@
         "gn:id":5133933,
         "gp:id":2482189,
         "qs_pg:id":895024,
-        "uscensus:geoid":3662061,
+        "uscensus:geoid":"3662061",
         "wd:id":"Q2270280",
         "wk:page":"Riverside, Steuben County, New York"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -149,11 +151,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885951,
+    "wof:lastmodified":1722051780,
     "wof:name":"Riverside",
     "wof:parent_id":404522601,
     "wof:placetype":"locality",
-    "wof:population":497,
+    "wof:population":424,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

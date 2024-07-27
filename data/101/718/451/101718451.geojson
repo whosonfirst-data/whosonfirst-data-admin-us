@@ -270,6 +270,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":162680,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -287,11 +289,11 @@
     "uscensus:placens":"01215265",
     "uscensus:statefp":"42",
     "wof:belongsto":[
-        85688481,
         102191575,
-        404483275,
         85633793,
-        102080901
+        102080901,
+        404483275,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -300,10 +302,11 @@
         "gn:id":5180627,
         "gp:id":2364556,
         "qs_pg:id":195673,
-        "uscensus:geoid":4206560,
+        "uscensus:geoid":"4206560",
         "wd:id":"Q368323",
         "wk:page":"Birmingham, Huntingdon County, Pennsylvania"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -324,10 +327,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690890503,
+    "wof:lastmodified":1722051933,
     "wof:name":"Birmingham",
     "wof:parent_id":404483275,
     "wof:placetype":"locality",
+    "wof:population":87,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

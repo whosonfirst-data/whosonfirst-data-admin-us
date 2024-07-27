@@ -79,7 +79,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":3858306,
     "uscensus:awater":27392,
     "uscensus:classfp":"U1",
@@ -97,11 +98,11 @@
     "uscensus:placens":"02583904",
     "uscensus:statefp":"31",
     "wof:belongsto":[
-        85688563,
         102191575,
-        404520963,
         85633793,
-        102082199
+        102082199,
+        404520963,
+        85688563
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -110,9 +111,10 @@
         "gn:id":5081347,
         "gp:id":2514111,
         "qs_pg:id":156599,
-        "uscensus:geoid":3151350,
+        "uscensus:geoid":"3151350",
         "wd:id":"Q6166370"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -133,11 +135,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883591,
+    "wof:lastmodified":1722051657,
     "wof:name":"Wann",
     "wof:parent_id":404520963,
     "wof:placetype":"locality",
-    "wof:population":86,
+    "wof:population":112,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

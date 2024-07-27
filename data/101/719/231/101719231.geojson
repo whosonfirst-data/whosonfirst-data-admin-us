@@ -92,7 +92,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":867879,
     "uscensus:awater":2604,
     "uscensus:classfp":"U1",
@@ -110,11 +111,11 @@
     "uscensus:placens":"02426669",
     "uscensus:statefp":"42",
     "wof:belongsto":[
-        85688481,
         102191575,
-        404484529,
         85633793,
-        102080991
+        102080991,
+        404484529,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -122,10 +123,11 @@
         "gn:id":5213115,
         "gp:id":2496818,
         "qs_pg:id":607083,
-        "uscensus:geoid":4272520,
+        "uscensus:geoid":"4272520",
         "wd:id":"Q7568622",
         "wk:page":"South Temple, Pennsylvania"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -143,11 +145,11 @@
         }
     ],
     "wof:id":101719231,
-    "wof:lastmodified":1690889560,
+    "wof:lastmodified":1722051888,
     "wof:name":"South Temple",
     "wof:parent_id":404484529,
     "wof:placetype":"locality",
-    "wof:population":1424,
+    "wof:population":1571,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

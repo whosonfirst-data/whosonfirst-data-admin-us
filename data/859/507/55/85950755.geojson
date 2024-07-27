@@ -140,7 +140,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":11533494,
     "uscensus:awater":45515,
     "uscensus:classfp":"U1",
@@ -158,11 +159,11 @@
     "uscensus:placens":"02378184",
     "uscensus:statefp":"25",
     "wof:belongsto":[
-        85688645,
         102191575,
-        404475965,
         85633793,
-        102084457
+        102084457,
+        404475965,
+        85688645
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -171,10 +172,11 @@
         "gn:id":4945878,
         "gp:id":2461927,
         "qs_pg:id":18507,
-        "uscensus:geoid":2547800,
+        "uscensus:geoid":"2547800",
         "wd:id":"Q652287",
         "wk:page":"Northfield, Massachusetts"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -195,11 +197,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884404,
+    "wof:lastmodified":1722051702,
     "wof:name":"Northfield",
     "wof:parent_id":404475965,
     "wof:placetype":"locality",
-    "wof:population":1089,
+    "wof:population":1026,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

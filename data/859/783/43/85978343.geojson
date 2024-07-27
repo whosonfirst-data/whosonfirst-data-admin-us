@@ -157,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":8232403,
     "uscensus:awater":866029,
     "uscensus:classfp":"C5",
@@ -178,11 +179,11 @@
     "wd:longitude":-73.733611,
     "wd:wordcount":2275,
     "wof:belongsto":[
-        85688543,
         102191575,
-        404523079,
         85633793,
-        102081773
+        102081773,
+        404523079,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -191,10 +192,11 @@
         "gn:id":5133667,
         "gp:id":2480233,
         "qs_pg:id":1051727,
-        "uscensus:geoid":3661148,
+        "uscensus:geoid":"3661148",
         "wd:id":"Q1380769",
         "wk:page":"Rensselaer, New York"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -215,11 +217,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883898,
+    "wof:lastmodified":1722051674,
     "wof:name":"Rensselaer",
     "wof:parent_id":404523079,
     "wof:placetype":"locality",
-    "wof:population":9392,
+    "wof:population":9310,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

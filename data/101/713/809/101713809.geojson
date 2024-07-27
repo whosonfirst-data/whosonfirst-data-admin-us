@@ -77,6 +77,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":3532286,
     "uscensus:awater":20776,
     "uscensus:classfp":"U1",
@@ -94,11 +96,11 @@
     "uscensus:placens":"02628943",
     "uscensus:statefp":"39",
     "wof:belongsto":[
-        85688485,
         102191575,
-        404526495,
         85633793,
-        102084731
+        102084731,
+        404526495,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -106,9 +108,10 @@
         "gn:id":5164395,
         "gp:id":2458855,
         "qs_pg:id":1018179,
-        "uscensus:geoid":3955244,
+        "uscensus:geoid":"3955244",
         "wd:id":"Q6041521"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -125,10 +128,12 @@
         }
     ],
     "wof:id":101713809,
-    "wof:lastmodified":1690888485,
+    "wof:lastmodified":1722051836,
     "wof:name":"New Pittsburg",
     "wof:parent_id":404526495,
     "wof:placetype":"locality",
+    "wof:population":299,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

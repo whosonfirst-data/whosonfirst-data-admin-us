@@ -17,7 +17,7 @@
     "mps:latitude":13.568497,
     "mps:longitude":144.886755,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:eng_x_preferred":[
         "Chaguian"
@@ -39,14 +39,19 @@
     "src:geom":"quattroshapes",
     "src:geom_alt":[],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "wof:belongsto":[
-        85632163,
-        85681227,
         102191583,
-        136253057
+        85632163,
+        136253057,
+        85681227
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "uscensus:geoid":"6624500"
+    },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geomhash":"d11bde6a1447c72bf08904442c304696",
     "wof:hierarchy":[
@@ -60,10 +65,12 @@
         }
     ],
     "wof:id":101734603,
-    "wof:lastmodified":1566626356,
+    "wof:lastmodified":1722051539,
     "wof:name":"Chaguian",
     "wof:parent_id":85681227,
     "wof:placetype":"locality",
+    "wof:population":218,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

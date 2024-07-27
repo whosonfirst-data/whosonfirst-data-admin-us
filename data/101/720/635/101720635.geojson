@@ -98,7 +98,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":6374423,
     "uscensus:awater":53734,
     "uscensus:classfp":"U1",
@@ -119,11 +120,11 @@
     "wd:longitude":-71.664167,
     "wd:wordcount":855,
     "wof:belongsto":[
-        85688509,
         102191575,
-        404488339,
         85633793,
-        102081219
+        102081219,
+        404488339,
+        85688509
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -131,10 +132,11 @@
         "gn:id":5221261,
         "gp:id":2375282,
         "qs_pg:id":377657,
-        "uscensus:geoid":4412340,
+        "uscensus:geoid":"4412340",
         "wd:id":"Q5044759",
         "wk:page":"Carolina, Rhode Island"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -152,11 +154,11 @@
         }
     ],
     "wof:id":101720635,
-    "wof:lastmodified":1690890225,
+    "wof:lastmodified":1722051919,
     "wof:name":"Carolina",
     "wof:parent_id":404488339,
     "wof:placetype":"locality",
-    "wof:population":970,
+    "wof:population":973,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

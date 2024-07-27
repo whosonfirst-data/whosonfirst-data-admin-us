@@ -402,7 +402,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":9401662,
     "uscensus:awater":12451,
     "uscensus:classfp":"U1",
@@ -420,11 +421,11 @@
     "uscensus:placens":"02585074",
     "uscensus:statefp":"55",
     "wof:belongsto":[
-        85688517,
         102191575,
-        404493533,
         85633793,
-        102081759
+        102081759,
+        404493533,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -433,9 +434,10 @@
         "gn:id":5271704,
         "gp:id":2487173,
         "qs_pg:id":953541,
-        "uscensus:geoid":5571050,
+        "uscensus:geoid":"5571050",
         "wd:id":"Q5651528"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -456,11 +458,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889169,
+    "wof:lastmodified":1722051869,
     "wof:name":"St. Peter",
     "wof:parent_id":404493533,
     "wof:placetype":"locality",
-    "wof:population":1489,
+    "wof:population":1619,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

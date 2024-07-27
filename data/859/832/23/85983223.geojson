@@ -328,6 +328,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":13174495,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -349,11 +351,11 @@
     "wd:longitude":-81.05278,
     "wd:wordcount":832,
     "wof:belongsto":[
-        85688485,
         102191575,
-        404526911,
         85633793,
-        102083703
+        102083703,
+        404526911,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -361,10 +363,11 @@
         "gn:id":5161567,
         "gp:id":2443938,
         "qs_pg:id":1146966,
-        "uscensus:geoid":3946480,
+        "uscensus:geoid":"3946480",
         "wd:id":"Q1883378",
         "wk:page":"Madison, Ohio"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -382,10 +385,12 @@
         }
     ],
     "wof:id":85983223,
-    "wof:lastmodified":1690882968,
+    "wof:lastmodified":1722051627,
     "wof:name":"Madison",
     "wof:parent_id":404526911,
     "wof:placetype":"locality",
+    "wof:population":3416,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

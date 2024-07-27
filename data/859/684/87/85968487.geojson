@@ -148,7 +148,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2092781,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -170,11 +171,11 @@
     "wd:longitude":-92.603611,
     "wd:wordcount":794,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404510695,
         85633793,
-        102087653
+        102087653,
+        404510695,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -182,13 +183,14 @@
         "gn:id":5031445,
         "gp:id":2427558,
         "qs_pg:id":100271,
-        "uscensus:geoid":2731238,
+        "uscensus:geoid":"2731238",
         "wd:id":"Q2230609",
         "wk:page":"Iron Junction, Minnesota"
     },
     "wof:concordances_alt":{
         "qs_pg:id":213796
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -206,11 +208,11 @@
         }
     ],
     "wof:id":85968487,
-    "wof:lastmodified":1690885185,
+    "wof:lastmodified":1722051743,
     "wof:name":"Iron Junction",
     "wof:parent_id":404510695,
     "wof:placetype":"locality",
-    "wof:population":86,
+    "wof:population":107,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

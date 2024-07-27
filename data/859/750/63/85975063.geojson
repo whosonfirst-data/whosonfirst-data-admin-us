@@ -187,7 +187,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":96068853,
     "uscensus:awater":670813,
     "uscensus:classfp":"C5",
@@ -209,11 +210,11 @@
     "wd:longitude":-72.278056,
     "wd:wordcount":4113,
     "wof:belongsto":[
-        85688689,
         102191575,
-        404477027,
         85633793,
-        102085643
+        102085643,
+        404477027,
+        85688689
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -221,13 +222,14 @@
         "gn:id":5088262,
         "gp:id":2431043,
         "qs_pg:id":156629,
-        "uscensus:geoid":3339300,
+        "uscensus:geoid":"3339300",
         "wd:id":"Q767364",
         "wk:page":"Keene, New Hampshire"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1142742
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -245,11 +247,11 @@
         }
     ],
     "wof:id":85975063,
-    "wof:lastmodified":1690884558,
+    "wof:lastmodified":1722051710,
     "wof:name":"Keene",
     "wof:parent_id":404477027,
     "wof:placetype":"locality",
-    "wof:population":23409,
+    "wof:population":22917,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

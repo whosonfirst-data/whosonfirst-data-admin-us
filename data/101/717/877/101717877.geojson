@@ -141,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2301744,
     "uscensus:awater":143626,
     "uscensus:classfp":"C5",
@@ -160,11 +161,11 @@
     "uscensus:statefp":"42",
     "wd:wordcount":986,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404487667,
         85633793,
-        102080947
+        102080947,
+        404487667,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -173,13 +174,14 @@
         "gn:id":5216266,
         "gp:id":28745339,
         "qs_pg:id":65906,
-        "uscensus:geoid":4277784,
+        "uscensus:geoid":"4277784",
         "wd:id":"Q1184965",
         "wk:page":"Tunkhannock, Pennsylvania"
     },
     "wof:concordances_alt":{
         "qs_pg:id":466596
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -200,11 +202,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889777,
+    "wof:lastmodified":1722051899,
     "wof:name":"Tunkhannock",
     "wof:parent_id":404487667,
     "wof:placetype":"locality",
-    "wof:population":1836,
+    "wof:population":1737,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -166,7 +166,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":8021451,
     "uscensus:awater":53624,
     "uscensus:classfp":"C5",
@@ -187,11 +188,11 @@
     "wd:longitude":-74.13361,
     "wd:wordcount":5420,
     "wof:belongsto":[
-        85688607,
         102191575,
-        404477279,
         85633793,
-        102086773
+        102086773,
+        404477279,
+        85688607
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -199,10 +200,11 @@
         "gn:id":5095124,
         "gp:id":2353323,
         "qs_pg:id":239595,
-        "uscensus:geoid":3400700,
+        "uscensus:geoid":"3400700",
         "wd:id":"Q1082510",
         "wk:page":"Allendale, New Jersey"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -220,11 +222,11 @@
         }
     ],
     "wof:id":85975941,
-    "wof:lastmodified":1690884671,
+    "wof:lastmodified":1722051716,
     "wof:name":"Allendale",
     "wof:parent_id":404477279,
     "wof:placetype":"locality",
-    "wof:population":6505,
+    "wof:population":6791,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

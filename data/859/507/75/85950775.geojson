@@ -135,6 +135,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":14482899,
     "uscensus:awater":162736,
     "uscensus:classfp":"U1",
@@ -152,11 +154,11 @@
     "uscensus:placens":"02378045",
     "uscensus:statefp":"25",
     "wof:belongsto":[
-        85688645,
         102191575,
-        404476379,
         85633793,
-        102084627
+        102084627,
+        404476379,
+        85688645
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -165,10 +167,11 @@
         "gn:id":4955635,
         "gp:id":2520256,
         "qs_pg:id":219315,
-        "uscensus:geoid":2579705,
+        "uscensus:geoid":"2579705",
         "wd:id":"Q912750",
         "wk:page":"Wilbraham, Massachusetts"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -189,10 +192,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884401,
+    "wof:lastmodified":1722051701,
     "wof:name":"Wilbraham",
     "wof:parent_id":404476379,
     "wof:placetype":"locality",
+    "wof:population":3984,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

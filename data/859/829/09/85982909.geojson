@@ -135,6 +135,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":6569741,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -156,11 +158,11 @@
     "wd:longitude":-80.7719,
     "wd:wordcount":1264,
     "wof:belongsto":[
-        85688485,
         102191575,
-        404524713,
         85633793,
-        102083657
+        102083657,
+        404524713,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -168,13 +170,14 @@
         "gn:id":4515454,
         "gp:id":2428840,
         "qs_pg:id":354996,
-        "uscensus:geoid":3938500,
+        "uscensus:geoid":"3938500",
         "wd:id":"Q1014189",
         "wk:page":"Jefferson, Ohio"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1142595
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -192,10 +195,12 @@
         }
     ],
     "wof:id":85982909,
-    "wof:lastmodified":1690882218,
+    "wof:lastmodified":1722051592,
     "wof:name":"Jefferson",
     "wof:parent_id":404524713,
     "wof:placetype":"locality",
+    "wof:population":3184,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

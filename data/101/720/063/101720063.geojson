@@ -105,6 +105,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":2299202,
     "uscensus:awater":0,
     "uscensus:classfp":"U1",
@@ -122,11 +124,11 @@
     "uscensus:placens":"02389113",
     "uscensus:statefp":"42",
     "wof:belongsto":[
-        85688481,
         102191575,
-        404485745,
         85633793,
-        102081369
+        102081369,
+        404485745,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -135,10 +137,11 @@
         "gn:id":5177758,
         "gp:id":2351479,
         "qs_pg:id":273319,
-        "uscensus:geoid":4200100,
+        "uscensus:geoid":"4200100",
         "wd:id":"Q303023",
         "wk:page":"Aaronsburg, Centre County, Pennsylvania"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -159,10 +162,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690890225,
+    "wof:lastmodified":1722051919,
     "wof:name":"Aaronsburg",
     "wof:parent_id":404485745,
     "wof:placetype":"locality",
+    "wof:population":588,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

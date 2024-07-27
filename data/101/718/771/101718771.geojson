@@ -149,7 +149,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2588381,
     "uscensus:awater":306943,
     "uscensus:classfp":"C5",
@@ -168,11 +169,11 @@
     "uscensus:statefp":"42",
     "wd:wordcount":1017,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404484181,
         85633793,
-        102080887
+        102080887,
+        404484181,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -180,13 +181,14 @@
         "gn:id":5211521,
         "gp:id":2491123,
         "qs_pg:id":240401,
-        "uscensus:geoid":4269376,
+        "uscensus:geoid":"4269376",
         "wd:id":"Q1187224",
         "wk:page":"Sewickley, Pennsylvania"
     },
     "wof:concordances_alt":{
         "qs_pg:id":846850
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -204,11 +206,11 @@
         }
     ],
     "wof:id":101718771,
-    "wof:lastmodified":1690890463,
+    "wof:lastmodified":1722051931,
     "wof:name":"Sewickley",
     "wof:parent_id":404484181,
     "wof:placetype":"locality",
-    "wof:population":3827,
+    "wof:population":3772,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

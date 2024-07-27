@@ -135,7 +135,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":157457,
     "uscensus:awater":7406,
     "uscensus:classfp":"C5",
@@ -157,11 +158,11 @@
     "wd:longitude":-96.8025,
     "wd:wordcount":686,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404478895,
         85633793,
-        102082073
+        102082073,
+        404478895,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -170,10 +171,11 @@
         "gn:id":5060702,
         "gp:id":2461546,
         "qs_pg:id":1351724,
-        "uscensus:geoid":3858120,
+        "uscensus:geoid":"3858120",
         "wd:id":"Q2231747",
         "wk:page":"North River, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -194,7 +196,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882561,
+    "wof:lastmodified":1722051608,
     "wof:name":"North River",
     "wof:parent_id":404478895,
     "wof:placetype":"locality",

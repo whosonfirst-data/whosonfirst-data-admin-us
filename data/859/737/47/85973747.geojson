@@ -139,7 +139,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2931550,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -158,11 +159,11 @@
     "uscensus:statefp":"31",
     "wd:wordcount":794,
     "wof:belongsto":[
-        85688563,
         102191575,
-        404520163,
         85633793,
-        102083497
+        102083497,
+        404520163,
+        85688563
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -171,10 +172,11 @@
         "gn:id":5697275,
         "gp:id":2444046,
         "qs_pg:id":850386,
-        "uscensus:geoid":3130275,
+        "uscensus:geoid":"3130275",
         "wd:id":"Q2323298",
         "wk:page":"Madrid, Nebraska"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -195,7 +197,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690881749,
+    "wof:lastmodified":1722051569,
     "wof:name":"Madrid",
     "wof:parent_id":404520163,
     "wof:placetype":"locality",

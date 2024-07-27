@@ -113,7 +113,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":47791195,
     "uscensus:awater":11871690,
     "uscensus:classfp":"C5",
@@ -132,11 +133,11 @@
     "uscensus:statefp":"55",
     "wd:wordcount":1538,
     "wof:belongsto":[
-        85688517,
         102191575,
-        404492861,
         85633793,
-        102081867
+        102081867,
+        404492861,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -144,13 +145,14 @@
         "gn:id":5257038,
         "gp:id":2424948,
         "qs_pg:id":158381,
-        "uscensus:geoid":5535950,
+        "uscensus:geoid":"5535950",
         "wd:id":"Q2671497",
         "wk:page":"Howard, Wisconsin"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1208290
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -168,12 +170,12 @@
         }
     ],
     "wof:id":101732413,
-    "wof:lastmodified":1690889294,
+    "wof:lastmodified":1722051875,
     "wof:name":"Howard",
     "wof:parent_id":404492861,
     "wof:placetype":"locality",
-    "wof:population":17399,
-    "wof:population_rank":6,
+    "wof:population":20649,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

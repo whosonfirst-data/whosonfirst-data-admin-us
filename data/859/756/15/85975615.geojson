@@ -142,7 +142,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":7729296,
     "uscensus:awater":315734,
     "uscensus:classfp":"C5",
@@ -161,11 +162,11 @@
     "uscensus:statefp":"34",
     "wd:wordcount":4637,
     "wof:belongsto":[
-        85688607,
         102191575,
-        404477983,
         85633793,
-        102081131
+        102081131,
+        404477983,
+        85688607
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -173,10 +174,11 @@
         "gn:id":4500750,
         "gp:id":2362065,
         "qs_pg:id":153909,
-        "uscensus:geoid":3404750,
+        "uscensus:geoid":"3404750",
         "wd:id":"Q1086682",
         "wk:page":"Bellmawr, New Jersey"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -194,11 +196,11 @@
         }
     ],
     "wof:id":85975615,
-    "wof:lastmodified":1690884288,
+    "wof:lastmodified":1722051695,
     "wof:name":"Bellmawr",
     "wof:parent_id":404477983,
     "wof:placetype":"locality",
-    "wof:population":11583,
+    "wof:population":11724,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

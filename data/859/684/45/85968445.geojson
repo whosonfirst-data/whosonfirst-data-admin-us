@@ -185,7 +185,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":14563518,
     "uscensus:awater":1160343,
     "uscensus:classfp":"C5",
@@ -207,11 +208,11 @@
     "wd:longitude":-93.036111,
     "wd:wordcount":2423,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404511995,
         85633793,
-        102087895
+        102087895,
+        404511995,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -220,13 +221,14 @@
         "gn:id":4407186,
         "gp:id":2496716,
         "qs_pg:id":153609,
-        "uscensus:geoid":2761492,
+        "uscensus:geoid":"2761492",
         "wd:id":"Q1003641",
         "wk:page":"South St. Paul, Minnesota"
     },
     "wof:concordances_alt":{
         "qs_pg:id":830713
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -247,11 +249,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885185,
+    "wof:lastmodified":1722051743,
     "wof:name":"South St. Paul",
     "wof:parent_id":404511995,
     "wof:placetype":"locality",
-    "wof:population":20160,
+    "wof:population":20664,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -85,7 +85,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":3860905,
     "uscensus:awater":444118,
     "uscensus:classfp":"U1",
@@ -103,11 +104,11 @@
     "uscensus:placens":"02628692",
     "uscensus:statefp":"27",
     "wof:belongsto":[
-        85688727,
         102191575,
-        404510765,
         85633793,
-        102087815
+        102087815,
+        404510765,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -116,10 +117,11 @@
         "gn:id":5047332,
         "gp:id":2493649,
         "qs_pg:id":6711,
-        "uscensus:geoid":2760322,
+        "uscensus:geoid":"2760322",
         "wd:id":"Q9077380",
         "wk:page":"Silver Creek, Wright County, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -140,11 +142,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882947,
+    "wof:lastmodified":1722051626,
     "wof:name":"Silver Creek",
     "wof:parent_id":404510765,
     "wof:placetype":"locality",
-    "wof:population":256,
+    "wof:population":249,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

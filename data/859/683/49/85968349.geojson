@@ -169,7 +169,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":6628955,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -191,11 +192,11 @@
     "wd:longitude":-93.909722,
     "wd:wordcount":813,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404511451,
         85633793,
-        102087131
+        102087131,
+        404511451,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -203,13 +204,14 @@
         "gn:id":5027025,
         "gp:id":2404766,
         "qs_pg:id":1063206,
-        "uscensus:geoid":2721536,
+        "uscensus:geoid":"2721536",
         "wd:id":"Q994762",
         "wk:page":"Foley, Minnesota"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1140209
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -227,11 +229,11 @@
         }
     ],
     "wof:id":85968349,
-    "wof:lastmodified":1690885226,
+    "wof:lastmodified":1722051745,
     "wof:name":"Foley",
     "wof:parent_id":404511451,
     "wof:placetype":"locality",
-    "wof:population":2603,
+    "wof:population":2673,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

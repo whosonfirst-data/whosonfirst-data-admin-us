@@ -114,7 +114,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":8372411,
     "uscensus:awater":10743,
     "uscensus:classfp":"U1",
@@ -132,11 +133,11 @@
     "uscensus:placens":"02377862",
     "uscensus:statefp":"09",
     "wof:belongsto":[
-        85688629,
         102191575,
-        404495895,
         85633793,
-        102085379
+        102085379,
+        404495895,
+        85688629
     ],
     "wof:breaches":[
         85931285
@@ -144,10 +145,11 @@
     "wof:concordances":{
         "fips:code":"0969990",
         "gn:id":4831764,
-        "uscensus:geoid":969990,
+        "uscensus:geoid":"0969990",
         "wd:id":"Q14715116",
         "wk:page":"South Coventry (CDP), Connecticut"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -164,11 +166,11 @@
         }
     ],
     "wof:id":85931267,
-    "wof:lastmodified":1690883631,
+    "wof:lastmodified":1722051660,
     "wof:name":"South Coventry",
     "wof:parent_id":404495895,
     "wof:placetype":"locality",
-    "wof:population":1483,
+    "wof:population":1620,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

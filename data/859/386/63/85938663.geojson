@@ -190,6 +190,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":16339585,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -210,11 +212,11 @@
     "wd:longitude":-89.4,
     "wd:wordcount":3821,
     "wof:belongsto":[
-        85688697,
         102191575,
-        404497199,
         85633793,
-        102081253
+        102081253,
+        404497199,
+        85688697
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -222,13 +224,14 @@
         "gn:id":4239867,
         "gp:id":2414587,
         "qs_pg:id":353555,
-        "uscensus:geoid":1731589,
+        "uscensus:geoid":"1731589",
         "wd:id":"Q576219",
         "wk:page":"Greenville, Illinois"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1121301
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -246,10 +249,12 @@
         }
     ],
     "wof:id":85938663,
-    "wof:lastmodified":1690886379,
+    "wof:lastmodified":1722051801,
     "wof:name":"Greenville",
     "wof:parent_id":404497199,
     "wof:placetype":"locality",
+    "wof:population":6979,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[

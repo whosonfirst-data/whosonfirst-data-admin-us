@@ -95,7 +95,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":8938441,
     "uscensus:awater":143807,
     "uscensus:classfp":"C5",
@@ -113,11 +114,11 @@
     "uscensus:placens":"01215518",
     "uscensus:statefp":"42",
     "wof:belongsto":[
-        85688481,
         102191575,
-        404488145,
         85633793,
-        102081349
+        102081349,
+        404488145,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -126,10 +127,11 @@
         "gn:id":5212811,
         "gp:id":2495469,
         "qs_pg:id":498189,
-        "uscensus:geoid":4271688,
+        "uscensus:geoid":"4271688",
         "wd:id":"Q944325",
         "wk:page":"Snydertown, Northumberland County, Pennsylvania"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -150,11 +152,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889791,
+    "wof:lastmodified":1722051900,
     "wof:name":"Snydertown",
     "wof:parent_id":404488145,
     "wof:placetype":"locality",
-    "wof:population":339,
+    "wof:population":322,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

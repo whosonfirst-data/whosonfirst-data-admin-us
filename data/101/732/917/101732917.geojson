@@ -116,7 +116,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":89028279,
     "uscensus:awater":62654,
     "uscensus:classfp":"C5",
@@ -135,11 +136,11 @@
     "uscensus:statefp":"55",
     "wd:wordcount":909,
     "wof:belongsto":[
-        85688517,
         102191575,
-        404494363,
         85633793,
-        102081745
+        102081745,
+        404494363,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -148,13 +149,14 @@
         "gn:id":5254217,
         "gp:id":28747235,
         "qs_pg:id":819803,
-        "uscensus:geoid":5528875,
+        "uscensus:geoid":"5528875",
         "wd:id":"Q2672768",
         "wk:page":"Germantown, Wisconsin"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1330442
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -175,12 +177,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889385,
+    "wof:lastmodified":1722051880,
     "wof:name":"Germantown",
     "wof:parent_id":404494363,
     "wof:placetype":"locality",
-    "wof:population":19749,
-    "wof:population_rank":6,
+    "wof:population":21020,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

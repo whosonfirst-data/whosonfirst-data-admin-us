@@ -162,6 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":7982697,
     "uscensus:awater":265694,
     "uscensus:classfp":"C5",
@@ -183,11 +185,11 @@
     "wd:longitude":-95.2408,
     "wd:wordcount":1375,
     "wof:belongsto":[
-        85688555,
         102191575,
-        404503759,
         85633793,
-        102083439
+        102083439,
+        404503759,
+        85688555
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -195,13 +197,14 @@
         "gn:id":4271974,
         "gp:id":2409037,
         "qs_pg:id":1048339,
-        "uscensus:geoid":2025925,
+        "uscensus:geoid":"2025925",
         "wd:id":"Q1925104",
         "wk:page":"Garnett, Kansas"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1140627
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -219,10 +222,12 @@
         }
     ],
     "wof:id":85945297,
-    "wof:lastmodified":1690882956,
+    "wof:lastmodified":1722051627,
     "wof:name":"Garnett",
     "wof:parent_id":404503759,
     "wof:placetype":"locality",
+    "wof:population":3197,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[

@@ -129,6 +129,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":6570902,
     "uscensus:awater":82688,
     "uscensus:classfp":"C1",
@@ -150,11 +152,11 @@
     "wd:longitude":-82.6667,
     "wd:wordcount":1310,
     "wof:belongsto":[
-        85688485,
         102191575,
-        404526583,
         85633793,
-        102083735
+        102083735,
+        404526583,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -163,13 +165,14 @@
         "gn:id":5167165,
         "gp:id":2474396,
         "qs_pg:id":47085,
-        "uscensus:geoid":3963800,
+        "uscensus:geoid":"3963800",
         "wd:id":"Q741038",
         "wk:page":"Plymouth, Ohio"
     },
     "wof:concordances_alt":{
         "qs_pg:id":445362
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -190,10 +193,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690888836,
+    "wof:lastmodified":1722051853,
     "wof:name":"Plymouth",
     "wof:parent_id":404526583,
     "wof:placetype":"locality",
+    "wof:population":1693,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

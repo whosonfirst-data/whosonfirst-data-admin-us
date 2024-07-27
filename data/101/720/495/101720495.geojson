@@ -59,7 +59,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":25449310,
     "uscensus:awater":0,
     "uscensus:classfp":"U1",
@@ -77,11 +78,11 @@
     "uscensus:placens":"02390421",
     "uscensus:statefp":"42",
     "wof:belongsto":[
-        85688481,
         102191575,
-        404484331,
         85633793,
-        102080887
+        102080887,
+        404484331,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -89,9 +90,10 @@
         "gn:id":5216895,
         "gp:id":23417953,
         "qs_pg:id":24886,
-        "uscensus:geoid":4279277,
+        "uscensus:geoid":"4279277",
         "wd:id":"Q9091866"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -109,12 +111,12 @@
         }
     ],
     "wof:id":101720495,
-    "wof:lastmodified":1690890283,
+    "wof:lastmodified":1722051922,
     "wof:name":"Upper St. Clair",
     "wof:parent_id":404484331,
     "wof:placetype":"locality",
-    "wof:population":19229,
-    "wof:population_rank":6,
+    "wof:population":535,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

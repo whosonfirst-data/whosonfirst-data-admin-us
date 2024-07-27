@@ -91,7 +91,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":4295222,
     "uscensus:awater":2552,
     "uscensus:classfp":"C1",
@@ -109,11 +110,11 @@
     "uscensus:placens":"02391122",
     "uscensus:statefp":"36",
     "wof:belongsto":[
-        85688543,
         102191575,
-        404522539,
         85633793,
-        102083101
+        102083101,
+        404522539,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -122,10 +123,11 @@
         "gn:id":5136494,
         "gp:id":2489714,
         "qs_pg:id":157187,
-        "uscensus:geoid":3665585,
+        "uscensus:geoid":"3665585",
         "wd:id":"Q920781",
         "wk:page":"Schoharie (village), New York"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -146,11 +148,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883895,
+    "wof:lastmodified":1722051674,
     "wof:name":"Schoharie",
     "wof:parent_id":404522539,
     "wof:placetype":"locality",
-    "wof:population":922,
+    "wof:population":947,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -111,6 +111,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":3030506,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -129,11 +131,11 @@
     "uscensus:statefp":"17",
     "wd:wordcount":580,
     "wof:belongsto":[
-        85688697,
         102191575,
-        404496155,
         85633793,
-        102086213
+        102086213,
+        404496155,
+        85688697
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -141,10 +143,11 @@
         "gn:id":4246765,
         "gp:id":2469509,
         "qs_pg:id":236209,
-        "uscensus:geoid":1758265,
+        "uscensus:geoid":"1758265",
         "wd:id":"Q2397562",
         "wk:page":"Payson, Illinois"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -162,10 +165,12 @@
         }
     ],
     "wof:id":85938431,
-    "wof:lastmodified":1690883521,
+    "wof:lastmodified":1722051654,
     "wof:name":"Payson",
     "wof:parent_id":404496155,
     "wof:placetype":"locality",
+    "wof:population":1000,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

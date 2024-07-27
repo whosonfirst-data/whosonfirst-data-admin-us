@@ -109,7 +109,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":7033230,
     "uscensus:awater":297331,
     "uscensus:classfp":"U1",
@@ -127,11 +128,11 @@
     "uscensus:placens":"02389759",
     "uscensus:statefp":"36",
     "wof:belongsto":[
-        85688543,
         102191575,
-        404522671,
         85633793,
-        102082395
+        102082395,
+        404522671,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -139,10 +140,11 @@
         "gn:id":5133934,
         "gp:id":91981540,
         "qs_pg:id":101118,
-        "uscensus:geoid":3662066,
+        "uscensus:geoid":"3662066",
         "wd:id":"Q2470973",
         "wk:page":"Riverside, Suffolk County, New York"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -160,11 +162,11 @@
         }
     ],
     "wof:id":85979841,
-    "wof:lastmodified":1690881792,
+    "wof:lastmodified":1722051571,
     "wof:name":"Riverside",
     "wof:parent_id":404522671,
     "wof:placetype":"locality",
-    "wof:population":2911,
+    "wof:population":2837,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

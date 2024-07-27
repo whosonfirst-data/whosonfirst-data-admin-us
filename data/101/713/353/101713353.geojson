@@ -113,7 +113,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":5820410,
     "uscensus:awater":35509,
     "uscensus:classfp":"C1",
@@ -131,11 +132,11 @@
     "uscensus:placens":"02399792",
     "uscensus:statefp":"39",
     "wof:belongsto":[
-        85688485,
         102191575,
-        404524155,
         85633793,
-        102084801
+        102084801,
+        404524155,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -144,10 +145,11 @@
         "gn:id":4524528,
         "gp:id":2491939,
         "qs_pg:id":935107,
-        "uscensus:geoid":3971962,
+        "uscensus:geoid":"3971962",
         "wd:id":"Q2383206",
         "wk:page":"Shawnee, Perry County, Ohio"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -168,11 +170,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690888404,
+    "wof:lastmodified":1722051832,
     "wof:name":"Shawnee",
     "wof:parent_id":404524155,
     "wof:placetype":"locality",
-    "wof:population":655,
+    "wof:population":500,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

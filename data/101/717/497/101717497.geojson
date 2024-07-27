@@ -95,7 +95,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":4777187,
     "uscensus:awater":22683,
     "uscensus:classfp":"C5",
@@ -113,11 +114,11 @@
     "uscensus:placens":"01215106",
     "uscensus:statefp":"42",
     "wof:belongsto":[
-        85688481,
         102191575,
-        404483003,
         85633793,
-        102080967
+        102080967,
+        404483003,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -126,13 +127,14 @@
         "gn:id":4302504,
         "gp:id":2459344,
         "qs_pg:id":199631,
-        "uscensus:geoid":4253336,
+        "uscensus:geoid":"4253336",
         "wd:id":"Q1182221",
         "wk:page":"Newburg, Clearfield County, Pennsylvania"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1048495
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -153,11 +155,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889736,
+    "wof:lastmodified":1722051897,
     "wof:name":"Newburg",
     "wof:parent_id":404483003,
     "wof:placetype":"locality",
-    "wof:population":92,
+    "wof:population":79,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -168,6 +168,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":13615281,
     "uscensus:awater":9792581,
     "uscensus:classfp":"C5",
@@ -189,11 +191,11 @@
     "wd:longitude":-86.647778,
     "wd:wordcount":1269,
     "wof:belongsto":[
-        85688599,
         102191575,
-        404506763,
         85633793,
-        102083059
+        102083059,
+        404506763,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -201,13 +203,14 @@
         "gn:id":5003065,
         "gp:id":2456340,
         "qs_pg:id":1050860,
-        "uscensus:geoid":2656200,
+        "uscensus:geoid":"2656200",
         "wd:id":"Q1022789",
         "wk:page":"Munising, Michigan"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1145490
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -225,10 +228,12 @@
         }
     ],
     "wof:id":85950869,
-    "wof:lastmodified":1690884000,
+    "wof:lastmodified":1722051679,
     "wof:name":"Munising",
     "wof:parent_id":404506763,
     "wof:placetype":"locality",
+    "wof:population":1963,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[

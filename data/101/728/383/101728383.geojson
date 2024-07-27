@@ -95,7 +95,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":1359453,
     "uscensus:awater":30519,
     "uscensus:classfp":"U1",
@@ -114,11 +115,11 @@
     "uscensus:statefp":"50",
     "wd:wordcount":113,
     "wof:belongsto":[
-        85688763,
         102191575,
-        404527549,
         85633793,
-        102080755
+        102080755,
+        404527549,
+        85688763
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -126,13 +127,14 @@
         "gn:id":5235667,
         "gp:id":2371988,
         "qs_pg:id":484587,
-        "uscensus:geoid":5019600,
+        "uscensus:geoid":"5019600",
         "wd:id":"Q2893875",
         "wk:page":"East Burke, Vermont"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1138156
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -150,11 +152,11 @@
         }
     ],
     "wof:id":101728383,
-    "wof:lastmodified":1690889862,
+    "wof:lastmodified":1722051903,
     "wof:name":"East Burke",
     "wof:parent_id":404527549,
     "wof:placetype":"locality",
-    "wof:population":132,
+    "wof:population":92,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

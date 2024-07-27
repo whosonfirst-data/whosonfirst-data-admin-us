@@ -106,7 +106,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":19895314,
     "uscensus:awater":0,
     "uscensus:classfp":"U1",
@@ -124,11 +125,11 @@
     "uscensus:placens":"02631636",
     "uscensus:statefp":"36",
     "wof:belongsto":[
-        85688543,
         102191575,
-        404522635,
         85633793,
-        102081815
+        102081815,
+        404522635,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -137,10 +138,11 @@
         "gn:id":5119868,
         "gp:id":2416685,
         "qs_pg:id":1035203,
-        "uscensus:geoid":3631786,
+        "uscensus:geoid":"3631786",
         "wd:id":"Q3357965",
         "wk:page":"Hamlin, New York"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -161,11 +163,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690881445,
+    "wof:lastmodified":1722051554,
     "wof:name":"Hamlin",
     "wof:parent_id":404522635,
     "wof:placetype":"locality",
-    "wof:population":5521,
+    "wof:population":5158,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

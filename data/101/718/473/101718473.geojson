@@ -80,7 +80,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1139547,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -98,11 +99,11 @@
     "uscensus:placens":"01215672",
     "uscensus:statefp":"42",
     "wof:belongsto":[
-        85688481,
         102191575,
-        404483975,
         85633793,
-        102081343
+        102081343,
+        404483975,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -111,10 +112,11 @@
         "gn:id":5201056,
         "gp:id":2450696,
         "qs_pg:id":1051974,
-        "uscensus:geoid":4249240,
+        "uscensus:geoid":"4249240",
         "wd:id":"Q6843242",
         "wk:page":"Midway, Washington County, Pennsylvania"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -135,11 +137,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690890497,
+    "wof:lastmodified":1722051933,
     "wof:name":"Midway",
     "wof:parent_id":404483975,
     "wof:placetype":"locality",
-    "wof:population":913,
+    "wof:population":915,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

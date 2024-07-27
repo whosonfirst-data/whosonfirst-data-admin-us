@@ -92,7 +92,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":4774400,
     "uscensus:awater":35427,
     "uscensus:classfp":"U1",
@@ -110,11 +111,11 @@
     "uscensus:placens":"02628041",
     "uscensus:statefp":"36",
     "wof:belongsto":[
-        85688543,
         102191575,
-        404522539,
         85633793,
-        102083101
+        102083101,
+        404522539,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -123,10 +124,11 @@
         "gn:id":5112051,
         "gp:id":2377557,
         "qs_pg:id":1221197,
-        "uscensus:geoid":3613530,
+        "uscensus:geoid":"3613530",
         "wd:id":"Q7432010",
         "wk:page":"Schoharie, New York"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -147,11 +149,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690881859,
+    "wof:lastmodified":1722051574,
     "wof:name":"Central Bridge",
     "wof:parent_id":404522539,
     "wof:placetype":"locality",
-    "wof:population":593,
+    "wof:population":696,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

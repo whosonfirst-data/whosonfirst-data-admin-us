@@ -95,7 +95,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":2696314,
     "uscensus:awater":12085,
     "uscensus:classfp":"U1",
@@ -113,11 +114,11 @@
     "uscensus:placens":"02585518",
     "uscensus:statefp":"39",
     "wof:belongsto":[
-        85688485,
         102191575,
-        404525443,
         85633793,
-        102083687
+        102083687,
+        404525443,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -126,9 +127,10 @@
         "gn:id":4519540,
         "gp:id":2458400,
         "qs_pg:id":29594,
-        "uscensus:geoid":3954684,
+        "uscensus:geoid":"3954684",
         "wd:id":"Q7008477"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -149,11 +151,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690888466,
+    "wof:lastmodified":1722051835,
     "wof:name":"New Haven",
     "wof:parent_id":404525443,
     "wof:placetype":"locality",
-    "wof:population":583,
+    "wof:population":601,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

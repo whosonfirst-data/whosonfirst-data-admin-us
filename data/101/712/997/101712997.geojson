@@ -118,6 +118,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2161208,
     "uscensus:awater":63801,
     "uscensus:classfp":"C1",
@@ -135,11 +137,11 @@
     "uscensus:placens":"02400138",
     "uscensus:statefp":"39",
     "wof:belongsto":[
-        85688485,
         102191575,
-        404525173,
         85633793,
-        102083729
+        102083729,
+        404525173,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -148,10 +150,11 @@
         "gn:id":5176319,
         "gp:id":2517376,
         "qs_pg:id":201986,
-        "uscensus:geoid":3983818,
+        "uscensus:geoid":"3983818",
         "wd:id":"Q1837140",
         "wk:page":"West Mansfield, Ohio"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -172,10 +175,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690888753,
+    "wof:lastmodified":1722051849,
     "wof:name":"West Mansfield",
     "wof:parent_id":404525173,
     "wof:placetype":"locality",
+    "wof:population":758,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

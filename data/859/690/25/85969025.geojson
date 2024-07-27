@@ -176,7 +176,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1576807,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -195,11 +196,11 @@
     "uscensus:statefp":"27",
     "wd:wordcount":232,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404509659,
         85633793,
-        102087887
+        102087887,
+        404509659,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -208,9 +209,10 @@
         "gn:id":5029673,
         "gp:id":2419168,
         "qs_pg:id":929354,
-        "uscensus:geoid":2727944,
+        "uscensus:geoid":"2727944",
         "wd:id":"Q631354"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -231,7 +233,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885422,
+    "wof:lastmodified":1722051754,
     "wof:name":"Hayward",
     "wof:parent_id":404509659,
     "wof:placetype":"locality",

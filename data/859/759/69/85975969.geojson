@@ -154,7 +154,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":5912719,
     "uscensus:awater":106717,
     "uscensus:classfp":"C5",
@@ -175,11 +176,11 @@
     "wd:longitude":-74.0195,
     "wd:wordcount":5986,
     "wof:belongsto":[
-        85688607,
         102191575,
-        404477695,
         85633793,
-        102086773
+        102086773,
+        404477695,
+        85688607
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -187,10 +188,11 @@
         "gn:id":5101766,
         "gp:id":2458753,
         "qs_pg:id":1051560,
-        "uscensus:geoid":3451660,
+        "uscensus:geoid":"3451660",
         "wd:id":"Q1088720",
         "wk:page":"New Milford, New Jersey"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -208,11 +210,11 @@
         }
     ],
     "wof:id":85975969,
-    "wof:lastmodified":1690884662,
+    "wof:lastmodified":1722051716,
     "wof:name":"New Milford",
     "wof:parent_id":404477695,
     "wof:placetype":"locality",
-    "wof:population":16341,
+    "wof:population":16889,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

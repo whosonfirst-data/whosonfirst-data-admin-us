@@ -133,7 +133,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":8780177,
     "uscensus:awater":54790,
     "uscensus:classfp":"C1",
@@ -151,11 +152,11 @@
     "uscensus:placens":"02398479",
     "uscensus:statefp":"17",
     "wof:belongsto":[
-        85688697,
         102191575,
-        404497613,
         85633793,
-        102084317
+        102084317,
+        404497613,
+        85688697
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -164,10 +165,11 @@
         "gn:id":4895416,
         "gp:id":2419219,
         "qs_pg:id":820994,
-        "uscensus:geoid":1733695,
+        "uscensus:geoid":"1733695",
         "wd:id":"Q2599354",
         "wk:page":"Hazel Crest, Illinois"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -188,11 +190,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882833,
+    "wof:lastmodified":1722051620,
     "wof:name":"Hazel Crest",
     "wof:parent_id":404497613,
     "wof:placetype":"locality",
-    "wof:population":14100,
+    "wof:population":12771,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

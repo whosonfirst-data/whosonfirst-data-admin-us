@@ -162,6 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1427253,
     "uscensus:awater":7994,
     "uscensus:classfp":"C5",
@@ -179,11 +181,11 @@
     "uscensus:placens":"02394027",
     "uscensus:statefp":"27",
     "wof:belongsto":[
-        85688727,
         102191575,
-        404509199,
         85633793,
-        102087001
+        102087001,
+        404509199,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -191,9 +193,10 @@
         "gn:id":5016826,
         "gp:id":2357336,
         "qs_pg:id":1050921,
-        "uscensus:geoid":2702728,
+        "uscensus:geoid":"2702728",
         "wd:id":"Q1855333"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -211,10 +214,12 @@
         }
     ],
     "wof:id":85952665,
-    "wof:lastmodified":1690883480,
+    "wof:lastmodified":1722051652,
     "wof:name":"Audubon",
     "wof:parent_id":404509199,
     "wof:placetype":"locality",
+    "wof:population":562,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

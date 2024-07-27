@@ -116,7 +116,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":369506,
     "uscensus:awater":6553,
     "uscensus:classfp":"C1",
@@ -134,11 +135,11 @@
     "uscensus:placens":"02400040",
     "uscensus:statefp":"39",
     "wof:belongsto":[
-        85688485,
         102191575,
-        404523493,
         85633793,
-        102080969
+        102080969,
+        404523493,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -146,9 +147,10 @@
         "gn:id":5174974,
         "gp:id":2511047,
         "qs_pg:id":902082,
-        "uscensus:geoid":3979282,
+        "uscensus:geoid":"3979282",
         "wd:id":"Q2101589"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -166,11 +168,11 @@
         }
     ],
     "wof:id":101712431,
-    "wof:lastmodified":1690888781,
+    "wof:lastmodified":1722051851,
     "wof:name":"Valleyview",
     "wof:parent_id":404523493,
     "wof:placetype":"locality",
-    "wof:population":620,
+    "wof:population":647,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

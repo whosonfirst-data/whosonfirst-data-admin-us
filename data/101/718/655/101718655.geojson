@@ -152,7 +152,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":12427324,
     "uscensus:awater":546532,
     "uscensus:classfp":"C5",
@@ -171,11 +172,11 @@
     "uscensus:statefp":"42",
     "wd:wordcount":749,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404484967,
         85633793,
-        102080887
+        102080887,
+        404484967,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -183,13 +184,14 @@
         "gn:id":5198062,
         "gp:id":28744602,
         "qs_pg:id":218550,
-        "uscensus:geoid":4243408,
+        "uscensus:geoid":"4243408",
         "wd:id":"Q1186704",
         "wk:page":"Lincoln, Pennsylvania"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1208479
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -207,12 +209,12 @@
         }
     ],
     "wof:id":101718655,
-    "wof:lastmodified":1690890501,
+    "wof:lastmodified":1722051933,
     "wof:name":"Lincoln",
     "wof:parent_id":404484967,
     "wof:placetype":"locality",
-    "wof:population":1072,
-    "wof:population_rank":3,
+    "wof:population":895,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

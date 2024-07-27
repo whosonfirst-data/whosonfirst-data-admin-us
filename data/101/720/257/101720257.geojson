@@ -98,7 +98,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":1938823,
     "uscensus:awater":3765,
     "uscensus:classfp":"U1",
@@ -117,11 +118,11 @@
     "uscensus:statefp":"42",
     "wd:wordcount":532,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404485383,
         85633793,
-        102080973
+        102080973,
+        404485383,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -129,13 +130,14 @@
         "gn:id":5219409,
         "gp:id":2520283,
         "qs_pg:id":204008,
-        "uscensus:geoid":4285078,
+        "uscensus:geoid":"4285078",
         "wd:id":"Q1181624",
         "wk:page":"Wilburton Number Two, Pennsylvania"
     },
     "wof:concordances_alt":{
         "qs_pg:id":317010
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -153,11 +155,11 @@
         }
     ],
     "wof:id":101720257,
-    "wof:lastmodified":1690890215,
+    "wof:lastmodified":1722051919,
     "wof:name":"Wilburton Number Two",
     "wof:parent_id":404485383,
     "wof:placetype":"locality",
-    "wof:population":96,
+    "wof:population":55,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -374,7 +374,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":39375348,
     "uscensus:awater":641758,
     "uscensus:classfp":"U1",
@@ -392,11 +393,11 @@
     "uscensus:placens":"02378058",
     "uscensus:statefp":"33",
     "wof:belongsto":[
-        85688689,
         102191575,
-        404476743,
         85633793,
-        102086507
+        102086507,
+        404476743,
+        85688689
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -405,9 +406,10 @@
         "gn:id":5085374,
         "gp:id":2391429,
         "qs_pg:id":156637,
-        "uscensus:geoid":3317860,
+        "uscensus:geoid":"3317860",
         "wd:id":"Q163584"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -428,11 +430,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884323,
+    "wof:lastmodified":1722051697,
     "wof:name":"Derry",
     "wof:parent_id":404476743,
     "wof:placetype":"locality",
-    "wof:population":22015,
+    "wof:population":22995,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

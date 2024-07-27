@@ -218,7 +218,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":20062442,
     "uscensus:awater":502381,
     "uscensus:classfp":"C5",
@@ -240,11 +241,11 @@
     "wd:longitude":-71.516111,
     "wd:wordcount":1726,
     "wof:belongsto":[
-        85688509,
         102191575,
-        404488331,
         85633793,
-        102081597
+        102081597,
+        404488331,
+        85688509
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -252,10 +253,11 @@
         "gn:id":5225809,
         "gp:id":2523921,
         "qs_pg:id":158108,
-        "uscensus:geoid":4480780,
+        "uscensus:geoid":"4480780",
         "wd:id":"Q54276",
         "wk:page":"Woonsocket, Rhode Island"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -273,11 +275,11 @@
         }
     ],
     "wof:id":101720563,
-    "wof:lastmodified":1690890252,
+    "wof:lastmodified":1722051921,
     "wof:name":"Woonsocket",
     "wof:parent_id":404488331,
     "wof:placetype":"locality",
-    "wof:population":41186,
+    "wof:population":43135,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

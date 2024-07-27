@@ -157,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1073051,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -179,11 +180,11 @@
     "wd:longitude":-97.812778,
     "wd:wordcount":717,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404480081,
         85633793,
-        102082051
+        102082051,
+        404480081,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -191,10 +192,11 @@
         "gn:id":5060649,
         "gp:id":2460284,
         "qs_pg:id":350982,
-        "uscensus:geoid":3857180,
+        "uscensus:geoid":"3857180",
         "wd:id":"Q28413",
         "wk:page":"Nome, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -212,11 +214,11 @@
         }
     ],
     "wof:id":85982091,
-    "wof:lastmodified":1690882188,
+    "wof:lastmodified":1722051591,
     "wof:name":"Nome",
     "wof:parent_id":404480081,
     "wof:placetype":"locality",
-    "wof:population":62,
+    "wof:population":48,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

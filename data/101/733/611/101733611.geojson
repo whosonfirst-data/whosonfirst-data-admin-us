@@ -94,7 +94,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":29333549,
     "uscensus:awater":5148378,
     "uscensus:classfp":"U1",
@@ -112,11 +113,11 @@
     "uscensus:placens":"02393838",
     "uscensus:statefp":"55",
     "wof:belongsto":[
-        85688517,
         102191575,
-        404494995,
         85633793,
-        102081763
+        102081763,
+        404494995,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -124,10 +125,11 @@
         "gn:id":5275760,
         "gp:id":2506214,
         "qs_pg:id":66466,
-        "uscensus:geoid":5579740,
+        "uscensus:geoid":"5579740",
         "wd:id":"Q5844012",
         "wk:page":"Tichigan, Wisconsin"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -144,11 +146,11 @@
         }
     ],
     "wof:id":101733611,
-    "wof:lastmodified":1690889189,
+    "wof:lastmodified":1722051870,
     "wof:name":"Tichigan",
     "wof:parent_id":404494995,
     "wof:placetype":"locality",
-    "wof:population":5133,
+    "wof:population":5297,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -138,7 +138,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":22510424,
     "uscensus:awater":1071180,
     "uscensus:classfp":"C5",
@@ -161,11 +162,11 @@
     "woe:name_adm1":"Pennsylvania",
     "woe:placetype":"Town",
     "wof:belongsto":[
-        85688481,
         102191575,
-        404485635,
         85633793,
-        102081331
+        102081331,
+        404485635,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -174,7 +175,7 @@
         "gn:id":5214800,
         "gp:id":28744931,
         "qs_pg:id":158027,
-        "uscensus:geoid":4275248,
+        "uscensus:geoid":"4275248",
         "wd:id":"Q1181894",
         "wk:page":"Summit Hill, Pennsylvania"
     },
@@ -192,6 +193,7 @@
             "Q1181894"
         ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -212,11 +214,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1706240791,
+    "wof:lastmodified":1722051941,
     "wof:name":"Summit Hill",
     "wof:parent_id":404485635,
     "wof:placetype":"locality",
-    "wof:population":3034,
+    "wof:population":3134,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

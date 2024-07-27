@@ -115,7 +115,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":10391434,
     "uscensus:awater":0,
     "uscensus:classfp":"U1",
@@ -133,11 +134,11 @@
     "uscensus:placens":"02393848",
     "uscensus:statefp":"38",
     "wof:belongsto":[
-        85688525,
         102191575,
-        404478911,
         85633793,
-        102082073
+        102082073,
+        404478911,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -146,9 +147,10 @@
         "gn:id":5062490,
         "gp:id":2518872,
         "qs_pg:id":202067,
-        "uscensus:geoid":3885180,
+        "uscensus:geoid":"3885180",
         "wd:id":"Q2949000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -169,11 +171,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882626,
+    "wof:lastmodified":1722051611,
     "wof:name":"Wheatland",
     "wof:parent_id":404478911,
     "wof:placetype":"locality",
-    "wof:population":68,
+    "wof:population":97,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

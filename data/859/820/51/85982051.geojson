@@ -148,7 +148,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":804172,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -170,11 +171,11 @@
     "wd:longitude":-100.726944,
     "wd:wordcount":820,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404480931,
         85633793,
-        102082517
+        102082517,
+        404480931,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -183,10 +184,11 @@
         "gn:id":5692716,
         "gp:id":2510203,
         "qs_pg:id":1165523,
-        "uscensus:geoid":3880860,
+        "uscensus:geoid":"3880860",
         "wd:id":"Q2315780",
         "wk:page":"Upham, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -207,7 +209,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882184,
+    "wof:lastmodified":1722051590,
     "wof:name":"Upham",
     "wof:parent_id":404480931,
     "wof:placetype":"locality",

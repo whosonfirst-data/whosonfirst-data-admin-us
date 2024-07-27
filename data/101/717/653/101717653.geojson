@@ -110,7 +110,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1019296,
     "uscensus:awater":190774,
     "uscensus:classfp":"C5",
@@ -129,11 +130,11 @@
     "uscensus:statefp":"42",
     "wd:wordcount":753,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404487059,
         85633793,
-        102080959
+        102080959,
+        404487059,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -142,13 +143,14 @@
         "gn:id":5206769,
         "gp:id":28745280,
         "qs_pg:id":19065,
-        "uscensus:geoid":4261864,
+        "uscensus:geoid":"4261864",
         "wd:id":"Q648153",
         "wk:page":"Point Marion, Pennsylvania"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1013946
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -169,11 +171,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889796,
+    "wof:lastmodified":1722051900,
     "wof:name":"Point Marion",
     "wof:parent_id":404487059,
     "wof:placetype":"locality",
-    "wof:population":1159,
+    "wof:population":1111,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

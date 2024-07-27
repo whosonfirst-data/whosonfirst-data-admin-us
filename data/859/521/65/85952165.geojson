@@ -72,6 +72,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":10190422,
     "uscensus:awater":900560,
     "uscensus:classfp":"U1",
@@ -89,11 +91,11 @@
     "uscensus:placens":"02628663",
     "uscensus:statefp":"26",
     "wof:belongsto":[
-        85688599,
         102191575,
-        404507569,
         85633793,
-        102083087
+        102083087,
+        404507569,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -102,9 +104,10 @@
         "gn:id":4990964,
         "gp:id":2392728,
         "qs_pg:id":156106,
-        "uscensus:geoid":2622520,
+        "uscensus:geoid":"2622520",
         "wd:id":"Q8561493"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -125,10 +128,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883462,
+    "wof:lastmodified":1722051651,
     "wof:name":"Dollar Bay",
     "wof:parent_id":404507569,
     "wof:placetype":"locality",
+    "wof:population":1041,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

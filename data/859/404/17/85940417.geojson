@@ -108,6 +108,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":5117616,
     "uscensus:awater":6113,
     "uscensus:classfp":"C1",
@@ -125,11 +127,11 @@
     "uscensus:placens":"02399037",
     "uscensus:statefp":"17",
     "wof:belongsto":[
-        85688697,
         102191575,
-        404496965,
         85633793,
-        102082863
+        102082863,
+        404496965,
+        85688697
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -138,9 +140,10 @@
         "gn:id":4247770,
         "gp:id":2478297,
         "qs_pg:id":375826,
-        "uscensus:geoid":1762588,
+        "uscensus:geoid":"1762588",
         "wd:id":"Q2672047"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -161,10 +164,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885838,
+    "wof:lastmodified":1722051774,
     "wof:name":"Raleigh",
     "wof:parent_id":404496965,
     "wof:placetype":"locality",
+    "wof:population":278,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

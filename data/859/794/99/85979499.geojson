@@ -103,7 +103,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":8578450,
     "uscensus:awater":0,
     "uscensus:classfp":"U1",
@@ -121,11 +122,11 @@
     "uscensus:placens":"02628177",
     "uscensus:statefp":"36",
     "wof:belongsto":[
-        85688543,
         102191575,
-        404522467,
         85633793,
-        102083105
+        102083105,
+        404522467,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -134,10 +135,11 @@
         "gn:id":5130716,
         "gp:id":2469360,
         "qs_pg:id":157107,
-        "uscensus:geoid":3656781,
+        "uscensus:geoid":"3656781",
         "wd:id":"Q3708933",
         "wk:page":"Pavilion, New York"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -158,11 +160,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884252,
+    "wof:lastmodified":1722051693,
     "wof:name":"Pavilion",
     "wof:parent_id":404522467,
     "wof:placetype":"locality",
-    "wof:population":646,
+    "wof:population":647,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -162,7 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":510183,
     "uscensus:awater":0,
     "uscensus:classfp":"U1",
@@ -180,11 +181,11 @@
     "uscensus:placens":"02393220",
     "uscensus:statefp":"46",
     "wof:belongsto":[
-        85688693,
         102191575,
-        404490569,
         85633793,
-        102086069
+        102086069,
+        404490569,
+        85688693
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -193,9 +194,10 @@
         "gn:id":5231047,
         "gp:id":2486669,
         "qs_pg:id":158188,
-        "uscensus:geoid":4657060,
+        "uscensus:geoid":"4657060",
         "wd:id":"Q2353661"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -216,11 +218,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690888179,
+    "wof:lastmodified":1722051821,
     "wof:name":"St. Charles",
     "wof:parent_id":404490569,
     "wof:placetype":"locality",
-    "wof:population":11,
+    "wof:population":14,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

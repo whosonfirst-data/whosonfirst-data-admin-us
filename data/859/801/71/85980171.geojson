@@ -115,7 +115,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":9664589,
     "uscensus:awater":1513592,
     "uscensus:classfp":"U1",
@@ -134,11 +135,11 @@
     "uscensus:statefp":"36",
     "wd:wordcount":488,
     "wof:belongsto":[
-        85688543,
         102191575,
-        404522039,
         85633793,
-        102083071
+        102083071,
+        404522039,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -146,13 +147,14 @@
         "gn:id":5126551,
         "gp:id":2449201,
         "qs_pg:id":17671,
-        "uscensus:geoid":3646503,
+        "uscensus:geoid":"3646503",
         "wd:id":"Q3462042",
         "wk:page":"Melrose Park, New York"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1347385
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -170,11 +172,11 @@
         }
     ],
     "wof:id":85980171,
-    "wof:lastmodified":1690885739,
+    "wof:lastmodified":1722051770,
     "wof:name":"Melrose Park",
     "wof:parent_id":404522039,
     "wof:placetype":"locality",
-    "wof:population":2294,
+    "wof:population":2053,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

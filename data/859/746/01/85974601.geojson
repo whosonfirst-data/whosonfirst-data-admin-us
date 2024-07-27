@@ -118,7 +118,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1015223,
     "uscensus:awater":17668,
     "uscensus:classfp":"C1",
@@ -137,11 +138,11 @@
     "uscensus:statefp":"31",
     "wd:wordcount":1054,
     "wof:belongsto":[
-        85688563,
         102191575,
-        404519581,
         85633793,
-        102082839
+        102082839,
+        404519581,
+        85688563
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -150,10 +151,11 @@
         "gn:id":5079902,
         "gp:id":2502664,
         "qs_pg:id":201414,
-        "uscensus:geoid":3147850,
+        "uscensus:geoid":"3147850",
         "wd:id":"Q586043",
         "wk:page":"Surprise, Nebraska"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -174,7 +176,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883976,
+    "wof:lastmodified":1722051678,
     "wof:name":"Surprise",
     "wof:parent_id":404519581,
     "wof:placetype":"locality",

@@ -140,7 +140,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2448758,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -159,11 +160,11 @@
     "uscensus:statefp":"46",
     "wd:wordcount":9,
     "wof:belongsto":[
-        85688693,
         102191575,
-        404490651,
         85633793,
-        102086845
+        102086845,
+        404490651,
+        85688693
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -172,9 +173,10 @@
         "gn:id":5227651,
         "gp:id":2400333,
         "qs_pg:id":927506,
-        "uscensus:geoid":4619980,
+        "uscensus:geoid":"4619980",
         "wd:id":"Q967131"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -195,7 +197,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690888245,
+    "wof:lastmodified":1722051825,
     "wof:name":"Estelline",
     "wof:parent_id":404490651,
     "wof:placetype":"locality",

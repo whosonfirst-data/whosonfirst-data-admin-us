@@ -162,7 +162,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1487738,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -185,11 +186,11 @@
     "wd:population":928,
     "wd:wordcount":906,
     "wof:belongsto":[
-        85688555,
         102191575,
-        404503149,
         85633793,
-        102084203
+        102084203,
+        404503149,
+        85688555
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -198,10 +199,11 @@
         "gn:id":4267567,
         "gp:id":2354526,
         "qs_pg:id":195275,
-        "uscensus:geoid":2001775,
+        "uscensus:geoid":"2001775",
         "wd:id":"Q2328922",
         "wk:page":"Andale, Kansas"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -222,7 +224,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885261,
+    "wof:lastmodified":1722051747,
     "wof:name":"Andale",
     "wof:parent_id":404503149,
     "wof:placetype":"locality",

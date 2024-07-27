@@ -180,6 +180,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":85226375,
     "uscensus:awater":2912840,
     "uscensus:classfp":"C5",
@@ -197,11 +199,11 @@
     "uscensus:placens":"02394183",
     "uscensus:statefp":"27",
     "wof:belongsto":[
-        85688727,
         102191575,
-        404511275,
         85633793,
-        102087861
+        102087861,
+        404511275,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -209,9 +211,10 @@
         "gn:id":5018651,
         "gp:id":2365156,
         "qs_pg:id":1240937,
-        "uscensus:geoid":2706382,
+        "uscensus:geoid":"2706382",
         "wd:id":"Q881140"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -229,10 +232,12 @@
         }
     ],
     "wof:id":85953007,
-    "wof:lastmodified":1690884093,
+    "wof:lastmodified":1722051684,
     "wof:name":"Blaine",
     "wof:parent_id":404511275,
     "wof:placetype":"locality",
+    "wof:population":72025,
+    "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

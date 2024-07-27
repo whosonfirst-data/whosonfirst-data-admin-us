@@ -92,7 +92,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":12484726,
     "uscensus:awater":3499673,
     "uscensus:classfp":"U1",
@@ -110,11 +111,11 @@
     "uscensus:placens":"02583742",
     "uscensus:statefp":"26",
     "wof:belongsto":[
-        85688599,
         102191575,
-        404507117,
         85633793,
-        102083739
+        102083739,
+        404507117,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -123,7 +124,7 @@
         "gn:id":4996543,
         "gp:id":28744180,
         "qs_pg:id":22702,
-        "uscensus:geoid":2639340,
+        "uscensus:geoid":"2639340",
         "wd:id":"Q22074941",
         "wk:page":"Bay Township, Michigan"
     },
@@ -138,6 +139,7 @@
             "Horton_Bay%2C_Michigan"
         ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -158,11 +160,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1706240773,
+    "wof:lastmodified":1722051939,
     "wof:name":"Horton Bay",
     "wof:parent_id":404507117,
     "wof:placetype":"locality",
-    "wof:population":512,
+    "wof:population":514,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

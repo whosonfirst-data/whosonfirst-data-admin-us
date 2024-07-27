@@ -153,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2140915,
     "uscensus:awater":33732,
     "uscensus:classfp":"C1",
@@ -176,11 +177,11 @@
     "wd:population":608,
     "wd:wordcount":873,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404517991,
         85633793,
-        102080793
+        102080793,
+        404517991,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -189,10 +190,11 @@
         "gn:id":4375016,
         "gp:id":2355516,
         "qs_pg:id":10046,
-        "uscensus:geoid":2901648,
+        "uscensus:geoid":"2901648",
         "wd:id":"Q966722",
         "wk:page":"Arcadia, Missouri"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -213,7 +215,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690886183,
+    "wof:lastmodified":1722051792,
     "wof:name":"Arcadia",
     "wof:parent_id":404517991,
     "wof:placetype":"locality",

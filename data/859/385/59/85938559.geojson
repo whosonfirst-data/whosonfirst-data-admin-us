@@ -121,7 +121,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":445840,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -140,11 +141,11 @@
     "uscensus:statefp":"17",
     "wd:wordcount":716,
     "wof:belongsto":[
-        85688697,
         102191575,
-        404497387,
         85633793,
-        102082267
+        102082267,
+        404497387,
+        85688697
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -153,10 +154,11 @@
         "gn:id":4903444,
         "gp:id":2458023,
         "qs_pg:id":930320,
-        "uscensus:geoid":1752155,
+        "uscensus:geoid":"1752155",
         "wd:id":"Q2672071",
         "wk:page":"New Bedford, Illinois"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -177,7 +179,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883660,
+    "wof:lastmodified":1722051661,
     "wof:name":"New Bedford",
     "wof:parent_id":404497387,
     "wof:placetype":"locality",

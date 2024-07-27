@@ -120,6 +120,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1917126,
     "uscensus:awater":57801,
     "uscensus:classfp":"C1",
@@ -138,11 +140,11 @@
     "uscensus:statefp":"18",
     "wd:wordcount":789,
     "wof:belongsto":[
-        85688709,
         102191575,
-        404501237,
         85633793,
-        102087033
+        102087033,
+        404501237,
+        85688709
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -150,13 +152,14 @@
         "gn:id":4255590,
         "gp:id":2377203,
         "qs_pg:id":233093,
-        "uscensus:geoid":1811746,
+        "uscensus:geoid":"1811746",
         "wd:id":"Q1914461",
         "wk:page":"Center Point, Indiana"
     },
     "wof:concordances_alt":{
         "qs_pg:id":926836
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -174,10 +177,12 @@
         }
     ],
     "wof:id":85941509,
-    "wof:lastmodified":1690882654,
+    "wof:lastmodified":1722051612,
     "wof:name":"Center Point",
     "wof:parent_id":404501237,
     "wof:placetype":"locality",
+    "wof:population":212,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

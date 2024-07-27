@@ -142,7 +142,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":3635182,
     "uscensus:awater":14348,
     "uscensus:classfp":"C1",
@@ -161,11 +162,11 @@
     "uscensus:statefp":"18",
     "wd:wordcount":1141,
     "wof:belongsto":[
-        85688709,
         102191575,
-        404501059,
         85633793,
-        102087193
+        102087193,
+        404501059,
+        85688709
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -173,13 +174,14 @@
         "gn:id":4920452,
         "gp:id":2406496,
         "qs_pg:id":1050507,
-        "uscensus:geoid":1825180,
+        "uscensus:geoid":"1825180",
         "wd:id":"Q2413099",
         "wk:page":"Fowler, Indiana"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1140368
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -197,11 +199,11 @@
         }
     ],
     "wof:id":85942225,
-    "wof:lastmodified":1690882347,
+    "wof:lastmodified":1722051598,
     "wof:name":"Fowler",
     "wof:parent_id":404501059,
     "wof:placetype":"locality",
-    "wof:population":2317,
+    "wof:population":2349,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -126,7 +126,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":861607,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -145,11 +146,11 @@
     "uscensus:statefp":"42",
     "wd:wordcount":486,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404483289,
         85633793,
-        102080901
+        102080901,
+        404483289,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -158,13 +159,14 @@
         "gn:id":4560332,
         "gp:id":28745384,
         "qs_pg:id":52619,
-        "uscensus:geoid":4259616,
+        "uscensus:geoid":"4259616",
         "wd:id":"Q1183134",
         "wk:page":"Petersburg, Pennsylvania"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1215975
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -185,11 +187,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690890496,
+    "wof:lastmodified":1722051933,
     "wof:name":"Petersburg",
     "wof:parent_id":404483289,
     "wof:placetype":"locality",
-    "wof:population":480,
+    "wof:population":414,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

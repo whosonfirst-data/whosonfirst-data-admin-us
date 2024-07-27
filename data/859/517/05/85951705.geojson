@@ -141,6 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":7285924,
     "uscensus:awater":1195088,
     "uscensus:classfp":"C5",
@@ -162,11 +164,11 @@
     "wd:longitude":-83.490278,
     "wd:wordcount":1388,
     "wof:belongsto":[
-        85688599,
         102191575,
-        404507597,
         85633793,
-        102083001
+        102083001,
+        404507597,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -175,13 +177,14 @@
         "gn:id":4991692,
         "gp:id":28744237,
         "qs_pg:id":262161,
-        "uscensus:geoid":2624420,
+        "uscensus:geoid":"2624420",
         "wd:id":"Q3308092",
         "wk:page":"East Tawas, Michigan"
     },
     "wof:concordances_alt":{
         "qs_pg:id":354334
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -202,10 +205,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883388,
+    "wof:lastmodified":1722051647,
     "wof:name":"East Tawas",
     "wof:parent_id":404507597,
     "wof:placetype":"locality",
+    "wof:population":2680,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[

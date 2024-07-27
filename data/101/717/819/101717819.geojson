@@ -90,6 +90,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1429784,
     "uscensus:awater":38369,
     "uscensus:classfp":"C5",
@@ -107,11 +109,11 @@
     "uscensus:placens":"01215021",
     "uscensus:statefp":"42",
     "wof:belongsto":[
-        85688481,
         102191575,
-        404482901,
         85633793,
-        102080879
+        102080879,
+        404482901,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -120,10 +122,11 @@
         "gn:id":5190322,
         "gp:id":2406939,
         "qs_pg:id":1051918,
-        "uscensus:geoid":4227360,
+        "uscensus:geoid":"4227360",
         "wd:id":"Q2053378",
         "wk:page":"Franklin, Cambria County, Pennsylvania"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -144,10 +147,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889727,
+    "wof:lastmodified":1722051897,
     "wof:name":"Franklin",
     "wof:parent_id":404482901,
     "wof:placetype":"locality",
+    "wof:population":269,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -115,7 +115,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":273218,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -134,11 +135,11 @@
     "uscensus:statefp":"31",
     "wd:wordcount":697,
     "wof:belongsto":[
-        85688563,
         102191575,
-        404520671,
         85633793,
-        102082813
+        102082813,
+        404520671,
+        85688563
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -147,10 +148,11 @@
         "gn:id":5064932,
         "gp:id":2372386,
         "qs_pg:id":100567,
-        "uscensus:geoid":3107310,
+        "uscensus:geoid":"3107310",
         "wd:id":"Q3289039",
         "wk:page":"Burton, Nebraska"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -171,7 +173,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883988,
+    "wof:lastmodified":1722051679,
     "wof:name":"Burton",
     "wof:parent_id":404520671,
     "wof:placetype":"locality",

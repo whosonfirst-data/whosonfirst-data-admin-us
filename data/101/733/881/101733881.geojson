@@ -107,7 +107,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":4472327,
     "uscensus:awater":87082,
     "uscensus:classfp":"U1",
@@ -125,11 +126,11 @@
     "uscensus:placens":"02585070",
     "uscensus:statefp":"55",
     "wof:belongsto":[
-        85688517,
         102191575,
-        404495455,
         85633793,
-        102081823
+        102081823,
+        404495455,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -138,9 +139,10 @@
         "gn:id":5265037,
         "gp:id":2461989,
         "qs_pg:id":48574,
-        "uscensus:geoid":5558375,
+        "uscensus:geoid":"5558375",
         "wd:id":"Q12834102"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -161,11 +163,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889188,
+    "wof:lastmodified":1722051870,
     "wof:name":"Northport",
     "wof:parent_id":404495455,
     "wof:placetype":"locality",
-    "wof:population":491,
+    "wof:population":452,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

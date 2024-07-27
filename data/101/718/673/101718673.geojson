@@ -105,6 +105,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":5375269,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -122,11 +124,11 @@
     "uscensus:placens":"01214799",
     "uscensus:statefp":"42",
     "wof:belongsto":[
-        85688481,
         102191575,
-        404484941,
         85633793,
-        102080887
+        102080887,
+        404484941,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -134,10 +136,11 @@
         "gn:id":5191925,
         "gp:id":2414034,
         "qs_pg:id":350838,
-        "uscensus:geoid":4231256,
+        "uscensus:geoid":"4231256",
         "wd:id":"Q1185761",
         "wk:page":"Green Tree, Pennsylvania"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -155,10 +158,12 @@
         }
     ],
     "wof:id":101718673,
-    "wof:lastmodified":1690890439,
+    "wof:lastmodified":1722051930,
     "wof:name":"Green Tree",
     "wof:parent_id":404484941,
     "wof:placetype":"locality",
+    "wof:population":4755,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

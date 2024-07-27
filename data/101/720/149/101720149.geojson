@@ -116,7 +116,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":17202261,
     "uscensus:awater":0,
     "uscensus:classfp":"U2",
@@ -134,11 +135,11 @@
     "uscensus:placens":"02389947",
     "uscensus:statefp":"42",
     "wof:belongsto":[
-        85688481,
         102191575,
-        404485059,
         85633793,
-        102083677
+        102083677,
+        404485059,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -147,10 +148,11 @@
         "gn:id":7258746,
         "gp:id":2443392,
         "qs_pg:id":48396,
-        "uscensus:geoid":4235364,
+        "uscensus:geoid":"4235364",
         "wd:id":"Q1182323",
         "wk:page":"Homeacre-Lyndora, Pennsylvania"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -171,11 +173,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690890303,
+    "wof:lastmodified":1722051924,
     "wof:name":"Homeacre-Lyndora",
     "wof:parent_id":404485059,
     "wof:placetype":"locality",
-    "wof:population":6906,
+    "wof:population":6724,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

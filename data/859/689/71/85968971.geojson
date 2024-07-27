@@ -154,7 +154,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2212556,
     "uscensus:awater":193467,
     "uscensus:classfp":"C5",
@@ -176,11 +177,11 @@
     "wd:longitude":-96.259167,
     "wd:wordcount":825,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404509121,
         85633793,
-        102087681
+        102087681,
+        404509121,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -189,10 +190,11 @@
         "gn:id":5030280,
         "gp:id":2422564,
         "qs_pg:id":1051043,
-        "uscensus:geoid":2729402,
+        "uscensus:geoid":"2729402",
         "wd:id":"Q2024993",
         "wk:page":"Hitterdal, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -213,7 +215,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882517,
+    "wof:lastmodified":1722051606,
     "wof:name":"Hitterdal",
     "wof:parent_id":404509121,
     "wof:placetype":"locality",

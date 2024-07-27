@@ -167,7 +167,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":10828668,
     "uscensus:awater":100277,
     "uscensus:classfp":"C5",
@@ -190,11 +191,11 @@
     "woe:name_adm1":"Wisconsin",
     "woe:placetype":"Town",
     "wof:belongsto":[
-        85688517,
         102191575,
-        404493815,
         85633793,
-        102081821
+        102081821,
+        404493815,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -203,7 +204,7 @@
         "gn:id":5246099,
         "gp:id":2364891,
         "qs_pg:id":288589,
-        "uscensus:geoid":5507900,
+        "uscensus:geoid":"5507900",
         "wd:id":"Q267144",
         "wk:page":"Black River Falls, Wisconsin"
     },
@@ -221,6 +222,7 @@
             "Q267144"
         ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -241,11 +243,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1706240815,
+    "wof:lastmodified":1722051943,
     "wof:name":"Black River Falls",
     "wof:parent_id":404493815,
     "wof:placetype":"locality",
-    "wof:population":3622,
+    "wof:population":3587,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

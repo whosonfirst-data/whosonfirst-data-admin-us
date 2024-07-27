@@ -202,7 +202,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":19536317,
     "uscensus:awater":326167,
     "uscensus:classfp":"C5",
@@ -220,11 +221,11 @@
     "uscensus:placens":"01462193",
     "uscensus:statefp":"50",
     "wof:belongsto":[
-        85688763,
         102191575,
-        404527405,
         85633793,
-        102080771
+        102080771,
+        404527405,
+        85688763
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -233,10 +234,11 @@
         "gn:id":5240509,
         "gp:id":2486142,
         "qs_pg:id":1052117,
-        "uscensus:geoid":5061225,
+        "uscensus:geoid":"5061225",
         "wd:id":"Q25893",
         "wk:page":"Rutland (city), Vermont"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -257,11 +259,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889913,
+    "wof:lastmodified":1722051905,
     "wof:name":"Rutland",
     "wof:parent_id":404527405,
     "wof:placetype":"locality",
-    "wof:population":16495,
+    "wof:population":15630,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

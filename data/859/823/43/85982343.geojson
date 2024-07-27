@@ -133,7 +133,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":647220,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -155,11 +156,11 @@
     "wd:longitude":-101.082778,
     "wd:wordcount":717,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404479481,
         85633793,
-        102082097
+        102082097,
+        404479481,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -168,10 +169,11 @@
         "gn:id":5687912,
         "gp:id":2362525,
         "qs_pg:id":1013153,
-        "uscensus:geoid":3805980,
+        "uscensus:geoid":"3805980",
         "wd:id":"Q2215382",
         "wk:page":"Benedict, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -192,7 +194,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884819,
+    "wof:lastmodified":1722051724,
     "wof:name":"Benedict",
     "wof:parent_id":404479481,
     "wof:placetype":"locality",

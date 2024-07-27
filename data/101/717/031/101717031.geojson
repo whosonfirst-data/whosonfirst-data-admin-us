@@ -121,6 +121,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":12103086,
     "uscensus:awater":844154,
     "uscensus:classfp":"C5",
@@ -139,11 +141,11 @@
     "uscensus:statefp":"42",
     "wd:wordcount":1166,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404486223,
         85633793,
-        102081351
+        102081351,
+        404486223,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -152,13 +154,14 @@
         "gn:id":5189014,
         "gp:id":28745609,
         "qs_pg:id":1002148,
-        "uscensus:geoid":4224392,
+        "uscensus:geoid":"4224392",
         "wd:id":"Q1135480",
         "wk:page":"Exeter, Pennsylvania"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1239659
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -179,10 +182,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889738,
+    "wof:lastmodified":1722051897,
     "wof:name":"Exeter",
     "wof:parent_id":404486223,
     "wof:placetype":"locality",
+    "wof:population":5524,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

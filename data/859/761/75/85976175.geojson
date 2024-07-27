@@ -100,7 +100,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":13968629,
     "uscensus:awater":13678,
     "uscensus:classfp":"M2",
@@ -118,20 +119,21 @@
     "uscensus:placens":"02389460",
     "uscensus:statefp":"34",
     "wof:belongsto":[
-        85688607,
         102191575,
-        404477869,
         85633793,
-        102087415
+        102087415,
+        404477869,
+        85688607
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":7258259,
         "gp:id":12520860,
         "qs_pg:id":1040359,
-        "uscensus:geoid":3442390,
+        "uscensus:geoid":"3442390",
         "wd:id":"Q1087465"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -149,11 +151,11 @@
         }
     ],
     "wof:id":85976175,
-    "wof:lastmodified":1690884614,
+    "wof:lastmodified":1722051713,
     "wof:name":"McGuire AFB",
     "wof:parent_id":404477869,
     "wof:placetype":"locality",
-    "wof:population":3710,
+    "wof:population":4298,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

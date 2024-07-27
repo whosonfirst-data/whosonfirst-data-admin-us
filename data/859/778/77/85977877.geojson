@@ -85,7 +85,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":8856682,
     "uscensus:awater":3068558,
     "uscensus:classfp":"C1",
@@ -103,11 +104,11 @@
     "uscensus:placens":"02391527",
     "uscensus:statefp":"36",
     "wof:belongsto":[
-        85688543,
         102191575,
-        404522477,
         85633793,
-        102082393
+        102082393,
+        404522477,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -116,10 +117,11 @@
         "gn:id":5107467,
         "gp:id":2356939,
         "qs_pg:id":400174,
-        "uscensus:geoid":3602902,
+        "uscensus:geoid":"3602902",
         "wd:id":"Q3460823",
         "wk:page":"Athens (village), New York"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -140,11 +142,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883569,
+    "wof:lastmodified":1722051656,
     "wof:name":"Athens",
     "wof:parent_id":404522477,
     "wof:placetype":"locality",
-    "wof:population":1668,
+    "wof:population":1583,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

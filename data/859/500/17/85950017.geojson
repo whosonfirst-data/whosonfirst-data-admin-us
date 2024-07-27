@@ -17,7 +17,7 @@
     "mps:latitude":38.899856,
     "mps:longitude":-76.696801,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:dan_x_preferred":[
         "Dronning Anne"
@@ -66,14 +66,19 @@
     "src:geom":"quattroshapes",
     "src:geom_alt":[],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "wof:belongsto":[
         102191575,
         85633793,
-        85688501,
-        102082191
+        102082191,
+        85688501
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "uscensus:geoid":"2464495"
+    },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geomhash":"de9d09b7e078f6f7d7754d35a4b6881b",
     "wof:hierarchy":[
@@ -86,10 +91,12 @@
         }
     ],
     "wof:id":85950017,
-    "wof:lastmodified":1566613225,
+    "wof:lastmodified":1722051538,
     "wof:name":"Queen Anne",
     "wof:parent_id":102082191,
     "wof:placetype":"locality",
+    "wof:population":1408,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

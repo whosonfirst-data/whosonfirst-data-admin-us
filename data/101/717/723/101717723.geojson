@@ -126,7 +126,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":5258937,
     "uscensus:awater":142383,
     "uscensus:classfp":"C5",
@@ -144,11 +145,11 @@
     "uscensus:placens":"01215165",
     "uscensus:statefp":"42",
     "wof:belongsto":[
-        85688481,
         102191575,
-        404483311,
         85633793,
-        102081347
+        102081347,
+        404483311,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -157,10 +158,11 @@
         "gn:id":5201027,
         "gp:id":2450407,
         "qs_pg:id":157893,
-        "uscensus:geoid":4249128,
+        "uscensus:geoid":"4249128",
         "wd:id":"Q994894",
         "wk:page":"Middletown, Dauphin County, Pennsylvania"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -181,11 +183,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889756,
+    "wof:lastmodified":1722051898,
     "wof:name":"Middletown",
     "wof:parent_id":404483311,
     "wof:placetype":"locality",
-    "wof:population":8901,
+    "wof:population":9608,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

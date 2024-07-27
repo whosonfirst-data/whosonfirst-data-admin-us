@@ -106,7 +106,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":10463329,
     "uscensus:awater":0,
     "uscensus:classfp":"U1",
@@ -124,21 +125,22 @@
     "uscensus:placens":"02389903",
     "uscensus:statefp":"36",
     "wof:belongsto":[
-        85688543,
         102191575,
-        404522335,
         85633793,
-        102082387
+        102082387,
+        404522335,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":5120066,
         "gp:id":2417974,
         "qs_pg:id":1306804,
-        "uscensus:geoid":3632391,
+        "uscensus:geoid":"3632391",
         "wd:id":"Q3460446",
         "wk:page":"Harris Hill, New York"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -156,11 +158,11 @@
         }
     ],
     "wof:id":85979435,
-    "wof:lastmodified":1690884246,
+    "wof:lastmodified":1722051693,
     "wof:name":"Harris Hill",
     "wof:parent_id":404522335,
     "wof:placetype":"locality",
-    "wof:population":5508,
+    "wof:population":5965,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

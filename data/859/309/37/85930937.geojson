@@ -97,7 +97,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":1914704,
     "uscensus:awater":1210,
     "uscensus:classfp":"U1",
@@ -115,11 +116,11 @@
     "uscensus:placens":"02631564",
     "uscensus:statefp":"09",
     "wof:belongsto":[
-        85688629,
         102191575,
-        404495949,
         85633793,
-        102084283
+        102084283,
+        404495949,
+        85688629
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -127,10 +128,11 @@
         "gn:id":4835032,
         "gp:id":2411341,
         "qs_pg:id":14841,
-        "uscensus:geoid":931520,
+        "uscensus:geoid":"0931520",
         "wd:id":"Q5569410",
         "wk:page":"Glenville (Greenwich)"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -148,11 +150,11 @@
         }
     ],
     "wof:id":85930937,
-    "wof:lastmodified":1690881476,
+    "wof:lastmodified":1722051556,
     "wof:name":"Glenville",
     "wof:parent_id":404495949,
     "wof:placetype":"locality",
-    "wof:population":2327,
+    "wof:population":2835,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

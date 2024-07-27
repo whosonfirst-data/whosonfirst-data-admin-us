@@ -127,6 +127,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":930492,
     "uscensus:awater":85926,
     "uscensus:classfp":"U1",
@@ -144,11 +146,11 @@
     "uscensus:placens":"02628945",
     "uscensus:statefp":"39",
     "wof:belongsto":[
-        85688485,
         102191575,
-        404525627,
         85633793,
-        102083641
+        102083641,
+        404525627,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -157,10 +159,11 @@
         "gn:id":5164527,
         "gp:id":2459572,
         "qs_pg:id":199665,
-        "uscensus:geoid":3955314,
+        "uscensus:geoid":"3955314",
         "wd:id":"Q7018712",
         "wk:page":"Newport, Shelby County, Ohio"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -181,10 +184,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690888451,
+    "wof:lastmodified":1722051835,
     "wof:name":"Newport",
     "wof:parent_id":404525627,
     "wof:placetype":"locality",
+    "wof:population":167,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

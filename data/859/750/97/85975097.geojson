@@ -142,7 +142,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":3854459,
     "uscensus:awater":61330,
     "uscensus:classfp":"U1",
@@ -160,11 +161,11 @@
     "uscensus:placens":"02629712",
     "uscensus:statefp":"33",
     "wof:belongsto":[
-        85688689,
         102191575,
-        404476945,
         85633793,
-        102086581
+        102086581,
+        404476945,
+        85688689
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -172,10 +173,11 @@
         "gn:id":5083033,
         "gp:id":2359669,
         "qs_pg:id":184796,
-        "uscensus:geoid":3303620,
+        "uscensus:geoid":"3303620",
         "wd:id":"Q809447",
         "wk:page":"Bartlett, New Hampshire"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -193,11 +195,11 @@
         }
     ],
     "wof:id":85975097,
-    "wof:lastmodified":1690884558,
+    "wof:lastmodified":1722051710,
     "wof:name":"Bartlett",
     "wof:parent_id":404476945,
     "wof:placetype":"locality",
-    "wof:population":373,
+    "wof:population":349,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

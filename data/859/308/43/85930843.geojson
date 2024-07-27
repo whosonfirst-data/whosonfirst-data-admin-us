@@ -85,7 +85,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1010140,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -104,11 +105,11 @@
     "uscensus:statefp":"09",
     "wd:wordcount":884,
     "wof:belongsto":[
-        85688629,
         102191575,
-        404495969,
         85633793,
-        102086211
+        102086211,
+        404495969,
+        85688629
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -116,10 +117,11 @@
         "gn:id":4834325,
         "gp:id":2402947,
         "qs_pg:id":1034094,
-        "uscensus:geoid":927810,
+        "uscensus:geoid":"0927810",
         "wd:id":"Q753238",
         "wk:page":"Fenwick, Connecticut"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -137,7 +139,7 @@
         }
     ],
     "wof:id":85930843,
-    "wof:lastmodified":1690881798,
+    "wof:lastmodified":1722051571,
     "wof:name":"Fenwick",
     "wof:parent_id":404495969,
     "wof:placetype":"locality",

@@ -18,7 +18,7 @@
     "mps:latitude":39.705311,
     "mps:longitude":-78.17542,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:ara_x_preferred":[
         "\u0647\u0627\u0646\u0643\u0648\u0643"
@@ -132,18 +132,22 @@
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "wof:belongsto":[
         102191575,
         85633793,
-        85688501,
-        102082189
+        102082189,
+        85688501
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":4357310,
         "gp:id":2416937,
-        "qs_pg:id":463260
+        "qs_pg:id":463260,
+        "uscensus:geoid":"2436600"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg"
@@ -159,10 +163,12 @@
         }
     ],
     "wof:id":85949161,
-    "wof:lastmodified":1636498004,
+    "wof:lastmodified":1722051540,
     "wof:name":"Hancock",
     "wof:parent_id":102082189,
     "wof:placetype":"locality",
+    "wof:population":1557,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

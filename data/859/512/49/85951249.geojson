@@ -297,6 +297,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":6666489,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -318,11 +320,11 @@
     "wd:longitude":-88.580833,
     "wd:wordcount":1472,
     "wof:belongsto":[
-        85688599,
         102191575,
-        404507561,
         85633793,
-        102083087
+        102083087,
+        404507561,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -331,10 +333,11 @@
         "gn:id":4995201,
         "gp:id":2416951,
         "qs_pg:id":274610,
-        "uscensus:geoid":2636300,
+        "uscensus:geoid":"2636300",
         "wd:id":"Q12435",
         "wk:page":"Hancock, Michigan"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -355,11 +358,13 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690886460,
+    "wof:lastmodified":1722051805,
     "wof:megacity":0,
     "wof:name":"Hancock",
     "wof:parent_id":404507561,
     "wof:placetype":"locality",
+    "wof:population":4507,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:scale":7,
     "wof:superseded_by":[],

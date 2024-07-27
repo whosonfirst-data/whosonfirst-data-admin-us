@@ -182,7 +182,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":64863272,
     "uscensus:awater":3784599,
     "uscensus:classfp":"C5",
@@ -200,11 +201,11 @@
     "uscensus:placens":"02791559",
     "uscensus:statefp":"25",
     "wof:belongsto":[
-        85688645,
         102191575,
-        404476489,
         85633793,
-        102084643
+        102084643,
+        404476489,
+        85688645
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -213,10 +214,11 @@
         "gn:id":4937230,
         "gp:id":2406819,
         "qs_pg:id":1050600,
-        "uscensus:geoid":2524960,
+        "uscensus:geoid":"2524960",
         "wd:id":"Q988568",
         "wk:page":"Framingham, Massachusetts"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -237,11 +239,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884143,
+    "wof:lastmodified":1722051687,
     "wof:name":"Framingham",
     "wof:parent_id":404476489,
     "wof:placetype":"locality",
-    "wof:population":68318,
+    "wof:population":71875,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

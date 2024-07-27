@@ -84,6 +84,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":691848,
     "uscensus:awater":0,
     "uscensus:classfp":"U2",
@@ -101,11 +103,11 @@
     "uscensus:placens":"02633700",
     "uscensus:statefp":"42",
     "wof:belongsto":[
-        85688481,
         102191575,
-        404485151,
         85633793,
-        102081275
+        102081275,
+        404485151,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -113,10 +115,11 @@
         "gn:id":4557161,
         "gp:id":2379566,
         "qs_pg:id":154452,
-        "uscensus:geoid":4213418,
+        "uscensus:geoid":"4213418",
         "wd:id":"Q5094627",
         "wk:page":"Cheyney, Pennsylvania"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -134,10 +137,12 @@
         }
     ],
     "wof:id":101720053,
-    "wof:lastmodified":1690890218,
+    "wof:lastmodified":1722051919,
     "wof:name":"Cheyney University",
     "wof:parent_id":404485151,
     "wof:placetype":"locality",
+    "wof:population":555,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

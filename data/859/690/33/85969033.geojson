@@ -163,7 +163,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2782815,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -185,11 +186,11 @@
     "wd:longitude":-94.880833,
     "wd:wordcount":903,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404512475,
         85633793,
-        102087655
+        102087655,
+        404512475,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -198,10 +199,11 @@
         "gn:id":5027331,
         "gp:id":2406927,
         "qs_pg:id":323602,
-        "uscensus:geoid":2722364,
+        "uscensus:geoid":"2722364",
         "wd:id":"Q581908",
         "wk:page":"Franklin, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -222,7 +224,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885415,
+    "wof:lastmodified":1722051754,
     "wof:name":"Franklin",
     "wof:parent_id":404512475,
     "wof:placetype":"locality",

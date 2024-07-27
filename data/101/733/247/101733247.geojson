@@ -98,7 +98,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":6789013,
     "uscensus:awater":106128,
     "uscensus:classfp":"C5",
@@ -116,11 +117,11 @@
     "uscensus:placens":"01582910",
     "uscensus:statefp":"55",
     "wof:belongsto":[
-        85688517,
         102191575,
-        404492667,
         85633793,
-        102081847
+        102081847,
+        404492667,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -128,10 +129,11 @@
         "gn:id":5247547,
         "gp:id":2373713,
         "qs_pg:id":1052141,
-        "uscensus:geoid":5512250,
+        "uscensus:geoid":"5512250",
         "wd:id":"Q1884720",
         "wk:page":"Cameron, Barron County, Wisconsin"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -149,11 +151,11 @@
         }
     ],
     "wof:id":101733247,
-    "wof:lastmodified":1690889241,
+    "wof:lastmodified":1722051873,
     "wof:name":"Cameron",
     "wof:parent_id":404492667,
     "wof:placetype":"locality",
-    "wof:population":1783,
+    "wof:population":1857,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

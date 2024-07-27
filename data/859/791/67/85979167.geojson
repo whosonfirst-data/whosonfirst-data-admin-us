@@ -88,7 +88,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":6110561,
     "uscensus:awater":1589667,
     "uscensus:classfp":"U1",
@@ -106,11 +107,11 @@
     "uscensus:placens":"02389199",
     "uscensus:statefp":"36",
     "wof:belongsto":[
-        85688543,
         102191575,
-        404521473,
         85633793,
-        102082371
+        102082371,
+        404521473,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -119,9 +120,10 @@
         "gn:id":5108707,
         "gp:id":2362071,
         "qs_pg:id":479186,
-        "uscensus:geoid":3605738,
+        "uscensus:geoid":"3605738",
         "wd:id":"Q17399831"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -142,11 +144,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690881803,
+    "wof:lastmodified":1722051571,
     "wof:name":"Bellmore",
     "wof:parent_id":404521473,
     "wof:placetype":"locality",
-    "wof:population":16218,
+    "wof:population":16072,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

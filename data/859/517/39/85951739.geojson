@@ -171,6 +171,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":6810023,
     "uscensus:awater":371181,
     "uscensus:classfp":"C5",
@@ -192,11 +194,11 @@
     "wd:longitude":-84.903056,
     "wd:wordcount":1046,
     "wof:belongsto":[
-        85688599,
         102191575,
-        404507585,
         85633793,
-        102083143
+        102083143,
+        404507585,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -205,13 +207,14 @@
         "gn:id":5006314,
         "gp:id":2475673,
         "qs_pg:id":156177,
-        "uscensus:geoid":2665860,
+        "uscensus:geoid":"2665860",
         "wd:id":"Q3308164",
         "wk:page":"Portland, Michigan"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1147646
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -232,10 +235,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883392,
+    "wof:lastmodified":1722051647,
     "wof:name":"Portland",
     "wof:parent_id":404507585,
     "wof:placetype":"locality",
+    "wof:population":3797,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[

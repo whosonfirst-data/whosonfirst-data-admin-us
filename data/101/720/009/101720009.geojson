@@ -89,7 +89,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":15038401,
     "uscensus:awater":746761,
     "uscensus:classfp":"U1",
@@ -108,11 +109,11 @@
     "uscensus:statefp":"42",
     "wd:wordcount":156,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404485633,
         85633793,
-        102081331
+        102081331,
+        404485633,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -120,10 +121,11 @@
         "gn:id":5215856,
         "gp:id":28745273,
         "qs_pg:id":1127516,
-        "uscensus:geoid":4277163,
+        "uscensus:geoid":"4277163",
         "wd:id":"Q7829541",
         "wk:page":"Towamensing Trails, Pennsylvania"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -141,11 +143,11 @@
         }
     ],
     "wof:id":101720009,
-    "wof:lastmodified":1690890220,
+    "wof:lastmodified":1722051919,
     "wof:name":"Towamensing Trails",
     "wof:parent_id":404485633,
     "wof:placetype":"locality",
-    "wof:population":2292,
+    "wof:population":2350,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
