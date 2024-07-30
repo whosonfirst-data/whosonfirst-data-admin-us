@@ -34,7 +34,7 @@
     "mps:latitude":33.847893,
     "mps:longitude":-96.815031,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:eng_x_preferred":[
         "Sherwood Shores"
@@ -58,22 +58,28 @@
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
+    "uscensus:population":1164,
+    "uscensus:population_date":"2022",
     "wof:belongsto":[
         102191575,
         85633793,
-        85688753,
-        102081955
+        102081955,
+        85688753
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":4728357,
-        "qs_pg:id":98842
+        "qs_pg:id":98842,
+        "uscensus:geoid":"4867554"
     },
     "wof:concordances_alt":{
         "gn:id":[
             4728356
         ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg"
@@ -89,10 +95,12 @@
         }
     ],
     "wof:id":101727047,
-    "wof:lastmodified":1706240801,
+    "wof:lastmodified":1722115916,
     "wof:name":"Sherwood Shores",
     "wof:parent_id":102081955,
     "wof:placetype":"locality",
+    "wof:population":1164,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[

@@ -157,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2631099,
     "uscensus:awater":24714,
     "uscensus:classfp":"C5",
@@ -173,17 +174,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"26378",
     "uscensus:placens":"02394264",
+    "uscensus:population":300,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":424.0,
     "wd:latitude":46.930833,
     "wd:longitude":-94.520556,
     "wd:wordcount":1041,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404511647,
         85633793,
-        102087905
+        102087905,
+        404511647,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -192,10 +195,11 @@
         "gn:id":5029085,
         "gp:id":2415897,
         "qs_pg:id":1051018,
-        "uscensus:geoid":2726378,
+        "uscensus:geoid":"2726378",
         "wd:id":"Q2145285",
         "wk:page":"Hackensack, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -216,11 +220,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882611,
+    "wof:lastmodified":1722115994,
     "wof:name":"Hackensack",
     "wof:parent_id":404511647,
     "wof:placetype":"locality",
-    "wof:population":313,
+    "wof:population":300,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

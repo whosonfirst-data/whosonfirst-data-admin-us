@@ -17,7 +17,7 @@
     "mps:latitude":32.611569,
     "mps:longitude":-83.585675,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:eng_x_preferred":[
         "Robins AFB"
@@ -39,14 +39,21 @@
     "src:geom":"quattroshapes",
     "src:geom_alt":[],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
+    "uscensus:population":971,
+    "uscensus:population_date":"2022",
     "wof:belongsto":[
         102191575,
         85633793,
-        85688535,
-        102083617
+        102083617,
+        85688535
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "uscensus:geoid":"1365968"
+    },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geomhash":"a6204a402bd4b6c3a195e9e59df7c38b",
     "wof:hierarchy":[
@@ -59,10 +66,12 @@
         }
     ],
     "wof:id":85937239,
-    "wof:lastmodified":1566614651,
+    "wof:lastmodified":1722115903,
     "wof:name":"Robins AFB",
     "wof:parent_id":102083617,
     "wof:placetype":"locality",
+    "wof:population":971,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

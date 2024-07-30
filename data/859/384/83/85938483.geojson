@@ -124,7 +124,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":3798726,
     "uscensus:awater":21923,
     "uscensus:classfp":"C1",
@@ -140,17 +141,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"44264",
     "uscensus:placens":"02398464",
+    "uscensus:population":344,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"17",
     "wd:elevation":237.0,
     "wd:latitude":40.5175,
     "wd:longitude":-88.071944,
     "wd:wordcount":557,
     "wof:belongsto":[
-        85688697,
         102191575,
-        404498191,
         85633793,
-        102086209
+        102086209,
+        404498191,
+        85688697
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -159,10 +162,11 @@
         "gn:id":4900328,
         "gp:id":2440997,
         "qs_pg:id":1050403,
-        "uscensus:geoid":1744264,
+        "uscensus:geoid":"1744264",
         "wd:id":"Q2629951",
         "wk:page":"Loda, Illinois"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -183,11 +187,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883524,
+    "wof:lastmodified":1722116044,
     "wof:name":"Loda",
     "wof:parent_id":404498191,
     "wof:placetype":"locality",
-    "wof:population":407,
+    "wof:population":344,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

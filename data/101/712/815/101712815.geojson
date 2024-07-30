@@ -131,7 +131,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":438777,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -147,17 +148,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"62890",
     "uscensus:placens":"02399680",
+    "uscensus:population":380,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"39",
     "wd:elevation":312.0,
     "wd:latitude":39.9867,
     "wd:longitude":-84.4875,
     "wd:wordcount":819,
     "wof:belongsto":[
-        85688485,
         102191575,
-        404524489,
         85633793,
-        102084823
+        102084823,
+        404524489,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -166,10 +169,11 @@
         "gn:id":4521418,
         "gp:id":2473174,
         "qs_pg:id":252948,
-        "uscensus:geoid":3962890,
+        "uscensus:geoid":"3962890",
         "wd:id":"Q523692",
         "wk:page":"Pitsburg, Ohio"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -190,11 +194,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690888823,
+    "wof:lastmodified":1722116288,
     "wof:name":"Pitsburg",
     "wof:parent_id":404524489,
     "wof:placetype":"locality",
-    "wof:population":388,
+    "wof:population":380,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

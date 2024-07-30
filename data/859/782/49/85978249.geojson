@@ -209,7 +209,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":21755323,
     "uscensus:awater":118484,
     "uscensus:classfp":"C5",
@@ -225,17 +226,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"43082",
     "uscensus:placens":"00979164",
+    "uscensus:population":20436,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"36",
     "wd:elevation":187.0,
     "wd:latitude":43.1697,
     "wd:longitude":-78.6911,
     "wd:wordcount":2668,
     "wof:belongsto":[
-        85688543,
         102191575,
-        404522735,
         85633793,
-        102081767
+        102081767,
+        404522735,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -244,13 +247,14 @@
         "gn:id":5110227,
         "gp:id":2440846,
         "qs_pg:id":157037,
-        "uscensus:geoid":3643082,
+        "uscensus:geoid":"3643082",
         "wd:id":"Q1077109",
         "wk:page":"Lockport (city), New York"
     },
     "wof:concordances_alt":{
         "qs_pg:id":240236
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -271,11 +275,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883659,
+    "wof:lastmodified":1722116052,
     "wof:name":"Lockport",
     "wof:parent_id":404522735,
     "wof:placetype":"locality",
-    "wof:population":21165,
+    "wof:population":20436,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

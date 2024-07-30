@@ -125,7 +125,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":13899920,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -141,14 +142,16 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"05216",
     "uscensus:placens":"01214766",
+    "uscensus:population":1465,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"42",
     "wd:wordcount":616,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404484845,
         85633793,
-        102080887
+        102080887,
+        404484845,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -156,7 +159,7 @@
         "gn:id":5179824,
         "gp:id":28744656,
         "qs_pg:id":157671,
-        "uscensus:geoid":4205216,
+        "uscensus:geoid":"4205216",
         "wd:id":"Q675892",
         "wk:page":"Bell Acres, Pennsylvania"
     },
@@ -165,6 +168,7 @@
         "gp:id":2361689,
         "qs_pg:id":1344737
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -182,11 +186,11 @@
         }
     ],
     "wof:id":101718813,
-    "wof:lastmodified":1690890498,
+    "wof:lastmodified":1722116392,
     "wof:name":"Bell Acres",
     "wof:parent_id":404484845,
     "wof:placetype":"locality",
-    "wof:population":1395,
+    "wof:population":1465,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

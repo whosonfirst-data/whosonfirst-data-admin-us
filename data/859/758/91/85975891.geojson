@@ -151,7 +151,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":6845106,
     "uscensus:awater":211085,
     "uscensus:classfp":"C5",
@@ -167,16 +168,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"21300",
     "uscensus:placens":"00885207",
+    "uscensus:population":21256,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"34",
     "wd:latitude":40.9045,
     "wd:longitude":-74.1195,
     "wd:wordcount":5507,
     "wof:belongsto":[
-        85688607,
         102191575,
-        404477527,
         85633793,
-        102086773
+        102086773,
+        404477527,
+        85688607
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -184,10 +187,11 @@
         "gn:id":5097627,
         "gp:id":2399102,
         "qs_pg:id":449895,
-        "uscensus:geoid":3421300,
+        "uscensus:geoid":"3421300",
         "wd:id":"Q576499",
         "wk:page":"Elmwood Park, New Jersey"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -205,12 +209,12 @@
         }
     ],
     "wof:id":85975891,
-    "wof:lastmodified":1690884239,
+    "wof:lastmodified":1722116087,
     "wof:name":"Elmwood Park",
     "wof:parent_id":404477527,
     "wof:placetype":"locality",
-    "wof:population":19403,
-    "wof:population_rank":6,
+    "wof:population":21256,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

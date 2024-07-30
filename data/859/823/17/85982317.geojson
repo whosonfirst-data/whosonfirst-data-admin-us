@@ -145,7 +145,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":740504,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -161,17 +162,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"50420",
     "uscensus:placens":"01036148",
+    "uscensus:population":369,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":250.0,
     "wd:latitude":48.071944,
     "wd:longitude":-97.1775,
     "wd:wordcount":928,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404480605,
         85633793,
-        102081493
+        102081493,
+        404480605,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -180,10 +183,11 @@
         "gn:id":5060290,
         "gp:id":2445085,
         "qs_pg:id":1256152,
-        "uscensus:geoid":3850420,
+        "uscensus:geoid":"3850420",
         "wd:id":"Q1879980",
         "wk:page":"Manvel, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -204,11 +208,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884818,
+    "wof:lastmodified":1722116122,
     "wof:name":"Manvel",
     "wof:parent_id":404480605,
     "wof:placetype":"locality",
-    "wof:population":360,
+    "wof:population":369,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

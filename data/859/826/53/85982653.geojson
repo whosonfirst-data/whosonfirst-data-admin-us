@@ -97,7 +97,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":519103,
     "uscensus:awater":0,
     "uscensus:classfp":"U1",
@@ -113,14 +114,16 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"36980",
     "uscensus:placens":"02584346",
+    "uscensus:population":15,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"38",
     "wd:wordcount":84,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404480641,
         85633793,
-        102081497
+        102081497,
+        404480641,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -129,10 +132,11 @@
         "gn:id":5689589,
         "gp:id":2419688,
         "qs_pg:id":1052903,
-        "uscensus:geoid":3836980,
+        "uscensus:geoid":"3836980",
         "wd:id":"Q4137828",
         "wk:page":"Heil, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -153,7 +157,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882625,
+    "wof:lastmodified":1722115995,
     "wof:name":"Heil",
     "wof:parent_id":404480641,
     "wof:placetype":"locality",

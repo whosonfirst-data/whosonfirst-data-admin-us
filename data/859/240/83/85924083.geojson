@@ -18,7 +18,7 @@
     "mps:latitude":39.523897,
     "mps:longitude":-120.015976,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:eng_x_preferred":[
         "Verdi"
@@ -45,18 +45,24 @@
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
+    "uscensus:population":158,
+    "uscensus:population_date":"2022",
     "wof:belongsto":[
         102191575,
         85633793,
-        85688637,
-        102086947
+        102086947,
+        85688637
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":5405960,
         "gp:id":2511716,
-        "qs_pg:id":102215
+        "qs_pg:id":102215,
+        "uscensus:geoid":"0682334"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg"
@@ -72,10 +78,12 @@
         }
     ],
     "wof:id":85924083,
-    "wof:lastmodified":1582336075,
+    "wof:lastmodified":1722115904,
     "wof:name":"Verdi",
     "wof:parent_id":102086947,
     "wof:placetype":"locality",
+    "wof:population":158,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

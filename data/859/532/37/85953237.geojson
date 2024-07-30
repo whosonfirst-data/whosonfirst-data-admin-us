@@ -166,7 +166,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":4433013,
     "uscensus:awater":377204,
     "uscensus:classfp":"C5",
@@ -182,17 +183,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"70492",
     "uscensus:placens":"02397324",
+    "uscensus:population":395,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":317.0,
     "wd:latitude":46.318333,
     "wd:longitude":-92.841389,
     "wd:wordcount":1338,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404510425,
         85633793,
-        102087721
+        102087721,
+        404510425,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -201,10 +204,11 @@
         "gn:id":5052972,
         "gp:id":2521189,
         "qs_pg:id":1051179,
-        "uscensus:geoid":2770492,
+        "uscensus:geoid":"2770492",
         "wd:id":"Q1815091",
         "wk:page":"Willow River, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -225,11 +229,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882073,
+    "wof:lastmodified":1722115961,
     "wof:name":"Willow River",
     "wof:parent_id":404510425,
     "wof:placetype":"locality",
-    "wof:population":415,
+    "wof:population":395,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

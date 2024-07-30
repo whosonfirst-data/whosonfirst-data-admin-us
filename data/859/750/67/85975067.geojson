@@ -247,7 +247,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":104389360,
     "uscensus:awater":2507988,
     "uscensus:classfp":"C5",
@@ -263,17 +264,19 @@
     "uscensus:pcinecta":"Y",
     "uscensus:placefp":"41300",
     "uscensus:placens":"00873643",
+    "uscensus:population":15342,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"33",
     "wd:elevation":177.0,
     "wd:latitude":43.6422,
     "wd:longitude":-72.2517,
     "wd:wordcount":1870,
     "wof:belongsto":[
-        85688689,
         102191575,
-        404477101,
         85633793,
-        102086567
+        102086567,
+        404477101,
+        85688689
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -281,10 +284,11 @@
         "gn:id":5088597,
         "gp:id":2437673,
         "qs_pg:id":274759,
-        "uscensus:geoid":3341300,
+        "uscensus:geoid":"3341300",
         "wd:id":"Q993523",
         "wk:page":"Lebanon, New Hampshire"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -302,11 +306,11 @@
         }
     ],
     "wof:id":85975067,
-    "wof:lastmodified":1690884551,
+    "wof:lastmodified":1722116105,
     "wof:name":"Lebanon",
     "wof:parent_id":404477101,
     "wof:placetype":"locality",
-    "wof:population":13151,
+    "wof:population":15342,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

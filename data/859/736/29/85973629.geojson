@@ -133,7 +133,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1023157,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -149,6 +150,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"13295",
     "uscensus:placens":"02398733",
+    "uscensus:population":575,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"31",
     "wd:elevation":427.0,
     "wd:latitude":41.721667,
@@ -156,11 +159,11 @@
     "wd:population":612,
     "wd:wordcount":893,
     "wof:belongsto":[
-        85688563,
         102191575,
-        404518705,
         85633793,
-        102082773
+        102082773,
+        404518705,
+        85688563
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -169,10 +172,11 @@
         "gn:id":5067037,
         "gp:id":2392515,
         "qs_pg:id":246822,
-        "uscensus:geoid":3113295,
+        "uscensus:geoid":"3113295",
         "wd:id":"Q1234106",
         "wk:page":"Dodge, Nebraska"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -193,11 +197,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690881913,
+    "wof:lastmodified":1722115952,
     "wof:name":"Dodge",
     "wof:parent_id":404518705,
     "wof:placetype":"locality",
-    "wof:population":612,
+    "wof:population":575,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

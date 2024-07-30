@@ -166,7 +166,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":3631249,
     "uscensus:awater":65560,
     "uscensus:classfp":"C5",
@@ -182,17 +183,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"39986",
     "uscensus:placens":"02395837",
+    "uscensus:population":1101,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":359.0,
     "wd:latitude":44.067222,
     "wd:longitude":-92.7575,
     "wd:wordcount":1067,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404515137,
         85633793,
-        102087097
+        102087097,
+        404515137,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -201,10 +204,11 @@
         "gn:id":5036461,
         "gp:id":2445058,
         "qs_pg:id":213311,
-        "uscensus:geoid":2739986,
+        "uscensus:geoid":"2739986",
         "wd:id":"Q2229417",
         "wk:page":"Mantorville, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -225,11 +229,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883413,
+    "wof:lastmodified":1722116038,
     "wof:name":"Mantorville",
     "wof:parent_id":404515137,
     "wof:placetype":"locality",
-    "wof:population":1197,
+    "wof:population":1101,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

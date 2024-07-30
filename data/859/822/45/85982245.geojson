@@ -145,7 +145,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":756728,
     "uscensus:awater":26169,
     "uscensus:classfp":"C5",
@@ -161,17 +162,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"57220",
     "uscensus:placens":"01036187",
+    "uscensus:population":134,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":601.0,
     "wd:latitude":48.888333,
     "wd:longitude":-103.009444,
     "wd:wordcount":912,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404478609,
         85633793,
-        102082081
+        102082081,
+        404478609,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -180,10 +183,11 @@
         "gn:id":5690731,
         "gp:id":2460316,
         "qs_pg:id":159602,
-        "uscensus:geoid":3857220,
+        "uscensus:geoid":"3857220",
         "wd:id":"Q1622802",
         "wk:page":"Noonan, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -204,11 +208,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885248,
+    "wof:lastmodified":1722116147,
     "wof:name":"Noonan",
     "wof:parent_id":404478609,
     "wof:placetype":"locality",
-    "wof:population":121,
+    "wof:population":134,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

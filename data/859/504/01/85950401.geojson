@@ -184,7 +184,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":31836417,
     "uscensus:awater":3729019,
     "uscensus:classfp":"C5",
@@ -200,17 +201,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"01260",
     "uscensus:placens":"00618292",
+    "uscensus:population":17303,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"25",
     "wd:elevation":15.0,
     "wd:latitude":42.858333,
     "wd:longitude":-70.930556,
     "wd:wordcount":4165,
     "wof:belongsto":[
-        85688645,
         102191575,
-        404476283,
         85633793,
-        102084463
+        102084463,
+        404476283,
+        85688645
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -218,10 +221,11 @@
         "gn:id":4929004,
         "gp:id":2354295,
         "qs_pg:id":354381,
-        "uscensus:geoid":2501260,
+        "uscensus:geoid":"2501260",
         "wd:id":"Q54176",
         "wk:page":"Amesbury, Massachusetts"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -239,11 +243,11 @@
         }
     ],
     "wof:id":85950401,
-    "wof:lastmodified":1690881928,
+    "wof:lastmodified":1722115953,
     "wof:name":"Amesbury Town",
     "wof:parent_id":404476283,
     "wof:placetype":"locality",
-    "wof:population":18313,
+    "wof:population":17303,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

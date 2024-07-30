@@ -85,7 +85,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":728032,
     "uscensus:awater":0,
     "uscensus:classfp":"U1",
@@ -101,13 +102,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"12879",
     "uscensus:placens":"02628545",
+    "uscensus:population":299,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"17",
     "wof:belongsto":[
-        85688697,
         102191575,
-        404499081,
         85633793,
-        102081661
+        102081661,
+        404499081,
+        85688697
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -116,9 +119,10 @@
         "gn:id":4887325,
         "gp:id":2378851,
         "qs_pg:id":1180645,
-        "uscensus:geoid":1712879,
+        "uscensus:geoid":"1712879",
         "wd:id":"Q5090674"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -139,11 +143,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882666,
+    "wof:lastmodified":1722115997,
     "wof:name":"Chemung",
     "wof:parent_id":404499081,
     "wof:placetype":"locality",
-    "wof:population":308,
+    "wof:population":299,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -163,7 +163,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":3381419,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -179,17 +180,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"35450",
     "uscensus:placens":"02395628",
+    "uscensus:population":720,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":261.0,
     "wd:latitude":43.720939,
     "wd:longitude":-91.977039,
     "wd:wordcount":1601,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404514267,
         85633793,
-        102086997
+        102086997,
+        404514267,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -198,10 +201,11 @@
         "gn:id":5034153,
         "gp:id":2436275,
         "qs_pg:id":325521,
-        "uscensus:geoid":2735450,
+        "uscensus:geoid":"2735450",
         "wd:id":"Q2230234",
         "wk:page":"Lanesboro, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -222,11 +226,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884437,
+    "wof:lastmodified":1722116099,
     "wof:name":"Lanesboro",
     "wof:parent_id":404514267,
     "wof:placetype":"locality",
-    "wof:population":754,
+    "wof:population":720,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

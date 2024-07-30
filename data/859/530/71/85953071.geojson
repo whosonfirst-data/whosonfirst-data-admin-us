@@ -154,7 +154,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":982439,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -170,17 +171,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"67756",
     "uscensus:placens":"02397171",
+    "uscensus:population":202,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":329.0,
     "wd:latitude":43.935,
     "wd:longitude":-93.6975,
     "wd:wordcount":747,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404510943,
         85633793,
-        102087641
+        102087641,
+        404510943,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -189,10 +192,11 @@
         "gn:id":5051725,
         "gp:id":2513387,
         "qs_pg:id":448396,
-        "uscensus:geoid":2767756,
+        "uscensus:geoid":"2767756",
         "wd:id":"Q1924096",
         "wk:page":"Waldorf, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -213,11 +217,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884095,
+    "wof:lastmodified":1722116078,
     "wof:name":"Waldorf",
     "wof:parent_id":404510943,
     "wof:placetype":"locality",
-    "wof:population":229,
+    "wof:population":202,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

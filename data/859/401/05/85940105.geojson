@@ -111,7 +111,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":119512,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -127,13 +128,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"76771",
     "uscensus:placens":"02400024",
+    "uscensus:population":53,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"17",
     "wof:belongsto":[
-        85688697,
         102191575,
-        404496553,
         85633793,
-        102081259
+        102081259,
+        404496553,
+        85688697
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -141,10 +144,11 @@
         "fips:code":"1776771",
         "gn:id":4914331,
         "gp:id":2509866,
-        "uscensus:geoid":1776771,
+        "uscensus:geoid":"1776771",
         "wd:id":"Q2660667",
         "wk:page":"Union Hill, Illinois"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -164,11 +168,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882733,
+    "wof:lastmodified":1722116001,
     "wof:name":"Union Hill",
     "wof:parent_id":404496553,
     "wof:placetype":"locality",
-    "wof:population":58,
+    "wof:population":53,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

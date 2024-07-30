@@ -155,7 +155,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":567667,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -171,17 +172,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"43750",
     "uscensus:placens":"02395064",
+    "uscensus:population":117,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"20",
     "wd:elevation":1025.0,
     "wd:latitude":39.785,
     "wd:longitude":-101.37028,
     "wd:wordcount":879,
     "wof:belongsto":[
-        85688555,
         102191575,
-        404505611,
         85633793,
-        102084169
+        102084169,
+        404505611,
+        85688555
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -190,10 +193,11 @@
         "gn:id":5445948,
         "gp:id":2447833,
         "qs_pg:id":1052415,
-        "uscensus:geoid":2043750,
+        "uscensus:geoid":"2043750",
         "wd:id":"Q2053542",
         "wk:page":"McDonald, Kansas"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -214,11 +218,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882860,
+    "wof:lastmodified":1722116009,
     "wof:name":"McDonald",
     "wof:parent_id":404505611,
     "wof:placetype":"locality",
-    "wof:population":160,
+    "wof:population":117,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

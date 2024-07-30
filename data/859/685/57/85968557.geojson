@@ -153,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":3757772,
     "uscensus:awater":340962,
     "uscensus:classfp":"C5",
@@ -169,6 +170,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"03250",
     "uscensus:placens":"02394053",
+    "uscensus:population":583,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":470.0,
     "wd:latitude":44.233333,
@@ -176,11 +179,11 @@
     "wd:population":643,
     "wd:wordcount":855,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404512527,
         85633793,
-        102087885
+        102087885,
+        404512527,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -189,10 +192,11 @@
         "gn:id":5017036,
         "gp:id":2358549,
         "qs_pg:id":949152,
-        "uscensus:geoid":2703250,
+        "uscensus:geoid":"2703250",
         "wd:id":"Q1878003",
         "wk:page":"Balaton, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -213,11 +217,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884826,
+    "wof:lastmodified":1722116122,
     "wof:name":"Balaton",
     "wof:parent_id":404512527,
     "wof:placetype":"locality",
-    "wof:population":643,
+    "wof:population":583,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

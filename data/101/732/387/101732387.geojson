@@ -146,7 +146,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":5721287,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -162,17 +163,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"03825",
     "uscensus:placens":"01582733",
+    "uscensus:population":1524,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"55",
     "wd:elevation":293.0,
     "wd:latitude":44.679722,
     "wd:longitude":-91.122778,
     "wd:wordcount":1059,
     "wof:belongsto":[
-        85688517,
         102191575,
-        404493559,
         85633793,
-        102081761
+        102081761,
+        404493559,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -181,10 +184,11 @@
         "gn:id":5244365,
         "gp:id":2357382,
         "qs_pg:id":10215,
-        "uscensus:geoid":5503825,
+        "uscensus:geoid":"5503825",
         "wd:id":"Q1569576",
         "wk:page":"Augusta, Wisconsin"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -205,11 +209,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889382,
+    "wof:lastmodified":1722116323,
     "wof:name":"Augusta",
     "wof:parent_id":404493559,
     "wof:placetype":"locality",
-    "wof:population":1550,
+    "wof:population":1524,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -118,7 +118,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2340872,
     "uscensus:awater":1195533,
     "uscensus:classfp":"C1",
@@ -134,17 +135,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"13068",
     "uscensus:placens":"02391590",
+    "uscensus:population":466,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"36",
     "wd:elevation":147.0,
     "wd:latitude":42.918611,
     "wd:longitude":-76.726944,
     "wd:wordcount":560,
     "wof:belongsto":[
-        85688543,
         102191575,
-        404521235,
         85633793,
-        102083071
+        102083071,
+        404521235,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -153,10 +156,11 @@
         "gn:id":5111871,
         "gp:id":2376499,
         "qs_pg:id":1269501,
-        "uscensus:geoid":3613068,
+        "uscensus:geoid":"3613068",
         "wd:id":"Q1020585",
         "wk:page":"Cayuga, New York"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -177,11 +181,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885885,
+    "wof:lastmodified":1722116187,
     "wof:name":"Cayuga",
     "wof:parent_id":404521235,
     "wof:placetype":"locality",
-    "wof:population":549,
+    "wof:population":466,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

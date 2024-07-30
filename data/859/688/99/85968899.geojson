@@ -163,7 +163,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":6855125,
     "uscensus:awater":163921,
     "uscensus:classfp":"C5",
@@ -179,17 +180,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"70708",
     "uscensus:placens":"02397333",
+    "uscensus:population":266,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":424.0,
     "wd:latitude":47.506111,
     "wd:longitude":-94.996111,
     "wd:wordcount":748,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404509269,
         85633793,
-        102087773
+        102087773,
+        404509269,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -197,10 +200,11 @@
         "gn:id":5053055,
         "gp:id":2521608,
         "qs_pg:id":1051180,
-        "uscensus:geoid":2770708,
+        "uscensus:geoid":"2770708",
         "wd:id":"Q2181721",
         "wk:page":"Wilton, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -218,11 +222,11 @@
         }
     ],
     "wof:id":85968899,
-    "wof:lastmodified":1690882274,
+    "wof:lastmodified":1722115974,
     "wof:name":"Wilton",
     "wof:parent_id":404509269,
     "wof:placetype":"locality",
-    "wof:population":204,
+    "wof:population":266,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

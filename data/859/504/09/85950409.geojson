@@ -220,7 +220,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":21626983,
     "uscensus:awater":6108560,
     "uscensus:classfp":"C5",
@@ -236,17 +237,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"45245",
     "uscensus:placens":"00618305",
+    "uscensus:population":18731,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"25",
     "wd:elevation":11.0,
     "wd:latitude":42.8125,
     "wd:longitude":-70.877222,
     "wd:wordcount":4571,
     "wof:belongsto":[
-        85688645,
         102191575,
-        404476251,
         85633793,
-        102084463
+        102084463,
+        404476251,
+        85688645
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -256,10 +259,11 @@
         "gn:id":4945256,
         "nyt:id":"N662851691893114181",
         "qs_pg:id":155967,
-        "uscensus:geoid":2545245,
+        "uscensus:geoid":"2545245",
         "wd:id":"Q54134",
         "wk:page":"Newburyport, Massachusetts"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -277,11 +281,11 @@
         }
     ],
     "wof:id":85950409,
-    "wof:lastmodified":1690881927,
+    "wof:lastmodified":1722115953,
     "wof:name":"Newburyport",
     "wof:parent_id":404476251,
     "wof:placetype":"locality",
-    "wof:population":17416,
+    "wof:population":18731,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

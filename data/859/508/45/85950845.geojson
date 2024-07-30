@@ -291,6 +291,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":7278579,
     "uscensus:awater":290087,
     "uscensus:classfp":"U1",
@@ -306,14 +308,16 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"72460",
     "uscensus:placens":"02378246",
+    "uscensus:population":6620,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"25",
     "wd:wordcount":148,
     "wof:belongsto":[
-        85688645,
         102191575,
-        404476599,
         85633793,
-        102084403
+        102084403,
+        404476599,
+        85688645
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -322,9 +326,10 @@
         "gn:id":4954364,
         "gp:id":2513921,
         "qs_pg:id":832510,
-        "uscensus:geoid":2572460,
+        "uscensus:geoid":"2572460",
         "wd:id":"Q258205"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -345,10 +350,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884002,
+    "wof:lastmodified":1722116073,
     "wof:name":"Walpole",
     "wof:parent_id":404476599,
     "wof:placetype":"locality",
+    "wof:population":6620,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

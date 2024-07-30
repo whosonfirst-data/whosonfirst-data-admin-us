@@ -144,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2972387,
     "uscensus:awater":2233,
     "uscensus:classfp":"C1",
@@ -160,6 +161,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"01522",
     "uscensus:placens":"02393969",
+    "uscensus:population":1077,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"29",
     "wd:elevation":267.0,
     "wd:latitude":38.18972,
@@ -167,11 +170,11 @@
     "wd:population":1127,
     "wd:wordcount":852,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404515915,
         85633793,
-        102080795
+        102080795,
+        404515915,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -180,9 +183,10 @@
         "gn:id":4374993,
         "gp:id":2355330,
         "qs_pg:id":1173723,
-        "uscensus:geoid":2901522,
+        "uscensus:geoid":"2901522",
         "wd:id":"Q521513"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -203,11 +207,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883847,
+    "wof:lastmodified":1722116064,
     "wof:name":"Appleton City",
     "wof:parent_id":404515915,
     "wof:placetype":"locality",
-    "wof:population":1127,
+    "wof:population":1077,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

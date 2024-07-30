@@ -148,7 +148,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":333849,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -164,17 +165,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"45460",
     "uscensus:placens":"01036123",
+    "uscensus:population":24,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":447.0,
     "wd:latitude":47.105556,
     "wd:longitude":-98.316389,
     "wd:wordcount":1119,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404478647,
         85633793,
-        102082051
+        102082051,
+        404478647,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -182,10 +185,11 @@
         "gn:id":5060099,
         "gp:id":2437550,
         "qs_pg:id":100506,
-        "uscensus:geoid":3845460,
+        "uscensus:geoid":"3845460",
         "wd:id":"Q28442",
         "wk:page":"Leal, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -203,11 +207,11 @@
         }
     ],
     "wof:id":85982095,
-    "wof:lastmodified":1690882182,
+    "wof:lastmodified":1722115968,
     "wof:name":"Leal",
     "wof:parent_id":404478647,
     "wof:placetype":"locality",
-    "wof:population":20,
+    "wof:population":24,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

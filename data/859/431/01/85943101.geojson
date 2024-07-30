@@ -21,7 +21,7 @@
     "mps:latitude":41.405137,
     "mps:longitude":-92.921252,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":10.0,
     "name:ara_x_preferred":[
         "\u0628\u064a\u0644\u0627"
@@ -165,7 +165,10 @@
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
+    "uscensus:population":10456,
+    "uscensus:population_date":"2022",
     "wd:elevation":270.0,
     "wd:latitude":41.407222,
     "wd:longitude":-92.917222,
@@ -173,8 +176,8 @@
     "wof:belongsto":[
         102191575,
         85633793,
-        85688713,
-        102086411
+        102086411,
+        85688713
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -187,6 +190,7 @@
         "wd:id":"Q1778791",
         "wk:page":"Pella, Iowa"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg"
@@ -205,11 +209,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883041,
+    "wof:lastmodified":1722115908,
     "wof:name":"Pella",
     "wof:parent_id":102086411,
     "wof:placetype":"locality",
-    "wof:population":10352,
+    "wof:population":10456,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

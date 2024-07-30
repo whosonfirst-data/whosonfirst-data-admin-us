@@ -17,7 +17,7 @@
     "mps:latitude":31.867767,
     "mps:longitude":-85.009273,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:eng_x_preferred":[
         "Georgetown-Quitman County"
@@ -39,14 +39,21 @@
     "src:geom":"quattroshapes",
     "src:geom_alt":[],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":2280,
+    "uscensus:population_date":"2023",
     "wof:belongsto":[
         102191575,
         85633793,
-        85688535,
-        102082345
+        102082345,
+        85688535
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "uscensus:geoid":"1332528"
+    },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geomhash":"9d7c3b56e55aa08bc5aa232a21aa76b0",
     "wof:hierarchy":[
@@ -59,10 +66,12 @@
         }
     ],
     "wof:id":85937133,
-    "wof:lastmodified":1566612759,
+    "wof:lastmodified":1722115903,
     "wof:name":"Georgetown-Quitman County",
     "wof:parent_id":102082345,
     "wof:placetype":"locality",
+    "wof:population":2280,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

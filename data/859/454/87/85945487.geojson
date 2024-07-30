@@ -136,7 +136,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":633264,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -152,17 +153,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"33150",
     "uscensus:placens":"02394420",
+    "uscensus:population":92,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"20",
     "wd:elevation":1110.0,
     "wd:latitude":38.4767,
     "wd:longitude":-101.791,
     "wd:wordcount":947,
     "wof:belongsto":[
-        85688555,
         102191575,
-        404504047,
         85633793,
-        102082119
+        102082119,
+        404504047,
+        85688555
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -171,10 +174,11 @@
         "gn:id":5445621,
         "gp:id":2424393,
         "qs_pg:id":102257,
-        "uscensus:geoid":2033150,
+        "uscensus:geoid":"2033150",
         "wd:id":"Q1903871",
         "wk:page":"Horace, Kansas"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -195,11 +199,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883127,
+    "wof:lastmodified":1722116024,
     "wof:name":"Horace",
     "wof:parent_id":404504047,
     "wof:placetype":"locality",
-    "wof:population":70,
+    "wof:population":92,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -196,7 +196,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":19720149,
     "uscensus:awater":9359182,
     "uscensus:classfp":"C5",
@@ -212,17 +213,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"55574",
     "uscensus:placens":"00979325",
+    "uscensus:population":17022,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"36",
     "wd:elevation":87.0,
     "wd:latitude":43.454722,
     "wd:longitude":-76.506667,
     "wd:wordcount":2335,
     "wof:belongsto":[
-        85688543,
         102191575,
-        404522967,
         85633793,
-        102081783
+        102081783,
+        404522967,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -231,10 +234,11 @@
         "gn:id":5130081,
         "gp:id":2466688,
         "qs_pg:id":479491,
-        "uscensus:geoid":3655574,
+        "uscensus:geoid":"3655574",
         "wd:id":"Q1017583",
         "wk:page":"Oswego, New York"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -255,11 +259,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883595,
+    "wof:lastmodified":1722116048,
     "wof:name":"Oswego",
     "wof:parent_id":404522967,
     "wof:placetype":"locality",
-    "wof:population":18142,
+    "wof:population":17022,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

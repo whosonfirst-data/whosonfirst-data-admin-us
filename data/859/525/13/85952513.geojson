@@ -157,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1884242,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -173,17 +174,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"61888",
     "uscensus:placens":"02395932",
+    "uscensus:population":69,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":382.0,
     "wd:latitude":45.524722,
     "wd:longitude":-94.829444,
     "wd:wordcount":695,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404510529,
         85633793,
-        102087719
+        102087719,
+        404510529,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -192,10 +195,11 @@
         "gn:id":5048311,
         "gp:id":2497930,
         "qs_pg:id":601790,
-        "uscensus:geoid":2761888,
+        "uscensus:geoid":"2761888",
         "wd:id":"Q2034741",
         "wk:page":"Spring Hill, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -216,11 +220,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690886103,
+    "wof:lastmodified":1722116201,
     "wof:name":"Spring Hill",
     "wof:parent_id":404510529,
     "wof:placetype":"locality",
-    "wof:population":85,
+    "wof:population":69,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -163,7 +163,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":831581,
     "uscensus:awater":1093532,
     "uscensus:classfp":"C5",
@@ -179,17 +180,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"34658",
     "uscensus:placens":"02395610",
+    "uscensus:population":330,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":224.0,
     "wd:latitude":44.948056,
     "wd:longitude":-92.764167,
     "wd:wordcount":751,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404514901,
         85633793,
-        102087659
+        102087659,
+        404514901,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -198,10 +201,11 @@
         "gn:id":5033971,
         "gp:id":2435346,
         "qs_pg:id":1093549,
-        "uscensus:geoid":2734658,
+        "uscensus:geoid":"2734658",
         "wd:id":"Q2187154",
         "wk:page":"Lakeland Shores, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -222,11 +226,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884812,
+    "wof:lastmodified":1722116121,
     "wof:name":"Lakeland Shores",
     "wof:parent_id":404514901,
     "wof:placetype":"locality",
-    "wof:population":311,
+    "wof:population":330,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

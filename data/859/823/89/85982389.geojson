@@ -142,7 +142,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1054286,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -158,17 +159,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"34460",
     "uscensus:placens":"01036074",
+    "uscensus:population":12,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":472.0,
     "wd:latitude":47.7614,
     "wd:longitude":-99.5139,
     "wd:wordcount":677,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404482351,
         85633793,
-        102081507
+        102081507,
+        404482351,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -177,10 +180,11 @@
         "gn:id":5059523,
         "gp:id":2416487,
         "qs_pg:id":602717,
-        "uscensus:geoid":3834460,
+        "uscensus:geoid":"3834460",
         "wd:id":"Q2278442",
         "wk:page":"Hamberg, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -201,11 +205,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884817,
+    "wof:lastmodified":1722116122,
     "wof:name":"Hamberg",
     "wof:parent_id":404482351,
     "wof:placetype":"locality",
-    "wof:population":21,
+    "wof:population":12,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -166,7 +166,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":5017376,
     "uscensus:awater":1031160,
     "uscensus:classfp":"C5",
@@ -182,16 +183,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"30540",
     "uscensus:placens":"00885248",
+    "uscensus:population":3322,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"34",
     "wd:latitude":40.9617,
     "wd:longitude":-73.9974,
     "wd:wordcount":5539,
     "wof:belongsto":[
-        85688607,
         102191575,
-        404477291,
         85633793,
-        102086773
+        102086773,
+        404477291,
+        85688607
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -199,10 +202,11 @@
         "gn:id":5098904,
         "gp:id":2418916,
         "qs_pg:id":15495,
-        "uscensus:geoid":3430540,
+        "uscensus:geoid":"3430540",
         "wd:id":"Q200658",
         "wk:page":"Haworth, New Jersey"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -220,11 +224,11 @@
         }
     ],
     "wof:id":85975991,
-    "wof:lastmodified":1690884668,
+    "wof:lastmodified":1722116112,
     "wof:name":"Haworth",
     "wof:parent_id":404477291,
     "wof:placetype":"locality",
-    "wof:population":3382,
+    "wof:population":3322,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

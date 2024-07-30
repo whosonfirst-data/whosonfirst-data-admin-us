@@ -120,7 +120,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":3704812,
     "uscensus:awater":146232,
     "uscensus:classfp":"C5",
@@ -136,13 +137,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"43064",
     "uscensus:placens":"01214805",
+    "uscensus:population":2266,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"42",
     "wof:belongsto":[
-        85688481,
         102191575,
-        404484965,
         85633793,
-        102080887
+        102080887,
+        404484965,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -150,7 +153,7 @@
         "gn:id":5197897,
         "gp:id":28745269,
         "qs_pg:id":342015,
-        "uscensus:geoid":4243064,
+        "uscensus:geoid":"4243064",
         "wd:id":"Q1182121",
         "wk:page":"Liberty, Allegheny County, Pennsylvania"
     },
@@ -159,6 +162,7 @@
         "gp:id":28744647,
         "qs_pg:id":1002141
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -176,11 +180,11 @@
         }
     ],
     "wof:id":101718659,
-    "wof:lastmodified":1690890454,
+    "wof:lastmodified":1722116389,
     "wof:name":"Liberty",
     "wof:parent_id":404484965,
     "wof:placetype":"locality",
-    "wof:population":2551,
+    "wof:population":2266,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

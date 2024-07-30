@@ -204,6 +204,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":72782347,
     "uscensus:awater":877738,
     "uscensus:classfp":"C1",
@@ -219,13 +221,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"14734",
     "uscensus:placens":"02393609",
+    "uscensus:population":51522,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"18",
     "wof:belongsto":[
-        85688709,
         102191575,
-        404501185,
         85633793,
-        102087181
+        102087181,
+        404501185,
+        85688709
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -233,9 +237,10 @@
         "gn:id":4256038,
         "gp:id":2383652,
         "qs_pg:id":152393,
-        "uscensus:geoid":1814734,
+        "uscensus:geoid":"1814734",
         "wd:id":"Q941870"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -253,10 +258,12 @@
         }
     ],
     "wof:id":85941361,
-    "wof:lastmodified":1690882375,
+    "wof:lastmodified":1722115980,
     "wof:name":"Columbus",
     "wof:parent_id":404501185,
     "wof:placetype":"locality",
+    "wof:population":51522,
+    "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[

@@ -157,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":7073333,
     "uscensus:awater":13511,
     "uscensus:classfp":"C5",
@@ -173,17 +174,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"72328",
     "uscensus:placens":"00666076",
+    "uscensus:population":4005,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":302.0,
     "wd:latitude":44.292778,
     "wd:longitude":-92.671667,
     "wd:wordcount":1065,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404511787,
         85633793,
-        102087843
+        102087843,
+        404511787,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -192,10 +195,11 @@
         "gn:id":5053812,
         "gp:id":2525440,
         "qs_pg:id":1060830,
-        "uscensus:geoid":2772328,
+        "uscensus:geoid":"2772328",
         "wd:id":"Q1924219",
         "wk:page":"Zumbrota, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -216,11 +220,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883409,
+    "wof:lastmodified":1722116038,
     "wof:name":"Zumbrota",
     "wof:parent_id":404511787,
     "wof:placetype":"locality",
-    "wof:population":3252,
+    "wof:population":4005,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

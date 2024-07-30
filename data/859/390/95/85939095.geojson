@@ -166,7 +166,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":23482732,
     "uscensus:awater":1259384,
     "uscensus:classfp":"C1",
@@ -182,16 +183,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"47150",
     "uscensus:placens":"02395020",
+    "uscensus:population":4773,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"17",
     "wd:latitude":41.32778,
     "wd:longitude":-88.70111,
     "wd:wordcount":674,
     "wof:belongsto":[
-        85688697,
         102191575,
-        404499873,
         85633793,
-        102081255
+        102081255,
+        404499873,
+        85688697
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -199,10 +202,11 @@
         "gn:id":4901279,
         "gp:id":2446062,
         "qs_pg:id":1050414,
-        "uscensus:geoid":1747150,
+        "uscensus:geoid":"1747150",
         "wd:id":"Q579613",
         "wk:page":"Marseilles, Illinois"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -220,12 +224,12 @@
         }
     ],
     "wof:id":85939095,
-    "wof:lastmodified":1690882095,
+    "wof:lastmodified":1722115963,
     "wof:name":"Marseilles",
     "wof:parent_id":404499873,
     "wof:placetype":"locality",
-    "wof:population":5094,
-    "wof:population_rank":5,
+    "wof:population":4773,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[

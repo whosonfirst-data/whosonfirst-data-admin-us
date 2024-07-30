@@ -152,7 +152,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":661946,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -168,13 +169,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"64300",
     "uscensus:placens":"01267605",
+    "uscensus:population":205,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"46",
     "wof:belongsto":[
-        85688693,
         102191575,
-        404489239,
         85633793,
-        102086027
+        102086027,
+        404489239,
+        85688693
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -183,9 +186,10 @@
         "gn:id":5232443,
         "gp:id":2508486,
         "qs_pg:id":201598,
-        "uscensus:geoid":4664300,
+        "uscensus:geoid":"4664300",
         "wd:id":"Q3239793"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -206,11 +210,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889638,
+    "wof:lastmodified":1722116339,
     "wof:name":"Tulare",
     "wof:parent_id":404489239,
     "wof:placetype":"locality",
-    "wof:population":207,
+    "wof:population":205,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

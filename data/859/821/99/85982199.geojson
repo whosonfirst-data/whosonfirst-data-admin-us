@@ -170,7 +170,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1212588,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -186,17 +187,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"86380",
     "uscensus:placens":"01036336",
+    "uscensus:population":149,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":448.0,
     "wd:latitude":48.604167,
     "wd:longitude":-100.294722,
     "wd:wordcount":753,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404478753,
         85633793,
-        102082109
+        102082109,
+        404478753,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -204,10 +207,11 @@
         "gn:id":5692955,
         "gp:id":2521080,
         "qs_pg:id":223554,
-        "uscensus:geoid":3886380,
+        "uscensus:geoid":"3886380",
         "wd:id":"Q2483307",
         "wk:page":"Willow City, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -225,11 +229,11 @@
         }
     ],
     "wof:id":85982199,
-    "wof:lastmodified":1690882560,
+    "wof:lastmodified":1722115991,
     "wof:name":"Willow City",
     "wof:parent_id":404478753,
     "wof:placetype":"locality",
-    "wof:population":163,
+    "wof:population":149,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

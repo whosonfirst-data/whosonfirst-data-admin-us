@@ -169,7 +169,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":11970622,
     "uscensus:awater":463589,
     "uscensus:classfp":"U1",
@@ -185,17 +186,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"87350",
     "uscensus:placens":"02377885",
+    "uscensus:population":7229,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"09",
     "wd:elevation":216.0,
     "wd:latitude":41.921111,
     "wd:longitude":-73.06,
     "wd:wordcount":1509,
     "wof:belongsto":[
-        85688629,
         102191575,
-        404495849,
         85633793,
-        102085375
+        102085375,
+        404495849,
+        85688629
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -203,10 +206,11 @@
         "gn:id":4845953,
         "gp:id":2522259,
         "qs_pg:id":155585,
-        "uscensus:geoid":987350,
+        "uscensus:geoid":"0987350",
         "wd:id":"Q754085",
         "wk:page":"Winsted, Connecticut"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -224,11 +228,11 @@
         }
     ],
     "wof:id":85931209,
-    "wof:lastmodified":1690883634,
+    "wof:lastmodified":1722116051,
     "wof:name":"Winsted",
     "wof:parent_id":404495849,
     "wof:placetype":"locality",
-    "wof:population":7712,
+    "wof:population":7229,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

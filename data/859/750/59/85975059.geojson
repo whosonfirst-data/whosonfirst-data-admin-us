@@ -245,7 +245,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":69229623,
     "uscensus:awater":5993233,
     "uscensus:classfp":"C5",
@@ -261,6 +262,8 @@
     "uscensus:pcinecta":"Y",
     "uscensus:placefp":"18820",
     "uscensus:placens":"00873580",
+    "uscensus:population":33485,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"33",
     "wd:elevation":15.0,
     "wd:latitude":43.195278,
@@ -268,11 +271,11 @@
     "wd:population":30665,
     "wd:wordcount":2091,
     "wof:belongsto":[
-        85688689,
         102191575,
-        404476795,
         85633793,
-        102085609
+        102085609,
+        404476795,
+        85688689
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -281,13 +284,14 @@
         "gn:id":4929055,
         "gp:id":2393367,
         "qs_pg:id":354805,
-        "uscensus:geoid":3318820,
+        "uscensus:geoid":"3318820",
         "wd:id":"Q48215",
         "wk:page":"Dover, New Hampshire"
     },
     "wof:concordances_alt":{
         "qs_pg:id":817664
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -308,11 +312,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884549,
+    "wof:lastmodified":1722116105,
     "wof:name":"Dover",
     "wof:parent_id":404476795,
     "wof:placetype":"locality",
-    "wof:population":30665,
+    "wof:population":33485,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

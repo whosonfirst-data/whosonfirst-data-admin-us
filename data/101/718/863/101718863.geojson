@@ -215,7 +215,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":4298536,
     "uscensus:awater":12297,
     "uscensus:classfp":"C5",
@@ -231,14 +232,16 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"28960",
     "uscensus:placens":"01214758",
+    "uscensus:population":8468,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"42",
     "wd:wordcount":3599,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404482793,
         85633793,
-        102080899
+        102080899,
+        404482793,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -250,13 +253,14 @@
         "loc:id":"n81079971",
         "nyt:id":"314884259373191011",
         "qs_pg:id":353999,
-        "uscensus:geoid":4228960,
+        "uscensus:geoid":"4228960",
         "wd:id":"Q694550",
         "wk:page":"Gettysburg, Pennsylvania"
     },
     "wof:concordances_alt":{
         "qs_pg:id":766514
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -274,11 +278,11 @@
         }
     ],
     "wof:id":101718863,
-    "wof:lastmodified":1690890513,
+    "wof:lastmodified":1722116393,
     "wof:name":"Gettysburg",
     "wof:parent_id":404482793,
     "wof:placetype":"locality",
-    "wof:population":7620,
+    "wof:population":8468,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -122,7 +122,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2150744,
     "uscensus:awater":76829,
     "uscensus:classfp":"C1",
@@ -138,13 +139,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"66638",
     "uscensus:placens":"02399157",
+    "uscensus:population":1129,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"17",
     "wof:belongsto":[
-        85688697,
         102191575,
-        404498391,
         85633793,
-        102081259
+        102081259,
+        404498391,
+        85688697
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -153,9 +156,10 @@
         "gn:id":4908543,
         "gp:id":2486610,
         "qs_pg:id":155835,
-        "uscensus:geoid":1766638,
+        "uscensus:geoid":"1766638",
         "wd:id":"Q1873582"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -176,11 +180,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690881897,
+    "wof:lastmodified":1722115951,
     "wof:name":"St. Anne",
     "wof:parent_id":404498391,
     "wof:placetype":"locality",
-    "wof:population":1257,
+    "wof:population":1129,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

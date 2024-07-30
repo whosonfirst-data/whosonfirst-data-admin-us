@@ -113,6 +113,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":10830328,
     "uscensus:awater":170110,
     "uscensus:classfp":"C2",
@@ -128,14 +130,16 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"80402",
     "uscensus:placens":"01086433",
+    "uscensus:population":527,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"39",
     "wd:wordcount":759,
     "wof:belongsto":[
-        85688485,
         102191575,
-        404526959,
         85633793,
-        102083703
+        102083703,
+        404526959,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -144,9 +148,10 @@
         "gn:id":5175519,
         "gp:id":2513202,
         "qs_pg:id":201770,
-        "uscensus:geoid":3980402,
+        "uscensus:geoid":"3980402",
         "wd:id":"Q928980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -167,10 +172,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885394,
+    "wof:lastmodified":1722116156,
     "wof:name":"Waite Hill",
     "wof:parent_id":404526959,
     "wof:placetype":"locality",
+    "wof:population":527,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

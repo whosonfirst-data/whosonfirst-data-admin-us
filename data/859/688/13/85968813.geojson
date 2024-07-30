@@ -166,7 +166,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":977131,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -182,6 +183,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"11836",
     "uscensus:placens":"02393557",
+    "uscensus:population":149,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":320.0,
     "wd:latitude":44.381667,
@@ -189,11 +192,11 @@
     "wd:population":153,
     "wd:wordcount":802,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404510541,
         85633793,
-        102087799
+        102087799,
+        404510541,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -202,10 +205,11 @@
         "gn:id":5021569,
         "gp:id":2381374,
         "qs_pg:id":349674,
-        "uscensus:geoid":2711836,
+        "uscensus:geoid":"2711836",
         "wd:id":"Q2188877",
         "wk:page":"Clements, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -226,11 +230,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882278,
+    "wof:lastmodified":1722115974,
     "wof:name":"Clements",
     "wof:parent_id":404510541,
     "wof:placetype":"locality",
-    "wof:population":153,
+    "wof:population":149,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

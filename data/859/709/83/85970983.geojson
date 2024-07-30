@@ -142,7 +142,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1847675,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -158,6 +159,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"33004",
     "uscensus:placens":"02394418",
+    "uscensus:population":447,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"29",
     "wd:elevation":320.0,
     "wd:latitude":40.5503,
@@ -165,11 +168,11 @@
     "wd:population":532,
     "wd:wordcount":1388,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404515589,
         85633793,
-        102087507
+        102087507,
+        404515589,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -178,10 +181,11 @@
         "gn:id":5055555,
         "gp:id":2424338,
         "qs_pg:id":198104,
-        "uscensus:geoid":2933004,
+        "uscensus:geoid":"2933004",
         "wd:id":"Q965823",
         "wk:page":"Hopkins, Missouri"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -202,11 +206,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690881884,
+    "wof:lastmodified":1722115950,
     "wof:name":"Hopkins",
     "wof:parent_id":404515589,
     "wof:placetype":"locality",
-    "wof:population":532,
+    "wof:population":447,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

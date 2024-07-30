@@ -233,7 +233,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":73410004,
     "uscensus:awater":4331496,
     "uscensus:classfp":"C5",
@@ -249,13 +250,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"19180",
     "uscensus:placens":"01220069",
+    "uscensus:population":82635,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"44",
     "wof:belongsto":[
-        85688509,
         102191575,
-        404488357,
         85633793,
-        102081597
+        102081597,
+        404488357,
+        85688509
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -263,9 +266,10 @@
         "gn:id":5221659,
         "gp:id":2386726,
         "qs_pg:id":816865,
-        "uscensus:geoid":4419180,
+        "uscensus:geoid":"4419180",
         "wd:id":"Q49197"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -283,11 +287,11 @@
         }
     ],
     "wof:id":101720573,
-    "wof:lastmodified":1690890244,
+    "wof:lastmodified":1722116375,
     "wof:name":"Cranston",
     "wof:parent_id":404488357,
     "wof:placetype":"locality",
-    "wof:population":80387,
+    "wof:population":82635,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

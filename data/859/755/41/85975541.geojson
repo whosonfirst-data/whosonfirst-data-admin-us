@@ -145,7 +145,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1401843,
     "uscensus:awater":555106,
     "uscensus:classfp":"C5",
@@ -161,16 +162,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"05740",
     "uscensus:placens":"00885160",
+    "uscensus:population":2514,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"34",
     "wd:latitude":40.0648,
     "wd:longitude":-74.9219,
     "wd:wordcount":4083,
     "wof:belongsto":[
-        85688607,
         102191575,
-        404477311,
         85633793,
-        102087415
+        102087415,
+        404477311,
+        85688607
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -178,10 +181,11 @@
         "gn:id":5095691,
         "gp:id":2363736,
         "qs_pg:id":814165,
-        "uscensus:geoid":3405740,
+        "uscensus:geoid":"3405740",
         "wd:id":"Q1083665",
         "wk:page":"Beverly, New Jersey"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -199,11 +203,11 @@
         }
     ],
     "wof:id":85975541,
-    "wof:lastmodified":1690881501,
+    "wof:lastmodified":1722115927,
     "wof:name":"Beverly",
     "wof:parent_id":404477311,
     "wof:placetype":"locality",
-    "wof:population":2577,
+    "wof:population":2514,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

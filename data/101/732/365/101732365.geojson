@@ -395,7 +395,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":117780409,
     "uscensus:awater":26635709,
     "uscensus:classfp":"C5",
@@ -411,6 +412,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"31000",
     "uscensus:placens":"01583309",
+    "uscensus:population":105744,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"55",
     "wd:elevation":177.0,
     "wd:latitude":44.513333,
@@ -418,11 +421,11 @@
     "wd:population":104057,
     "wd:wordcount":5714,
     "wof:belongsto":[
-        85688517,
         102191575,
-        404491529,
         85633793,
-        102081867
+        102081867,
+        404491529,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -431,10 +434,11 @@
         "gp:id":2413753,
         "loc:id":"n80139830",
         "qs_pg:id":274813,
-        "uscensus:geoid":5531000,
+        "uscensus:geoid":"5531000",
         "wd:id":"Q47430",
         "wk:page":"Green Bay, Wisconsin"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -452,12 +456,12 @@
         }
     ],
     "wof:id":101732365,
-    "wof:lastmodified":1690889279,
+    "wof:lastmodified":1722116316,
     "wof:megacity":0,
     "wof:name":"Green Bay",
     "wof:parent_id":404491529,
     "wof:placetype":"locality",
-    "wof:population":104057,
+    "wof:population":105744,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:scale":6,

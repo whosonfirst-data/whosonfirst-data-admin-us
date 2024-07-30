@@ -160,7 +160,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1042127,
     "uscensus:awater":1091,
     "uscensus:classfp":"C5",
@@ -176,17 +177,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"32732",
     "uscensus:placens":"02395506",
+    "uscensus:population":170,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":252.0,
     "wd:latitude":48.641944,
     "wd:longitude":-96.908889,
     "wd:wordcount":747,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404509911,
         85633793,
-        102087613
+        102087613,
+        404509911,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -195,10 +198,11 @@
         "gn:id":5033043,
         "gp:id":2431521,
         "qs_pg:id":1051054,
-        "uscensus:geoid":2732732,
+        "uscensus:geoid":"2732732",
         "wd:id":"Q2230455",
         "wk:page":"Kennedy, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -219,11 +223,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882070,
+    "wof:lastmodified":1722115961,
     "wof:name":"Kennedy",
     "wof:parent_id":404509911,
     "wof:placetype":"locality",
-    "wof:population":193,
+    "wof:population":170,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

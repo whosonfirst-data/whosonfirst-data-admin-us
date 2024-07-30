@@ -199,7 +199,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":120969941,
     "uscensus:awater":4419853,
     "uscensus:classfp":"C5",
@@ -215,6 +216,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"69170",
     "uscensus:placens":"00619440",
+    "uscensus:population":60412,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"25",
     "wd:elevation":9.0,
     "wd:latitude":41.9,
@@ -222,11 +225,11 @@
     "wd:population":55874,
     "wd:wordcount":5168,
     "wof:belongsto":[
-        85688645,
         102191575,
-        404476147,
         85633793,
-        102084407
+        102084407,
+        404476147,
+        85688645
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -234,13 +237,14 @@
         "gn:id":4952629,
         "gp:id":2504265,
         "qs_pg:id":155986,
-        "uscensus:geoid":2569170,
+        "uscensus:geoid":"2569170",
         "wd:id":"Q127506",
         "wk:page":"Taunton, Massachusetts"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1150941
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -258,11 +262,11 @@
         }
     ],
     "wof:id":85950365,
-    "wof:lastmodified":1690881958,
+    "wof:lastmodified":1722115954,
     "wof:name":"Taunton",
     "wof:parent_id":404476147,
     "wof:placetype":"locality",
-    "wof:population":55874,
+    "wof:population":60412,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

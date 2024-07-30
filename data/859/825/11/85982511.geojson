@@ -181,7 +181,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":8554285,
     "uscensus:awater":680743,
     "uscensus:classfp":"C5",
@@ -197,13 +198,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"31820",
     "uscensus:placens":"01036063",
+    "uscensus:population":4059,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wof:belongsto":[
-        85688525,
         102191575,
-        404481849,
         85633793,
-        102082057
+        102082057,
+        404481849,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -212,9 +215,10 @@
         "gn:id":5059419,
         "gp:id":2412641,
         "qs_pg:id":1051254,
-        "uscensus:geoid":3831820,
+        "uscensus:geoid":"3831820",
         "wd:id":"Q1772501"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -235,11 +239,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885196,
+    "wof:lastmodified":1722116144,
     "wof:name":"Grafton",
     "wof:parent_id":404481849,
     "wof:placetype":"locality",
-    "wof:population":4284,
+    "wof:population":4059,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

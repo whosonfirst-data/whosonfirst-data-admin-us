@@ -316,7 +316,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":37765147,
     "uscensus:awater":272373,
     "uscensus:classfp":"C5",
@@ -332,6 +333,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"18250",
     "uscensus:placens":"00485563",
+    "uscensus:population":27514,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"20",
     "wd:elevation":760.0,
     "wd:latitude":37.759722,
@@ -339,11 +342,11 @@
     "wd:population":27340,
     "wd:wordcount":6901,
     "wof:belongsto":[
-        85688555,
         102191575,
-        404503629,
         85633793,
-        102082141
+        102082141,
+        404503629,
+        85688555
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -353,13 +356,14 @@
         "gp:id":2392522,
         "loc:id":"n82000716",
         "qs_pg:id":355390,
-        "uscensus:geoid":2018250,
+        "uscensus:geoid":"2018250",
         "wd:id":"Q647127",
         "wk:page":"Dodge City, Kansas"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1139249
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -380,12 +384,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882958,
+    "wof:lastmodified":1722116014,
     "wof:megacity":0,
     "wof:name":"Dodge City",
     "wof:parent_id":404503629,
     "wof:placetype":"locality",
-    "wof:population":27340,
+    "wof:population":27514,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:scale":7,

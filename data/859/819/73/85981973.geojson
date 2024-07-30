@@ -142,7 +142,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":2016331,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -158,17 +159,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"66260",
     "uscensus:placens":"01036236",
+    "uscensus:population":268,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"38",
     "wd:elevation":277.0,
     "wd:latitude":47.671667,
     "wd:longitude":-97.106667,
     "wd:wordcount":852,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404481813,
         85633793,
-        102081481
+        102081481,
+        404481813,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -177,10 +180,11 @@
         "gn:id":5061104,
         "gp:id":2480470,
         "qs_pg:id":156482,
-        "uscensus:geoid":3866260,
+        "uscensus:geoid":"3866260",
         "wd:id":"Q2137513",
         "wk:page":"Reynolds, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -201,11 +205,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882587,
+    "wof:lastmodified":1722115992,
     "wof:name":"Reynolds",
     "wof:parent_id":404481813,
     "wof:placetype":"locality",
-    "wof:population":301,
+    "wof:population":268,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

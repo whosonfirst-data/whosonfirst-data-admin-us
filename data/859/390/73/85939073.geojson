@@ -175,7 +175,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":18687187,
     "uscensus:awater":176551,
     "uscensus:classfp":"C1",
@@ -191,16 +192,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"73170",
     "uscensus:placens":"02395987",
+    "uscensus:population":12470,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"17",
     "wd:latitude":41.120833,
     "wd:longitude":-88.835278,
     "wd:wordcount":7731,
     "wof:belongsto":[
-        85688697,
         102191575,
-        404499875,
         85633793,
-        102081255
+        102081255,
+        404499875,
+        85688697
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -208,10 +211,11 @@
         "gn:id":4912698,
         "gp:id":2500857,
         "qs_pg:id":1284037,
-        "uscensus:geoid":1773170,
+        "uscensus:geoid":"1773170",
         "wd:id":"Q577816",
         "wk:page":"Streator, Illinois"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -229,11 +233,11 @@
         }
     ],
     "wof:id":85939073,
-    "wof:lastmodified":1690882099,
+    "wof:lastmodified":1722115963,
     "wof:name":"Streator",
     "wof:parent_id":404499875,
     "wof:placetype":"locality",
-    "wof:population":13710,
+    "wof:population":12470,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -256,7 +256,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":3551157,
     "uscensus:awater":429544,
     "uscensus:classfp":"C1",
@@ -272,17 +273,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"40761",
     "uscensus:placens":"02390927",
+    "uscensus:population":2275,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"36",
     "wd:elevation":549.0,
     "wd:latitude":44.285556,
     "wd:longitude":-73.985278,
     "wd:wordcount":2425,
     "wof:belongsto":[
-        85688543,
         102191575,
-        404522287,
         85633793,
-        102082405
+        102082405,
+        404522287,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -294,10 +297,11 @@
         "gp:id":2435095,
         "nyt:id":"N63521017223930241091",
         "qs_pg:id":354910,
-        "uscensus:geoid":3640761,
+        "uscensus:geoid":"3640761",
         "wd:id":"Q192700",
         "wk:page":"Lake Placid, New York"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -318,11 +322,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885924,
+    "wof:lastmodified":1722116189,
     "wof:name":"Lake Placid",
     "wof:parent_id":404522287,
     "wof:placetype":"locality",
-    "wof:population":2521,
+    "wof:population":2275,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

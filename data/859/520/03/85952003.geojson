@@ -320,7 +320,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":51503076,
     "uscensus:awater":953493,
     "uscensus:classfp":"C5",
@@ -336,6 +337,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"65440",
     "uscensus:placens":"01626924",
+    "uscensus:population":61689,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"26",
     "wd:elevation":281.0,
     "wd:latitude":42.646111,
@@ -343,11 +346,11 @@
     "wd:population":59515,
     "wd:wordcount":5102,
     "wof:belongsto":[
-        85688599,
         102191575,
-        404508295,
         85633793,
-        102083713
+        102083713,
+        404508295,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -356,13 +359,14 @@
         "gn:id":5006166,
         "gp:id":2475052,
         "qs_pg:id":240160,
-        "uscensus:geoid":2665440,
+        "uscensus:geoid":"2665440",
         "wd:id":"Q847596",
         "wk:page":"Pontiac, Michigan"
     },
     "wof:concordances_alt":{
         "qs_pg:id":354540
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -383,12 +387,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883745,
+    "wof:lastmodified":1722116058,
     "wof:megacity":0,
     "wof:name":"Pontiac",
     "wof:parent_id":404508295,
     "wof:placetype":"locality",
-    "wof:population":59515,
+    "wof:population":61689,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:scale":7,

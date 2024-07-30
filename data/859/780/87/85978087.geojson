@@ -103,7 +103,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2115463,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -119,14 +120,16 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"24823",
     "uscensus:placens":"02390829",
+    "uscensus:population":621,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"36",
     "wd:wordcount":593,
     "wof:belongsto":[
-        85688543,
         102191575,
-        404521927,
         85633793,
-        102082357
+        102082357,
+        404521927,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -135,10 +138,11 @@
         "gn:id":5116714,
         "gp:id":2400711,
         "qs_pg:id":385677,
-        "uscensus:geoid":3624823,
+        "uscensus:geoid":"3624823",
         "wd:id":"Q3458095",
         "wk:page":"Evans Mills, New York"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -159,7 +163,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690886237,
+    "wof:lastmodified":1722116209,
     "wof:name":"Evans Mills",
     "wof:parent_id":404521927,
     "wof:placetype":"locality",

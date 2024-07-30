@@ -163,7 +163,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":735086,
     "uscensus:awater":64061,
     "uscensus:classfp":"C5",
@@ -179,17 +180,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"20020",
     "uscensus:placens":"01035996",
+    "uscensus:population":89,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":626.0,
     "wd:latitude":47.857778,
     "wd:longitude":-101.502222,
     "wd:wordcount":775,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404482309,
         85633793,
-        102082117
+        102082117,
+        404482309,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -198,10 +201,11 @@
         "gn:id":5688813,
         "gp:id":2393260,
         "qs_pg:id":29363,
-        "uscensus:geoid":3820020,
+        "uscensus:geoid":"3820020",
         "wd:id":"Q2226686",
         "wk:page":"Douglas, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -222,11 +226,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885204,
+    "wof:lastmodified":1722116145,
     "wof:name":"Douglas",
     "wof:parent_id":404482309,
     "wof:placetype":"locality",
-    "wof:population":64,
+    "wof:population":89,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

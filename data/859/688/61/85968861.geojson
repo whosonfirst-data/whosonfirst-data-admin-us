@@ -91,7 +91,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":8906863,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -107,14 +108,16 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"18872",
     "uscensus:placens":"02394670",
+    "uscensus:population":116,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:wordcount":27,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404510029,
         85633793,
-        102087847
+        102087847,
+        404510029,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -123,9 +126,10 @@
         "gn:id":5025581,
         "gp:id":2398941,
         "qs_pg:id":271605,
-        "uscensus:geoid":2718872,
+        "uscensus:geoid":"2718872",
         "wd:id":"Q354930"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -146,7 +150,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882266,
+    "wof:lastmodified":1722115974,
     "wof:name":"Elmdale",
     "wof:parent_id":404510029,
     "wof:placetype":"locality",

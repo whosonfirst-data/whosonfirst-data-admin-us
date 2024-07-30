@@ -146,7 +146,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":631714,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -162,17 +163,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"72650",
     "uscensus:placens":"02397105",
+    "uscensus:population":98,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"20",
     "wd:elevation":800.0,
     "wd:latitude":38.6428,
     "wd:longitude":-100.169,
     "wd:wordcount":841,
     "wof:belongsto":[
-        85688555,
         102191575,
-        404504965,
         85633793,
-        102083417
+        102083417,
+        404504965,
+        85688555
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -181,10 +184,11 @@
         "gn:id":5446676,
         "gp:id":2510527,
         "qs_pg:id":354569,
-        "uscensus:geoid":2072650,
+        "uscensus:geoid":"2072650",
         "wd:id":"Q2210126",
         "wk:page":"Utica, Kansas"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -205,11 +209,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882923,
+    "wof:lastmodified":1722116012,
     "wof:name":"Utica",
     "wof:parent_id":404504965,
     "wof:placetype":"locality",
-    "wof:population":158,
+    "wof:population":98,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -136,7 +136,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1010127,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -152,17 +153,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"28780",
     "uscensus:placens":"01036047",
+    "uscensus:population":57,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":440.0,
     "wd:latitude":46.162778,
     "wd:longitude":-98.427778,
     "wd:wordcount":812,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404479905,
         85633793,
-        102082079
+        102082079,
+        404479905,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -171,10 +174,11 @@
         "gn:id":5059296,
         "gp:id":2408090,
         "qs_pg:id":278437,
-        "uscensus:geoid":3828780,
+        "uscensus:geoid":"3828780",
         "wd:id":"Q2447016",
         "wk:page":"Fullerton, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -195,11 +199,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885245,
+    "wof:lastmodified":1722116147,
     "wof:name":"Fullerton",
     "wof:parent_id":404479905,
     "wof:placetype":"locality",
-    "wof:population":54,
+    "wof:population":57,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -155,7 +155,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2025643,
     "uscensus:awater":158301,
     "uscensus:classfp":"C5",
@@ -171,13 +172,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"57022",
     "uscensus:placens":"02396492",
+    "uscensus:population":258,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wof:belongsto":[
-        85688727,
         102191575,
-        404510387,
         85633793,
-        102086989
+        102086989,
+        404510387,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -186,9 +189,10 @@
         "gn:id":5044550,
         "gp:id":2486816,
         "qs_pg:id":156387,
-        "uscensus:geoid":2757022,
+        "uscensus:geoid":"2757022",
         "wd:id":"Q2249523"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -209,11 +213,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884435,
+    "wof:lastmodified":1722116099,
     "wof:name":"St. Hilaire",
     "wof:parent_id":404510387,
     "wof:placetype":"locality",
-    "wof:population":279,
+    "wof:population":258,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

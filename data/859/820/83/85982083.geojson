@@ -145,7 +145,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":116400,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -161,17 +162,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"72820",
     "uscensus:placens":"01036263",
+    "uscensus:population":19,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":388.0,
     "wd:latitude":47.214722,
     "wd:longitude":-97.965278,
     "wd:wordcount":848,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404480099,
         85633793,
-        102082051
+        102082051,
+        404480099,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -179,10 +182,11 @@
         "gn:id":5061890,
         "gp:id":2493325,
         "qs_pg:id":603127,
-        "uscensus:geoid":3872820,
+        "uscensus:geoid":"3872820",
         "wd:id":"Q2179723",
         "wk:page":"Sibley, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -200,11 +204,11 @@
         }
     ],
     "wof:id":85982083,
-    "wof:lastmodified":1690882191,
+    "wof:lastmodified":1722115969,
     "wof:name":"Sibley",
     "wof:parent_id":404480099,
     "wof:placetype":"locality",
-    "wof:population":30,
+    "wof:population":19,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

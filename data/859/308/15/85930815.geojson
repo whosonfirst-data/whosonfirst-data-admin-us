@@ -211,7 +211,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":34589134,
     "uscensus:awater":187384,
     "uscensus:classfp":"C1",
@@ -227,6 +228,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"50370",
     "uscensus:placens":"02378284",
+    "uscensus:population":74080,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"09",
     "wd:elevation":51.0,
     "wd:latitude":41.675,
@@ -234,11 +237,11 @@
     "wd:population":73206,
     "wd:wordcount":2942,
     "wof:belongsto":[
-        85688629,
         102191575,
-        404495989,
         85633793,
-        102085381
+        102085381,
+        404495989,
+        85688629
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -246,10 +249,11 @@
         "gn:id":4839292,
         "gp:id":2458090,
         "qs_pg:id":1050029,
-        "uscensus:geoid":950370,
+        "uscensus:geoid":"0950370",
         "wd:id":"Q49172",
         "wk:page":"New Britain, Connecticut"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -267,11 +271,11 @@
         }
     ],
     "wof:id":85930815,
-    "wof:lastmodified":1690881800,
+    "wof:lastmodified":1722115945,
     "wof:name":"New Britain",
     "wof:parent_id":404495989,
     "wof:placetype":"locality",
-    "wof:population":73206,
+    "wof:population":74080,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -166,7 +166,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":950309,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -182,17 +183,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"40526",
     "uscensus:placens":"02395006",
+    "uscensus:population":116,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":342.0,
     "wd:latitude":45.008333,
     "wd:longitude":-96.4175,
     "wd:wordcount":760,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404509951,
         85633793,
-        102087677
+        102087677,
+        404509951,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -201,10 +204,11 @@
         "gn:id":5036655,
         "gp:id":2445674,
         "qs_pg:id":249417,
-        "uscensus:geoid":2740526,
+        "uscensus:geoid":"2740526",
         "wd:id":"Q1912362",
         "wk:page":"Marietta, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -225,11 +229,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882516,
+    "wof:lastmodified":1722115988,
     "wof:name":"Marietta",
     "wof:parent_id":404509951,
     "wof:placetype":"locality",
-    "wof:population":162,
+    "wof:population":116,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -200,7 +200,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":42259101,
     "uscensus:awater":124950,
     "uscensus:classfp":"C1",
@@ -216,17 +217,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"78326",
     "uscensus:placens":"02397114",
+    "uscensus:population":34627,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"18",
     "wd:elevation":242.0,
     "wd:latitude":41.476111,
     "wd:longitude":-87.056944,
     "wd:wordcount":3622,
     "wof:belongsto":[
-        85688709,
         102191575,
-        404501707,
         85633793,
-        102087191
+        102087191,
+        404501707,
+        85688709
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -235,10 +238,11 @@
         "gn:id":4927537,
         "gp:id":2511078,
         "qs_pg:id":354380,
-        "uscensus:geoid":1878326,
+        "uscensus:geoid":"1878326",
         "wd:id":"Q868888",
         "wk:page":"Valparaiso, Indiana"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -259,11 +263,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882696,
+    "wof:lastmodified":1722115999,
     "wof:name":"Valparaiso",
     "wof:parent_id":404501707,
     "wof:placetype":"locality",
-    "wof:population":31730,
+    "wof:population":34627,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

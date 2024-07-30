@@ -166,7 +166,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2717369,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -182,13 +183,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"39266",
     "uscensus:placens":"02395807",
+    "uscensus:population":1491,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wof:belongsto":[
-        85688727,
         102191575,
-        404514429,
         85633793,
-        102087677
+        102087677,
+        404514429,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -197,8 +200,9 @@
         "gn:id":5036210,
         "gp:id":2443950,
         "qs_pg:id":1051085,
-        "uscensus:geoid":2739266
+        "uscensus:geoid":"2739266"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -219,11 +223,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1636497962,
+    "wof:lastmodified":1722115919,
     "wof:name":"Madison",
     "wof:parent_id":404514429,
     "wof:placetype":"locality",
-    "wof:population":1551,
+    "wof:population":1491,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

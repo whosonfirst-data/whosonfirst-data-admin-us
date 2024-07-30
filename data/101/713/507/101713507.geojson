@@ -116,7 +116,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":3051487,
     "uscensus:awater":0,
     "uscensus:classfp":"U1",
@@ -132,14 +133,16 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"20366",
     "uscensus:placens":"02393392",
+    "uscensus:population":2620,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"39",
     "wd:wordcount":491,
     "wof:belongsto":[
-        85688485,
         102191575,
-        404525021,
         85633793,
-        102084793
+        102084793,
+        404525021,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -148,10 +151,11 @@
         "gn:id":4509882,
         "gp:id":23417848,
         "qs_pg:id":1218451,
-        "uscensus:geoid":3920366,
+        "uscensus:geoid":"3920366",
         "wd:id":"Q2171830",
         "wk:page":"Day Heights, Ohio"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -172,7 +176,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690888461,
+    "wof:lastmodified":1722116264,
     "wof:name":"Day Heights",
     "wof:parent_id":404525021,
     "wof:placetype":"locality",

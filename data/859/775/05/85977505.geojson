@@ -262,7 +262,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":19379170,
     "uscensus:awater":3334136,
     "uscensus:classfp":"C5",
@@ -278,17 +279,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"39727",
     "uscensus:placens":"00979118",
+    "uscensus:population":23777,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"36",
     "wd:elevation":145.0,
     "wd:latitude":41.925,
     "wd:longitude":-74.0,
     "wd:wordcount":3220,
     "wof:belongsto":[
-        85688543,
         102191575,
-        404523249,
         85633793,
-        102081775
+        102081775,
+        404523249,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -297,10 +300,11 @@
         "gn:id":5123477,
         "gp:id":2432803,
         "qs_pg:id":822494,
-        "uscensus:geoid":3639727,
+        "uscensus:geoid":"3639727",
         "wd:id":"Q868660",
         "wk:page":"Kingston, New York"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -321,11 +325,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885918,
+    "wof:lastmodified":1722116189,
     "wof:name":"Kingston",
     "wof:parent_id":404523249,
     "wof:placetype":"locality",
-    "wof:population":23893,
+    "wof:population":23777,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

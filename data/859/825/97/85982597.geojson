@@ -133,7 +133,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":354847,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -149,17 +150,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"50380",
     "uscensus:placens":"01036147",
+    "uscensus:population":68,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":313.0,
     "wd:latitude":46.165278,
     "wd:longitude":-96.978056,
     "wd:wordcount":802,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404479447,
         85633793,
-        102082103
+        102082103,
+        404479447,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -168,10 +171,11 @@
         "gn:id":5060288,
         "gp:id":2445036,
         "qs_pg:id":1051270,
-        "uscensus:geoid":3850380,
+        "uscensus:geoid":"3850380",
         "wd:id":"Q2442957",
         "wk:page":"Mantador, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -192,11 +196,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885201,
+    "wof:lastmodified":1722116145,
     "wof:name":"Mantador",
     "wof:parent_id":404479447,
     "wof:placetype":"locality",
-    "wof:population":64,
+    "wof:population":68,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

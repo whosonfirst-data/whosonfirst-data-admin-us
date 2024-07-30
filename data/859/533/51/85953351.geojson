@@ -157,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1623255,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -173,17 +174,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"24506",
     "uscensus:placens":"02394927",
+    "uscensus:population":547,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":302.0,
     "wd:latitude":44.004722,
     "wd:longitude":-94.065833,
     "wd:wordcount":797,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404511529,
         85633793,
-        102087625
+        102087625,
+        404511529,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -192,10 +195,11 @@
         "gn:id":5028224,
         "gp:id":2412018,
         "qs_pg:id":1217909,
-        "uscensus:geoid":2724506,
+        "uscensus:geoid":"2724506",
         "wd:id":"Q2230638",
         "wk:page":"Good Thunder, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -216,11 +220,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690881527,
+    "wof:lastmodified":1722115929,
     "wof:name":"Good Thunder",
     "wof:parent_id":404511529,
     "wof:placetype":"locality",
-    "wof:population":583,
+    "wof:population":547,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

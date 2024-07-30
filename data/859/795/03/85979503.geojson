@@ -67,7 +67,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":1291768,
     "uscensus:awater":11940,
     "uscensus:classfp":"U1",
@@ -83,13 +84,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"64859",
     "uscensus:placens":"02584289",
+    "uscensus:population":581,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"36",
     "wof:belongsto":[
-        85688543,
         102191575,
-        404522801,
         85633793,
-        102083061
+        102083061,
+        404522801,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -98,9 +101,10 @@
         "gn:id":5136111,
         "gp:id":2487504,
         "qs_pg:id":219300,
-        "uscensus:geoid":3664859,
+        "uscensus:geoid":"3664859",
         "wd:id":"Q6117311"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -121,11 +125,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884621,
+    "wof:lastmodified":1722116110,
     "wof:name":"Salisbury Mills",
     "wof:parent_id":404522801,
     "wof:placetype":"locality",
-    "wof:population":536,
+    "wof:population":581,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

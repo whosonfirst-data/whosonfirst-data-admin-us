@@ -17,7 +17,7 @@
     "mps:latitude":28.624073,
     "mps:longitude":-100.429081,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:ceb_x_preferred":[
         "Rosita"
@@ -63,14 +63,21 @@
     "src:geom":"quattroshapes",
     "src:geom_alt":[],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
+    "uscensus:population":3600,
+    "uscensus:population_date":"2022",
     "wof:belongsto":[
         102191575,
         85633793,
-        85688753,
-        102086763
+        102086763,
+        85688753
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "uscensus:geoid":"4863350"
+    },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geomhash":"5937f1f870219a0994bf2a7ffbb1b515",
     "wof:hierarchy":[
@@ -83,10 +90,12 @@
         }
     ],
     "wof:id":101726575,
-    "wof:lastmodified":1566626581,
+    "wof:lastmodified":1722115904,
     "wof:name":"Rosita",
     "wof:parent_id":102086763,
     "wof:placetype":"locality",
+    "wof:population":3600,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

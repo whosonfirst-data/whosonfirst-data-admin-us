@@ -145,7 +145,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":1440408,
     "uscensus:awater":31214,
     "uscensus:classfp":"C5",
@@ -161,17 +162,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"86580",
     "uscensus:placens":"01036337",
+    "uscensus:population":730,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"38",
     "wd:elevation":662.0,
     "wd:latitude":47.158889,
     "wd:longitude":-100.785833,
     "wd:wordcount":990,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404481793,
         85633793,
-        102082097
+        102082097,
+        404481793,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -180,10 +183,11 @@
         "gn:id":5554477,
         "gp:id":2521609,
         "qs_pg:id":1052673,
-        "uscensus:geoid":3886580,
+        "uscensus:geoid":"3886580",
         "wd:id":"Q2068677",
         "wk:page":"Wilton, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -204,11 +208,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884818,
+    "wof:lastmodified":1722116122,
     "wof:name":"Wilton",
     "wof:parent_id":404481793,
     "wof:placetype":"locality",
-    "wof:population":711,
+    "wof:population":730,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

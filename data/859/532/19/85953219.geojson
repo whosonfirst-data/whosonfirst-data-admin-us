@@ -115,7 +115,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":3260108,
     "uscensus:awater":156267,
     "uscensus:classfp":"C5",
@@ -131,13 +132,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"45682",
     "uscensus:placens":"02395203",
+    "uscensus:population":1284,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wof:belongsto":[
-        85688727,
         102191575,
-        404513943,
         85633793,
-        102087635
+        102087635,
+        404513943,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -146,8 +149,9 @@
         "gn:id":5039111,
         "gp:id":2458675,
         "qs_pg:id":326590,
-        "uscensus:geoid":2745682
+        "uscensus:geoid":"2745682"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -168,11 +172,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1636497931,
+    "wof:lastmodified":1722115919,
     "wof:name":"New London",
     "wof:parent_id":404513943,
     "wof:placetype":"locality",
-    "wof:population":1251,
+    "wof:population":1284,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

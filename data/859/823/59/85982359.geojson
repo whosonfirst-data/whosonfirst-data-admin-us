@@ -133,7 +133,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":762660,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -149,16 +150,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"32580",
     "uscensus:placens":"01036066",
+    "uscensus:population":10,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:latitude":48.615833,
     "wd:longitude":-101.5875,
     "wd:wordcount":663,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404482321,
         85633793,
-        102082063
+        102082063,
+        404482321,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -167,10 +170,11 @@
         "gn:id":5689368,
         "gp:id":2413100,
         "qs_pg:id":796805,
-        "uscensus:geoid":3832580,
+        "uscensus:geoid":"3832580",
         "wd:id":"Q1923894",
         "wk:page":"Grano, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -191,11 +195,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884814,
+    "wof:lastmodified":1722116121,
     "wof:name":"Grano",
     "wof:parent_id":404482321,
     "wof:placetype":"locality",
-    "wof:population":7,
+    "wof:population":10,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

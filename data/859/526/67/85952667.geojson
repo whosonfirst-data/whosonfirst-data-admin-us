@@ -157,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":3186750,
     "uscensus:awater":144531,
     "uscensus:classfp":"C5",
@@ -173,17 +174,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"48130",
     "uscensus:placens":"02395308",
+    "uscensus:population":203,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":387.0,
     "wd:latitude":47.102778,
     "wd:longitude":-95.925,
     "wd:wordcount":757,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404509215,
         85633793,
-        102087001
+        102087001,
+        404509215,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -191,10 +194,11 @@
         "gn:id":5040066,
         "gp:id":2464362,
         "qs_pg:id":1051114,
-        "uscensus:geoid":2748130,
+        "uscensus:geoid":"2748130",
         "wd:id":"Q1924316",
         "wk:page":"Ogema, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -212,12 +216,12 @@
         }
     ],
     "wof:id":85952667,
-    "wof:lastmodified":1690883475,
+    "wof:lastmodified":1722116041,
     "wof:name":"Ogema",
     "wof:parent_id":404509215,
     "wof:placetype":"locality",
-    "wof:population":184,
-    "wof:population_rank":1,
+    "wof:population":203,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

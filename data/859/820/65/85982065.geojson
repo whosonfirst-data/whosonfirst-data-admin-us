@@ -133,7 +133,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1941478,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -149,17 +150,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"06180",
     "uscensus:placens":"01035928",
+    "uscensus:population":11,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":481.0,
     "wd:latitude":48.002778,
     "wd:longitude":-100.716667,
     "wd:wordcount":673,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404479097,
         85633793,
-        102082517
+        102082517,
+        404479097,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -168,10 +171,11 @@
         "gn:id":5687925,
         "gp:id":2362890,
         "qs_pg:id":248348,
-        "uscensus:geoid":3806180,
+        "uscensus:geoid":"3806180",
         "wd:id":"Q2069603",
         "wk:page":"Bergen, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -192,11 +196,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882189,
+    "wof:lastmodified":1722115969,
     "wof:name":"Bergen",
     "wof:parent_id":404479097,
     "wof:placetype":"locality",
-    "wof:population":7,
+    "wof:population":11,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

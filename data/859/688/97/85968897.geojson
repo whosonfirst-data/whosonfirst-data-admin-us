@@ -154,7 +154,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":3596045,
     "uscensus:awater":157043,
     "uscensus:classfp":"C5",
@@ -170,13 +171,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"44422",
     "uscensus:placens":"02395418",
+    "uscensus:population":670,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"27",
     "wof:belongsto":[
-        85688727,
         102191575,
-        404512853,
         85633793,
-        102087847
+        102087847,
+        404512853,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -185,9 +188,10 @@
         "gn:id":5038330,
         "gp:id":2454638,
         "qs_pg:id":1037096,
-        "uscensus:geoid":2744422,
+        "uscensus:geoid":"2744422",
         "wd:id":"Q662446"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -208,11 +212,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882275,
+    "wof:lastmodified":1722115974,
     "wof:name":"Motley",
     "wof:parent_id":404512853,
     "wof:placetype":"locality",
-    "wof:population":671,
+    "wof:population":670,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -176,7 +176,10 @@
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":9636,
+    "uscensus:population_date":"2023",
     "wd:elevation":192.0,
     "wd:latitude":36.299722,
     "wd:longitude":-95.313889,
@@ -184,14 +187,15 @@
     "wof:belongsto":[
         102191575,
         85633793,
-        85688585,
-        102083307
+        102083307,
+        85688585
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":4548516,
         "gp:id":2477115,
         "qs_pg:id":465273,
+        "uscensus:geoid":"4061000",
         "wd:id":"Q2019260",
         "wk:page":"Pryor_Creek%2C_Oklahoma"
     },
@@ -200,6 +204,7 @@
             10103966
         ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg"
@@ -215,11 +220,11 @@
         }
     ],
     "wof:id":101715191,
-    "wof:lastmodified":1706240789,
+    "wof:lastmodified":1722116401,
     "wof:name":"Pryor Creek",
     "wof:parent_id":102083307,
     "wof:placetype":"locality",
-    "wof:population":9469,
+    "wof:population":9636,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

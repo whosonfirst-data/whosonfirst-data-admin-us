@@ -160,7 +160,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":11583342,
     "uscensus:awater":71781,
     "uscensus:classfp":"C5",
@@ -176,13 +177,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"31832",
     "uscensus:placens":"02395464",
+    "uscensus:population":499,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wof:belongsto":[
-        85688727,
         102191575,
-        404512053,
         85633793,
-        102087093
+        102087093,
+        404512053,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -191,9 +194,10 @@
         "gn:id":5031862,
         "gp:id":2428984,
         "qs_pg:id":1174107,
-        "uscensus:geoid":2731832,
+        "uscensus:geoid":"2731832",
         "wd:id":"Q529830"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -214,11 +218,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883474,
+    "wof:lastmodified":1722116041,
     "wof:name":"Jenkins",
     "wof:parent_id":404512053,
     "wof:placetype":"locality",
-    "wof:population":430,
+    "wof:population":499,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

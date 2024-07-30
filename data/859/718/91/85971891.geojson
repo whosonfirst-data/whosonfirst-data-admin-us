@@ -153,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1479251,
     "uscensus:awater":10632,
     "uscensus:classfp":"C1",
@@ -169,6 +170,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"01090",
     "uscensus:placens":"02393949",
+    "uscensus:population":221,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"29",
     "wd:elevation":270.0,
     "wd:latitude":38.350556,
@@ -176,11 +179,11 @@
     "wd:population":242,
     "wd:wordcount":830,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404515397,
         85633793,
-        102085289
+        102085289,
+        404515397,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -189,10 +192,11 @@
         "gn:id":4374800,
         "gp:id":2354403,
         "qs_pg:id":1187995,
-        "uscensus:geoid":2901090,
+        "uscensus:geoid":"2901090",
         "wd:id":"Q959016",
         "wk:page":"Amsterdam, Missouri"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -213,11 +217,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690886525,
+    "wof:lastmodified":1722116227,
     "wof:name":"Amsterdam",
     "wof:parent_id":404515397,
     "wof:placetype":"locality",
-    "wof:population":242,
+    "wof:population":221,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

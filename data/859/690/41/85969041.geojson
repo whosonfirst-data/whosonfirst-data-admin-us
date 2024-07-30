@@ -151,7 +151,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":474496,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -167,13 +168,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"22526",
     "uscensus:placens":"02394819",
+    "uscensus:population":260,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wof:belongsto":[
-        85688727,
         102191575,
-        404509651,
         85633793,
-        102087887
+        102087887,
+        404509651,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -182,9 +185,10 @@
         "gn:id":5027396,
         "gp:id":2407231,
         "qs_pg:id":1144154,
-        "uscensus:geoid":2722526,
+        "uscensus:geoid":"2722526",
         "wd:id":"Q2165506"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -205,11 +209,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885420,
+    "wof:lastmodified":1722116158,
     "wof:name":"Freeborn",
     "wof:parent_id":404509651,
     "wof:placetype":"locality",
-    "wof:population":297,
+    "wof:population":260,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

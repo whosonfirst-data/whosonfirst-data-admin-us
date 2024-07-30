@@ -140,7 +140,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":4877259,
     "uscensus:awater":532784,
     "uscensus:classfp":"U2",
@@ -156,14 +157,16 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"07345",
     "uscensus:placens":"02378338",
+    "uscensus:population":5970,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"09",
     "wd:wordcount":1102,
     "wof:belongsto":[
-        85688629,
         102191575,
-        404495705,
         85633793,
-        102086923
+        102086923,
+        404495705,
+        85688629
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -171,7 +174,7 @@
         "gn:id":5283054,
         "gp:id":2368213,
         "qs_pg:id":158481,
-        "uscensus:geoid":907345,
+        "uscensus:geoid":"0907345",
         "wd:id":"Q753244",
         "wk:page":"Branford Center, Connecticut"
     },
@@ -186,6 +189,7 @@
             "Branford_Center%2C_Connecticut"
         ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -203,11 +207,11 @@
         }
     ],
     "wof:id":85931417,
-    "wof:lastmodified":1706240755,
+    "wof:lastmodified":1722116397,
     "wof:name":"Branford Center",
     "wof:parent_id":404495705,
     "wof:placetype":"locality",
-    "wof:population":5819,
+    "wof:population":5970,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

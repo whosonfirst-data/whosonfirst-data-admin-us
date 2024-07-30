@@ -153,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2588805,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -169,6 +170,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"09838",
     "uscensus:placens":"02393470",
+    "uscensus:population":498,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"29",
     "wd:elevation":296.0,
     "wd:latitude":40.4464,
@@ -176,11 +179,11 @@
     "wd:population":537,
     "wd:wordcount":752,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404517063,
         85633793,
-        102087507
+        102087507,
+        404517063,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -189,13 +192,14 @@
         "gn:id":5054326,
         "gp:id":2372058,
         "qs_pg:id":878646,
-        "uscensus:geoid":2909838,
+        "uscensus:geoid":"2909838",
         "wd:id":"Q953013",
         "wk:page":"Burlington Junction, Missouri"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1138158
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -216,11 +220,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690886194,
+    "wof:lastmodified":1722116206,
     "wof:name":"Burlington Junction",
     "wof:parent_id":404517063,
     "wof:placetype":"locality",
-    "wof:population":537,
+    "wof:population":498,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -170,7 +170,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":12408937,
     "uscensus:awater":356717,
     "uscensus:classfp":"C1",
@@ -186,17 +187,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"44632",
     "uscensus:placens":"02395743",
+    "uscensus:population":7166,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"39",
     "wd:elevation":226.0,
     "wd:latitude":39.5392,
     "wd:longitude":-82.4061,
     "wd:wordcount":1817,
     "wof:belongsto":[
-        85688485,
         102191575,
-        404526423,
         85633793,
-        102083709
+        102083709,
+        404526423,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -205,10 +208,11 @@
         "gn:id":4516989,
         "gp:id":2441104,
         "qs_pg:id":1241601,
-        "uscensus:geoid":3944632,
+        "uscensus:geoid":"3944632",
         "wd:id":"Q1004066",
         "wk:page":"Logan, Ohio"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -229,11 +233,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889944,
+    "wof:lastmodified":1722116358,
     "wof:name":"Logan",
     "wof:parent_id":404526423,
     "wof:placetype":"locality",
-    "wof:population":7152,
+    "wof:population":7166,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

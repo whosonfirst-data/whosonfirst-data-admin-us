@@ -178,7 +178,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":30860816,
     "uscensus:awater":14103,
     "uscensus:classfp":"C1",
@@ -194,17 +195,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"52992",
     "uscensus:placens":"02395199",
+    "uscensus:population":15974,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"18",
     "wd:elevation":231.0,
     "wd:latitude":41.0678,
     "wd:longitude":-85.0214,
     "wd:wordcount":1624,
     "wof:belongsto":[
-        85688709,
         102191575,
-        404500967,
         85633793,
-        102087177
+        102087177,
+        404500967,
+        85688709
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -212,10 +215,11 @@
         "gn:id":4924104,
         "gp:id":2458409,
         "qs_pg:id":825976,
-        "uscensus:geoid":1852992,
+        "uscensus:geoid":"1852992",
         "wd:id":"Q748020",
         "wk:page":"New Haven, Indiana"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -233,11 +237,11 @@
         }
     ],
     "wof:id":85942159,
-    "wof:lastmodified":1690884719,
+    "wof:lastmodified":1722116115,
     "wof:name":"New Haven",
     "wof:parent_id":404500967,
     "wof:placetype":"locality",
-    "wof:population":14794,
+    "wof:population":15974,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

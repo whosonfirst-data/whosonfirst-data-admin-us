@@ -125,7 +125,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":4552255,
     "uscensus:awater":1877070,
     "uscensus:classfp":"C1",
@@ -141,17 +142,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"63979",
     "uscensus:placens":"02391104",
+    "uscensus:population":2210,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"36",
     "wd:elevation":34.0,
     "wd:latitude":44.9875,
     "wd:longitude":-73.3675,
     "wd:wordcount":1090,
     "wof:belongsto":[
-        85688543,
         102191575,
-        404522169,
         85633793,
-        102081797
+        102081797,
+        404522169,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -160,10 +163,11 @@
         "gn:id":5134565,
         "gp:id":2485232,
         "qs_pg:id":1102490,
-        "uscensus:geoid":3663979,
+        "uscensus:geoid":"3663979",
         "wd:id":"Q3123210",
         "wk:page":"Rouses Point, New York"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -184,11 +188,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883955,
+    "wof:lastmodified":1722116070,
     "wof:name":"Rouses Point",
     "wof:parent_id":404522169,
     "wof:placetype":"locality",
-    "wof:population":2209,
+    "wof:population":2210,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

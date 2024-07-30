@@ -114,6 +114,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":453105,
     "uscensus:awater":196363,
     "uscensus:classfp":"C5",
@@ -129,13 +131,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"28824",
     "uscensus:placens":"01214876",
+    "uscensus:population":203,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"42",
     "wof:belongsto":[
-        85688481,
         102191575,
-        404482595,
         85633793,
-        102081323
+        102081323,
+        404482595,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -143,10 +147,11 @@
         "gn:id":5191006,
         "gp:id":2409652,
         "qs_pg:id":353208,
-        "uscensus:geoid":4228824,
+        "uscensus:geoid":"4228824",
         "wd:id":"Q1187017",
         "wk:page":"Georgetown, Beaver County, Pennsylvania"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -164,10 +169,12 @@
         }
     ],
     "wof:id":101718375,
-    "wof:lastmodified":1690890524,
+    "wof:lastmodified":1722116394,
     "wof:name":"Georgetown",
     "wof:parent_id":404482595,
     "wof:placetype":"locality",
+    "wof:population":203,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

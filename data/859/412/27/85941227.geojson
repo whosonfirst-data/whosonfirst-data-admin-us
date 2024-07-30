@@ -115,7 +115,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":4182335,
     "uscensus:awater":0,
     "uscensus:classfp":"U1",
@@ -131,23 +132,26 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"17077",
     "uscensus:placens":"02393388",
+    "uscensus:population":860,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"17",
     "wof:belongsto":[
-        85688697,
         102191575,
-        404496939,
         85633793,
-        102082281
+        102082281,
+        404496939,
+        85688697
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "fips:code":"1717077",
         "gn:id":4889008,
         "qs_pg:id":1035949,
-        "uscensus:geoid":1717077,
+        "uscensus:geoid":"1717077",
         "wd:id":"Q575851",
         "wk:page":"Coyne Center, Illinois"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -165,11 +169,11 @@
         }
     ],
     "wof:id":85941227,
-    "wof:lastmodified":1690882662,
+    "wof:lastmodified":1722115997,
     "wof:name":"Coyne Center",
     "wof:parent_id":404496939,
     "wof:placetype":"locality",
-    "wof:population":827,
+    "wof:population":860,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

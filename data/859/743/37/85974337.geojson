@@ -149,7 +149,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1681753,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -165,13 +166,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"29260",
     "uscensus:placens":"02395772",
+    "uscensus:population":1408,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"31",
     "wof:belongsto":[
-        85688563,
         102191575,
-        404519609,
         85633793,
-        102082791
+        102082791,
+        404519609,
+        85688563
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -180,9 +183,10 @@
         "gn:id":5072362,
         "gp:id":2442330,
         "qs_pg:id":156556,
-        "uscensus:geoid":3129260,
+        "uscensus:geoid":"3129260",
         "wd:id":"Q2734889"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -203,11 +207,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885899,
+    "wof:lastmodified":1722116188,
     "wof:name":"Louisville",
     "wof:parent_id":404519609,
     "wof:placetype":"locality",
-    "wof:population":1106,
+    "wof:population":1408,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
