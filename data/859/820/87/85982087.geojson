@@ -154,7 +154,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1553089,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -170,17 +171,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"70380",
     "uscensus:placens":"01036253",
+    "uscensus:population":162,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":442.0,
     "wd:latitude":46.9425,
     "wd:longitude":-98.225278,
     "wd:wordcount":752,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404478663,
         85633793,
-        102082051
+        102082051,
+        404478663,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -188,10 +191,11 @@
         "gn:id":5061426,
         "gp:id":2488250,
         "qs_pg:id":1051281,
-        "uscensus:geoid":3870380,
+        "uscensus:geoid":"3870380",
         "wd:id":"Q48789",
         "wk:page":"Sanborn, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -209,11 +213,11 @@
         }
     ],
     "wof:id":85982087,
-    "wof:lastmodified":1690882186,
+    "wof:lastmodified":1722115969,
     "wof:name":"Sanborn",
     "wof:parent_id":404478663,
     "wof:placetype":"locality",
-    "wof:population":192,
+    "wof:population":162,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

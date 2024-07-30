@@ -149,7 +149,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2446057,
     "uscensus:awater":22408,
     "uscensus:classfp":"C5",
@@ -165,16 +166,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"02260",
     "uscensus:placens":"01267268",
+    "uscensus:population":703,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"46",
     "wd:latitude":43.319444,
     "wd:longitude":-98.347222,
     "wd:wordcount":1007,
     "wof:belongsto":[
-        85688693,
         102191575,
-        404488633,
         85633793,
-        102086053
+        102086053,
+        404488633,
+        85688693
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -183,10 +186,11 @@
         "gn:id":5226045,
         "gp:id":2356060,
         "qs_pg:id":158113,
-        "uscensus:geoid":4602260,
+        "uscensus:geoid":"4602260",
         "wd:id":"Q2235927",
         "wk:page":"Armour, South Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -207,11 +211,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889643,
+    "wof:lastmodified":1722116340,
     "wof:name":"Armour",
     "wof:parent_id":404488633,
     "wof:placetype":"locality",
-    "wof:population":699,
+    "wof:population":703,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

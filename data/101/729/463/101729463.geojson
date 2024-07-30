@@ -17,7 +17,7 @@
     "mps:latitude":38.929986,
     "mps:longitude":-77.554936,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:ceb_x_preferred":[
         "Stone Ridge"
@@ -60,14 +60,21 @@
     "src:geom":"quattroshapes",
     "src:geom_alt":[],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
+    "uscensus:population":15603,
+    "uscensus:population_date":"2022",
     "wof:belongsto":[
         102191575,
         85633793,
-        85688747,
-        102084951
+        102084951,
+        85688747
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "uscensus:geoid":"5175702"
+    },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geomhash":"514e50d163360732f3e8bced0ba8cc61",
     "wof:hierarchy":[
@@ -80,10 +87,12 @@
         }
     ],
     "wof:id":101729463,
-    "wof:lastmodified":1566627022,
+    "wof:lastmodified":1722115904,
     "wof:name":"Stone Ridge",
     "wof:parent_id":102084951,
     "wof:placetype":"locality",
+    "wof:population":15603,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

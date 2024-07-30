@@ -142,7 +142,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2798968,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -158,17 +159,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"23020",
     "uscensus:placens":"01036020",
+    "uscensus:population":519,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":718.0,
     "wd:latitude":46.403611,
     "wd:longitude":-101.844722,
     "wd:wordcount":925,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404480639,
         85633793,
-        102081497
+        102081497,
+        404480639,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -177,10 +180,11 @@
         "gn:id":5688962,
         "gp:id":2398252,
         "qs_pg:id":850340,
-        "uscensus:geoid":3823020,
+        "uscensus:geoid":"3823020",
         "wd:id":"Q2447026",
         "wk:page":"Elgin, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -201,11 +205,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882119,
+    "wof:lastmodified":1722115964,
     "wof:name":"Elgin",
     "wof:parent_id":404480639,
     "wof:placetype":"locality",
-    "wof:population":642,
+    "wof:population":519,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

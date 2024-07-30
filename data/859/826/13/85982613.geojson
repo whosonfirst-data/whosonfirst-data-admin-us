@@ -139,7 +139,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":755210,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -155,17 +156,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"86020",
     "uscensus:placens":"01036334",
+    "uscensus:population":110,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":686.0,
     "wd:latitude":48.630278,
     "wd:longitude":-103.183333,
     "wd:wordcount":777,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404482285,
         85633793,
-        102082069
+        102082069,
+        404482285,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -174,10 +177,11 @@
         "gn:id":5692934,
         "gp:id":2520402,
         "qs_pg:id":15426,
-        "uscensus:geoid":3886020,
+        "uscensus:geoid":"3886020",
         "wd:id":"Q690979",
         "wk:page":"Wildrose, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -198,7 +202,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882629,
+    "wof:lastmodified":1722115995,
     "wof:name":"Wildrose",
     "wof:parent_id":404482285,
     "wof:placetype":"locality",

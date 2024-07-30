@@ -160,7 +160,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":8950231,
     "uscensus:awater":5803372,
     "uscensus:classfp":"C5",
@@ -176,17 +177,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"39428",
     "uscensus:placens":"02395818",
+    "uscensus:population":8184,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":303.0,
     "wd:latitude":45.069722,
     "wd:longitude":-92.951667,
     "wd:wordcount":1055,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404514905,
         85633793,
-        102087659
+        102087659,
+        404514905,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -195,10 +198,11 @@
         "gn:id":5036295,
         "gp:id":2444293,
         "qs_pg:id":361921,
-        "uscensus:geoid":2739428,
+        "uscensus:geoid":"2739428",
         "wd:id":"Q1924308",
         "wk:page":"Mahtomedi, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -219,11 +223,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882036,
+    "wof:lastmodified":1722115959,
     "wof:name":"Mahtomedi",
     "wof:parent_id":404514905,
     "wof:placetype":"locality",
-    "wof:population":7676,
+    "wof:population":8184,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

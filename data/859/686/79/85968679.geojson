@@ -163,7 +163,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":272001,
     "uscensus:awater":24597,
     "uscensus:classfp":"C5",
@@ -179,17 +180,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"26828",
     "uscensus:placens":"02394281",
+    "uscensus:population":131,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":246.0,
     "wd:latitude":44.222222,
     "wd:longitude":-92.373611,
     "wd:wordcount":836,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404514787,
         85633793,
-        102087697
+        102087697,
+        404514787,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -198,10 +201,11 @@
         "gn:id":5029215,
         "gp:id":2416735,
         "qs_pg:id":197808,
-        "uscensus:geoid":2726828,
+        "uscensus:geoid":"2726828",
         "wd:id":"Q2231642",
         "wk:page":"Hammond, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -222,11 +226,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882116,
+    "wof:lastmodified":1722115964,
     "wof:name":"Hammond",
     "wof:parent_id":404514787,
     "wof:placetype":"locality",
-    "wof:population":132,
+    "wof:population":131,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

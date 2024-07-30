@@ -143,7 +143,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2603240,
     "uscensus:awater":32826,
     "uscensus:classfp":"C5",
@@ -159,17 +160,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"27820",
     "uscensus:placens":"01036042",
+    "uscensus:population":29,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":674.0,
     "wd:latitude":48.911111,
     "wd:longitude":-103.774167,
     "wd:wordcount":1049,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404480193,
         85633793,
-        102082081
+        102082081,
+        404480193,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -178,10 +181,11 @@
         "gn:id":5689178,
         "gp:id":2406103,
         "qs_pg:id":159573,
-        "uscensus:geoid":3827820,
+        "uscensus:geoid":"3827820",
         "wd:id":"Q2447116",
         "wk:page":"Fortuna, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -202,11 +206,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885255,
+    "wof:lastmodified":1722116148,
     "wof:name":"Fortuna",
     "wof:parent_id":404480193,
     "wof:placetype":"locality",
-    "wof:population":22,
+    "wof:population":29,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

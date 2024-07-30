@@ -144,7 +144,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":736823,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -160,6 +161,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"06275",
     "uscensus:placens":"02394147",
+    "uscensus:population":160,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"20",
     "wd:elevation":390.0,
     "wd:latitude":39.9628,
@@ -167,11 +170,11 @@
     "wd:population":166,
     "wd:wordcount":808,
     "wof:belongsto":[
-        85688555,
         102191575,
-        404502839,
         85633793,
-        102083413
+        102083413,
+        404502839,
+        85688555
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -180,10 +183,11 @@
         "gn:id":4268179,
         "gp:id":2363053,
         "qs_pg:id":152514,
-        "uscensus:geoid":2006275,
+        "uscensus:geoid":"2006275",
         "wd:id":"Q822114",
         "wk:page":"Bern, Kansas"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -204,11 +208,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885259,
+    "wof:lastmodified":1722116148,
     "wof:name":"Bern",
     "wof:parent_id":404502839,
     "wof:placetype":"locality",
-    "wof:population":166,
+    "wof:population":160,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

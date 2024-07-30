@@ -121,7 +121,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":6586703,
     "uscensus:awater":133507,
     "uscensus:classfp":"C1",
@@ -137,16 +138,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"35364",
     "uscensus:placens":"02390903",
+    "uscensus:population":2825,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"36",
     "wd:latitude":42.956389,
     "wd:longitude":-77.587222,
     "wd:wordcount":1032,
     "wof:belongsto":[
-        85688543,
         102191575,
-        404521463,
         85633793,
-        102081815
+        102081815,
+        404521463,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -155,10 +158,11 @@
         "gn:id":5121182,
         "gp:id":2423862,
         "qs_pg:id":186605,
-        "uscensus:geoid":3635364,
+        "uscensus:geoid":"3635364",
         "wd:id":"Q517641",
         "wk:page":"Honeoye Falls, New York"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -179,11 +183,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885921,
+    "wof:lastmodified":1722116189,
     "wof:name":"Honeoye Falls",
     "wof:parent_id":404521463,
     "wof:placetype":"locality",
-    "wof:population":2674,
+    "wof:population":2825,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

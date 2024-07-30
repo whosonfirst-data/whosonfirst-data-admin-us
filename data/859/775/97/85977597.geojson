@@ -317,7 +317,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2887408,
     "uscensus:awater":2192567,
     "uscensus:classfp":"C1",
@@ -333,14 +334,16 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"66047",
     "uscensus:placens":"02391126",
+    "uscensus:population":4995,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"36",
     "wd:wordcount":967,
     "wof:belongsto":[
-        85688543,
         102191575,
-        404521475,
         85633793,
-        102082371
+        102082371,
+        404521475,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -349,10 +352,11 @@
         "gn:id":5137484,
         "gp:id":2490189,
         "qs_pg:id":1076441,
-        "uscensus:geoid":3666047,
+        "uscensus:geoid":"3666047",
         "wd:id":"Q3448869",
         "wk:page":"Sea Cliff, New York"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -373,7 +377,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885926,
+    "wof:lastmodified":1722116190,
     "wof:name":"Sea Cliff",
     "wof:parent_id":404521475,
     "wof:placetype":"locality",

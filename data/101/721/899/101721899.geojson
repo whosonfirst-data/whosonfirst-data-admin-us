@@ -134,7 +134,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2319145,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -150,16 +151,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"57940",
     "uscensus:placens":"01267561",
+    "uscensus:population":784,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"46",
     "wd:latitude":43.149167,
     "wd:longitude":-97.718333,
     "wd:wordcount":746,
     "wof:belongsto":[
-        85688693,
         102191575,
-        404488761,
         85633793,
-        102086835
+        102086835,
+        404488761,
+        85688693
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -167,10 +170,11 @@
         "gn:id":5231735,
         "gp:id":2489923,
         "qs_pg:id":894316,
-        "uscensus:geoid":4657940,
+        "uscensus:geoid":"4657940",
         "wd:id":"Q2578696",
         "wk:page":"Scotland, South Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -188,11 +192,11 @@
         }
     ],
     "wof:id":101721899,
-    "wof:lastmodified":1690889687,
+    "wof:lastmodified":1722116343,
     "wof:name":"Scotland",
     "wof:parent_id":404488761,
     "wof:placetype":"locality",
-    "wof:population":841,
+    "wof:population":784,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

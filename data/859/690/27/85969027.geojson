@@ -154,7 +154,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":699770,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -170,17 +171,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"27404",
     "uscensus:placens":"02394311",
+    "uscensus:population":313,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":385.0,
     "wd:latitude":43.803889,
     "wd:longitude":-93.486944,
     "wd:wordcount":760,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404514415,
         85633793,
-        102087887
+        102087887,
+        404514415,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -189,10 +192,11 @@
         "gn:id":5029459,
         "gp:id":2418294,
         "qs_pg:id":15434,
-        "uscensus:geoid":2727404,
+        "uscensus:geoid":"2727404",
         "wd:id":"Q2212395",
         "wk:page":"Hartland, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -213,11 +217,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885415,
+    "wof:lastmodified":1722116158,
     "wof:name":"Hartland",
     "wof:parent_id":404514415,
     "wof:placetype":"locality",
-    "wof:population":315,
+    "wof:population":313,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

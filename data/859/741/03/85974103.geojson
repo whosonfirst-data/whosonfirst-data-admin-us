@@ -151,7 +151,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2621780,
     "uscensus:awater":3405,
     "uscensus:classfp":"C1",
@@ -167,17 +168,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"47465",
     "uscensus:placens":"02395988",
+    "uscensus:population":1155,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"31",
     "wd:elevation":511.0,
     "wd:latitude":41.115556,
     "wd:longitude":-97.593611,
     "wd:wordcount":1103,
     "wof:belongsto":[
-        85688563,
         102191575,
-        404519097,
         85633793,
-        102082823
+        102082823,
+        404519097,
+        85688563
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -186,10 +189,11 @@
         "gn:id":5079732,
         "gp:id":2500985,
         "qs_pg:id":156577,
-        "uscensus:geoid":3147465,
+        "uscensus:geoid":"3147465",
         "wd:id":"Q968965",
         "wk:page":"Stromsburg, Nebraska"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -210,11 +214,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883982,
+    "wof:lastmodified":1722116072,
     "wof:name":"Stromsburg",
     "wof:parent_id":404519097,
     "wof:placetype":"locality",
-    "wof:population":1171,
+    "wof:population":1155,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

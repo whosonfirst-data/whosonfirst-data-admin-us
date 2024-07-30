@@ -157,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2534440,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -173,17 +174,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"66874",
     "uscensus:placens":"02397129",
+    "uscensus:population":511,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":411.0,
     "wd:latitude":46.4,
     "wd:longitude":-95.016667,
     "wd:wordcount":829,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404510929,
         85633793,
-        102087867
+        102087867,
+        404510929,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -192,10 +195,11 @@
         "gn:id":5051354,
         "gp:id":2511785,
         "qs_pg:id":1104342,
-        "uscensus:geoid":2766874,
+        "uscensus:geoid":"2766874",
         "wd:id":"Q2055717",
         "wk:page":"Verndale, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -216,11 +220,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885184,
+    "wof:lastmodified":1722116144,
     "wof:name":"Verndale",
     "wof:parent_id":404510929,
     "wof:placetype":"locality",
-    "wof:population":602,
+    "wof:population":511,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

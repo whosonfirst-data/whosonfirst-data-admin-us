@@ -160,7 +160,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2752795,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -176,17 +177,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"53780",
     "uscensus:placens":"01036167",
+    "uscensus:population":689,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":500.0,
     "wd:latitude":48.765,
     "wd:longitude":-101.511111,
     "wd:wordcount":1036,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404481435,
         85633793,
-        102082063
+        102082063,
+        404481435,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -195,10 +198,11 @@
         "gn:id":5690557,
         "gp:id":2452692,
         "qs_pg:id":159596,
-        "uscensus:geoid":3853780,
+        "uscensus:geoid":"3853780",
         "wd:id":"Q1998804",
         "wk:page":"Mohall, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -219,11 +223,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884822,
+    "wof:lastmodified":1722116122,
     "wof:name":"Mohall",
     "wof:parent_id":404481435,
     "wof:placetype":"locality",
-    "wof:population":783,
+    "wof:population":689,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

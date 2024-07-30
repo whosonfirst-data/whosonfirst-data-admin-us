@@ -166,7 +166,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1837846,
     "uscensus:awater":32579,
     "uscensus:classfp":"C5",
@@ -182,6 +183,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"42146",
     "uscensus:placens":"02395319",
+    "uscensus:population":414,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":314.0,
     "wd:latitude":45.108611,
@@ -189,11 +192,11 @@
     "wd:population":369,
     "wd:wordcount":834,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404509089,
         85633793,
-        102087793
+        102087793,
+        404509089,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -202,10 +205,11 @@
         "gn:id":5037461,
         "gp:id":2450859,
         "qs_pg:id":1244693,
-        "uscensus:geoid":2742146,
+        "uscensus:geoid":"2742146",
         "wd:id":"Q1924803",
         "wk:page":"Milan, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -226,11 +230,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882069,
+    "wof:lastmodified":1722115961,
     "wof:name":"Milan",
     "wof:parent_id":404509089,
     "wof:placetype":"locality",
-    "wof:population":369,
+    "wof:population":414,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -152,7 +152,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":19331222,
     "uscensus:awater":353680,
     "uscensus:classfp":"C1",
@@ -168,17 +169,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"11332",
     "uscensus:placens":"02397546",
+    "uscensus:population":9346,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"39",
     "wd:elevation":233.0,
     "wd:latitude":39.8461,
     "wd:longitude":-82.8117,
     "wd:wordcount":1546,
     "wof:belongsto":[
-        85688485,
         102191575,
-        404523499,
         85633793,
-        102080969
+        102080969,
+        404523499,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -187,10 +190,11 @@
         "gn:id":4507883,
         "gp:id":2374196,
         "qs_pg:id":815371,
-        "uscensus:geoid":3911332,
+        "uscensus:geoid":"3911332",
         "wd:id":"Q1026010",
         "wk:page":"Canal Winchester, Ohio"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -211,11 +215,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690888788,
+    "wof:lastmodified":1722116286,
     "wof:name":"Canal Winchester",
     "wof:parent_id":404523499,
     "wof:placetype":"locality",
-    "wof:population":7101,
+    "wof:population":9346,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

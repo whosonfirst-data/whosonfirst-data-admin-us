@@ -116,7 +116,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":6591239,
     "uscensus:awater":105692,
     "uscensus:classfp":"U1",
@@ -132,14 +133,16 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"25280",
     "uscensus:placens":"02631265",
+    "uscensus:population":704,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"42",
     "wd:wordcount":146,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404487177,
         85633793,
-        102080959
+        102080959,
+        404487177,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -148,7 +151,7 @@
         "gn:id":5189839,
         "gp:id":28744880,
         "qs_pg:id":356454,
-        "uscensus:geoid":4225280,
+        "uscensus:geoid":"4225280",
         "wd:id":"Q548424",
         "wk:page":"Farmington, Pennsylvania"
     },
@@ -163,6 +166,7 @@
             "Farmington%2C_Pennsylvania"
         ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -183,11 +187,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1706240792,
+    "wof:lastmodified":1722116402,
     "wof:name":"Farmington",
     "wof:parent_id":404487177,
     "wof:placetype":"locality",
-    "wof:population":767,
+    "wof:population":704,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

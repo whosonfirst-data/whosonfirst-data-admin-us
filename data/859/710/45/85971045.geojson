@@ -194,7 +194,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1747671,
     "uscensus:awater":289,
     "uscensus:classfp":"C1",
@@ -210,17 +211,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"29476",
     "uscensus:placens":"02394997",
+    "uscensus:population":440,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"29",
     "wd:elevation":124.0,
     "wd:latitude":37.1272,
     "wd:longitude":-90.4483,
     "wd:wordcount":1243,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404517867,
         85633793,
-        102086887
+        102086887,
+        404517867,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -229,7 +232,7 @@
         "gn:id":4388821,
         "gp:id":2414556,
         "qs_pg:id":901422,
-        "uscensus:geoid":2929476,
+        "uscensus:geoid":"2929476",
         "wd:id":"Q966437",
         "wk:page":"Greenville, Missouri"
     },
@@ -244,6 +247,7 @@
             "Greenville%2C_Missouri"
         ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -264,11 +268,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1706240774,
+    "wof:lastmodified":1722116399,
     "wof:name":"Greenville",
     "wof:parent_id":404517867,
     "wof:placetype":"locality",
-    "wof:population":490,
+    "wof:population":440,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

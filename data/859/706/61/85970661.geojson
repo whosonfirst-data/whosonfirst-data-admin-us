@@ -157,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":7176668,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -173,17 +174,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"62696",
     "uscensus:placens":"02396401",
+    "uscensus:population":1227,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"29",
     "wd:elevation":287.0,
     "wd:latitude":40.4122,
     "wd:longitude":-95.5197,
     "wd:wordcount":1094,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404516243,
         85633793,
-        102087485
+        102087485,
+        404516243,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -191,10 +194,11 @@
         "gn:id":5057058,
         "gp:id":2483190,
         "qs_pg:id":156444,
-        "uscensus:geoid":2962696,
+        "uscensus:geoid":"2962696",
         "wd:id":"Q962455",
         "wk:page":"Rock Port, Missouri"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -212,11 +216,11 @@
         }
     ],
     "wof:id":85970661,
-    "wof:lastmodified":1690881599,
+    "wof:lastmodified":1722115933,
     "wof:name":"Rock Port",
     "wof:parent_id":404516243,
     "wof:placetype":"locality",
-    "wof:population":1318,
+    "wof:population":1227,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

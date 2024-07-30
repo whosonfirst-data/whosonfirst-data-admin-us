@@ -136,7 +136,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1564990,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -152,17 +153,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"42180",
     "uscensus:placens":"01036105",
+    "uscensus:population":147,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":471.0,
     "wd:latitude":47.300278,
     "wd:longitude":-98.7325,
     "wd:wordcount":819,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404482259,
         85633793,
-        102082093
+        102082093,
+        404482259,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -171,10 +174,11 @@
         "gn:id":5059948,
         "gp:id":2431611,
         "qs_pg:id":1013747,
-        "uscensus:geoid":3842180,
+        "uscensus:geoid":"3842180",
         "wd:id":"Q2442202",
         "wk:page":"Kensal, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -195,11 +199,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885199,
+    "wof:lastmodified":1722116145,
     "wof:name":"Kensal",
     "wof:parent_id":404482259,
     "wof:placetype":"locality",
-    "wof:population":163,
+    "wof:population":147,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

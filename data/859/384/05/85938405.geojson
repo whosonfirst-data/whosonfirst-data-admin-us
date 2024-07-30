@@ -148,7 +148,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":21225482,
     "uscensus:awater":1006807,
     "uscensus:classfp":"C1",
@@ -164,16 +165,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"01595",
     "uscensus:placens":"02397970",
+    "uscensus:population":14833,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"17",
     "wd:latitude":42.47889,
     "wd:longitude":-88.09083,
     "wd:wordcount":3363,
     "wof:belongsto":[
-        85688697,
         102191575,
-        404498449,
         85633793,
-        102086215
+        102086215,
+        404498449,
+        85688697
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -182,10 +185,11 @@
         "gn:id":4883393,
         "gp:id":2355123,
         "qs_pg:id":812996,
-        "uscensus:geoid":1701595,
+        "uscensus:geoid":"1701595",
         "wd:id":"Q520010",
         "wk:page":"Antioch, Illinois"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -206,11 +210,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883517,
+    "wof:lastmodified":1722116044,
     "wof:name":"Antioch",
     "wof:parent_id":404498449,
     "wof:placetype":"locality",
-    "wof:population":14430,
+    "wof:population":14833,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

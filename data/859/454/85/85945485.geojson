@@ -151,7 +151,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1922923,
     "uscensus:awater":0,
     "uscensus:classfp":"C9",
@@ -167,17 +168,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"71450",
     "uscensus:placens":"02397052",
+    "uscensus:population":713,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"20",
     "wd:elevation":1101.0,
     "wd:latitude":38.4703,
     "wd:longitude":-101.754,
     "wd:wordcount":1101,
     "wof:belongsto":[
-        85688555,
         102191575,
-        404504047,
         85633793,
-        102082119
+        102082119,
+        404504047,
+        85688555
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -186,10 +189,11 @@
         "gn:id":5446643,
         "gp:id":2507955,
         "qs_pg:id":159050,
-        "uscensus:geoid":2071450,
+        "uscensus:geoid":"2071450",
         "wd:id":"Q1917357",
         "wk:page":"Tribune, Kansas"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -210,11 +214,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883133,
+    "wof:lastmodified":1722116024,
     "wof:name":"Tribune",
     "wof:parent_id":404504047,
     "wof:placetype":"locality",
-    "wof:population":741,
+    "wof:population":713,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -151,7 +151,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2336483,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -167,6 +168,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"18600",
     "uscensus:placens":"02394562",
+    "uscensus:population":43,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"20",
     "wd:elevation":833.0,
     "wd:latitude":39.6222,
@@ -174,11 +177,11 @@
     "wd:population":41,
     "wd:wordcount":789,
     "wof:belongsto":[
-        85688555,
         102191575,
-        404502257,
         85633793,
-        102083441
+        102083441,
+        404502257,
+        85688555
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -187,10 +190,11 @@
         "gn:id":5445306,
         "gp:id":2393658,
         "qs_pg:id":610805,
-        "uscensus:geoid":2018600,
+        "uscensus:geoid":"2018600",
         "wd:id":"Q737444",
         "wk:page":"Dresden, Kansas"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -211,11 +215,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883126,
+    "wof:lastmodified":1722116024,
     "wof:name":"Dresden",
     "wof:parent_id":404502257,
     "wof:placetype":"locality",
-    "wof:population":41,
+    "wof:population":43,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

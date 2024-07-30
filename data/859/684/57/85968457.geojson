@@ -163,7 +163,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2467534,
     "uscensus:awater":74830,
     "uscensus:classfp":"C5",
@@ -179,13 +180,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"53098",
     "uscensus:placens":"02396316",
+    "uscensus:population":456,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wof:belongsto":[
-        85688727,
         102191575,
-        404509557,
         85633793,
-        102087895
+        102087895,
+        404509557,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -194,9 +197,10 @@
         "gn:id":5042596,
         "gp:id":2478608,
         "qs_pg:id":933880,
-        "uscensus:geoid":2753098,
+        "uscensus:geoid":"2753098",
         "wd:id":"Q1924484"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -217,11 +221,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885182,
+    "wof:lastmodified":1722116143,
     "wof:name":"Randolph",
     "wof:parent_id":404509557,
     "wof:placetype":"locality",
-    "wof:population":436,
+    "wof:population":456,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

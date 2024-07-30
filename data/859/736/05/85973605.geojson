@@ -181,7 +181,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":16744432,
     "uscensus:awater":72517,
     "uscensus:classfp":"C5",
@@ -197,17 +198,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"54045",
     "uscensus:placens":"02397392",
+    "uscensus:population":8180,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"31",
     "wd:elevation":488.0,
     "wd:latitude":40.867222,
     "wd:longitude":-97.588889,
     "wd:wordcount":1159,
     "wof:belongsto":[
-        85688563,
         102191575,
-        404520845,
         85633793,
-        102083493
+        102083493,
+        404520845,
+        85688563
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -216,10 +219,11 @@
         "gn:id":5082331,
         "gp:id":2524842,
         "qs_pg:id":156620,
-        "uscensus:geoid":3154045,
+        "uscensus:geoid":"3154045",
         "wd:id":"Q656815",
         "wk:page":"York, Nebraska"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -240,11 +244,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690881912,
+    "wof:lastmodified":1722115952,
     "wof:name":"York",
     "wof:parent_id":404520845,
     "wof:placetype":"locality",
-    "wof:population":7766,
+    "wof:population":8180,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

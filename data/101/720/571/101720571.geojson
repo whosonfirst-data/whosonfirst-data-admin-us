@@ -319,7 +319,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":34420677,
     "uscensus:awater":8579356,
     "uscensus:classfp":"C5",
@@ -335,17 +336,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"22960",
     "uscensus:placens":"01220071",
+    "uscensus:population":46900,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"44",
     "wd:elevation":19.0,
     "wd:latitude":41.813611,
     "wd:longitude":-71.37,
     "wd:wordcount":2098,
     "wof:belongsto":[
-        85688509,
         102191575,
-        404488363,
         85633793,
-        102081597
+        102081597,
+        404488363,
+        85688509
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -354,10 +357,11 @@
         "gp:id":2396068,
         "ne:id":1159146257,
         "qs_pg:id":1147353,
-        "uscensus:geoid":4422960,
+        "uscensus:geoid":"4422960",
         "wd:id":"Q54268",
         "wk:page":"East Providence, Rhode Island"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -375,12 +379,12 @@
         }
     ],
     "wof:id":101720571,
-    "wof:lastmodified":1690890290,
+    "wof:lastmodified":1722116378,
     "wof:megacity":1,
     "wof:name":"East Providence",
     "wof:parent_id":404488363,
     "wof:placetype":"locality",
-    "wof:population":47037,
+    "wof:population":46900,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:scale":6,

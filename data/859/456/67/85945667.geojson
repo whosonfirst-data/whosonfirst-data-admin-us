@@ -285,7 +285,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":11655255,
     "uscensus:awater":17303,
     "uscensus:classfp":"C5",
@@ -301,17 +302,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"26875",
     "uscensus:placens":"00485583",
+    "uscensus:population":4403,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"20",
     "wd:elevation":1122.0,
     "wd:latitude":39.3486,
     "wd:longitude":-101.711,
     "wd:wordcount":2364,
     "wof:belongsto":[
-        85688555,
         102191575,
-        404505031,
         85633793,
-        102083443
+        102083443,
+        404505031,
+        85688555
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -320,13 +323,14 @@
         "gn:id":5445479,
         "gp:id":2412064,
         "qs_pg:id":239686,
-        "uscensus:geoid":2026875,
+        "uscensus:geoid":"2026875",
         "wd:id":"Q1931362",
         "wk:page":"Goodland, Kansas"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1052400
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -347,12 +351,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885404,
+    "wof:lastmodified":1722116157,
     "wof:megacity":0,
     "wof:name":"Goodland",
     "wof:parent_id":404505031,
     "wof:placetype":"locality",
-    "wof:population":4489,
+    "wof:population":4403,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:scale":8,

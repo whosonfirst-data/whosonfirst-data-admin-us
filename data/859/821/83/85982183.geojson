@@ -154,7 +154,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1246114,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -170,13 +171,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"10420",
     "uscensus:placens":"01035946",
+    "uscensus:population":188,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wof:belongsto":[
-        85688525,
         102191575,
-        404480545,
         85633793,
-        102082073
+        102082073,
+        404480545,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -185,9 +188,10 @@
         "gn:id":5058461,
         "gp:id":2371473,
         "qs_pg:id":1051220,
-        "uscensus:geoid":3810420,
+        "uscensus:geoid":"3810420",
         "wd:id":"Q2047768"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -208,7 +212,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882561,
+    "wof:lastmodified":1722115991,
     "wof:name":"Buffalo",
     "wof:parent_id":404480545,
     "wof:placetype":"locality",

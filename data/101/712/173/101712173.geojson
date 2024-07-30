@@ -155,7 +155,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":23973167,
     "uscensus:awater":690000,
     "uscensus:classfp":"C2",
@@ -171,17 +172,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"52010",
     "uscensus:placens":"01086676",
+    "uscensus:population":6586,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"39",
     "wd:elevation":225.0,
     "wd:latitude":39.6956,
     "wd:longitude":-84.2278,
     "wd:wordcount":1818,
     "wof:belongsto":[
-        85688485,
         102191575,
-        404526913,
         85633793,
-        102083667
+        102083667,
+        404526913,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -190,10 +193,11 @@
         "gn:id":4518661,
         "gp:id":2453899,
         "qs_pg:id":1049162,
-        "uscensus:geoid":3952010,
+        "uscensus:geoid":"3952010",
         "wd:id":"Q998655",
         "wk:page":"Moraine, Ohio"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -214,11 +218,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690888789,
+    "wof:lastmodified":1722116286,
     "wof:name":"Moraine",
     "wof:parent_id":404526913,
     "wof:placetype":"locality",
-    "wof:population":6307,
+    "wof:population":6586,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

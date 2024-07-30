@@ -235,7 +235,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":15588610,
     "uscensus:awater":435200,
     "uscensus:classfp":"C1",
@@ -251,17 +252,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"01150",
     "uscensus:placens":"02378267",
+    "uscensus:population":19008,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"09",
     "wd:elevation":25.0,
     "wd:latitude":41.343333,
     "wd:longitude":-73.068611,
     "wd:wordcount":4503,
     "wof:belongsto":[
-        85688629,
         102191575,
-        404495697,
         85633793,
-        102086923
+        102086923,
+        404495697,
+        85688629
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -269,10 +272,11 @@
         "gn:id":5281551,
         "gp:id":2354980,
         "qs_pg:id":158480,
-        "uscensus:geoid":901150,
+        "uscensus:geoid":"0901150",
         "wd:id":"Q570044",
         "wk:page":"Ansonia, Connecticut"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -290,11 +294,11 @@
         }
     ],
     "wof:id":85930921,
-    "wof:lastmodified":1690881475,
+    "wof:lastmodified":1722115925,
     "wof:name":"Ansonia",
     "wof:parent_id":404495697,
     "wof:placetype":"locality",
-    "wof:population":19249,
+    "wof:population":19008,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

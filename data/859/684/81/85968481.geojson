@@ -181,7 +181,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":72143664,
     "uscensus:awater":6127678,
     "uscensus:classfp":"C5",
@@ -197,17 +198,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"31076",
     "uscensus:placens":"02395429",
+    "uscensus:population":36114,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":268.0,
     "wd:latitude":44.848056,
     "wd:longitude":-93.042778,
     "wd:wordcount":1382,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404511971,
         85633793,
-        102087895
+        102087895,
+        404511971,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -216,10 +219,11 @@
         "gn:id":5031412,
         "gp:id":2427344,
         "qs_pg:id":1147918,
-        "uscensus:geoid":2731076,
+        "uscensus:geoid":"2731076",
         "wd:id":"Q985268",
         "wk:page":"Inver Grove Heights, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -240,11 +244,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885187,
+    "wof:lastmodified":1722116144,
     "wof:name":"Inver Grove Heights",
     "wof:parent_id":404511971,
     "wof:placetype":"locality",
-    "wof:population":33880,
+    "wof:population":36114,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -17,7 +17,7 @@
     "mps:latitude":34.749818,
     "mps:longitude":-120.517305,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:eng_x_preferred":[
         "Vandenberg AFB"
@@ -39,14 +39,21 @@
     "src:geom":"quattroshapes",
     "src:geom_alt":[],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
+    "uscensus:population":3508,
+    "uscensus:population_date":"2022",
     "wof:belongsto":[
         102191575,
         85633793,
-        85688637,
-        102080855
+        102080855,
+        85688637
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "uscensus:geoid":"0682072"
+    },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geomhash":"0c09150e44a1c96d448be7b069890edc",
     "wof:hierarchy":[
@@ -59,10 +66,12 @@
         }
     ],
     "wof:id":85924347,
-    "wof:lastmodified":1566612080,
+    "wof:lastmodified":1722115903,
     "wof:name":"Vandenberg AFB",
     "wof:parent_id":102080855,
     "wof:placetype":"locality",
+    "wof:population":3508,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

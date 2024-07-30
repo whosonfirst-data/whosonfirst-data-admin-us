@@ -130,7 +130,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":828345,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -146,17 +147,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"22540",
     "uscensus:placens":"01036019",
+    "uscensus:population":30,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":464.0,
     "wd:latitude":48.628056,
     "wd:longitude":-99.098056,
     "wd:wordcount":693,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404479781,
         85633793,
-        102082111
+        102082111,
+        404479781,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -165,10 +168,11 @@
         "gn:id":5059016,
         "gp:id":2397600,
         "qs_pg:id":1051238,
-        "uscensus:geoid":3822540,
+        "uscensus:geoid":"3822540",
         "wd:id":"Q1975097",
         "wk:page":"Egeland, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -189,11 +193,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884869,
+    "wof:lastmodified":1722116125,
     "wof:name":"Egeland",
     "wof:parent_id":404479781,
     "wof:placetype":"locality",
-    "wof:population":28,
+    "wof:population":30,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

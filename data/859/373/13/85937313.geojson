@@ -17,7 +17,7 @@
     "mps:latitude":30.978887,
     "mps:longitude":-83.214828,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:eng_x_preferred":[
         "Moody AFB"
@@ -39,14 +39,21 @@
     "src:geom":"quattroshapes",
     "src:geom_alt":[],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
+    "uscensus:population":1306,
+    "uscensus:population_date":"2022",
     "wof:belongsto":[
         102191575,
         85633793,
-        85688535,
-        102083585
+        102083585,
+        85688535
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "uscensus:geoid":"1352556"
+    },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geomhash":"68e8b7eae4b5e1c6afdd96046a4e5cfb",
     "wof:hierarchy":[
@@ -59,10 +66,12 @@
         }
     ],
     "wof:id":85937313,
-    "wof:lastmodified":1566614455,
+    "wof:lastmodified":1722115903,
     "wof:name":"Moody AFB",
     "wof:parent_id":102083585,
     "wof:placetype":"locality",
+    "wof:population":1306,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

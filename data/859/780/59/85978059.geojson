@@ -235,7 +235,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":6458267,
     "uscensus:awater":497827,
     "uscensus:classfp":"C1",
@@ -251,16 +252,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"31709",
     "uscensus:placens":"02390877",
+    "uscensus:population":4100,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"36",
     "wd:latitude":42.828333,
     "wd:longitude":-75.553056,
     "wd:wordcount":892,
     "wof:belongsto":[
-        85688543,
         102191575,
-        404521451,
         85633793,
-        102080989
+        102080989,
+        404521451,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -269,10 +272,11 @@
         "gn:id":5119842,
         "gp:id":2416596,
         "qs_pg:id":156998,
-        "uscensus:geoid":3631709,
+        "uscensus:geoid":"3631709",
         "wd:id":"Q3626259",
         "wk:page":"Hamilton, New York"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -293,11 +297,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690886233,
+    "wof:lastmodified":1722116208,
     "wof:name":"Hamilton",
     "wof:parent_id":404521451,
     "wof:placetype":"locality",
-    "wof:population":4239,
+    "wof:population":4100,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

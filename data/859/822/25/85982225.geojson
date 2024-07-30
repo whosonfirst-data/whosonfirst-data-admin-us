@@ -145,7 +145,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":540780,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -161,17 +162,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"87860",
     "uscensus:placens":"01036344",
+    "uscensus:population":14,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":491.0,
     "wd:latitude":48.312222,
     "wd:longitude":-99.574167,
     "wd:wordcount":806,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404478709,
         85633793,
-        102082071
+        102082071,
+        404478709,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -179,10 +182,11 @@
         "gn:id":5062598,
         "gp:id":2524845,
         "qs_pg:id":1051292,
-        "uscensus:geoid":3887860,
+        "uscensus:geoid":"3887860",
         "wd:id":"Q576936",
         "wk:page":"York, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -200,11 +204,11 @@
         }
     ],
     "wof:id":85982225,
-    "wof:lastmodified":1690885255,
+    "wof:lastmodified":1722116148,
     "wof:name":"York",
     "wof:parent_id":404478709,
     "wof:placetype":"locality",
-    "wof:population":23,
+    "wof:population":14,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -166,7 +166,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2528094,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -182,17 +183,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"70402",
     "uscensus:placens":"02397316",
+    "uscensus:population":155,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":351.0,
     "wd:latitude":48.768333,
     "wd:longitude":-94.955278,
     "wd:wordcount":821,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404509693,
         85633793,
-        102086985
+        102086985,
+        404509693,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -201,10 +204,11 @@
         "gn:id":5052891,
         "gp:id":2520741,
         "qs_pg:id":329053,
-        "uscensus:geoid":2770402,
+        "uscensus:geoid":"2770402",
         "wd:id":"Q963315",
         "wk:page":"Williams, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -225,11 +229,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883687,
+    "wof:lastmodified":1722116054,
     "wof:name":"Williams",
     "wof:parent_id":404509693,
     "wof:placetype":"locality",
-    "wof:population":191,
+    "wof:population":155,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

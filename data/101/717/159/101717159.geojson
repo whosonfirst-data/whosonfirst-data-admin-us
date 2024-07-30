@@ -167,7 +167,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":29174366,
     "uscensus:awater":663142,
     "uscensus:classfp":"C5",
@@ -183,6 +184,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"44864",
     "uscensus:placens":"02086676",
+    "uscensus:population":11561,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"42",
     "wd:wordcount":1582,
     "woe:adm0_id":23424977,
@@ -190,11 +193,11 @@
     "woe:name_adm1":"Pennsylvania",
     "woe:placetype":"Town",
     "wof:belongsto":[
-        85688481,
         102191575,
-        404487501,
         85633793,
-        102081383
+        102081383,
+        404487501,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -203,7 +206,7 @@
         "gn:id":5182477,
         "gp:id":2372331,
         "qs_pg:id":46223,
-        "uscensus:geoid":4244864,
+        "uscensus:geoid":"4244864",
         "wd:id":"Q1186522",
         "wk:page":"Lower Burrell, Pennsylvania"
     },
@@ -221,6 +224,7 @@
             "Q1186522"
         ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -241,11 +245,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1706240791,
+    "wof:lastmodified":1722116401,
     "wof:name":"Lower Burrell",
     "wof:parent_id":404487501,
     "wof:placetype":"locality",
-    "wof:population":11761,
+    "wof:population":11561,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

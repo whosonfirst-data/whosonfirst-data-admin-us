@@ -461,7 +461,10 @@
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":320154,
+    "uscensus:population_date":"2023",
     "wd:elevation":298.0,
     "wd:latitude":38.029722,
     "wd:longitude":-84.494722,
@@ -474,14 +477,15 @@
     "wof:belongsto":[
         102191575,
         85633793,
-        85688641,
-        102084695
+        102084695,
+        85688641
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":4297999,
         "gp:id":2438841,
         "qs_pg:id":97834,
+        "uscensus:geoid":"2146027",
         "wd:id":"Q49241"
     },
     "wof:concordances_alt":{
@@ -495,6 +499,7 @@
             "Q49241"
         ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg"
@@ -510,11 +515,11 @@
         }
     ],
     "wof:id":85947137,
-    "wof:lastmodified":1706240767,
+    "wof:lastmodified":1722116398,
     "wof:name":"Lexington",
     "wof:parent_id":102084695,
     "wof:placetype":"locality",
-    "wof:population":310797,
+    "wof:population":320154,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

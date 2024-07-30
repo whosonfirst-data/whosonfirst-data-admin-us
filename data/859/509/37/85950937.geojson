@@ -306,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":21162434,
     "uscensus:awater":1774341,
     "uscensus:classfp":"C5",
@@ -322,6 +323,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"01740",
     "uscensus:placens":"01625832",
+    "uscensus:population":10130,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"26",
     "wd:elevation":180.0,
     "wd:latitude":45.061667,
@@ -329,11 +332,11 @@
     "wd:population":10483,
     "wd:wordcount":3187,
     "wof:belongsto":[
-        85688599,
         102191575,
-        404506819,
         85633793,
-        102083109
+        102083109,
+        404506819,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -342,10 +345,11 @@
         "gn:id":4984075,
         "gp:id":2353663,
         "qs_pg:id":1050752,
-        "uscensus:geoid":2601740,
+        "uscensus:geoid":"2601740",
         "wd:id":"Q1012455",
         "wk:page":"Alpena, Michigan"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -366,12 +370,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884498,
+    "wof:lastmodified":1722116102,
     "wof:megacity":0,
     "wof:name":"Alpena",
     "wof:parent_id":404506819,
     "wof:placetype":"locality",
-    "wof:population":10483,
+    "wof:population":10130,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:scale":8,

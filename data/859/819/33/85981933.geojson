@@ -133,7 +133,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":717567,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -149,17 +150,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"05260",
     "uscensus:placens":"01035924",
+    "uscensus:population":48,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":249.0,
     "wd:latitude":48.881111,
     "wd:longitude":-97.4725,
     "wd:wordcount":915,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404479291,
         85633793,
-        102081509
+        102081509,
+        404479291,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -168,10 +171,11 @@
         "gn:id":5058205,
         "gp:id":2359987,
         "qs_pg:id":156446,
-        "uscensus:geoid":3805260,
+        "uscensus:geoid":"3805260",
         "wd:id":"Q2171461",
         "wk:page":"Bathgate, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -192,11 +196,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882586,
+    "wof:lastmodified":1722115992,
     "wof:name":"Bathgate",
     "wof:parent_id":404479291,
     "wof:placetype":"locality",
-    "wof:population":43,
+    "wof:population":48,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

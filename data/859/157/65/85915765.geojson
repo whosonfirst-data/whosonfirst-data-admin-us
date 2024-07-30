@@ -294,7 +294,10 @@
         "naturalearth"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":150,
+    "uscensus:population_date":"2023",
     "wd:elevation":19.0,
     "wd:latitude":59.7256,
     "wd:longitude":-154.894,
@@ -302,8 +305,8 @@
     "wof:belongsto":[
         102191575,
         85633793,
-        85688573,
-        102080999
+        102080999,
+        85688573
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -319,6 +322,7 @@
     "wof:concordances_alt":{
         "qs_pg:id":1145836
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -338,11 +342,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690881567,
+    "wof:lastmodified":1722115931,
     "wof:name":"Newhalen",
     "wof:parent_id":102080999,
     "wof:placetype":"locality",
-    "wof:population":190,
+    "wof:population":150,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

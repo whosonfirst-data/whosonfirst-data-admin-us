@@ -130,7 +130,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":5070801,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -146,17 +147,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"54726",
     "uscensus:placens":"02399466",
+    "uscensus:population":808,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"39",
     "wd:elevation":260.0,
     "wd:latitude":39.5536,
     "wd:longitude":-83.2594,
     "wd:wordcount":844,
     "wof:belongsto":[
-        85688485,
         102191575,
-        404526041,
         85633793,
-        102084815
+        102084815,
+        404526041,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -165,10 +168,11 @@
         "gn:id":4519545,
         "gp:id":2458450,
         "qs_pg:id":1072142,
-        "uscensus:geoid":3954726,
+        "uscensus:geoid":"3954726",
         "wd:id":"Q2436623",
         "wk:page":"New Holland, Ohio"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -189,11 +193,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885394,
+    "wof:lastmodified":1722116156,
     "wof:name":"New Holland",
     "wof:parent_id":404526041,
     "wof:placetype":"locality",
-    "wof:population":801,
+    "wof:population":808,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

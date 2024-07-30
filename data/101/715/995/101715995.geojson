@@ -121,6 +121,10 @@
     "src:geom":"quattroshapes",
     "src:geom_alt":[],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
+    "uscensus:population":3,
+    "uscensus:population_date":"2022",
     "wd:elevation":1922.0,
     "wd:latitude":44.708611,
     "wd:longitude":-118.496667,
@@ -128,16 +132,18 @@
     "wof:belongsto":[
         102191575,
         85633793,
-        85688513,
-        102082253
+        102082253,
+        85688513
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":5729429,
         "gp:id":2414351,
+        "uscensus:geoid":"4131050",
         "wd:id":"Q721338",
         "wk:page":"Greenhorn, Oregon"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geomhash":"8dd938e64cb3f0f43d4fd42f21c849df",
     "wof:hierarchy":[
@@ -150,10 +156,12 @@
         }
     ],
     "wof:id":101715995,
-    "wof:lastmodified":1690888687,
+    "wof:lastmodified":1722116279,
     "wof:name":"Greenhorn",
     "wof:parent_id":102082253,
     "wof:placetype":"locality",
+    "wof:population":3,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

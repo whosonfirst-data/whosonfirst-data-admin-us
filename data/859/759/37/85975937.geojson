@@ -334,7 +334,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":7521666,
     "uscensus:awater":24381,
     "uscensus:classfp":"C5",
@@ -350,16 +351,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"05170",
     "uscensus:placens":"00885157",
+    "uscensus:population":28274,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"34",
     "wd:latitude":40.923611,
     "wd:longitude":-73.998889,
     "wd:wordcount":7493,
     "wof:belongsto":[
-        85688607,
         102191575,
-        404477643,
         85633793,
-        102086773
+        102086773,
+        404477643,
+        85688607
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -367,10 +370,11 @@
         "gn:id":5095611,
         "gp:id":2362899,
         "qs_pg:id":1051495,
-        "uscensus:geoid":3405170,
+        "uscensus:geoid":"3405170",
         "wd:id":"Q819548",
         "wk:page":"Bergenfield, New Jersey"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -388,11 +392,11 @@
         }
     ],
     "wof:id":85975937,
-    "wof:lastmodified":1690884668,
+    "wof:lastmodified":1722116112,
     "wof:name":"Bergenfield",
     "wof:parent_id":404477643,
     "wof:placetype":"locality",
-    "wof:population":26764,
+    "wof:population":28274,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

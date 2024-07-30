@@ -208,7 +208,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":33140109,
     "uscensus:awater":2225899,
     "uscensus:classfp":"C1",
@@ -224,16 +225,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"56926",
     "uscensus:placens":"02396106",
+    "uscensus:population":18752,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"17",
     "wd:latitude":41.351111,
     "wd:longitude":-88.837778,
     "wd:wordcount":1859,
     "wof:belongsto":[
-        85688697,
         102191575,
-        404498507,
         85633793,
-        102081255
+        102081255,
+        404498507,
+        85688697
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -241,13 +244,14 @@
         "gn:id":4905006,
         "gp:id":2466772,
         "qs_pg:id":240058,
-        "uscensus:geoid":1756926,
+        "uscensus:geoid":"1756926",
         "wd:id":"Q576209",
         "wk:page":"Ottawa, Illinois"
     },
     "wof:concordances_alt":{
         "qs_pg:id":354329
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -265,11 +269,11 @@
         }
     ],
     "wof:id":85939085,
-    "wof:lastmodified":1690882106,
+    "wof:lastmodified":1722115963,
     "wof:name":"Ottawa",
     "wof:parent_id":404498507,
     "wof:placetype":"locality",
-    "wof:population":18768,
+    "wof:population":18752,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

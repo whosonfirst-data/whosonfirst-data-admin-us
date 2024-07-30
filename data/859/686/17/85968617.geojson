@@ -156,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":3804406,
     "uscensus:awater":65994,
     "uscensus:classfp":"C5",
@@ -172,6 +173,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"00496",
     "uscensus:placens":"02393895",
+    "uscensus:population":424,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":436.0,
     "wd:latitude":47.004167,
@@ -179,11 +182,11 @@
     "wd:population":432,
     "wd:wordcount":1196,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404509479,
         85633793,
-        102087907
+        102087907,
+        404509479,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -192,10 +195,11 @@
         "gn:id":5015985,
         "gp:id":2352445,
         "qs_pg:id":184610,
-        "uscensus:geoid":2700496,
+        "uscensus:geoid":"2700496",
         "wd:id":"Q591765",
         "wk:page":"Akeley, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -216,11 +220,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882112,
+    "wof:lastmodified":1722115964,
     "wof:name":"Akeley",
     "wof:parent_id":404509479,
     "wof:placetype":"locality",
-    "wof:population":432,
+    "wof:population":424,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

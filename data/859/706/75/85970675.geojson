@@ -127,7 +127,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":310369,
     "uscensus:awater":1786,
     "uscensus:classfp":"C1",
@@ -143,17 +144,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"60842",
     "uscensus:placens":"02396330",
+    "uscensus:population":49,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"29",
     "wd:elevation":328.0,
     "wd:latitude":40.0611,
     "wd:longitude":-94.7644,
     "wd:wordcount":671,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404518057,
         85633793,
-        102087503
+        102087503,
+        404518057,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -161,10 +164,11 @@
         "gn:id":5056993,
         "gp:id":2479069,
         "qs_pg:id":984528,
-        "uscensus:geoid":2960842,
+        "uscensus:geoid":"2960842",
         "wd:id":"Q508385",
         "wk:page":"Rea, Missouri"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -182,11 +186,11 @@
         }
     ],
     "wof:id":85970675,
-    "wof:lastmodified":1690881605,
+    "wof:lastmodified":1722115934,
     "wof:name":"Rea",
     "wof:parent_id":404518057,
     "wof:placetype":"locality",
-    "wof:population":50,
+    "wof:population":49,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

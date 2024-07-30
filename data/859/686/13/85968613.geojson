@@ -154,7 +154,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1185808,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -170,17 +171,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"38366",
     "uscensus:placens":"02395778",
+    "uscensus:population":334,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":418.0,
     "wd:latitude":45.705,
     "wd:longitude":-95.518056,
     "wd:wordcount":808,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404510219,
         85633793,
-        102087805
+        102087805,
+        404510219,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -189,10 +192,11 @@
         "gn:id":5035942,
         "gp:id":2442732,
         "qs_pg:id":918856,
-        "uscensus:geoid":2738366,
+        "uscensus:geoid":"2738366",
         "wd:id":"Q2230220",
         "wk:page":"Lowry, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -213,11 +217,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882118,
+    "wof:lastmodified":1722115964,
     "wof:name":"Lowry",
     "wof:parent_id":404510219,
     "wof:placetype":"locality",
-    "wof:population":299,
+    "wof:population":334,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

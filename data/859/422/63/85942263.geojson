@@ -194,7 +194,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":8526742,
     "uscensus:awater":623748,
     "uscensus:classfp":"C1",
@@ -210,17 +211,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"02782",
     "uscensus:placens":"02394030",
+    "uscensus:population":3508,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"18",
     "wd:elevation":148.0,
     "wd:latitude":39.0586,
     "wd:longitude":-84.9036,
     "wd:wordcount":1181,
     "wof:belongsto":[
-        85688709,
         102191575,
-        404501201,
         85633793,
-        102087067
+        102087067,
+        404501201,
+        85688709
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -229,10 +232,11 @@
         "gn:id":4048332,
         "gp:id":2357449,
         "qs_pg:id":461746,
-        "uscensus:geoid":1802782,
+        "uscensus:geoid":"1802782",
         "wd:id":"Q431222",
         "wk:page":"Aurora, Indiana"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -253,11 +257,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882344,
+    "wof:lastmodified":1722115978,
     "wof:name":"Aurora",
     "wof:parent_id":404501201,
     "wof:placetype":"locality",
-    "wof:population":3750,
+    "wof:population":3508,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

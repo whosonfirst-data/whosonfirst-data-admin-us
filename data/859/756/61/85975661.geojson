@@ -160,7 +160,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":7242347,
     "uscensus:awater":116200,
     "uscensus:classfp":"C5",
@@ -176,16 +177,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"28770",
     "uscensus:placens":"00885238",
+    "uscensus:population":12571,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"34",
     "wd:latitude":39.8954,
     "wd:longitude":-75.0343,
     "wd:wordcount":7464,
     "wof:belongsto":[
-        85688607,
         102191575,
-        404477395,
         85633793,
-        102081131
+        102081131,
+        404477395,
+        85688607
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -193,10 +196,11 @@
         "gn:id":4502103,
         "gp:id":2415948,
         "qs_pg:id":153925,
-        "uscensus:geoid":3428770,
+        "uscensus:geoid":"3428770",
         "wd:id":"Q1089224",
         "wk:page":"Haddonfield, New Jersey"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -214,11 +218,11 @@
         }
     ],
     "wof:id":85975661,
-    "wof:lastmodified":1690884279,
+    "wof:lastmodified":1722116089,
     "wof:name":"Haddonfield",
     "wof:parent_id":404477395,
     "wof:placetype":"locality",
-    "wof:population":11593,
+    "wof:population":12571,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -148,7 +148,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1264892,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -164,17 +165,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"59188",
     "uscensus:placens":"02396568",
+    "uscensus:population":45,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":410.0,
     "wd:latitude":45.575556,
     "wd:longitude":-95.248056,
     "wd:wordcount":741,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404514341,
         85633793,
-        102087805
+        102087805,
+        404514341,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -183,10 +186,11 @@
         "gn:id":5046851,
         "gp:id":2490501,
         "qs_pg:id":601709,
-        "uscensus:geoid":2759188,
+        "uscensus:geoid":"2759188",
         "wd:id":"Q2227058",
         "wk:page":"Sedan, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -207,7 +211,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882110,
+    "wof:lastmodified":1722115964,
     "wof:name":"Sedan",
     "wof:parent_id":404514341,
     "wof:placetype":"locality",

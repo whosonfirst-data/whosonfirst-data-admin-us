@@ -184,7 +184,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":28795062,
     "uscensus:awater":12963567,
     "uscensus:classfp":"C5",
@@ -200,6 +201,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"15832",
     "uscensus:placens":"02394527",
+    "uscensus:population":9981,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":417.0,
     "wd:latitude":46.817222,
@@ -207,11 +210,11 @@
     "wd:population":8569,
     "wd:wordcount":3211,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404511143,
         85633793,
-        102087001
+        102087001,
+        404511143,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -219,13 +222,14 @@
         "gn:id":5024237,
         "gp:id":2391639,
         "qs_pg:id":354599,
-        "uscensus:geoid":2715832,
+        "uscensus:geoid":"2715832",
         "wd:id":"Q1898538",
         "wk:page":"Detroit Lakes, Minnesota"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1139187
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -243,11 +247,11 @@
         }
     ],
     "wof:id":85952663,
-    "wof:lastmodified":1690883481,
+    "wof:lastmodified":1722116042,
     "wof:name":"Detroit Lakes",
     "wof:parent_id":404511143,
     "wof:placetype":"locality",
-    "wof:population":8569,
+    "wof:population":9981,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -158,7 +158,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2491524,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -174,17 +175,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"08532",
     "uscensus:placens":"02391564",
+    "uscensus:population":6404,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"36",
     "wd:elevation":28.0,
     "wd:latitude":40.94,
     "wd:longitude":-73.826111,
     "wd:wordcount":2662,
     "wof:belongsto":[
-        85688543,
         102191575,
-        404523357,
         85633793,
-        102082373
+        102082373,
+        404523357,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -192,10 +195,11 @@
         "gn:id":5110269,
         "gp:id":2369745,
         "qs_pg:id":814878,
-        "uscensus:geoid":3608532,
+        "uscensus:geoid":"3608532",
         "wd:id":"Q928168",
         "wk:page":"Bronxville, New York"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -213,11 +217,11 @@
         }
     ],
     "wof:id":85978751,
-    "wof:lastmodified":1690886223,
+    "wof:lastmodified":1722116208,
     "wof:name":"Bronxville",
     "wof:parent_id":404523357,
     "wof:placetype":"locality",
-    "wof:population":6323,
+    "wof:population":6404,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

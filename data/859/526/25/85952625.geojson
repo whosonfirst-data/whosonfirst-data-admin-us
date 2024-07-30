@@ -148,7 +148,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":9558320,
     "uscensus:awater":727082,
     "uscensus:classfp":"C5",
@@ -164,17 +165,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"65506",
     "uscensus:placens":"02397057",
+    "uscensus:population":108,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":372.0,
     "wd:latitude":46.505278,
     "wd:longitude":-94.018333,
     "wd:wordcount":837,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404509541,
         85633793,
-        102087093
+        102087093,
+        404509541,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -183,10 +186,11 @@
         "gn:id":5050548,
         "gp:id":2508096,
         "qs_pg:id":225978,
-        "uscensus:geoid":2765506,
+        "uscensus:geoid":"2765506",
         "wd:id":"Q1924380",
         "wk:page":"Trommald, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -207,11 +211,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883484,
+    "wof:lastmodified":1722116042,
     "wof:name":"Trommald",
     "wof:parent_id":404509541,
     "wof:placetype":"locality",
-    "wof:population":98,
+    "wof:population":108,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

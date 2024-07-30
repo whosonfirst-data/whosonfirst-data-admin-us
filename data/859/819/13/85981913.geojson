@@ -142,7 +142,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":403504,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -158,17 +159,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"46540",
     "uscensus:placens":"01036130",
+    "uscensus:population":136,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":604.0,
     "wd:latitude":48.876944,
     "wd:longitude":-102.5625,
     "wd:wordcount":841,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404480345,
         85633793,
-        102081499
+        102081499,
+        404480345,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -177,10 +180,11 @@
         "gn:id":5690153,
         "gp:id":2439219,
         "qs_pg:id":896931,
-        "uscensus:geoid":3846540,
+        "uscensus:geoid":"3846540",
         "wd:id":"Q2447055",
         "wk:page":"Lignite, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -201,11 +205,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882595,
+    "wof:lastmodified":1722115993,
     "wof:name":"Lignite",
     "wof:parent_id":404480345,
     "wof:placetype":"locality",
-    "wof:population":155,
+    "wof:population":136,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

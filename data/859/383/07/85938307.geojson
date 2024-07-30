@@ -131,7 +131,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":1758504,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -147,14 +148,16 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"00880",
     "uscensus:placens":"02397939",
+    "uscensus:population":265,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"17",
     "wd:wordcount":723,
     "wof:belongsto":[
-        85688697,
         102191575,
-        404499203,
         85633793,
-        102083507
+        102083507,
+        404499203,
+        85688697
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -162,7 +165,7 @@
         "gn:id":7165689,
         "gp:id":2353436,
         "qs_pg:id":244136,
-        "uscensus:geoid":1700880,
+        "uscensus:geoid":"1700880",
         "wd:id":"Q2246848",
         "wk:page":"Allerton, Illinois"
     },
@@ -177,6 +180,7 @@
             "Allerton%2C_Illinois"
         ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -194,11 +198,11 @@
         }
     ],
     "wof:id":85938307,
-    "wof:lastmodified":1706240762,
+    "wof:lastmodified":1722116397,
     "wof:name":"Allerton",
     "wof:parent_id":404499203,
     "wof:placetype":"locality",
-    "wof:population":287,
+    "wof:population":265,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

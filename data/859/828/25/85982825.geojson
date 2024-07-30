@@ -182,7 +182,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":14179503,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -198,17 +199,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"35560",
     "uscensus:placens":"02394385",
+    "uscensus:population":6617,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"39",
     "wd:elevation":342.0,
     "wd:latitude":39.2058,
     "wd:longitude":-83.6139,
     "wd:wordcount":1148,
     "wof:belongsto":[
-        85688485,
         102191575,
-        404525487,
         85633793,
-        102084797
+        102084797,
+        404525487,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -217,7 +220,7 @@
         "gn:id":4294843,
         "gp:id":2422080,
         "qs_pg:id":247184,
-        "uscensus:geoid":3935560,
+        "uscensus:geoid":"3935560",
         "wd:id":"Q2159033",
         "wk:page":"Hillsboro, Ohio"
     },
@@ -232,6 +235,7 @@
             "Hillsboro%2C_Ohio"
         ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -252,11 +256,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1706240785,
+    "wof:lastmodified":1722116401,
     "wof:name":"Hillsboro",
     "wof:parent_id":404525487,
     "wof:placetype":"locality",
-    "wof:population":6605,
+    "wof:population":6617,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

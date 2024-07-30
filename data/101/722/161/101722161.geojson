@@ -155,7 +155,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2416363,
     "uscensus:awater":173497,
     "uscensus:classfp":"C5",
@@ -171,16 +172,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"20180",
     "uscensus:placens":"01267384",
+    "uscensus:population":773,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"46",
     "wd:latitude":45.769167,
     "wd:longitude":-99.621944,
     "wd:wordcount":880,
     "wof:belongsto":[
-        85688693,
         102191575,
-        404490611,
         85633793,
-        102086837
+        102086837,
+        404490611,
+        85688693
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -189,10 +192,11 @@
         "gn:id":5227665,
         "gp:id":2400606,
         "qs_pg:id":377660,
-        "uscensus:geoid":4620180,
+        "uscensus:geoid":"4620180",
         "wd:id":"Q666688",
         "wk:page":"Eureka, South Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -213,11 +217,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690888166,
+    "wof:lastmodified":1722116245,
     "wof:name":"Eureka",
     "wof:parent_id":404490611,
     "wof:placetype":"locality",
-    "wof:population":868,
+    "wof:population":773,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

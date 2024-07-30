@@ -84,6 +84,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":1901456,
     "uscensus:awater":0,
     "uscensus:classfp":"U1",
@@ -99,14 +101,16 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"82656",
     "uscensus:placens":"02584304",
+    "uscensus:population":385,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"36",
     "wd:wordcount":172,
     "wof:belongsto":[
-        85688543,
         102191575,
-        404522285,
         85633793,
-        102082405
+        102082405,
+        404522285,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -115,9 +119,10 @@
         "gn:id":5144846,
         "gp:id":2522506,
         "qs_pg:id":984923,
-        "uscensus:geoid":3682656,
+        "uscensus:geoid":"3682656",
         "wd:id":"Q9096193"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -138,10 +143,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885884,
+    "wof:lastmodified":1722116187,
     "wof:name":"Witherbee",
     "wof:parent_id":404522285,
     "wof:placetype":"locality",
+    "wof:population":385,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

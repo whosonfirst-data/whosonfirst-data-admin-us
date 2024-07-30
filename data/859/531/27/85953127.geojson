@@ -181,7 +181,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":38892244,
     "uscensus:awater":4896840,
     "uscensus:classfp":"C5",
@@ -197,17 +198,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"20330",
     "uscensus:placens":"02394735",
+    "uscensus:population":10240,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":361.0,
     "wd:latitude":43.652222,
     "wd:longitude":-94.461111,
     "wd:wordcount":1243,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404514005,
         85633793,
-        102087019
+        102087019,
+        404514005,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -216,10 +219,11 @@
         "gn:id":5026114,
         "gp:id":2401582,
         "qs_pg:id":354601,
-        "uscensus:geoid":2720330,
+        "uscensus:geoid":"2720330",
         "wd:id":"Q985171",
         "wk:page":"Fairmont, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -240,11 +244,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884436,
+    "wof:lastmodified":1722116099,
     "wof:name":"Fairmont",
     "wof:parent_id":404514005,
     "wof:placetype":"locality",
-    "wof:population":10666,
+    "wof:population":10240,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

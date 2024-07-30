@@ -131,7 +131,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2331113,
     "uscensus:awater":114293,
     "uscensus:classfp":"C5",
@@ -147,14 +148,16 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"27950",
     "uscensus:placens":"01583248",
+    "uscensus:population":680,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"55",
     "wd:wordcount":912,
     "wof:belongsto":[
-        85688517,
         102191575,
-        404492757,
         85633793,
-        102081729
+        102081729,
+        404492757,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -162,13 +165,14 @@
         "gn:id":5253884,
         "gp:id":2407703,
         "qs_pg:id":1052159,
-        "uscensus:geoid":5527950,
+        "uscensus:geoid":"5527950",
         "wd:id":"Q1013478",
         "wk:page":"Friendship, Wisconsin"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1140479
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -186,11 +190,11 @@
         }
     ],
     "wof:id":101733101,
-    "wof:lastmodified":1690889230,
+    "wof:lastmodified":1722116313,
     "wof:name":"Friendship",
     "wof:parent_id":404492757,
     "wof:placetype":"locality",
-    "wof:population":725,
+    "wof:population":680,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

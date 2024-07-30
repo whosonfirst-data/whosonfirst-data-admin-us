@@ -178,7 +178,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":3580863,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -194,17 +195,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"55420",
     "uscensus:placens":"01036175",
+    "uscensus:population":745,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":597.0,
     "wd:latitude":46.504722,
     "wd:longitude":-99.766944,
     "wd:wordcount":848,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404479087,
         85633793,
-        102082087
+        102082087,
+        404479087,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -213,10 +216,11 @@
         "gn:id":5060572,
         "gp:id":2457044,
         "qs_pg:id":156473,
-        "uscensus:geoid":3855420,
+        "uscensus:geoid":"3855420",
         "wd:id":"Q996166",
         "wk:page":"Napoleon, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -237,11 +241,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884875,
+    "wof:lastmodified":1722116125,
     "wof:name":"Napoleon",
     "wof:parent_id":404479087,
     "wof:placetype":"locality",
-    "wof:population":792,
+    "wof:population":745,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

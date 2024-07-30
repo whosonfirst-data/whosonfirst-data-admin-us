@@ -151,7 +151,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1802060,
     "uscensus:awater":1152,
     "uscensus:classfp":"C5",
@@ -167,17 +168,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"52756",
     "uscensus:placens":"02396296",
+    "uscensus:population":108,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":309.0,
     "wd:latitude":45.915556,
     "wd:longitude":-93.173333,
     "wd:wordcount":875,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404513771,
         85633793,
-        102087687
+        102087687,
+        404513771,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -186,10 +189,11 @@
         "gn:id":5042447,
         "gp:id":2477650,
         "qs_pg:id":601533,
-        "uscensus:geoid":2752756,
+        "uscensus:geoid":"2752756",
         "wd:id":"Q1893400",
         "wk:page":"Quamba, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -210,11 +214,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882075,
+    "wof:lastmodified":1722115961,
     "wof:name":"Quamba",
     "wof:parent_id":404513771,
     "wof:placetype":"locality",
-    "wof:population":123,
+    "wof:population":108,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

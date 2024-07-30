@@ -143,7 +143,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":4773528,
     "uscensus:awater":128626,
     "uscensus:classfp":"C1",
@@ -159,17 +160,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"40937",
     "uscensus:placens":"02390928",
+    "uscensus:population":2803,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"36",
     "wd:elevation":62.0,
     "wd:latitude":40.770278,
     "wd:longitude":-73.713333,
     "wd:wordcount":996,
     "wof:belongsto":[
-        85688543,
         102191575,
-        404522729,
         85633793,
-        102082371
+        102082371,
+        404522729,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -178,10 +181,11 @@
         "gn:id":5123853,
         "gp:id":2435181,
         "qs_pg:id":16649,
-        "uscensus:geoid":3640937,
+        "uscensus:geoid":"3640937",
         "wd:id":"Q302894",
         "wk:page":"Lake Success, New York"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -202,11 +206,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883647,
+    "wof:lastmodified":1722116052,
     "wof:name":"Lake Success",
     "wof:parent_id":404522729,
     "wof:placetype":"locality",
-    "wof:population":2934,
+    "wof:population":2803,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -163,7 +163,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":427779,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -179,17 +180,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"28980",
     "uscensus:placens":"01036049",
+    "uscensus:population":112,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":329.0,
     "wd:latitude":47.269444,
     "wd:longitude":-97.408611,
     "wd:wordcount":758,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404482399,
         85633793,
-        102081481
+        102081481,
+        404482399,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -198,10 +201,11 @@
         "gn:id":5059306,
         "gp:id":2408452,
         "qs_pg:id":1051253,
-        "uscensus:geoid":3828980,
+        "uscensus:geoid":"3828980",
         "wd:id":"Q2442504",
         "wk:page":"Galesburg, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -222,11 +226,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882585,
+    "wof:lastmodified":1722115992,
     "wof:name":"Galesburg",
     "wof:parent_id":404482399,
     "wof:placetype":"locality",
-    "wof:population":108,
+    "wof:population":112,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -157,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2712068,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -173,17 +174,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"39392",
     "uscensus:placens":"02395817",
+    "uscensus:population":1210,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":369.0,
     "wd:latitude":47.315278,
     "wd:longitude":-95.968611,
     "wd:wordcount":857,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404513651,
         85633793,
-        102087859
+        102087859,
+        404513651,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -192,10 +195,11 @@
         "gn:id":5036278,
         "gp:id":2444272,
         "qs_pg:id":1051086,
-        "uscensus:geoid":2739392,
+        "uscensus:geoid":"2739392",
         "wd:id":"Q1924509",
         "wk:page":"Mahnomen, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -216,11 +220,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690886097,
+    "wof:lastmodified":1722116200,
     "wof:name":"Mahnomen",
     "wof:parent_id":404513651,
     "wof:placetype":"locality",
-    "wof:population":1214,
+    "wof:population":1210,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -154,7 +154,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":5778033,
     "uscensus:awater":493201,
     "uscensus:classfp":"C5",
@@ -170,16 +171,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"21450",
     "uscensus:placens":"00885208",
+    "uscensus:population":7251,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"34",
     "wd:latitude":40.975,
     "wd:longitude":-74.0232,
     "wd:wordcount":5361,
     "wof:belongsto":[
-        85688607,
         102191575,
-        404477529,
         85633793,
-        102086773
+        102086773,
+        404477529,
+        85688607
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -187,10 +190,11 @@
         "gn:id":5097649,
         "gp:id":2399357,
         "qs_pg:id":1051518,
-        "uscensus:geoid":3421450,
+        "uscensus:geoid":"3421450",
         "wd:id":"Q1082713",
         "wk:page":"Emerson, New Jersey"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -208,11 +212,11 @@
         }
     ],
     "wof:id":85975881,
-    "wof:lastmodified":1690884238,
+    "wof:lastmodified":1722116087,
     "wof:name":"Emerson",
     "wof:parent_id":404477529,
     "wof:placetype":"locality",
-    "wof:population":7401,
+    "wof:population":7251,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

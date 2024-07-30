@@ -85,7 +85,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":12172630,
     "uscensus:awater":295466,
     "uscensus:classfp":"U1",
@@ -101,13 +102,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"31346",
     "uscensus:placens":"02627946",
+    "uscensus:population":523,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"36",
     "wof:belongsto":[
-        85688543,
         102191575,
-        404521577,
         85633793,
-        102082379
+        102082379,
+        404521577,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -116,9 +119,10 @@
         "gn:id":5119719,
         "gp:id":2416078,
         "qs_pg:id":980233,
-        "uscensus:geoid":3631346,
+        "uscensus:geoid":"3631346",
         "wd:id":"Q5891319"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -139,11 +143,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885272,
+    "wof:lastmodified":1722116149,
     "wof:name":"Hailesboro",
     "wof:parent_id":404521577,
     "wof:placetype":"locality",
-    "wof:population":624,
+    "wof:population":523,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

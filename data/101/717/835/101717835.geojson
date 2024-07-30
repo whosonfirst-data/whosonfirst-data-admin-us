@@ -122,7 +122,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1542278,
     "uscensus:awater":64666,
     "uscensus:classfp":"C5",
@@ -138,16 +139,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"75168",
     "uscensus:placens":"01215303",
+    "uscensus:population":501,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"42",
     "wd:latitude":41.1164,
     "wd:longitude":-79.1883,
     "wd:wordcount":488,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404483509,
         85633793,
-        102083883
+        102083883,
+        404483509,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -156,10 +159,11 @@
         "gn:id":5214759,
         "gp:id":2501692,
         "qs_pg:id":909922,
-        "uscensus:geoid":4275168,
+        "uscensus:geoid":"4275168",
         "wd:id":"Q1183298",
         "wk:page":"Summerville, Pennsylvania"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -180,11 +184,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889737,
+    "wof:lastmodified":1722116346,
     "wof:name":"Summerville",
     "wof:parent_id":404483509,
     "wof:placetype":"locality",
-    "wof:population":528,
+    "wof:population":501,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

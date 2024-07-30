@@ -154,7 +154,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2551392,
     "uscensus:awater":22641,
     "uscensus:classfp":"C5",
@@ -170,13 +171,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"66802",
     "uscensus:placens":"02397127",
+    "uscensus:population":429,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wof:belongsto":[
-        85688727,
         102191575,
-        404511997,
         85633793,
-        102087895
+        102087895,
+        404511997,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -185,9 +188,10 @@
         "gn:id":5051315,
         "gp:id":2511764,
         "qs_pg:id":887842,
-        "uscensus:geoid":2766802,
+        "uscensus:geoid":"2766802",
         "wd:id":"Q1924324"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -208,11 +212,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885182,
+    "wof:lastmodified":1722116143,
     "wof:name":"Vermillion",
     "wof:parent_id":404511997,
     "wof:placetype":"locality",
-    "wof:population":419,
+    "wof:population":429,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

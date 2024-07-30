@@ -139,7 +139,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":476488,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -155,17 +156,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"04940",
     "uscensus:placens":"01035922",
+    "uscensus:population":42,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":315.0,
     "wd:latitude":46.2675,
     "wd:longitude":-97.000278,
     "wd:wordcount":701,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404481633,
         85633793,
-        102082103
+        102082103,
+        404481633,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -174,10 +177,11 @@
         "gn:id":5058191,
         "gp:id":2359435,
         "qs_pg:id":195462,
-        "uscensus:geoid":3804940,
+        "uscensus:geoid":"3804940",
         "wd:id":"Q1963524",
         "wk:page":"Barney, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -198,11 +202,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885199,
+    "wof:lastmodified":1722116145,
     "wof:name":"Barney",
     "wof:parent_id":404481633,
     "wof:placetype":"locality",
-    "wof:population":52,
+    "wof:population":42,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -116,7 +116,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":2608659,
     "uscensus:awater":1271,
     "uscensus:classfp":"C5",
@@ -132,14 +133,16 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"76304",
     "uscensus:placens":"01217321",
+    "uscensus:population":4965,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"42",
     "wd:wordcount":1028,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404482773,
         85633793,
-        102080987
+        102080987,
+        404482773,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -147,13 +150,14 @@
         "gn:id":5215320,
         "gp:id":2504600,
         "qs_pg:id":158028,
-        "uscensus:geoid":4276304,
+        "uscensus:geoid":"4276304",
         "wd:id":"Q1187509",
         "wk:page":"Telford, Pennsylvania"
     },
     "wof:concordances_alt":{
         "qs_pg:id":902143
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -171,11 +175,11 @@
         }
     ],
     "wof:id":101716869,
-    "wof:lastmodified":1690889988,
+    "wof:lastmodified":1722116361,
     "wof:name":"Telford",
     "wof:parent_id":404482773,
     "wof:placetype":"locality",
-    "wof:population":4872,
+    "wof:population":4965,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

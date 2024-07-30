@@ -137,7 +137,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1259432,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -153,17 +154,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"82380",
     "uscensus:placens":"01036310",
+    "uscensus:population":43,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":484.0,
     "wd:latitude":48.019722,
     "wd:longitude":-100.8425,
     "wd:wordcount":762,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404481093,
         85633793,
-        102082517
+        102082517,
+        404481093,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -172,10 +175,11 @@
         "gn:id":5692767,
         "gp:id":2512797,
         "qs_pg:id":159614,
-        "uscensus:geoid":3882380,
+        "uscensus:geoid":"3882380",
         "wd:id":"Q939195",
         "wk:page":"Voltaire, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -196,11 +200,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882186,
+    "wof:lastmodified":1722115969,
     "wof:name":"Voltaire",
     "wof:parent_id":404481093,
     "wof:placetype":"locality",
-    "wof:population":40,
+    "wof:population":43,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

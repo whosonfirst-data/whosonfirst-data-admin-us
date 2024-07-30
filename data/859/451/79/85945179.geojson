@@ -148,7 +148,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":610581,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -164,17 +165,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"37325",
     "uscensus:placens":"02395552",
+    "uscensus:population":332,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"20",
     "wd:elevation":848.0,
     "wd:latitude":37.205,
     "wd:longitude":-100.701,
     "wd:wordcount":801,
     "wof:belongsto":[
-        85688555,
         102191575,
-        404504931,
         85633793,
-        102082139
+        102082139,
+        404504931,
+        85688555
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -183,10 +186,11 @@
         "gn:id":5445752,
         "gp:id":2433179,
         "qs_pg:id":280169,
-        "uscensus:geoid":2037325,
+        "uscensus:geoid":"2037325",
         "wd:id":"Q603474",
         "wk:page":"Kismet, Kansas"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -207,11 +211,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885449,
+    "wof:lastmodified":1722116160,
     "wof:name":"Kismet",
     "wof:parent_id":404504931,
     "wof:placetype":"locality",
-    "wof:population":459,
+    "wof:population":332,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -163,7 +163,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":671320,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -179,6 +180,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"07825",
     "uscensus:placens":"02394214",
+    "uscensus:population":151,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"20",
     "wd:elevation":621.0,
     "wd:latitude":39.3597,
@@ -186,11 +189,11 @@
     "wd:population":143,
     "wd:wordcount":920,
     "wof:belongsto":[
-        85688555,
         102191575,
-        404503729,
         85633793,
-        102084143
+        102084143,
+        404503729,
+        85688555
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -199,10 +202,11 @@
         "gn:id":4268492,
         "gp:id":2366300,
         "qs_pg:id":97627,
-        "uscensus:geoid":2007825,
+        "uscensus:geoid":"2007825",
         "wd:id":"Q1893660",
         "wk:page":"Bogue, Kansas"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -223,11 +227,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885443,
+    "wof:lastmodified":1722116159,
     "wof:name":"Bogue",
     "wof:parent_id":404503729,
     "wof:placetype":"locality",
-    "wof:population":143,
+    "wof:population":151,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

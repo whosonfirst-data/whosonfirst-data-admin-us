@@ -298,7 +298,10 @@
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":600,
+    "uscensus:population_date":"2023",
     "wd:elevation":12.0,
     "wd:latitude":55.336593,
     "wd:longitude":-160.493234,
@@ -306,8 +309,8 @@
     "wof:belongsto":[
         102191575,
         85633793,
-        85688573,
-        102080625
+        102080625,
+        85688573
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -323,6 +326,7 @@
     "wof:concordances_alt":{
         "qs_pg:id":1053397
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "naturalearth",
@@ -342,11 +346,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690881564,
+    "wof:lastmodified":1722115931,
     "wof:name":"Sand Point",
     "wof:parent_id":102080625,
     "wof:placetype":"locality",
-    "wof:population":976,
+    "wof:population":600,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

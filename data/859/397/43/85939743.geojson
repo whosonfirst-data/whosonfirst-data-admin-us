@@ -166,7 +166,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":25457140,
     "uscensus:awater":145468,
     "uscensus:classfp":"C1",
@@ -182,16 +183,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"74223",
     "uscensus:placens":"02396018",
+    "uscensus:population":18682,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"17",
     "wd:latitude":41.98361,
     "wd:longitude":-88.69389,
     "wd:wordcount":2306,
     "wof:belongsto":[
-        85688697,
         102191575,
-        404497727,
         85633793,
-        102082847
+        102082847,
+        404497727,
+        85688697
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -199,13 +202,14 @@
         "gn:id":4913110,
         "gp:id":2503255,
         "qs_pg:id":354354,
-        "uscensus:geoid":1774223,
+        "uscensus:geoid":"1774223",
         "wd:id":"Q432099",
         "wk:page":"Sycamore, Illinois"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1150833
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -223,11 +227,11 @@
         }
     ],
     "wof:id":85939743,
-    "wof:lastmodified":1690882004,
+    "wof:lastmodified":1722115957,
     "wof:name":"Sycamore",
     "wof:parent_id":404497727,
     "wof:placetype":"locality",
-    "wof:population":17519,
+    "wof:population":18682,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -118,7 +118,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":959145,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -134,16 +135,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"15469",
     "uscensus:placens":"02398597",
+    "uscensus:population":160,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"17",
     "wd:latitude":41.9056,
     "wd:longitude":-89.805,
     "wd:wordcount":462,
     "wof:belongsto":[
-        85688697,
         102191575,
-        404499041,
         85633793,
-        102081251
+        102081251,
+        404499041,
+        85688697
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -152,10 +155,11 @@
         "gn:id":4888365,
         "gp:id":2382937,
         "qs_pg:id":926513,
-        "uscensus:geoid":1715469,
+        "uscensus:geoid":"1715469",
         "wd:id":"Q963345",
         "wk:page":"Coleta, Illinois"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -176,11 +180,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884052,
+    "wof:lastmodified":1722116076,
     "wof:name":"Coleta",
     "wof:parent_id":404499041,
     "wof:placetype":"locality",
-    "wof:population":164,
+    "wof:population":160,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -121,7 +121,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":780243,
     "uscensus:awater":64666,
     "uscensus:classfp":"C5",
@@ -137,13 +138,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"49552",
     "uscensus:placens":"01215273",
+    "uscensus:population":280,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"42",
     "wof:belongsto":[
-        85688481,
         102191575,
-        404485921,
         85633793,
-        102080901
+        102080901,
+        404485921,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -152,9 +155,10 @@
         "gn:id":5201164,
         "gp:id":2451047,
         "qs_pg:id":199279,
-        "uscensus:geoid":4249552,
+        "uscensus:geoid":"4249552",
         "wd:id":"Q1183444"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -175,11 +179,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690890506,
+    "wof:lastmodified":1722116393,
     "wof:name":"Mill Creek",
     "wof:parent_id":404485921,
     "wof:placetype":"locality",
-    "wof:population":328,
+    "wof:population":280,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

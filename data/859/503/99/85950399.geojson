@@ -166,7 +166,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":60400819,
     "uscensus:awater":2611581,
     "uscensus:classfp":"C5",
@@ -182,6 +183,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"00840",
     "uscensus:placens":"00618180",
+    "uscensus:population":28406,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"25",
     "wd:elevation":27.0,
     "wd:latitude":42.069444,
@@ -189,11 +192,11 @@
     "wd:population":28438,
     "wd:wordcount":2545,
     "wof:belongsto":[
-        85688645,
         102191575,
-        404476341,
         85633793,
-        102084627
+        102084627,
+        404476341,
+        85688645
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -201,10 +204,11 @@
         "gn:id":4928788,
         "gp:id":2352237,
         "qs_pg:id":1146562,
-        "uscensus:geoid":2500840,
+        "uscensus:geoid":"2500840",
         "wd:id":"Q577215",
         "wk:page":"Agawam, Massachusetts"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -222,11 +226,11 @@
         }
     ],
     "wof:id":85950399,
-    "wof:lastmodified":1690881960,
+    "wof:lastmodified":1722115955,
     "wof:name":"Agawam Town",
     "wof:parent_id":404476341,
     "wof:placetype":"locality",
-    "wof:population":28438,
+    "wof:population":28406,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

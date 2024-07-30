@@ -150,7 +150,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1382373,
     "uscensus:awater":6664,
     "uscensus:classfp":"C1",
@@ -166,6 +167,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"01625",
     "uscensus:placens":"02393940",
+    "uscensus:population":343,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"20",
     "wd:elevation":253.0,
     "wd:latitude":37.52667,
@@ -173,11 +176,11 @@
     "wd:population":414,
     "wd:wordcount":901,
     "wof:belongsto":[
-        85688555,
         102191575,
-        404504831,
         85633793,
-        102083467
+        102083467,
+        404504831,
+        85688555
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -186,10 +189,11 @@
         "gn:id":4267540,
         "gp:id":2353986,
         "qs_pg:id":924551,
-        "uscensus:geoid":2001625,
+        "uscensus:geoid":"2001625",
         "wd:id":"Q2050506",
         "wk:page":"Altoona, Kansas"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -210,11 +214,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882923,
+    "wof:lastmodified":1722116012,
     "wof:name":"Altoona",
     "wof:parent_id":404504831,
     "wof:placetype":"locality",
-    "wof:population":414,
+    "wof:population":343,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

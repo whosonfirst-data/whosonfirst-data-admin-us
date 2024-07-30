@@ -151,7 +151,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":640974,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -167,17 +168,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"50506",
     "uscensus:placens":"02396182",
+    "uscensus:population":108,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":267.0,
     "wd:latitude":47.177778,
     "wd:longitude":-96.805278,
     "wd:wordcount":549,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404510293,
         85633793,
-        102087699
+        102087699,
+        404510293,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -186,10 +189,11 @@
         "gn:id":5041200,
         "gp:id":2470654,
         "qs_pg:id":291027,
-        "uscensus:geoid":2750506,
+        "uscensus:geoid":"2750506",
         "wd:id":"Q2228356",
         "wk:page":"Perley, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -210,11 +214,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885219,
+    "wof:lastmodified":1722116146,
     "wof:name":"Perley",
     "wof:parent_id":404510293,
     "wof:placetype":"locality",
-    "wof:population":92,
+    "wof:population":108,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

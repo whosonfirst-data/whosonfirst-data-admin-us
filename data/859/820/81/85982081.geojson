@@ -202,7 +202,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":10689424,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -218,17 +219,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"81180",
     "uscensus:placens":"01036306",
+    "uscensus:population":6551,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":371.0,
     "wd:latitude":46.924722,
     "wd:longitude":-98.005556,
     "wd:wordcount":1245,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404480117,
         85633793,
-        102082051
+        102082051,
+        404480117,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -236,13 +239,14 @@
         "gn:id":5062292,
         "gp:id":2510781,
         "qs_pg:id":1051288,
-        "uscensus:geoid":3881180,
+        "uscensus:geoid":"3881180",
         "wd:id":"Q1407484",
         "wk:page":"Valley City, North Dakota"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1151724
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -260,11 +264,11 @@
         }
     ],
     "wof:id":85982081,
-    "wof:lastmodified":1690882187,
+    "wof:lastmodified":1722115969,
     "wof:name":"Valley City",
     "wof:parent_id":404480117,
     "wof:placetype":"locality",
-    "wof:population":6585,
+    "wof:population":6551,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

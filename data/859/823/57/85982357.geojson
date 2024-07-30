@@ -139,7 +139,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":635020,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -155,17 +156,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"48020",
     "uscensus:placens":"01036136",
+    "uscensus:population":10,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":497.0,
     "wd:latitude":48.867222,
     "wd:longitude":-101.569444,
     "wd:wordcount":708,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404479409,
         85633793,
-        102082063
+        102082063,
+        404479409,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -174,10 +177,11 @@
         "gn:id":5690297,
         "gp:id":2441920,
         "qs_pg:id":1345035,
-        "uscensus:geoid":3848020,
+        "uscensus:geoid":"3848020",
         "wd:id":"Q978284",
         "wk:page":"Loraine, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -198,11 +202,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884814,
+    "wof:lastmodified":1722116121,
     "wof:name":"Loraine",
     "wof:parent_id":404479409,
     "wof:placetype":"locality",
-    "wof:population":9,
+    "wof:population":10,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

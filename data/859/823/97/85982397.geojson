@@ -136,7 +136,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":650728,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -152,17 +153,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"08580",
     "uscensus:placens":"01035938",
+    "uscensus:population":139,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":551.0,
     "wd:latitude":47.470278,
     "wd:longitude":-99.708611,
     "wd:wordcount":773,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404480015,
         85633793,
-        102081507
+        102081507,
+        404480015,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -171,10 +174,11 @@
         "gn:id":5058388,
         "gp:id":2367371,
         "qs_pg:id":434628,
-        "uscensus:geoid":3808580,
+        "uscensus:geoid":"3808580",
         "wd:id":"Q2442972",
         "wk:page":"Bowdon, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -195,11 +199,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884821,
+    "wof:lastmodified":1722116122,
     "wof:name":"Bowdon",
     "wof:parent_id":404480015,
     "wof:placetype":"locality",
-    "wof:population":131,
+    "wof:population":139,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

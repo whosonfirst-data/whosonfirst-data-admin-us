@@ -137,7 +137,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":11331373,
     "uscensus:awater":2967896,
     "uscensus:classfp":"C5",
@@ -153,17 +154,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"26850",
     "uscensus:placens":"01583223",
+    "uscensus:population":778,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"55",
     "wd:elevation":204.0,
     "wd:latitude":44.124444,
     "wd:longitude":-91.709444,
     "wd:wordcount":1212,
     "wof:belongsto":[
-        85688517,
         102191575,
-        404491541,
         85633793,
-        102081261
+        102081261,
+        404491541,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -172,10 +175,11 @@
         "gn:id":5253549,
         "gp:id":2406251,
         "qs_pg:id":928484,
-        "uscensus:geoid":5526850,
+        "uscensus:geoid":"5526850",
         "wd:id":"Q1439910",
         "wk:page":"Fountain City, Wisconsin"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -196,11 +200,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889186,
+    "wof:lastmodified":1722116310,
     "wof:name":"Fountain City",
     "wof:parent_id":404491541,
     "wof:placetype":"locality",
-    "wof:population":859,
+    "wof:population":778,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

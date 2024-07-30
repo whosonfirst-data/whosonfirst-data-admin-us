@@ -70,7 +70,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":25360655,
     "uscensus:awater":0,
     "uscensus:classfp":"U1",
@@ -86,13 +87,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"06904",
     "uscensus:placens":"02627975",
+    "uscensus:population":505,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"36",
     "wof:belongsto":[
-        85688543,
         102191575,
-        404523409,
         85633793,
-        102082389
+        102082389,
+        404523409,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -101,9 +104,10 @@
         "gn:id":5109527,
         "gp:id":2365466,
         "qs_pg:id":284341,
-        "uscensus:geoid":3606904,
+        "uscensus:geoid":"3606904",
         "wd:id":"Q11680243"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -124,11 +128,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885272,
+    "wof:lastmodified":1722116149,
     "wof:name":"Bliss",
     "wof:parent_id":404523409,
     "wof:placetype":"locality",
-    "wof:population":527,
+    "wof:population":505,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

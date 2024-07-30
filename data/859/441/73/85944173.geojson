@@ -154,7 +154,10 @@
     "src:geom":"quattroshapes",
     "src:geom_alt":[],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":723,
+    "uscensus:population_date":"2023",
     "wd:elevation":244.0,
     "wd:latitude":41.848056,
     "wd:longitude":-91.648611,
@@ -162,16 +165,18 @@
     "wof:belongsto":[
         102191575,
         85633793,
-        85688713,
-        102086417
+        102086417,
+        85688713
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":4876323,
         "gp:id":2493258,
+        "uscensus:geoid":"1972840",
         "wd:id":"Q279032",
         "wk:page":"Shueyville, Iowa"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geomhash":"8fd31c6d2981ffd005684cf04925c1a3",
     "wof:hierarchy":[
@@ -184,11 +189,11 @@
         }
     ],
     "wof:id":85944173,
-    "wof:lastmodified":1690882599,
+    "wof:lastmodified":1722115993,
     "wof:name":"Shueyville",
     "wof:parent_id":102086417,
     "wof:placetype":"locality",
-    "wof:population":577,
+    "wof:population":723,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -122,7 +122,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":2477932,
     "uscensus:awater":0,
     "uscensus:classfp":"U2",
@@ -138,14 +139,16 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"80066",
     "uscensus:placens":"02393832",
+    "uscensus:population":608,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"39",
     "wd:wordcount":476,
     "wof:belongsto":[
-        85688485,
         102191575,
-        404526221,
         85633793,
-        102083719
+        102083719,
+        404526221,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -153,13 +156,14 @@
         "gn:id":5175130,
         "gp:id":2512168,
         "qs_pg:id":106447,
-        "uscensus:geoid":3980066,
+        "uscensus:geoid":"3980066",
         "wd:id":"Q784979",
         "wk:page":"Vienna Center, Ohio"
     },
     "wof:concordances_alt":{
         "qs_pg:id":268903
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -177,11 +181,11 @@
         }
     ],
     "wof:id":101714027,
-    "wof:lastmodified":1690888585,
+    "wof:lastmodified":1722116272,
     "wof:name":"Vienna Center",
     "wof:parent_id":404526221,
     "wof:placetype":"locality",
-    "wof:population":650,
+    "wof:population":608,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

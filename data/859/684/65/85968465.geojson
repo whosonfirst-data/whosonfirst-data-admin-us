@@ -179,7 +179,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":23527578,
     "uscensus:awater":2515093,
     "uscensus:classfp":"C5",
@@ -195,17 +196,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"41696",
     "uscensus:placens":"02395097",
+    "uscensus:population":11564,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":278.0,
     "wd:latitude":44.886944,
     "wd:longitude":-93.135,
     "wd:wordcount":979,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404511979,
         85633793,
-        102087895
+        102087895,
+        404511979,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -214,10 +217,11 @@
         "gn:id":5037280,
         "gp:id":2449415,
         "qs_pg:id":688197,
-        "uscensus:geoid":2741696,
+        "uscensus:geoid":"2741696",
         "wd:id":"Q1992845",
         "wk:page":"Mendota Heights, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -238,11 +242,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885188,
+    "wof:lastmodified":1722116144,
     "wof:name":"Mendota Heights",
     "wof:parent_id":404511979,
     "wof:placetype":"locality",
-    "wof:population":11071,
+    "wof:population":11564,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

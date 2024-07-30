@@ -204,7 +204,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":13508995,
     "uscensus:awater":7012,
     "uscensus:classfp":"C1",
@@ -220,6 +221,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"46388",
     "uscensus:placens":"02395025",
+    "uscensus:population":7845,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"29",
     "wd:elevation":455.0,
     "wd:latitude":37.33944,
@@ -227,11 +230,11 @@
     "wd:population":6633,
     "wd:wordcount":1299,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404517937,
         85633793,
-        102086149
+        102086149,
+        404517937,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -240,13 +243,14 @@
         "gn:id":4397238,
         "gp:id":2446178,
         "qs_pg:id":1048798,
-        "uscensus:geoid":2946388,
+        "uscensus:geoid":"2946388",
         "wd:id":"Q963309",
         "wk:page":"Marshfield, Missouri"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1144364
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -267,11 +271,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690886030,
+    "wof:lastmodified":1722116196,
     "wof:name":"Marshfield",
     "wof:parent_id":404517937,
     "wof:placetype":"locality",
-    "wof:population":6633,
+    "wof:population":7845,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

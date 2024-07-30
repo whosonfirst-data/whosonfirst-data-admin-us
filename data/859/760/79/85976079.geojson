@@ -136,7 +136,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":7259595,
     "uscensus:awater":0,
     "uscensus:classfp":"U1",
@@ -152,17 +153,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"60030",
     "uscensus:placens":"02389693",
+    "uscensus:population":7413,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"34",
     "wd:elevation":17.0,
     "wd:latitude":39.4687,
     "wd:longitude":-74.5501,
     "wd:wordcount":1005,
     "wof:belongsto":[
-        85688607,
         102191575,
-        404477617,
         85633793,
-        102083869
+        102083869,
+        404477617,
+        85688607
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -170,10 +173,11 @@
         "gn:id":4503665,
         "gp:id":2474869,
         "qs_pg:id":1049121,
-        "uscensus:geoid":3460030,
+        "uscensus:geoid":"3460030",
         "wd:id":"Q1084744",
         "wk:page":"Pomona, New Jersey"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -191,11 +195,11 @@
         }
     ],
     "wof:id":85976079,
-    "wof:lastmodified":1690884276,
+    "wof:lastmodified":1722116089,
     "wof:name":"Pomona",
     "wof:parent_id":404477617,
     "wof:placetype":"locality",
-    "wof:population":7124,
+    "wof:population":7413,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

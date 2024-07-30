@@ -145,7 +145,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1177287,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -161,17 +162,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"24780",
     "uscensus:placens":"01036027",
+    "uscensus:population":88,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":494.0,
     "wd:latitude":48.034167,
     "wd:longitude":-99.764167,
     "wd:wordcount":727,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404478681,
         85633793,
-        102082071
+        102082071,
+        404478681,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -179,10 +182,11 @@
         "gn:id":5059127,
         "gp:id":2400213,
         "qs_pg:id":1051244,
-        "uscensus:geoid":3824780,
+        "uscensus:geoid":"3824780",
         "wd:id":"Q919767",
         "wk:page":"Esmond, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -200,11 +204,11 @@
         }
     ],
     "wof:id":85982241,
-    "wof:lastmodified":1690885253,
+    "wof:lastmodified":1722116148,
     "wof:name":"Esmond",
     "wof:parent_id":404478681,
     "wof:placetype":"locality",
-    "wof:population":100,
+    "wof:population":88,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

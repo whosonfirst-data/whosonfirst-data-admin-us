@@ -193,7 +193,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":24956519,
     "uscensus:awater":616049,
     "uscensus:classfp":"C1",
@@ -209,17 +210,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"79370",
     "uscensus:placens":"02397155",
+    "uscensus:population":10269,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"18",
     "wd:elevation":217.0,
     "wd:latitude":40.8008,
     "wd:longitude":-85.8272,
     "wd:wordcount":1114,
     "wof:belongsto":[
-        85688709,
         102191575,
-        404502061,
         85633793,
-        102086467
+        102086467,
+        404502061,
+        85688709
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -228,10 +231,11 @@
         "gn:id":4927746,
         "gp:id":2354246,
         "qs_pg:id":354377,
-        "uscensus:geoid":1879370,
+        "uscensus:geoid":"1879370",
         "wd:id":"Q989967",
         "wk:page":"Wabash, Indiana"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -252,11 +256,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882335,
+    "wof:lastmodified":1722115978,
     "wof:name":"Wabash",
     "wof:parent_id":404502061,
     "wof:placetype":"locality",
-    "wof:population":10666,
+    "wof:population":10269,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

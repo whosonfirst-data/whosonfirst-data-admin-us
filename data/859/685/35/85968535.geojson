@@ -190,7 +190,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":26460881,
     "uscensus:awater":20222,
     "uscensus:classfp":"C5",
@@ -206,17 +207,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"40688",
     "uscensus:placens":"02395022",
+    "uscensus:population":13906,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":354.0,
     "wd:latitude":44.446944,
     "wd:longitude":-95.788333,
     "wd:wordcount":2079,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404512661,
         85633793,
-        102087885
+        102087885,
+        404512661,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -225,10 +228,11 @@
         "gn:id":5036727,
         "gp:id":2446110,
         "qs_pg:id":354627,
-        "uscensus:geoid":2740688,
+        "uscensus:geoid":"2740688",
         "wd:id":"Q1986475",
         "wk:page":"Marshall, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -249,11 +253,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884826,
+    "wof:lastmodified":1722116122,
     "wof:name":"Marshall",
     "wof:parent_id":404512661,
     "wof:placetype":"locality",
-    "wof:population":13680,
+    "wof:population":13906,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

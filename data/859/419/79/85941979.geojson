@@ -194,7 +194,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":13125444,
     "uscensus:awater":14066,
     "uscensus:classfp":"C1",
@@ -210,17 +211,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"62046",
     "uscensus:placens":"02396277",
+    "uscensus:population":8401,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"18",
     "wd:elevation":121.0,
     "wd:latitude":38.3536,
     "wd:longitude":-87.5706,
     "wd:wordcount":2637,
     "wof:belongsto":[
-        85688709,
         102191575,
-        404500741,
         85633793,
-        102086375
+        102086375,
+        404500741,
+        85688709
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -229,7 +232,7 @@
         "gn:id":4250540,
         "gp:id":2476720,
         "qs_pg:id":152482,
-        "uscensus:geoid":1862046,
+        "uscensus:geoid":"1862046",
         "wd:id":"Q2179848",
         "wk:page":"Princeton, Indiana"
     },
@@ -244,6 +247,7 @@
             "Princeton%2C_Indiana"
         ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -264,11 +268,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1706240764,
+    "wof:lastmodified":1722116398,
     "wof:name":"Princeton",
     "wof:parent_id":404500741,
     "wof:placetype":"locality",
-    "wof:population":8626,
+    "wof:population":8401,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

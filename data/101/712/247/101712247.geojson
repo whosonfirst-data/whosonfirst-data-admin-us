@@ -176,7 +176,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":8140602,
     "uscensus:awater":0,
     "uscensus:classfp":"C2",
@@ -192,17 +193,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"57386",
     "uscensus:placens":"01086224",
+    "uscensus:population":19046,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"39",
     "wd:elevation":200.0,
     "wd:latitude":39.16,
     "wd:longitude":-84.455,
     "wd:wordcount":10906,
     "wof:belongsto":[
-        85688485,
         102191575,
-        404525379,
         85633793,
-        102083687
+        102083687,
+        404525379,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -211,10 +214,11 @@
         "gn:id":4519995,
         "gp:id":2462313,
         "qs_pg:id":1212155,
-        "uscensus:geoid":3957386,
+        "uscensus:geoid":"3957386",
         "wd:id":"Q740980",
         "wk:page":"Norwood, Ohio"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -235,11 +239,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690888824,
+    "wof:lastmodified":1722116288,
     "wof:name":"Norwood",
     "wof:parent_id":404525379,
     "wof:placetype":"locality",
-    "wof:population":19207,
+    "wof:population":19046,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

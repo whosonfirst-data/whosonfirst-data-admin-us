@@ -166,7 +166,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2598619,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -182,17 +183,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"59200",
     "uscensus:placens":"02396363",
+    "uscensus:population":27,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"20",
     "wd:elevation":1033.0,
     "wd:latitude":37.2658,
     "wd:longitude":-101.784,
     "wd:wordcount":1025,
     "wof:belongsto":[
-        85688555,
         102191575,
-        404504689,
         85633793,
-        102082711
+        102082711,
+        404504689,
+        85688555
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -201,10 +204,11 @@
         "gn:id":5446288,
         "gp:id":2480791,
         "qs_pg:id":2642,
-        "uscensus:geoid":2059200,
+        "uscensus:geoid":"2059200",
         "wd:id":"Q582426",
         "wk:page":"Richfield, Kansas"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -225,11 +229,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885725,
+    "wof:lastmodified":1722116177,
     "wof:name":"Richfield",
     "wof:parent_id":404504689,
     "wof:placetype":"locality",
-    "wof:population":43,
+    "wof:population":27,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

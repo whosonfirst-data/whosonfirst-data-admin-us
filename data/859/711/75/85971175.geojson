@@ -153,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1494550,
     "uscensus:awater":7606,
     "uscensus:classfp":"C1",
@@ -169,6 +170,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"14140",
     "uscensus:placens":"02393540",
+    "uscensus:population":256,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"29",
     "wd:elevation":277.0,
     "wd:latitude":38.66,
@@ -176,11 +179,11 @@
     "wd:population":334,
     "wd:wordcount":783,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404516949,
         85633793,
-        102085349
+        102085349,
+        404516949,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -189,10 +192,11 @@
         "gn:id":4381415,
         "gp:id":2380823,
         "qs_pg:id":196273,
-        "uscensus:geoid":2914140,
+        "uscensus:geoid":"2914140",
         "wd:id":"Q967485",
         "wk:page":"Clarksburg, Missouri"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -213,11 +217,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690886337,
+    "wof:lastmodified":1722116215,
     "wof:name":"Clarksburg",
     "wof:parent_id":404516949,
     "wof:placetype":"locality",
-    "wof:population":334,
+    "wof:population":256,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

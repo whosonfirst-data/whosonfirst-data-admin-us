@@ -163,7 +163,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":3570960,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -179,6 +180,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"12376",
     "uscensus:placens":"02393579",
+    "uscensus:population":138,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":278.0,
     "wd:latitude":44.717222,
@@ -186,11 +189,11 @@
     "wd:population":161,
     "wd:wordcount":862,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404509543,
         85633793,
-        102087895
+        102087895,
+        404509543,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -199,10 +202,11 @@
         "gn:id":5021694,
         "gp:id":2382302,
         "qs_pg:id":100185,
-        "uscensus:geoid":2712376,
+        "uscensus:geoid":"2712376",
         "wd:id":"Q2020935",
         "wk:page":"Coates, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -223,11 +227,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885183,
+    "wof:lastmodified":1722116144,
     "wof:name":"Coates",
     "wof:parent_id":404509543,
     "wof:placetype":"locality",
-    "wof:population":161,
+    "wof:population":138,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

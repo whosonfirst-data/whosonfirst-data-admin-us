@@ -21,7 +21,7 @@
     "mps:latitude":43.361318,
     "mps:longitude":-91.222232,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u0644\u0627\u0646\u0633\u064a\u0646\u063a"
@@ -171,7 +171,10 @@
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":954,
+    "uscensus:population_date":"2023",
     "wd:elevation":206.0,
     "wd:latitude":43.361389,
     "wd:longitude":-91.223333,
@@ -179,8 +182,8 @@
     "wof:belongsto":[
         102191575,
         85633793,
-        85688713,
-        102086615
+        102086615,
+        85688713
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -192,6 +195,7 @@
         "wd:id":"Q998842",
         "wk:page":"Lansing, Iowa"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg"
@@ -207,11 +211,11 @@
         }
     ],
     "wof:id":85942975,
-    "wof:lastmodified":1690884991,
+    "wof:lastmodified":1722115910,
     "wof:name":"Lansing",
     "wof:parent_id":102086615,
     "wof:placetype":"locality",
-    "wof:population":999,
+    "wof:population":954,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

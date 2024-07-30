@@ -157,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":3856611,
     "uscensus:awater":1529462,
     "uscensus:classfp":"C5",
@@ -173,17 +174,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"15346",
     "uscensus:placens":"02394491",
+    "uscensus:population":578,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":389.0,
     "wd:latitude":46.473611,
     "wd:longitude":-93.901944,
     "wd:wordcount":903,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404512031,
         85633793,
-        102087093
+        102087093,
+        404512031,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -192,10 +195,11 @@
         "gn:id":5024193,
         "gp:id":2390580,
         "qs_pg:id":12702,
-        "uscensus:geoid":2715346,
+        "uscensus:geoid":"2715346",
         "wd:id":"Q2231858",
         "wk:page":"Deerwood, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -216,11 +220,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883475,
+    "wof:lastmodified":1722116041,
     "wof:name":"Deerwood",
     "wof:parent_id":404512031,
     "wof:placetype":"locality",
-    "wof:population":532,
+    "wof:population":578,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -154,7 +154,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1797410,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -170,17 +171,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"70582",
     "uscensus:placens":"02397329",
+    "uscensus:population":320,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":526.0,
     "wd:latitude":43.764722,
     "wd:longitude":-95.827222,
     "wd:wordcount":1274,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404510275,
         85633793,
-        102087607
+        102087607,
+        404510275,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -189,10 +192,11 @@
         "gn:id":5053006,
         "gp:id":2521391,
         "qs_pg:id":202164,
-        "uscensus:geoid":2770582,
+        "uscensus:geoid":"2770582",
         "wd:id":"Q1007040",
         "wk:page":"Wilmont, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -213,11 +217,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882108,
+    "wof:lastmodified":1722115963,
     "wof:name":"Wilmont",
     "wof:parent_id":404510275,
     "wof:placetype":"locality",
-    "wof:population":339,
+    "wof:population":320,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -121,7 +121,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":1964975,
     "uscensus:awater":8281,
     "uscensus:classfp":"U1",
@@ -137,17 +138,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"59285",
     "uscensus:placens":"02389680",
+    "uscensus:population":2773,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"34",
     "wd:elevation":22.0,
     "wd:latitude":40.330833,
     "wd:longitude":-74.596667,
     "wd:wordcount":859,
     "wof:belongsto":[
-        85688607,
         102191575,
-        404478205,
         85633793,
-        102087417
+        102087417,
+        404478205,
+        85688607
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -155,10 +158,11 @@
         "gn:id":5102729,
         "gp:id":2473382,
         "qs_pg:id":100829,
-        "uscensus:geoid":3459285,
+        "uscensus:geoid":"3459285",
         "wd:id":"Q1084429",
         "wk:page":"Plainsboro Center, New Jersey"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -176,11 +180,11 @@
         }
     ],
     "wof:id":85976315,
-    "wof:lastmodified":1690881415,
+    "wof:lastmodified":1722115922,
     "wof:name":"Plainsboro Center",
     "wof:parent_id":404478205,
     "wof:placetype":"locality",
-    "wof:population":2712,
+    "wof:population":2773,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

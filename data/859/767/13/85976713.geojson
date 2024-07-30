@@ -22,7 +22,6 @@
     "mps:longitude": -106.645551,
     "mz:hierarchy_label": 1,
     "mz:is_current": 1,
-    "mz:min_zoom": 5.1,
     "name:ara_x_preferred": [
       "لوس رونتشوس دي ألبوكوراكيو"
     ],
@@ -101,7 +100,10 @@
       "quattroshapes_pg"
     ],
     "src:lbl_centroid": "mapshaper",
-    "src:population": "geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":5828,
+    "uscensus:population_date":"2023",
     "wd:wordcount": 1515,
     "wof:belongsto": [
       102191575,
@@ -122,34 +124,33 @@
     "wof:concordances_alt": {
       "qs_pg:id": 1121317
     },
-    "wof:country": "US",
-    "wof:created": 1722293860,
-    "wof:geom_alt": [
-      "quattroshapes_pg"
+    "wof:concordances_official":"uscensus:geoid",
+    "wof:country":"US",
+    "wof:geom_alt":[
+        "quattroshapes_pg"
     ],
-    "wof:geomhash": "6975fb56eea557f144c9b96d9553dfaa",
-    "wof:hierarchy": [
-      {
-        "continent_id": 102191575,
-        "country_id": 85633793,
-        "county_id": 102081199,
-        "locality_id": 85976713,
-        "region_id": 85688493
-      }
+    "wof:geomhash":"6975fb56eea557f144c9b96d9553dfaa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102081199,
+            "locality_id":85976713,
+            "region_id":85688493
+        }
     ],
-    "wof:id": 85976713,
-    "wof:lastmodified": 1722293860,
-    "wof:megacity": 0,
-    "wof:name": "Los Ranchos de Albuquerque",
-    "wof:parent_id": 102081199,
-    "wof:placetype": "locality",
-    "wof:population": 6024,
-    "wof:population_rank": 5,
-    "wof:repo": "whosonfirst-data-admin-us",
-    "wof:scale": 4,
-    "wof:superseded_by": [],
-    "wof:supersedes": [],
-    "wof:tags": []
+    "wof:id":85976713,
+    "wof:lastmodified":1722115920,
+    "wof:megacity":0,
+    "wof:name":"Los Ranchos de Albuquerque",
+    "wof:parent_id":102081199,
+    "wof:placetype":"locality",
+    "wof:population":6024,
+    "wof:population_rank":5,
+    "wof:repo":"whosonfirst-data-admin-us",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
   },
   "bbox": [
     -106.678236,

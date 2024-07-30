@@ -199,7 +199,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":27842644,
     "uscensus:awater":431798,
     "uscensus:classfp":"C1",
@@ -215,6 +216,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"82800",
     "uscensus:placens":"02378295",
+    "uscensus:population":54790,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"09",
     "wd:elevation":10.0,
     "wd:latitude":41.273889,
@@ -222,11 +225,11 @@
     "wd:population":55564,
     "wd:wordcount":2207,
     "wof:belongsto":[
-        85688629,
         102191575,
-        404495805,
         85633793,
-        102086923
+        102086923,
+        404495805,
+        85688629
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -234,10 +237,11 @@
         "gn:id":4845419,
         "gp:id":2517160,
         "qs_pg:id":1063501,
-        "uscensus:geoid":982800,
+        "uscensus:geoid":"0982800",
         "wd:id":"Q54219",
         "wk:page":"West Haven, Connecticut"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -255,11 +259,11 @@
         }
     ],
     "wof:id":85930885,
-    "wof:lastmodified":1690881801,
+    "wof:lastmodified":1722115945,
     "wof:name":"West Haven",
     "wof:parent_id":404495805,
     "wof:placetype":"locality",
-    "wof:population":55564,
+    "wof:population":54790,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

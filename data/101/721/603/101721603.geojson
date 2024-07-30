@@ -128,7 +128,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":5611106,
     "uscensus:awater":124206,
     "uscensus:classfp":"C5",
@@ -144,16 +145,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"68380",
     "uscensus:placens":"01267622",
+    "uscensus:population":688,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"46",
     "wd:latitude":43.991667,
     "wd:longitude":-102.240833,
     "wd:wordcount":951,
     "wof:belongsto":[
-        85688693,
         102191575,
-        404490895,
         85633793,
-        102086781
+        102086781,
+        404490895,
+        85688693
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -162,10 +165,11 @@
         "gn:id":5770098,
         "gp:id":2513570,
         "qs_pg:id":1053090,
-        "uscensus:geoid":4668380,
+        "uscensus:geoid":"4668380",
         "wd:id":"Q2035569",
         "wk:page":"Wall, South Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -186,11 +190,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889628,
+    "wof:lastmodified":1722116339,
     "wof:name":"Wall",
     "wof:parent_id":404490895,
     "wof:placetype":"locality",
-    "wof:population":766,
+    "wof:population":688,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

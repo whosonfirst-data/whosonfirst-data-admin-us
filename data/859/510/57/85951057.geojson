@@ -156,7 +156,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":18115887,
     "uscensus:awater":41189,
     "uscensus:classfp":"C5",
@@ -172,6 +173,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"01380",
     "uscensus:placens":"01625823",
+    "uscensus:population":27528,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"26",
     "wd:elevation":181.0,
     "wd:latitude":42.2575,
@@ -179,11 +182,11 @@
     "wd:population":28210,
     "wd:wordcount":2084,
     "wof:belongsto":[
-        85688599,
         102191575,
-        404508531,
         85633793,
-        102083147
+        102083147,
+        404508531,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -192,13 +195,14 @@
         "gn:id":5004984,
         "gp:id":28744317,
         "qs_pg:id":207154,
-        "uscensus:geoid":2601380,
+        "uscensus:geoid":"2601380",
         "wd:id":"Q795403",
         "wk:page":"Allen Park, Michigan"
     },
     "wof:concordances_alt":{
         "qs_pg:id":887053
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -219,11 +223,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883328,
+    "wof:lastmodified":1722116033,
     "wof:name":"Allen Park",
     "wof:parent_id":404508531,
     "wof:placetype":"locality",
-    "wof:population":28210,
+    "wof:population":27528,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

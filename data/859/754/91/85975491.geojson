@@ -142,7 +142,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":22793673,
     "uscensus:awater":1156235,
     "uscensus:classfp":"C5",
@@ -158,16 +159,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"06340",
     "uscensus:placens":"00885161",
+    "uscensus:population":7598,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"34",
     "wd:latitude":41.0352,
     "wd:longitude":-74.3336,
     "wd:wordcount":4495,
     "wof:belongsto":[
-        85688607,
         102191575,
-        404477807,
         85633793,
-        102081133
+        102081133,
+        404477807,
+        85688607
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -176,10 +179,11 @@
         "gn:id":5095786,
         "gp:id":2365611,
         "qs_pg:id":814370,
-        "uscensus:geoid":3406340,
+        "uscensus:geoid":"3406340",
         "wd:id":"Q885389",
         "wk:page":"Bloomingdale, New Jersey"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -200,11 +204,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690881756,
+    "wof:lastmodified":1722115943,
     "wof:name":"Bloomingdale",
     "wof:parent_id":404477807,
     "wof:placetype":"locality",
-    "wof:population":7656,
+    "wof:population":7598,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

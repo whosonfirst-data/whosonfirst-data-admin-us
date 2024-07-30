@@ -17,7 +17,7 @@
     "mps:latitude":33.888133,
     "mps:longitude":-117.270686,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:eng_x_preferred":[
         "March ARB"
@@ -39,14 +39,21 @@
     "src:geom":"quattroshapes",
     "src:geom_alt":[],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
+    "uscensus:population":1552,
+    "uscensus:population_date":"2022",
     "wof:belongsto":[
         102191575,
         85633793,
-        85688637,
-        102086221
+        102086221,
+        85688637
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "uscensus:geoid":"0645680"
+    },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geomhash":"4aa7dd4e54fd1378b5570b3d9cb87e27",
     "wof:hierarchy":[
@@ -59,10 +66,12 @@
         }
     ],
     "wof:id":85928063,
-    "wof:lastmodified":1566611872,
+    "wof:lastmodified":1722115903,
     "wof:name":"March ARB",
     "wof:parent_id":102086221,
     "wof:placetype":"locality",
+    "wof:population":1552,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

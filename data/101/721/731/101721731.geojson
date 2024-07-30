@@ -153,7 +153,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1889791,
     "uscensus:awater":98174,
     "uscensus:classfp":"C5",
@@ -169,16 +170,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"39940",
     "uscensus:placens":"01267467",
+    "uscensus:population":110,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"46",
     "wd:latitude":45.921667,
     "wd:longitude":-101.350278,
     "wd:wordcount":869,
     "wof:belongsto":[
-        85688693,
         102191575,
-        404489859,
         85633793,
-        102086853
+        102086853,
+        404489859,
+        85688693
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -187,10 +190,11 @@
         "gn:id":5766967,
         "gp:id":2448064,
         "qs_pg:id":159759,
-        "uscensus:geoid":4639940,
+        "uscensus:geoid":"4639940",
         "wd:id":"Q2574896",
         "wk:page":"McIntosh, South Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -211,11 +215,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889601,
+    "wof:lastmodified":1722116337,
     "wof:name":"McIntosh",
     "wof:parent_id":404489859,
     "wof:placetype":"locality",
-    "wof:population":173,
+    "wof:population":110,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
