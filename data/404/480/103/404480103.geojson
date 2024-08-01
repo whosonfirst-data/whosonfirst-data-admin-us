@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010945,
-    "geom:area_square_m":92714043.848884,
+    "geom:area_square_m":92714043.848873,
     "geom:bbox":"-98.186148,46.717614,-98.059954,46.805126",
     "geom:latitude":46.761478,
     "geom:longitude":-98.123064,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.761462,
     "lbl:longitude":-98.123061,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3800373500,
     "uscensus:name":"Skandia",
     "uscensus:namelsad":"Skandia township",
+    "uscensus:population":28,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3800373500
+        "uscensus:geoid":"3800373500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468855
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404480103,
-    "wof:lastmodified":1605055905,
+    "wof:lastmodified":1722117742,
     "wof:name":"Skandia Township",
     "wof:parent_id":102082051,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":40,
+    "wof:population":28,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010457,
-    "geom:area_square_m":98568141.749608,
+    "geom:area_square_m":98568141.749601,
     "geom:bbox":"-91.375024,40.284739,-91.253696,40.375732",
     "geom:latitude":40.330627,
     "geom:longitude":-91.314554,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.330679,
     "lbl:longitude":-91.314569,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":67,
     "uscensus:geoid":1706783713,
     "uscensus:name":"Wythe",
     "uscensus:namelsad":"Wythe township",
+    "uscensus:population":242,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1706783713
+        "uscensus:geoid":"1706783713"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467323
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404498099,
-    "wof:lastmodified":1605055561,
+    "wof:lastmodified":1722117853,
     "wof:name":"Wythe Township",
     "wof:parent_id":102082845,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":248,
+    "wof:population":242,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

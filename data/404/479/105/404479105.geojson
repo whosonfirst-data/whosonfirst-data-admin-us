@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000101,
-    "geom:area_square_m":830445.813095,
+    "geom:area_square_m":830445.813096,
     "geom:bbox":"-100.853456,48.261618,-100.83729,48.270737",
     "geom:latitude":48.266283,
     "geom:longitude":-100.845163,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.267401,
     "lbl:longitude":-100.845009,
     "lbl:max_zoom":17.0,
@@ -85,11 +91,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":3804932660,
     "uscensus:name":"Granville",
     "uscensus:namelsad":"Granville city",
+    "uscensus:population":225,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -99,8 +108,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3804932660
+        "uscensus:geoid":"3804932660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -116,11 +126,11 @@
         }
     ],
     "wof:id":404479105,
-    "wof:lastmodified":1605055471,
+    "wof:lastmodified":1722117735,
     "wof:name":"Granville",
     "wof:parent_id":102082517,
     "wof:placetype":"localadmin",
-    "wof:population":241,
+    "wof:population":225,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

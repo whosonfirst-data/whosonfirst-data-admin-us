@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000119,
-    "geom:area_square_m":1046217.808799,
+    "geom:area_square_m":1046217.808795,
     "geom:bbox":"-94.212246,44.899444,-94.185531,44.908672",
     "geom:latitude":44.904208,
     "geom:longitude":-94.198426,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.903831,
     "lbl:longitude":-94.197514,
     "lbl:max_zoom":17.0,
@@ -88,11 +94,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":85,
     "uscensus:geoid":2708560376,
     "uscensus:name":"Silver Lake",
     "uscensus:namelsad":"Silver Lake city",
+    "uscensus:population":861,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -102,8 +111,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2708560376
+        "uscensus:geoid":"2708560376"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -119,11 +129,11 @@
         }
     ],
     "wof:id":404510113,
-    "wof:lastmodified":1605055623,
+    "wof:lastmodified":1722117934,
     "wof:name":"Silver Lake",
     "wof:parent_id":102086993,
     "wof:placetype":"localadmin",
-    "wof:population":837,
+    "wof:population":861,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

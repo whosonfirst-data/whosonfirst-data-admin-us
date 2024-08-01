@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010533,
-    "geom:area_square_m":94411352.293461,
+    "geom:area_square_m":94411352.293473,
     "geom:bbox":"-91.244093,43.494668,-91.107358,43.594294",
     "geom:latitude":43.541044,
     "geom:longitude":-91.176462,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.541347,
     "lbl:longitude":-91.187315,
     "lbl:max_zoom":17.0,
@@ -391,11 +397,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":123,
     "uscensus:geoid":5512328650,
     "uscensus:name":"Genoa",
     "uscensus:namelsad":"Genoa town",
+    "uscensus:population":750,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -405,8 +414,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5512328650
+        "uscensus:geoid":"5512328650"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464277
     ],
@@ -425,11 +435,11 @@
         }
     ],
     "wof:id":404494097,
-    "wof:lastmodified":1605055964,
+    "wof:lastmodified":1722117830,
     "wof:name":"Genoa",
     "wof:parent_id":102081733,
     "wof:placetype":"localadmin",
-    "wof:population":789,
+    "wof:population":750,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

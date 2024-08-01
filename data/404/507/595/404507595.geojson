@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009148,
-    "geom:area_square_m":80936119.072886,
+    "geom:area_square_m":80936119.072879,
     "geom:bbox":"-83.585048,44.248091,-83.333328,44.338717",
     "geom:latitude":44.313677,
     "geom:longitude":-83.471562,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.309928,
     "lbl:longitude":-83.438294,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":69,
     "uscensus:geoid":2606904920,
     "uscensus:name":"Baldwin",
     "uscensus:namelsad":"Baldwin township",
+    "uscensus:population":1619,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2606904920
+        "uscensus:geoid":"2606904920"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729455267
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404507595,
-    "wof:lastmodified":1605055767,
+    "wof:lastmodified":1722117915,
     "wof:name":"Baldwin Township",
     "wof:parent_id":102083001,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1694,
+    "wof:population":1619,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

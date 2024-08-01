@@ -17,7 +17,7 @@
     "mps:latitude":39.115703,
     "mps:longitude":-121.354973,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:eng_x_preferred":[
         "Beale AFB"
@@ -41,17 +41,23 @@
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
+    "uscensus:population":1019,
+    "uscensus:population_date":"2022",
     "wof:belongsto":[
         102191575,
         85633793,
-        85688637,
-        102082893
+        102082893,
+        85688637
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":4957659,
-        "qs_pg:id":1034397
+        "qs_pg:id":1034397,
+        "uscensus:geoid":"0604576"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg"
@@ -67,10 +73,12 @@
         }
     ],
     "wof:id":85926587,
-    "wof:lastmodified":1582336180,
+    "wof:lastmodified":1722115904,
     "wof:name":"Beale AFB",
     "wof:parent_id":102082893,
     "wof:placetype":"locality",
+    "wof:population":1019,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

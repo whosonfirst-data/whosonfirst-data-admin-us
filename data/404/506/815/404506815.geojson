@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012173,
-    "geom:area_square_m":108515971.248566,
+    "geom:area_square_m":108515971.248583,
     "geom:bbox":"-84.045852,43.824334,-83.893623,43.911146",
     "geom:latitude":43.868486,
     "geom:longitude":-83.973174,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.878404,
     "lbl:longitude":-84.005861,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":2601764180,
     "uscensus:name":"Pinconning",
     "uscensus:namelsad":"Pinconning township",
+    "uscensus:population":2284,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2601764180
+        "uscensus:geoid":"2601764180"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472653
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404506815,
-    "wof:lastmodified":1605055761,
+    "wof:lastmodified":1722117910,
     "wof:name":"Pinconning Township",
     "wof:parent_id":102083135,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2431,
+    "wof:population":2284,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

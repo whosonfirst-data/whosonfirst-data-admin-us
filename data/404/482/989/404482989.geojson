@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000012,
-    "geom:area_square_m":110745.258856,
+    "geom:area_square_m":110745.258855,
     "geom:bbox":"-78.800222,41.139978,-78.794814,41.145798",
     "geom:latitude":41.142929,
     "geom:longitude":-78.797237,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.142851,
     "lbl:longitude":-78.797196,
     "lbl:max_zoom":18.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":33,
     "uscensus:geoid":4203325136,
     "uscensus:name":"Falls Creek",
     "uscensus:namelsad":"Falls Creek borough",
+    "uscensus:population":41,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4203325136
+        "uscensus:geoid":"4203325136"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,11 +96,11 @@
         }
     ],
     "wof:id":404482989,
-    "wof:lastmodified":1605055390,
+    "wof:lastmodified":1722117760,
     "wof:name":"Falls Creek",
     "wof:parent_id":102080967,
     "wof:placetype":"localadmin",
-    "wof:population":48,
+    "wof:population":41,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

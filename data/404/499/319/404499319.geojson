@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010187,
-    "geom:area_square_m":97276958.116571,
+    "geom:area_square_m":97276958.116613,
     "geom:bbox":"-90.916923,39.399548,-90.800619,39.489165",
     "geom:latitude":39.443878,
     "geom:longitude":-90.858856,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.443736,
     "lbl:longitude":-90.858857,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":149,
     "uscensus:geoid":1714960547,
     "uscensus:name":"Pleasant Hill",
     "uscensus:namelsad":"Pleasant Hill township",
+    "uscensus:population":1188,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1714960547
+        "uscensus:geoid":"1714960547"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404499319,
-    "wof:lastmodified":1605055554,
+    "wof:lastmodified":1722233645,
     "wof:name":"Pleasant Hill Township",
     "wof:parent_id":102081665,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1259,
+    "wof:population":1188,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

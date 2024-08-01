@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000111,
-    "geom:area_square_m":1043666.238102,
+    "geom:area_square_m":1043666.2381,
     "geom:bbox":"-79.637324,40.410486,-79.612999,40.422504",
     "geom:latitude":40.416912,
     "geom:longitude":-79.623064,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.417313,
     "lbl:longitude":-79.624073,
     "lbl:max_zoom":17.0,
@@ -205,11 +211,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":129,
     "uscensus:geoid":4212924432,
     "uscensus:name":"Export",
     "uscensus:namelsad":"Export borough",
+    "uscensus:population":877,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -219,8 +228,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212924432
+        "uscensus:geoid":"4212924432"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -236,11 +246,11 @@
         }
     ],
     "wof:id":404487429,
-    "wof:lastmodified":1605055891,
+    "wof:lastmodified":1722117787,
     "wof:name":"Export",
     "wof:parent_id":102081383,
     "wof:placetype":"localadmin",
-    "wof:population":917,
+    "wof:population":877,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

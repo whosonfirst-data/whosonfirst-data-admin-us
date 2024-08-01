@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.02147,
-    "geom:area_square_m":205903831.296817,
+    "geom:area_square_m":205903831.296883,
     "geom:bbox":"-84.71216,39.051885,-84.368755,39.221012",
     "geom:latitude":39.141196,
     "geom:longitude":-84.506047,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.147604,
     "lbl:longitude":-84.544084,
     "lbl:max_zoom":13.0,
@@ -319,11 +325,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":3906115000,
     "uscensus:name":"Cincinnati",
     "uscensus:namelsad":"Cincinnati city",
+    "uscensus:population":311097,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -333,8 +342,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3906115000
+        "uscensus:geoid":"3906115000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -350,11 +360,11 @@
         }
     ],
     "wof:id":404523793,
-    "wof:lastmodified":1605056093,
+    "wof:lastmodified":1722118004,
     "wof:name":"Cincinnati",
     "wof:parent_id":102083687,
     "wof:placetype":"localadmin",
-    "wof:population":296943,
+    "wof:population":311097,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

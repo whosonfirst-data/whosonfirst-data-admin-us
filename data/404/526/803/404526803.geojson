@@ -10,6 +10,12 @@
     "geom:latitude":41.304491,
     "geom:longitude":-82.978146,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.303246,
     "lbl:longitude":-82.975269,
     "lbl:max_zoom":15.0,
@@ -94,11 +100,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":143,
     "uscensus:geoid":3914316308,
     "uscensus:name":"Clyde",
     "uscensus:namelsad":"Clyde city",
+    "uscensus:population":6337,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -108,8 +117,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3914316308
+        "uscensus:geoid":"3914316308"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -125,11 +135,11 @@
         }
     ],
     "wof:id":404526803,
-    "wof:lastmodified":1605055647,
+    "wof:lastmodified":1722118026,
     "wof:name":"Clyde",
     "wof:parent_id":102083653,
     "wof:placetype":"localadmin",
-    "wof:population":6325,
+    "wof:population":6337,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

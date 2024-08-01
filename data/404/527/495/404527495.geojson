@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01789,
-    "geom:area_square_m":157389069.037977,
+    "geom:area_square_m":157389069.037978,
     "geom:bbox":"-73.257022,44.570491,-73.038028,44.722866",
     "geom:latitude":44.642979,
     "geom:longitude":-73.154131,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.643195,
     "lbl:longitude":-73.154148,
     "lbl:max_zoom":15.0,
@@ -109,11 +115,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":5000745250,
     "uscensus:name":"Milton",
     "uscensus:namelsad":"Milton town",
+    "uscensus:population":10735,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -123,8 +132,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5000745250
+        "uscensus:geoid":"5000745250"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -140,11 +150,11 @@
         }
     ],
     "wof:id":404527495,
-    "wof:lastmodified":1605055684,
+    "wof:lastmodified":1722118031,
     "wof:name":"Milton",
     "wof:parent_id":102087451,
     "wof:placetype":"localadmin",
-    "wof:population":10352,
+    "wof:population":10735,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

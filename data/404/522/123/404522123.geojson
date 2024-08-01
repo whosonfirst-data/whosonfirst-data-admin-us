@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010869,
-    "geom:area_square_m":99485642.399198,
+    "geom:area_square_m":99485642.399174,
     "geom:bbox":"-76.848191,42.199074,-76.727925,42.294423",
     "geom:latitude":42.246736,
     "geom:longitude":-76.789098,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.247128,
     "lbl:longitude":-76.789095,
     "lbl:max_zoom":15.0,
@@ -151,11 +157,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":3601577310,
     "uscensus:name":"Veteran",
     "uscensus:namelsad":"Veteran town",
+    "uscensus:population":3235,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -165,8 +174,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3601577310
+        "uscensus:geoid":"3601577310"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -182,11 +192,11 @@
         }
     ],
     "wof:id":404522123,
-    "wof:lastmodified":1605056081,
+    "wof:lastmodified":1722233675,
     "wof:name":"Veteran",
     "wof:parent_id":102081819,
     "wof:placetype":"localadmin",
-    "wof:population":3313,
+    "wof:population":3235,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

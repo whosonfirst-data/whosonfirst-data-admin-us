@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005818,
-    "geom:area_square_m":47995660.018307,
+    "geom:area_square_m":47995660.018306,
     "geom:bbox":"-103.733879,48.110645,-103.603847,48.19766",
     "geom:latitude":48.148856,
     "geom:longitude":-103.687767,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.169382,
     "lbl:longitude":-103.710628,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":3810586260,
     "uscensus:name":"Williston",
     "uscensus:namelsad":"Williston township",
+    "uscensus:population":1045,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3810586260
+        "uscensus:geoid":"3810586260"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457233
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404482289,
-    "wof:lastmodified":1605055378,
+    "wof:lastmodified":1722117755,
     "wof:name":"Williston Township",
     "wof:parent_id":102082069,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1307,
+    "wof:population":1045,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

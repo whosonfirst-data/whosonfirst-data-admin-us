@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009785,
-    "geom:area_square_m":93215250.306162,
+    "geom:area_square_m":93215250.306134,
     "geom:bbox":"-99.51569,39.567273,-99.402734,39.65462",
     "geom:latitude":39.610939,
     "geom:longitude":-99.459285,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.610919,
     "lbl:longitude":-99.459291,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":147,
     "uscensus:geoid":2014756125,
     "uscensus:name":"Plainview",
     "uscensus:namelsad":"Plainview township",
+    "uscensus:population":28,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2014756125
+        "uscensus:geoid":"2014756125"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469957
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404503001,
-    "wof:lastmodified":1605055320,
+    "wof:lastmodified":1722117882,
     "wof:name":"Plainview Township",
     "wof:parent_id":102082123,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":15,
+    "wof:population":28,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

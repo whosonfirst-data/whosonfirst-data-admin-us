@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010975,
-    "geom:area_square_m":93033342.235159,
+    "geom:area_square_m":93033342.235186,
     "geom:bbox":"-92.55539,46.67759,-92.419039,46.766106",
     "geom:latitude":46.722097,
     "geom:longitude":-92.492305,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.721938,
     "lbl:longitude":-92.492306,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":2701712160,
     "uscensus:name":"Cloquet",
     "uscensus:namelsad":"Cloquet city",
+    "uscensus:population":12570,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2701712160
+        "uscensus:geoid":"2701712160"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,11 +90,11 @@
         }
     ],
     "wof:id":404511491,
-    "wof:lastmodified":1605055720,
+    "wof:lastmodified":1722117944,
     "wof:name":"Cloquet",
     "wof:parent_id":102087809,
     "wof:placetype":"localadmin",
-    "wof:population":12124,
+    "wof:population":12570,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

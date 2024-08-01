@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002621,
-    "geom:area_square_m":22886960.285272,
+    "geom:area_square_m":22886960.285276,
     "geom:bbox":"-83.476644,45.041799,-83.369374,45.105954",
     "geom:latitude":45.074017,
     "geom:longitude":-83.439931,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.066826,
     "lbl:longitude":-83.4497,
     "lbl:max_zoom":15.0,
@@ -91,22 +97,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":2600701740,
     "uscensus:name":"Alpena",
     "uscensus:namelsad":"Alpena city",
+    "uscensus:population":10130,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688599,
-        102083109
+        102083109,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2600701740
+        "uscensus:geoid":"2600701740"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -122,11 +132,11 @@
         }
     ],
     "wof:id":404506819,
-    "wof:lastmodified":1636499354,
+    "wof:lastmodified":1722117910,
     "wof:name":"Alpena",
     "wof:parent_id":102083109,
     "wof:placetype":"localadmin",
-    "wof:population":10483,
+    "wof:population":10130,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

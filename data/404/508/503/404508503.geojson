@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000858,
-    "geom:area_square_m":7783141.417432,
+    "geom:area_square_m":7783141.417421,
     "geom:bbox":"-86.038501,42.797902,-85.988962,42.826893",
     "geom:latitude":42.813918,
     "geom:longitude":-86.012849,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.816212,
     "lbl:longitude":-86.00837,
     "lbl:max_zoom":15.0,
@@ -286,11 +292,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":139,
     "uscensus:geoid":2613989260,
     "uscensus:name":"Zeeland",
     "uscensus:namelsad":"Zeeland city",
+    "uscensus:population":5645,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -300,8 +309,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2613989260
+        "uscensus:geoid":"2613989260"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -317,11 +327,11 @@
         }
     ],
     "wof:id":404508503,
-    "wof:lastmodified":1605055734,
+    "wof:lastmodified":1722117922,
     "wof:name":"Zeeland",
     "wof:parent_id":102083097,
     "wof:placetype":"localadmin",
-    "wof:population":5504,
+    "wof:population":5645,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

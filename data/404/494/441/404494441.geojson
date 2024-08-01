@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011785,
-    "geom:area_square_m":105549491.911202,
+    "geom:area_square_m":105549491.911158,
     "geom:bbox":"-87.921105,43.543016,-87.741552,43.631074",
     "geom:latitude":43.589202,
     "geom:longitude":-87.849782,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.587074,
     "lbl:longitude":-87.878262,
     "lbl:max_zoom":15.0,
@@ -253,11 +259,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":117,
     "uscensus:geoid":5511735375,
     "uscensus:name":"Holland",
     "uscensus:namelsad":"Holland town",
+    "uscensus:population":2265,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -267,8 +276,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5511735375
+        "uscensus:geoid":"5511735375"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463585
     ],
@@ -287,11 +297,11 @@
         }
     ],
     "wof:id":404494441,
-    "wof:lastmodified":1605055962,
+    "wof:lastmodified":1722117833,
     "wof:name":"Holland",
     "wof:parent_id":102081869,
     "wof:placetype":"localadmin",
-    "wof:population":2239,
+    "wof:population":2265,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

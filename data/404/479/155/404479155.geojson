@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011137,
-    "geom:area_square_m":92496141.087278,
+    "geom:area_square_m":92496141.087275,
     "geom:bbox":"-103.797646,47.761358,-103.668873,47.848535",
     "geom:latitude":47.804883,
     "geom:longitude":-103.733171,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.804914,
     "lbl:longitude":-103.733183,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":53,
     "uscensus:geoid":3805365220,
     "uscensus:name":"Randolph",
     "uscensus:namelsad":"Randolph township",
+    "uscensus:population":24,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3805365220
+        "uscensus:geoid":"3805365220"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478279
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404479155,
-    "wof:lastmodified":1605055478,
+    "wof:lastmodified":1722117735,
     "wof:name":"Randolph Township",
     "wof:parent_id":102082091,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":16,
+    "wof:population":24,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

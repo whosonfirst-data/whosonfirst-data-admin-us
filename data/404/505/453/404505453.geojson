@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00893,
-    "geom:area_square_m":86751755.623258,
+    "geom:area_square_m":86751755.623222,
     "geom:bbox":"-99.132291,38.174337,-99.02207,38.261454",
     "geom:latitude":38.220148,
     "geom:longitude":-99.075569,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.224442,
     "lbl:longitude":-99.071176,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":145,
     "uscensus:geoid":2014538725,
     "uscensus:name":"Larned",
     "uscensus:namelsad":"Larned township",
+    "uscensus:population":244,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2014538725
+        "uscensus:geoid":"2014538725"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460577
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404505453,
-    "wof:lastmodified":1605055283,
+    "wof:lastmodified":1722117900,
     "wof:name":"Larned Township",
     "wof:parent_id":102082127,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":255,
+    "wof:population":244,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

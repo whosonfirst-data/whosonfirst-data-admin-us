@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009533,
-    "geom:area_square_m":90241643.209942,
+    "geom:area_square_m":90241643.209964,
     "geom:bbox":"-83.383444,40.005045,-83.209524,40.084185",
     "geom:latitude":40.046238,
     "geom:longitude":-83.300613,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.043986,
     "lbl:longitude":-83.300623,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":97,
     "uscensus:geoid":3909711234,
     "uscensus:name":"Canaan",
     "uscensus:namelsad":"Canaan township",
+    "uscensus:population":2690,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3909711234
+        "uscensus:geoid":"3909711234"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470155
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404523991,
-    "wof:lastmodified":1605056084,
+    "wof:lastmodified":1722118005,
     "wof:name":"Canaan Township",
     "wof:parent_id":102084757,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2567,
+    "wof:population":2690,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

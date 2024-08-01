@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.015826,
-    "geom:area_square_m":149546948.531749,
+    "geom:area_square_m":149546948.531794,
     "geom:bbox":"-91.513079,40.119636,-91.258766,40.200041",
     "geom:latitude":40.16595,
     "geom:longitude":-91.398643,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.162753,
     "lbl:longitude":-91.413795,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":1700143458,
     "uscensus:name":"Lima",
     "uscensus:namelsad":"Lima township",
+    "uscensus:population":503,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1700143458
+        "uscensus:geoid":"1700143458"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404497299,
-    "wof:lastmodified":1605055502,
+    "wof:lastmodified":1722233637,
     "wof:name":"Lima Township",
     "wof:parent_id":102086213,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":534,
+    "wof:population":503,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006341,
-    "geom:area_square_m":59804276.387468,
+    "geom:area_square_m":59804276.387464,
     "geom:bbox":"-84.014763,40.265353,-83.874533,40.318698",
     "geom:latitude":40.2927,
     "geom:longitude":-83.944803,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.293923,
     "lbl:longitude":-83.944809,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":91,
     "uscensus:geoid":3909149378,
     "uscensus:name":"Miami",
     "uscensus:namelsad":"Miami township",
+    "uscensus:population":2115,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3909149378
+        "uscensus:geoid":"3909149378"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404525183,
-    "wof:lastmodified":1605056063,
+    "wof:lastmodified":1722233685,
     "wof:name":"Miami Township",
     "wof:parent_id":102083729,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2349,
+    "wof:population":2115,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

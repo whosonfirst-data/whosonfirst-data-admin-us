@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003621,
-    "geom:area_square_m":34527821.158595,
+    "geom:area_square_m":34527821.158644,
     "geom:bbox":"-75.534014,39.494493,-75.460256,39.57836",
     "geom:latitude":39.534607,
     "geom:longitude":-75.499775,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.535261,
     "lbl:longitude":-75.499215,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":33,
     "uscensus:geoid":3403321330,
     "uscensus:name":"Elsinboro",
     "uscensus:namelsad":"Elsinboro township",
+    "uscensus:population":1006,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3403321330
+        "uscensus:geoid":"3403321330"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466511
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404477889,
-    "wof:lastmodified":1605055416,
+    "wof:lastmodified":1722117726,
     "wof:name":"Elsinboro Township",
     "wof:parent_id":102083879,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1036,
+    "wof:population":1006,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00815,
-    "geom:area_square_m":76794783.246598,
+    "geom:area_square_m":76794783.246567,
     "geom:bbox":"-89.716342,40.319212,-89.602979,40.393163",
     "geom:latitude":40.356047,
     "geom:longitude":-89.659674,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.35607,
     "lbl:longitude":-89.659676,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":179,
     "uscensus:geoid":1717946266,
     "uscensus:name":"Malone",
     "uscensus:namelsad":"Malone township",
+    "uscensus:population":205,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1717946266
+        "uscensus:geoid":"1717946266"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466563
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404499541,
-    "wof:lastmodified":1605055553,
+    "wof:lastmodified":1722117861,
     "wof:name":"Malone Township",
     "wof:parent_id":102083515,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":220,
+    "wof:population":205,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

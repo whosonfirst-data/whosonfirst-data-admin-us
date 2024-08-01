@@ -170,7 +170,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":23769882,
     "uscensus:awater":427376,
     "uscensus:classfp":"C1",
@@ -186,17 +187,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"28476",
     "uscensus:placens":"02394807",
+    "uscensus:population":11653,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"39",
     "wd:elevation":198.0,
     "wd:latitude":39.5614,
     "wd:longitude":-84.3017,
     "wd:wordcount":1841,
     "wof:belongsto":[
-        85688485,
         102191575,
-        404526201,
         85633793,
-        102082423
+        102082423,
+        404526201,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -205,10 +208,11 @@
         "gn:id":4512203,
         "gp:id":2406965,
         "qs_pg:id":1256318,
-        "uscensus:geoid":3928476,
+        "uscensus:geoid":"3928476",
         "wd:id":"Q998459",
         "wk:page":"Franklin, Ohio"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -229,11 +233,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690888463,
+    "wof:lastmodified":1722116264,
     "wof:name":"Franklin",
     "wof:parent_id":404526201,
     "wof:placetype":"locality",
-    "wof:population":11771,
+    "wof:population":11653,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

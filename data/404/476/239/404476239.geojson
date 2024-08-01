@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005137,
-    "geom:area_square_m":46683994.353663,
+    "geom:area_square_m":46683994.353629,
     "geom:bbox":"-72.674693,42.646872,-72.585754,42.732892",
     "geom:latitude":42.69577,
     "geom:longitude":-72.626469,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.699897,
     "lbl:longitude":-72.625621,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":2501135285,
     "uscensus:name":"Leyden",
     "uscensus:namelsad":"Leyden town",
+    "uscensus:population":731,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2501135285
+        "uscensus:geoid":"2501135285"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465141
     ],
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404476239,
-    "wof:lastmodified":1605055408,
+    "wof:lastmodified":1722117713,
     "wof:name":"Leyden",
     "wof:parent_id":102084457,
     "wof:placetype":"localadmin",
-    "wof:population":711,
+    "wof:population":731,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

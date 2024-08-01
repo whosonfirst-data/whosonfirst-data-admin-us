@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003174,
-    "geom:area_square_m":29803971.325567,
+    "geom:area_square_m":29803971.325544,
     "geom:bbox":"-79.765946,40.542059,-79.671155,40.619873",
     "geom:latitude":40.581843,
     "geom:longitude":-79.714019,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.585352,
     "lbl:longitude":-79.710782,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":129,
     "uscensus:geoid":4212944864,
     "uscensus:name":"Lower Burrell",
     "uscensus:namelsad":"Lower Burrell city",
+    "uscensus:population":11561,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212944864
+        "uscensus:geoid":"4212944864"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404487501,
-    "wof:lastmodified":1605055887,
+    "wof:lastmodified":1722117787,
     "wof:name":"Lower Burrell",
     "wof:parent_id":102081383,
     "wof:placetype":"localadmin",
-    "wof:population":11761,
+    "wof:population":11561,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

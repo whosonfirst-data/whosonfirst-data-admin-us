@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010835,
-    "geom:area_square_m":93733621.524248,
+    "geom:area_square_m":93733621.524276,
     "geom:bbox":"-97.351481,45.558158,-97.226933,45.646089",
     "geom:latitude":45.602,
     "geom:longitude":-97.289279,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.602021,
     "lbl:longitude":-97.28928,
     "lbl:max_zoom":18.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":91,
     "uscensus:geoid":4609108220,
     "uscensus:name":"Buffalo",
     "uscensus:namelsad":"Buffalo township",
+    "uscensus:population":139,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4609108220
+        "uscensus:geoid":"4609108220"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460189
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404490453,
-    "wof:lastmodified":1605055512,
+    "wof:lastmodified":1722117806,
     "wof:name":"Buffalo Township",
     "wof:parent_id":102086785,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":114,
+    "wof:population":139,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

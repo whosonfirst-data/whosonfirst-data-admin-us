@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001483,
-    "geom:area_square_m":14336036.338409,
+    "geom:area_square_m":14336036.338341,
     "geom:bbox":"-94.893696,38.534501,-94.834491,38.628609",
     "geom:latitude":38.578327,
     "geom:longitude":-94.861984,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.575088,
     "lbl:longitude":-94.865193,
     "lbl:max_zoom":15.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":121,
     "uscensus:geoid":2012154250,
     "uscensus:name":"Paola",
     "uscensus:namelsad":"Paola city",
+    "uscensus:population":5780,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2012154250
+        "uscensus:geoid":"2012154250"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404504315,
-    "wof:lastmodified":1605055302,
+    "wof:lastmodified":1722117892,
     "wof:name":"Paola",
     "wof:parent_id":102085273,
     "wof:placetype":"localadmin",
-    "wof:population":5602,
+    "wof:population":5780,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

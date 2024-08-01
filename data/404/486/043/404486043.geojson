@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.016103,
-    "geom:area_square_m":151797124.813384,
+    "geom:area_square_m":151797124.81342,
     "geom:bbox":"-77.9616,40.263005,-77.739342,40.391324",
     "geom:latitude":40.328792,
     "geom:longitude":-77.853982,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.328689,
     "lbl:longitude":-77.84313,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":4206170400,
     "uscensus:name":"Shirley",
     "uscensus:namelsad":"Shirley township",
+    "uscensus:population":2380,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206170400
+        "uscensus:geoid":"4206170400"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404486043,
-    "wof:lastmodified":1605055871,
+    "wof:lastmodified":1722117777,
     "wof:name":"Shirley Township",
     "wof:parent_id":102080901,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2524,
+    "wof:population":2380,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

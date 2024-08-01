@@ -14,6 +14,7 @@
     "gn:longitude":-148.95083,
     "gn:population":219,
     "iso:country":"US",
+    "lbl:bbox":"-148.970789634,63.3715944612,-148.930789634,63.4115944612",
     "lbl:latitude":63.39535,
     "lbl:longitude":-148.821879,
     "lbl:max_zoom":17.0,
@@ -241,6 +242,7 @@
     "ne:UN_LAT":0.0,
     "ne:UN_LONG":0.0,
     "ne:WORLDCITY":0,
+    "ne:min_zoom":7.0,
     "qs:a0":"United States",
     "qs:a1":"*Alaska",
     "qs:a1_lc":"02",
@@ -255,19 +257,24 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
+    "reversegeo:latitude":63.391594,
+    "reversegeo:longitude":-148.95079,
     "src:geom":"quattroshapes",
     "src:geom_alt":[
         "naturalearth",
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
+    "uscensus:population":197,
+    "uscensus:population_date":"2022",
     "wd:wordcount":839,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688573,
-        102085879
+        102085879,
+        85688573
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -280,6 +287,12 @@
         "wd:id":"Q1033949",
         "wk:page":"Cantwell, Alaska"
     },
+    "wof:concordances_alt":{
+        "wd:id":[
+            "Q1033949"
+        ]
+    },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "naturalearth",
@@ -299,15 +312,17 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690886013,
+    "wof:lastmodified":1722116395,
     "wof:name":"Cantwell",
     "wof:parent_id":102085879,
     "wof:placetype":"locality",
-    "wof:population":219,
-    "wof:population_rank":2,
+    "wof:population":197,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1141906341
+    ],
     "wof:tags":[]
 },
   "bbox": [

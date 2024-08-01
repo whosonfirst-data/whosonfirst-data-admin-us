@@ -10,6 +10,12 @@
     "geom:latitude":44.514191,
     "geom:longitude":-88.327183,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.515298,
     "lbl:longitude":-88.330478,
     "lbl:max_zoom":15.0,
@@ -109,22 +115,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":87,
     "uscensus:geoid":5508772725,
     "uscensus:name":"Seymour",
     "uscensus:namelsad":"Seymour city",
+    "uscensus:population":3515,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081851
+        102081851,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5508772725
+        "uscensus:geoid":"5508772725"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -140,11 +150,11 @@
         }
     ],
     "wof:id":404495087,
-    "wof:lastmodified":1636499417,
+    "wof:lastmodified":1722117837,
     "wof:name":"Seymour",
     "wof:parent_id":102081851,
     "wof:placetype":"localadmin",
-    "wof:population":3451,
+    "wof:population":3515,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

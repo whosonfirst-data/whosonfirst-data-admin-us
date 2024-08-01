@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010361,
-    "geom:area_square_m":92254475.313242,
+    "geom:area_square_m":92254475.313179,
     "geom:bbox":"-90.434354,43.894463,-90.31219,43.986729",
     "geom:latitude":43.94005,
     "geom:longitude":-90.373063,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.926051,
     "lbl:longitude":-90.372261,
     "lbl:max_zoom":17.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":81,
     "uscensus:geoid":5508158875,
     "uscensus:name":"Oakdale",
     "uscensus:namelsad":"Oakdale town",
+    "uscensus:population":768,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5508158875
+        "uscensus:geoid":"5508158875"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463143
     ],
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404494399,
-    "wof:lastmodified":1605055959,
+    "wof:lastmodified":1722117832,
     "wof:name":"Oakdale",
     "wof:parent_id":102081777,
     "wof:placetype":"localadmin",
-    "wof:population":772,
+    "wof:population":768,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

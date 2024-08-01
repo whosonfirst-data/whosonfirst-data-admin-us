@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008158,
-    "geom:area_square_m":76909845.373212,
+    "geom:area_square_m":76909845.373242,
     "geom:bbox":"-81.430137,40.288189,-81.274142,40.3643",
     "geom:latitude":40.322843,
     "geom:longitude":-81.365719,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.325953,
     "lbl:longitude":-81.381308,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":157,
     "uscensus:geoid":3915769106,
     "uscensus:name":"Rush",
     "uscensus:namelsad":"Rush township",
+    "uscensus:population":840,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3915769106
+        "uscensus:geoid":"3915769106"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404526305,
-    "wof:lastmodified":1605055653,
+    "wof:lastmodified":1722118022,
     "wof:name":"Rush Township",
     "wof:parent_id":102084737,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":880,
+    "wof:population":840,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

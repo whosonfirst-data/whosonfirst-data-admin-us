@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007429,
-    "geom:area_square_m":70720874.334221,
+    "geom:area_square_m":70720874.334233,
     "geom:bbox":"-85.735499,39.625706,-85.632505,39.69887",
     "geom:latitude":39.662363,
     "geom:longitude":-85.683812,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.662188,
     "lbl:longitude":-85.683816,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":145,
     "uscensus:geoid":1814531270,
     "uscensus:name":"Hanover",
     "uscensus:namelsad":"Hanover township",
+    "uscensus:population":2187,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1814531270
+        "uscensus:geoid":"1814531270"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404501537,
-    "wof:lastmodified":1604530763,
+    "wof:lastmodified":1722233654,
     "wof:name":"Hanover Township",
     "wof:parent_id":102086435,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2283,
+    "wof:population":2187,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

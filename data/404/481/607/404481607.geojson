@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0112,
-    "geom:area_square_m":93020235.04966,
+    "geom:area_square_m":93020235.04968,
     "geom:bbox":"-101.486196,47.760988,-101.357371,47.848334",
     "geom:latitude":47.804665,
     "geom:longitude":-101.421769,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.804665,
     "lbl:longitude":-101.421834,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":55,
     "uscensus:geoid":3805568420,
     "uscensus:name":"Rosemont",
     "uscensus:namelsad":"Rosemont township",
+    "uscensus:population":26,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3805568420
+        "uscensus:geoid":"3805568420"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476161
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404481607,
-    "wof:lastmodified":1605055834,
+    "wof:lastmodified":1722117751,
     "wof:name":"Rosemont Township",
     "wof:parent_id":102082097,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":34,
+    "wof:population":26,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

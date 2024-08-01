@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00085,
-    "geom:area_square_m":7949342.068998,
+    "geom:area_square_m":7949342.068995,
     "geom:bbox":"-74.273562,40.834876,-74.241484,40.883074",
     "geom:latitude":40.862941,
     "geom:longitude":-74.257594,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.865706,
     "lbl:longitude":-74.257837,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":3401352620,
     "uscensus:name":"North Caldwell",
     "uscensus:namelsad":"North Caldwell borough",
+    "uscensus:population":6574,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3401352620
+        "uscensus:geoid":"3401352620"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404477429,
-    "wof:lastmodified":1605055428,
+    "wof:lastmodified":1722117722,
     "wof:name":"North Caldwell",
     "wof:parent_id":102085043,
     "wof:placetype":"localadmin",
-    "wof:population":6183,
+    "wof:population":6574,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

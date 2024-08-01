@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.028781,
-    "geom:area_square_m":276386902.732406,
+    "geom:area_square_m":276386902.732394,
     "geom:bbox":"-101.147388,38.959512,-100.978978,39.133822",
     "geom:latitude":39.046766,
     "geom:longitude":-101.063228,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.046631,
     "lbl:longitude":-101.063235,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":109,
     "uscensus:geoid":2010948050,
     "uscensus:name":"Monument",
     "uscensus:namelsad":"Monument township",
+    "uscensus:population":116,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2010948050
+        "uscensus:geoid":"2010948050"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463943
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404504567,
-    "wof:lastmodified":1605055294,
+    "wof:lastmodified":1722117894,
     "wof:name":"Monument Township",
     "wof:parent_id":102082177,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":141,
+    "wof:population":116,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000684,
-    "geom:area_square_m":6327936.072171,
+    "geom:area_square_m":6327936.072163,
     "geom:bbox":"-75.557627,41.528928,-75.501526,41.554611",
     "geom:latitude":41.53936,
     "geom:longitude":-75.531495,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.540647,
     "lbl:longitude":-75.533405,
     "lbl:max_zoom":16.0,
@@ -88,11 +94,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":69,
     "uscensus:geoid":4206948176,
     "uscensus:name":"Mayfield",
     "uscensus:namelsad":"Mayfield borough",
+    "uscensus:population":1763,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -102,8 +111,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206948176
+        "uscensus:geoid":"4206948176"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -119,11 +129,11 @@
         }
     ],
     "wof:id":404486825,
-    "wof:lastmodified":1605055872,
+    "wof:lastmodified":1722117783,
     "wof:name":"Mayfield",
     "wof:parent_id":102081345,
     "wof:placetype":"localadmin",
-    "wof:population":1807,
+    "wof:population":1763,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

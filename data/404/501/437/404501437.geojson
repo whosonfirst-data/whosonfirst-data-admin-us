@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0098,
-    "geom:area_square_m":90777008.785498,
+    "geom:area_square_m":90777008.785502,
     "geom:bbox":"-85.080813,41.439224,-84.966559,41.528065",
     "geom:latitude":41.483861,
     "geom:longitude":-85.023928,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.483777,
     "lbl:longitude":-85.023936,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":33,
     "uscensus:geoid":1803370200,
     "uscensus:name":"Smithfield",
     "uscensus:namelsad":"Smithfield township",
+    "uscensus:population":1744,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1803370200
+        "uscensus:geoid":"1803370200"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404501437,
-    "wof:lastmodified":1604530759,
+    "wof:lastmodified":1722233653,
     "wof:name":"Smithfield Township",
     "wof:parent_id":102086425,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1613,
+    "wof:population":1744,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005471,
-    "geom:area_square_m":46490307.519192,
+    "geom:area_square_m":46490307.519157,
     "geom:bbox":"-94.393843,46.543841,-94.329936,46.63145",
     "geom:latitude":46.587617,
     "geom:longitude":-94.361922,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.587638,
     "lbl:longitude":-94.361926,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":2702138168,
     "uscensus:name":"Loon Lake",
     "uscensus:namelsad":"Loon Lake township",
+    "uscensus:population":653,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2702138168
+        "uscensus:geoid":"2702138168"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462721
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404509393,
-    "wof:lastmodified":1605055793,
+    "wof:lastmodified":1722117929,
     "wof:name":"Loon Lake Township",
     "wof:parent_id":102087905,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":540,
+    "wof:population":653,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

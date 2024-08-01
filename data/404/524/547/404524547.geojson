@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007344,
-    "geom:area_square_m":68198076.249556,
+    "geom:area_square_m":68198076.249547,
     "geom:bbox":"-82.443889,41.283554,-82.342314,41.357869",
     "geom:latitude":41.320585,
     "geom:longitude":-82.3934,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.320778,
     "lbl:longitude":-82.3934,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":43,
     "uscensus:geoid":3904327482,
     "uscensus:name":"Florence",
     "uscensus:namelsad":"Florence township",
+    "uscensus:population":2389,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3904327482
+        "uscensus:geoid":"3904327482"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475351
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404524547,
-    "wof:lastmodified":1605056116,
+    "wof:lastmodified":1722118009,
     "wof:name":"Florence Township",
     "wof:parent_id":102084735,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2448,
+    "wof:population":2389,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

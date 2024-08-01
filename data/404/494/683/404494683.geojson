@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.016803,
-    "geom:area_square_m":148219864.324544,
+    "geom:area_square_m":148219864.324567,
     "geom:bbox":"-89.489388,44.418702,-89.345084,44.556236",
     "geom:latitude":44.489224,
     "geom:longitude":-89.422899,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.48983,
     "lbl:longitude":-89.421936,
     "lbl:max_zoom":15.0,
@@ -103,11 +109,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":97,
     "uscensus:geoid":5509777537,
     "uscensus:name":"Stockton",
     "uscensus:namelsad":"Stockton town",
+    "uscensus:population":3023,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -117,8 +126,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5509777537
+        "uscensus:geoid":"5509777537"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466363
     ],
@@ -137,11 +147,11 @@
         }
     ],
     "wof:id":404494683,
-    "wof:lastmodified":1605055972,
+    "wof:lastmodified":1722117834,
     "wof:name":"Stockton",
     "wof:parent_id":102081875,
     "wof:placetype":"localadmin",
-    "wof:population":2917,
+    "wof:population":3023,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

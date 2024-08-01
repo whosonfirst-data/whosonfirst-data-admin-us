@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004493,
-    "geom:area_square_m":41705815.924554,
+    "geom:area_square_m":41705815.924559,
     "geom:bbox":"-88.933371,41.31814,-88.80085,41.368604",
     "geom:latitude":41.348931,
     "geom:longitude":-88.87949,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.34479,
     "lbl:longitude":-88.884854,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":1709956939,
     "uscensus:name":"Ottawa",
     "uscensus:namelsad":"Ottawa township",
+    "uscensus:population":11182,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1709956939
+        "uscensus:geoid":"1709956939"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404498507,
-    "wof:lastmodified":1605055565,
+    "wof:lastmodified":1722233642,
     "wof:name":"Ottawa Township",
     "wof:parent_id":102081255,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":11766,
+    "wof:population":11182,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

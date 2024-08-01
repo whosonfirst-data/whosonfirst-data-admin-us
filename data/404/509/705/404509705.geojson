@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000451,
-    "geom:area_square_m":3977798.060196,
+    "geom:area_square_m":3977798.060191,
     "geom:bbox":"-93.59793,44.529735,-93.552114,44.543744",
     "geom:latitude":44.537954,
     "geom:longitude":-93.571818,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.537825,
     "lbl:longitude":-93.571817,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":79,
     "uscensus:geoid":2707945808,
     "uscensus:name":"New Prague",
     "uscensus:namelsad":"New Prague city",
+    "uscensus:population":3527,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2707945808
+        "uscensus:geoid":"2707945808"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404509705,
-    "wof:lastmodified":1605055792,
+    "wof:lastmodified":1722117931,
     "wof:name":"New Prague",
     "wof:parent_id":102087831,
     "wof:placetype":"localadmin",
-    "wof:population":3041,
+    "wof:population":3527,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000206,
-    "geom:area_square_m":1946449.634414,
+    "geom:area_square_m":1946449.634415,
     "geom:bbox":"-76.094708,40.322794,-76.067362,40.339083",
     "geom:latitude":40.330185,
     "geom:longitude":-76.081869,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.329747,
     "lbl:longitude":-76.082083,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":4201182296,
     "uscensus:name":"Wernersville",
     "uscensus:namelsad":"Wernersville borough",
+    "uscensus:population":2770,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201182296
+        "uscensus:geoid":"4201182296"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404482691,
-    "wof:lastmodified":1605055388,
+    "wof:lastmodified":1722117758,
     "wof:name":"Wernersville",
     "wof:parent_id":102080991,
     "wof:placetype":"localadmin",
-    "wof:population":2494,
+    "wof:population":2770,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

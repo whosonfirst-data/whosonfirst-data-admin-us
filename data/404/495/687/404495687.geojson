@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008179,
-    "geom:area_square_m":72394311.117526,
+    "geom:area_square_m":72394311.117568,
     "geom:bbox":"-88.860066,44.242736,-88.738011,44.330573",
     "geom:latitude":44.290848,
     "geom:longitude":-88.787999,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.290213,
     "lbl:longitude":-88.780743,
     "lbl:max_zoom":16.0,
@@ -139,11 +145,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":135,
     "uscensus:geoid":5513512000,
     "uscensus:name":"Caledonia",
     "uscensus:namelsad":"Caledonia town",
+    "uscensus:population":1703,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -153,8 +162,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5513512000
+        "uscensus:geoid":"5513512000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468875
     ],
@@ -173,11 +183,11 @@
         }
     ],
     "wof:id":404495687,
-    "wof:lastmodified":1605055981,
+    "wof:lastmodified":1722117841,
     "wof:name":"Caledonia",
     "wof:parent_id":102081823,
     "wof:placetype":"localadmin",
-    "wof:population":1627,
+    "wof:population":1703,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.021049,
-    "geom:area_square_m":183524712.276376,
+    "geom:area_square_m":183524712.276365,
     "geom:bbox":"-89.425985,45.118425,-89.178316,45.206075",
     "geom:latitude":45.161388,
     "geom:longitude":-89.30231,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.161096,
     "lbl:longitude":-89.30229,
     "lbl:max_zoom":17.0,
@@ -61,11 +67,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":67,
     "uscensus:geoid":5506700225,
     "uscensus:name":"Ackley",
     "uscensus:namelsad":"Ackley town",
+    "uscensus:population":468,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -75,8 +84,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5506700225
+        "uscensus:geoid":"5506700225"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468727
     ],
@@ -95,11 +105,11 @@
         }
     ],
     "wof:id":404491739,
-    "wof:lastmodified":1605055574,
+    "wof:lastmodified":1722117815,
     "wof:name":"Ackley",
     "wof:parent_id":102081751,
     "wof:placetype":"localadmin",
-    "wof:population":524,
+    "wof:population":468,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

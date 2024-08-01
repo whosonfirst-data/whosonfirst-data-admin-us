@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000542,
-    "geom:area_square_m":5116732.732505,
+    "geom:area_square_m":5116732.732501,
     "geom:bbox":"-78.843935,40.218898,-78.803583,40.244794",
     "geom:latitude":40.235531,
     "geom:longitude":-78.824701,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.23549,
     "lbl:longitude":-78.824708,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":111,
     "uscensus:geoid":4211185632,
     "uscensus:name":"Windber",
     "uscensus:namelsad":"Windber borough",
+    "uscensus:population":3835,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4211185632
+        "uscensus:geoid":"4211185632"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404488285,
-    "wof:lastmodified":1605055813,
+    "wof:lastmodified":1722117793,
     "wof:name":"Windber",
     "wof:parent_id":102081361,
     "wof:placetype":"localadmin",
-    "wof:population":4138,
+    "wof:population":3835,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

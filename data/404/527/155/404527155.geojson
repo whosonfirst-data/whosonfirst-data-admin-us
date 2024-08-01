@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013246,
-    "geom:area_square_m":116528377.618552,
+    "geom:area_square_m":116528377.618572,
     "geom:bbox":"-72.763482,44.57663,-72.597332,44.718356",
     "geom:latitude":44.648436,
     "geom:longitude":-72.684476,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.651226,
     "lbl:longitude":-72.683228,
     "lbl:max_zoom":15.0,
@@ -61,11 +67,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":5001537075,
     "uscensus:name":"Johnson",
     "uscensus:namelsad":"Johnson town",
+    "uscensus:population":3400,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -75,8 +84,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5001537075
+        "uscensus:geoid":"5001537075"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -92,11 +102,11 @@
         }
     ],
     "wof:id":404527155,
-    "wof:lastmodified":1605055681,
+    "wof:lastmodified":1722233690,
     "wof:name":"Johnson",
     "wof:parent_id":102080785,
     "wof:placetype":"localadmin",
-    "wof:population":3446,
+    "wof:population":3400,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

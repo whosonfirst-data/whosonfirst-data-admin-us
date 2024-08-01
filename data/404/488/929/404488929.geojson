@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000452,
-    "geom:area_square_m":4062710.341406,
+    "geom:area_square_m":4062710.341412,
     "geom:bbox":"-96.9059,43.330486,-96.880833,43.362306",
     "geom:latitude":43.347939,
     "geom:longitude":-96.893937,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.352665,
     "lbl:longitude":-96.893751,
     "lbl:max_zoom":15.0,
@@ -91,11 +97,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":83,
     "uscensus:geoid":4608336380,
     "uscensus:name":"Lennox",
     "uscensus:namelsad":"Lennox city",
+    "uscensus:population":2493,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -105,8 +114,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4608336380
+        "uscensus:geoid":"4608336380"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -122,11 +132,11 @@
         }
     ],
     "wof:id":404488929,
-    "wof:lastmodified":1605055817,
+    "wof:lastmodified":1722117797,
     "wof:name":"Lennox",
     "wof:parent_id":102086863,
     "wof:placetype":"localadmin",
-    "wof:population":2111,
+    "wof:population":2493,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

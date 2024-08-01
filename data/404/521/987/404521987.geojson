@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009665,
-    "geom:area_square_m":87744627.111063,
+    "geom:area_square_m":87744627.11117,
     "geom:bbox":"-77.956334,42.667322,-77.835246,42.810902",
     "geom:latitude":42.762605,
     "geom:longitude":-77.9074,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.771764,
     "lbl:longitude":-77.908314,
     "lbl:max_zoom":15.0,
@@ -289,11 +295,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":3605141883,
     "uscensus:name":"Leicester",
     "uscensus:namelsad":"Leicester town",
+    "uscensus:population":2043,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -303,8 +312,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3605141883
+        "uscensus:geoid":"3605141883"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -320,11 +330,11 @@
         }
     ],
     "wof:id":404521987,
-    "wof:lastmodified":1605055639,
+    "wof:lastmodified":1722233675,
     "wof:name":"Leicester",
     "wof:parent_id":102082381,
     "wof:placetype":"localadmin",
-    "wof:population":2200,
+    "wof:population":2043,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

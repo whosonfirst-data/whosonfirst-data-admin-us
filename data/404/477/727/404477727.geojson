@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0008,
-    "geom:area_square_m":7484246.35452,
+    "geom:area_square_m":7484246.354545,
     "geom:bbox":"-74.124045,40.786232,-74.081663,40.846833",
     "geom:latitude":40.820418,
     "geom:longitude":-74.105794,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.825225,
     "lbl:longitude":-74.10964,
     "lbl:max_zoom":15.0,
@@ -112,11 +118,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3400365280,
     "uscensus:name":"Rutherford",
     "uscensus:namelsad":"Rutherford borough",
+    "uscensus:population":18852,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -126,8 +135,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400365280
+        "uscensus:geoid":"3400365280"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -143,11 +153,11 @@
         }
     ],
     "wof:id":404477727,
-    "wof:lastmodified":1605055435,
+    "wof:lastmodified":1722117724,
     "wof:name":"Rutherford",
     "wof:parent_id":102086773,
     "wof:placetype":"localadmin",
-    "wof:population":18061,
+    "wof:population":18852,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

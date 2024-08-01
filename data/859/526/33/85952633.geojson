@@ -151,7 +151,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":3965708,
     "uscensus:awater":2550,
     "uscensus:classfp":"C5",
@@ -167,17 +168,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"39806",
     "uscensus:placens":"02395829",
+    "uscensus:population":65,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":387.0,
     "wd:latitude":46.728333,
     "wd:longitude":-94.134722,
     "wd:wordcount":725,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404509531,
         85633793,
-        102087093
+        102087093,
+        404509531,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -186,10 +189,11 @@
         "gn:id":5036410,
         "gp:id":2444773,
         "qs_pg:id":476707,
-        "uscensus:geoid":2739806,
+        "uscensus:geoid":"2739806",
         "wd:id":"Q2228396",
         "wk:page":"Manhattan Beach, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -210,11 +214,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883476,
+    "wof:lastmodified":1722116041,
     "wof:name":"Manhattan Beach",
     "wof:parent_id":404509531,
     "wof:placetype":"locality",
-    "wof:population":57,
+    "wof:population":65,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

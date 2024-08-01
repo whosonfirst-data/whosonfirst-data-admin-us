@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009842,
-    "geom:area_square_m":87214038.089494,
+    "geom:area_square_m":87214038.089785,
     "geom:bbox":"-94.130221,44.153888,-94.008393,44.2689",
     "geom:latitude":44.222976,
     "geom:longitude":-94.076968,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.231252,
     "lbl:longitude":-94.083281,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":103,
     "uscensus:geoid":2710304744,
     "uscensus:name":"Belgrade",
     "uscensus:namelsad":"Belgrade township",
+    "uscensus:population":1008,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2710304744
+        "uscensus:geoid":"2710304744"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464049
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404513327,
-    "wof:lastmodified":1605056046,
+    "wof:lastmodified":1722117957,
     "wof:name":"Belgrade Township",
     "wof:parent_id":102087597,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1052,
+    "wof:population":1008,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

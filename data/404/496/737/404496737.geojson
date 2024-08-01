@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004828,
-    "geom:area_square_m":46655063.145328,
+    "geom:area_square_m":46655063.145287,
     "geom:bbox":"-89.087262,38.56142,-89.031139,38.64877",
     "geom:latitude":38.605084,
     "geom:longitude":-89.059174,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.605115,
     "lbl:longitude":-89.059175,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":121,
     "uscensus:geoid":1712155223,
     "uscensus:name":"Odin",
     "uscensus:namelsad":"Odin township",
+    "uscensus:population":1541,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1712155223
+        "uscensus:geoid":"1712155223"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404496737,
-    "wof:lastmodified":1605055593,
+    "wof:lastmodified":1722233636,
     "wof:name":"Odin Township",
     "wof:parent_id":102081653,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1722,
+    "wof:population":1541,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

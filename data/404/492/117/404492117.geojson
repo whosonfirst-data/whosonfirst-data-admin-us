@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010576,
-    "geom:area_square_m":92352615.412518,
+    "geom:area_square_m":92352615.412491,
     "geom:bbox":"-88.486111,45.027807,-88.361619,45.116895",
     "geom:latitude":45.072458,
     "geom:longitude":-88.424088,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.072428,
     "lbl:longitude":-88.424134,
     "lbl:max_zoom":17.0,
@@ -112,11 +118,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":83,
     "uscensus:geoid":5508309425,
     "uscensus:name":"Breed",
     "uscensus:namelsad":"Breed town",
+    "uscensus:population":715,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -126,8 +135,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5508309425
+        "uscensus:geoid":"5508309425"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474729
     ],
@@ -146,11 +156,11 @@
         }
     ],
     "wof:id":404492117,
-    "wof:lastmodified":1605056004,
+    "wof:lastmodified":1722117817,
     "wof:name":"Breed",
     "wof:parent_id":102081293,
     "wof:placetype":"localadmin",
-    "wof:population":712,
+    "wof:population":715,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

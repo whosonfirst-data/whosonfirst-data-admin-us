@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008545,
-    "geom:area_square_m":80185712.706898,
+    "geom:area_square_m":80185712.706884,
     "geom:bbox":"-77.61654,40.575392,-77.468999,40.690273",
     "geom:latitude":40.632942,
     "geom:longitude":-77.536726,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.630575,
     "lbl:longitude":-77.519198,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":87,
     "uscensus:geoid":4208718944,
     "uscensus:name":"Derry",
     "uscensus:namelsad":"Derry township",
+    "uscensus:population":7231,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4208718944
+        "uscensus:geoid":"4208718944"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404488171,
-    "wof:lastmodified":1605055819,
+    "wof:lastmodified":1722117792,
     "wof:name":"Derry Township",
     "wof:parent_id":102081333,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":7339,
+    "wof:population":7231,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

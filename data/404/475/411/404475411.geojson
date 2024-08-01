@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01161,
-    "geom:area_square_m":99137101.666416,
+    "geom:area_square_m":99137101.66643,
     "geom:bbox":"-67.908905,46.279268,-67.782164,46.372942",
     "geom:latitude":46.325839,
     "geom:longitude":-67.845181,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.325802,
     "lbl:longitude":-67.84519,
     "lbl:max_zoom":17.0,
@@ -154,22 +160,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":2300346685,
     "uscensus:name":"Monticello",
     "uscensus:namelsad":"Monticello town",
+    "uscensus:population":735,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688769,
-        102081161
+        102081161,
+        85688769
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2300346685
+        "uscensus:geoid":"2300346685"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456391
     ],
@@ -188,11 +198,11 @@
         }
     ],
     "wof:id":404475411,
-    "wof:lastmodified":1636499377,
+    "wof:lastmodified":1722117707,
     "wof:name":"Monticello",
     "wof:parent_id":102081161,
     "wof:placetype":"localadmin",
-    "wof:population":790,
+    "wof:population":735,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010372,
-    "geom:area_square_m":96999861.712218,
+    "geom:area_square_m":96999861.712249,
     "geom:bbox":"-87.268443,40.82233,-87.099623,40.906417",
     "geom:latitude":40.855741,
     "geom:longitude":-87.19493,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.859586,
     "lbl:longitude":-87.213422,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":73,
     "uscensus:geoid":1807338970,
     "uscensus:name":"Jordan",
     "uscensus:namelsad":"Jordan township",
+    "uscensus:population":335,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1807338970
+        "uscensus:geoid":"1807338970"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729454507
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404500067,
-    "wof:lastmodified":1604969690,
+    "wof:lastmodified":1722117863,
     "wof:name":"Jordan Township",
     "wof:parent_id":102087005,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":355,
+    "wof:population":335,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

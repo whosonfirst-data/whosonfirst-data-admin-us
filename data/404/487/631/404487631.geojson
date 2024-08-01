@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008933,
-    "geom:area_square_m":82526424.890903,
+    "geom:area_square_m":82526424.890883,
     "geom:bbox":"-79.421523,41.625824,-79.256595,41.716735",
     "geom:latitude":41.660146,
     "geom:longitude":-79.341831,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.661541,
     "lbl:longitude":-79.340264,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":123,
     "uscensus:geoid":4212343372,
     "uscensus:name":"Limestone",
     "uscensus:namelsad":"Limestone township",
+    "uscensus:population":302,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212343372
+        "uscensus:geoid":"4212343372"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465735
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404487631,
-    "wof:lastmodified":1605055895,
+    "wof:lastmodified":1722117788,
     "wof:name":"Limestone Township",
     "wof:parent_id":102081337,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":403,
+    "wof:population":302,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

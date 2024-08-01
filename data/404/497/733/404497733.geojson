@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009315,
-    "geom:area_square_m":87994268.587183,
+    "geom:area_square_m":87994268.587188,
     "geom:bbox":"-88.802355,40.142269,-88.68748,40.224366",
     "geom:latitude":40.183271,
     "geom:longitude":-88.744904,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.183279,
     "lbl:longitude":-88.744906,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":39,
     "uscensus:geoid":1703919785,
     "uscensus:name":"De Witt",
     "uscensus:namelsad":"De Witt township",
+    "uscensus:population":423,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1703919785
+        "uscensus:geoid":"1703919785"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404497733,
-    "wof:lastmodified":1605055495,
+    "wof:lastmodified":1722233639,
     "wof:name":"De Witt Township",
     "wof:parent_id":102082269,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":479,
+    "wof:population":423,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

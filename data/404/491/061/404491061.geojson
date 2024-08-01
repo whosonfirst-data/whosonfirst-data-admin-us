@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01063,
-    "geom:area_square_m":93045769.264246,
+    "geom:area_square_m":93045769.264355,
     "geom:bbox":"-98.4724,44.89485,-98.349687,44.983793",
     "geom:latitude":44.939366,
     "geom:longitude":-98.411011,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.939363,
     "lbl:longitude":-98.411011,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":4611525780,
     "uscensus:name":"Great Bend",
     "uscensus:namelsad":"Great Bend township",
+    "uscensus:population":39,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4611525780
+        "uscensus:geoid":"4611525780"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472619
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404491061,
-    "wof:lastmodified":1605055588,
+    "wof:lastmodified":1722117810,
     "wof:name":"Great Bend Township",
     "wof:parent_id":102086027,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":44,
+    "wof:population":39,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

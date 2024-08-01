@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008342,
-    "geom:area_square_m":77387596.195228,
+    "geom:area_square_m":77387596.195216,
     "geom:bbox":"-81.298567,41.347319,-81.190475,41.425643",
     "geom:latitude":41.386408,
     "geom:longitude":-81.244439,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.38645,
     "lbl:longitude":-81.244426,
     "lbl:max_zoom":15.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":55,
     "uscensus:geoid":3905502904,
     "uscensus:name":"Auburn",
     "uscensus:namelsad":"Auburn township",
+    "uscensus:population":6581,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3905502904
+        "uscensus:geoid":"3905502904"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473623
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404524605,
-    "wof:lastmodified":1605056105,
+    "wof:lastmodified":1722118009,
     "wof:name":"Auburn Township",
     "wof:parent_id":102084789,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":6443,
+    "wof:population":6581,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

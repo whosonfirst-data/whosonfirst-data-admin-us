@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00811,
-    "geom:area_square_m":75936778.76964,
+    "geom:area_square_m":75936778.769607,
     "geom:bbox":"-81.64897,40.733493,-81.54237,40.825776",
     "geom:latitude":40.777967,
     "geom:longitude":-81.60027,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.766346,
     "lbl:longitude":-81.607519,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":151,
     "uscensus:geoid":3915177910,
     "uscensus:name":"Tuscarawas",
     "uscensus:namelsad":"Tuscarawas township",
+    "uscensus:population":5784,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3915177910
+        "uscensus:geoid":"3915177910"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466929
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404525897,
-    "wof:lastmodified":1605056062,
+    "wof:lastmodified":1722118019,
     "wof:name":"Tuscarawas Township",
     "wof:parent_id":102083731,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":5980,
+    "wof:population":5784,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

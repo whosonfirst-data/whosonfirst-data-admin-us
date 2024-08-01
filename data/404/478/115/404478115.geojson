@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003901,
-    "geom:area_square_m":36525336.687231,
+    "geom:area_square_m":36525336.687244,
     "geom:bbox":"-74.377391,40.757187,-74.280584,40.818414",
     "geom:latitude":40.785515,
     "geom:longitude":-74.32905,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.784568,
     "lbl:longitude":-74.329975,
     "lbl:max_zoom":14.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":3401340890,
     "uscensus:name":"Livingston",
     "uscensus:namelsad":"Livingston township",
+    "uscensus:population":31089,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3401340890
+        "uscensus:geoid":"3401340890"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729477007
     ],
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404478115,
-    "wof:lastmodified":1605055351,
+    "wof:lastmodified":1722117727,
     "wof:name":"Livingston Township",
     "wof:parent_id":102085043,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":29366,
+    "wof:population":31089,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

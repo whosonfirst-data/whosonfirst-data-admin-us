@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000485,
-    "geom:area_square_m":4526816.753584,
+    "geom:area_square_m":4526816.753587,
     "geom:bbox":"-74.120184,40.98976,-74.077307,41.008486",
     "geom:latitude":41.00005,
     "geom:longitude":-74.097175,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.999658,
     "lbl:longitude":-74.097176,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3400332310,
     "uscensus:name":"Ho-Ho-Kus",
     "uscensus:namelsad":"Ho-Ho-Kus borough",
+    "uscensus:population":4232,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400332310
+        "uscensus:geoid":"3400332310"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404477553,
-    "wof:lastmodified":1605055426,
+    "wof:lastmodified":1722117723,
     "wof:name":"Ho-Ho-Kus",
     "wof:parent_id":102086773,
     "wof:placetype":"localadmin",
-    "wof:population":4078,
+    "wof:population":4232,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

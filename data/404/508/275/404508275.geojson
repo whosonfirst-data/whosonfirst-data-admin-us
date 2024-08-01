@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010168,
-    "geom:area_square_m":90523576.076499,
+    "geom:area_square_m":90523576.076512,
     "geom:bbox":"-85.444123,43.901027,-85.325166,43.987912",
     "geom:latitude":43.944466,
     "geom:longitude":-85.38438,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.944461,
     "lbl:longitude":-85.384378,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":133,
     "uscensus:geoid":2613314040,
     "uscensus:name":"Cedar",
     "uscensus:namelsad":"Cedar township",
+    "uscensus:population":484,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2613314040
+        "uscensus:geoid":"2613314040"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465973
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404508275,
-    "wof:lastmodified":1605055736,
+    "wof:lastmodified":1722117921,
     "wof:name":"Cedar Township",
     "wof:parent_id":102083723,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":455,
+    "wof:population":484,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

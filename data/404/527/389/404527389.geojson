@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012283,
-    "geom:area_square_m":109026578.172148,
+    "geom:area_square_m":109026578.172158,
     "geom:bbox":"-73.149505,44.040797,-73.0158,44.192273",
     "geom:latitude":44.123135,
     "geom:longitude":-73.070149,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.120699,
     "lbl:longitude":-73.068861,
     "lbl:max_zoom":15.0,
@@ -343,22 +349,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":5000109025,
     "uscensus:name":"Bristol",
     "uscensus:namelsad":"Bristol town",
+    "uscensus:population":3766,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688763,
-        102080765
+        102080765,
+        85688763
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5000109025
+        "uscensus:geoid":"5000109025"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -374,11 +384,11 @@
         }
     ],
     "wof:id":404527389,
-    "wof:lastmodified":1636499339,
+    "wof:lastmodified":1722118030,
     "wof:name":"Bristol",
     "wof:parent_id":102080765,
     "wof:placetype":"localadmin",
-    "wof:population":3894,
+    "wof:population":3766,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

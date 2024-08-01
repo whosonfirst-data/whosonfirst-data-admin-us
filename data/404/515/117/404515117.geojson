@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000899,
-    "geom:area_square_m":7827925.535065,
+    "geom:area_square_m":7827925.535064,
     "geom:bbox":"-94.152998,45.242634,-94.087905,45.283095",
     "geom:latitude":45.259808,
     "geom:longitude":-94.120557,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.262451,
     "lbl:longitude":-94.118222,
     "lbl:max_zoom":15.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":171,
     "uscensus:geoid":2717101684,
     "uscensus:name":"Annandale",
     "uscensus:namelsad":"Annandale city",
+    "uscensus:population":3424,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2717101684
+        "uscensus:geoid":"2717101684"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -104,11 +114,11 @@
         }
     ],
     "wof:id":404515117,
-    "wof:lastmodified":1605056139,
+    "wof:lastmodified":1722117971,
     "wof:name":"Annandale",
     "wof:parent_id":102087815,
     "wof:placetype":"localadmin",
-    "wof:population":3228,
+    "wof:population":3424,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000018,
-    "geom:area_square_m":155836.733052,
+    "geom:area_square_m":155836.733051,
     "geom:bbox":"-100.63299,46.084376,-100.627816,46.088525",
     "geom:latitude":46.086594,
     "geom:longitude":-100.630078,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.08656,
     "lbl:longitude":-100.629871,
     "lbl:max_zoom":18.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":85,
     "uscensus:geoid":3808527860,
     "uscensus:name":"Fort Yates",
     "uscensus:namelsad":"Fort Yates city",
+    "uscensus:population":166,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3808527860
+        "uscensus:geoid":"3808527860"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404481777,
-    "wof:lastmodified":1605055828,
+    "wof:lastmodified":1722117752,
     "wof:name":"Fort Yates",
     "wof:parent_id":102082101,
     "wof:placetype":"localadmin",
-    "wof:population":184,
+    "wof:population":166,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

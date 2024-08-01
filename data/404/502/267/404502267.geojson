@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009336,
-    "geom:area_square_m":88713296.121548,
+    "geom:area_square_m":88713296.121551,
     "geom:bbox":"-100.628048,39.741126,-100.515552,39.828692",
     "geom:latitude":39.78337,
     "geom:longitude":-100.573635,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.784995,
     "lbl:longitude":-100.576616,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":39,
     "uscensus:geoid":2003952025,
     "uscensus:name":"Oberlin",
     "uscensus:namelsad":"Oberlin township",
+    "uscensus:population":74,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2003952025
+        "uscensus:geoid":"2003952025"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729455503
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404502267,
-    "wof:lastmodified":1605055268,
+    "wof:lastmodified":1722117878,
     "wof:name":"Oberlin Township",
     "wof:parent_id":102083441,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":81,
+    "wof:population":74,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

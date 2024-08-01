@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004247,
-    "geom:area_square_m":40160612.121103,
+    "geom:area_square_m":40160612.121144,
     "geom:bbox":"-75.171439,40.068989,-75.058342,40.150864",
     "geom:latitude":40.110835,
     "geom:longitude":-75.11463,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.106626,
     "lbl:longitude":-75.100569,
     "lbl:max_zoom":14.0,
@@ -58,11 +64,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":91,
     "uscensus:geoid":4209100156,
     "uscensus:name":"Abington",
     "uscensus:namelsad":"Abington township",
+    "uscensus:population":58451,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -72,8 +81,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4209100156
+        "uscensus:geoid":"4209100156"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404485369,
-    "wof:lastmodified":1605055365,
+    "wof:lastmodified":1722117773,
     "wof:name":"Abington Township",
     "wof:parent_id":102081355,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":55310,
+    "wof:population":58451,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

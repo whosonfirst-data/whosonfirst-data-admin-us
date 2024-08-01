@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013263,
-    "geom:area_square_m":112797538.635043,
+    "geom:area_square_m":112797538.635085,
     "geom:bbox":"-87.635066,46.477303,-87.488759,46.593351",
     "geom:latitude":46.544797,
     "geom:longitude":-87.553376,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.556711,
     "lbl:longitude":-87.553332,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":103,
     "uscensus:geoid":2610356880,
     "uscensus:name":"Negaunee",
     "uscensus:namelsad":"Negaunee township",
+    "uscensus:population":3279,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2610356880
+        "uscensus:geoid":"2610356880"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467905
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404508623,
-    "wof:lastmodified":1605055744,
+    "wof:lastmodified":1722117923,
     "wof:name":"Negaunee Township",
     "wof:parent_id":102083039,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3088,
+    "wof:population":3279,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

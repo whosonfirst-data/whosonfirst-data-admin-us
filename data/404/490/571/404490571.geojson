@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010269,
-    "geom:area_square_m":92416120.556363,
+    "geom:area_square_m":92416120.556353,
     "geom:bbox":"-99.534147,43.255633,-99.415416,43.342424",
     "geom:latitude":43.299048,
     "geom:longitude":-99.474751,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.29904,
     "lbl:longitude":-99.474757,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":53,
     "uscensus:geoid":4605318260,
     "uscensus:name":"Edens",
     "uscensus:namelsad":"Edens township",
+    "uscensus:population":78,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4605318260
+        "uscensus:geoid":"4605318260"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463617
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404490571,
-    "wof:lastmodified":1605055526,
+    "wof:lastmodified":1722117807,
     "wof:name":"Edens Township",
     "wof:parent_id":102086069,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":79,
+    "wof:population":78,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

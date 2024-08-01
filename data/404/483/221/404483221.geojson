@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000419,
-    "geom:area_square_m":3963482.725009,
+    "geom:area_square_m":3963482.725008,
     "geom:bbox":"-79.766772,40.07594,-79.736785,40.096866",
     "geom:latitude":40.086775,
     "geom:longitude":-79.752884,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.087344,
     "lbl:longitude":-79.752589,
     "lbl:max_zoom":16.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":4205159520,
     "uscensus:name":"Perryopolis",
     "uscensus:namelsad":"Perryopolis borough",
+    "uscensus:population":1624,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4205159520
+        "uscensus:geoid":"4205159520"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404483221,
-    "wof:lastmodified":1605055438,
+    "wof:lastmodified":1722117761,
     "wof:name":"Perryopolis",
     "wof:parent_id":102080959,
     "wof:placetype":"localadmin",
-    "wof:population":1784,
+    "wof:population":1624,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010349,
-    "geom:area_square_m":92757410.555406,
+    "geom:area_square_m":92757410.555436,
     "geom:bbox":"-83.232772,43.498157,-83.109506,43.587995",
     "geom:latitude":43.542969,
     "geom:longitude":-83.171475,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.543026,
     "lbl:longitude":-83.171478,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":157,
     "uscensus:geoid":2615759420,
     "uscensus:name":"Novesta",
     "uscensus:namelsad":"Novesta township",
+    "uscensus:population":1430,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2615759420
+        "uscensus:geoid":"2615759420"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404508133,
-    "wof:lastmodified":1605055733,
+    "wof:lastmodified":1722117920,
     "wof:name":"Novesta Township",
     "wof:parent_id":102082989,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1491,
+    "wof:population":1430,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

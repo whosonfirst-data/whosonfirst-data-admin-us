@@ -10,6 +10,12 @@
     "geom:latitude":42.850414,
     "geom:longitude":-88.729028,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.850012,
     "lbl:longitude":-88.731158,
     "lbl:max_zoom":15.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":55,
     "uscensus:geoid":5505586925,
     "uscensus:name":"Whitewater",
     "uscensus:namelsad":"Whitewater city",
+    "uscensus:population":4190,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5505586925
+        "uscensus:geoid":"5505586925"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404494145,
-    "wof:lastmodified":1605055965,
+    "wof:lastmodified":1722117830,
     "wof:name":"Whitewater",
     "wof:parent_id":102081287,
     "wof:placetype":"localadmin",
-    "wof:population":3240,
+    "wof:population":4190,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

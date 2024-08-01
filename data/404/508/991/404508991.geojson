@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001891,
-    "geom:area_square_m":17427314.622767,
+    "geom:area_square_m":17427314.622743,
     "geom:bbox":"-85.445516,41.759653,-85.386228,41.824817",
     "geom:latitude":41.799455,
     "geom:longitude":-85.418237,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.801799,
     "lbl:longitude":-85.41616,
     "lbl:max_zoom":15.0,
@@ -88,11 +94,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":149,
     "uscensus:geoid":2614976960,
     "uscensus:name":"Sturgis",
     "uscensus:namelsad":"Sturgis city",
+    "uscensus:population":11012,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -102,8 +111,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2614976960
+        "uscensus:geoid":"2614976960"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -119,11 +129,11 @@
         }
     ],
     "wof:id":404508991,
-    "wof:lastmodified":1605055733,
+    "wof:lastmodified":1722117926,
     "wof:name":"Sturgis",
     "wof:parent_id":102083093,
     "wof:placetype":"localadmin",
-    "wof:population":10994,
+    "wof:population":11012,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

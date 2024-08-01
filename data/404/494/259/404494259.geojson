@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008179,
-    "geom:area_square_m":72924701.815603,
+    "geom:area_square_m":72924701.815616,
     "geom:bbox":"-90.191737,43.818532,-90.071988,43.894448",
     "geom:latitude":43.854156,
     "geom:longitude":-90.128657,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.846841,
     "lbl:longitude":-90.130925,
     "lbl:max_zoom":17.0,
@@ -601,11 +607,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":57,
     "uscensus:geoid":5505744825,
     "uscensus:name":"Lisbon",
     "uscensus:namelsad":"Lisbon town",
+    "uscensus:population":912,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -615,8 +624,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5505744825
+        "uscensus:geoid":"5505744825"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463901
     ],
@@ -635,7 +645,7 @@
         }
     ],
     "wof:id":404494259,
-    "wof:lastmodified":1605055963,
+    "wof:lastmodified":1722117831,
     "wof:name":"Lisbon",
     "wof:parent_id":102081297,
     "wof:placetype":"localadmin",

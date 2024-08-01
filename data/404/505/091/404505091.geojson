@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009804,
-    "geom:area_square_m":93037620.200237,
+    "geom:area_square_m":93037620.200217,
     "geom:bbox":"-98.729416,39.828057,-98.616569,39.915775",
     "geom:latitude":39.871953,
     "geom:longitude":-98.672972,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.872046,
     "lbl:longitude":-98.672996,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":183,
     "uscensus:geoid":2018315525,
     "uscensus:name":"Cora",
     "uscensus:namelsad":"Cora township",
+    "uscensus:population":29,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2018315525
+        "uscensus:geoid":"2018315525"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460073
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404505091,
-    "wof:lastmodified":1605055282,
+    "wof:lastmodified":1722117897,
     "wof:name":"Cora Township",
     "wof:parent_id":102084161,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":26,
+    "wof:population":29,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

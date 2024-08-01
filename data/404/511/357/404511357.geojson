@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011128,
-    "geom:area_square_m":93655935.690066,
+    "geom:area_square_m":93655935.690064,
     "geom:bbox":"-96.194702,47.063911,-96.066428,47.151813",
     "geom:latitude":47.107906,
     "geom:longitude":-96.130667,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.107946,
     "lbl:longitude":-96.130672,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":2700567954,
     "uscensus:name":"Walworth",
     "uscensus:namelsad":"Walworth township",
+    "uscensus:population":100,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2700567954
+        "uscensus:geoid":"2700567954"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462171
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404511357,
-    "wof:lastmodified":1605055723,
+    "wof:lastmodified":1722117943,
     "wof:name":"Walworth Township",
     "wof:parent_id":102087001,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":87,
+    "wof:population":100,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

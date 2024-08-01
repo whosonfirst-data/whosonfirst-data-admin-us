@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004566,
-    "geom:area_square_m":42213797.932808,
+    "geom:area_square_m":42213797.932792,
     "geom:bbox":"-75.961227,41.58406,-75.843124,41.644206",
     "geom:latitude":41.614176,
     "geom:longitude":-75.913908,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.617098,
     "lbl:longitude":-75.915019,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":131,
     "uscensus:geoid":4213142616,
     "uscensus:name":"Lemon",
     "uscensus:namelsad":"Lemon township",
+    "uscensus:population":1125,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4213142616
+        "uscensus:geoid":"4213142616"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463741
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404487659,
-    "wof:lastmodified":1605055884,
+    "wof:lastmodified":1722117788,
     "wof:name":"Lemon Township",
     "wof:parent_id":102080947,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1243,
+    "wof:population":1125,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

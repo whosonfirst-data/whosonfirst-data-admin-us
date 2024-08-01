@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000607,
-    "geom:area_square_m":5928016.243303,
+    "geom:area_square_m":5928016.243291,
     "geom:bbox":"-96.306035,37.810487,-96.270666,37.856051",
     "geom:latitude":37.826048,
     "geom:longitude":-96.289001,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.822284,
     "lbl:longitude":-96.292012,
     "lbl:max_zoom":15.0,
@@ -118,11 +124,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":73,
     "uscensus:geoid":2007321800,
     "uscensus:name":"Eureka",
     "uscensus:namelsad":"Eureka city",
+    "uscensus:population":2264,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -132,8 +141,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2007321800
+        "uscensus:geoid":"2007321800"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -149,11 +159,11 @@
         }
     ],
     "wof:id":404504051,
-    "wof:lastmodified":1605055310,
+    "wof:lastmodified":1722117890,
     "wof:name":"Eureka",
     "wof:parent_id":102084205,
     "wof:placetype":"localadmin",
-    "wof:population":2633,
+    "wof:population":2264,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

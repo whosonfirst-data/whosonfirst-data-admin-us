@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011701,
-    "geom:area_square_m":98640060.732371,
+    "geom:area_square_m":98640060.732366,
     "geom:bbox":"-96.839548,46.976762,-96.689643,47.064439",
     "geom:latitude":47.020315,
     "geom:longitude":-96.75703,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.020592,
     "lbl:longitude":-96.757027,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":2702733704,
     "uscensus:name":"Kragnes",
     "uscensus:namelsad":"Kragnes township",
+    "uscensus:population":255,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2702733704
+        "uscensus:geoid":"2702733704"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460411
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404511071,
-    "wof:lastmodified":1605055717,
+    "wof:lastmodified":1722117941,
     "wof:name":"Kragnes Township",
     "wof:parent_id":102087681,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":293,
+    "wof:population":255,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

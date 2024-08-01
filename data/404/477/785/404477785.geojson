@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000175,
-    "geom:area_square_m":1659822.097692,
+    "geom:area_square_m":1659822.097691,
     "geom:bbox":"-74.182479,39.929733,-74.156692,39.942052",
     "geom:latitude":39.935865,
     "geom:longitude":-74.170038,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.936637,
     "lbl:longitude":-74.171307,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":3402958590,
     "uscensus:name":"Pine Beach",
     "uscensus:namelsad":"Pine Beach borough",
+    "uscensus:population":2193,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3402958590
+        "uscensus:geoid":"3402958590"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404477785,
-    "wof:lastmodified":1605055422,
+    "wof:lastmodified":1722117725,
     "wof:name":"Pine Beach",
     "wof:parent_id":102081485,
     "wof:placetype":"localadmin",
-    "wof:population":2127,
+    "wof:population":2193,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

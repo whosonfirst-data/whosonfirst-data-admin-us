@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010192,
-    "geom:area_square_m":91003999.882264,
+    "geom:area_square_m":91003999.882267,
     "geom:bbox":"-85.206146,43.726536,-85.087287,43.813754",
     "geom:latitude":43.770219,
     "geom:longitude":-85.146963,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.770273,
     "lbl:longitude":-85.146967,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":107,
     "uscensus:geoid":2610729680,
     "uscensus:name":"Fork",
     "uscensus:namelsad":"Fork township",
+    "uscensus:population":1679,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2610729680
+        "uscensus:geoid":"2610729680"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404506227,
-    "wof:lastmodified":1605055752,
+    "wof:lastmodified":1722233665,
     "wof:name":"Fork Township",
     "wof:parent_id":102083129,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1604,
+    "wof:population":1679,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

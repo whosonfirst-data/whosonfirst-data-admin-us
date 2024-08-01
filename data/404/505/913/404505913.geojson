@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010514,
-    "geom:area_square_m":90835198.620233,
+    "geom:area_square_m":90835198.620234,
     "geom:bbox":"-84.853192,45.636692,-84.730915,45.723943",
     "geom:latitude":45.680308,
     "geom:longitude":-84.792178,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.680222,
     "lbl:longitude":-84.792176,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":47,
     "uscensus:geoid":2604713500,
     "uscensus:name":"Carp Lake",
     "uscensus:namelsad":"Carp Lake township",
+    "uscensus:population":755,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2604713500
+        "uscensus:geoid":"2604713500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404505913,
-    "wof:lastmodified":1605055285,
+    "wof:lastmodified":1722117903,
     "wof:name":"Carp Lake Township",
     "wof:parent_id":102083073,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":759,
+    "wof:population":755,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012494,
-    "geom:area_square_m":115993740.883215,
+    "geom:area_square_m":115993740.8833,
     "geom:bbox":"-87.670148,41.296778,-87.526218,41.38529",
     "geom:latitude":41.341074,
     "geom:longitude":-87.598132,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.341003,
     "lbl:longitude":-87.598125,
     "lbl:max_zoom":15.0,
@@ -67,11 +73,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":197,
     "uscensus:geoid":1719779059,
     "uscensus:name":"Washington",
     "uscensus:namelsad":"Washington township",
+    "uscensus:population":6441,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -81,8 +90,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1719779059
+        "uscensus:geoid":"1719779059"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -98,12 +108,12 @@
         }
     ],
     "wof:id":404497105,
-    "wof:lastmodified":1605055486,
+    "wof:lastmodified":1722233636,
     "wof:name":"Washington Township",
     "wof:parent_id":102080845,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":6263,
+    "wof:population":6441,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

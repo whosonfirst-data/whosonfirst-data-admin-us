@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006121,
-    "geom:area_square_m":58122505.088796,
+    "geom:area_square_m":58122505.088785,
     "geom:bbox":"-81.316779,39.778278,-81.222318,39.869471",
     "geom:latitude":39.829799,
     "geom:longitude":-81.278556,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.837135,
     "lbl:longitude":-81.282389,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":111,
     "uscensus:geoid":3911171349,
     "uscensus:name":"Seneca",
     "uscensus:namelsad":"Seneca township",
+    "uscensus:population":424,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3911171349
+        "uscensus:geoid":"3911171349"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475237
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404524069,
-    "wof:lastmodified":1605056115,
+    "wof:lastmodified":1722118005,
     "wof:name":"Seneca Township",
     "wof:parent_id":102083663,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":486,
+    "wof:population":424,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

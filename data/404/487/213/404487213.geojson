@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00253,
-    "geom:area_square_m":23742013.301479,
+    "geom:area_square_m":23742013.301463,
     "geom:bbox":"-76.457822,40.610563,-76.359667,40.671322",
     "geom:latitude":40.642167,
     "geom:longitude":-76.409706,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.646507,
     "lbl:longitude":-76.404872,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":107,
     "uscensus:geoid":4210727248,
     "uscensus:name":"Frailey",
     "uscensus:namelsad":"Frailey township",
+    "uscensus:population":423,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4210727248
+        "uscensus:geoid":"4210727248"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404487213,
-    "wof:lastmodified":1605055892,
+    "wof:lastmodified":1722117785,
     "wof:name":"Frailey Township",
     "wof:parent_id":102081271,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":429,
+    "wof:population":423,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

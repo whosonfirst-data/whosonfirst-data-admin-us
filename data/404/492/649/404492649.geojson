@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.030774,
-    "geom:area_square_m":268349877.361553,
+    "geom:area_square_m":268349877.361605,
     "geom:bbox":"-87.432419,45.068778,-87.15214,45.275354",
     "geom:latitude":45.1527,
     "geom:longitude":-87.286708,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.169164,
     "lbl:longitude":-87.319616,
     "lbl:max_zoom":16.0,
@@ -508,22 +514,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":5502928950,
     "uscensus:name":"Gibraltar",
     "uscensus:namelsad":"Gibraltar town",
+    "uscensus:population":1251,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081831
+        102081831,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5502928950
+        "uscensus:geoid":"5502928950"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475435
     ],
@@ -542,11 +552,11 @@
         }
     ],
     "wof:id":404492649,
-    "wof:lastmodified":1636499426,
+    "wof:lastmodified":1722117821,
     "wof:name":"Gibraltar",
     "wof:parent_id":102081831,
     "wof:placetype":"localadmin",
-    "wof:population":1021,
+    "wof:population":1251,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

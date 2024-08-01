@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002873,
-    "geom:area_square_m":26434103.870186,
+    "geom:area_square_m":26434103.870137,
     "geom:bbox":"-83.442177,41.886492,-83.333724,41.949438",
     "geom:latitude":41.915444,
     "geom:longitude":-83.384914,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.913253,
     "lbl:longitude":-83.381333,
     "lbl:max_zoom":14.0,
@@ -115,22 +121,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":2611555020,
     "uscensus:name":"Monroe",
     "uscensus:namelsad":"Monroe city",
+    "uscensus:population":20089,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688599,
-        102083117
+        102083117,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2611555020
+        "uscensus:geoid":"2611555020"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -146,11 +156,11 @@
         }
     ],
     "wof:id":404508971,
-    "wof:lastmodified":1636499353,
+    "wof:lastmodified":1722117926,
     "wof:name":"Monroe",
     "wof:parent_id":102083117,
     "wof:placetype":"localadmin",
-    "wof:population":20733,
+    "wof:population":20089,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

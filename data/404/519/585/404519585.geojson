@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010009,
-    "geom:area_square_m":93279834.425919,
+    "geom:area_square_m":93279834.425901,
     "geom:bbox":"-97.023887,41.046091,-96.908507,41.133278",
     "geom:latitude":41.089699,
     "geom:longitude":-96.966156,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.089721,
     "lbl:longitude":-96.966154,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":3102341250,
     "uscensus:name":"Richardson",
     "uscensus:namelsad":"Richardson township",
+    "uscensus:population":436,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3102341250
+        "uscensus:geoid":"3102341250"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404519585,
-    "wof:lastmodified":1605055674,
+    "wof:lastmodified":1722233671,
     "wof:name":"Richardson Township",
     "wof:parent_id":102082839,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":424,
+    "wof:population":436,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

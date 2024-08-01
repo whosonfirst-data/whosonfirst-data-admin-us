@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000377,
-    "geom:area_square_m":3524706.617398,
+    "geom:area_square_m":3524706.617397,
     "geom:bbox":"-80.029453,40.806821,-79.999185,40.825912",
     "geom:latitude":40.817354,
     "geom:longitude":-80.015201,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.816882,
     "lbl:longitude":-80.015489,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":4201915808,
     "uscensus:name":"Connoquenessing",
     "uscensus:namelsad":"Connoquenessing borough",
+    "uscensus:population":755,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201915808
+        "uscensus:geoid":"4201915808"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,11 +90,11 @@
         }
     ],
     "wof:id":404485073,
-    "wof:lastmodified":1605055367,
+    "wof:lastmodified":1722117772,
     "wof:name":"Connoquenessing",
     "wof:parent_id":102083677,
     "wof:placetype":"localadmin",
-    "wof:population":528,
+    "wof:population":755,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

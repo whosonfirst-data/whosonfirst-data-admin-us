@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006402,
-    "geom:area_square_m":61231762.741598,
+    "geom:area_square_m":61231762.7416,
     "geom:bbox":"-81.718733,39.307992,-81.559111,39.35713",
     "geom:latitude":39.332007,
     "geom:longitude":-81.637814,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.333229,
     "lbl:longitude":-81.637821,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":167,
     "uscensus:geoid":3916722918,
     "uscensus:name":"Dunham",
     "uscensus:namelsad":"Dunham township",
+    "uscensus:population":2526,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3916722918
+        "uscensus:geoid":"3916722918"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463803
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404526295,
-    "wof:lastmodified":1605055647,
+    "wof:lastmodified":1722118022,
     "wof:name":"Dunham Township",
     "wof:parent_id":102084767,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2568,
+    "wof:population":2526,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

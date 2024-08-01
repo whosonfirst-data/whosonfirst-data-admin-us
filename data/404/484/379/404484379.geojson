@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005813,
-    "geom:area_square_m":54404944.980669,
+    "geom:area_square_m":54404944.980661,
     "geom:bbox":"-80.331884,40.768499,-80.239015,40.853497",
     "geom:latitude":40.805505,
     "geom:longitude":-80.28372,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.801752,
     "lbl:longitude":-80.282834,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":4200755400,
     "uscensus:name":"North Sewickley",
     "uscensus:namelsad":"North Sewickley township",
+    "uscensus:population":5432,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200755400
+        "uscensus:geoid":"4200755400"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472603
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404484379,
-    "wof:lastmodified":1605055458,
+    "wof:lastmodified":1722117768,
     "wof:name":"North Sewickley Township",
     "wof:parent_id":102081323,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":5488,
+    "wof:population":5432,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

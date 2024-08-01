@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.017322,
-    "geom:area_square_m":155243862.932611,
+    "geom:area_square_m":155243862.93258,
     "geom:bbox":"-76.240127,43.468333,-76.025465,43.615337",
     "geom:latitude":43.547486,
     "geom:longitude":-76.140636,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.535018,
     "lbl:longitude":-76.151184,
     "lbl:max_zoom":15.0,
@@ -97,11 +103,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":75,
     "uscensus:geoid":3607561533,
     "uscensus:name":"Richland",
     "uscensus:namelsad":"Richland town",
+    "uscensus:population":5725,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -111,8 +120,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3607561533
+        "uscensus:geoid":"3607561533"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -128,11 +138,11 @@
         }
     ],
     "wof:id":404522871,
-    "wof:lastmodified":1605056078,
+    "wof:lastmodified":1722233678,
     "wof:name":"Richland",
     "wof:parent_id":102081783,
     "wof:placetype":"localadmin",
-    "wof:population":5718,
+    "wof:population":5725,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

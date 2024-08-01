@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003014,
-    "geom:area_square_m":27939261.99279,
+    "geom:area_square_m":27939261.992806,
     "geom:bbox":"-97.404146,41.402355,-97.30001,41.467765",
     "geom:latitude":41.43683,
     "geom:longitude":-97.356249,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.435927,
     "lbl:longitude":-97.359361,
     "lbl:max_zoom":14.0,
@@ -196,11 +202,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":141,
     "uscensus:geoid":3114110110,
     "uscensus:name":"Columbus",
     "uscensus:namelsad":"Columbus city",
+    "uscensus:population":24464,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -210,8 +219,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3114110110
+        "uscensus:geoid":"3114110110"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -227,11 +237,11 @@
         }
     ],
     "wof:id":404520295,
-    "wof:lastmodified":1605055700,
+    "wof:lastmodified":1722117982,
     "wof:name":"Columbus",
     "wof:parent_id":102084277,
     "wof:placetype":"localadmin",
-    "wof:population":22111,
+    "wof:population":24464,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

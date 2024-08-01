@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000917,
-    "geom:area_square_m":8273206.796154,
+    "geom:area_square_m":8273206.796179,
     "geom:bbox":"-90.720727,43.122495,-90.656914,43.170077",
     "geom:latitude":43.143543,
     "geom:longitude":-90.695077,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.1375,
     "lbl:longitude":-90.705586,
     "lbl:max_zoom":15.0,
@@ -58,11 +64,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":43,
     "uscensus:geoid":5504308850,
     "uscensus:name":"Boscobel",
     "uscensus:namelsad":"Boscobel city",
+    "uscensus:population":3217,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -72,8 +81,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5504308850
+        "uscensus:geoid":"5504308850"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -89,11 +99,11 @@
         }
     ],
     "wof:id":404494831,
-    "wof:lastmodified":1605055972,
+    "wof:lastmodified":1722117835,
     "wof:name":"Boscobel",
     "wof:parent_id":102081857,
     "wof:placetype":"localadmin",
-    "wof:population":3231,
+    "wof:population":3217,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00973,
-    "geom:area_square_m":93224575.384745,
+    "geom:area_square_m":93224575.384744,
     "geom:bbox":"-86.796584,39.165708,-86.683002,39.253514",
     "geom:latitude":39.209611,
     "geom:longitude":-86.739778,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.209524,
     "lbl:longitude":-86.73978,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":119,
     "uscensus:geoid":1811913186,
     "uscensus:name":"Clay",
     "uscensus:namelsad":"Clay township",
+    "uscensus:population":2636,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1811913186
+        "uscensus:geoid":"1811913186"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474313
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404501593,
-    "wof:lastmodified":1604969650,
+    "wof:lastmodified":1722117873,
     "wof:name":"Clay Township",
     "wof:parent_id":102087015,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2600,
+    "wof:population":2636,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

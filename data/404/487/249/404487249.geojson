@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013267,
-    "geom:area_square_m":123066965.270001,
+    "geom:area_square_m":123066965.269976,
     "geom:bbox":"-76.693583,41.311979,-76.531216,41.453264",
     "geom:latitude":41.394118,
     "geom:longitude":-76.613374,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.387617,
     "lbl:longitude":-76.637688,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":113,
     "uscensus:geoid":4211370560,
     "uscensus:name":"Shrewsbury",
     "uscensus:namelsad":"Shrewsbury township",
+    "uscensus:population":306,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4211370560
+        "uscensus:geoid":"4211370560"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465087
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404487249,
-    "wof:lastmodified":1605055892,
+    "wof:lastmodified":1722117786,
     "wof:name":"Shrewsbury Township",
     "wof:parent_id":102081281,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":319,
+    "wof:population":306,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

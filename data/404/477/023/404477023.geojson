@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005778,
-    "geom:area_square_m":52303452.273036,
+    "geom:area_square_m":52303452.273042,
     "geom:bbox":"-72.167831,42.919443,-72.001215,42.968935",
     "geom:latitude":42.941566,
     "geom:longitude":-72.091404,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.944901,
     "lbl:longitude":-72.091384,
     "lbl:max_zoom":17.0,
@@ -85,11 +91,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":3300534420,
     "uscensus:name":"Harrisville",
     "uscensus:namelsad":"Harrisville town",
+    "uscensus:population":1002,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":33,
     "wof:belongsto":[
         102191575,
@@ -99,8 +108,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3300534420
+        "uscensus:geoid":"3300534420"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466417
     ],
@@ -119,12 +129,12 @@
         }
     ],
     "wof:id":404477023,
-    "wof:lastmodified":1605055415,
+    "wof:lastmodified":1722117719,
     "wof:name":"Harrisville",
     "wof:parent_id":102085643,
     "wof:placetype":"localadmin",
-    "wof:population":961,
-    "wof:population_rank":2,
+    "wof:population":1002,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

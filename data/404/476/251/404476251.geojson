@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003053,
-    "geom:area_square_m":27690015.867143,
+    "geom:area_square_m":27690015.867142,
     "geom:bbox":"-70.940294,42.78747,-70.805871,42.841283",
     "geom:latitude":42.812392,
     "geom:longitude":-70.887441,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.815523,
     "lbl:longitude":-70.905266,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":2500945245,
     "uscensus:name":"Newburyport",
     "uscensus:namelsad":"Newburyport city",
+    "uscensus:population":18731,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2500945245
+        "uscensus:geoid":"2500945245"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404476251,
-    "wof:lastmodified":1605055398,
+    "wof:lastmodified":1722117713,
     "wof:name":"Newburyport",
     "wof:parent_id":102084463,
     "wof:placetype":"localadmin",
-    "wof:population":17416,
+    "wof:population":18731,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

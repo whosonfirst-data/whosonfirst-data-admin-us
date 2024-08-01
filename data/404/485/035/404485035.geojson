@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013811,
-    "geom:area_square_m":129876229.629901,
+    "geom:area_square_m":129876229.629925,
     "geom:bbox":"-78.800528,40.418374,-78.673374,40.577952",
     "geom:latitude":40.493076,
     "geom:longitude":-78.744841,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.521379,
     "lbl:longitude":-78.766323,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":4202110880,
     "uscensus:name":"Cambria",
     "uscensus:namelsad":"Cambria township",
+    "uscensus:population":5690,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202110880
+        "uscensus:geoid":"4202110880"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404485035,
-    "wof:lastmodified":1605055370,
+    "wof:lastmodified":1722117771,
     "wof:name":"Cambria Township",
     "wof:parent_id":102080879,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":6099,
+    "wof:population":5690,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

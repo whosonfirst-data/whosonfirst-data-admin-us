@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005874,
-    "geom:area_square_m":55496037.475958,
+    "geom:area_square_m":55496037.475921,
     "geom:bbox":"-82.946289,40.129998,-82.852669,40.209786",
     "geom:latitude":40.174408,
     "geom:longitude":-82.897459,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.176323,
     "lbl:longitude":-82.897332,
     "lbl:max_zoom":14.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":3904129694,
     "uscensus:name":"Genoa",
     "uscensus:namelsad":"Genoa township",
+    "uscensus:population":27265,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3904129694
+        "uscensus:geoid":"3904129694"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404524519,
-    "wof:lastmodified":1605056107,
+    "wof:lastmodified":1722118009,
     "wof:name":"Genoa Township",
     "wof:parent_id":102084739,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":23093,
+    "wof:population":27265,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

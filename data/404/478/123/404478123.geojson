@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000573,
-    "geom:area_square_m":5441032.396265,
+    "geom:area_square_m":5441032.396274,
     "geom:bbox":"-75.171131,39.824159,-75.135201,39.855182",
     "geom:latitude":39.837882,
     "geom:longitude":-75.152426,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.835391,
     "lbl:longitude":-75.149717,
     "lbl:max_zoom":15.0,
@@ -85,11 +91,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":3401582120,
     "uscensus:name":"Woodbury",
     "uscensus:namelsad":"Woodbury city",
+    "uscensus:population":10063,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -99,8 +108,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3401582120
+        "uscensus:geoid":"3401582120"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -116,11 +126,11 @@
         }
     ],
     "wof:id":404478123,
-    "wof:lastmodified":1605055351,
+    "wof:lastmodified":1722117727,
     "wof:name":"Woodbury",
     "wof:parent_id":102085999,
     "wof:placetype":"localadmin",
-    "wof:population":10174,
+    "wof:population":10063,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

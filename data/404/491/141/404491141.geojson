@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010453,
-    "geom:area_square_m":93141653.186184,
+    "geom:area_square_m":93141653.186148,
     "geom:bbox":"-97.730789,43.849073,-97.610302,43.936599",
     "geom:latitude":43.892817,
     "geom:longitude":-97.670504,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.892857,
     "lbl:longitude":-97.670504,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":97,
     "uscensus:geoid":4609755380,
     "uscensus:name":"Rock Creek",
     "uscensus:namelsad":"Rock Creek township",
+    "uscensus:population":74,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4609755380
+        "uscensus:geoid":"4609755380"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473469
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404491141,
-    "wof:lastmodified":1605055591,
+    "wof:lastmodified":1722117811,
     "wof:name":"Rock Creek Township",
     "wof:parent_id":102086063,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":78,
+    "wof:population":74,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

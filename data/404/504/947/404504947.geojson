@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.015324,
-    "geom:area_square_m":147403998.065161,
+    "geom:area_square_m":147403998.065167,
     "geom:bbox":"-95.632938,38.869365,-95.500236,38.986204",
     "geom:latitude":38.927938,
     "geom:longitude":-95.566494,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.927845,
     "lbl:longitude":-95.566514,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":177,
     "uscensus:geoid":2017747700,
     "uscensus:name":"Monmouth",
     "uscensus:namelsad":"Monmouth township",
+    "uscensus:population":3185,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2017747700
+        "uscensus:geoid":"2017747700"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465807
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404504947,
-    "wof:lastmodified":1605055303,
+    "wof:lastmodified":1722117896,
     "wof:name":"Monmouth Township",
     "wof:parent_id":102084175,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3021,
+    "wof:population":3185,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

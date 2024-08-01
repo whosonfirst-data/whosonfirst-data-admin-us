@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.019473,
-    "geom:area_square_m":168289626.184839,
+    "geom:area_square_m":168289626.184865,
     "geom:bbox":"-87.327502,45.550545,-87.079619,45.76849",
     "geom:latitude":45.661044,
     "geom:longitude":-87.224451,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.685258,
     "lbl:longitude":-87.203805,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":2604129380,
     "uscensus:name":"Ford River",
     "uscensus:namelsad":"Ford River township",
+    "uscensus:population":2031,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2604129380
+        "uscensus:geoid":"2604129380"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457645
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404507163,
-    "wof:lastmodified":1605055776,
+    "wof:lastmodified":1722117912,
     "wof:name":"Ford River Township",
     "wof:parent_id":102083091,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2054,
+    "wof:population":2031,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

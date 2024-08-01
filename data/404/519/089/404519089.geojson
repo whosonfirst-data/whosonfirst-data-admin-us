@@ -10,6 +10,12 @@
     "geom:latitude":41.741981,
     "geom:longitude":-97.775571,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.74198,
     "lbl:longitude":-97.775571,
     "lbl:max_zoom":18.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":141,
     "uscensus:geoid":3114134230,
     "uscensus:name":"Newman Grove",
     "uscensus:namelsad":"Newman Grove city",
+    "uscensus:population":12,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3114134230
+        "uscensus:geoid":"3114134230"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404519089,
-    "wof:lastmodified":1605055670,
+    "wof:lastmodified":1722117979,
     "wof:name":"Newman Grove",
     "wof:parent_id":102084277,
     "wof:placetype":"localadmin",
-    "wof:population":18,
+    "wof:population":12,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

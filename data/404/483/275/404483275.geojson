@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000017,
-    "geom:area_square_m":162492.566431,
+    "geom:area_square_m":162492.566433,
     "geom:bbox":"-78.198238,40.644139,-78.192338,40.64984",
     "geom:latitude":40.647154,
     "geom:longitude":-78.195685,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.647279,
     "lbl:longitude":-78.19573,
     "lbl:max_zoom":18.0,
@@ -406,11 +412,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":4206106560,
     "uscensus:name":"Birmingham",
     "uscensus:namelsad":"Birmingham borough",
+    "uscensus:population":87,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -420,8 +429,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206106560
+        "uscensus:geoid":"4206106560"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -437,11 +447,11 @@
         }
     ],
     "wof:id":404483275,
-    "wof:lastmodified":1605055439,
+    "wof:lastmodified":1722117761,
     "wof:name":"Birmingham",
     "wof:parent_id":102080901,
     "wof:placetype":"localadmin",
-    "wof:population":90,
+    "wof:population":87,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

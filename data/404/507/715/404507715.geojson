@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00976,
-    "geom:area_square_m":86399602.973699,
+    "geom:area_square_m":86399602.973683,
     "geom:bbox":"-83.644927,44.235034,-83.522218,44.337726",
     "geom:latitude":44.282827,
     "geom:longitude":-83.59427,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.279661,
     "lbl:longitude":-83.599246,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":69,
     "uscensus:geoid":2606978100,
     "uscensus:name":"Tawas",
     "uscensus:namelsad":"Tawas township",
+    "uscensus:population":1738,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2606978100
+        "uscensus:geoid":"2606978100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456955
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404507715,
-    "wof:lastmodified":1605055774,
+    "wof:lastmodified":1722117916,
     "wof:name":"Tawas Township",
     "wof:parent_id":102083001,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1744,
+    "wof:population":1738,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

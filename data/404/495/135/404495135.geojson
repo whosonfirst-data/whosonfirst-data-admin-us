@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010302,
-    "geom:area_square_m":93580557.842128,
+    "geom:area_square_m":93580557.84214,
     "geom:bbox":"-89.838574,42.682614,-89.719285,42.770518",
     "geom:latitude":42.726698,
     "geom:longitude":-89.778846,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.726849,
     "lbl:longitude":-89.778833,
     "lbl:max_zoom":17.0,
@@ -142,11 +148,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":5504500325,
     "uscensus:name":"Adams",
     "uscensus:namelsad":"Adams town",
+    "uscensus:population":548,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -156,8 +165,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5504500325
+        "uscensus:geoid":"5504500325"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467767
     ],
@@ -176,11 +186,11 @@
         }
     ],
     "wof:id":404495135,
-    "wof:lastmodified":1605055977,
+    "wof:lastmodified":1722117837,
     "wof:name":"Adams",
     "wof:parent_id":102081827,
     "wof:placetype":"localadmin",
-    "wof:population":530,
+    "wof:population":548,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

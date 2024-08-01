@@ -345,7 +345,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":104812564,
     "uscensus:awater":5165042,
     "uscensus:classfp":"C5",
@@ -361,17 +362,19 @@
     "uscensus:pcinecta":"Y",
     "uscensus:placefp":"53960",
     "uscensus:placens":"00619424",
+    "uscensus:population":43076,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"25",
     "wd:elevation":317.0,
     "wd:latitude":42.45,
     "wd:longitude":-73.25,
     "wd:wordcount":6378,
     "wof:belongsto":[
-        85688645,
         102191575,
-        404476123,
         85633793,
-        102084369
+        102084369,
+        404476123,
+        85688645
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -383,10 +386,11 @@
         "loc:id":"n82006440",
         "nyt:id":"47043797654278293861",
         "qs_pg:id":827943,
-        "uscensus:geoid":2553960,
+        "uscensus:geoid":"2553960",
         "wd:id":"Q49184",
         "wk:page":"Pittsfield, Massachusetts"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -404,12 +408,12 @@
         }
     ],
     "wof:id":85950325,
-    "wof:lastmodified":1690881964,
+    "wof:lastmodified":1722115955,
     "wof:megacity":0,
     "wof:name":"Pittsfield",
     "wof:parent_id":404476123,
     "wof:placetype":"locality",
-    "wof:population":44737,
+    "wof:population":43076,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:scale":8,

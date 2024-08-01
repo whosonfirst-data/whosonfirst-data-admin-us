@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008435,
-    "geom:area_square_m":79289955.033079,
+    "geom:area_square_m":79289955.033127,
     "geom:bbox":"-79.01714,40.455692,-78.896938,40.575102",
     "geom:latitude":40.513691,
     "geom:longitude":-78.963007,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.518276,
     "lbl:longitude":-78.963919,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":63,
     "uscensus:geoid":4206310104,
     "uscensus:name":"Buffington",
     "uscensus:namelsad":"Buffington township",
+    "uscensus:population":1223,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206310104
+        "uscensus:geoid":"4206310104"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460027
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404486341,
-    "wof:lastmodified":1605055865,
+    "wof:lastmodified":1722117779,
     "wof:name":"Buffington Township",
     "wof:parent_id":102081387,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1328,
+    "wof:population":1223,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

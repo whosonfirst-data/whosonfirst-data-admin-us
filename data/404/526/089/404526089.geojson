@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009483,
-    "geom:area_square_m":90158980.378141,
+    "geom:area_square_m":90158980.37814,
     "geom:bbox":"-83.653386,39.708717,-83.480739,39.78217",
     "geom:latitude":39.74469,
     "geom:longitude":-83.571625,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.746347,
     "lbl:longitude":-83.56295,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":97,
     "uscensus:geoid":3909774784,
     "uscensus:name":"Stokes",
     "uscensus:namelsad":"Stokes township",
+    "uscensus:population":644,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3909774784
+        "uscensus:geoid":"3909774784"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404526089,
-    "wof:lastmodified":1605055653,
+    "wof:lastmodified":1722233688,
     "wof:name":"Stokes Township",
     "wof:parent_id":102084757,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":679,
+    "wof:population":644,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

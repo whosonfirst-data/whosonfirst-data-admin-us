@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0122,
-    "geom:area_square_m":117450839.018634,
+    "geom:area_square_m":117450839.018588,
     "geom:bbox":"-96.501722,38.825482,-96.371876,38.927693",
     "geom:latitude":38.873376,
     "geom:longitude":-96.439392,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.871535,
     "lbl:longitude":-96.447186,
     "lbl:max_zoom":17.0,
@@ -58,11 +64,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":197,
     "uscensus:geoid":2019725850,
     "uscensus:name":"Garfield",
     "uscensus:namelsad":"Garfield township",
+    "uscensus:population":564,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -72,8 +81,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2019725850
+        "uscensus:geoid":"2019725850"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404505385,
-    "wof:lastmodified":1605055285,
+    "wof:lastmodified":1722233664,
     "wof:name":"Garfield Township",
     "wof:parent_id":102082173,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":595,
+    "wof:population":564,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000387,
-    "geom:area_square_m":3631415.408472,
+    "geom:area_square_m":3631415.408474,
     "geom:bbox":"-76.184933,40.615811,-76.15691,40.643381",
     "geom:latitude":40.628409,
     "geom:longitude":-76.172846,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.627926,
     "lbl:longitude":-76.172854,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":107,
     "uscensus:geoid":4210768312,
     "uscensus:name":"Schuylkill Haven",
     "uscensus:namelsad":"Schuylkill Haven borough",
+    "uscensus:population":5256,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4210768312
+        "uscensus:geoid":"4210768312"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404487313,
-    "wof:lastmodified":1605055887,
+    "wof:lastmodified":1722117786,
     "wof:name":"Schuylkill Haven",
     "wof:parent_id":102081271,
     "wof:placetype":"localadmin",
-    "wof:population":5437,
+    "wof:population":5256,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

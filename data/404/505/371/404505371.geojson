@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014603,
-    "geom:area_square_m":139584280.20776,
+    "geom:area_square_m":139584280.207789,
     "geom:bbox":"-101.391436,39.308825,-101.278161,39.439344",
     "geom:latitude":39.374119,
     "geom:longitude":-101.334749,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.374107,
     "lbl:longitude":-101.334749,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":193,
     "uscensus:geoid":2019376975,
     "uscensus:name":"West Hale",
     "uscensus:namelsad":"West Hale township",
+    "uscensus:population":350,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2019376975
+        "uscensus:geoid":"2019376975"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404505371,
-    "wof:lastmodified":1605055285,
+    "wof:lastmodified":1722233663,
     "wof:name":"West Hale Township",
     "wof:parent_id":102082669,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":361,
+    "wof:population":350,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

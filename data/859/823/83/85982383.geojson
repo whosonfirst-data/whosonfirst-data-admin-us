@@ -148,7 +148,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1023965,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -164,17 +165,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"77660",
     "uscensus:placens":"01036291",
+    "uscensus:population":99,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":498.0,
     "wd:latitude":47.464722,
     "wd:longitude":-99.398889,
     "wd:wordcount":874,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404479797,
         85633793,
-        102081507
+        102081507,
+        404479797,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -183,10 +186,11 @@
         "gn:id":5062145,
         "gp:id":2503305,
         "qs_pg:id":1051284,
-        "uscensus:geoid":3877660,
+        "uscensus:geoid":"3877660",
         "wd:id":"Q21849",
         "wk:page":"Sykeston, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -207,11 +211,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884822,
+    "wof:lastmodified":1722116122,
     "wof:name":"Sykeston",
     "wof:parent_id":404479797,
     "wof:placetype":"locality",
-    "wof:population":117,
+    "wof:population":99,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

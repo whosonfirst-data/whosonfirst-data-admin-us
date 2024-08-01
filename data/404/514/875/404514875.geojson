@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0015,
-    "geom:area_square_m":13322915.123043,
+    "geom:area_square_m":13322915.123045,
     "geom:bbox":"-93.542441,44.058706,-93.4723,44.104659",
     "geom:latitude":44.082662,
     "geom:longitude":-93.502558,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.083146,
     "lbl:longitude":-93.504947,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":161,
     "uscensus:geoid":2716168296,
     "uscensus:name":"Waseca",
     "uscensus:namelsad":"Waseca city",
+    "uscensus:population":9221,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2716168296
+        "uscensus:geoid":"2716168296"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404514875,
-    "wof:lastmodified":1605056017,
+    "wof:lastmodified":1722117969,
     "wof:name":"Waseca",
     "wof:parent_id":102087641,
     "wof:placetype":"localadmin",
-    "wof:population":9410,
+    "wof:population":9221,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

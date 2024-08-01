@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008508,
-    "geom:area_square_m":78945053.350146,
+    "geom:area_square_m":78945053.35014,
     "geom:bbox":"-74.673926,41.317519,-74.517328,41.421943",
     "geom:latitude":41.374016,
     "geom:longitude":-74.594503,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.376951,
     "lbl:longitude":-74.593317,
     "lbl:max_zoom":15.0,
@@ -154,22 +160,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":71,
     "uscensus:geoid":3607130631,
     "uscensus:name":"Greenville",
     "uscensus:namelsad":"Greenville town",
+    "uscensus:population":4643,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688543,
-        102083061
+        102083061,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3607130631
+        "uscensus:geoid":"3607130631"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460537
     ],
@@ -188,11 +198,11 @@
         }
     ],
     "wof:id":404521519,
-    "wof:lastmodified":1636499321,
+    "wof:lastmodified":1722117986,
     "wof:name":"Greenville",
     "wof:parent_id":102083061,
     "wof:placetype":"localadmin",
-    "wof:population":4616,
+    "wof:population":4643,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -10,6 +10,12 @@
     "geom:latitude":40.783315,
     "geom:longitude":-76.232931,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.783369,
     "lbl:longitude":-76.23293,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":107,
     "uscensus:geoid":4210727232,
     "uscensus:name":"Frackville",
     "uscensus:namelsad":"Frackville borough",
+    "uscensus:population":3883,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4210727232
+        "uscensus:geoid":"4210727232"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404483819,
-    "wof:lastmodified":1605055438,
+    "wof:lastmodified":1722117764,
     "wof:name":"Frackville",
     "wof:parent_id":102081271,
     "wof:placetype":"localadmin",
-    "wof:population":3805,
+    "wof:population":3883,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

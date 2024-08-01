@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010175,
-    "geom:area_square_m":96630948.927273,
+    "geom:area_square_m":96630948.927173,
     "geom:bbox":"-93.042248,39.746713,-92.947537,39.883034",
     "geom:latitude":39.819654,
     "geom:longitude":-92.991981,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.820403,
     "lbl:longitude":-92.98727,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":2911581304,
     "uscensus:name":"Yellow Creek",
     "uscensus:namelsad":"Yellow Creek township",
+    "uscensus:population":352,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":29,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2911581304
+        "uscensus:geoid":"2911581304"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458377
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404517473,
-    "wof:lastmodified":1604969428,
+    "wof:lastmodified":1722117976,
     "wof:name":"Yellow Creek Township",
     "wof:parent_id":102085269,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":387,
+    "wof:population":352,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

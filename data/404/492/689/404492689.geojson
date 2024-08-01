@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010515,
-    "geom:area_square_m":90975370.593551,
+    "geom:area_square_m":90975370.593462,
     "geom:bbox":"-92.031595,45.552568,-91.908239,45.639929",
     "geom:latitude":45.596613,
     "geom:longitude":-91.969915,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.596313,
     "lbl:longitude":-91.969888,
     "lbl:max_zoom":17.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":5500541600,
     "uscensus:name":"Lakeland",
     "uscensus:namelsad":"Lakeland town",
+    "uscensus:population":932,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5500541600
+        "uscensus:geoid":"5500541600"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404492689,
-    "wof:lastmodified":1605055999,
+    "wof:lastmodified":1722117821,
     "wof:name":"Lakeland",
     "wof:parent_id":102081847,
     "wof:placetype":"localadmin",
-    "wof:population":975,
+    "wof:population":932,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

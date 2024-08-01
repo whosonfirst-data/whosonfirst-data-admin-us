@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010297,
-    "geom:area_square_m":93535472.021936,
+    "geom:area_square_m":93535472.021878,
     "geom:bbox":"-85.782498,42.681147,-85.66236,42.768277",
     "geom:latitude":42.724882,
     "geom:longitude":-85.722075,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.724843,
     "lbl:longitude":-85.722079,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":2600522680,
     "uscensus:name":"Dorr",
     "uscensus:namelsad":"Dorr township",
+    "uscensus:population":7939,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2600522680
+        "uscensus:geoid":"2600522680"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471625
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404506779,
-    "wof:lastmodified":1605055757,
+    "wof:lastmodified":1722117909,
     "wof:name":"Dorr Township",
     "wof:parent_id":102083043,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":7439,
+    "wof:population":7939,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

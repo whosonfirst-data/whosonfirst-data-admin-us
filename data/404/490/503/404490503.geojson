@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000355,
-    "geom:area_square_m":3098309.901043,
+    "geom:area_square_m":3098309.901047,
     "geom:bbox":"-102.049257,45.012112,-102.0247,45.038549",
     "geom:latitude":45.025776,
     "geom:longitude":-102.036342,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.024251,
     "lbl:longitude":-102.038396,
     "lbl:max_zoom":17.0,
@@ -205,11 +211,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":93,
     "uscensus:geoid":4609320980,
     "uscensus:name":"Faith",
     "uscensus:namelsad":"Faith city",
+    "uscensus:population":356,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -219,8 +228,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4609320980
+        "uscensus:geoid":"4609320980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -236,11 +246,11 @@
         }
     ],
     "wof:id":404490503,
-    "wof:lastmodified":1605055507,
+    "wof:lastmodified":1722117807,
     "wof:name":"Faith",
     "wof:parent_id":102086083,
     "wof:placetype":"localadmin",
-    "wof:population":421,
+    "wof:population":356,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

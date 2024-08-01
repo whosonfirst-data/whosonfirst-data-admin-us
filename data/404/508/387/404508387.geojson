@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000678,
-    "geom:area_square_m":6176174.822404,
+    "geom:area_square_m":6176174.822418,
     "geom:bbox":"-83.499462,42.525456,-83.462863,42.558852",
     "geom:latitude":42.537929,
     "geom:longitude":-83.478628,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.535229,
     "lbl:longitude":-83.478349,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":2612583060,
     "uscensus:name":"Walled Lake",
     "uscensus:namelsad":"Walled Lake city",
+    "uscensus:population":7297,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2612583060
+        "uscensus:geoid":"2612583060"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404508387,
-    "wof:lastmodified":1605055748,
+    "wof:lastmodified":1722117921,
     "wof:name":"Walled Lake",
     "wof:parent_id":102083713,
     "wof:placetype":"localadmin",
-    "wof:population":6999,
+    "wof:population":7297,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

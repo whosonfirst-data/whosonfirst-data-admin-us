@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012388,
-    "geom:area_square_m":110955722.020882,
+    "geom:area_square_m":110955722.020901,
     "geom:bbox":"-91.148722,43.523277,-91.028004,43.637299",
     "geom:latitude":43.584288,
     "geom:longitude":-91.084771,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.590196,
     "lbl:longitude":-91.080765,
     "lbl:max_zoom":17.0,
@@ -187,11 +193,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":123,
     "uscensus:geoid":5512332725,
     "uscensus:name":"Harmony",
     "uscensus:namelsad":"Harmony town",
+    "uscensus:population":910,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -201,8 +210,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5512332725
+        "uscensus:geoid":"5512332725"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462961
     ],
@@ -221,11 +231,11 @@
         }
     ],
     "wof:id":404494105,
-    "wof:lastmodified":1605055959,
+    "wof:lastmodified":1722117830,
     "wof:name":"Harmony",
     "wof:parent_id":102081733,
     "wof:placetype":"localadmin",
-    "wof:population":755,
+    "wof:population":910,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

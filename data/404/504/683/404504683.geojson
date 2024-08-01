@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.017555,
-    "geom:area_square_m":173192102.466294,
+    "geom:area_square_m":173192102.466312,
     "geom:bbox":"-101.827467,36.993996,-101.718089,37.156103",
     "geom:latitude":37.075021,
     "geom:longitude":-101.772778,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.074935,
     "lbl:longitude":-101.772777,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":129,
     "uscensus:geoid":2012913350,
     "uscensus:name":"Cimarron",
     "uscensus:namelsad":"Cimarron township",
+    "uscensus:population":50,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2012913350
+        "uscensus:geoid":"2012913350"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467107
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404504683,
-    "wof:lastmodified":1605055308,
+    "wof:lastmodified":1722117895,
     "wof:name":"Cimarron Township",
     "wof:parent_id":102082711,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":60,
+    "wof:population":50,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

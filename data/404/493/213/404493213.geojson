@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000364,
-    "geom:area_square_m":3263362.77713,
+    "geom:area_square_m":3263362.77714,
     "geom:bbox":"-89.259986,43.438474,-89.225798,43.459091",
     "geom:latitude":43.449686,
     "geom:longitude":-89.238743,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "village"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.449084,
     "lbl:longitude":-89.237585,
     "lbl:max_zoom":16.0,
@@ -130,11 +136,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":5502168100,
     "uscensus:name":"Rio",
     "uscensus:namelsad":"Rio village",
+    "uscensus:population":1131,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -144,8 +153,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5502168100
+        "uscensus:geoid":"5502168100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -161,11 +171,11 @@
         }
     ],
     "wof:id":404493213,
-    "wof:lastmodified":1605055953,
+    "wof:lastmodified":1722117824,
     "wof:name":"Rio",
     "wof:parent_id":102081841,
     "wof:placetype":"localadmin",
-    "wof:population":1059,
+    "wof:population":1131,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

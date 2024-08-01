@@ -154,7 +154,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":4909077,
     "uscensus:awater":45930,
     "uscensus:classfp":"C5",
@@ -170,17 +171,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"20798",
     "uscensus:placens":"02394754",
+    "uscensus:population":124,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":399.0,
     "wd:latitude":47.245278,
     "wd:longitude":-94.211111,
     "wd:wordcount":817,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404511643,
         85633793,
-        102087905
+        102087905,
+        404511643,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -189,10 +192,11 @@
         "gn:id":5026380,
         "gp:id":2402789,
         "qs_pg:id":156295,
-        "uscensus:geoid":2720798,
+        "uscensus:geoid":"2720798",
         "wd:id":"Q2231572",
         "wk:page":"Federal Dam, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -213,11 +217,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882277,
+    "wof:lastmodified":1722115974,
     "wof:name":"Federal Dam",
     "wof:parent_id":404511643,
     "wof:placetype":"locality",
-    "wof:population":110,
+    "wof:population":124,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010072,
-    "geom:area_square_m":90327412.140626,
+    "geom:area_square_m":90327412.140609,
     "geom:bbox":"-90.311069,43.466963,-90.191491,43.554996",
     "geom:latitude":43.510416,
     "geom:longitude":-90.252682,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.510733,
     "lbl:longitude":-90.252697,
     "lbl:max_zoom":17.0,
@@ -64,11 +70,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":103,
     "uscensus:geoid":5510385675,
     "uscensus:name":"Westford",
     "uscensus:namelsad":"Westford town",
+    "uscensus:population":518,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -78,8 +87,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5510385675
+        "uscensus:geoid":"5510385675"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470109
     ],
@@ -98,11 +108,11 @@
         }
     ],
     "wof:id":404495119,
-    "wof:lastmodified":1605055986,
+    "wof:lastmodified":1722117837,
     "wof:name":"Westford",
     "wof:parent_id":102081809,
     "wof:placetype":"localadmin",
-    "wof:population":530,
+    "wof:population":518,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

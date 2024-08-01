@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009732,
-    "geom:area_square_m":93513455.974069,
+    "geom:area_square_m":93513455.974066,
     "geom:bbox":"-98.040401,38.958211,-97.928326,39.045636",
     "geom:latitude":39.001927,
     "geom:longitude":-97.984307,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.001916,
     "lbl:longitude":-97.984312,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":2010515000,
     "uscensus:name":"Colorado",
     "uscensus:namelsad":"Colorado township",
+    "uscensus:population":230,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2010515000
+        "uscensus:geoid":"2010515000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404504515,
-    "wof:lastmodified":1605055313,
+    "wof:lastmodified":1722233661,
     "wof:name":"Colorado Township",
     "wof:parent_id":102082151,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":289,
+    "wof:population":230,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000179,
-    "geom:area_square_m":1668137.863338,
+    "geom:area_square_m":1668137.863339,
     "geom:bbox":"-76.735465,41.230855,-76.717017,41.246313",
     "geom:latitude":41.239049,
     "geom:longitude":-76.725376,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.238738,
     "lbl:longitude":-76.72463,
     "lbl:max_zoom":15.0,
@@ -67,11 +73,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":81,
     "uscensus:geoid":4208136160,
     "uscensus:name":"Hughesville",
     "uscensus:namelsad":"Hughesville borough",
+    "uscensus:population":2116,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -81,8 +90,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4208136160
+        "uscensus:geoid":"4208136160"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -98,11 +108,11 @@
         }
     ],
     "wof:id":404483573,
-    "wof:lastmodified":1605055443,
+    "wof:lastmodified":1722117763,
     "wof:name":"Hughesville",
     "wof:parent_id":102081317,
     "wof:placetype":"localadmin",
-    "wof:population":2128,
+    "wof:population":2116,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

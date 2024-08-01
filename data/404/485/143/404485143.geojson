@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002271,
-    "geom:area_square_m":21539957.534896,
+    "geom:area_square_m":21539957.534885,
     "geom:bbox":"-75.698098,39.884138,-75.622573,39.934763",
     "geom:latitude":39.907659,
     "geom:longitude":-75.663419,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.907079,
     "lbl:longitude":-75.66648,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":4202961800,
     "uscensus:name":"Pocopson",
     "uscensus:namelsad":"Pocopson township",
+    "uscensus:population":4455,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202961800
+        "uscensus:geoid":"4202961800"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729454077
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404485143,
-    "wof:lastmodified":1605055363,
+    "wof:lastmodified":1722117772,
     "wof:name":"Pocopson Township",
     "wof:parent_id":102081275,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":4582,
+    "wof:population":4455,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

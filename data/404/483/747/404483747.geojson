@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000232,
-    "geom:area_square_m":2152452.617676,
+    "geom:area_square_m":2152452.617675,
     "geom:bbox":"-80.096312,41.342499,-80.073924,41.357604",
     "geom:latitude":41.350221,
     "geom:longitude":-80.083691,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.350213,
     "lbl:longitude":-80.083485,
     "lbl:max_zoom":17.0,
@@ -103,22 +109,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":85,
     "uscensus:geoid":4208567848,
     "uscensus:name":"Sandy Lake",
     "uscensus:namelsad":"Sandy Lake borough",
+    "uscensus:population":633,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688481,
-        102080965
+        102080965,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4208567848
+        "uscensus:geoid":"4208567848"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -134,11 +144,11 @@
         }
     ],
     "wof:id":404483747,
-    "wof:lastmodified":1636499296,
+    "wof:lastmodified":1722117764,
     "wof:name":"Sandy Lake",
     "wof:parent_id":102080965,
     "wof:placetype":"localadmin",
-    "wof:population":659,
+    "wof:population":633,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

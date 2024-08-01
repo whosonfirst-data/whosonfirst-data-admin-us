@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005276,
-    "geom:area_square_m":48334901.271713,
+    "geom:area_square_m":48334901.27169,
     "geom:bbox":"-86.442774,42.157352,-86.339857,42.24322",
     "geom:latitude":42.191097,
     "geom:longitude":-86.37502,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.187299,
     "lbl:longitude":-86.37086,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":2602135860,
     "uscensus:name":"Hagar",
     "uscensus:namelsad":"Hagar township",
+    "uscensus:population":3181,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2602135860
+        "uscensus:geoid":"2602135860"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404506993,
-    "wof:lastmodified":1605055759,
+    "wof:lastmodified":1722117911,
     "wof:name":"Hagar Township",
     "wof:parent_id":102083151,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3671,
+    "wof:population":3181,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

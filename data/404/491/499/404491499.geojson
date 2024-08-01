@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010467,
-    "geom:area_square_m":91113872.462773,
+    "geom:area_square_m":91113872.462753,
     "geom:bbox":"-91.78885,45.207983,-91.664853,45.293339",
     "geom:latitude":45.250686,
     "geom:longitude":-91.726982,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.250685,
     "lbl:longitude":-91.726983,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":5500574125,
     "uscensus:name":"Sioux Creek",
     "uscensus:namelsad":"Sioux Creek town",
+    "uscensus:population":680,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5500574125
+        "uscensus:geoid":"5500574125"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470113
     ],
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404491499,
-    "wof:lastmodified":1605055580,
+    "wof:lastmodified":1722117813,
     "wof:name":"Sioux Creek",
     "wof:parent_id":102081847,
     "wof:placetype":"localadmin",
-    "wof:population":655,
+    "wof:population":680,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

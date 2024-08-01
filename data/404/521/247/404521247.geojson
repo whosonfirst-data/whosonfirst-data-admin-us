@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011752,
-    "geom:area_square_m":106762534.766143,
+    "geom:area_square_m":106762534.766172,
     "geom:bbox":"-76.626488,42.679296,-76.46219,42.761231",
     "geom:latitude":42.719116,
     "geom:longitude":-76.543255,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.719015,
     "lbl:longitude":-76.543256,
     "lbl:max_zoom":16.0,
@@ -472,11 +478,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":3601177024,
     "uscensus:name":"Venice",
     "uscensus:namelsad":"Venice town",
+    "uscensus:population":1234,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -486,8 +495,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3601177024
+        "uscensus:geoid":"3601177024"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461635
     ],
@@ -506,11 +516,11 @@
         }
     ],
     "wof:id":404521247,
-    "wof:lastmodified":1605055636,
+    "wof:lastmodified":1722117984,
     "wof:name":"Venice",
     "wof:parent_id":102083071,
     "wof:placetype":"localadmin",
-    "wof:population":1368,
+    "wof:population":1234,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

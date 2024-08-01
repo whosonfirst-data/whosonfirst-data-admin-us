@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0091,
-    "geom:area_square_m":88044087.807872,
+    "geom:area_square_m":88044087.807894,
     "geom:bbox":"-82.373932,38.436167,-82.28727,38.585182",
     "geom:latitude":38.516439,
     "geom:longitude":-82.335676,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.51342,
     "lbl:longitude":-82.335673,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":87,
     "uscensus:geoid":3908768280,
     "uscensus:name":"Rome",
     "uscensus:namelsad":"Rome township",
+    "uscensus:population":8427,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3908768280
+        "uscensus:geoid":"3908768280"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404525203,
-    "wof:lastmodified":1605056053,
+    "wof:lastmodified":1722233685,
     "wof:name":"Rome Township",
     "wof:parent_id":102083699,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":8892,
+    "wof:population":8427,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

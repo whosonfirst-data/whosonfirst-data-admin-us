@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011324,
-    "geom:area_square_m":93573032.66973,
+    "geom:area_square_m":93573032.669753,
     "geom:bbox":"-100.237217,48.021792,-100.106503,48.109123",
     "geom:latitude":48.065432,
     "geom:longitude":-100.172031,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.065427,
     "lbl:longitude":-100.172033,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":69,
     "uscensus:geoid":3806923300,
     "uscensus:name":"Elling",
     "uscensus:namelsad":"Elling township",
+    "uscensus:population":40,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3806923300
+        "uscensus:geoid":"3806923300"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404479321,
-    "wof:lastmodified":1605055484,
+    "wof:lastmodified":1722117736,
     "wof:name":"Elling Township",
     "wof:parent_id":102082085,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":46,
+    "wof:population":40,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

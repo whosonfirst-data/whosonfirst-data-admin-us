@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002717,
-    "geom:area_square_m":24520313.213961,
+    "geom:area_square_m":24520313.213966,
     "geom:bbox":"-79.040308,43.091668,-78.9413,43.132521",
     "geom:latitude":43.115445,
     "geom:longitude":-78.980982,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.114033,
     "lbl:longitude":-78.976985,
     "lbl:max_zoom":15.0,
@@ -142,22 +148,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":63,
     "uscensus:geoid":3606351033,
     "uscensus:name":"Niagara",
     "uscensus:namelsad":"Niagara town",
+    "uscensus:population":7723,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688543,
-        102081767
+        102081767,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3606351033
+        "uscensus:geoid":"3606351033"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469845
     ],
@@ -176,11 +186,11 @@
         }
     ],
     "wof:id":404522743,
-    "wof:lastmodified":1636499444,
+    "wof:lastmodified":1722117996,
     "wof:name":"Niagara",
     "wof:parent_id":102081767,
     "wof:placetype":"localadmin",
-    "wof:population":8378,
+    "wof:population":7723,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

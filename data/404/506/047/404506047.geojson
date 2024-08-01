@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000299,
-    "geom:area_square_m":2648067.41229,
+    "geom:area_square_m":2648067.412288,
     "geom:bbox":"-83.813746,44.226398,-83.79288,44.241015",
     "geom:latitude":44.23373,
     "geom:longitude":-83.803295,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.233755,
     "lbl:longitude":-83.803295,
     "lbl:max_zoom":17.0,
@@ -67,11 +73,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":69,
     "uscensus:geoid":2606987140,
     "uscensus:name":"Whittemore",
     "uscensus:namelsad":"Whittemore city",
+    "uscensus:population":418,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -81,8 +90,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2606987140
+        "uscensus:geoid":"2606987140"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -98,11 +108,11 @@
         }
     ],
     "wof:id":404506047,
-    "wof:lastmodified":1605055753,
+    "wof:lastmodified":1722117904,
     "wof:name":"Whittemore",
     "wof:parent_id":102083001,
     "wof:placetype":"localadmin",
-    "wof:population":384,
+    "wof:population":418,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

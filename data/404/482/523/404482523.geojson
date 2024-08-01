@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.016039,
-    "geom:area_square_m":150947065.171551,
+    "geom:area_square_m":150947065.171515,
     "geom:bbox":"-80.095509,40.361566,-79.865794,40.501037",
     "geom:latitude":40.439623,
     "geom:longitude":-79.97626,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.450508,
     "lbl:longitude":-79.936309,
     "lbl:max_zoom":13.0,
@@ -334,11 +340,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4200361000,
     "uscensus:name":"Pittsburgh",
     "uscensus:namelsad":"Pittsburgh city",
+    "uscensus:population":303255,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -348,8 +357,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200361000
+        "uscensus:geoid":"4200361000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -365,11 +375,11 @@
         }
     ],
     "wof:id":404482523,
-    "wof:lastmodified":1605055391,
+    "wof:lastmodified":1722117757,
     "wof:name":"Pittsburgh",
     "wof:parent_id":102080887,
     "wof:placetype":"localadmin",
-    "wof:population":305704,
+    "wof:population":303255,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

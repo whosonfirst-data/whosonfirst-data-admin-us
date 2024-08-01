@@ -10,6 +10,12 @@
     "geom:latitude":44.847487,
     "geom:longitude":-96.672472,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.853698,
     "lbl:longitude":-96.642354,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":39,
     "uscensus:geoid":4603901180,
     "uscensus:name":"Altamont",
     "uscensus:namelsad":"Altamont township",
+    "uscensus:population":108,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4603901180
+        "uscensus:geoid":"4603901180"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729455965
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404489809,
-    "wof:lastmodified":1605055934,
+    "wof:lastmodified":1722117802,
     "wof:name":"Altamont Township",
     "wof:parent_id":102086025,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":84,
+    "wof:population":108,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

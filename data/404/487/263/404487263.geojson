@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00669,
-    "geom:area_square_m":61574041.729493,
+    "geom:area_square_m":61574041.729483,
     "geom:bbox":"-75.887264,41.866496,-75.76558,41.9273",
     "geom:latitude":41.898529,
     "geom:longitude":-75.829286,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.89689,
     "lbl:longitude":-75.829286,
     "lbl:max_zoom":17.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":4211527448,
     "uscensus:name":"Franklin",
     "uscensus:namelsad":"Franklin township",
+    "uscensus:population":830,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4211527448
+        "uscensus:geoid":"4211527448"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465653
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404487263,
-    "wof:lastmodified":1605055895,
+    "wof:lastmodified":1722117786,
     "wof:name":"Franklin Township",
     "wof:parent_id":102081381,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":937,
+    "wof:population":830,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

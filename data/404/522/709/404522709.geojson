@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012221,
-    "geom:area_square_m":110839985.689561,
+    "geom:area_square_m":110839985.689535,
     "geom:bbox":"-74.419117,42.77649,-74.254778,42.863138",
     "geom:latitude":42.82252,
     "geom:longitude":-74.341485,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.822518,
     "lbl:longitude":-74.341498,
     "lbl:max_zoom":16.0,
@@ -163,11 +169,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":57,
     "uscensus:geoid":3605713816,
     "uscensus:name":"Charleston",
     "uscensus:namelsad":"Charleston town",
+    "uscensus:population":1337,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -177,8 +186,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3605713816
+        "uscensus:geoid":"3605713816"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467555
     ],
@@ -197,11 +207,11 @@
         }
     ],
     "wof:id":404522709,
-    "wof:lastmodified":1605056066,
+    "wof:lastmodified":1722117995,
     "wof:name":"Charleston",
     "wof:parent_id":102082985,
     "wof:placetype":"localadmin",
-    "wof:population":1373,
+    "wof:population":1337,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

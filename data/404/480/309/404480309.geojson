@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.015478,
-    "geom:area_square_m":132561967.103237,
+    "geom:area_square_m":132561967.103225,
     "geom:bbox":"-104.045789,46.118734,-103.867477,46.206272",
     "geom:latitude":46.16242,
     "geom:longitude":-103.956503,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.162566,
     "lbl:longitude":-103.956531,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":3801177060,
     "uscensus:name":"Sunny Slope",
     "uscensus:namelsad":"Sunny Slope township",
+    "uscensus:population":7,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3801177060
+        "uscensus:geoid":"3801177060"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468769
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404480309,
-    "wof:lastmodified":1605055905,
+    "wof:lastmodified":1722117743,
     "wof:name":"Sunny Slope Township",
     "wof:parent_id":102081521,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":9,
+    "wof:population":7,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

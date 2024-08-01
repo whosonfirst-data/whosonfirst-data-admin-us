@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009232,
-    "geom:area_square_m":88886814.235758,
+    "geom:area_square_m":88886814.235798,
     "geom:bbox":"-89.173789,38.822839,-89.029741,38.911327",
     "geom:latitude":38.863997,
     "geom:longitude":-89.085156,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.867104,
     "lbl:longitude":-89.076602,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":1705139116,
     "uscensus:name":"Kaskaskia",
     "uscensus:namelsad":"Kaskaskia township",
+    "uscensus:population":529,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1705139116
+        "uscensus:geoid":"1705139116"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729455787
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404497887,
-    "wof:lastmodified":1605055488,
+    "wof:lastmodified":1722117852,
     "wof:name":"Kaskaskia Township",
     "wof:parent_id":102082287,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":650,
+    "wof:population":529,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008768,
-    "geom:area_square_m":83236868.022084,
+    "geom:area_square_m":83236868.022097,
     "geom:bbox":"-95.022099,39.812686,-94.875944,39.901352",
     "geom:latitude":39.851615,
     "geom:longitude":-94.96779,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.854858,
     "lbl:longitude":-94.982406,
     "lbl:max_zoom":18.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":43,
     "uscensus:geoid":2004309500,
     "uscensus:name":"Burr Oak",
     "uscensus:namelsad":"Burr Oak township",
+    "uscensus:population":182,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2004309500
+        "uscensus:geoid":"2004309500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470059
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404503517,
-    "wof:lastmodified":1605055320,
+    "wof:lastmodified":1722117886,
     "wof:name":"Burr Oak Township",
     "wof:parent_id":102082137,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":159,
+    "wof:population":182,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

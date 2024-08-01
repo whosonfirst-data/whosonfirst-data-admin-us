@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000942,
-    "geom:area_square_m":8230849.959962,
+    "geom:area_square_m":8230849.959957,
     "geom:bbox":"-87.773693,45.040899,-87.720179,45.070475",
     "geom:latitude":45.055563,
     "geom:longitude":-87.747592,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.056114,
     "lbl:longitude":-87.748111,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":75,
     "uscensus:geoid":5507562175,
     "uscensus:name":"Peshtigo",
     "uscensus:namelsad":"Peshtigo city",
+    "uscensus:population":3387,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5507562175
+        "uscensus:geoid":"5507562175"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404493933,
-    "wof:lastmodified":1605055950,
+    "wof:lastmodified":1722117829,
     "wof:name":"Peshtigo",
     "wof:parent_id":102081785,
     "wof:placetype":"localadmin",
-    "wof:population":3502,
+    "wof:population":3387,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

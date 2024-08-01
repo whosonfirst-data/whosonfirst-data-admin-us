@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011192,
-    "geom:area_square_m":92953132.559219,
+    "geom:area_square_m":92953132.559244,
     "geom:bbox":"-102.001444,47.760671,-101.871549,47.847649",
     "geom:latitude":47.804155,
     "geom:longitude":-101.936279,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.804203,
     "lbl:longitude":-101.936269,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":55,
     "uscensus:geoid":3805502180,
     "uscensus:name":"Amundsville",
     "uscensus:namelsad":"Amundsville township",
+    "uscensus:population":54,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3805502180
+        "uscensus:geoid":"3805502180"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475785
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404479479,
-    "wof:lastmodified":1605055473,
+    "wof:lastmodified":1722117738,
     "wof:name":"Amundsville Township",
     "wof:parent_id":102082097,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":39,
+    "wof:population":54,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

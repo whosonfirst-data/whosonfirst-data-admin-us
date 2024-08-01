@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00888,
-    "geom:area_square_m":84399865.391827,
+    "geom:area_square_m":84399865.391861,
     "geom:bbox":"-89.141967,39.727897,-89.027483,39.817573",
     "geom:latitude":39.768029,
     "geom:longitude":-89.082229,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.765088,
     "lbl:longitude":-89.082218,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":1711506769,
     "uscensus:name":"Blue Mound",
     "uscensus:namelsad":"Blue Mound township",
+    "uscensus:population":790,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1711506769
+        "uscensus:geoid":"1711506769"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404499273,
-    "wof:lastmodified":1605055539,
+    "wof:lastmodified":1722117859,
     "wof:name":"Blue Mound Township",
     "wof:parent_id":102080825,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":890,
+    "wof:population":790,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

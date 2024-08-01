@@ -9,7 +9,23 @@
     "geom:bbox":"-84.57199,39.071846,-84.555697,39.087715",
     "geom:latitude":39.080204,
     "geom:longitude":-84.562875,
+    "gn:admin1_code":"KY",
+    "gn:admin2_code":"117",
+    "gn:asciiname":"Bromley",
+    "gn:country_code":"US",
+    "gn:dem":158,
+    "gn:elevation":"155.0",
+    "gn:feature_class":"P",
+    "gn:feature_code":"PPL",
+    "gn:geonameid":4285591,
+    "gn:latitude":39.082,
+    "gn:longitude":-84.56022,
+    "gn:modification_date":"2017-03-09",
+    "gn:name":"Bromley",
+    "gn:population":809,
+    "gn:timezone":"America/New_York",
     "iso:country":"US",
+    "lbl:bbox":"-84.58022,39.062,-84.54022,39.102",
     "lbl:latitude":39.080608,
     "lbl:longitude":-84.56232,
     "lbl:max_zoom":17.0,
@@ -158,7 +174,10 @@
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":717,
+    "uscensus:population_date":"2023",
     "wd:elevation":155.0,
     "wd:latitude":39.0825,
     "wd:longitude":-84.56,
@@ -167,8 +186,8 @@
     "wof:belongsto":[
         102191575,
         85633793,
-        85688641,
-        102084469
+        102084469,
+        85688641
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -182,8 +201,17 @@
         "wk:page":"Bromley, Kentucky"
     },
     "wof:concordances_alt":{
-        "qs_pg:id":1024988
+        "gn:id":[
+            4285591
+        ],
+        "qs_pg:id":[
+            1024988
+        ],
+        "wk:page":[
+            "Bromley%2C_Kentucky"
+        ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg"
@@ -202,15 +230,17 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884931,
+    "wof:lastmodified":1722116398,
     "wof:name":"Bromley",
     "wof:parent_id":102084469,
     "wof:placetype":"locality",
-    "wof:population":838,
+    "wof:population":717,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1343483929
+    ],
     "wof:tags":[]
 },
   "bbox": [

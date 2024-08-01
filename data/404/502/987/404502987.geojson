@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009497,
-    "geom:area_square_m":92264284.998162,
+    "geom:area_square_m":92264284.998147,
     "geom:bbox":"-99.022472,38.174535,-98.91236,38.26129",
     "geom:latitude":38.217968,
     "geom:longitude":-98.967364,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.217956,
     "lbl:longitude":-98.967364,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":145,
     "uscensus:geoid":2014560050,
     "uscensus:name":"River",
     "uscensus:namelsad":"River township",
+    "uscensus:population":66,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2014560050
+        "uscensus:geoid":"2014560050"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458143
     ],
@@ -77,7 +87,7 @@
         }
     ],
     "wof:id":404502987,
-    "wof:lastmodified":1605055276,
+    "wof:lastmodified":1722117882,
     "wof:name":"River Township",
     "wof:parent_id":102082127,
     "wof:placetype":"localadmin",

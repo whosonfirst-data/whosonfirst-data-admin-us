@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001658,
-    "geom:area_square_m":15160849.652469,
+    "geom:area_square_m":15160849.652474,
     "geom:bbox":"-83.379406,42.310166,-83.310867,42.340636",
     "geom:latitude":42.324382,
     "geom:longitude":-83.341192,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.325548,
     "lbl:longitude":-83.33367,
     "lbl:max_zoom":14.0,
@@ -103,22 +109,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":163,
     "uscensus:geoid":2616331420,
     "uscensus:name":"Garden City",
     "uscensus:namelsad":"Garden City city",
+    "uscensus:population":26325,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688599,
-        102083147
+        102083147,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2616331420
+        "uscensus:geoid":"2616331420"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -134,11 +144,11 @@
         }
     ],
     "wof:id":404508583,
-    "wof:lastmodified":1636499353,
+    "wof:lastmodified":1722117923,
     "wof:name":"Garden City",
     "wof:parent_id":102083147,
     "wof:placetype":"localadmin",
-    "wof:population":27692,
+    "wof:population":26325,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

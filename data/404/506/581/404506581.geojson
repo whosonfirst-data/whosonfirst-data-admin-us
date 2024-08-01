@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003991,
-    "geom:area_square_m":34617718.521691,
+    "geom:area_square_m":34617718.521684,
     "geom:bbox":"-85.091959,45.418586,-84.974975,45.479205",
     "geom:latitude":45.458849,
     "geom:longitude":-85.022301,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.456105,
     "lbl:longitude":-85.023491,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":47,
     "uscensus:geoid":2604786300,
     "uscensus:name":"West Traverse",
     "uscensus:namelsad":"West Traverse township",
+    "uscensus:population":1762,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2604786300
+        "uscensus:geoid":"2604786300"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471241
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404506581,
-    "wof:lastmodified":1605055756,
+    "wof:lastmodified":1722117908,
     "wof:name":"West Traverse Township",
     "wof:parent_id":102083073,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1606,
+    "wof:population":1762,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

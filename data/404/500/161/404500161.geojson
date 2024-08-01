@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008024,
-    "geom:area_square_m":75471150.538989,
+    "geom:area_square_m":75471150.538997,
     "geom:bbox":"-86.468506,40.430965,-86.37515,40.517949",
     "geom:latitude":40.474626,
     "geom:longitude":-86.421996,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.474567,
     "lbl:longitude":-86.421996,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":1801509262,
     "uscensus:name":"Burlington",
     "uscensus:namelsad":"Burlington township",
+    "uscensus:population":1677,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1801509262
+        "uscensus:geoid":"1801509262"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404500161,
-    "wof:lastmodified":1604530772,
+    "wof:lastmodified":1722233648,
     "wof:name":"Burlington Township",
     "wof:parent_id":102087071,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1742,
+    "wof:population":1677,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

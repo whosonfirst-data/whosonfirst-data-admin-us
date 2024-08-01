@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000153,
-    "geom:area_square_m":1267788.633962,
+    "geom:area_square_m":1267788.633961,
     "geom:bbox":"-101.063499,48.084283,-101.040187,48.09515",
     "geom:latitude":48.089458,
     "geom:longitude":-101.053314,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.090714,
     "lbl:longitude":-101.053093,
     "lbl:max_zoom":17.0,
@@ -91,11 +97,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":101,
     "uscensus:geoid":3810170980,
     "uscensus:name":"Sawyer",
     "uscensus:namelsad":"Sawyer city",
+    "uscensus:population":307,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -105,8 +114,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3810170980
+        "uscensus:geoid":"3810170980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -122,11 +132,11 @@
         }
     ],
     "wof:id":404481927,
-    "wof:lastmodified":1605055835,
+    "wof:lastmodified":1722117753,
     "wof:name":"Sawyer",
     "wof:parent_id":102082117,
     "wof:placetype":"localadmin",
-    "wof:population":357,
+    "wof:population":307,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

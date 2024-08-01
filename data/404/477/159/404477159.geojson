@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.019282,
-    "geom:area_square_m":173722063.250547,
+    "geom:area_square_m":173722063.250524,
     "geom:bbox":"-71.667999,43.151847,-71.456949,43.309469",
     "geom:latitude":43.230549,
     "geom:longitude":-71.559526,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.231506,
     "lbl:longitude":-71.559516,
     "lbl:max_zoom":14.0,
@@ -157,11 +163,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":3301314200,
     "uscensus:name":"Concord",
     "uscensus:namelsad":"Concord city",
+    "uscensus:population":44629,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":33,
     "wof:belongsto":[
         102191575,
@@ -171,8 +180,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3301314200
+        "uscensus:geoid":"3301314200"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -188,11 +198,11 @@
         }
     ],
     "wof:id":404477159,
-    "wof:lastmodified":1605055413,
+    "wof:lastmodified":1722117720,
     "wof:name":"Concord",
     "wof:parent_id":102086515,
     "wof:placetype":"localadmin",
-    "wof:population":42695,
+    "wof:population":44629,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

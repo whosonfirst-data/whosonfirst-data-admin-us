@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004588,
-    "geom:area_square_m":43072002.178067,
+    "geom:area_square_m":43072002.178073,
     "geom:bbox":"-89.155179,40.574576,-89.042923,40.627499",
     "geom:latitude":40.597678,
     "geom:longitude":-89.091367,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.601459,
     "lbl:longitude":-89.075597,
     "lbl:max_zoom":17.0,
@@ -58,11 +64,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":113,
     "uscensus:geoid":1711381321,
     "uscensus:name":"White Oak",
     "uscensus:namelsad":"White Oak township",
+    "uscensus:population":910,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -72,8 +81,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1711381321
+        "uscensus:geoid":"1711381321"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404499269,
-    "wof:lastmodified":1605055542,
+    "wof:lastmodified":1722233645,
     "wof:name":"White Oak Township",
     "wof:parent_id":102087573,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":899,
+    "wof:population":910,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

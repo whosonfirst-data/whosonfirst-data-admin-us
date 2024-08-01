@@ -145,7 +145,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1329926,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -161,17 +162,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"53710",
     "uscensus:placens":"02396344",
+    "uscensus:population":40,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":372.0,
     "wd:latitude":45.407222,
     "wd:longitude":-94.845556,
     "wd:wordcount":674,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404509889,
         85633793,
-        102087635
+        102087635,
+        404509889,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -180,10 +183,11 @@
         "gn:id":5042870,
         "gp:id":2479902,
         "qs_pg:id":919348,
-        "uscensus:geoid":2753710,
+        "uscensus:geoid":"2753710",
         "wd:id":"Q2333934",
         "wk:page":"Regal, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -204,11 +208,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884441,
+    "wof:lastmodified":1722116099,
     "wof:name":"Regal",
     "wof:parent_id":404509889,
     "wof:placetype":"locality",
-    "wof:population":34,
+    "wof:population":40,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

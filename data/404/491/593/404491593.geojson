@@ -10,6 +10,12 @@
     "geom:latitude":44.946401,
     "geom:longitude":-90.327206,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.947168,
     "lbl:longitude":-90.32569,
     "lbl:max_zoom":16.0,
@@ -85,22 +91,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":5501900100,
     "uscensus:name":"Abbotsford",
     "uscensus:namelsad":"Abbotsford city",
+    "uscensus:population":1691,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081269
+        102081269,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5501900100
+        "uscensus:geoid":"5501900100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -116,11 +126,11 @@
         }
     ],
     "wof:id":404491593,
-    "wof:lastmodified":1636499305,
+    "wof:lastmodified":1722117814,
     "wof:name":"Abbotsford",
     "wof:parent_id":102081269,
     "wof:placetype":"localadmin",
-    "wof:population":1616,
+    "wof:population":1691,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000385,
-    "geom:area_square_m":3339626.302419,
+    "geom:area_square_m":3339626.302422,
     "geom:bbox":"-85.010503,45.422465,-84.966092,45.442596",
     "geom:latitude":45.432495,
     "geom:longitude":-84.988925,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.433552,
     "lbl:longitude":-84.989263,
     "lbl:max_zoom":16.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":47,
     "uscensus:geoid":2604736560,
     "uscensus:name":"Harbor Springs",
     "uscensus:namelsad":"Harbor Springs city",
+    "uscensus:population":1270,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2604736560
+        "uscensus:geoid":"2604736560"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404505633,
-    "wof:lastmodified":1605055282,
+    "wof:lastmodified":1722117901,
     "wof:name":"Harbor Springs",
     "wof:parent_id":102083073,
     "wof:placetype":"localadmin",
-    "wof:population":1194,
+    "wof:population":1270,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

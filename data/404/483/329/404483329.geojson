@@ -10,6 +10,12 @@
     "geom:latitude":39.940759,
     "geom:longitude":-75.27603,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.941264,
     "lbl:longitude":-75.275789,
     "lbl:max_zoom":15.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":4204541440,
     "uscensus:name":"Lansdowne",
     "uscensus:namelsad":"Lansdowne borough",
+    "uscensus:population":11077,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4204541440
+        "uscensus:geoid":"4204541440"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404483329,
-    "wof:lastmodified":1605055449,
+    "wof:lastmodified":1722117762,
     "wof:name":"Lansdowne",
     "wof:parent_id":102080913,
     "wof:placetype":"localadmin",
-    "wof:population":10620,
+    "wof:population":11077,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

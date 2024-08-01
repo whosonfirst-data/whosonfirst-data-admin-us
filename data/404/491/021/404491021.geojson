@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010365,
-    "geom:area_square_m":92769220.47049,
+    "geom:area_square_m":92769220.470467,
     "geom:bbox":"-99.743117,43.58674,-99.6234,43.673704",
     "geom:latitude":43.630212,
     "geom:longitude":-99.683136,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.630254,
     "lbl:longitude":-99.683134,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":123,
     "uscensus:geoid":4612356260,
     "uscensus:name":"Roseland",
     "uscensus:namelsad":"Roseland township",
+    "uscensus:population":42,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4612356260
+        "uscensus:geoid":"4612356260"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404491021,
-    "wof:lastmodified":1605055588,
+    "wof:lastmodified":1722117810,
     "wof:name":"Roseland Township",
     "wof:parent_id":102086855,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":38,
+    "wof:population":42,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

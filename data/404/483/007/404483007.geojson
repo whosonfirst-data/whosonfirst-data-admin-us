@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000257,
-    "geom:area_square_m":2409527.592134,
+    "geom:area_square_m":2409527.592135,
     "geom:bbox":"-78.413378,40.794102,-78.385031,40.810605",
     "geom:latitude":40.80166,
     "geom:longitude":-78.399373,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.802486,
     "lbl:longitude":-78.400339,
     "lbl:max_zoom":17.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":33,
     "uscensus:geoid":4203363360,
     "uscensus:name":"Ramey",
     "uscensus:namelsad":"Ramey borough",
+    "uscensus:population":425,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4203363360
+        "uscensus:geoid":"4203363360"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,11 +96,11 @@
         }
     ],
     "wof:id":404483007,
-    "wof:lastmodified":1605055440,
+    "wof:lastmodified":1722117760,
     "wof:name":"Ramey",
     "wof:parent_id":102080967,
     "wof:placetype":"localadmin",
-    "wof:population":451,
+    "wof:population":425,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

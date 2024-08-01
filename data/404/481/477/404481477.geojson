@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012301,
-    "geom:area_square_m":105611076.561403,
+    "geom:area_square_m":105611076.561334,
     "geom:bbox":"-96.639148,45.935196,-96.554411,46.108941",
     "geom:latitude":46.024009,
     "geom:longitude":-96.602138,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.014244,
     "lbl:longitude":-96.606306,
     "lbl:max_zoom":18.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":77,
     "uscensus:geoid":3807725340,
     "uscensus:name":"Fairmount",
     "uscensus:namelsad":"Fairmount township",
+    "uscensus:population":93,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3807725340
+        "uscensus:geoid":"3807725340"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471621
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404481477,
-    "wof:lastmodified":1605055822,
+    "wof:lastmodified":1722117751,
     "wof:name":"Fairmount Township",
     "wof:parent_id":102082103,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":90,
+    "wof:population":93,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

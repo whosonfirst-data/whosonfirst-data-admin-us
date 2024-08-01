@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01006,
-    "geom:area_square_m":93825953.252241,
+    "geom:area_square_m":93825953.252231,
     "geom:bbox":"-83.880768,40.993155,-83.765033,41.080919",
     "geom:latitude":41.037046,
     "geom:longitude":-83.822971,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.037017,
     "lbl:longitude":-83.822971,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":63,
     "uscensus:geoid":3906306838,
     "uscensus:name":"Blanchard",
     "uscensus:namelsad":"Blanchard township",
+    "uscensus:population":1102,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3906306838
+        "uscensus:geoid":"3906306838"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404525521,
-    "wof:lastmodified":1605056055,
+    "wof:lastmodified":1722233686,
     "wof:name":"Blanchard Township",
     "wof:parent_id":102084835,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1123,
+    "wof:population":1102,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

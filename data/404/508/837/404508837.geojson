@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010551,
-    "geom:area_square_m":94592913.927979,
+    "geom:area_square_m":94592913.927985,
     "geom:bbox":"-84.290881,43.48141,-84.168127,43.568973",
     "geom:latitude":43.525314,
     "geom:longitude":-84.230205,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.525303,
     "lbl:longitude":-84.230204,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":111,
     "uscensus:geoid":2611140620,
     "uscensus:name":"Ingersoll",
     "uscensus:namelsad":"Ingersoll township",
+    "uscensus:population":2769,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2611140620
+        "uscensus:geoid":"2611140620"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468363
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404508837,
-    "wof:lastmodified":1605055746,
+    "wof:lastmodified":1722117925,
     "wof:name":"Ingersoll Township",
     "wof:parent_id":102082997,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2751,
+    "wof:population":2769,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

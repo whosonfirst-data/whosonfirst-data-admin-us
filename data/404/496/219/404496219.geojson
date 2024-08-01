@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009581,
-    "geom:area_square_m":90855103.454686,
+    "geom:area_square_m":90855103.454698,
     "geom:bbox":"-88.349252,39.8791,-88.236353,39.967345",
     "geom:latitude":39.921999,
     "geom:longitude":-88.291705,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.923126,
     "lbl:longitude":-88.291696,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":1701959286,
     "uscensus:name":"Pesotum",
     "uscensus:namelsad":"Pesotum township",
+    "uscensus:population":859,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1701959286
+        "uscensus:geoid":"1701959286"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404496219,
-    "wof:lastmodified":1605055596,
+    "wof:lastmodified":1722233634,
     "wof:name":"Pesotum Township",
     "wof:parent_id":102081657,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":845,
+    "wof:population":859,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

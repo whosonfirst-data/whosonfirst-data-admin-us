@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006328,
-    "geom:area_square_m":60074044.222721,
+    "geom:area_square_m":60074044.222748,
     "geom:bbox":"-76.229872,39.801838,-76.109077,39.896951",
     "geom:latitude":39.85304,
     "geom:longitude":-76.174271,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.850593,
     "lbl:longitude":-76.17839,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":71,
     "uscensus:geoid":4207121040,
     "uscensus:name":"East Drumore",
     "uscensus:namelsad":"East Drumore township",
+    "uscensus:population":3935,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207121040
+        "uscensus:geoid":"4207121040"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471205
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404483381,
-    "wof:lastmodified":1605055450,
+    "wof:lastmodified":1722117762,
     "wof:name":"East Drumore Township",
     "wof:parent_id":102081377,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3791,
+    "wof:population":3935,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

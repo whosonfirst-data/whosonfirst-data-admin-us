@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012035,
-    "geom:area_square_m":103286767.898685,
+    "geom:area_square_m":103286767.898676,
     "geom:bbox":"-67.911812,46.000699,-67.780959,46.096191",
     "geom:latitude":46.047984,
     "geom:longitude":-67.844622,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.048199,
     "lbl:longitude":-67.844613,
     "lbl:max_zoom":16.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":2300333385,
     "uscensus:name":"Hodgdon",
     "uscensus:namelsad":"Hodgdon town",
+    "uscensus:population":1310,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2300333385
+        "uscensus:geoid":"2300333385"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467139
     ],
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404474867,
-    "wof:lastmodified":1605055899,
+    "wof:lastmodified":1722117704,
     "wof:name":"Hodgdon",
     "wof:parent_id":102081161,
     "wof:placetype":"localadmin",
-    "wof:population":1309,
+    "wof:population":1310,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

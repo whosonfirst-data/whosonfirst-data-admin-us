@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000321,
-    "geom:area_square_m":2890498.058302,
+    "geom:area_square_m":2890498.058304,
     "geom:bbox":"-83.752131,43.165484,-83.724663,43.18475",
     "geom:latitude":43.177277,
     "geom:longitude":-83.735505,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.177261,
     "lbl:longitude":-83.735514,
     "lbl:max_zoom":15.0,
@@ -193,11 +199,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":2604916620,
     "uscensus:name":"Clio",
     "uscensus:namelsad":"Clio city",
+    "uscensus:population":2471,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -207,8 +216,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2604916620
+        "uscensus:geoid":"2604916620"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -224,11 +234,11 @@
         }
     ],
     "wof:id":404505643,
-    "wof:lastmodified":1605055280,
+    "wof:lastmodified":1722117901,
     "wof:name":"Clio",
     "wof:parent_id":102083111,
     "wof:placetype":"localadmin",
-    "wof:population":2646,
+    "wof:population":2471,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

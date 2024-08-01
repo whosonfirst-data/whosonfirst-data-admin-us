@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010242,
-    "geom:area_square_m":89840977.292592,
+    "geom:area_square_m":89840977.292636,
     "geom:bbox":"-90.434909,44.770301,-90.315924,44.8591",
     "geom:latitude":44.814509,
     "geom:longitude":-90.376184,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.814899,
     "lbl:longitude":-90.376185,
     "lbl:max_zoom":17.0,
@@ -124,22 +130,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":5501981825,
     "uscensus:name":"Unity",
     "uscensus:namelsad":"Unity town",
+    "uscensus:population":742,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081269
+        102081269,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5501981825
+        "uscensus:geoid":"5501981825"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472347
     ],
@@ -158,11 +168,11 @@
         }
     ],
     "wof:id":404495583,
-    "wof:lastmodified":1636499420,
+    "wof:lastmodified":1722117840,
     "wof:name":"Unity",
     "wof:parent_id":102081269,
     "wof:placetype":"localadmin",
-    "wof:population":878,
+    "wof:population":742,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

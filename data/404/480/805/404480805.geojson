@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010902,
-    "geom:area_square_m":92792132.961282,
+    "geom:area_square_m":92792132.961284,
     "geom:bbox":"-98.410771,46.456602,-98.285179,46.543827",
     "geom:latitude":46.500243,
     "geom:longitude":-98.347935,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.500257,
     "lbl:longitude":-98.347943,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":3804532540,
     "uscensus:name":"Grandview",
     "uscensus:namelsad":"Grandview township",
+    "uscensus:population":46,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3804532540
+        "uscensus:geoid":"3804532540"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471489
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404480805,
-    "wof:lastmodified":1605055910,
+    "wof:lastmodified":1722117747,
     "wof:name":"Grandview Township",
     "wof:parent_id":102082571,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":45,
+    "wof:population":46,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

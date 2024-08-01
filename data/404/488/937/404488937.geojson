@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000161,
-    "geom:area_square_m":1450332.068224,
+    "geom:area_square_m":1450332.068227,
     "geom:bbox":"-96.779129,43.324803,-96.757207,43.334778",
     "geom:latitude":43.330046,
     "geom:longitude":-96.768247,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.329567,
     "lbl:longitude":-96.768454,
     "lbl:max_zoom":17.0,
@@ -127,11 +133,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":83,
     "uscensus:geoid":4608372820,
     "uscensus:name":"Worthing",
     "uscensus:namelsad":"Worthing city",
+    "uscensus:population":918,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -141,8 +150,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4608372820
+        "uscensus:geoid":"4608372820"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -158,11 +168,11 @@
         }
     ],
     "wof:id":404488937,
-    "wof:lastmodified":1605055802,
+    "wof:lastmodified":1722117797,
     "wof:name":"Worthing",
     "wof:parent_id":102086863,
     "wof:placetype":"localadmin",
-    "wof:population":877,
+    "wof:population":918,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

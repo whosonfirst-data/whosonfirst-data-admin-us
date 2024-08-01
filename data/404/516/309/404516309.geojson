@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008717,
-    "geom:area_square_m":85619192.353466,
+    "geom:area_square_m":85619192.353461,
     "geom:bbox":"-94.392845,37.354834,-94.308705,37.473847",
     "geom:latitude":37.409913,
     "geom:longitude":-94.353401,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.405796,
     "lbl:longitude":-94.351164,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":2901153048,
     "uscensus:name":"Northfork",
     "uscensus:namelsad":"Northfork township",
+    "uscensus:population":262,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":29,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2901153048
+        "uscensus:geoid":"2901153048"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729455779
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404516309,
-    "wof:lastmodified":1604969559,
+    "wof:lastmodified":1722117974,
     "wof:name":"Northfork Township",
     "wof:parent_id":102086141,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":263,
+    "wof:population":262,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

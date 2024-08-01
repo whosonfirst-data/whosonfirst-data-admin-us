@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010427,
-    "geom:area_square_m":93457040.074307,
+    "geom:area_square_m":93457040.074337,
     "geom:bbox":"-95.095362,43.500923,-94.974095,43.587716",
     "geom:latitude":43.544279,
     "geom:longitude":-95.034586,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.544229,
     "lbl:longitude":-95.034581,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":63,
     "uscensus:geoid":2706341948,
     "uscensus:name":"Middletown",
     "uscensus:namelsad":"Middletown township",
+    "uscensus:population":216,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2706341948
+        "uscensus:geoid":"2706341948"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460407
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404513603,
-    "wof:lastmodified":1605056036,
+    "wof:lastmodified":1722117959,
     "wof:name":"Middletown Township",
     "wof:parent_id":102087651,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":227,
+    "wof:population":216,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

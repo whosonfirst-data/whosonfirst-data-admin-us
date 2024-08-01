@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012999,
-    "geom:area_square_m":111020770.843164,
+    "geom:area_square_m":111020770.843168,
     "geom:bbox":"-90.300848,46.240398,-90.175057,46.4396",
     "geom:latitude":46.31457,
     "geom:longitude":-90.216995,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.309693,
     "lbl:longitude":-90.206523,
     "lbl:max_zoom":18.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":5505112525,
     "uscensus:name":"Carey",
     "uscensus:namelsad":"Carey town",
+    "uscensus:population":175,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5505112525
+        "uscensus:geoid":"5505112525"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461517
     ],
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404493697,
-    "wof:lastmodified":1605055953,
+    "wof:lastmodified":1722117827,
     "wof:name":"Carey",
     "wof:parent_id":102081263,
     "wof:placetype":"localadmin",
-    "wof:population":163,
+    "wof:population":175,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

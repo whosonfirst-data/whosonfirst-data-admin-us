@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000426,
-    "geom:area_square_m":4192332.729099,
+    "geom:area_square_m":4192332.729102,
     "geom:bbox":"-98.047229,37.272762,-98.007925,37.297712",
     "geom:latitude":37.285062,
     "geom:longitude":-98.027641,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.284951,
     "lbl:longitude":-98.02757,
     "lbl:max_zoom":16.0,
@@ -115,22 +121,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":77,
     "uscensus:geoid":2007730175,
     "uscensus:name":"Harper",
     "uscensus:namelsad":"Harper city",
+    "uscensus:population":1304,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688555,
-        102082655
+        102082655,
+        85688555
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2007730175
+        "uscensus:geoid":"2007730175"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -146,11 +156,11 @@
         }
     ],
     "wof:id":404503975,
-    "wof:lastmodified":1636499269,
+    "wof:lastmodified":1722117890,
     "wof:name":"Harper",
     "wof:parent_id":102082655,
     "wof:placetype":"localadmin",
-    "wof:population":1473,
+    "wof:population":1304,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

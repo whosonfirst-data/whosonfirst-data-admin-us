@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010174,
-    "geom:area_square_m":92561961.550354,
+    "geom:area_square_m":92561961.550374,
     "geom:bbox":"-88.188329,42.582496,-88.070176,42.669906",
     "geom:latitude":42.626194,
     "geom:longitude":-88.12949,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.626018,
     "lbl:longitude":-88.129506,
     "lbl:max_zoom":16.0,
@@ -259,11 +265,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":59,
     "uscensus:geoid":5505909635,
     "uscensus:name":"Brighton",
     "uscensus:namelsad":"Brighton town",
+    "uscensus:population":1428,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -273,8 +282,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5505909635
+        "uscensus:geoid":"5505909635"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472505
     ],
@@ -293,11 +303,11 @@
         }
     ],
     "wof:id":404491699,
-    "wof:lastmodified":1605055588,
+    "wof:lastmodified":1722117814,
     "wof:name":"Brighton",
     "wof:parent_id":102081309,
     "wof:placetype":"localadmin",
-    "wof:population":1456,
+    "wof:population":1428,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

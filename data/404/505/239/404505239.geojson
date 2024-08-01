@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011019,
-    "geom:area_square_m":108194974.776927,
+    "geom:area_square_m":108194974.776946,
     "geom:bbox":"-97.47815,37.389091,-97.348733,37.477276",
     "geom:latitude":37.433473,
     "geom:longitude":-97.413561,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.433482,
     "lbl:longitude":-97.413556,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":191,
     "uscensus:geoid":2019142400,
     "uscensus:name":"London",
     "uscensus:namelsad":"London township",
+    "uscensus:population":709,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2019142400
+        "uscensus:geoid":"2019142400"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463009
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404505239,
-    "wof:lastmodified":1605055291,
+    "wof:lastmodified":1722117898,
     "wof:name":"London Township",
     "wof:parent_id":102085325,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":716,
+    "wof:population":709,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

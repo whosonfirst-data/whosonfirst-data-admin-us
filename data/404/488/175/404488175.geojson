@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000565,
-    "geom:area_square_m":5304339.830759,
+    "geom:area_square_m":5304339.830753,
     "geom:bbox":"-77.604087,40.583682,-77.551771,40.613273",
     "geom:latitude":40.596316,
     "geom:longitude":-77.573002,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.600295,
     "lbl:longitude":-77.570406,
     "lbl:max_zoom":15.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":87,
     "uscensus:geoid":4208743000,
     "uscensus:name":"Lewistown",
     "uscensus:namelsad":"Lewistown borough",
+    "uscensus:population":8418,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4208743000
+        "uscensus:geoid":"4208743000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404488175,
-    "wof:lastmodified":1605055809,
+    "wof:lastmodified":1722117792,
     "wof:name":"Lewistown",
     "wof:parent_id":102081333,
     "wof:placetype":"localadmin",
-    "wof:population":8338,
+    "wof:population":8418,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

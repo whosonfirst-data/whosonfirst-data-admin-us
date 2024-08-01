@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.031044,
-    "geom:area_square_m":279753271.987571,
+    "geom:area_square_m":279753271.987568,
     "geom:bbox":"-74.880123,43.11284,-74.695985,43.334218",
     "geom:latitude":43.215649,
     "geom:longitude":-74.793662,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.214721,
     "lbl:longitude":-74.791932,
     "lbl:max_zoom":16.0,
@@ -235,22 +241,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":43,
     "uscensus:geoid":3604364837,
     "uscensus:name":"Salisbury",
     "uscensus:namelsad":"Salisbury town",
+    "uscensus:population":1825,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688543,
-        102081877
+        102081877,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3604364837
+        "uscensus:geoid":"3604364837"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462315
     ],
@@ -269,11 +279,11 @@
         }
     ],
     "wof:id":404521899,
-    "wof:lastmodified":1636499326,
+    "wof:lastmodified":1722117989,
     "wof:name":"Salisbury",
     "wof:parent_id":102081877,
     "wof:placetype":"localadmin",
-    "wof:population":1958,
+    "wof:population":1825,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

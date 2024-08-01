@@ -2,8 +2,8 @@
   "id": 85937923,
   "type": "Feature",
   "properties": {
-    "edtf:cessation":"uuuu",
-    "edtf:inception":"uuuu",
+    "edtf:cessation":"",
+    "edtf:inception":"",
     "geom:area":0.023434,
     "geom:area_square_m":209847337.429843,
     "geom:bbox":"-116.365887,43.509377,-116.094583,43.689895",
@@ -12,13 +12,13 @@
     "iso:country":"US",
     "lbl:latitude":43.580397,
     "lbl:longitude":-116.207517,
-    "lbl:max_zoom":18.0,
+    "lbl:max_zoom":18,
     "lbl:min_zoom":13.5,
     "mps:latitude":43.580397,
     "mps:longitude":-116.207517,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
-    "mz:min_zoom":5.0,
+    "mz:min_zoom":5,
     "name:afr_x_preferred":[
         "Boise"
     ],
@@ -119,10 +119,10 @@
         "\u039c\u03c0\u03cc\u03b9\u03c3\u03b9"
     ],
     "name:eng_x_preferred":[
-        "Boise City"
+        "Boise"
     ],
     "name:eng_x_variant":[
-        "Boise"
+        "Boise City"
     ],
     "name:epo_x_preferred":[
         "Boise"
@@ -451,7 +451,7 @@
     "name:zho_x_preferred":[
         "\u535a\u4f0a\u897f"
     ],
-    "ne:ADM0CAP":0.0,
+    "ne:ADM0CAP":0,
     "ne:ADM0NAME":"United States of America",
     "ne:ADM0_A3":"USA",
     "ne:ADM1NAME":"Idaho",
@@ -464,7 +464,7 @@
     "ne:COMPARE":0,
     "ne:DIFFASCII":0,
     "ne:DIFFNOTE":null,
-    "ne:ELEVATION":823.0,
+    "ne:ELEVATION":823,
     "ne:FEATURECLA":"Admin-1 capital",
     "ne:FEATURE_CL":"P",
     "ne:FEATURE_CO":"PPLA",
@@ -472,22 +472,22 @@
     "ne:GEONAMESNO":"GeoNames match general.",
     "ne:GN_ASCII":"Boise",
     "ne:GN_POP":145987,
-    "ne:GTOPO30":827.0,
+    "ne:GTOPO30":827,
     "ne:ISO_A2":"US",
     "ne:LABELRANK":1,
     "ne:LATITUDE":43.60859,
     "ne:LONGITUDE":-116.22749,
     "ne:LS_MATCH":1,
     "ne:LS_NAME":"Boise",
-    "ne:MAX_AREAKM":262.0,
-    "ne:MAX_AREAMI":101.0,
+    "ne:MAX_AREAKM":262,
+    "ne:MAX_AREAMI":101,
     "ne:MAX_BBXMAX":-116.108333,
     "ne:MAX_BBXMIN":-116.450147,
     "ne:MAX_BBYMAX":43.725,
     "ne:MAX_BBYMIN":43.516667,
-    "ne:MAX_NATSCA":100.0,
-    "ne:MAX_PERKM":217.0,
-    "ne:MAX_PERMI":135.0,
+    "ne:MAX_NATSCA":100,
+    "ne:MAX_PERKM":217,
+    "ne:MAX_PERMI":135,
     "ne:MAX_POP10":338071,
     "ne:MAX_POP20":338071,
     "ne:MAX_POP300":338071,
@@ -497,14 +497,14 @@
     "ne:MEAN_BBYC":43.612201,
     "ne:MEGACITY":0,
     "ne:MEGANAME":null,
-    "ne:MIN_AREAKM":261.0,
-    "ne:MIN_AREAMI":101.0,
+    "ne:MIN_AREAKM":261,
+    "ne:MIN_AREAMI":101,
     "ne:MIN_BBXMAX":-116.108333,
     "ne:MIN_BBXMIN":-116.458333,
     "ne:MIN_BBYMAX":43.725,
     "ne:MIN_BBYMIN":43.516667,
-    "ne:MIN_PERKM":215.0,
-    "ne:MIN_PERMI":134.0,
+    "ne:MIN_PERKM":215,
+    "ne:MIN_PERMI":134,
     "ne:NAME":"Boise",
     "ne:NAMEALT":null,
     "ne:NAMEASCII":"Boise",
@@ -540,8 +540,8 @@
     "ne:TIMEZONE":"America/Boise",
     "ne:UN_ADM0":null,
     "ne:UN_FID":0,
-    "ne:UN_LAT":0.0,
-    "ne:UN_LONG":0.0,
+    "ne:UN_LAT":0,
+    "ne:UN_LONG":0,
     "ne:WORLDCITY":0,
     "qs:a0":"United States",
     "qs:a1":"*Idaho",
@@ -563,15 +563,19 @@
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "wd:elevation":1270.0,
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":235421,
+    "uscensus:population_date":"2023",
+    "wd:elevation":1270,
     "wd:latitude":36.73,
     "wd:longitude":-102.511389,
     "wd:wordcount":1218,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688657,
-        102086087
+        102086087,
+        85688657
     ],
     "wof:breaches":[],
     "wof:capital_of":[
@@ -581,9 +585,12 @@
         "gn:id":5586437,
         "gp:id":2366355,
         "qs_pg:id":1285636,
+        "uscensus:geoid":"1608830",
         "wd:id":"Q35775"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
+    "wof:created":1717104799,
     "wof:geom_alt":[
         "naturalearth",
         "quattroshapes_pg"
@@ -599,13 +606,17 @@
         }
     ],
     "wof:id":85937923,
-    "wof:lastmodified":1690883367,
-    "wof:name":"Boise City",
+    "wof:lastmodified":1722116405,
+    "wof:name":"Boise",
     "wof:parent_id":102086087,
     "wof:placetype":"locality",
+    "wof:population":235421,
+    "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1141909333
+    ],
     "wof:tags":[]
 },
   "bbox": [

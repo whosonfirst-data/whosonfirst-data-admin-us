@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007592,
-    "geom:area_square_m":72560646.982173,
+    "geom:area_square_m":72560646.982154,
     "geom:bbox":"-83.997539,39.335539,-83.883665,39.435514",
     "geom:latitude":39.381746,
     "geom:longitude":-83.946462,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.379811,
     "lbl:longitude":-83.947553,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":3902779772,
     "uscensus:name":"Vernon",
     "uscensus:namelsad":"Vernon township",
+    "uscensus:population":3021,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3902779772
+        "uscensus:geoid":"3902779772"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404524933,
-    "wof:lastmodified":1605056111,
+    "wof:lastmodified":1722233684,
     "wof:name":"Vernon Township",
     "wof:parent_id":102083645,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2997,
+    "wof:population":3021,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

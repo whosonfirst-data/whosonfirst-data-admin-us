@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.015236,
-    "geom:area_square_m":135347367.379076,
+    "geom:area_square_m":135347367.379215,
     "geom:bbox":"-72.079434,43.998159,-71.912773,44.15573",
     "geom:latitude":44.074739,
     "geom:longitude":-71.995462,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.074998,
     "lbl:longitude":-71.98283,
     "lbl:max_zoom":15.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":3300934820,
     "uscensus:name":"Haverhill",
     "uscensus:namelsad":"Haverhill town",
+    "uscensus:population":4600,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":33,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3300934820
+        "uscensus:geoid":"3300934820"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404477239,
-    "wof:lastmodified":1605055430,
+    "wof:lastmodified":1722117721,
     "wof:name":"Haverhill",
     "wof:parent_id":102086567,
     "wof:placetype":"localadmin",
-    "wof:population":4697,
+    "wof:population":4600,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

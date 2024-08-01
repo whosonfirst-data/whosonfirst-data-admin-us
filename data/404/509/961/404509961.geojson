@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002483,
-    "geom:area_square_m":20823836.551015,
+    "geom:area_square_m":20823836.551004,
     "geom:bbox":"-91.321949,47.266653,-91.234796,47.314929",
     "geom:latitude":47.293254,
     "geom:longitude":-91.277516,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.293603,
     "lbl:longitude":-91.278348,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":75,
     "uscensus:geoid":2707560250,
     "uscensus:name":"Silver Bay",
     "uscensus:namelsad":"Silver Bay city",
+    "uscensus:population":1812,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2707560250
+        "uscensus:geoid":"2707560250"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,11 +93,11 @@
         }
     ],
     "wof:id":404509961,
-    "wof:lastmodified":1605055792,
+    "wof:lastmodified":1722117933,
     "wof:name":"Silver Bay",
     "wof:parent_id":102087863,
     "wof:placetype":"localadmin",
-    "wof:population":1887,
+    "wof:population":1812,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

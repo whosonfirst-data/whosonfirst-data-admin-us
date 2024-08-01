@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011401,
-    "geom:area_square_m":92928371.177485,
+    "geom:area_square_m":92928371.177492,
     "geom:bbox":"-99.394555,48.718155,-99.262745,48.805384",
     "geom:latitude":48.761701,
     "geom:longitude":-99.328636,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.761649,
     "lbl:longitude":-99.328641,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":3809539100,
     "uscensus:name":"Howell",
     "uscensus:namelsad":"Howell township",
+    "uscensus:population":32,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3809539100
+        "uscensus:geoid":"3809539100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475769
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404481865,
-    "wof:lastmodified":1605055833,
+    "wof:lastmodified":1722117753,
     "wof:name":"Howell Township",
     "wof:parent_id":102082111,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":28,
+    "wof:population":32,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

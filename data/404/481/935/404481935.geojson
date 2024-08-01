@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011177,
-    "geom:area_square_m":92673773.773921,
+    "geom:area_square_m":92673773.773919,
     "geom:bbox":"-101.486201,47.848072,-101.357245,47.935294",
     "geom:latitude":47.891635,
     "geom:longitude":-101.421789,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.891676,
     "lbl:longitude":-101.421792,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":101,
     "uscensus:geoid":3810175060,
     "uscensus:name":"Spring Lake",
     "uscensus:namelsad":"Spring Lake township",
+    "uscensus:population":31,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3810175060
+        "uscensus:geoid":"3810175060"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474113
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404481935,
-    "wof:lastmodified":1605055829,
+    "wof:lastmodified":1722117753,
     "wof:name":"Spring Lake Township",
     "wof:parent_id":102082117,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":29,
+    "wof:population":31,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009941,
-    "geom:area_square_m":96631096.801388,
+    "geom:area_square_m":96631096.801421,
     "geom:bbox":"-87.920712,38.125339,-87.76257,38.228869",
     "geom:latitude":38.177566,
     "geom:longitude":-87.826822,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.190251,
     "lbl:longitude":-87.833223,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":129,
     "uscensus:geoid":1812965052,
     "uscensus:name":"Robb",
     "uscensus:namelsad":"Robb township",
+    "uscensus:population":1748,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1812965052
+        "uscensus:geoid":"1812965052"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404501739,
-    "wof:lastmodified":1604530755,
+    "wof:lastmodified":1722233654,
     "wof:name":"Robb Township",
     "wof:parent_id":102087161,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1881,
+    "wof:population":1748,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001555,
-    "geom:area_square_m":14395572.80537,
+    "geom:area_square_m":14395572.805377,
     "geom:bbox":"-75.802502,41.498735,-75.749103,41.555132",
     "geom:latitude":41.526414,
     "geom:longitude":-75.774172,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.526581,
     "lbl:longitude":-75.774171,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":69,
     "uscensus:geoid":4206982360,
     "uscensus:name":"West Abington",
     "uscensus:namelsad":"West Abington township",
+    "uscensus:population":309,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206982360
+        "uscensus:geoid":"4206982360"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462103
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404486943,
-    "wof:lastmodified":1605055877,
+    "wof:lastmodified":1722117784,
     "wof:name":"West Abington Township",
     "wof:parent_id":102081345,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":250,
+    "wof:population":309,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

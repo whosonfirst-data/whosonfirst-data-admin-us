@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010555,
-    "geom:area_square_m":90891770.307104,
+    "geom:area_square_m":90891770.307096,
     "geom:bbox":"-92.527713,45.815399,-92.405258,45.902865",
     "geom:latitude":45.85929,
     "geom:longitude":-92.466624,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.859262,
     "lbl:longitude":-92.466625,
     "lbl:max_zoom":17.0,
@@ -211,22 +217,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":5501344325,
     "uscensus:name":"Lincoln",
     "uscensus:namelsad":"Lincoln town",
+    "uscensus:population":377,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081835
+        102081835,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5501344325
+        "uscensus:geoid":"5501344325"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471733
     ],
@@ -245,11 +255,11 @@
         }
     ],
     "wof:id":404491553,
-    "wof:lastmodified":1636499311,
+    "wof:lastmodified":1722117814,
     "wof:name":"Lincoln",
     "wof:parent_id":102081835,
     "wof:placetype":"localadmin",
-    "wof:population":309,
+    "wof:population":377,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

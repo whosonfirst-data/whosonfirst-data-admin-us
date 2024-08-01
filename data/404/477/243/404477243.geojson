@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007708,
-    "geom:area_square_m":69109572.885411,
+    "geom:area_square_m":69109572.885437,
     "geom:bbox":"-71.829107,43.474559,-71.68718,43.569316",
     "geom:latitude":43.524786,
     "geom:longitude":-71.765233,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.531667,
     "lbl:longitude":-71.752317,
     "lbl:max_zoom":16.0,
@@ -274,11 +280,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":3301335860,
     "uscensus:name":"Hill",
     "uscensus:namelsad":"Hill town",
+    "uscensus:population":1043,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":33,
     "wof:belongsto":[
         102191575,
@@ -288,8 +297,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3301335860
+        "uscensus:geoid":"3301335860"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466627
     ],
@@ -308,11 +318,11 @@
         }
     ],
     "wof:id":404477243,
-    "wof:lastmodified":1605055417,
+    "wof:lastmodified":1722117721,
     "wof:name":"Hill",
     "wof:parent_id":102086515,
     "wof:placetype":"localadmin",
-    "wof:population":1089,
+    "wof:population":1043,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

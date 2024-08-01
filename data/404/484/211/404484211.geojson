@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000124,
-    "geom:area_square_m":1173818.615001,
+    "geom:area_square_m":1173818.615005,
     "geom:bbox":"-76.758585,40.145294,-76.745884,40.16256",
     "geom:latitude":40.15457,
     "geom:longitude":-76.751535,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.156297,
     "lbl:longitude":-76.752161,
     "lbl:max_zoom":17.0,
@@ -88,22 +94,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":133,
     "uscensus:geoid":4213330016,
     "uscensus:name":"Goldsboro",
     "uscensus:namelsad":"Goldsboro borough",
+    "uscensus:population":928,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688481,
-        102080953
+        102080953,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4213330016
+        "uscensus:geoid":"4213330016"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -119,11 +129,11 @@
         }
     ],
     "wof:id":404484211,
-    "wof:lastmodified":1636499298,
+    "wof:lastmodified":1722117767,
     "wof:name":"Goldsboro",
     "wof:parent_id":102080953,
     "wof:placetype":"localadmin",
-    "wof:population":952,
+    "wof:population":928,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

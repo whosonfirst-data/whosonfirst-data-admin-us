@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010524,
-    "geom:area_square_m":91421397.146906,
+    "geom:area_square_m":91421397.146923,
     "geom:bbox":"-97.858281,45.326506,-97.735061,45.413708",
     "geom:latitude":45.370447,
     "geom:longitude":-97.797258,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.370079,
     "lbl:longitude":-97.796529,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":37,
     "uscensus:geoid":4603707340,
     "uscensus:name":"Bristol",
     "uscensus:namelsad":"Bristol township",
+    "uscensus:population":58,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4603707340
+        "uscensus:geoid":"4603707340"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729454695
     ],
@@ -86,7 +96,7 @@
         }
     ],
     "wof:id":404489757,
-    "wof:lastmodified":1605055931,
+    "wof:lastmodified":1722117802,
     "wof:name":"Bristol Township",
     "wof:parent_id":102086871,
     "wof:placetype":"localadmin",

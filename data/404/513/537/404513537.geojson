@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010981,
-    "geom:area_square_m":91353919.251812,
+    "geom:area_square_m":91353919.251791,
     "geom:bbox":"-96.73903,47.673226,-96.610088,47.760434",
     "geom:latitude":47.716147,
     "geom:longitude":-96.675495,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.716837,
     "lbl:longitude":-96.675497,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":119,
     "uscensus:geoid":2711901504,
     "uscensus:name":"Andover",
     "uscensus:namelsad":"Andover township",
+    "uscensus:population":109,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2711901504
+        "uscensus:geoid":"2711901504"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461521
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404513537,
-    "wof:lastmodified":1605056039,
+    "wof:lastmodified":1722117959,
     "wof:name":"Andover Township",
     "wof:parent_id":102087599,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":119,
+    "wof:population":109,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

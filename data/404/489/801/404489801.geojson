@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01777,
-    "geom:area_square_m":154299114.439907,
+    "geom:area_square_m":154299114.439873,
     "geom:bbox":"-97.36637,45.326255,-97.22615,45.45718",
     "geom:latitude":45.392835,
     "geom:longitude":-97.296268,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.399723,
     "lbl:longitude":-97.300939,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":37,
     "uscensus:geoid":4603769380,
     "uscensus:name":"Waubay",
     "uscensus:namelsad":"Waubay township",
+    "uscensus:population":531,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4603769380
+        "uscensus:geoid":"4603769380"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456289
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404489801,
-    "wof:lastmodified":1605055935,
+    "wof:lastmodified":1722117802,
     "wof:name":"Waubay Township",
     "wof:parent_id":102086871,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":462,
+    "wof:population":531,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

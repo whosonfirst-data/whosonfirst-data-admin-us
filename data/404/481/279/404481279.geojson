@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011214,
-    "geom:area_square_m":92984335.863957,
+    "geom:area_square_m":92984335.863934,
     "geom:bbox":"-98.268732,47.845968,-98.139389,47.933116",
     "geom:latitude":47.889554,
     "geom:longitude":-98.204064,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.889512,
     "lbl:longitude":-98.204076,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":63,
     "uscensus:geoid":3806313260,
     "uscensus:name":"Central",
     "uscensus:namelsad":"Central township",
+    "uscensus:population":31,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3806313260
+        "uscensus:geoid":"3806313260"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474847
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404481279,
-    "wof:lastmodified":1605055831,
+    "wof:lastmodified":1722117749,
     "wof:name":"Central Township",
     "wof:parent_id":102082083,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":29,
+    "wof:population":31,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010491,
-    "geom:area_square_m":91890827.206146,
+    "geom:area_square_m":91890827.206138,
     "geom:bbox":"-90.679043,44.856972,-90.556993,44.94446",
     "geom:latitude":44.900317,
     "geom:longitude":-90.618507,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.895145,
     "lbl:longitude":-90.612509,
     "lbl:max_zoom":17.0,
@@ -67,11 +73,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":5501945700,
     "uscensus:name":"Longwood",
     "uscensus:namelsad":"Longwood town",
+    "uscensus:population":871,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -81,8 +90,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5501945700
+        "uscensus:geoid":"5501945700"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458163
     ],
@@ -101,11 +111,11 @@
         }
     ],
     "wof:id":404493013,
-    "wof:lastmodified":1605055942,
+    "wof:lastmodified":1722117823,
     "wof:name":"Longwood",
     "wof:parent_id":102081269,
     "wof:placetype":"localadmin",
-    "wof:population":858,
+    "wof:population":871,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

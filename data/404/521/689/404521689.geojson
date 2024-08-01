@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010927,
-    "geom:area_square_m":101546701.099789,
+    "geom:area_square_m":101546701.099845,
     "geom:bbox":"-73.86201,41.203165,-73.754981,41.342492",
     "geom:latitude":41.272707,
     "geom:longitude":-73.809177,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.272602,
     "lbl:longitude":-73.809181,
     "lbl:max_zoom":14.0,
@@ -100,11 +106,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":119,
     "uscensus:geoid":3611984077,
     "uscensus:name":"Yorktown",
     "uscensus:namelsad":"Yorktown town",
+    "uscensus:population":35268,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -114,8 +123,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3611984077
+        "uscensus:geoid":"3611984077"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -131,11 +141,11 @@
         }
     ],
     "wof:id":404521689,
-    "wof:lastmodified":1605055627,
+    "wof:lastmodified":1722117987,
     "wof:name":"Yorktown",
     "wof:parent_id":102082373,
     "wof:placetype":"localadmin",
-    "wof:population":36081,
+    "wof:population":35268,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

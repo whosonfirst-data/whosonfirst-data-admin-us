@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001282,
-    "geom:area_square_m":11178126.092306,
+    "geom:area_square_m":11178126.092311,
     "geom:bbox":"-91.174747,45.148373,-91.100641,45.177628",
     "geom:latitude":45.163203,
     "geom:longitude":-91.149692,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.162926,
     "lbl:longitude":-91.152237,
     "lbl:max_zoom":16.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":5501717100,
     "uscensus:name":"Cornell",
     "uscensus:namelsad":"Cornell city",
+    "uscensus:population":1413,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5501717100
+        "uscensus:geoid":"5501717100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404493085,
-    "wof:lastmodified":1605055942,
+    "wof:lastmodified":1722117823,
     "wof:name":"Cornell",
     "wof:parent_id":102081787,
     "wof:placetype":"localadmin",
-    "wof:population":1467,
+    "wof:population":1413,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

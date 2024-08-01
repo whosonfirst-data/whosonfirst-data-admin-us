@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011859,
-    "geom:area_square_m":105816091.435794,
+    "geom:area_square_m":105816091.435799,
     "geom:bbox":"-72.64516,43.756585,-72.460132,43.873348",
     "geom:latitude":43.814652,
     "geom:longitude":-72.552047,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.814962,
     "lbl:longitude":-72.552043,
     "lbl:max_zoom":15.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":5002760850,
     "uscensus:name":"Royalton",
     "uscensus:namelsad":"Royalton town",
+    "uscensus:population":2770,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5002760850
+        "uscensus:geoid":"5002760850"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -104,11 +114,11 @@
         }
     ],
     "wof:id":404527115,
-    "wof:lastmodified":1605055684,
+    "wof:lastmodified":1722118028,
     "wof:name":"Royalton",
     "wof:parent_id":102080777,
     "wof:placetype":"localadmin",
-    "wof:population":2773,
+    "wof:population":2770,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

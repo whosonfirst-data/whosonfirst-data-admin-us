@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010579,
-    "geom:area_square_m":88885697.389343,
+    "geom:area_square_m":88885697.389339,
     "geom:bbox":"-97.324464,47.151624,-97.196955,47.238801",
     "geom:latitude":47.195458,
     "geom:longitude":-97.262666,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.195127,
     "lbl:longitude":-97.27202,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":3801739500,
     "uscensus:name":"Hunter",
     "uscensus:namelsad":"Hunter township",
+    "uscensus:population":71,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3801739500
+        "uscensus:geoid":"3801739500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474815
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404480495,
-    "wof:lastmodified":1605055917,
+    "wof:lastmodified":1722117745,
     "wof:name":"Hunter Township",
     "wof:parent_id":102082073,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":64,
+    "wof:population":71,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

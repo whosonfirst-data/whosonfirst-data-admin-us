@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003206,
-    "geom:area_square_m":30017619.199269,
+    "geom:area_square_m":30017619.199252,
     "geom:bbox":"-76.722662,40.758454,-76.611181,40.798835",
     "geom:latitude":40.774441,
     "geom:longitude":-76.665823,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.774951,
     "lbl:longitude":-76.665824,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":97,
     "uscensus:geoid":4209787280,
     "uscensus:name":"Zerbe",
     "uscensus:namelsad":"Zerbe township",
+    "uscensus:population":1771,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4209787280
+        "uscensus:geoid":"4209787280"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404483683,
-    "wof:lastmodified":1605055446,
+    "wof:lastmodified":1722117764,
     "wof:name":"Zerbe Township",
     "wof:parent_id":102081349,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1872,
+    "wof:population":1771,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

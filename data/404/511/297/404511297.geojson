@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010472,
-    "geom:area_square_m":91013363.779338,
+    "geom:area_square_m":91013363.779327,
     "geom:bbox":"-93.38863,45.297989,-93.265321,45.38488",
     "geom:latitude":45.340942,
     "geom:longitude":-93.326451,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.341379,
     "lbl:longitude":-93.326448,
     "lbl:max_zoom":15.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":2700347690,
     "uscensus:name":"Oak Grove",
     "uscensus:namelsad":"Oak Grove city",
+    "uscensus:population":9194,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2700347690
+        "uscensus:geoid":"2700347690"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404511297,
-    "wof:lastmodified":1605055729,
+    "wof:lastmodified":1722117942,
     "wof:name":"Oak Grove",
     "wof:parent_id":102087861,
     "wof:placetype":"localadmin",
-    "wof:population":8031,
+    "wof:population":9194,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

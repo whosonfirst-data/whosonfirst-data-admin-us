@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008047,
-    "geom:area_square_m":75873074.040529,
+    "geom:area_square_m":75873074.040567,
     "geom:bbox":"-84.804368,40.266679,-84.709469,40.352772",
     "geom:latitude":40.309685,
     "geom:longitude":-84.756753,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.309749,
     "lbl:longitude":-84.756751,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":37,
     "uscensus:geoid":3903750960,
     "uscensus:name":"Mississinawa",
     "uscensus:namelsad":"Mississinawa township",
+    "uscensus:population":680,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3903750960
+        "uscensus:geoid":"3903750960"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474945
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404524487,
-    "wof:lastmodified":1605056113,
+    "wof:lastmodified":1722118008,
     "wof:name":"Mississinawa Township",
     "wof:parent_id":102084823,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":752,
+    "wof:population":680,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

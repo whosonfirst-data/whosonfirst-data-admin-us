@@ -10,6 +10,12 @@
     "geom:latitude":44.315134,
     "geom:longitude":-93.574091,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.313509,
     "lbl:longitude":-93.574299,
     "lbl:max_zoom":18.0,
@@ -190,22 +196,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":79,
     "uscensus:geoid":2707933110,
     "uscensus:name":"Kilkenny",
     "uscensus:namelsad":"Kilkenny city",
+    "uscensus:population":155,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688727,
-        102087831
+        102087831,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2707933110
+        "uscensus:geoid":"2707933110"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -221,11 +231,11 @@
         }
     ],
     "wof:id":404509701,
-    "wof:lastmodified":1636499362,
+    "wof:lastmodified":1722117931,
     "wof:name":"Kilkenny",
     "wof:parent_id":102087831,
     "wof:placetype":"localadmin",
-    "wof:population":134,
+    "wof:population":155,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

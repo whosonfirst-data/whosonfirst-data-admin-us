@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006987,
-    "geom:area_square_m":65237448.714396,
+    "geom:area_square_m":65237448.714424,
     "geom:bbox":"-79.396521,40.916842,-79.276919,41.008004",
     "geom:latitude":40.961247,
     "geom:longitude":-79.341661,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.962113,
     "lbl:longitude":-79.340527,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":4200546632,
     "uscensus:name":"Mahoning",
     "uscensus:namelsad":"Mahoning township",
+    "uscensus:population":1365,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200546632
+        "uscensus:geoid":"4200546632"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471971
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404484289,
-    "wof:lastmodified":1605055455,
+    "wof:lastmodified":1722117767,
     "wof:name":"Mahoning Township",
     "wof:parent_id":102081371,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1425,
+    "wof:population":1365,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

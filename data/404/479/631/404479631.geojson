@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000464,
-    "geom:area_square_m":3869085.825955,
+    "geom:area_square_m":3869085.825952,
     "geom:bbox":"-97.910139,47.586503,-97.888713,47.608277",
     "geom:latitude":47.597397,
     "geom:longitude":-97.899413,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.597414,
     "lbl:longitude":-97.899413,
     "lbl:max_zoom":18.0,
@@ -58,11 +64,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":91,
     "uscensus:geoid":3809171940,
     "uscensus:name":"Sharon",
     "uscensus:namelsad":"Sharon city",
+    "uscensus:population":85,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -72,8 +81,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3809171940
+        "uscensus:geoid":"3809171940"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -89,11 +99,11 @@
         }
     ],
     "wof:id":404479631,
-    "wof:lastmodified":1605055483,
+    "wof:lastmodified":1722117739,
     "wof:name":"Sharon",
     "wof:parent_id":102082055,
     "wof:placetype":"localadmin",
-    "wof:population":96,
+    "wof:population":85,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

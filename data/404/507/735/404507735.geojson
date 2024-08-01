@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.040752,
-    "geom:area_square_m":349934807.316246,
+    "geom:area_square_m":349934807.316306,
     "geom:bbox":"-88.492706,45.920838,-88.116845,46.073585",
     "geom:latitude":46.016498,
     "geom:longitude":-88.284563,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.013965,
     "lbl:longitude":-88.284525,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":71,
     "uscensus:geoid":2607152300,
     "uscensus:name":"Mastodon",
     "uscensus:namelsad":"Mastodon township",
+    "uscensus:population":586,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2607152300
+        "uscensus:geoid":"2607152300"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404507735,
-    "wof:lastmodified":1605055776,
+    "wof:lastmodified":1722233666,
     "wof:name":"Mastodon Township",
     "wof:parent_id":102083029,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":656,
+    "wof:population":586,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

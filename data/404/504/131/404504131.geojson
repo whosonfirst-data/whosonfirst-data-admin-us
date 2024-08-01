@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001256,
-    "geom:area_square_m":11928763.141978,
+    "geom:area_square_m":11928763.141985,
     "geom:bbox":"-96.684743,39.828118,-96.599044,39.864533",
     "geom:latitude":39.843128,
     "geom:longitude":-96.638599,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.848212,
     "lbl:longitude":-96.638516,
     "lbl:max_zoom":15.0,
@@ -97,11 +103,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":117,
     "uscensus:geoid":2011745050,
     "uscensus:name":"Marysville",
     "uscensus:namelsad":"Marysville city",
+    "uscensus:population":3405,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -111,8 +120,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2011745050
+        "uscensus:geoid":"2011745050"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -128,11 +138,11 @@
         }
     ],
     "wof:id":404504131,
-    "wof:lastmodified":1605055304,
+    "wof:lastmodified":1722117891,
     "wof:name":"Marysville",
     "wof:parent_id":102082145,
     "wof:placetype":"localadmin",
-    "wof:population":3294,
+    "wof:population":3405,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -14,6 +14,7 @@
     "gn:longitude":-155.59583,
     "gn:population":346,
     "iso:country":"US",
+    "lbl:bbox":"-155.615784548,62.9368147981,-155.575784548,62.9768147981",
     "lbl:latitude":62.942705,
     "lbl:longitude":-155.56711,
     "lbl:max_zoom":17.0,
@@ -277,6 +278,7 @@
     "ne:UN_LAT":0.0,
     "ne:UN_LONG":0.0,
     "ne:WORLDCITY":0,
+    "ne:min_zoom":6.7,
     "qs:a0":"United States",
     "qs:a1":"*Alaska",
     "qs:a1_lc":"02",
@@ -291,13 +293,18 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
+    "reversegeo:latitude":62.956815,
+    "reversegeo:longitude":-155.595785,
     "src:geom":"quattroshapes",
     "src:geom_alt":[
         "quattroshapes_pg",
         "naturalearth"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":287,
+    "uscensus:population_date":"2023",
     "wd:elevation":101.0,
     "wd:latitude":62.95,
     "wd:longitude":-155.588889,
@@ -305,8 +312,8 @@
     "wof:belongsto":[
         102191575,
         85633793,
-        85688573,
-        102081905
+        102081905,
+        85688573
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -319,6 +326,12 @@
         "wd:id":"Q79574",
         "wk:page":"McGrath, Alaska"
     },
+    "wof:concordances_alt":{
+        "wd:id":[
+            "Q79574"
+        ]
+    },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -338,16 +351,17 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690881941,
+    "wof:lastmodified":1722116395,
     "wof:name":"McGrath",
     "wof:parent_id":102081905,
     "wof:placetype":"locality",
-    "wof:population":346,
+    "wof:population":287,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[
-        1125286423
+        1125286423,
+        1141906893
     ],
     "wof:tags":[]
 },

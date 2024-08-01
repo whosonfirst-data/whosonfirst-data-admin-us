@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002528,
-    "geom:area_square_m":23592722.891914,
+    "geom:area_square_m":23592722.891904,
     "geom:bbox":"-81.589045,40.988464,-81.491695,41.029133",
     "geom:latitude":41.004935,
     "geom:longitude":-81.535946,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.004636,
     "lbl:longitude":-81.539047,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":153,
     "uscensus:geoid":3915319036,
     "uscensus:name":"Coventry",
     "uscensus:namelsad":"Coventry township",
+    "uscensus:population":10163,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3915319036
+        "uscensus:geoid":"3915319036"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404525981,
-    "wof:lastmodified":1605056064,
+    "wof:lastmodified":1722118019,
     "wof:name":"Coventry Township",
     "wof:parent_id":102084807,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":10945,
+    "wof:population":10163,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

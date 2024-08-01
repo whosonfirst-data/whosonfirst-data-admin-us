@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000078,
-    "geom:area_square_m":729556.383107,
+    "geom:area_square_m":729556.383106,
     "geom:bbox":"-78.618846,40.960489,-78.603392,40.969515",
     "geom:latitude":40.964724,
     "geom:longitude":-78.611364,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.96368,
     "lbl:longitude":-78.610193,
     "lbl:max_zoom":17.0,
@@ -61,11 +67,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":33,
     "uscensus:geoid":4203330280,
     "uscensus:name":"Grampian",
     "uscensus:namelsad":"Grampian borough",
+    "uscensus:population":348,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -75,8 +84,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4203330280
+        "uscensus:geoid":"4203330280"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -92,11 +102,11 @@
         }
     ],
     "wof:id":404482993,
-    "wof:lastmodified":1605055384,
+    "wof:lastmodified":1722117760,
     "wof:name":"Grampian",
     "wof:parent_id":102080967,
     "wof:placetype":"localadmin",
-    "wof:population":356,
+    "wof:population":348,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

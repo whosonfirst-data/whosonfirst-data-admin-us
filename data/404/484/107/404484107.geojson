@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000525,
-    "geom:area_square_m":4948966.724805,
+    "geom:area_square_m":4948966.724806,
     "geom:bbox":"-79.687031,40.328686,-79.652082,40.357699",
     "geom:latitude":40.34594,
     "geom:longitude":-79.669268,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.346459,
     "lbl:longitude":-79.670459,
     "lbl:max_zoom":15.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":129,
     "uscensus:geoid":4212947000,
     "uscensus:name":"Manor",
     "uscensus:namelsad":"Manor borough",
+    "uscensus:population":3520,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212947000
+        "uscensus:geoid":"4212947000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404484107,
-    "wof:lastmodified":1605055462,
+    "wof:lastmodified":1722117766,
     "wof:name":"Manor",
     "wof:parent_id":102081383,
     "wof:placetype":"localadmin",
-    "wof:population":3239,
+    "wof:population":3520,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

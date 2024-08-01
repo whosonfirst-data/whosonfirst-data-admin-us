@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007906,
-    "geom:area_square_m":73076275.280366,
+    "geom:area_square_m":73076275.280384,
     "geom:bbox":"-84.114979,41.587804,-83.995587,41.656619",
     "geom:latitude":41.622005,
     "geom:longitude":-84.055174,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.621945,
     "lbl:longitude":-84.055174,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":3905162638,
     "uscensus:name":"Pike",
     "uscensus:namelsad":"Pike township",
+    "uscensus:population":1712,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3905162638
+        "uscensus:geoid":"3905162638"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473643
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404524669,
-    "wof:lastmodified":1605056106,
+    "wof:lastmodified":1722118010,
     "wof:name":"Pike Township",
     "wof:parent_id":102083693,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1854,
+    "wof:population":1712,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

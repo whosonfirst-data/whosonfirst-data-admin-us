@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000543,
-    "geom:area_square_m":4516917.999534,
+    "geom:area_square_m":4516917.999538,
     "geom:bbox":"-99.168499,47.66763,-99.114927,47.68737",
     "geom:latitude":47.67975,
     "geom:longitude":-99.137686,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.680089,
     "lbl:longitude":-99.1395,
     "lbl:max_zoom":16.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":3802756620,
     "uscensus:name":"New Rockford",
     "uscensus:namelsad":"New Rockford city",
+    "uscensus:population":1310,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3802756620
+        "uscensus:geoid":"3802756620"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404481045,
-    "wof:lastmodified":1605055830,
+    "wof:lastmodified":1722117748,
     "wof:name":"New Rockford",
     "wof:parent_id":102081503,
     "wof:placetype":"localadmin",
-    "wof:population":1391,
+    "wof:population":1310,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

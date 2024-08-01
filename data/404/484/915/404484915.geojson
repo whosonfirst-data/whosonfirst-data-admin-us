@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002653,
-    "geom:area_square_m":25181113.428618,
+    "geom:area_square_m":25181113.42858,
     "geom:bbox":"-77.07984,39.823508,-77.001485,39.882163",
     "geom:latitude":39.848974,
     "geom:longitude":-77.043816,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.84386,
     "lbl:longitude":-77.044506,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":4200157472,
     "uscensus:name":"Oxford",
     "uscensus:namelsad":"Oxford township",
+    "uscensus:population":6024,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200157472
+        "uscensus:geoid":"4200157472"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472763
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404484915,
-    "wof:lastmodified":1605055459,
+    "wof:lastmodified":1722117771,
     "wof:name":"Oxford Township",
     "wof:parent_id":102080899,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":5517,
+    "wof:population":6024,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

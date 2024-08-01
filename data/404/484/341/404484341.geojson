@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003345,
-    "geom:area_square_m":31288435.924998,
+    "geom:area_square_m":31288435.924969,
     "geom:bbox":"-79.527018,40.80748,-79.447853,40.874354",
     "geom:latitude":40.8378,
     "geom:longitude":-79.483136,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.836488,
     "lbl:longitude":-79.479936,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":4200563560,
     "uscensus:name":"Rayburn",
     "uscensus:namelsad":"Rayburn township",
+    "uscensus:population":1733,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200563560
+        "uscensus:geoid":"4200563560"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472663
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404484341,
-    "wof:lastmodified":1605055459,
+    "wof:lastmodified":1722117767,
     "wof:name":"Rayburn Township",
     "wof:parent_id":102081371,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1907,
+    "wof:population":1733,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

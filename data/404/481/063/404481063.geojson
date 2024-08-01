@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000235,
-    "geom:area_square_m":2008545.825328,
+    "geom:area_square_m":2008545.825327,
     "geom:bbox":"-100.245319,46.261536,-100.220989,46.276196",
     "geom:latitude":46.268512,
     "geom:longitude":-100.233604,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.268184,
     "lbl:longitude":-100.232621,
     "lbl:max_zoom":16.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":3802946980,
     "uscensus:name":"Linton",
     "uscensus:namelsad":"Linton city",
+    "uscensus:population":1045,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3802946980
+        "uscensus:geoid":"3802946980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404481063,
-    "wof:lastmodified":1605055825,
+    "wof:lastmodified":1722117748,
     "wof:name":"Linton",
     "wof:parent_id":102081477,
     "wof:placetype":"localadmin",
-    "wof:population":1097,
+    "wof:population":1045,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

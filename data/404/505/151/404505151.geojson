@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.016207,
-    "geom:area_square_m":155500051.428477,
+    "geom:area_square_m":155500051.428555,
     "geom:bbox":"-96.519674,39.043232,-96.389043,39.191196",
     "geom:latitude":39.111692,
     "geom:longitude":-96.449123,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.109327,
     "lbl:longitude":-96.448255,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":161,
     "uscensus:geoid":2016180900,
     "uscensus:name":"Zeandale",
     "uscensus:namelsad":"Zeandale township",
+    "uscensus:population":333,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2016180900
+        "uscensus:geoid":"2016180900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459261
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404505151,
-    "wof:lastmodified":1605055279,
+    "wof:lastmodified":1722117898,
     "wof:name":"Zeandale Township",
     "wof:parent_id":102084179,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":341,
+    "wof:population":333,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

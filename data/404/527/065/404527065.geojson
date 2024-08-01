@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006436,
-    "geom:area_square_m":57445563.655052,
+    "geom:area_square_m":57445563.65503,
     "geom:bbox":"-73.23297,43.748664,-73.131342,43.83966",
     "geom:latitude":43.79115,
     "geom:longitude":-73.179963,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.788861,
     "lbl:longitude":-73.175847,
     "lbl:max_zoom":17.0,
@@ -106,22 +112,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":5002171050,
     "uscensus:name":"Sudbury",
     "uscensus:namelsad":"Sudbury town",
+    "uscensus:population":545,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688763,
-        102080771
+        102080771,
+        85688763
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5002171050
+        "uscensus:geoid":"5002171050"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470557
     ],
@@ -140,11 +150,11 @@
         }
     ],
     "wof:id":404527065,
-    "wof:lastmodified":1636499336,
+    "wof:lastmodified":1722118028,
     "wof:name":"Sudbury",
     "wof:parent_id":102080771,
     "wof:placetype":"localadmin",
-    "wof:population":560,
+    "wof:population":545,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

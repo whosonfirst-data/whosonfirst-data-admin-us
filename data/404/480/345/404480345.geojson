@@ -10,6 +10,12 @@
     "geom:latitude":48.877169,
     "geom:longitude":-102.564428,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.876911,
     "lbl:longitude":-102.56617,
     "lbl:max_zoom":18.0,
@@ -205,11 +211,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":3801346540,
     "uscensus:name":"Lignite",
     "uscensus:namelsad":"Lignite city",
+    "uscensus:population":136,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -219,8 +228,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3801346540
+        "uscensus:geoid":"3801346540"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -236,11 +246,11 @@
         }
     ],
     "wof:id":404480345,
-    "wof:lastmodified":1605055918,
+    "wof:lastmodified":1722117744,
     "wof:name":"Lignite",
     "wof:parent_id":102081499,
     "wof:placetype":"localadmin",
-    "wof:population":155,
+    "wof:population":136,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

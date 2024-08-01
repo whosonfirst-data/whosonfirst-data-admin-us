@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008936,
-    "geom:area_square_m":78852305.215492,
+    "geom:area_square_m":78852305.215472,
     "geom:bbox":"-70.360326,44.406957,-70.238904,44.540248",
     "geom:latitude":44.472406,
     "geom:longitude":-70.298567,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.469355,
     "lbl:longitude":-70.304533,
     "lbl:max_zoom":17.0,
@@ -112,11 +118,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":2301710005,
     "uscensus:name":"Canton",
     "uscensus:namelsad":"Canton town",
+    "uscensus:population":1116,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
@@ -126,8 +135,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2301710005
+        "uscensus:geoid":"2301710005"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729477785
     ],
@@ -146,12 +156,12 @@
         }
     ],
     "wof:id":404475731,
-    "wof:lastmodified":1605055839,
+    "wof:lastmodified":1722117710,
     "wof:name":"Canton",
     "wof:parent_id":102087437,
     "wof:placetype":"localadmin",
-    "wof:population":990,
-    "wof:population_rank":2,
+    "wof:population":1116,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

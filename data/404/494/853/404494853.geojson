@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010618,
-    "geom:area_square_m":93427901.944371,
+    "geom:area_square_m":93427901.944355,
     "geom:bbox":"-89.345916,44.591547,-89.223524,44.681488",
     "geom:latitude":44.636693,
     "geom:longitude":-89.283917,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.647618,
     "lbl:longitude":-89.258124,
     "lbl:max_zoom":17.0,
@@ -85,11 +91,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":97,
     "uscensus:geoid":5509700725,
     "uscensus:name":"Alban",
     "uscensus:namelsad":"Alban town",
+    "uscensus:population":862,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -99,8 +108,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5509700725
+        "uscensus:geoid":"5509700725"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466655
     ],
@@ -119,11 +129,11 @@
         }
     ],
     "wof:id":404494853,
-    "wof:lastmodified":1605055973,
+    "wof:lastmodified":1722117835,
     "wof:name":"Alban",
     "wof:parent_id":102081875,
     "wof:placetype":"localadmin",
-    "wof:population":885,
+    "wof:population":862,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

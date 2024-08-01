@@ -134,7 +134,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":551730,
     "uscensus:awater":9970,
     "uscensus:classfp":"C5",
@@ -150,17 +151,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"87580",
     "uscensus:placens":"01036342",
+    "uscensus:population":45,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":619.0,
     "wd:latitude":47.142222,
     "wd:longitude":-99.304167,
     "wd:wordcount":762,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404479771,
         85633793,
-        102082093
+        102082093,
+        404479771,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -169,10 +172,11 @@
         "gn:id":5062583,
         "gp:id":2523871,
         "qs_pg:id":980627,
-        "uscensus:geoid":3887580,
+        "uscensus:geoid":"3887580",
         "wd:id":"Q1876812",
         "wk:page":"Woodworth, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -193,11 +197,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885201,
+    "wof:lastmodified":1722116145,
     "wof:name":"Woodworth",
     "wof:parent_id":404479771,
     "wof:placetype":"locality",
-    "wof:population":50,
+    "wof:population":45,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

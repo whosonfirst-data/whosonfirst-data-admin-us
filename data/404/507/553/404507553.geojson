@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010245,
-    "geom:area_square_m":85977562.866804,
+    "geom:area_square_m":85977562.86681,
     "geom:bbox":"-88.552171,47.199291,-88.298992,47.286254",
     "geom:latitude":47.257663,
     "geom:longitude":-88.440624,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":47.265709,
     "lbl:longitude":-88.438595,
@@ -96,11 +99,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":2606112600,
     "uscensus:name":"Calumet",
     "uscensus:namelsad":"Calumet charter township",
+    "uscensus:population":6279,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -110,8 +116,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2606112600
+        "uscensus:geoid":"2606112600"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -127,11 +134,11 @@
         }
     ],
     "wof:id":404507553,
-    "wof:lastmodified":1605055777,
+    "wof:lastmodified":1722233666,
     "wof:name":"Calumet",
     "wof:parent_id":102083087,
     "wof:placetype":"localadmin",
-    "wof:population":6489,
+    "wof:population":6279,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

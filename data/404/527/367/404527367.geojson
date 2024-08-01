@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012978,
-    "geom:area_square_m":115917780.425191,
+    "geom:area_square_m":115917780.425173,
     "geom:bbox":"-72.423421,43.692399,-72.205219,43.809705",
     "geom:latitude":43.752012,
     "geom:longitude":-72.319097,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.752559,
     "lbl:longitude":-72.326507,
     "lbl:max_zoom":15.0,
@@ -253,11 +259,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":5002752900,
     "uscensus:name":"Norwich",
     "uscensus:namelsad":"Norwich town",
+    "uscensus:population":3643,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -267,8 +276,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5002752900
+        "uscensus:geoid":"5002752900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -284,11 +294,11 @@
         }
     ],
     "wof:id":404527367,
-    "wof:lastmodified":1605055681,
+    "wof:lastmodified":1722118030,
     "wof:name":"Norwich",
     "wof:parent_id":102080777,
     "wof:placetype":"localadmin",
-    "wof:population":3414,
+    "wof:population":3643,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

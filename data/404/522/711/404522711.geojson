@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014671,
-    "geom:area_square_m":132909798.650602,
+    "geom:area_square_m":132909798.650576,
     "geom:bbox":"-74.292928,42.812214,-74.084844,42.954573",
     "geom:latitude":42.890109,
     "geom:longitude":-74.211121,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.881831,
     "lbl:longitude":-74.221363,
     "lbl:max_zoom":15.0,
@@ -553,11 +559,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":57,
     "uscensus:geoid":3605726308,
     "uscensus:name":"Florida",
     "uscensus:namelsad":"Florida town",
+    "uscensus:population":2697,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -567,8 +576,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3605726308
+        "uscensus:geoid":"3605726308"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470013
     ],
@@ -587,11 +597,11 @@
         }
     ],
     "wof:id":404522711,
-    "wof:lastmodified":1605056082,
+    "wof:lastmodified":1722117995,
     "wof:name":"Florida",
     "wof:parent_id":102082985,
     "wof:placetype":"localadmin",
-    "wof:population":2696,
+    "wof:population":2697,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

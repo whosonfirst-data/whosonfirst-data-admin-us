@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.020541,
-    "geom:area_square_m":189475672.429849,
+    "geom:area_square_m":189475672.429844,
     "geom:bbox":"-96.232448,41.68273,-96.064757,41.829424",
     "geom:latitude":41.757236,
     "geom:longitude":-96.158121,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.756164,
     "lbl:longitude":-96.15924,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":3102101955,
     "uscensus:name":"Arizona",
     "uscensus:namelsad":"Arizona township",
+    "uscensus:population":313,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3102101955
+        "uscensus:geoid":"3102101955"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472955
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404518569,
-    "wof:lastmodified":1605055686,
+    "wof:lastmodified":1722117977,
     "wof:name":"Arizona Township",
     "wof:parent_id":102082195,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":326,
+    "wof:population":313,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

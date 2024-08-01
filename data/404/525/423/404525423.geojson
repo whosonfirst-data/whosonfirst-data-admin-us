@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006928,
-    "geom:area_square_m":65659742.047326,
+    "geom:area_square_m":65659742.047343,
     "geom:bbox":"-81.728611,39.928878,-81.630518,40.005506",
     "geom:latitude":39.967089,
     "geom:longitude":-81.679502,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.96717,
     "lbl:longitude":-81.679506,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":59,
     "uscensus:geoid":3905983664,
     "uscensus:name":"Westland",
     "uscensus:namelsad":"Westland township",
+    "uscensus:population":2171,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3905983664
+        "uscensus:geoid":"3905983664"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465429
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404525423,
-    "wof:lastmodified":1605056052,
+    "wof:lastmodified":1722118015,
     "wof:name":"Westland Township",
     "wof:parent_id":102084783,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2073,
+    "wof:population":2171,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

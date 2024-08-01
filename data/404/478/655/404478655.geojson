@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000079,
-    "geom:area_square_m":659947.608655,
+    "geom:area_square_m":659947.608654,
     "geom:bbox":"-97.80112,47.202881,-97.790116,47.210853",
     "geom:latitude":47.207123,
     "geom:longitude":-97.795691,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.207198,
     "lbl:longitude":-97.795691,
     "lbl:max_zoom":18.0,
@@ -61,11 +67,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3800362540,
     "uscensus:name":"Pillsbury",
     "uscensus:namelsad":"Pillsbury city",
+    "uscensus:population":16,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -75,8 +84,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3800362540
+        "uscensus:geoid":"3800362540"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -92,11 +102,11 @@
         }
     ],
     "wof:id":404478655,
-    "wof:lastmodified":1605055349,
+    "wof:lastmodified":1722117732,
     "wof:name":"Pillsbury",
     "wof:parent_id":102082051,
     "wof:placetype":"localadmin",
-    "wof:population":12,
+    "wof:population":16,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

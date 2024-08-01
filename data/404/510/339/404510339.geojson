@@ -10,6 +10,12 @@
     "geom:latitude":46.3798,
     "geom:longitude":-96.130873,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.380438,
     "lbl:longitude":-96.132985,
     "lbl:max_zoom":18.0,
@@ -130,11 +136,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":111,
     "uscensus:geoid":2711118566,
     "uscensus:name":"Elizabeth",
     "uscensus:namelsad":"Elizabeth city",
+    "uscensus:population":167,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -144,8 +153,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2711118566
+        "uscensus:geoid":"2711118566"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -161,11 +171,11 @@
         }
     ],
     "wof:id":404510339,
-    "wof:lastmodified":1605055610,
+    "wof:lastmodified":1722117935,
     "wof:name":"Elizabeth",
     "wof:parent_id":102087803,
     "wof:placetype":"localadmin",
-    "wof:population":173,
+    "wof:population":167,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

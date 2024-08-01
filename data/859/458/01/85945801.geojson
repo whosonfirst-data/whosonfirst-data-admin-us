@@ -11,6 +11,7 @@
     "geom:longitude":-94.744196,
     "gn:id":"4273837,4393217",
     "iso:country":"US",
+    "lbl:bbox":"-94.6501463771,39.0935805169,-94.6101463771,39.1335805169",
     "lbl:latitude":39.106581,
     "lbl:longitude":-94.731189,
     "lbl:max_zoom":18.0,
@@ -115,6 +116,7 @@
     "ne:UN_LAT":0.0,
     "ne:UN_LONG":0.0,
     "ne:WORLDCITY":0,
+    "ne:min_zoom":7.0,
     "qs:a0":"United States",
     "qs:a1":"*Kansas",
     "qs:a1_lc":"20",
@@ -129,12 +131,16 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
+    "reversegeo:latitude":39.113581,
+    "reversegeo:longitude":-94.630146,
     "src:geom":"uscensus",
     "src:geom_alt":[
         "naturalearth",
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":323268973,
     "uscensus:awater":9237729,
     "uscensus:classfp":"C5",
@@ -150,6 +156,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"36000",
     "uscensus:placens":"00485601",
+    "uscensus:population":152933,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"20",
     "wof:belongsto":[
         102191575,
@@ -160,8 +168,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2036000
+        "uscensus:geoid":"2036000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "naturalearth",
@@ -179,14 +188,17 @@
         }
     ],
     "wof:id":85945801,
-    "wof:lastmodified":1613614757,
+    "wof:lastmodified":1722116398,
     "wof:name":"Kansas City",
     "wof:parent_id":404504875,
     "wof:placetype":"locality",
+    "wof:population":152933,
+    "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[
-        1125416233
+        1125416233,
+        1141906271
     ],
     "wof:tags":[]
 },

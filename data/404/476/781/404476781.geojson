@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010513,
-    "geom:area_square_m":95065188.984984,
+    "geom:area_square_m":95065188.984989,
     "geom:bbox":"-70.815269,42.956357,-70.605621,43.059586",
     "geom:latitude":43.001837,
     "geom:longitude":-70.721116,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.008823,
     "lbl:longitude":-70.722732,
     "lbl:max_zoom":15.0,
@@ -346,11 +352,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":3301566180,
     "uscensus:name":"Rye",
     "uscensus:namelsad":"Rye town",
+    "uscensus:population":5605,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":33,
     "wof:belongsto":[
         102191575,
@@ -360,8 +369,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3301566180
+        "uscensus:geoid":"3301566180"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465523
     ],
@@ -380,11 +390,11 @@
         }
     ],
     "wof:id":404476781,
-    "wof:lastmodified":1605055410,
+    "wof:lastmodified":1722117717,
     "wof:name":"Rye",
     "wof:parent_id":102086507,
     "wof:placetype":"localadmin",
-    "wof:population":5298,
+    "wof:population":5605,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

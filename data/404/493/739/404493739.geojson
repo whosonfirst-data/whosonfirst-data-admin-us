@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009348,
-    "geom:area_square_m":81625016.318594,
+    "geom:area_square_m":81625016.318625,
     "geom:bbox":"-92.619455,45.035661,-92.496646,45.122736",
     "geom:latitude":45.074845,
     "geom:longitude":-92.560413,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.070823,
     "lbl:longitude":-92.581834,
     "lbl:max_zoom":15.0,
@@ -184,22 +190,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":109,
     "uscensus:geoid":5510967650,
     "uscensus:name":"Richmond",
     "uscensus:namelsad":"Richmond town",
+    "uscensus:population":4312,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081855
+        102081855,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5510967650
+        "uscensus:geoid":"5510967650"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457473
     ],
@@ -218,11 +228,11 @@
         }
     ],
     "wof:id":404493739,
-    "wof:lastmodified":1636499391,
+    "wof:lastmodified":1722117828,
     "wof:name":"Richmond",
     "wof:parent_id":102081855,
     "wof:placetype":"localadmin",
-    "wof:population":3272,
+    "wof:population":4312,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

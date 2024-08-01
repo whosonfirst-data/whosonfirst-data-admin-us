@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011506,
-    "geom:area_square_m":95235473.697443,
+    "geom:area_square_m":95235473.697508,
     "geom:bbox":"-103.026752,47.934032,-102.898009,48.02385",
     "geom:latitude":47.978972,
     "geom:longitude":-102.962375,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.979037,
     "lbl:longitude":-102.962374,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":53,
     "uscensus:geoid":3805341580,
     "uscensus:name":"Keene",
     "uscensus:namelsad":"Keene township",
+    "uscensus:population":43,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3805341580
+        "uscensus:geoid":"3805341580"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469495
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404480999,
-    "wof:lastmodified":1605055906,
+    "wof:lastmodified":1722117748,
     "wof:name":"Keene Township",
     "wof:parent_id":102082091,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":41,
+    "wof:population":43,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

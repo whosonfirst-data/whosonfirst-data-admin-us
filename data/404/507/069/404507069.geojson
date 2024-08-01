@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01029,
-    "geom:area_square_m":94256249.716902,
+    "geom:area_square_m":94256249.716904,
     "geom:bbox":"-85.296996,42.15825,-85.177962,42.246784",
     "geom:latitude":42.202764,
     "geom:longitude":-85.237394,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.202827,
     "lbl:longitude":-85.237399,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":2602547060,
     "uscensus:name":"Leroy",
     "uscensus:namelsad":"Leroy township",
+    "uscensus:population":3681,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2602547060
+        "uscensus:geoid":"2602547060"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459087
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404507069,
-    "wof:lastmodified":1605055781,
+    "wof:lastmodified":1722117911,
     "wof:name":"Leroy Township",
     "wof:parent_id":102082993,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3712,
+    "wof:population":3681,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

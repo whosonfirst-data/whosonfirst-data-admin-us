@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000212,
-    "geom:area_square_m":2000719.949492,
+    "geom:area_square_m":2000719.949495,
     "geom:bbox":"-75.649788,40.324577,-75.625241,40.341198",
     "geom:latitude":40.33233,
     "geom:longitude":-75.637478,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.332696,
     "lbl:longitude":-75.636461,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":4201107960,
     "uscensus:name":"Boyertown",
     "uscensus:namelsad":"Boyertown borough",
+    "uscensus:population":4257,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201107960
+        "uscensus:geoid":"4201107960"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404484571,
-    "wof:lastmodified":1605055467,
+    "wof:lastmodified":1722117769,
     "wof:name":"Boyertown",
     "wof:parent_id":102080991,
     "wof:placetype":"localadmin",
-    "wof:population":4055,
+    "wof:population":4257,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009729,
-    "geom:area_square_m":92976557.454543,
+    "geom:area_square_m":92976557.454535,
     "geom:bbox":"-90.375927,39.345429,-90.263337,39.433059",
     "geom:latitude":39.389121,
     "geom:longitude":-90.319727,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.389242,
     "lbl:longitude":-90.319733,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":1706183583,
     "uscensus:name":"Wrights",
     "uscensus:namelsad":"Wrights township",
+    "uscensus:population":216,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1706183583
+        "uscensus:geoid":"1706183583"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474963
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404496111,
-    "wof:lastmodified":1605055600,
+    "wof:lastmodified":1722117841,
     "wof:name":"Wrights Township",
     "wof:parent_id":102083529,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":314,
+    "wof:population":216,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

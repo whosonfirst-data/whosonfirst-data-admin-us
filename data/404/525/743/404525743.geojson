@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001578,
-    "geom:area_square_m":14685568.712267,
+    "geom:area_square_m":14685568.712281,
     "geom:bbox":"-81.278924,41.138375,-81.213134,41.190791",
     "geom:latitude":41.161358,
     "geom:longitude":-81.242036,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.156697,
     "lbl:longitude":-81.24258,
     "lbl:max_zoom":15.0,
@@ -301,11 +307,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":133,
     "uscensus:geoid":3913365592,
     "uscensus:name":"Ravenna",
     "uscensus:namelsad":"Ravenna city",
+    "uscensus:population":11215,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -315,8 +324,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3913365592
+        "uscensus:geoid":"3913365592"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -332,11 +342,11 @@
         }
     ],
     "wof:id":404525743,
-    "wof:lastmodified":1605056063,
+    "wof:lastmodified":1722118018,
     "wof:name":"Ravenna",
     "wof:parent_id":102084819,
     "wof:placetype":"localadmin",
-    "wof:population":11724,
+    "wof:population":11215,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

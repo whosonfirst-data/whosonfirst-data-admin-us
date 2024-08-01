@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004952,
-    "geom:area_square_m":46300581.557671,
+    "geom:area_square_m":46300581.557684,
     "geom:bbox":"-76.43258,40.842708,-76.322434,40.933281",
     "geom:latitude":40.879715,
     "geom:longitude":-76.386088,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.874015,
     "lbl:longitude":-76.386924,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":37,
     "uscensus:geoid":4203744208,
     "uscensus:name":"Locust",
     "uscensus:namelsad":"Locust township",
+    "uscensus:population":1458,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4203744208
+        "uscensus:geoid":"4203744208"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404485395,
-    "wof:lastmodified":1605055364,
+    "wof:lastmodified":1722117774,
     "wof:name":"Locust Township",
     "wof:parent_id":102080973,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1404,
+    "wof:population":1458,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

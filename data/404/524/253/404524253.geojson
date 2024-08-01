@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010994,
-    "geom:area_square_m":102539892.911546,
+    "geom:area_square_m":102539892.911558,
     "geom:bbox":"-82.958694,40.9936,-82.829512,41.08107",
     "geom:latitude":41.037243,
     "geom:longitude":-82.894943,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.037212,
     "lbl:longitude":-82.894947,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":147,
     "uscensus:geoid":3914779674,
     "uscensus:name":"Venice",
     "uscensus:namelsad":"Venice township",
+    "uscensus:population":1647,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3914779674
+        "uscensus:geoid":"3914779674"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404524253,
-    "wof:lastmodified":1605056114,
+    "wof:lastmodified":1722233682,
     "wof:name":"Venice Township",
     "wof:parent_id":102084717,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1758,
+    "wof:population":1647,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

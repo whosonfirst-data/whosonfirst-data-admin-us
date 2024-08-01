@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010104,
-    "geom:area_square_m":89966940.417825,
+    "geom:area_square_m":89966940.417816,
     "geom:bbox":"-89.59812,43.894077,-89.4822,43.982384",
     "geom:latitude":43.938398,
     "geom:longitude":-89.540202,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.938267,
     "lbl:longitude":-89.540204,
     "lbl:max_zoom":17.0,
@@ -199,22 +205,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":77,
     "uscensus:geoid":5507775925,
     "uscensus:name":"Springfield",
     "uscensus:namelsad":"Springfield town",
+    "uscensus:population":828,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081849
+        102081849,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5507775925
+        "uscensus:geoid":"5507775925"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466705
     ],
@@ -233,11 +243,11 @@
         }
     ],
     "wof:id":404494057,
-    "wof:lastmodified":1636499406,
+    "wof:lastmodified":1722117830,
     "wof:name":"Springfield",
     "wof:parent_id":102081849,
     "wof:placetype":"localadmin",
-    "wof:population":830,
+    "wof:population":828,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

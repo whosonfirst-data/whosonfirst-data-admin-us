@@ -169,7 +169,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":3155571,
     "uscensus:awater":8911,
     "uscensus:classfp":"C5",
@@ -185,17 +186,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"18134",
     "uscensus:placens":"02394615",
+    "uscensus:population":1056,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"27",
     "wd:elevation":340.0,
     "wd:latitude":45.326111,
     "wd:longitude":-94.546111,
     "wd:wordcount":833,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404509997,
         85633793,
-        102087663
+        102087663,
+        404509997,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -204,10 +207,11 @@
         "gn:id":5025225,
         "gp:id":2397030,
         "qs_pg:id":1075819,
-        "uscensus:geoid":2718134,
+        "uscensus:geoid":"2718134",
         "wd:id":"Q1865486",
         "wk:page":"Eden Valley, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -228,11 +232,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690886387,
+    "wof:lastmodified":1722116219,
     "wof:name":"Eden Valley",
     "wof:parent_id":404509997,
     "wof:placetype":"locality",
-    "wof:population":1042,
+    "wof:population":1056,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

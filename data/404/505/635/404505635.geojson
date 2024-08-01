@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010505,
-    "geom:area_square_m":90897375.849599,
+    "geom:area_square_m":90897375.849595,
     "geom:bbox":"-84.853192,45.550763,-84.730606,45.637221",
     "geom:latitude":45.593931,
     "geom:longitude":-84.791827,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.593885,
     "lbl:longitude":-84.79182,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":47,
     "uscensus:geoid":2604750340,
     "uscensus:name":"McKinley",
     "uscensus:namelsad":"McKinley township",
+    "uscensus:population":1300,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2604750340
+        "uscensus:geoid":"2604750340"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404505635,
-    "wof:lastmodified":1605055283,
+    "wof:lastmodified":1722233664,
     "wof:name":"Mckinley Township",
     "wof:parent_id":102083073,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1297,
+    "wof:population":1300,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

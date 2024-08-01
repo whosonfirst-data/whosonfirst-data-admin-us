@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006753,
-    "geom:area_square_m":63409412.210475,
+    "geom:area_square_m":63409412.210509,
     "geom:bbox":"-75.404412,40.536767,-75.25654,40.644277",
     "geom:latitude":40.588146,
     "geom:longitude":-75.318811,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.582643,
     "lbl:longitude":-75.301511,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":4209545104,
     "uscensus:name":"Lower Saucon",
     "uscensus:namelsad":"Lower Saucon township",
+    "uscensus:population":11022,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4209545104
+        "uscensus:geoid":"4209545104"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460659
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404486367,
-    "wof:lastmodified":1605055869,
+    "wof:lastmodified":1722117779,
     "wof:name":"Lower Saucon Township",
     "wof:parent_id":102081395,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":10772,
+    "wof:population":11022,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

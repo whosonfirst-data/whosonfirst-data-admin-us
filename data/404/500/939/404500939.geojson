@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005675,
-    "geom:area_square_m":52715753.206541,
+    "geom:area_square_m":52715753.206439,
     "geom:bbox":"-86.058348,41.224891,-85.997842,41.346883",
     "geom:latitude":41.297394,
     "geom:longitude":-86.028527,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.297291,
     "lbl:longitude":-86.027948,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":85,
     "uscensus:geoid":1808521466,
     "uscensus:name":"Etna",
     "uscensus:namelsad":"Etna township",
+    "uscensus:population":1485,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1808521466
+        "uscensus:geoid":"1808521466"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404500939,
-    "wof:lastmodified":1604530773,
+    "wof:lastmodified":1722233651,
     "wof:name":"Etna Township",
     "wof:parent_id":102087157,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1503,
+    "wof:population":1485,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

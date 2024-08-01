@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009926,
-    "geom:area_square_m":93352955.066367,
+    "geom:area_square_m":93352955.066425,
     "geom:bbox":"-97.482773,40.437379,-97.368621,40.524546",
     "geom:latitude":40.480996,
     "geom:longitude":-97.425696,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.480961,
     "lbl:longitude":-97.425696,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":59,
     "uscensus:geoid":3105918965,
     "uscensus:name":"Glengary",
     "uscensus:namelsad":"Glengary township",
+    "uscensus:population":341,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3105918965
+        "uscensus:geoid":"3105918965"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404519893,
-    "wof:lastmodified":1605055665,
+    "wof:lastmodified":1722233672,
     "wof:name":"Glengary Township",
     "wof:parent_id":102084289,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":384,
+    "wof:population":341,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

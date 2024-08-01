@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00962,
-    "geom:area_square_m":86093976.349874,
+    "geom:area_square_m":86093976.349823,
     "geom:bbox":"-97.009796,43.587059,-96.890457,43.674423",
     "geom:latitude":43.63151,
     "geom:longitude":-96.950797,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.64696,
     "lbl:longitude":-96.975941,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":4609927580,
     "uscensus:name":"Hartford",
     "uscensus:namelsad":"Hartford township",
+    "uscensus:population":685,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4609927580
+        "uscensus:geoid":"4609927580"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470525
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404491173,
-    "wof:lastmodified":1605055581,
+    "wof:lastmodified":1722117811,
     "wof:name":"Hartford Township",
     "wof:parent_id":102086007,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":699,
+    "wof:population":685,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002214,
-    "geom:area_square_m":19826150.247057,
+    "geom:area_square_m":19826150.247055,
     "geom:bbox":"-73.011453,43.586739,-72.945458,43.631169",
     "geom:latitude":43.609163,
     "geom:longitude":-72.978151,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.607859,
     "lbl:longitude":-72.978786,
     "lbl:max_zoom":15.0,
@@ -211,22 +217,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":5002161225,
     "uscensus:name":"Rutland",
     "uscensus:namelsad":"Rutland city",
+    "uscensus:population":15630,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688763,
-        102080771
+        102080771,
+        85688763
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5002161225
+        "uscensus:geoid":"5002161225"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -242,11 +252,11 @@
         }
     ],
     "wof:id":404527405,
-    "wof:lastmodified":1636499339,
+    "wof:lastmodified":1722118030,
     "wof:name":"Rutland",
     "wof:parent_id":102080771,
     "wof:placetype":"localadmin",
-    "wof:population":16495,
+    "wof:population":15630,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

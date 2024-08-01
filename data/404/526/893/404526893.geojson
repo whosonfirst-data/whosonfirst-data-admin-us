@@ -10,6 +10,12 @@
     "geom:latitude":40.385424,
     "geom:longitude":-82.473362,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.394982,
     "lbl:longitude":-82.477542,
     "lbl:max_zoom":15.0,
@@ -133,11 +139,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":83,
     "uscensus:geoid":3908353102,
     "uscensus:name":"Mount Vernon",
     "uscensus:namelsad":"Mount Vernon city",
+    "uscensus:population":16551,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -147,8 +156,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3908353102
+        "uscensus:geoid":"3908353102"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -164,11 +174,11 @@
         }
     ],
     "wof:id":404526893,
-    "wof:lastmodified":1605055648,
+    "wof:lastmodified":1722118026,
     "wof:name":"Mount Vernon",
     "wof:parent_id":102084811,
     "wof:placetype":"localadmin",
-    "wof:population":16990,
+    "wof:population":16551,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

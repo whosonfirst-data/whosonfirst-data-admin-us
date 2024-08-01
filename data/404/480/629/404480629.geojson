@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010499,
-    "geom:area_square_m":86616278.912832,
+    "geom:area_square_m":86616278.912842,
     "geom:bbox":"-97.25536,48.106479,-97.120592,48.193915",
     "geom:latitude":48.148577,
     "geom:longitude":-97.19415,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.150139,
     "lbl:longitude":-97.194152,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":3803580060,
     "uscensus:name":"Turtle River",
     "uscensus:namelsad":"Turtle River township",
+    "uscensus:population":165,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3803580060
+        "uscensus:geoid":"3803580060"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470455
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404480629,
-    "wof:lastmodified":1605055908,
+    "wof:lastmodified":1722117745,
     "wof:name":"Turtle River Township",
     "wof:parent_id":102081493,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":174,
+    "wof:population":165,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

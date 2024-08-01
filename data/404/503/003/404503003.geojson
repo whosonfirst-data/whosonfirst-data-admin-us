@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009763,
-    "geom:area_square_m":92764325.157061,
+    "geom:area_square_m":92764325.157054,
     "geom:bbox":"-99.178946,39.7417,-99.066377,39.829133",
     "geom:latitude":39.785341,
     "geom:longitude":-99.122587,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.785322,
     "lbl:longitude":-99.122588,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":147,
     "uscensus:geoid":2014756775,
     "uscensus:name":"Plum",
     "uscensus:namelsad":"Plum township",
+    "uscensus:population":309,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2014756775
+        "uscensus:geoid":"2014756775"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404503003,
-    "wof:lastmodified":1605055327,
+    "wof:lastmodified":1722233658,
     "wof:name":"Plum Township",
     "wof:parent_id":102082123,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":379,
+    "wof:population":309,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

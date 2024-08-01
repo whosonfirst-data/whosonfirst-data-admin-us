@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005068,
-    "geom:area_square_m":46500670.976961,
+    "geom:area_square_m":46500670.976934,
     "geom:bbox":"-71.592748,42.063695,-71.495282,42.142637",
     "geom:latitude":42.093015,
     "geom:longitude":-71.55148,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.093679,
     "lbl:longitude":-71.562123,
     "lbl:max_zoom":15.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":2502740255,
     "uscensus:name":"Mendon",
     "uscensus:namelsad":"Mendon town",
+    "uscensus:population":6331,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2502740255
+        "uscensus:geoid":"2502740255"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464929
     ],
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404476663,
-    "wof:lastmodified":1605055407,
+    "wof:lastmodified":1722117716,
     "wof:name":"Mendon",
     "wof:parent_id":102084655,
     "wof:placetype":"localadmin",
-    "wof:population":5839,
+    "wof:population":6331,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000075,
-    "geom:area_square_m":682258.68081,
+    "geom:area_square_m":682258.680811,
     "geom:bbox":"-97.502627,42.977339,-97.491391,42.984907",
     "geom:latitude":42.981085,
     "geom:longitude":-97.496661,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.981043,
     "lbl:longitude":-97.496661,
     "lbl:max_zoom":18.0,
@@ -103,11 +109,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":135,
     "uscensus:geoid":4613565780,
     "uscensus:name":"Utica",
     "uscensus:namelsad":"Utica town",
+    "uscensus:population":71,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -117,8 +126,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4613565780
+        "uscensus:geoid":"4613565780"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -134,11 +144,11 @@
         }
     ],
     "wof:id":404491327,
-    "wof:lastmodified":1605055590,
+    "wof:lastmodified":1722117812,
     "wof:name":"Utica",
     "wof:parent_id":102086043,
     "wof:placetype":"localadmin",
-    "wof:population":65,
+    "wof:population":71,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

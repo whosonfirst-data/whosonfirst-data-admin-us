@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000359,
-    "geom:area_square_m":3161290.174231,
+    "geom:area_square_m":3161290.174216,
     "geom:bbox":"-94.994701,44.541757,-94.971941,44.563234",
     "geom:latitude":44.553344,
     "geom:longitude":-94.984916,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.553242,
     "lbl:longitude":-94.984701,
     "lbl:max_zoom":17.0,
@@ -100,11 +106,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":129,
     "uscensus:geoid":2712944368,
     "uscensus:name":"Morton",
     "uscensus:namelsad":"Morton city",
+    "uscensus:population":397,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -114,8 +123,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2712944368
+        "uscensus:geoid":"2712944368"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -131,11 +141,11 @@
         }
     ],
     "wof:id":404512487,
-    "wof:lastmodified":1605056131,
+    "wof:lastmodified":1722117951,
     "wof:name":"Morton",
     "wof:parent_id":102087655,
     "wof:placetype":"localadmin",
-    "wof:population":411,
+    "wof:population":397,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

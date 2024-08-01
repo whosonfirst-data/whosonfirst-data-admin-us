@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00843,
-    "geom:area_square_m":78352966.446633,
+    "geom:area_square_m":78352966.446589,
     "geom:bbox":"-96.563788,41.219195,-96.463944,41.307333",
     "geom:latitude":41.262097,
     "geom:longitude":-96.51519,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.263312,
     "lbl:longitude":-96.515859,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":155,
     "uscensus:geoid":3115530590,
     "uscensus:name":"Marietta",
     "uscensus:namelsad":"Marietta township",
+    "uscensus:population":949,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3115530590
+        "uscensus:geoid":"3115530590"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404519163,
-    "wof:lastmodified":1605055669,
+    "wof:lastmodified":1722233671,
     "wof:name":"Marietta Township",
     "wof:parent_id":102082199,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":843,
+    "wof:population":949,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

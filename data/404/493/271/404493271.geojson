@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009543,
-    "geom:area_square_m":86084663.862187,
+    "geom:area_square_m":86084663.862183,
     "geom:bbox":"-89.129588,43.108439,-89.008832,43.197724",
     "geom:latitude":43.15141,
     "geom:longitude":-89.069649,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.134728,
     "lbl:longitude":-89.06823,
     "lbl:max_zoom":16.0,
@@ -379,11 +385,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":5502550475,
     "uscensus:name":"Medina",
     "uscensus:namelsad":"Medina town",
+    "uscensus:population":1315,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -393,8 +402,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5502550475
+        "uscensus:geoid":"5502550475"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461287
     ],
@@ -413,11 +423,11 @@
         }
     ],
     "wof:id":404493271,
-    "wof:lastmodified":1605055952,
+    "wof:lastmodified":1722117825,
     "wof:name":"Medina",
     "wof:parent_id":102081795,
     "wof:placetype":"localadmin",
-    "wof:population":1376,
+    "wof:population":1315,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010989,
-    "geom:area_square_m":95216681.75083,
+    "geom:area_square_m":95216681.750806,
     "geom:bbox":"-89.672443,45.46687,-89.548289,45.555915",
     "geom:latitude":45.511428,
     "geom:longitude":-89.610304,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.511441,
     "lbl:longitude":-89.610319,
     "lbl:max_zoom":17.0,
@@ -274,11 +280,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":69,
     "uscensus:geoid":5506939675,
     "uscensus:name":"King",
     "uscensus:namelsad":"King town",
+    "uscensus:population":985,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -288,8 +297,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5506939675
+        "uscensus:geoid":"5506939675"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469163
     ],
@@ -308,11 +318,11 @@
         }
     ],
     "wof:id":404491999,
-    "wof:lastmodified":1605055575,
+    "wof:lastmodified":1722117816,
     "wof:name":"King",
     "wof:parent_id":102081889,
     "wof:placetype":"localadmin",
-    "wof:population":855,
+    "wof:population":985,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

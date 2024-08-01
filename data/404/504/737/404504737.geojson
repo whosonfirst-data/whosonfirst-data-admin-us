@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011509,
-    "geom:area_square_m":112468203.896008,
+    "geom:area_square_m":112468203.896081,
     "geom:bbox":"-97.812046,37.733779,-97.698692,37.839831",
     "geom:latitude":37.786912,
     "geom:longitude":-97.754102,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.78683,
     "lbl:longitude":-97.754102,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":155,
     "uscensus:geoid":2015569200,
     "uscensus:name":"Sumner",
     "uscensus:namelsad":"Sumner township",
+    "uscensus:population":676,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2015569200
+        "uscensus:geoid":"2015569200"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464071
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404504737,
-    "wof:lastmodified":1605055295,
+    "wof:lastmodified":1722117895,
     "wof:name":"Sumner Township",
     "wof:parent_id":102082171,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":654,
+    "wof:population":676,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

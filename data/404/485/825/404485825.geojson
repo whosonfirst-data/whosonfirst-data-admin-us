@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002371,
-    "geom:area_square_m":22371676.01437,
+    "geom:area_square_m":22371676.01435,
     "geom:bbox":"-76.477606,40.2284,-76.424576,40.296687",
     "geom:latitude":40.265723,
     "geom:longitude":-76.452633,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.265743,
     "lbl:longitude":-76.455272,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":75,
     "uscensus:geoid":4207582752,
     "uscensus:name":"West Cornwall",
     "uscensus:namelsad":"West Cornwall township",
+    "uscensus:population":1998,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207582752
+        "uscensus:geoid":"4207582752"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404485825,
-    "wof:lastmodified":1605055369,
+    "wof:lastmodified":1722117776,
     "wof:name":"West Cornwall Township",
     "wof:parent_id":102081341,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1976,
+    "wof:population":1998,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

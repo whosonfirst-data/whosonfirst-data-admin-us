@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009658,
-    "geom:area_square_m":92055196.367748,
+    "geom:area_square_m":92055196.367782,
     "geom:bbox":"-93.871145,39.524558,-93.758357,39.61268",
     "geom:latitude":39.568806,
     "geom:longitude":-93.814861,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.568667,
     "lbl:longitude":-93.814859,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":2902518370,
     "uscensus:name":"Davis",
     "uscensus:namelsad":"Davis township",
+    "uscensus:population":1100,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":29,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2902518370
+        "uscensus:geoid":"2902518370"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404515423,
-    "wof:lastmodified":1604530790,
+    "wof:lastmodified":1722233668,
     "wof:name":"Davis Township",
     "wof:parent_id":102085265,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1219,
+    "wof:population":1100,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

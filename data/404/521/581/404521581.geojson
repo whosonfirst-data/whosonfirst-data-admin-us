@@ -10,6 +10,12 @@
     "geom:latitude":44.70877,
     "geom:longitude":-75.471784,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.708561,
     "lbl:longitude":-75.471767,
     "lbl:max_zoom":15.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":89,
     "uscensus:geoid":3608954485,
     "uscensus:name":"Ogdensburg",
     "uscensus:namelsad":"Ogdensburg city",
+    "uscensus:population":9304,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3608954485
+        "uscensus:geoid":"3608954485"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,12 +117,12 @@
         }
     ],
     "wof:id":404521581,
-    "wof:lastmodified":1605055631,
+    "wof:lastmodified":1722117987,
     "wof:name":"Ogdensburg",
     "wof:parent_id":102082379,
     "wof:placetype":"localadmin",
-    "wof:population":11128,
-    "wof:population_rank":6,
+    "wof:population":9304,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

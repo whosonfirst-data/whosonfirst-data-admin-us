@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.03491,
-    "geom:area_square_m":297785645.433928,
+    "geom:area_square_m":297785645.433996,
     "geom:bbox":"-90.114573,46.263573,-89.740503,46.506224",
     "geom:latitude":46.38188,
     "geom:longitude":-89.932431,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.382157,
     "lbl:longitude":-89.925124,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":53,
     "uscensus:geoid":2605307980,
     "uscensus:name":"Bessemer",
     "uscensus:namelsad":"Bessemer township",
+    "uscensus:population":1120,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2605307980
+        "uscensus:geoid":"2605307980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470895
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404506659,
-    "wof:lastmodified":1605055755,
+    "wof:lastmodified":1722117909,
     "wof:name":"Bessemer Township",
     "wof:parent_id":102083009,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1176,
+    "wof:population":1120,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

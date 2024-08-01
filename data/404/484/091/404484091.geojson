@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000049,
-    "geom:area_square_m":462106.793548,
+    "geom:area_square_m":462106.793551,
     "geom:bbox":"-79.156191,40.390266,-79.146612,40.399569",
     "geom:latitude":40.395267,
     "geom:longitude":-79.152099,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.395278,
     "lbl:longitude":-79.152025,
     "lbl:max_zoom":17.0,
@@ -43,22 +49,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":129,
     "uscensus:geoid":4212907480,
     "uscensus:name":"Bolivar",
     "uscensus:namelsad":"Bolivar borough",
+    "uscensus:population":426,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688481,
-        102081383
+        102081383,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212907480
+        "uscensus:geoid":"4212907480"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404484091,
-    "wof:lastmodified":1636499299,
+    "wof:lastmodified":1722117766,
     "wof:name":"Bolivar",
     "wof:parent_id":102081383,
     "wof:placetype":"localadmin",
-    "wof:population":465,
+    "wof:population":426,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005822,
-    "geom:area_square_m":55358347.976359,
+    "geom:area_square_m":55358347.97627,
     "geom:bbox":"-75.378282,39.689451,-75.265003,39.792834",
     "geom:latitude":39.740028,
     "geom:longitude":-75.317007,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.729521,
     "lbl:longitude":-75.341282,
     "lbl:max_zoom":15.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":3401582840,
     "uscensus:name":"Woolwich",
     "uscensus:namelsad":"Woolwich township",
+    "uscensus:population":13839,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3401582840
+        "uscensus:geoid":"3401582840"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729477311
     ],
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404478125,
-    "wof:lastmodified":1605055352,
+    "wof:lastmodified":1722117727,
     "wof:name":"Woolwich Township",
     "wof:parent_id":102085999,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":10200,
+    "wof:population":13839,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

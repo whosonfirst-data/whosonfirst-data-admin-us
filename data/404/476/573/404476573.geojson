@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.025353,
-    "geom:area_square_m":231754053.315294,
+    "geom:area_square_m":231754053.315313,
     "geom:bbox":"-71.191249,42.227926,-70.748802,42.40082",
     "geom:latitude":42.332235,
     "geom:longitude":-71.016397,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.346415,
     "lbl:longitude":-71.038418,
     "lbl:max_zoom":13.0,
@@ -487,11 +493,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":2502507000,
     "uscensus:name":"Boston",
     "uscensus:namelsad":"Boston city",
+    "uscensus:population":653833,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -501,8 +510,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2502507000
+        "uscensus:geoid":"2502507000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -518,11 +528,11 @@
         }
     ],
     "wof:id":404476573,
-    "wof:lastmodified":1605055402,
+    "wof:lastmodified":1722117716,
     "wof:name":"Boston",
     "wof:parent_id":102084423,
     "wof:placetype":"localadmin",
-    "wof:population":617594,
+    "wof:population":653833,
     "wof:population_rank":11,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

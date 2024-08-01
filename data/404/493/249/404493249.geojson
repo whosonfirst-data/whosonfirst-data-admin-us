@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.018809,
-    "geom:area_square_m":169374217.164566,
+    "geom:area_square_m":169374217.164562,
     "geom:bbox":"-91.12097,43.205153,-90.901855,43.321318",
     "geom:latitude":43.260673,
     "geom:longitude":-90.998001,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.258078,
     "lbl:longitude":-90.988241,
     "lbl:max_zoom":17.0,
@@ -124,11 +130,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":5502372500,
     "uscensus:name":"Seneca",
     "uscensus:namelsad":"Seneca town",
+    "uscensus:population":925,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -138,8 +147,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5502372500
+        "uscensus:geoid":"5502372500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461223
     ],
@@ -158,11 +168,11 @@
         }
     ],
     "wof:id":404493249,
-    "wof:lastmodified":1605055952,
+    "wof:lastmodified":1722117824,
     "wof:name":"Seneca",
     "wof:parent_id":102081315,
     "wof:placetype":"localadmin",
-    "wof:population":866,
+    "wof:population":925,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

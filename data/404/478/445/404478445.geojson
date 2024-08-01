@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000829,
-    "geom:area_square_m":7752653.639189,
+    "geom:area_square_m":7752653.639195,
     "geom:bbox":"-74.623648,40.862414,-74.577823,40.901046",
     "geom:latitude":40.878225,
     "geom:longitude":-74.599951,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.879274,
     "lbl:longitude":-74.600295,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":3402746860,
     "uscensus:name":"Mine Hill",
     "uscensus:namelsad":"Mine Hill township",
+    "uscensus:population":4006,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3402746860
+        "uscensus:geoid":"3402746860"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476385
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404478445,
-    "wof:lastmodified":1605055348,
+    "wof:lastmodified":1722117730,
     "wof:name":"Mine Hill Township",
     "wof:parent_id":102087413,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3651,
+    "wof:population":4006,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

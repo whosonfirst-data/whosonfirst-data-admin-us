@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000115,
-    "geom:area_square_m":999347.956517,
+    "geom:area_square_m":999347.956518,
     "geom:bbox":"-96.292874,45.129322,-96.277564,45.141765",
     "geom:latitude":45.136436,
     "geom:longitude":-96.284097,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.137181,
     "lbl:longitude":-96.283949,
     "lbl:max_zoom":18.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":73,
     "uscensus:geoid":2707304960,
     "uscensus:name":"Bellingham",
     "uscensus:namelsad":"Bellingham city",
+    "uscensus:population":143,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2707304960
+        "uscensus:geoid":"2707304960"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404509939,
-    "wof:lastmodified":1605055785,
+    "wof:lastmodified":1722117933,
     "wof:name":"Bellingham",
     "wof:parent_id":102087677,
     "wof:placetype":"localadmin",
-    "wof:population":168,
+    "wof:population":143,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001602,
-    "geom:area_square_m":15011237.196759,
+    "geom:area_square_m":15011237.196756,
     "geom:bbox":"-74.679476,40.694675,-74.629274,40.741142",
     "geom:latitude":40.71681,
     "geom:longitude":-74.656084,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.715346,
     "lbl:longitude":-74.658116,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":3403557300,
     "uscensus:name":"Peapack and Gladstone",
     "uscensus:namelsad":"Peapack and Gladstone borough",
+    "uscensus:population":2538,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3403557300
+        "uscensus:geoid":"3403557300"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404477933,
-    "wof:lastmodified":1605055426,
+    "wof:lastmodified":1722117726,
     "wof:name":"Peapack And Gladstone",
     "wof:parent_id":102085045,
     "wof:placetype":"localadmin",
-    "wof:population":2582,
+    "wof:population":2538,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014426,
-    "geom:area_square_m":131692238.669889,
+    "geom:area_square_m":131692238.669884,
     "geom:bbox":"-75.866573,42.379121,-75.655904,42.457597",
     "geom:latitude":42.417304,
     "geom:longitude":-75.758736,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.416489,
     "lbl:longitude":-75.746095,
     "lbl:max_zoom":16.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":3601768055,
     "uscensus:name":"Smithville",
     "uscensus:namelsad":"Smithville town",
+    "uscensus:population":1231,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3601768055
+        "uscensus:geoid":"3601768055"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404522157,
-    "wof:lastmodified":1605056065,
+    "wof:lastmodified":1722117991,
     "wof:name":"Smithville",
     "wof:parent_id":102082367,
     "wof:placetype":"localadmin",
-    "wof:population":1330,
+    "wof:population":1231,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

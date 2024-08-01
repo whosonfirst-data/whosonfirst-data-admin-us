@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010518,
-    "geom:area_square_m":92625254.21626,
+    "geom:area_square_m":92625254.216202,
     "geom:bbox":"-97.370897,44.543333,-97.248929,44.630264",
     "geom:latitude":44.586809,
     "geom:longitude":-97.309991,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.586812,
     "lbl:longitude":-97.309992,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":57,
     "uscensus:geoid":4605712860,
     "uscensus:name":"Cleveland",
     "uscensus:namelsad":"Cleveland township",
+    "uscensus:population":293,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4605712860
+        "uscensus:geoid":"4605712860"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478381
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404489063,
-    "wof:lastmodified":1605055926,
+    "wof:lastmodified":1722117798,
     "wof:name":"Cleveland Township",
     "wof:parent_id":102086845,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":251,
+    "wof:population":293,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

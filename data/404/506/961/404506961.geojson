@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008898,
-    "geom:area_square_m":78280740.514336,
+    "geom:area_square_m":78280740.514348,
     "geom:bbox":"-86.039289,44.601119,-85.936516,44.690006",
     "geom:latitude":44.645715,
     "geom:longitude":-85.988217,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.645974,
     "lbl:longitude":-85.988217,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":2601939000,
     "uscensus:name":"Homestead",
     "uscensus:namelsad":"Homestead township",
+    "uscensus:population":2399,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2601939000
+        "uscensus:geoid":"2601939000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404506961,
-    "wof:lastmodified":1605055758,
+    "wof:lastmodified":1722233666,
     "wof:name":"Homestead Township",
     "wof:parent_id":102082999,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2357,
+    "wof:population":2399,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

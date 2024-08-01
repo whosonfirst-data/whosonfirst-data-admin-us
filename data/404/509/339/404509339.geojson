@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000617,
-    "geom:area_square_m":5235115.244098,
+    "geom:area_square_m":5235115.244097,
     "geom:bbox":"-92.894906,46.67231,-92.85118,46.68682",
     "geom:latitude":46.679504,
     "geom:longitude":-92.873081,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.679545,
     "lbl:longitude":-92.873081,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":2701713780,
     "uscensus:name":"Cromwell",
     "uscensus:namelsad":"Cromwell city",
+    "uscensus:population":246,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2701713780
+        "uscensus:geoid":"2701713780"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404509339,
-    "wof:lastmodified":1605055785,
+    "wof:lastmodified":1722117928,
     "wof:name":"Cromwell",
     "wof:parent_id":102087809,
     "wof:placetype":"localadmin",
-    "wof:population":234,
+    "wof:population":246,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009561,
-    "geom:area_square_m":90221661.769892,
+    "geom:area_square_m":90221661.769888,
     "geom:bbox":"-81.108945,40.221565,-80.971268,40.297443",
     "geom:latitude":40.2606,
     "geom:longitude":-81.04024,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.260728,
     "lbl:longitude":-81.040241,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":67,
     "uscensus:geoid":3906710814,
     "uscensus:name":"Cadiz",
     "uscensus:namelsad":"Cadiz township",
+    "uscensus:population":3308,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3906710814
+        "uscensus:geoid":"3906710814"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404525569,
-    "wof:lastmodified":1605056048,
+    "wof:lastmodified":1722233686,
     "wof:name":"Cadiz Township",
     "wof:parent_id":102083669,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3689,
+    "wof:population":3308,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

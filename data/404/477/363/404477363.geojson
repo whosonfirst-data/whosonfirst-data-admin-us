@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000467,
-    "geom:area_square_m":4385263.087076,
+    "geom:area_square_m":4385263.087079,
     "geom:bbox":"-74.557548,40.555196,-74.523475,40.581839",
     "geom:latitude":40.56764,
     "geom:longitude":-74.538333,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.566091,
     "lbl:longitude":-74.535242,
     "lbl:max_zoom":15.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":3403506790,
     "uscensus:name":"Bound Brook",
     "uscensus:namelsad":"Bound Brook borough",
+    "uscensus:population":12371,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3403506790
+        "uscensus:geoid":"3403506790"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404477363,
-    "wof:lastmodified":1605055415,
+    "wof:lastmodified":1722117722,
     "wof:name":"Bound Brook",
     "wof:parent_id":102085045,
     "wof:placetype":"localadmin",
-    "wof:population":10402,
+    "wof:population":12371,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

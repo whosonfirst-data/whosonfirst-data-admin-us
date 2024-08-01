@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010823,
-    "geom:area_square_m":93296633.125165,
+    "geom:area_square_m":93296633.1252,
     "geom:bbox":"-96.13046,45.759436,-96.005936,45.84682",
     "geom:latitude":45.803129,
     "geom:longitude":-96.068247,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.803137,
     "lbl:longitude":-96.068247,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":2705139194,
     "uscensus:name":"Macsville",
     "uscensus:namelsad":"Macsville township",
+    "uscensus:population":110,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2705139194
+        "uscensus:geoid":"2705139194"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459891
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404511811,
-    "wof:lastmodified":1605055716,
+    "wof:lastmodified":1722117946,
     "wof:name":"Macsville Township",
     "wof:parent_id":102087739,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":114,
+    "wof:population":110,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

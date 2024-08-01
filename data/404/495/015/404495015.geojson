@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01006,
-    "geom:area_square_m":91506534.604755,
+    "geom:area_square_m":91506534.604838,
     "geom:bbox":"-90.662416,42.594415,-90.543619,42.682121",
     "geom:latitude":42.638695,
     "geom:longitude":-90.603325,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.649148,
     "lbl:longitude":-90.628655,
     "lbl:max_zoom":17.0,
@@ -751,11 +757,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":43,
     "uscensus:geoid":5504361150,
     "uscensus:name":"Paris",
     "uscensus:namelsad":"Paris town",
+    "uscensus:population":670,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -765,8 +774,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5504361150
+        "uscensus:geoid":"5504361150"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468399
     ],
@@ -785,11 +795,11 @@
         }
     ],
     "wof:id":404495015,
-    "wof:lastmodified":1605055980,
+    "wof:lastmodified":1722117836,
     "wof:name":"Paris",
     "wof:parent_id":102081857,
     "wof:placetype":"localadmin",
-    "wof:population":702,
+    "wof:population":670,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

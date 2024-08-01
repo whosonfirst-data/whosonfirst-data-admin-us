@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010552,
-    "geom:area_square_m":88217498.374999,
+    "geom:area_square_m":88217498.375001,
     "geom:bbox":"-99.138611,47.413748,-99.010302,47.50091",
     "geom:latitude":47.457539,
     "geom:longitude":-99.071843,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.457249,
     "lbl:longitude":-99.064167,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":3803112380,
     "uscensus:name":"Carrington",
     "uscensus:namelsad":"Carrington township",
+    "uscensus:population":222,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3803112380
+        "uscensus:geoid":"3803112380"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476449
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404479203,
-    "wof:lastmodified":1605055474,
+    "wof:lastmodified":1722117736,
     "wof:name":"Carrington Township",
     "wof:parent_id":102082089,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":205,
+    "wof:population":222,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

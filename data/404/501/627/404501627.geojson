@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.015818,
-    "geom:area_square_m":154018839.196907,
+    "geom:area_square_m":154018839.196886,
     "geom:bbox":"-86.807151,37.998026,-86.623519,38.117984",
     "geom:latitude":38.052847,
     "geom:longitude":-86.708238,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.047526,
     "lbl:longitude":-86.719167,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":123,
     "uscensus:geoid":1812301504,
     "uscensus:name":"Anderson",
     "uscensus:namelsad":"Anderson township",
+    "uscensus:population":1578,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1812301504
+        "uscensus:geoid":"1812301504"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474955
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404501627,
-    "wof:lastmodified":1604969655,
+    "wof:lastmodified":1722117873,
     "wof:name":"Anderson Township",
     "wof:parent_id":102086429,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1557,
+    "wof:population":1578,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

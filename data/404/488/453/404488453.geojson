@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010346,
-    "geom:area_square_m":92462022.099913,
+    "geom:area_square_m":92462022.099936,
     "geom:bbox":"-99.272107,43.672178,-99.151607,43.759516",
     "geom:latitude":43.71589,
     "geom:longitude":-99.212052,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.715929,
     "lbl:longitude":-99.212055,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":4601553660,
     "uscensus:name":"Red Lake",
     "uscensus:namelsad":"Red Lake township",
+    "uscensus:population":83,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4601553660
+        "uscensus:geoid":"4601553660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466773
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404488453,
-    "wof:lastmodified":1605055807,
+    "wof:lastmodified":1722117794,
     "wof:name":"Red Lake Township",
     "wof:parent_id":102086817,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":68,
+    "wof:population":83,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

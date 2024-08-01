@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01324,
-    "geom:area_square_m":115615017.894306,
+    "geom:area_square_m":115615017.894263,
     "geom:bbox":"-89.651021,45.003013,-89.492023,45.119899",
     "geom:latitude":45.072041,
     "geom:longitude":-89.567459,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.075959,
     "lbl:longitude":-89.567448,
     "lbl:max_zoom":16.0,
@@ -577,11 +583,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":73,
     "uscensus:geoid":5507379350,
     "uscensus:name":"Texas",
     "uscensus:namelsad":"Texas town",
+    "uscensus:population":1606,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -591,8 +600,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5507379350
+        "uscensus:geoid":"5507379350"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476123
     ],
@@ -611,11 +621,11 @@
         }
     ],
     "wof:id":404492057,
-    "wof:lastmodified":1605056009,
+    "wof:lastmodified":1722117817,
     "wof:name":"Texas",
     "wof:parent_id":102081881,
     "wof:placetype":"localadmin",
-    "wof:population":1615,
+    "wof:population":1606,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

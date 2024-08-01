@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002306,
-    "geom:area_square_m":21689893.968052,
+    "geom:area_square_m":21689893.968086,
     "geom:bbox":"-81.488492,40.450658,-81.396247,40.517425",
     "geom:latitude":40.48608,
     "geom:longitude":-81.440098,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.495684,
     "lbl:longitude":-81.450724,
     "lbl:max_zoom":15.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":157,
     "uscensus:geoid":3915755216,
     "uscensus:name":"New Philadelphia",
     "uscensus:namelsad":"New Philadelphia city",
+    "uscensus:population":17440,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3915755216
+        "uscensus:geoid":"3915755216"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -104,11 +114,11 @@
         }
     ],
     "wof:id":404524315,
-    "wof:lastmodified":1605056108,
+    "wof:lastmodified":1722118007,
     "wof:name":"New Philadelphia",
     "wof:parent_id":102084737,
     "wof:placetype":"localadmin",
-    "wof:population":17288,
+    "wof:population":17440,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

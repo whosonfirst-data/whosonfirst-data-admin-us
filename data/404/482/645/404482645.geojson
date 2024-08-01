@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003345,
-    "geom:area_square_m":31509911.398956,
+    "geom:area_square_m":31509911.398965,
     "geom:bbox":"-75.898635,40.358205,-75.812216,40.42661",
     "geom:latitude":40.385292,
     "geom:longitude":-75.859753,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.385392,
     "lbl:longitude":-75.864006,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":4201102120,
     "uscensus:name":"Alsace",
     "uscensus:namelsad":"Alsace township",
+    "uscensus:population":3858,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201102120
+        "uscensus:geoid":"4201102120"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404482645,
-    "wof:lastmodified":1605055378,
+    "wof:lastmodified":1722117758,
     "wof:name":"Alsace Township",
     "wof:parent_id":102080991,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3751,
+    "wof:population":3858,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

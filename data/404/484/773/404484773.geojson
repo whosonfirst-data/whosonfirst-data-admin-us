@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008535,
-    "geom:area_square_m":80270312.925295,
+    "geom:area_square_m":80270312.92529,
     "geom:bbox":"-75.178035,40.421132,-75.060694,40.553395",
     "geom:latitude":40.482374,
     "geom:longitude":-75.107069,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.481676,
     "lbl:longitude":-75.106146,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":4201776784,
     "uscensus:name":"Tinicum",
     "uscensus:namelsad":"Tinicum township",
+    "uscensus:population":3806,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201776784
+        "uscensus:geoid":"4201776784"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474441
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404484773,
-    "wof:lastmodified":1605055468,
+    "wof:lastmodified":1722117770,
     "wof:name":"Tinicum Township",
     "wof:parent_id":102080987,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3995,
+    "wof:population":3806,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

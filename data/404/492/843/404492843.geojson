@@ -10,6 +10,12 @@
     "geom:latitude":44.472095,
     "geom:longitude":-88.026064,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "village"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.469825,
     "lbl:longitude":-88.028954,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":5500901150,
     "uscensus:name":"Allouez",
     "uscensus:namelsad":"Allouez village",
+    "uscensus:population":13839,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5500901150
+        "uscensus:geoid":"5500901150"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,11 +90,11 @@
         }
     ],
     "wof:id":404492843,
-    "wof:lastmodified":1605056000,
+    "wof:lastmodified":1722117822,
     "wof:name":"Allouez",
     "wof:parent_id":102081867,
     "wof:placetype":"localadmin",
-    "wof:population":13975,
+    "wof:population":13839,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

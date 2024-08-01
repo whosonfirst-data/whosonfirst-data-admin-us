@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011687,
-    "geom:area_square_m":100803679.282194,
+    "geom:area_square_m":100803679.282224,
     "geom:bbox":"-92.283847,45.725616,-92.153996,45.816386",
     "geom:latitude":45.770957,
     "geom:longitude":-92.218802,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.771033,
     "lbl:longitude":-92.21882,
     "lbl:max_zoom":17.0,
@@ -58,11 +64,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":5501340975,
     "uscensus:name":"La Follette",
     "uscensus:namelsad":"La Follette town",
+    "uscensus:population":572,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -72,8 +81,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5501340975
+        "uscensus:geoid":"5501340975"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729477065
     ],
@@ -92,11 +102,11 @@
         }
     ],
     "wof:id":404492981,
-    "wof:lastmodified":1605056012,
+    "wof:lastmodified":1722117823,
     "wof:name":"La Follette",
     "wof:parent_id":102081835,
     "wof:placetype":"localadmin",
-    "wof:population":536,
+    "wof:population":572,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -9,7 +9,24 @@
     "geom:bbox":"-95.275899,39.855462,-95.253955,39.86403",
     "geom:latitude":39.860337,
     "geom:longitude":-95.265135,
+    "gn:admin1_code":"KS",
+    "gn:admin2_code":"43.0",
+    "gn:admin3_code":"34400.0",
+    "gn:asciiname":"Highland",
+    "gn:country_code":"US",
+    "gn:dem":326,
+    "gn:elevation":"320.0",
+    "gn:feature_class":"P",
+    "gn:feature_code":"PPL",
+    "gn:geonameid":4272914,
+    "gn:latitude":39.85972,
+    "gn:longitude":-95.2697,
+    "gn:modification_date":"2017-05-23",
+    "gn:name":"Highland",
+    "gn:population":1010,
+    "gn:timezone":"America/Chicago",
     "iso:country":"US",
+    "lbl:bbox":"-95.2897,39.83972,-95.2497,39.87972",
     "lbl:latitude":39.860393,
     "lbl:longitude":-95.265131,
     "lbl:max_zoom":18.0,
@@ -150,6 +167,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1361025,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -165,17 +184,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"31850",
     "uscensus:placens":"02394376",
+    "uscensus:population":922,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"20",
     "wd:elevation":320.0,
     "wd:latitude":39.86,
     "wd:longitude":-95.2669,
     "wd:wordcount":953,
     "wof:belongsto":[
-        85688555,
         102191575,
-        404503521,
         85633793,
-        102082137
+        102082137,
+        404503521,
+        85688555
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -184,13 +205,22 @@
         "gn:id":4272915,
         "gp:id":2421337,
         "qs_pg:id":152629,
-        "uscensus:geoid":2031850,
+        "uscensus:geoid":"2031850",
         "wd:id":"Q740230",
         "wk:page":"Highland, Kansas"
     },
     "wof:concordances_alt":{
-        "qs_pg:id":999945
+        "gn:id":[
+            4272914
+        ],
+        "qs_pg:id":[
+            999945
+        ],
+        "wk:page":[
+            "Highland%2C_Kansas"
+        ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -211,14 +241,17 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883295,
+    "wof:lastmodified":1722116398,
     "wof:name":"Highland",
     "wof:parent_id":404503521,
     "wof:placetype":"locality",
+    "wof:population":922,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[
-        1125340835
+        1125340835,
+        1360110461
     ],
     "wof:tags":[]
 },

@@ -131,7 +131,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2227879,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -147,16 +148,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"05350",
     "uscensus:placens":"01582764",
+    "uscensus:population":603,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"55",
     "wd:latitude":46.811667,
     "wd:longitude":-90.82,
     "wd:wordcount":1310,
     "wof:belongsto":[
-        85688517,
         102191575,
-        404492885,
         85633793,
-        102081781
+        102081781,
+        404492885,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -165,10 +168,11 @@
         "gn:id":5244965,
         "gp:id":2360309,
         "qs_pg:id":184813,
-        "uscensus:geoid":5505350,
+        "uscensus:geoid":"5505350",
         "wd:id":"Q812543",
         "wk:page":"Bayfield, Wisconsin"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -189,11 +193,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889222,
+    "wof:lastmodified":1722116312,
     "wof:name":"Bayfield",
     "wof:parent_id":404492885,
     "wof:placetype":"locality",
-    "wof:population":487,
+    "wof:population":603,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

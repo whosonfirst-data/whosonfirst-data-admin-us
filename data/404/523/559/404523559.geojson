@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00683,
-    "geom:area_square_m":63003795.411243,
+    "geom:area_square_m":63003795.41123,
     "geom:bbox":"-80.713471,41.713638,-80.621832,41.790082",
     "geom:latitude":41.75151,
     "geom:longitude":-80.667862,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.751665,
     "lbl:longitude":-80.66786,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":3900721672,
     "uscensus:name":"Denmark",
     "uscensus:namelsad":"Denmark township",
+    "uscensus:population":814,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3900721672
+        "uscensus:geoid":"3900721672"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470217
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404523559,
-    "wof:lastmodified":1605056084,
+    "wof:lastmodified":1722118002,
     "wof:name":"Denmark Township",
     "wof:parent_id":102083657,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":946,
+    "wof:population":814,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

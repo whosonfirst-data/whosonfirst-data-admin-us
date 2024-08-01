@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008685,
-    "geom:area_square_m":78999242.026854,
+    "geom:area_square_m":78999242.026866,
     "geom:bbox":"-85.309175,42.595521,-85.191656,42.683118",
     "geom:latitude":42.637676,
     "geom:longitude":-85.244066,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":42.639417,
     "lbl:longitude":-85.229158,
@@ -204,22 +207,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":2601537140,
     "uscensus:name":"Hastings",
     "uscensus:namelsad":"Hastings charter township",
+    "uscensus:population":3090,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688599,
-        102083125
+        102083125,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2601537140
+        "uscensus:geoid":"2601537140"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469523
     ],
@@ -238,11 +245,11 @@
         }
     ],
     "wof:id":404506901,
-    "wof:lastmodified":1636499354,
+    "wof:lastmodified":1722117910,
     "wof:name":"Hastings",
     "wof:parent_id":102083125,
     "wof:placetype":"localadmin",
-    "wof:population":2948,
+    "wof:population":3090,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

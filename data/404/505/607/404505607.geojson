@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009634,
-    "geom:area_square_m":91423553.265472,
+    "geom:area_square_m":91423553.265423,
     "geom:bbox":"-100.999972,39.828162,-100.888739,39.91536",
     "geom:latitude":39.871791,
     "geom:longitude":-100.944326,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.871756,
     "lbl:longitude":-100.944311,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":153,
     "uscensus:geoid":2015343200,
     "uscensus:name":"Ludell",
     "uscensus:namelsad":"Ludell township",
+    "uscensus:population":88,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2015343200
+        "uscensus:geoid":"2015343200"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463243
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404505607,
-    "wof:lastmodified":1605055291,
+    "wof:lastmodified":1722117901,
     "wof:name":"Ludell Township",
     "wof:parent_id":102084169,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":81,
+    "wof:population":88,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009717,
-    "geom:area_square_m":86181002.374807,
+    "geom:area_square_m":86181002.374803,
     "geom:bbox":"-69.196629,44.106996,-69.018229,44.222669",
     "geom:latitude":44.169387,
     "geom:longitude":-69.099837,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.16418,
     "lbl:longitude":-69.086324,
     "lbl:max_zoom":15.0,
@@ -91,11 +97,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":2301363660,
     "uscensus:name":"Rockport",
     "uscensus:namelsad":"Rockport town",
+    "uscensus:population":3678,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
@@ -105,8 +114,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2301363660
+        "uscensus:geoid":"2301363660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456373
     ],
@@ -125,11 +135,11 @@
         }
     ],
     "wof:id":404475623,
-    "wof:lastmodified":1605055852,
+    "wof:lastmodified":1722117709,
     "wof:name":"Rockport",
     "wof:parent_id":102087453,
     "wof:placetype":"localadmin",
-    "wof:population":3330,
+    "wof:population":3678,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

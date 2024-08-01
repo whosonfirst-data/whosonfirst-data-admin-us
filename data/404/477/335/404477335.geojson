@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000263,
-    "geom:area_square_m":2493555.570843,
+    "geom:area_square_m":2493555.570828,
     "geom:bbox":"-74.085448,39.959237,-74.063623,39.98227",
     "geom:latitude":39.969785,
     "geom:longitude":-74.072339,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.970073,
     "lbl:longitude":-74.070684,
     "lbl:max_zoom":16.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":3402939390,
     "uscensus:name":"Lavallette",
     "uscensus:namelsad":"Lavallette borough",
+    "uscensus:population":1843,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3402939390
+        "uscensus:geoid":"3402939390"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404477335,
-    "wof:lastmodified":1605055425,
+    "wof:lastmodified":1722117721,
     "wof:name":"Lavallette",
     "wof:parent_id":102081485,
     "wof:placetype":"localadmin",
-    "wof:population":1875,
+    "wof:population":1843,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

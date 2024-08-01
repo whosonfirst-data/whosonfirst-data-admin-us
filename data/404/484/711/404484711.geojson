@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000643,
-    "geom:area_square_m":6053224.883315,
+    "geom:area_square_m":6053224.883312,
     "geom:bbox":"-78.416945,40.418556,-78.372007,40.450269",
     "geom:latitude":40.431139,
     "geom:longitude":-78.393004,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.429462,
     "lbl:longitude":-78.391474,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":4201335224,
     "uscensus:name":"Hollidaysburg",
     "uscensus:namelsad":"Hollidaysburg borough",
+    "uscensus:population":5506,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201335224
+        "uscensus:geoid":"4201335224"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404484711,
-    "wof:lastmodified":1605055469,
+    "wof:lastmodified":1722117770,
     "wof:name":"Hollidaysburg",
     "wof:parent_id":102081325,
     "wof:placetype":"localadmin",
-    "wof:population":5791,
+    "wof:population":5506,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

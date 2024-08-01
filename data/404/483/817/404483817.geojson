@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003637,
-    "geom:area_square_m":34092115.096945,
+    "geom:area_square_m":34092115.09695,
     "geom:bbox":"-76.420023,40.665072,-76.300362,40.730839",
     "geom:latitude":40.697551,
     "geom:longitude":-76.360896,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.697297,
     "lbl:longitude":-76.359985,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":107,
     "uscensus:geoid":4210726944,
     "uscensus:name":"Foster",
     "uscensus:namelsad":"Foster township",
+    "uscensus:population":245,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4210726944
+        "uscensus:geoid":"4210726944"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404483817,
-    "wof:lastmodified":1605055438,
+    "wof:lastmodified":1722117764,
     "wof:name":"Foster Township",
     "wof:parent_id":102081271,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":251,
+    "wof:population":245,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

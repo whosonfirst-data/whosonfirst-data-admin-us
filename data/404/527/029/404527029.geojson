@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011152,
-    "geom:area_square_m":99246720.014078,
+    "geom:area_square_m":99246720.014062,
     "geom:bbox":"-72.79206,43.909347,-72.637455,44.029655",
     "geom:latitude":43.969758,
     "geom:longitude":-72.720686,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.969124,
     "lbl:longitude":-72.722164,
     "lbl:max_zoom":16.0,
@@ -88,11 +94,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":5001707600,
     "uscensus:name":"Braintree",
     "uscensus:namelsad":"Braintree town",
+    "uscensus:population":1220,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -102,8 +111,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5001707600
+        "uscensus:geoid":"5001707600"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471805
     ],
@@ -122,11 +132,11 @@
         }
     ],
     "wof:id":404527029,
-    "wof:lastmodified":1605055682,
+    "wof:lastmodified":1722118027,
     "wof:name":"Braintree",
     "wof:parent_id":102087431,
     "wof:placetype":"localadmin",
-    "wof:population":1246,
+    "wof:population":1220,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

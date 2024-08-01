@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002517,
-    "geom:area_square_m":23553789.441046,
+    "geom:area_square_m":23553789.441051,
     "geom:bbox":"-75.893655,40.798753,-75.799384,40.850386",
     "geom:latitude":40.824886,
     "geom:longitude":-75.84644,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.820785,
     "lbl:longitude":-75.853589,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":4202575248,
     "uscensus:name":"Summit Hill",
     "uscensus:namelsad":"Summit Hill borough",
+    "uscensus:population":3134,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202575248
+        "uscensus:geoid":"4202575248"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404485635,
-    "wof:lastmodified":1605055361,
+    "wof:lastmodified":1722117775,
     "wof:name":"Summit Hill",
     "wof:parent_id":102081331,
     "wof:placetype":"localadmin",
-    "wof:population":3034,
+    "wof:population":3134,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

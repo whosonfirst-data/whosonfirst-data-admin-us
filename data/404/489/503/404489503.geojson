@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010769,
-    "geom:area_square_m":92963372.997292,
+    "geom:area_square_m":92963372.997273,
     "geom:bbox":"-98.725074,45.677838,-98.600935,45.765217",
     "geom:latitude":45.721487,
     "geom:longitude":-98.663055,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.721455,
     "lbl:longitude":-98.663054,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":4601322820,
     "uscensus:name":"Franklyn",
     "uscensus:namelsad":"Franklyn township",
+    "uscensus:population":30,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4601322820
+        "uscensus:geoid":"4601322820"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476969
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404489503,
-    "wof:lastmodified":1605055922,
+    "wof:lastmodified":1722117801,
     "wof:name":"Franklyn Township",
     "wof:parent_id":102086843,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":37,
+    "wof:population":30,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

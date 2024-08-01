@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007012,
-    "geom:area_square_m":64973019.893162,
+    "geom:area_square_m":64973019.893159,
     "geom:bbox":"-80.713469,41.424702,-80.61815,41.499765",
     "geom:latitude":41.462285,
     "geom:longitude":-80.66557,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.462294,
     "lbl:longitude":-80.665585,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":155,
     "uscensus:geoid":3915532732,
     "uscensus:name":"Gustavus",
     "uscensus:namelsad":"Gustavus township",
+    "uscensus:population":822,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3915532732
+        "uscensus:geoid":"3915532732"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475263
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404524297,
-    "wof:lastmodified":1605056115,
+    "wof:lastmodified":1722118007,
     "wof:name":"Gustavus Township",
     "wof:parent_id":102083719,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":829,
+    "wof:population":822,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

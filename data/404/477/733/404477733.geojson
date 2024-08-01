@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000207,
-    "geom:area_square_m":1936094.91918,
+    "geom:area_square_m":1936094.919175,
     "geom:bbox":"-74.101583,40.824819,-74.034708,40.874049",
     "geom:latitude":40.857848,
     "geom:longitude":-74.051928,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.862663,
     "lbl:longitude":-74.04525,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3400368970,
     "uscensus:name":"South Hackensack",
     "uscensus:namelsad":"South Hackensack township",
+    "uscensus:population":2700,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400368970
+        "uscensus:geoid":"3400368970"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467385
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404477733,
-    "wof:lastmodified":1605055424,
+    "wof:lastmodified":1722117724,
     "wof:name":"South Hackensack Township",
     "wof:parent_id":102086773,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2378,
+    "wof:population":2700,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010311,
-    "geom:area_square_m":91800462.519995,
+    "geom:area_square_m":91800462.52001,
     "geom:bbox":"-85.682216,43.901812,-85.562319,43.988444",
     "geom:latitude":43.945023,
     "geom:longitude":-85.622196,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.945067,
     "lbl:longitude":-85.622196,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":85,
     "uscensus:geoid":2608564440,
     "uscensus:name":"Pinora",
     "uscensus:namelsad":"Pinora township",
+    "uscensus:population":801,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2608564440
+        "uscensus:geoid":"2608564440"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457681
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404507969,
-    "wof:lastmodified":1605055777,
+    "wof:lastmodified":1722117918,
     "wof:name":"Pinora Township",
     "wof:parent_id":102083055,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":717,
+    "wof:population":801,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

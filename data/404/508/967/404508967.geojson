@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009587,
-    "geom:area_square_m":88045805.632183,
+    "geom:area_square_m":88045805.632184,
     "geom:bbox":"-83.773922,41.995203,-83.6539,42.084586",
     "geom:latitude":42.0373,
     "geom:longitude":-83.715915,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.034252,
     "lbl:longitude":-83.720073,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":2611553900,
     "uscensus:name":"Milan",
     "uscensus:namelsad":"Milan township",
+    "uscensus:population":1543,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2611553900
+        "uscensus:geoid":"2611553900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467363
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404508967,
-    "wof:lastmodified":1605055742,
+    "wof:lastmodified":1722117926,
     "wof:name":"Milan Township",
     "wof:parent_id":102083117,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1601,
+    "wof:population":1543,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

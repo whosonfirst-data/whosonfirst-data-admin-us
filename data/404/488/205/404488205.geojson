@@ -10,6 +10,12 @@
     "geom:latitude":40.242097,
     "geom:longitude":-78.850098,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.243125,
     "lbl:longitude":-78.851954,
     "lbl:max_zoom":16.0,
@@ -202,11 +208,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":111,
     "uscensus:geoid":4211157544,
     "uscensus:name":"Paint",
     "uscensus:namelsad":"Paint borough",
+    "uscensus:population":886,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -216,8 +225,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4211157544
+        "uscensus:geoid":"4211157544"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -233,12 +243,12 @@
         }
     ],
     "wof:id":404488205,
-    "wof:lastmodified":1605055807,
+    "wof:lastmodified":1722117792,
     "wof:name":"Paint",
     "wof:parent_id":102081361,
     "wof:placetype":"localadmin",
-    "wof:population":1023,
-    "wof:population_rank":3,
+    "wof:population":886,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

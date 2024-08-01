@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014958,
-    "geom:area_square_m":138995564.147992,
+    "geom:area_square_m":138995564.147979,
     "geom:bbox":"-77.584465,41.204052,-77.344036,41.360008",
     "geom:latitude":41.279368,
     "geom:longitude":-77.477673,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.276495,
     "lbl:longitude":-77.479488,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":4203528296,
     "uscensus:name":"Gallagher",
     "uscensus:namelsad":"Gallagher township",
+    "uscensus:population":392,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4203528296
+        "uscensus:geoid":"4203528296"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478501
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404485259,
-    "wof:lastmodified":1605055359,
+    "wof:lastmodified":1722117773,
     "wof:name":"Gallagher Township",
     "wof:parent_id":102080917,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":381,
+    "wof:population":392,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

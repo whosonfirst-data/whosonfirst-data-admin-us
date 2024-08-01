@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00673,
-    "geom:area_square_m":62509107.487513,
+    "geom:area_square_m":62509107.487532,
     "geom:bbox":"-82.167122,41.274635,-82.069108,41.352323",
     "geom:latitude":41.310198,
     "geom:longitude":-82.120325,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.309677,
     "lbl:longitude":-82.132567,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":93,
     "uscensus:geoid":3909312140,
     "uscensus:name":"Carlisle",
     "uscensus:namelsad":"Carlisle township",
+    "uscensus:population":7110,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3909312140
+        "uscensus:geoid":"3909312140"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466787
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404525297,
-    "wof:lastmodified":1605056062,
+    "wof:lastmodified":1722118014,
     "wof:name":"Carlisle Township",
     "wof:parent_id":102083683,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":7500,
+    "wof:population":7110,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

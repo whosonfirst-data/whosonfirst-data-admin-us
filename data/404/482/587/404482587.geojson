@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000402,
-    "geom:area_square_m":3774528.206363,
+    "geom:area_square_m":3774528.206354,
     "geom:bbox":"-80.255383,40.655362,-80.224958,40.67647",
     "geom:latitude":40.667384,
     "geom:longitude":-80.241109,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.667139,
     "lbl:longitude":-80.240822,
     "lbl:max_zoom":15.0,
@@ -118,22 +124,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":4200715872,
     "uscensus:name":"Conway",
     "uscensus:namelsad":"Conway borough",
+    "uscensus:population":2135,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688481,
-        102081323
+        102081323,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200715872
+        "uscensus:geoid":"4200715872"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -149,11 +159,11 @@
         }
     ],
     "wof:id":404482587,
-    "wof:lastmodified":1636499274,
+    "wof:lastmodified":1722117757,
     "wof:name":"Conway",
     "wof:parent_id":102081323,
     "wof:placetype":"localadmin",
-    "wof:population":2176,
+    "wof:population":2135,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

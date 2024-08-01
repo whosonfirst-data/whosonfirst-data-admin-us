@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009742,
-    "geom:area_square_m":86429296.669803,
+    "geom:area_square_m":86429296.669828,
     "geom:bbox":"-98.452419,44.111287,-98.331855,44.196718",
     "geom:latitude":44.152786,
     "geom:longitude":-98.393307,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.148649,
     "lbl:longitude":-98.403113,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":73,
     "uscensus:geoid":4607301060,
     "uscensus:name":"Alpena",
     "uscensus:namelsad":"Alpena township",
+    "uscensus:population":90,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4607301060
+        "uscensus:geoid":"4607301060"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466597
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404488851,
-    "wof:lastmodified":1605055806,
+    "wof:lastmodified":1722117796,
     "wof:name":"Alpena Township",
     "wof:parent_id":102086005,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":68,
+    "wof:population":90,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

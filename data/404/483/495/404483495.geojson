@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00595,
-    "geom:area_square_m":55471613.366016,
+    "geom:area_square_m":55471613.366044,
     "geom:bbox":"-79.215214,41.021722,-79.118701,41.09859",
     "geom:latitude":41.064637,
     "geom:longitude":-79.16625,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.067428,
     "lbl:longitude":-79.165331,
     "lbl:max_zoom":17.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":65,
     "uscensus:geoid":4206504728,
     "uscensus:name":"Beaver",
     "uscensus:namelsad":"Beaver township",
+    "uscensus:population":461,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206504728
+        "uscensus:geoid":"4206504728"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470633
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404483495,
-    "wof:lastmodified":1605055448,
+    "wof:lastmodified":1722117763,
     "wof:name":"Beaver Township",
     "wof:parent_id":102083883,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":498,
+    "wof:population":461,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

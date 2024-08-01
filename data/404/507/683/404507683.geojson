@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010375,
-    "geom:area_square_m":94765750.631612,
+    "geom:area_square_m":94765750.631528,
     "geom:bbox":"-85.649957,42.332108,-85.531152,42.421522",
     "geom:latitude":42.377051,
     "geom:longitude":-85.590438,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":42.377058,
     "lbl:longitude":-85.590436,
@@ -132,22 +135,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":77,
     "uscensus:geoid":2607717980,
     "uscensus:name":"Cooper",
     "uscensus:namelsad":"Cooper charter township",
+    "uscensus:population":10472,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688599,
-        102083671
+        102083671,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2607717980
+        "uscensus:geoid":"2607717980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458515
     ],
@@ -166,11 +173,11 @@
         }
     ],
     "wof:id":404507683,
-    "wof:lastmodified":1636499361,
+    "wof:lastmodified":1722117916,
     "wof:name":"Cooper",
     "wof:parent_id":102083671,
     "wof:placetype":"localadmin",
-    "wof:population":10111,
+    "wof:population":10472,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

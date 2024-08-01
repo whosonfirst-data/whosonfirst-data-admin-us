@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014324,
-    "geom:area_square_m":138774376.252372,
+    "geom:area_square_m":138774376.252347,
     "geom:bbox":"-99.253494,38.348609,-99.142394,38.479744",
     "geom:latitude":38.414567,
     "geom:longitude":-99.197747,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.414519,
     "lbl:longitude":-99.197757,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":165,
     "uscensus:geoid":2016504075,
     "uscensus:name":"Banner",
     "uscensus:namelsad":"Banner township",
+    "uscensus:population":120,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2016504075
+        "uscensus:geoid":"2016504075"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404505173,
-    "wof:lastmodified":1605055284,
+    "wof:lastmodified":1722233663,
     "wof:name":"Banner Township",
     "wof:parent_id":102082713,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":157,
+    "wof:population":120,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

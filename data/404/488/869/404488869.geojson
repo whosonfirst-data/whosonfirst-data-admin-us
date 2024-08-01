@@ -10,6 +10,12 @@
     "geom:latitude":44.080526,
     "geom:longitude":-98.571223,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.079773,
     "lbl:longitude":-98.572572,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":73,
     "uscensus:geoid":4607370220,
     "uscensus:name":"Wessington Springs",
     "uscensus:namelsad":"Wessington Springs city",
+    "uscensus:population":761,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4607370220
+        "uscensus:geoid":"4607370220"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404488869,
-    "wof:lastmodified":1605055806,
+    "wof:lastmodified":1722117796,
     "wof:name":"Wessington Springs",
     "wof:parent_id":102086005,
     "wof:placetype":"localadmin",
-    "wof:population":956,
+    "wof:population":761,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

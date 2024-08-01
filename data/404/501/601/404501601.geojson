@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007875,
-    "geom:area_square_m":75364410.56408,
+    "geom:area_square_m":75364410.564087,
     "geom:bbox":"-86.943298,39.253688,-86.83319,39.326914",
     "geom:latitude":39.290205,
     "geom:longitude":-86.888261,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.290177,
     "lbl:longitude":-86.888263,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":119,
     "uscensus:geoid":1811940770,
     "uscensus:name":"Lafayette",
     "uscensus:namelsad":"Lafayette township",
+    "uscensus:population":1206,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1811940770
+        "uscensus:geoid":"1811940770"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476489
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404501601,
-    "wof:lastmodified":1604969668,
+    "wof:lastmodified":1722117873,
     "wof:name":"Lafayette Township",
     "wof:parent_id":102087015,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1207,
+    "wof:population":1206,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

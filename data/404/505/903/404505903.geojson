@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010253,
-    "geom:area_square_m":93262146.525472,
+    "geom:area_square_m":93262146.525493,
     "geom:bbox":"-84.956247,42.59702,-84.836163,42.683121",
     "geom:latitude":42.640071,
     "geom:longitude":-84.896335,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.640123,
     "lbl:longitude":-84.896337,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":2604515260,
     "uscensus:name":"Chester",
     "uscensus:namelsad":"Chester township",
+    "uscensus:population":1760,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2604515260
+        "uscensus:geoid":"2604515260"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461571
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404505903,
-    "wof:lastmodified":1605055287,
+    "wof:lastmodified":1722117903,
     "wof:name":"Chester Township",
     "wof:parent_id":102083005,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1747,
+    "wof:population":1760,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

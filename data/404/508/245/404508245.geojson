@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009729,
-    "geom:area_square_m":89103766.005275,
+    "geom:area_square_m":89103766.005268,
     "geom:bbox":"-83.896547,42.167307,-83.777274,42.256211",
     "geom:latitude":42.212821,
     "geom:longitude":-83.838225,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.211637,
     "lbl:longitude":-83.838259,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":161,
     "uscensus:geoid":2616149120,
     "uscensus:name":"Lodi",
     "uscensus:namelsad":"Lodi township",
+    "uscensus:population":6301,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2616149120
+        "uscensus:geoid":"2616149120"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465635
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404508245,
-    "wof:lastmodified":1605055735,
+    "wof:lastmodified":1722117920,
     "wof:name":"Lodi Township",
     "wof:parent_id":102083763,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":6058,
+    "wof:population":6301,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

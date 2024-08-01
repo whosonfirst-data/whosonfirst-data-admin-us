@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009726,
-    "geom:area_square_m":93575734.180788,
+    "geom:area_square_m":93575734.180826,
     "geom:bbox":"-98.374547,38.870611,-98.26196,38.958166",
     "geom:latitude":38.914359,
     "geom:longitude":-98.318445,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.914289,
     "lbl:longitude":-98.318447,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":2010526800,
     "uscensus:name":"Golden Belt",
     "uscensus:namelsad":"Golden Belt township",
+    "uscensus:population":46,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2010526800
+        "uscensus:geoid":"2010526800"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729455959
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404502747,
-    "wof:lastmodified":1605055269,
+    "wof:lastmodified":1722117881,
     "wof:name":"Golden Belt Township",
     "wof:parent_id":102082151,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":40,
+    "wof:population":46,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

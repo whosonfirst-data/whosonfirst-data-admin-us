@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003543,
-    "geom:area_square_m":33713627.413705,
+    "geom:area_square_m":33713627.413736,
     "geom:bbox":"-83.993274,39.649198,-83.894538,39.722621",
     "geom:latitude":39.682865,
     "geom:longitude":-83.941386,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.680637,
     "lbl:longitude":-83.94061,
     "lbl:max_zoom":14.0,
@@ -97,11 +103,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":57,
     "uscensus:geoid":3905786772,
     "uscensus:name":"Xenia",
     "uscensus:namelsad":"Xenia city",
+    "uscensus:population":25725,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -111,8 +120,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3905786772
+        "uscensus:geoid":"3905786772"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -128,11 +138,11 @@
         }
     ],
     "wof:id":404525397,
-    "wof:lastmodified":1605056050,
+    "wof:lastmodified":1722118015,
     "wof:name":"Xenia",
     "wof:parent_id":102084765,
     "wof:placetype":"localadmin",
-    "wof:population":25719,
+    "wof:population":25725,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

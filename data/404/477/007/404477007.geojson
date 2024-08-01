@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.018909,
-    "geom:area_square_m":166575487.212433,
+    "geom:area_square_m":166575487.212443,
     "geom:bbox":"-71.356681,44.523568,-71.070463,44.608756",
     "geom:latitude":44.566641,
     "geom:longitude":-71.216217,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.566425,
     "lbl:longitude":-71.216215,
     "lbl:max_zoom":16.0,
@@ -499,11 +505,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":3300747860,
     "uscensus:name":"Milan",
     "uscensus:namelsad":"Milan town",
+    "uscensus:population":1368,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":33,
     "wof:belongsto":[
         102191575,
@@ -513,8 +522,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3300747860
+        "uscensus:geoid":"3300747860"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466807
     ],
@@ -533,11 +543,11 @@
         }
     ],
     "wof:id":404477007,
-    "wof:lastmodified":1605055419,
+    "wof:lastmodified":1722117719,
     "wof:name":"Milan",
     "wof:parent_id":102085529,
     "wof:placetype":"localadmin",
-    "wof:population":1337,
+    "wof:population":1368,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000111,
-    "geom:area_square_m":1050233.540363,
+    "geom:area_square_m":1050233.540362,
     "geom:bbox":"-80.432917,40.237836,-80.417182,40.247586",
     "geom:latitude":40.243204,
     "geom:longitude":-80.425278,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.242796,
     "lbl:longitude":-80.425428,
     "lbl:max_zoom":18.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":4212583504,
     "uscensus:name":"West Middletown",
     "uscensus:namelsad":"West Middletown borough",
+    "uscensus:population":109,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212583504
+        "uscensus:geoid":"4212583504"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404483989,
-    "wof:lastmodified":1605055449,
+    "wof:lastmodified":1722117765,
     "wof:name":"West Middletown",
     "wof:parent_id":102081343,
     "wof:placetype":"localadmin",
-    "wof:population":139,
+    "wof:population":109,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

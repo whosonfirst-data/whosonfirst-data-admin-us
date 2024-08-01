@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01153,
-    "geom:area_square_m":107977987.213146,
+    "geom:area_square_m":107977987.213135,
     "geom:bbox":"-82.127327,40.726537,-81.993902,40.814239",
     "geom:latitude":40.770409,
     "geom:longitude":-82.060638,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.770216,
     "lbl:longitude":-82.060631,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":169,
     "uscensus:geoid":3916962995,
     "uscensus:name":"Plain",
     "uscensus:namelsad":"Plain township",
+    "uscensus:population":3067,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3916962995
+        "uscensus:geoid":"3916962995"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464371
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404526511,
-    "wof:lastmodified":1605055650,
+    "wof:lastmodified":1722118023,
     "wof:name":"Plain Township",
     "wof:parent_id":102084731,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3088,
+    "wof:population":3067,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

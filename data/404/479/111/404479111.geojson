@@ -10,6 +10,12 @@
     "geom:latitude":47.85999,
     "geom:longitude":-100.513299,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.86215,
     "lbl:longitude":-100.510107,
     "lbl:max_zoom":18.0,
@@ -64,11 +70,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":3804942660,
     "uscensus:name":"Kief",
     "uscensus:namelsad":"Kief city",
+    "uscensus:population":8,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -78,8 +87,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3804942660
+        "uscensus:geoid":"3804942660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -95,11 +105,11 @@
         }
     ],
     "wof:id":404479111,
-    "wof:lastmodified":1605055476,
+    "wof:lastmodified":1722117735,
     "wof:name":"Kief",
     "wof:parent_id":102082517,
     "wof:placetype":"localadmin",
-    "wof:population":13,
+    "wof:population":8,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

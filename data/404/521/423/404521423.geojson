@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011518,
-    "geom:area_square_m":105457035.910316,
+    "geom:area_square_m":105457035.910325,
     "geom:bbox":"-77.22674,42.182675,-77.096273,42.274215",
     "geom:latitude":42.228128,
     "geom:longitude":-77.162233,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.228242,
     "lbl:longitude":-77.162235,
     "lbl:max_zoom":15.0,
@@ -118,11 +124,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":101,
     "uscensus:geoid":3610111946,
     "uscensus:name":"Campbell",
     "uscensus:namelsad":"Campbell town",
+    "uscensus:population":3091,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -132,8 +141,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3610111946
+        "uscensus:geoid":"3610111946"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -149,11 +159,11 @@
         }
     ],
     "wof:id":404521423,
-    "wof:lastmodified":1605055628,
+    "wof:lastmodified":1722117985,
     "wof:name":"Campbell",
     "wof:parent_id":102083115,
     "wof:placetype":"localadmin",
-    "wof:population":3406,
+    "wof:population":3091,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010465,
-    "geom:area_square_m":93121806.062268,
+    "geom:area_square_m":93121806.062274,
     "geom:bbox":"-94.008944,43.934665,-93.888278,44.022238",
     "geom:latitude":43.978462,
     "geom:longitude":-93.948406,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.978408,
     "lbl:longitude":-93.948415,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":2701304330,
     "uscensus:name":"Beauford",
     "uscensus:namelsad":"Beauford township",
+    "uscensus:population":371,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2701304330
+        "uscensus:geoid":"2701304330"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464839
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404511515,
-    "wof:lastmodified":1605055732,
+    "wof:lastmodified":1722117944,
     "wof:name":"Beauford Township",
     "wof:parent_id":102087625,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":406,
+    "wof:population":371,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

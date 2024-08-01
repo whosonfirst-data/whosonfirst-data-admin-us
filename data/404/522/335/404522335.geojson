@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.015338,
-    "geom:area_square_m":138665147.663054,
+    "geom:area_square_m":138665147.663082,
     "geom:bbox":"-78.697017,42.954753,-78.575949,43.097443",
     "geom:latitude":43.019627,
     "geom:longitude":-78.637496,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.017249,
     "lbl:longitude":-78.636724,
     "lbl:max_zoom":14.0,
@@ -118,22 +124,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":3602915825,
     "uscensus:name":"Clarence",
     "uscensus:namelsad":"Clarence town",
+    "uscensus:population":33119,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688543,
-        102082387
+        102082387,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3602915825
+        "uscensus:geoid":"3602915825"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -149,11 +159,11 @@
         }
     ],
     "wof:id":404522335,
-    "wof:lastmodified":1636499442,
+    "wof:lastmodified":1722117992,
     "wof:name":"Clarence",
     "wof:parent_id":102082387,
     "wof:placetype":"localadmin",
-    "wof:population":30673,
+    "wof:population":33119,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

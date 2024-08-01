@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006799,
-    "geom:area_square_m":65508906.576297,
+    "geom:area_square_m":65508906.576324,
     "geom:bbox":"-83.778007,38.766214,-83.686288,38.869761",
     "geom:latitude":38.816837,
     "geom:longitude":-83.727059,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.813477,
     "lbl:longitude":-83.730765,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":3901510758,
     "uscensus:name":"Byrd",
     "uscensus:namelsad":"Byrd township",
+    "uscensus:population":743,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3901510758
+        "uscensus:geoid":"3901510758"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474885
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404524885,
-    "wof:lastmodified":1605056113,
+    "wof:lastmodified":1722118011,
     "wof:name":"Byrd Township",
     "wof:parent_id":102083665,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":739,
+    "wof:population":743,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

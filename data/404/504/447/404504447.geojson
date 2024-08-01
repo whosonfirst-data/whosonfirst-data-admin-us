@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009879,
-    "geom:area_square_m":97478476.565849,
+    "geom:area_square_m":97478476.566024,
     "geom:bbox":"-95.159204,36.999531,-95.073497,37.120975",
     "geom:latitude":37.060729,
     "geom:longitude":-95.116882,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.082541,
     "lbl:longitude":-95.119175,
     "lbl:max_zoom":17.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":2009959425,
     "uscensus:name":"Richland",
     "uscensus:namelsad":"Richland township",
+    "uscensus:population":302,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2009959425
+        "uscensus:geoid":"2009959425"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464359
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404504447,
-    "wof:lastmodified":1605055296,
+    "wof:lastmodified":1722117893,
     "wof:name":"Richland Township",
     "wof:parent_id":102083423,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":287,
+    "wof:population":302,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

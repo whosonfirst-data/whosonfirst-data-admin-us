@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000615,
-    "geom:area_square_m":5846013.950497,
+    "geom:area_square_m":5846013.950499,
     "geom:bbox":"-75.150395,39.71913,-75.113469,39.749441",
     "geom:latitude":39.733491,
     "geom:longitude":-75.130552,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.7336,
     "lbl:longitude":-75.130556,
     "lbl:max_zoom":15.0,
@@ -61,11 +67,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":3401559070,
     "uscensus:name":"Pitman",
     "uscensus:namelsad":"Pitman borough",
+    "uscensus:population":8880,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -75,8 +84,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3401559070
+        "uscensus:geoid":"3401559070"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -92,11 +102,11 @@
         }
     ],
     "wof:id":404477441,
-    "wof:lastmodified":1605055417,
+    "wof:lastmodified":1722117722,
     "wof:name":"Pitman",
     "wof:parent_id":102085999,
     "wof:placetype":"localadmin",
-    "wof:population":9011,
+    "wof:population":8880,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

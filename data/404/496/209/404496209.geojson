@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006244,
-    "geom:area_square_m":59213770.547075,
+    "geom:area_square_m":59213770.547052,
     "geom:bbox":"-88.009797,39.879432,-87.937645,39.967166",
     "geom:latitude":39.92319,
     "geom:longitude":-87.973878,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.923235,
     "lbl:longitude":-87.973878,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":1701903246,
     "uscensus:name":"Ayers",
     "uscensus:namelsad":"Ayers township",
+    "uscensus:population":412,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1701903246
+        "uscensus:geoid":"1701903246"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404496209,
-    "wof:lastmodified":1605055605,
+    "wof:lastmodified":1722233634,
     "wof:name":"Ayers Township",
     "wof:parent_id":102081657,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":453,
+    "wof:population":412,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

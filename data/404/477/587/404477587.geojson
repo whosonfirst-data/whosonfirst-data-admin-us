@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00073,
-    "geom:area_square_m":6849346.999274,
+    "geom:area_square_m":6849346.999282,
     "geom:bbox":"-74.285216,40.637244,-74.233372,40.663454",
     "geom:latitude":40.652691,
     "geom:longitude":-74.259892,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.651452,
     "lbl:longitude":-74.264218,
     "lbl:max_zoom":14.0,
@@ -67,11 +73,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":39,
     "uscensus:geoid":3403964620,
     "uscensus:name":"Roselle",
     "uscensus:namelsad":"Roselle borough",
+    "uscensus:population":22342,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -81,8 +90,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3403964620
+        "uscensus:geoid":"3403964620"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -98,11 +108,11 @@
         }
     ],
     "wof:id":404477587,
-    "wof:lastmodified":1605055423,
+    "wof:lastmodified":1722117723,
     "wof:name":"Roselle",
     "wof:parent_id":102085995,
     "wof:placetype":"localadmin",
-    "wof:population":21085,
+    "wof:population":22342,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

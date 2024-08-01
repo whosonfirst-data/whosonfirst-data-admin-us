@@ -166,7 +166,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":833366,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -182,17 +183,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"23246",
     "uscensus:placens":"02394864",
+    "uscensus:population":223,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":335.0,
     "wd:latitude":47.371667,
     "wd:longitude":-96.266111,
     "wd:wordcount":816,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404510281,
         85633793,
-        102087699
+        102087699,
+        404510281,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -201,10 +204,11 @@
         "gn:id":5027726,
         "gp:id":2409143,
         "qs_pg:id":156305,
-        "uscensus:geoid":2723246,
+        "uscensus:geoid":"2723246",
         "wd:id":"Q2231769",
         "wk:page":"Gary, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -225,11 +229,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885223,
+    "wof:lastmodified":1722116146,
     "wof:name":"Gary",
     "wof:parent_id":404510281,
     "wof:placetype":"locality",
-    "wof:population":214,
+    "wof:population":223,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

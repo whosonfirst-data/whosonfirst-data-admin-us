@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01038,
-    "geom:area_square_m":93353607.349365,
+    "geom:area_square_m":93353607.349338,
     "geom:bbox":"-84.965043,43.292231,-84.845005,43.379309",
     "geom:latitude":43.335799,
     "geom:longitude":-84.90504,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.335762,
     "lbl:longitude":-84.90503,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":117,
     "uscensus:geoid":2611727900,
     "uscensus:name":"Ferris",
     "uscensus:namelsad":"Ferris township",
+    "uscensus:population":1364,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2611727900
+        "uscensus:geoid":"2611727900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461239
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404509065,
-    "wof:lastmodified":1605055788,
+    "wof:lastmodified":1722117926,
     "wof:name":"Ferris Township",
     "wof:parent_id":102083741,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1422,
+    "wof:population":1364,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000051,
-    "geom:area_square_m":426629.719523,
+    "geom:area_square_m":426629.719524,
     "geom:bbox":"-97.41502,47.267861,-97.403085,47.27394",
     "geom:latitude":47.270098,
     "geom:longitude":-97.408761,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.270364,
     "lbl:longitude":-97.407452,
     "lbl:max_zoom":18.0,
@@ -100,22 +106,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":97,
     "uscensus:geoid":3809728980,
     "uscensus:name":"Galesburg",
     "uscensus:namelsad":"Galesburg city",
+    "uscensus:population":112,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688525,
-        102081481
+        102081481,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3809728980
+        "uscensus:geoid":"3809728980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -131,11 +141,11 @@
         }
     ],
     "wof:id":404482399,
-    "wof:lastmodified":1636499273,
+    "wof:lastmodified":1722117756,
     "wof:name":"Galesburg",
     "wof:parent_id":102081481,
     "wof:placetype":"localadmin",
-    "wof:population":108,
+    "wof:population":112,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

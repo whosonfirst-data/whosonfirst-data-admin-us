@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.015677,
-    "geom:area_square_m":136131296.444122,
+    "geom:area_square_m":136131296.444016,
     "geom:bbox":"-92.898041,45.296206,-92.774576,45.470013",
     "geom:latitude":45.392698,
     "geom:longitude":-92.842312,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.439539,
     "lbl:longitude":-92.822748,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":2702511368,
     "uscensus:name":"Chisago Lake",
     "uscensus:namelsad":"Chisago Lake township",
+    "uscensus:population":4926,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2702511368
+        "uscensus:geoid":"2702511368"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461647
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404509097,
-    "wof:lastmodified":1605055789,
+    "wof:lastmodified":1722117927,
     "wof:name":"Chisago Lake Township",
     "wof:parent_id":102086987,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":4656,
+    "wof:population":4926,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

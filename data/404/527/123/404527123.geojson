@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013303,
-    "geom:area_square_m":116861849.885456,
+    "geom:area_square_m":116861849.885469,
     "geom:bbox":"-73.228854,44.651157,-73.038028,44.796332",
     "geom:latitude":44.728236,
     "geom:longitude":-73.127633,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.736308,
     "lbl:longitude":-73.126186,
     "lbl:max_zoom":15.0,
@@ -217,11 +223,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":5001127700,
     "uscensus:name":"Georgia",
     "uscensus:namelsad":"Georgia town",
+    "uscensus:population":4918,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -231,8 +240,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5001127700
+        "uscensus:geoid":"5001127700"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472543
     ],
@@ -251,11 +261,11 @@
         }
     ],
     "wof:id":404527123,
-    "wof:lastmodified":1605055684,
+    "wof:lastmodified":1722118028,
     "wof:name":"Georgia",
     "wof:parent_id":102080729,
     "wof:placetype":"localadmin",
-    "wof:population":4515,
+    "wof:population":4918,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01125,
-    "geom:area_square_m":93119669.093625,
+    "geom:area_square_m":93119669.093639,
     "geom:bbox":"-99.812211,47.933837,-99.68297,48.02154",
     "geom:latitude":47.977726,
     "geom:longitude":-99.74768,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.977738,
     "lbl:longitude":-99.74768,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":3800566660,
     "uscensus:name":"Rich Valley",
     "uscensus:namelsad":"Rich Valley township",
+    "uscensus:population":33,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3800566660
+        "uscensus:geoid":"3800566660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469467
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404480167,
-    "wof:lastmodified":1605055906,
+    "wof:lastmodified":1722117743,
     "wof:name":"Rich Valley Township",
     "wof:parent_id":102082071,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":40,
+    "wof:population":33,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

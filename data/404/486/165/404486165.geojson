@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003526,
-    "geom:area_square_m":32581745.775138,
+    "geom:area_square_m":32581745.775153,
     "geom:bbox":"-80.498196,41.60709,-80.391877,41.66832",
     "geom:latitude":41.64732,
     "geom:longitude":-80.437043,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.652945,
     "lbl:longitude":-80.448671,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":39,
     "uscensus:geoid":4203960312,
     "uscensus:name":"Pine",
     "uscensus:namelsad":"Pine township",
+    "uscensus:population":427,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4203960312
+        "uscensus:geoid":"4203960312"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404486165,
-    "wof:lastmodified":1605055868,
+    "wof:lastmodified":1722117778,
     "wof:name":"Pine Township",
     "wof:parent_id":102080911,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":462,
+    "wof:population":427,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

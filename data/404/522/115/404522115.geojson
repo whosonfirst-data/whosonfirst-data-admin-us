@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006352,
-    "geom:area_square_m":58285366.805971,
+    "geom:area_square_m":58285366.805937,
     "geom:bbox":"-76.865786,42.044617,-76.719554,42.127362",
     "geom:latitude":42.093689,
     "geom:longitude":-76.775864,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.097281,
     "lbl:longitude":-76.752617,
     "lbl:max_zoom":15.0,
@@ -100,22 +106,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":3601524240,
     "uscensus:name":"Elmira",
     "uscensus:namelsad":"Elmira town",
+    "uscensus:population":6596,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688543,
-        102081819
+        102081819,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3601524240
+        "uscensus:geoid":"3601524240"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -131,11 +141,11 @@
         }
     ],
     "wof:id":404522115,
-    "wof:lastmodified":1636499444,
+    "wof:lastmodified":1722233675,
     "wof:name":"Elmira",
     "wof:parent_id":102081819,
     "wof:placetype":"localadmin",
-    "wof:population":6934,
+    "wof:population":6596,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

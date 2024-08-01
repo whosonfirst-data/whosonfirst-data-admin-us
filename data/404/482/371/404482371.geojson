@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014103,
-    "geom:area_square_m":114528776.659161,
+    "geom:area_square_m":114528776.659163,
     "geom:bbox":"-99.395111,48.891809,-99.262693,48.999508",
     "geom:latitude":48.945607,
     "geom:longitude":-99.328578,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.945648,
     "lbl:longitude":-99.318769,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":3809572980,
     "uscensus:name":"Sidney",
     "uscensus:namelsad":"Sidney township",
+    "uscensus:population":30,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3809572980
+        "uscensus:geoid":"3809572980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458591
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404482371,
-    "wof:lastmodified":1605055382,
+    "wof:lastmodified":1722117756,
     "wof:name":"Sidney Township",
     "wof:parent_id":102082111,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":48,
+    "wof:population":30,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

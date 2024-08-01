@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004179,
-    "geom:area_square_m":37831384.053204,
+    "geom:area_square_m":37831384.053201,
     "geom:bbox":"-70.902033,42.888583,-70.777644,42.971018",
     "geom:latitude":42.93865,
     "geom:longitude":-70.834909,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.935784,
     "lbl:longitude":-70.833957,
     "lbl:max_zoom":15.0,
@@ -115,22 +121,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":3301533060,
     "uscensus:name":"Hampton",
     "uscensus:namelsad":"Hampton town",
+    "uscensus:population":16424,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":33,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688689,
-        102086507
+        102086507,
+        85688689
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3301533060
+        "uscensus:geoid":"3301533060"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -146,11 +156,11 @@
         }
     ],
     "wof:id":404476755,
-    "wof:lastmodified":1636499275,
+    "wof:lastmodified":1722117717,
     "wof:name":"Hampton",
     "wof:parent_id":102086507,
     "wof:placetype":"localadmin",
-    "wof:population":15430,
+    "wof:population":16424,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

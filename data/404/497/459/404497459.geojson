@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009738,
-    "geom:area_square_m":92237827.312018,
+    "geom:area_square_m":92237827.311971,
     "geom:bbox":"-90.163753,39.959863,-90.050806,40.046999",
     "geom:latitude":40.003316,
     "geom:longitude":-90.106987,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.003392,
     "lbl:longitude":-90.106988,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":1701757550,
     "uscensus:name":"Panther Creek",
     "uscensus:namelsad":"Panther Creek township",
+    "uscensus:population":295,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1701757550
+        "uscensus:geoid":"1701757550"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404497459,
-    "wof:lastmodified":1605055501,
+    "wof:lastmodified":1722233638,
     "wof:name":"Panther Creek Township",
     "wof:parent_id":102086201,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":291,
+    "wof:population":295,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

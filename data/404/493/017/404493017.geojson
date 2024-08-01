@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010445,
-    "geom:area_square_m":92032027.403788,
+    "geom:area_square_m":92032027.403811,
     "geom:bbox":"-90.436367,44.509516,-90.315374,44.598965",
     "geom:latitude":44.554315,
     "geom:longitude":-90.375964,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.554322,
     "lbl:longitude":-90.375966,
     "lbl:max_zoom":17.0,
@@ -91,11 +97,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":5501946625,
     "uscensus:name":"Lynn",
     "uscensus:namelsad":"Lynn town",
+    "uscensus:population":839,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -105,8 +114,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5501946625
+        "uscensus:geoid":"5501946625"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461347
     ],
@@ -125,11 +135,11 @@
         }
     ],
     "wof:id":404493017,
-    "wof:lastmodified":1605055952,
+    "wof:lastmodified":1722117823,
     "wof:name":"Lynn",
     "wof:parent_id":102081269,
     "wof:placetype":"localadmin",
-    "wof:population":861,
+    "wof:population":839,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

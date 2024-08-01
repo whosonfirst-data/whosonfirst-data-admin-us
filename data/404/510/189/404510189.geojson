@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010933,
-    "geom:area_square_m":91109547.733834,
+    "geom:area_square_m":91109547.733823,
     "geom:bbox":"-95.940156,47.586059,-95.810948,47.673925",
     "geom:latitude":47.629701,
     "geom:longitude":-95.875267,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.618136,
     "lbl:longitude":-95.847685,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":119,
     "uscensus:geoid":2711933254,
     "uscensus:name":"King",
     "uscensus:namelsad":"King township",
+    "uscensus:population":220,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2711933254
+        "uscensus:geoid":"2711933254"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478643
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404510189,
-    "wof:lastmodified":1605055615,
+    "wof:lastmodified":1722117934,
     "wof:name":"King Township",
     "wof:parent_id":102087599,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":219,
+    "wof:population":220,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009937,
-    "geom:area_square_m":90765393.289616,
+    "geom:area_square_m":90765393.289606,
     "geom:bbox":"-84.131604,42.337111,-84.01518,42.424567",
     "geom:latitude":42.381156,
     "geom:longitude":-84.074024,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.380965,
     "lbl:longitude":-84.074025,
     "lbl:max_zoom":15.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":161,
     "uscensus:geoid":2616149780,
     "uscensus:name":"Lyndon",
     "uscensus:namelsad":"Lyndon township",
+    "uscensus:population":2682,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2616149780
+        "uscensus:geoid":"2616149780"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471283
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404506543,
-    "wof:lastmodified":1605055756,
+    "wof:lastmodified":1722117908,
     "wof:name":"Lyndon Township",
     "wof:parent_id":102083763,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2720,
+    "wof:population":2682,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

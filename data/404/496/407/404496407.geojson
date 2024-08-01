@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010126,
-    "geom:area_square_m":94404794.418552,
+    "geom:area_square_m":94404794.418494,
     "geom:bbox":"-88.700317,41.01905,-88.58458,41.10831",
     "geom:latitude":41.063479,
     "geom:longitude":-88.642349,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.063483,
     "lbl:longitude":-88.642353,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":1710573781,
     "uscensus:name":"Sunbury",
     "uscensus:namelsad":"Sunbury township",
+    "uscensus:population":219,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1710573781
+        "uscensus:geoid":"1710573781"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474637
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404496407,
-    "wof:lastmodified":1605055598,
+    "wof:lastmodified":1722117843,
     "wof:name":"Sunbury Township",
     "wof:parent_id":102082873,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":229,
+    "wof:population":219,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

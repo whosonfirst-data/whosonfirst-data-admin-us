@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010374,
-    "geom:area_square_m":94267931.084308,
+    "geom:area_square_m":94267931.084302,
     "geom:bbox":"-74.660305,42.661707,-74.504817,42.750371",
     "geom:latitude":42.705287,
     "geom:longitude":-74.579832,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.701711,
     "lbl:longitude":-74.578356,
     "lbl:max_zoom":16.0,
@@ -106,22 +112,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":3609566542,
     "uscensus:name":"Seward",
     "uscensus:namelsad":"Seward town",
+    "uscensus:population":1601,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688543,
-        102083101
+        102083101,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3609566542
+        "uscensus:geoid":"3609566542"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468645
     ],
@@ -140,11 +150,11 @@
         }
     ],
     "wof:id":404522543,
-    "wof:lastmodified":1636499440,
+    "wof:lastmodified":1722117994,
     "wof:name":"Seward",
     "wof:parent_id":102083101,
     "wof:placetype":"localadmin",
-    "wof:population":1763,
+    "wof:population":1601,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

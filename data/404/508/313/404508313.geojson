@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010466,
-    "geom:area_square_m":90699969.525042,
+    "geom:area_square_m":90699969.525092,
     "geom:bbox":"-84.730718,45.462171,-84.609486,45.550985",
     "geom:latitude":45.506473,
     "geom:longitude":-84.670127,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.506329,
     "lbl:longitude":-84.670131,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":2603111980,
     "uscensus:name":"Burt",
     "uscensus:namelsad":"Burt township",
+    "uscensus:population":723,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2603111980
+        "uscensus:geoid":"2603111980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467007
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404508313,
-    "wof:lastmodified":1605055741,
+    "wof:lastmodified":1722117921,
     "wof:name":"Burt Township",
     "wof:parent_id":102083095,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":680,
+    "wof:population":723,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

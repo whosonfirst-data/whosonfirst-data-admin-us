@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014469,
-    "geom:area_square_m":124555034.367525,
+    "geom:area_square_m":124555034.367503,
     "geom:bbox":"-97.103871,45.819177,-96.977566,45.935798",
     "geom:latitude":45.877711,
     "geom:longitude":-97.041183,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.877552,
     "lbl:longitude":-97.041188,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":109,
     "uscensus:geoid":4610942820,
     "uscensus:name":"Minnesota",
     "uscensus:namelsad":"Minnesota township",
+    "uscensus:population":97,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4610942820
+        "uscensus:geoid":"4610942820"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459753
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404490835,
-    "wof:lastmodified":1605055511,
+    "wof:lastmodified":1722117809,
     "wof:name":"Minnesota Township",
     "wof:parent_id":102086057,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":120,
+    "wof:population":97,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

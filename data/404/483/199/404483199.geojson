@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000349,
-    "geom:area_square_m":3207249.799517,
+    "geom:area_square_m":3207249.79952,
     "geom:bbox":"-79.995519,41.934004,-79.970633,41.954089",
     "geom:latitude":41.944865,
     "geom:longitude":-79.985594,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.944912,
     "lbl:longitude":-79.986595,
     "lbl:max_zoom":16.0,
@@ -202,11 +208,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":4204981456,
     "uscensus:name":"Waterford",
     "uscensus:namelsad":"Waterford borough",
+    "uscensus:population":1446,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -216,8 +225,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4204981456
+        "uscensus:geoid":"4204981456"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -233,11 +243,11 @@
         }
     ],
     "wof:id":404483199,
-    "wof:lastmodified":1605055444,
+    "wof:lastmodified":1722117761,
     "wof:name":"Waterford",
     "wof:parent_id":102080955,
     "wof:placetype":"localadmin",
-    "wof:population":1517,
+    "wof:population":1446,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

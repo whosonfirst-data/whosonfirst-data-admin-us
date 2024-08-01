@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000187,
-    "geom:area_square_m":1724880.523894,
+    "geom:area_square_m":1724880.523896,
     "geom:bbox":"-80.093769,41.74604,-80.07798,41.761223",
     "geom:latitude":41.754078,
     "geom:longitude":-80.084532,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.754564,
     "lbl:longitude":-80.084382,
     "lbl:max_zoom":18.0,
@@ -148,11 +154,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":39,
     "uscensus:geoid":4203986160,
     "uscensus:name":"Woodcock",
     "uscensus:namelsad":"Woodcock borough",
+    "uscensus:population":135,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -162,8 +171,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4203986160
+        "uscensus:geoid":"4203986160"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -179,11 +189,11 @@
         }
     ],
     "wof:id":404486297,
-    "wof:lastmodified":1605055874,
+    "wof:lastmodified":1722117779,
     "wof:name":"Woodcock",
     "wof:parent_id":102080911,
     "wof:placetype":"localadmin",
-    "wof:population":157,
+    "wof:population":135,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

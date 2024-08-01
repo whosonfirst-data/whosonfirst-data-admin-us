@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009458,
-    "geom:area_square_m":92763904.205249,
+    "geom:area_square_m":92763904.205281,
     "geom:bbox":"-95.633781,37.471149,-95.524896,37.558925",
     "geom:latitude":37.51515,
     "geom:longitude":-95.579342,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.515064,
     "lbl:longitude":-95.579341,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":205,
     "uscensus:geoid":2020513000,
     "uscensus:name":"Chetopa",
     "uscensus:namelsad":"Chetopa township",
+    "uscensus:population":148,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2020513000
+        "uscensus:geoid":"2020513000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465231
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404504835,
-    "wof:lastmodified":1605055300,
+    "wof:lastmodified":1722117896,
     "wof:name":"Chetopa Township",
     "wof:parent_id":102083467,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":162,
+    "wof:population":148,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

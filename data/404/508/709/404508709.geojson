@@ -10,6 +10,12 @@
     "geom:latitude":42.211289,
     "geom:longitude":-83.155807,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.212872,
     "lbl:longitude":-83.155805,
     "lbl:max_zoom":14.0,
@@ -64,11 +70,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":163,
     "uscensus:geoid":2616388900,
     "uscensus:name":"Wyandotte",
     "uscensus:namelsad":"Wyandotte city",
+    "uscensus:population":24057,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -78,8 +87,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2616388900
+        "uscensus:geoid":"2616388900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -95,11 +105,11 @@
         }
     ],
     "wof:id":404508709,
-    "wof:lastmodified":1605055733,
+    "wof:lastmodified":1722117924,
     "wof:name":"Wyandotte",
     "wof:parent_id":102083147,
     "wof:placetype":"localadmin",
-    "wof:population":25883,
+    "wof:population":24057,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

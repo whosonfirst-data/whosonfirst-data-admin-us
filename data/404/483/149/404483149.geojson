@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000077,
-    "geom:area_square_m":710232.743691,
+    "geom:area_square_m":710232.743695,
     "geom:bbox":"-80.116694,41.765892,-80.106047,41.777881",
     "geom:latitude":41.772701,
     "geom:longitude":-80.11206,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.773222,
     "lbl:longitude":-80.112592,
     "lbl:max_zoom":17.0,
@@ -64,11 +70,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":39,
     "uscensus:geoid":4203979912,
     "uscensus:name":"Venango",
     "uscensus:namelsad":"Venango borough",
+    "uscensus:population":207,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -78,8 +87,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4203979912
+        "uscensus:geoid":"4203979912"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -95,11 +105,11 @@
         }
     ],
     "wof:id":404483149,
-    "wof:lastmodified":1605055450,
+    "wof:lastmodified":1722117761,
     "wof:name":"Venango",
     "wof:parent_id":102080911,
     "wof:placetype":"localadmin",
-    "wof:population":239,
+    "wof:population":207,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

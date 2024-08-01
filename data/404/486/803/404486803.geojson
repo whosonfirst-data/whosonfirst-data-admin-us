@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012335,
-    "geom:area_square_m":113270806.436029,
+    "geom:area_square_m":113270806.43607,
     "geom:bbox":"-79.903884,41.998673,-79.761313,42.088454",
     "geom:latitude":42.042962,
     "geom:longitude":-79.832828,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.042626,
     "lbl:longitude":-79.836694,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":4204979928,
     "uscensus:name":"Venango",
     "uscensus:namelsad":"Venango township",
+    "uscensus:population":2225,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4204979928
+        "uscensus:geoid":"4204979928"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459581
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404486803,
-    "wof:lastmodified":1605055863,
+    "wof:lastmodified":1722117783,
     "wof:name":"Venango Township",
     "wof:parent_id":102080955,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2297,
+    "wof:population":2225,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011235,
-    "geom:area_square_m":92842487.877777,
+    "geom:area_square_m":92842487.877692,
     "geom:bbox":"-97.385253,48.0198,-97.255305,48.107883",
     "geom:latitude":48.063693,
     "geom:longitude":-97.320067,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.063699,
     "lbl:longitude":-97.320076,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":3803544060,
     "uscensus:name":"Lakeville",
     "uscensus:namelsad":"Lakeville township",
+    "uscensus:population":73,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3803544060
+        "uscensus:geoid":"3803544060"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469157
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404480595,
-    "wof:lastmodified":1605055906,
+    "wof:lastmodified":1722117745,
     "wof:name":"Lakeville Township",
     "wof:parent_id":102081493,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":69,
+    "wof:population":73,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

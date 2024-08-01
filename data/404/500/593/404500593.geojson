@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004965,
-    "geom:area_square_m":45997564.936281,
+    "geom:area_square_m":45997564.936279,
     "geom:bbox":"-86.059849,41.43542,-86.001283,41.521747",
     "geom:latitude":41.4786,
     "geom:longitude":-86.030534,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.478614,
     "lbl:longitude":-86.030537,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":39,
     "uscensus:geoid":1803944514,
     "uscensus:name":"Locke",
     "uscensus:namelsad":"Locke township",
+    "uscensus:population":4281,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1803944514
+        "uscensus:geoid":"1803944514"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404500593,
-    "wof:lastmodified":1604530772,
+    "wof:lastmodified":1722233650,
     "wof:name":"Locke Township",
     "wof:parent_id":102086257,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3913,
+    "wof:population":4281,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

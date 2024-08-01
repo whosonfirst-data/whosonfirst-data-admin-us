@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001034,
-    "geom:area_square_m":9364856.956841,
+    "geom:area_square_m":9364856.956844,
     "geom:bbox":"-83.642513,42.910056,-83.590376,42.937981",
     "geom:latitude":42.925871,
     "geom:longitude":-83.618188,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.926922,
     "lbl:longitude":-83.628398,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":2604933280,
     "uscensus:name":"Grand Blanc",
     "uscensus:namelsad":"Grand Blanc city",
+    "uscensus:population":7925,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2604933280
+        "uscensus:geoid":"2604933280"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404506609,
-    "wof:lastmodified":1605055764,
+    "wof:lastmodified":1722117908,
     "wof:name":"Grand Blanc",
     "wof:parent_id":102083111,
     "wof:placetype":"localadmin",
-    "wof:population":8276,
+    "wof:population":7925,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

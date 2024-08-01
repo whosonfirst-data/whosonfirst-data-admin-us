@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000085,
-    "geom:area_square_m":751160.758003,
+    "geom:area_square_m":751160.758002,
     "geom:bbox":"-96.468924,44.151302,-96.456259,44.158271",
     "geom:latitude":44.154813,
     "geom:longitude":-96.462592,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.154809,
     "lbl:longitude":-96.462592,
     "lbl:max_zoom":18.0,
@@ -88,11 +94,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":101,
     "uscensus:geoid":4610168660,
     "uscensus:name":"Ward",
     "uscensus:namelsad":"Ward town",
+    "uscensus:population":43,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -102,8 +111,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4610168660
+        "uscensus:geoid":"4610168660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -119,11 +129,11 @@
         }
     ],
     "wof:id":404489381,
-    "wof:lastmodified":1605055937,
+    "wof:lastmodified":1722117800,
     "wof:name":"Ward",
     "wof:parent_id":102086851,
     "wof:placetype":"localadmin",
-    "wof:population":48,
+    "wof:population":43,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

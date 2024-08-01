@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008197,
-    "geom:area_square_m":73559990.829138,
+    "geom:area_square_m":73559990.829172,
     "geom:bbox":"-97.16202,43.43034,-97.042951,43.4998",
     "geom:latitude":43.465232,
     "geom:longitude":-97.102484,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.465211,
     "lbl:longitude":-97.10249,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":4612507700,
     "uscensus:name":"Brothersfield",
     "uscensus:namelsad":"Brothersfield township",
+    "uscensus:population":180,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4612507700
+        "uscensus:geoid":"4612507700"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456109
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404489291,
-    "wof:lastmodified":1605055934,
+    "wof:lastmodified":1722117799,
     "wof:name":"Brothersfield Township",
     "wof:parent_id":102086867,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":165,
+    "wof:population":180,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

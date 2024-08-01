@@ -10,6 +10,12 @@
     "geom:latitude":46.469588,
     "geom:longitude":-95.233774,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.466986,
     "lbl:longitude":-95.233775,
     "lbl:max_zoom":17.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":111,
     "uscensus:geoid":2711106778,
     "uscensus:name":"Bluffton",
     "uscensus:namelsad":"Bluffton city",
+    "uscensus:population":212,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2711106778
+        "uscensus:geoid":"2711106778"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404510321,
-    "wof:lastmodified":1605055623,
+    "wof:lastmodified":1722117935,
     "wof:name":"Bluffton",
     "wof:parent_id":102087803,
     "wof:placetype":"localadmin",
-    "wof:population":207,
+    "wof:population":212,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

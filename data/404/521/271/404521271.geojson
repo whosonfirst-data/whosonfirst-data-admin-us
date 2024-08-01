@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013189,
-    "geom:area_square_m":120761151.387615,
+    "geom:area_square_m":120761151.3876,
     "geom:bbox":"-75.637525,42.194918,-75.417277,42.285701",
     "geom:latitude":42.227552,
     "geom:longitude":-75.524123,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.227813,
     "lbl:longitude":-75.526207,
     "lbl:max_zoom":15.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":3601700353,
     "uscensus:name":"Afton",
     "uscensus:namelsad":"Afton town",
+    "uscensus:population":2719,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3601700353
+        "uscensus:geoid":"3601700353"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404521271,
-    "wof:lastmodified":1605055636,
+    "wof:lastmodified":1722233673,
     "wof:name":"Afton",
     "wof:parent_id":102082367,
     "wof:placetype":"localadmin",
-    "wof:population":2851,
+    "wof:population":2719,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

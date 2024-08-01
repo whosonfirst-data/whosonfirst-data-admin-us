@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010689,
-    "geom:area_square_m":101219850.290093,
+    "geom:area_square_m":101219850.290049,
     "geom:bbox":"-80.51928,39.952016,-80.425003,40.089137",
     "geom:latitude":40.020826,
     "geom:longitude":-80.474474,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.019701,
     "lbl:longitude":-80.473577,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":4212583000,
     "uscensus:name":"West Finley",
     "uscensus:namelsad":"West Finley township",
+    "uscensus:population":829,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212583000
+        "uscensus:geoid":"4212583000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466143
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404487921,
-    "wof:lastmodified":1605055897,
+    "wof:lastmodified":1722117790,
     "wof:name":"West Finley Township",
     "wof:parent_id":102081343,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":878,
+    "wof:population":829,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011684,
-    "geom:area_square_m":102927155.188848,
+    "geom:area_square_m":102927155.188834,
     "geom:bbox":"-72.237433,44.510398,-72.057595,44.624073",
     "geom:latitude":44.568335,
     "geom:longitude":-72.140733,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.557692,
     "lbl:longitude":-72.131932,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":5000583500,
     "uscensus:name":"Wheelock",
     "uscensus:namelsad":"Wheelock town",
+    "uscensus:population":768,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5000583500
+        "uscensus:geoid":"5000583500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471273
     ],
@@ -86,11 +96,11 @@
         }
     ],
     "wof:id":404527573,
-    "wof:lastmodified":1605055681,
+    "wof:lastmodified":1722118031,
     "wof:name":"Wheelock",
     "wof:parent_id":102080755,
     "wof:placetype":"localadmin",
-    "wof:population":811,
+    "wof:population":768,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

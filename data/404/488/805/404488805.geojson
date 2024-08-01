@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010427,
-    "geom:area_square_m":93323942.988449,
+    "geom:area_square_m":93323942.988444,
     "geom:bbox":"-97.966795,43.586195,-97.846591,43.673573",
     "geom:latitude":43.629953,
     "geom:longitude":-97.906668,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.629987,
     "lbl:longitude":-97.906647,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":4606156060,
     "uscensus:name":"Rosedale",
     "uscensus:namelsad":"Rosedale township",
+    "uscensus:population":300,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4606156060
+        "uscensus:geoid":"4606156060"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466875
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404488805,
-    "wof:lastmodified":1605055807,
+    "wof:lastmodified":1722117796,
     "wof:name":"Rosedale Township",
     "wof:parent_id":102086795,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":394,
+    "wof:population":300,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

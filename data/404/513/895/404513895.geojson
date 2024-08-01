@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01042,
-    "geom:area_square_m":91898572.841974,
+    "geom:area_square_m":91898572.841884,
     "geom:bbox":"-94.49234,44.45626,-94.371316,44.54314",
     "geom:latitude":44.49963,
     "geom:longitude":-94.432041,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.499711,
     "lbl:longitude":-94.432045,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":143,
     "uscensus:geoid":2714313348,
     "uscensus:name":"Cornish",
     "uscensus:namelsad":"Cornish township",
+    "uscensus:population":241,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2714313348
+        "uscensus:geoid":"2714313348"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460013
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404513895,
-    "wof:lastmodified":1605056035,
+    "wof:lastmodified":1722117962,
     "wof:name":"Cornish Township",
     "wof:parent_id":102087775,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":243,
+    "wof:population":241,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

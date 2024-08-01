@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003292,
-    "geom:area_square_m":30178499.93073,
+    "geom:area_square_m":30178499.930742,
     "geom:bbox":"-71.478522,42.131378,-71.375618,42.179386",
     "geom:latitude":42.15353,
     "geom:longitude":-71.429026,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.158757,
     "lbl:longitude":-71.428053,
     "lbl:max_zoom":15.0,
@@ -127,22 +133,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":2502139975,
     "uscensus:name":"Medway",
     "uscensus:namelsad":"Medway town",
+    "uscensus:population":13560,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688645,
-        102084403
+        102084403,
+        85688645
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2502139975
+        "uscensus:geoid":"2502139975"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465797
     ],
@@ -161,11 +171,11 @@
         }
     ],
     "wof:id":404476579,
-    "wof:lastmodified":1636499287,
+    "wof:lastmodified":1722117716,
     "wof:name":"Medway",
     "wof:parent_id":102084403,
     "wof:placetype":"localadmin",
-    "wof:population":12752,
+    "wof:population":13560,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

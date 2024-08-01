@@ -152,7 +152,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":13608357,
     "uscensus:awater":6688031,
     "uscensus:classfp":"C5",
@@ -168,17 +169,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"01225",
     "uscensus:placens":"01582675",
+    "uscensus:population":717,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"55",
     "wd:elevation":205.0,
     "wd:latitude":44.34,
     "wd:longitude":-91.924444,
     "wd:wordcount":1068,
     "wof:belongsto":[
-        85688517,
         102191575,
-        404492929,
         85633793,
-        102081261
+        102081261,
+        404492929,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -187,10 +190,11 @@
         "gn:id":5243778,
         "gp:id":2353569,
         "qs_pg:id":1244814,
-        "uscensus:geoid":5501225,
+        "uscensus:geoid":"5501225",
         "wd:id":"Q979471",
         "wk:page":"Alma, Wisconsin"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -211,11 +215,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889287,
+    "wof:lastmodified":1722116317,
     "wof:name":"Alma",
     "wof:parent_id":404492929,
     "wof:placetype":"locality",
-    "wof:population":781,
+    "wof:population":717,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

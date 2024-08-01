@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010094,
-    "geom:area_square_m":93063306.643755,
+    "geom:area_square_m":93063306.643722,
     "geom:bbox":"-97.019935,41.742755,-96.903428,41.830013",
     "geom:latitude":41.786337,
     "geom:longitude":-96.96166,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.786364,
     "lbl:longitude":-96.961657,
     "lbl:max_zoom":18.0,
@@ -61,11 +67,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":39,
     "uscensus:geoid":3103927190,
     "uscensus:name":"Lincoln",
     "uscensus:namelsad":"Lincoln township",
+    "uscensus:population":194,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -75,8 +84,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3103927190
+        "uscensus:geoid":"3103927190"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474045
     ],
@@ -95,12 +105,12 @@
         }
     ],
     "wof:id":404518651,
-    "wof:lastmodified":1605055688,
+    "wof:lastmodified":1722117977,
     "wof:name":"Lincoln Township",
     "wof:parent_id":102082731,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":199,
+    "wof:population":194,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

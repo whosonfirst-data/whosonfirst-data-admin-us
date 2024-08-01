@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009737,
-    "geom:area_square_m":94024032.37191,
+    "geom:area_square_m":94024032.37193,
     "geom:bbox":"-98.479984,38.60874,-98.369321,38.697216",
     "geom:latitude":38.652895,
     "geom:longitude":-98.424633,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.652907,
     "lbl:longitude":-98.424635,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":53,
     "uscensus:geoid":2005354100,
     "uscensus:name":"Palacky",
     "uscensus:namelsad":"Palacky township",
+    "uscensus:population":55,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2005354100
+        "uscensus:geoid":"2005354100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472241
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404503601,
-    "wof:lastmodified":1605055328,
+    "wof:lastmodified":1722117887,
     "wof:name":"Palacky Township",
     "wof:parent_id":102085323,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":60,
+    "wof:population":55,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

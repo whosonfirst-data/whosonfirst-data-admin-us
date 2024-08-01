@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000812,
-    "geom:area_square_m":7501861.275412,
+    "geom:area_square_m":7501861.275411,
     "geom:bbox":"-79.69925,41.617205,-79.644055,41.63995",
     "geom:latitude":41.627281,
     "geom:longitude":-79.669851,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.626877,
     "lbl:longitude":-79.66983,
     "lbl:max_zoom":15.0,
@@ -100,22 +106,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":39,
     "uscensus:geoid":4203976904,
     "uscensus:name":"Titusville",
     "uscensus:namelsad":"Titusville city",
+    "uscensus:population":5164,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688481,
-        102080911
+        102080911,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4203976904
+        "uscensus:geoid":"4203976904"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -131,11 +141,11 @@
         }
     ],
     "wof:id":404486279,
-    "wof:lastmodified":1636499383,
+    "wof:lastmodified":1722117779,
     "wof:name":"Titusville",
     "wof:parent_id":102080911,
     "wof:placetype":"localadmin",
-    "wof:population":5601,
+    "wof:population":5164,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

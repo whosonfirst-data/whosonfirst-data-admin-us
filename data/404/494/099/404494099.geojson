@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010346,
-    "geom:area_square_m":92648548.935768,
+    "geom:area_square_m":92648548.935757,
     "geom:bbox":"-90.432641,43.553717,-90.310979,43.641032",
     "geom:latitude":43.596931,
     "geom:longitude":-90.371683,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.596979,
     "lbl:longitude":-90.371686,
     "lbl:max_zoom":17.0,
@@ -103,11 +109,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":123,
     "uscensus:geoid":5512331625,
     "uscensus:name":"Greenwood",
     "uscensus:namelsad":"Greenwood town",
+    "uscensus:population":942,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -117,8 +126,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5512331625
+        "uscensus:geoid":"5512331625"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464175
     ],
@@ -137,11 +147,11 @@
         }
     ],
     "wof:id":404494099,
-    "wof:lastmodified":1605055964,
+    "wof:lastmodified":1722117830,
     "wof:name":"Greenwood",
     "wof:parent_id":102081733,
     "wof:placetype":"localadmin",
-    "wof:population":847,
+    "wof:population":942,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

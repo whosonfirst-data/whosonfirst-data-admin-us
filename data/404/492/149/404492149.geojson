@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010393,
-    "geom:area_square_m":91589267.474988,
+    "geom:area_square_m":91589267.474975,
     "geom:bbox":"-88.737083,44.502262,-88.615442,44.590644",
     "geom:latitude":44.546856,
     "geom:longitude":-88.675157,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.546444,
     "lbl:longitude":-88.674348,
     "lbl:max_zoom":17.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":87,
     "uscensus:geoid":5508719200,
     "uscensus:name":"Deer Creek",
     "uscensus:namelsad":"Deer Creek town",
+    "uscensus:population":626,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5508719200
+        "uscensus:geoid":"5508719200"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729477087
     ],
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404492149,
-    "wof:lastmodified":1605056012,
+    "wof:lastmodified":1722117817,
     "wof:name":"Deer Creek",
     "wof:parent_id":102081851,
     "wof:placetype":"localadmin",
-    "wof:population":637,
+    "wof:population":626,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009845,
-    "geom:area_square_m":88173284.486585,
+    "geom:area_square_m":88173284.486544,
     "geom:bbox":"-88.040701,43.542361,-87.920803,43.631074",
     "geom:latitude":43.587898,
     "geom:longitude":-87.982594,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.592227,
     "lbl:longitude":-87.992131,
     "lbl:max_zoom":16.0,
@@ -109,11 +115,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":117,
     "uscensus:geoid":5511773425,
     "uscensus:name":"Sherman",
     "uscensus:namelsad":"Sherman town",
+    "uscensus:population":1465,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -123,8 +132,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5511773425
+        "uscensus:geoid":"5511773425"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464007
     ],
@@ -143,11 +153,11 @@
         }
     ],
     "wof:id":404494669,
-    "wof:lastmodified":1605055963,
+    "wof:lastmodified":1722117834,
     "wof:name":"Sherman",
     "wof:parent_id":102081869,
     "wof:placetype":"localadmin",
-    "wof:population":1505,
+    "wof:population":1465,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

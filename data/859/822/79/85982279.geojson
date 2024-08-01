@@ -151,7 +151,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1438260,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -167,17 +168,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"75780",
     "uscensus:placens":"01036287",
+    "uscensus:population":652,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":567.0,
     "wd:latitude":46.856066,
     "wd:longitude":-99.916606,
     "wd:wordcount":1102,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404482161,
         85633793,
-        102082547
+        102082547,
+        404482161,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -186,10 +189,11 @@
         "gn:id":5062036,
         "gp:id":2499431,
         "qs_pg:id":1051282,
-        "uscensus:geoid":3875780,
+        "uscensus:geoid":"3875780",
         "wd:id":"Q2018815",
         "wk:page":"Steele, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -210,11 +214,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885253,
+    "wof:lastmodified":1722116148,
     "wof:name":"Steele",
     "wof:parent_id":404482161,
     "wof:placetype":"locality",
-    "wof:population":715,
+    "wof:population":652,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010129,
-    "geom:area_square_m":89251211.428768,
+    "geom:area_square_m":89251211.428755,
     "geom:bbox":"-90.316008,44.511883,-90.198079,44.598958",
     "geom:latitude":44.555627,
     "geom:longitude":-90.256967,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.555633,
     "lbl:longitude":-90.256968,
     "lbl:max_zoom":17.0,
@@ -118,11 +124,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":141,
     "uscensus:geoid":5514168625,
     "uscensus:name":"Rock",
     "uscensus:namelsad":"Rock town",
+    "uscensus:population":803,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -132,8 +141,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5514168625
+        "uscensus:geoid":"5514168625"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474181
     ],
@@ -152,11 +162,11 @@
         }
     ],
     "wof:id":404492379,
-    "wof:lastmodified":1605056002,
+    "wof:lastmodified":1722117819,
     "wof:name":"Rock",
     "wof:parent_id":102081737,
     "wof:placetype":"localadmin",
-    "wof:population":855,
+    "wof:population":803,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

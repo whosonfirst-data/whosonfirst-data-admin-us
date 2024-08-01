@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011361,
-    "geom:area_square_m":107896771.285964,
+    "geom:area_square_m":107896771.285997,
     "geom:bbox":"-76.483519,39.755332,-76.296998,39.8975",
     "geom:latitude":39.81836,
     "geom:longitude":-76.387588,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.826575,
     "lbl:longitude":-76.393896,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":133,
     "uscensus:geoid":4213344872,
     "uscensus:name":"Lower Chanceford",
     "uscensus:namelsad":"Lower Chanceford township",
+    "uscensus:population":3065,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4213344872
+        "uscensus:geoid":"4213344872"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463007
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404487817,
-    "wof:lastmodified":1605055881,
+    "wof:lastmodified":1722117790,
     "wof:name":"Lower Chanceford Township",
     "wof:parent_id":102080953,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3028,
+    "wof:population":3065,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

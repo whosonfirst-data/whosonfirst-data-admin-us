@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002664,
-    "geom:area_square_m":25322642.565447,
+    "geom:area_square_m":25322642.565482,
     "geom:bbox":"-75.818238,39.722182,-75.75447,39.78079",
     "geom:latitude":39.749807,
     "geom:longitude":-75.786691,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.748611,
     "lbl:longitude":-75.787302,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":4202944440,
     "uscensus:name":"London Britain",
     "uscensus:namelsad":"London Britain township",
+    "uscensus:population":3178,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202944440
+        "uscensus:geoid":"4202944440"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478281
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404485217,
-    "wof:lastmodified":1605055358,
+    "wof:lastmodified":1722117773,
     "wof:name":"London Britain Township",
     "wof:parent_id":102081275,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3139,
+    "wof:population":3178,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

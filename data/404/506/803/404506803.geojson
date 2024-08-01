@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.015188,
-    "geom:area_square_m":135940002.483299,
+    "geom:area_square_m":135940002.483263,
     "geom:bbox":"-83.871811,43.565391,-83.699206,43.678994",
     "geom:latitude":43.625257,
     "geom:longitude":-83.771108,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":43.629333,
     "lbl:longitude":-83.771095,
@@ -126,22 +129,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":2601736260,
     "uscensus:name":"Hampton",
     "uscensus:namelsad":"Hampton charter township",
+    "uscensus:population":9568,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688599,
-        102083135
+        102083135,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2601736260
+        "uscensus:geoid":"2601736260"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470621
     ],
@@ -160,11 +167,11 @@
         }
     ],
     "wof:id":404506803,
-    "wof:lastmodified":1636499355,
+    "wof:lastmodified":1722117910,
     "wof:name":"Hampton",
     "wof:parent_id":102083135,
     "wof:placetype":"localadmin",
-    "wof:population":9652,
+    "wof:population":9568,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

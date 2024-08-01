@@ -145,7 +145,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2431206,
     "uscensus:awater":69155,
     "uscensus:classfp":"C5",
@@ -161,17 +162,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"56780",
     "uscensus:placens":"01036185",
+    "uscensus:population":42,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":444.0,
     "wd:latitude":47.996944,
     "wd:longitude":-97.869444,
     "wd:wordcount":765,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404480611,
         85633793,
-        102081493
+        102081493,
+        404480611,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -180,10 +183,11 @@
         "gn:id":5060628,
         "gp:id":2459799,
         "qs_pg:id":156475,
-        "uscensus:geoid":3856780,
+        "uscensus:geoid":"3856780",
         "wd:id":"Q1833712",
         "wk:page":"Niagara, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -204,11 +208,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884823,
+    "wof:lastmodified":1722116122,
     "wof:name":"Niagara",
     "wof:parent_id":404480611,
     "wof:placetype":"locality",
-    "wof:population":53,
+    "wof:population":42,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

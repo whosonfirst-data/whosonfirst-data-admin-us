@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010441,
-    "geom:area_square_m":90410501.339429,
+    "geom:area_square_m":90410501.33944,
     "geom:bbox":"-99.585374,45.506092,-99.461054,45.593239",
     "geom:latitude":45.548875,
     "geom:longitude":-99.524504,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.549758,
     "lbl:longitude":-99.523105,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":4604530180,
     "uscensus:name":"Hosmer",
     "uscensus:namelsad":"Hosmer township",
+    "uscensus:population":41,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4604530180
+        "uscensus:geoid":"4604530180"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456439
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404489863,
-    "wof:lastmodified":1605055935,
+    "wof:lastmodified":1722117803,
     "wof:name":"Hosmer Township",
     "wof:parent_id":102086789,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":19,
+    "wof:population":41,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

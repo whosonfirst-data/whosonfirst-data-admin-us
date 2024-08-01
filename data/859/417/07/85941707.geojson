@@ -306,7 +306,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":40410091,
     "uscensus:awater":206410,
     "uscensus:classfp":"C1",
@@ -322,17 +323,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"46908",
     "uscensus:placens":"02395009",
+    "uscensus:population":28105,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"18",
     "wd:elevation":247.0,
     "wd:latitude":40.5492,
     "wd:longitude":-85.6647,
     "wd:wordcount":3322,
     "wof:belongsto":[
-        85688709,
         102191575,
-        404500749,
         85633793,
-        102087025
+        102087025,
+        404500749,
+        85688709
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -341,10 +344,11 @@
         "gn:id":4923210,
         "gp:id":2445763,
         "qs_pg:id":824176,
-        "uscensus:geoid":1846908,
+        "uscensus:geoid":"1846908",
         "wd:id":"Q286068",
         "wk:page":"Marion, Indiana"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -365,12 +369,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884760,
+    "wof:lastmodified":1722116118,
     "wof:megacity":0,
     "wof:name":"Marion",
     "wof:parent_id":404500749,
     "wof:placetype":"locality",
-    "wof:population":29948,
+    "wof:population":28105,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:scale":8,

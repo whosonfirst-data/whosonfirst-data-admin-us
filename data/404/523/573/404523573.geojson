@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008512,
-    "geom:area_square_m":81325745.790063,
+    "geom:area_square_m":81325745.790059,
     "geom:bbox":"-81.947149,39.362315,-81.844863,39.454339",
     "geom:latitude":39.408117,
     "geom:longitude":-81.895748,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.408152,
     "lbl:longitude":-81.895752,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":3900905942,
     "uscensus:name":"Bern",
     "uscensus:namelsad":"Bern township",
+    "uscensus:population":559,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3900905942
+        "uscensus:geoid":"3900905942"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471573
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404523573,
-    "wof:lastmodified":1605056092,
+    "wof:lastmodified":1722118002,
     "wof:name":"Bern Township",
     "wof:parent_id":102084755,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":572,
+    "wof:population":559,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

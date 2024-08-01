@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007204,
-    "geom:area_square_m":68075729.369691,
+    "geom:area_square_m":68075729.36966,
     "geom:bbox":"-77.123549,40.110985,-77.012601,40.20893",
     "geom:latitude":40.161232,
     "geom:longitude":-77.070088,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.159003,
     "lbl:longitude":-77.07457,
     "lbl:max_zoom":15.0,
@@ -58,11 +64,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":4204150472,
     "uscensus:name":"Monroe",
     "uscensus:namelsad":"Monroe township",
+    "uscensus:population":6630,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -72,8 +81,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4204150472
+        "uscensus:geoid":"4204150472"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459021
     ],
@@ -92,12 +102,12 @@
         }
     ],
     "wof:id":404486413,
-    "wof:lastmodified":1605055861,
+    "wof:lastmodified":1722117780,
     "wof:name":"Monroe Township",
     "wof:parent_id":102081359,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":5823,
+    "wof:population":6630,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

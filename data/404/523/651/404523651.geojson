@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011429,
-    "geom:area_square_m":109255110.975744,
+    "geom:area_square_m":109255110.975724,
     "geom:bbox":"-83.771167,39.292134,-83.633517,39.443997",
     "geom:latitude":39.370081,
     "geom:longitude":-83.714183,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.369312,
     "lbl:longitude":-83.71314,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":3902731710,
     "uscensus:name":"Green",
     "uscensus:namelsad":"Green township",
+    "uscensus:population":2506,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3902731710
+        "uscensus:geoid":"3902731710"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404523651,
-    "wof:lastmodified":1605056088,
+    "wof:lastmodified":1722233680,
     "wof:name":"Green Township",
     "wof:parent_id":102083645,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2473,
+    "wof:population":2506,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

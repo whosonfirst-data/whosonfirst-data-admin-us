@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012622,
-    "geom:area_square_m":124084667.837245,
+    "geom:area_square_m":124084667.837274,
     "geom:bbox":"-99.001955,37.295629,-98.857677,37.384364",
     "geom:latitude":37.340254,
     "geom:longitude":-98.929648,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.340263,
     "lbl:longitude":-98.929655,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":2000769300,
     "uscensus:name":"Sun City",
     "uscensus:namelsad":"Sun City township",
+    "uscensus:population":46,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2000769300
+        "uscensus:geoid":"2000769300"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404503781,
-    "wof:lastmodified":1605055330,
+    "wof:lastmodified":1722233660,
     "wof:name":"Sun City Township",
     "wof:parent_id":102083437,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":68,
+    "wof:population":46,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

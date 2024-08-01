@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.020293,
-    "geom:area_square_m":185964055.151978,
+    "geom:area_square_m":185964055.151915,
     "geom:bbox":"-99.001915,42.088198,-98.884664,42.262971",
     "geom:latitude":42.175479,
     "geom:longitude":-98.94336,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.175425,
     "lbl:longitude":-98.94329,
     "lbl:max_zoom":18.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":89,
     "uscensus:geoid":3108953940,
     "uscensus:name":"Wyoming",
     "uscensus:namelsad":"Wyoming township",
+    "uscensus:population":77,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3108953940
+        "uscensus:geoid":"3108953940"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729455457
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404520373,
-    "wof:lastmodified":1605055711,
+    "wof:lastmodified":1722117982,
     "wof:name":"Wyoming Township",
     "wof:parent_id":102084271,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":87,
+    "wof:population":77,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

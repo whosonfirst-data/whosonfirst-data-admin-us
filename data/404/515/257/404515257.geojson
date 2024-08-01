@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01053,
-    "geom:area_square_m":92032661.131635,
+    "geom:area_square_m":92032661.13165,
     "geom:bbox":"-94.256128,44.978746,-94.134256,45.066323",
     "geom:latitude":45.022332,
     "geom:longitude":-94.195213,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.022273,
     "lbl:longitude":-94.195214,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":171,
     "uscensus:geoid":2717162878,
     "uscensus:name":"Stockholm",
     "uscensus:namelsad":"Stockholm township",
+    "uscensus:population":981,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2717162878
+        "uscensus:geoid":"2717162878"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729479437
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404515257,
-    "wof:lastmodified":1605056137,
+    "wof:lastmodified":1722117972,
     "wof:name":"Stockholm Township",
     "wof:parent_id":102087815,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":959,
+    "wof:population":981,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

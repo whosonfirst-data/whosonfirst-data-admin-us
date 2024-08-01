@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009877,
-    "geom:area_square_m":91640277.776502,
+    "geom:area_square_m":91640277.776546,
     "geom:bbox":"-84.804063,41.339018,-84.689971,41.42645",
     "geom:latitude":41.382667,
     "geom:longitude":-84.747189,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.382661,
     "lbl:longitude":-84.747204,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":39,
     "uscensus:geoid":3903950190,
     "uscensus:name":"Milford",
     "uscensus:namelsad":"Milford township",
+    "uscensus:population":1107,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3903950190
+        "uscensus:geoid":"3903950190"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474307
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404524361,
-    "wof:lastmodified":1605056109,
+    "wof:lastmodified":1722118007,
     "wof:name":"Milford Township",
     "wof:parent_id":102083701,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1081,
+    "wof:population":1107,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

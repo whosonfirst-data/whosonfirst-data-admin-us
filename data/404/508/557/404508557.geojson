@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002489,
-    "geom:area_square_m":21599946.790252,
+    "geom:area_square_m":21599946.790247,
     "geom:bbox":"-83.845685,45.403117,-83.761628,45.441831",
     "geom:latitude":45.419498,
     "geom:longitude":-83.80793,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.419573,
     "lbl:longitude":-83.807926,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":141,
     "uscensus:geoid":2614169260,
     "uscensus:name":"Rogers City",
     "uscensus:namelsad":"Rogers City city",
+    "uscensus:population":2909,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2614169260
+        "uscensus:geoid":"2614169260"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404508557,
-    "wof:lastmodified":1605055733,
+    "wof:lastmodified":1722117923,
     "wof:name":"Rogers City",
     "wof:parent_id":102082991,
     "wof:placetype":"localadmin",
-    "wof:population":2827,
+    "wof:population":2909,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

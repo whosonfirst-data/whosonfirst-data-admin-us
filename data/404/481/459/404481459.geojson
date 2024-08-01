@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011414,
-    "geom:area_square_m":92876408.997563,
+    "geom:area_square_m":92876408.99753,
     "geom:bbox":"-97.950182,48.80382,-97.817403,48.891551",
     "geom:latitude":48.847632,
     "geom:longitude":-97.884,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.847623,
     "lbl:longitude":-97.884001,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":67,
     "uscensus:geoid":3806744580,
     "uscensus:name":"La Moure",
     "uscensus:namelsad":"La Moure township",
+    "uscensus:population":88,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3806744580
+        "uscensus:geoid":"3806744580"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476087
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404481459,
-    "wof:lastmodified":1605055834,
+    "wof:lastmodified":1722117751,
     "wof:name":"La Moure Township",
     "wof:parent_id":102081509,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":108,
+    "wof:population":88,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

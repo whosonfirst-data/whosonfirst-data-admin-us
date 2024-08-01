@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001372,
-    "geom:area_square_m":12843878.298157,
+    "geom:area_square_m":12843878.298146,
     "geom:bbox":"-74.139593,40.76159,-74.083042,40.822514",
     "geom:latitude":40.796469,
     "geom:longitude":-74.109885,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.804046,
     "lbl:longitude":-74.109882,
     "lbl:max_zoom":14.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3400342090,
     "uscensus:name":"Lyndhurst",
     "uscensus:namelsad":"Lyndhurst township",
+    "uscensus:population":22276,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400342090
+        "uscensus:geoid":"3400342090"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467897
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404477683,
-    "wof:lastmodified":1605055429,
+    "wof:lastmodified":1722117724,
     "wof:name":"Lyndhurst Township",
     "wof:parent_id":102086773,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":20554,
+    "wof:population":22276,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014451,
-    "geom:area_square_m":130946592.729384,
+    "geom:area_square_m":130946592.729301,
     "geom:bbox":"-90.428311,42.812862,-90.308637,42.945544",
     "geom:latitude":42.876782,
     "geom:longitude":-90.37094,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.895432,
     "lbl:longitude":-90.376172,
     "lbl:max_zoom":17.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":5504951725,
     "uscensus:name":"Mifflin",
     "uscensus:namelsad":"Mifflin town",
+    "uscensus:population":568,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5504951725
+        "uscensus:geoid":"5504951725"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458721
     ],
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404493803,
-    "wof:lastmodified":1605055944,
+    "wof:lastmodified":1722117828,
     "wof:name":"Mifflin",
     "wof:parent_id":102081277,
     "wof:placetype":"localadmin",
-    "wof:population":585,
+    "wof:population":568,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

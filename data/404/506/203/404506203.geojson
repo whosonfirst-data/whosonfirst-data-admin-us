@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.018441,
-    "geom:area_square_m":157083444.294996,
+    "geom:area_square_m":157083444.294997,
     "geom:bbox":"-87.365229,46.419689,-87.116388,46.520683",
     "geom:latitude":46.457686,
     "geom:longitude":-87.242276,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":46.45442,
     "lbl:longitude":-87.24228,
@@ -51,11 +54,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":103,
     "uscensus:geoid":2610315660,
     "uscensus:name":"Chocolay",
     "uscensus:namelsad":"Chocolay charter township",
+    "uscensus:population":5993,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -65,8 +71,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2610315660
+        "uscensus:geoid":"2610315660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -82,11 +89,11 @@
         }
     ],
     "wof:id":404506203,
-    "wof:lastmodified":1605055754,
+    "wof:lastmodified":1722117905,
     "wof:name":"Chocolay",
     "wof:parent_id":102083039,
     "wof:placetype":"localadmin",
-    "wof:population":5903,
+    "wof:population":5993,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

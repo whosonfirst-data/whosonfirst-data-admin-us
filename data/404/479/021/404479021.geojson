@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000104,
-    "geom:area_square_m":880011.557692,
+    "geom:area_square_m":880011.55769,
     "geom:bbox":"-99.763558,46.860973,-99.74679,46.875468",
     "geom:latitude":46.867939,
     "geom:longitude":-99.75362,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.867459,
     "lbl:longitude":-99.752346,
     "lbl:max_zoom":18.0,
@@ -103,11 +109,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":43,
     "uscensus:geoid":3804318260,
     "uscensus:name":"Dawson",
     "uscensus:namelsad":"Dawson city",
+    "uscensus:population":73,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -117,8 +126,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3804318260
+        "uscensus:geoid":"3804318260"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -134,11 +144,11 @@
         }
     ],
     "wof:id":404479021,
-    "wof:lastmodified":1605055481,
+    "wof:lastmodified":1722117734,
     "wof:name":"Dawson",
     "wof:parent_id":102082547,
     "wof:placetype":"localadmin",
-    "wof:population":61,
+    "wof:population":73,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007858,
-    "geom:area_square_m":72491678.395092,
+    "geom:area_square_m":72491678.395146,
     "geom:bbox":"-80.623697,41.713969,-80.519316,41.791069",
     "geom:latitude":41.752609,
     "geom:longitude":-80.570993,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.752486,
     "lbl:longitude":-80.570999,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":3900762568,
     "uscensus:name":"Pierpont",
     "uscensus:namelsad":"Pierpont township",
+    "uscensus:population":1152,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3900762568
+        "uscensus:geoid":"3900762568"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470095
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404523569,
-    "wof:lastmodified":1605056083,
+    "wof:lastmodified":1722118002,
     "wof:name":"Pierpont Township",
     "wof:parent_id":102083657,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1285,
+    "wof:population":1152,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

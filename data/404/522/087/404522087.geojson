@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010401,
-    "geom:area_square_m":95384150.615841,
+    "geom:area_square_m":95384150.615818,
     "geom:bbox":"-79.179001,42.086368,-79.059246,42.173833",
     "geom:latitude":42.130024,
     "geom:longitude":-79.119128,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.130074,
     "lbl:longitude":-79.119155,
     "lbl:max_zoom":15.0,
@@ -826,11 +832,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":3601358926,
     "uscensus:name":"Poland",
     "uscensus:namelsad":"Poland town",
+    "uscensus:population":2171,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -840,8 +849,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3601358926
+        "uscensus:geoid":"3601358926"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -857,11 +867,11 @@
         }
     ],
     "wof:id":404522087,
-    "wof:lastmodified":1605056076,
+    "wof:lastmodified":1722117991,
     "wof:name":"Poland",
     "wof:parent_id":102081811,
     "wof:placetype":"localadmin",
-    "wof:population":2356,
+    "wof:population":2171,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

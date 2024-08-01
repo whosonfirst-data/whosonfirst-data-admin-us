@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000707,
-    "geom:area_square_m":5928355.122199,
+    "geom:area_square_m":5928355.122196,
     "geom:bbox":"-93.421699,47.275344,-93.389119,47.314843",
     "geom:latitude":47.296136,
     "geom:longitude":-93.403557,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.29841,
     "lbl:longitude":-93.40331,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":2706107048,
     "uscensus:name":"Bovey",
     "uscensus:namelsad":"Bovey city",
+    "uscensus:population":813,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2706107048
+        "uscensus:geoid":"2706107048"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404513139,
-    "wof:lastmodified":1605056041,
+    "wof:lastmodified":1722117956,
     "wof:name":"Bovey",
     "wof:parent_id":102086963,
     "wof:placetype":"localadmin",
-    "wof:population":804,
+    "wof:population":813,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

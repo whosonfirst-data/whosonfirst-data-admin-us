@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009677,
-    "geom:area_square_m":92294800.830407,
+    "geom:area_square_m":92294800.830399,
     "geom:bbox":"-98.1535,39.480645,-98.040264,39.567283",
     "geom:latitude":39.52424,
     "geom:longitude":-98.09699,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.523904,
     "lbl:longitude":-98.096992,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":123,
     "uscensus:geoid":2012356825,
     "uscensus:name":"Plum Creek",
     "uscensus:namelsad":"Plum Creek township",
+    "uscensus:population":127,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2012356825
+        "uscensus:geoid":"2012356825"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729453875
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404502797,
-    "wof:lastmodified":1605055263,
+    "wof:lastmodified":1722117881,
     "wof:name":"Plum Creek Township",
     "wof:parent_id":102085275,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":105,
+    "wof:population":127,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010431,
-    "geom:area_square_m":102581778.805896,
+    "geom:area_square_m":102581778.805777,
     "geom:bbox":"-95.69702,37.253584,-95.60196,37.384594",
     "geom:latitude":37.317583,
     "geom:longitude":-95.642598,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.321112,
     "lbl:longitude":-95.64196,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":2012576825,
     "uscensus:name":"West Cherry",
     "uscensus:namelsad":"West Cherry township",
+    "uscensus:population":266,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2012576825
+        "uscensus:geoid":"2012576825"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467251
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404504663,
-    "wof:lastmodified":1605055309,
+    "wof:lastmodified":1722117894,
     "wof:name":"West Cherry Township",
     "wof:parent_id":102082143,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":307,
+    "wof:population":266,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

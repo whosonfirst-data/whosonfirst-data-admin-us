@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000151,
-    "geom:area_square_m":1432581.634441,
+    "geom:area_square_m":1432581.634443,
     "geom:bbox":"-76.998124,39.877231,-76.977437,39.891261",
     "geom:latitude":39.884237,
     "geom:longitude":-76.988822,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.882479,
     "lbl:longitude":-76.993131,
     "lbl:max_zoom":16.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":4200100116,
     "uscensus:name":"Abbottstown",
     "uscensus:namelsad":"Abbottstown borough",
+    "uscensus:population":1041,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200100116
+        "uscensus:geoid":"4200100116"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404482777,
-    "wof:lastmodified":1605055383,
+    "wof:lastmodified":1722117758,
     "wof:name":"Abbottstown",
     "wof:parent_id":102080899,
     "wof:placetype":"localadmin",
-    "wof:population":1011,
+    "wof:population":1041,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

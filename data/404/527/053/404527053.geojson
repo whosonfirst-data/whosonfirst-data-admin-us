@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00834,
-    "geom:area_square_m":74544247.235866,
+    "geom:area_square_m":74544247.235895,
     "geom:bbox":"-73.237951,43.676164,-73.108431,43.752074",
     "geom:latitude":43.712841,
     "geom:longitude":-73.176577,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.714365,
     "lbl:longitude":-73.176577,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":5002134450,
     "uscensus:name":"Hubbardton",
     "uscensus:namelsad":"Hubbardton town",
+    "uscensus:population":732,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5002134450
+        "uscensus:geoid":"5002134450"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470637
     ],
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404527053,
-    "wof:lastmodified":1605055678,
+    "wof:lastmodified":1722118028,
     "wof:name":"Hubbardton",
     "wof:parent_id":102080771,
     "wof:placetype":"localadmin",
-    "wof:population":706,
+    "wof:population":732,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010115,
-    "geom:area_square_m":92904582.445642,
+    "geom:area_square_m":92904582.445651,
     "geom:bbox":"-86.339526,41.984435,-86.222817,42.072299",
     "geom:latitude":42.028485,
     "geom:longitude":-86.281069,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.028494,
     "lbl:longitude":-86.281069,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":2602164480,
     "uscensus:name":"Pipestone",
     "uscensus:namelsad":"Pipestone township",
+    "uscensus:population":2142,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2602164480
+        "uscensus:geoid":"2602164480"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404505787,
-    "wof:lastmodified":1605055293,
+    "wof:lastmodified":1722233664,
     "wof:name":"Pipestone Township",
     "wof:parent_id":102083151,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2312,
+    "wof:population":2142,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008514,
-    "geom:area_square_m":80985698.106781,
+    "geom:area_square_m":80985698.106779,
     "geom:bbox":"-89.984989,39.681658,-89.815328,39.741596",
     "geom:latitude":39.714756,
     "geom:longitude":-89.903906,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.711375,
     "lbl:longitude":-89.915216,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":167,
     "uscensus:geoid":1716752181,
     "uscensus:name":"New Berlin",
     "uscensus:namelsad":"New Berlin township",
+    "uscensus:population":1549,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1716752181
+        "uscensus:geoid":"1716752181"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404498561,
-    "wof:lastmodified":1605055557,
+    "wof:lastmodified":1722233642,
     "wof:name":"New Berlin Township",
     "wof:parent_id":102083527,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1524,
+    "wof:population":1549,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

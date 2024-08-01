@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003643,
-    "geom:area_square_m":33618339.282982,
+    "geom:area_square_m":33618339.282936,
     "geom:bbox":"-90.247917,41.671413,-90.207374,41.797726",
     "geom:latitude":41.737346,
     "geom:longitude":-90.223588,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.751406,
     "lbl:longitude":-90.22397,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":195,
     "uscensus:geoid":1719500529,
     "uscensus:name":"Albany",
     "uscensus:namelsad":"Albany township",
+    "uscensus:population":1000,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1719500529
+        "uscensus:geoid":"1719500529"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404498965,
-    "wof:lastmodified":1605055556,
+    "wof:lastmodified":1722233644,
     "wof:name":"Albany Township",
     "wof:parent_id":102081251,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1076,
+    "wof:population":1000,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

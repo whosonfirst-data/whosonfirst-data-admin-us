@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005986,
-    "geom:area_square_m":54977588.568324,
+    "geom:area_square_m":54977588.568317,
     "geom:bbox":"-87.80675,41.997232,-87.708661,42.065593",
     "geom:latitude":42.032089,
     "geom:longitude":-87.75778,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.036236,
     "lbl:longitude":-87.757787,
     "lbl:max_zoom":14.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":1703153013,
     "uscensus:name":"Niles",
     "uscensus:namelsad":"Niles township",
+    "uscensus:population":107543,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1703153013
+        "uscensus:geoid":"1703153013"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404497635,
-    "wof:lastmodified":1605055491,
+    "wof:lastmodified":1722233639,
     "wof:name":"Niles Township",
     "wof:parent_id":102084317,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":105882,
+    "wof:population":107543,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

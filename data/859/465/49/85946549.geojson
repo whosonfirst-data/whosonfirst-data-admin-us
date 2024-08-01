@@ -96,6 +96,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":2400590,
     "uscensus:awater":19190,
     "uscensus:classfp":"U1",
@@ -111,14 +113,16 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"76425",
     "uscensus:placens":"02629185",
+    "uscensus:population":151,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"20",
     "wd:wordcount":695,
     "wof:belongsto":[
-        85688555,
         102191575,
-        404505401,
         85633793,
-        102083439
+        102083439,
+        404505401,
+        85688555
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -126,9 +130,10 @@
         "gn:id":4281383,
         "gp:id":2516163,
         "qs_pg:id":152789,
-        "uscensus:geoid":2076425,
+        "uscensus:geoid":"2076425",
         "wd:id":"Q6166738"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -146,10 +151,12 @@
         }
     ],
     "wof:id":85946549,
-    "wof:lastmodified":1690883254,
+    "wof:lastmodified":1722116029,
     "wof:name":"Welda",
     "wof:parent_id":404505401,
     "wof:placetype":"locality",
+    "wof:population":151,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

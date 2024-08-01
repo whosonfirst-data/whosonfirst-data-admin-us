@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009605,
-    "geom:area_square_m":84897460.312243,
+    "geom:area_square_m":84897460.312255,
     "geom:bbox":"-88.009204,44.327589,-87.88715,44.415584",
     "geom:latitude":44.371756,
     "geom:longitude":-87.942801,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.371562,
     "lbl:longitude":-87.942815,
     "lbl:max_zoom":16.0,
@@ -58,11 +64,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":5500929550,
     "uscensus:name":"Glenmore",
     "uscensus:namelsad":"Glenmore town",
+    "uscensus:population":1052,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -72,8 +81,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5500929550
+        "uscensus:geoid":"5500929550"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476065
     ],
@@ -92,11 +102,11 @@
         }
     ],
     "wof:id":404492853,
-    "wof:lastmodified":1605056009,
+    "wof:lastmodified":1722117822,
     "wof:name":"Glenmore",
     "wof:parent_id":102081867,
     "wof:placetype":"localadmin",
-    "wof:population":1135,
+    "wof:population":1052,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010641,
-    "geom:area_square_m":91293532.304805,
+    "geom:area_square_m":91293532.304793,
     "geom:bbox":"-96.887764,46.022504,-96.762586,46.109618",
     "geom:latitude":46.065923,
     "geom:longitude":-96.824336,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.056036,
     "lbl:longitude":-96.815155,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":77,
     "uscensus:geoid":3807782900,
     "uscensus:name":"Waldo",
     "uscensus:namelsad":"Waldo township",
+    "uscensus:population":85,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3807782900
+        "uscensus:geoid":"3807782900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476571
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404481513,
-    "wof:lastmodified":1605055835,
+    "wof:lastmodified":1722117751,
     "wof:name":"Waldo Township",
     "wof:parent_id":102082103,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":103,
+    "wof:population":85,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

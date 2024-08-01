@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000263,
-    "geom:area_square_m":2472465.680431,
+    "geom:area_square_m":2472465.680442,
     "geom:bbox":"-79.875826,40.408972,-79.849034,40.43375",
     "geom:latitude":40.418009,
     "geom:longitude":-79.862928,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.416825,
     "lbl:longitude":-79.862939,
     "lbl:max_zoom":16.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4200308008,
     "uscensus:name":"Braddock Hills",
     "uscensus:namelsad":"Braddock Hills borough",
+    "uscensus:population":1666,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200308008
+        "uscensus:geoid":"4200308008"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404484859,
-    "wof:lastmodified":1605055456,
+    "wof:lastmodified":1722117770,
     "wof:name":"Braddock Hills",
     "wof:parent_id":102080887,
     "wof:placetype":"localadmin",
-    "wof:population":1880,
+    "wof:population":1666,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

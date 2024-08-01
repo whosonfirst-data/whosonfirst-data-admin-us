@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010005,
-    "geom:area_square_m":91906626.994936,
+    "geom:area_square_m":91906626.994962,
     "geom:bbox":"-89.172686,41.976378,-89.055393,42.064003",
     "geom:latitude":42.020389,
     "geom:longitude":-89.113915,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.020285,
     "lbl:longitude":-89.113911,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":141,
     "uscensus:geoid":1714181399,
     "uscensus:name":"White Rock",
     "uscensus:namelsad":"White Rock township",
+    "uscensus:population":685,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1714181399
+        "uscensus:geoid":"1714181399"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404498761,
-    "wof:lastmodified":1605055566,
+    "wof:lastmodified":1722233643,
     "wof:name":"White Rock Township",
     "wof:parent_id":102083531,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":738,
+    "wof:population":685,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

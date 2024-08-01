@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008299,
-    "geom:area_square_m":77432651.982239,
+    "geom:area_square_m":77432651.982244,
     "geom:bbox":"-78.28311,40.954736,-78.171642,41.078386",
     "geom:latitude":41.016102,
     "geom:longitude":-78.223534,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.020883,
     "lbl:longitude":-78.219027,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":33,
     "uscensus:geoid":4203330272,
     "uscensus:name":"Graham",
     "uscensus:namelsad":"Graham township",
+    "uscensus:population":1303,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4203330272
+        "uscensus:geoid":"4203330272"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404487015,
-    "wof:lastmodified":1605055880,
+    "wof:lastmodified":1722117784,
     "wof:name":"Graham Township",
     "wof:parent_id":102080967,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1383,
+    "wof:population":1303,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

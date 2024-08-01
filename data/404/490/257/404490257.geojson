@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013291,
-    "geom:area_square_m":118521815.127432,
+    "geom:area_square_m":118521815.12748,
     "geom:bbox":"-100.945157,43.759047,-100.824867,43.908392",
     "geom:latitude":43.850503,
     "geom:longitude":-100.878533,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.858187,
     "lbl:longitude":-100.87739,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":75,
     "uscensus:geoid":4607546640,
     "uscensus:name":"Okaton",
     "uscensus:namelsad":"Okaton township",
+    "uscensus:population":35,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4607546640
+        "uscensus:geoid":"4607546640"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404490257,
-    "wof:lastmodified":1605055510,
+    "wof:lastmodified":1722117805,
     "wof:name":"Okaton Township",
     "wof:parent_id":102086803,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":46,
+    "wof:population":35,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

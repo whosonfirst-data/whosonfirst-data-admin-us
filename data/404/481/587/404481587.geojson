@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011005,
-    "geom:area_square_m":91849961.025829,
+    "geom:area_square_m":91849961.025785,
     "geom:bbox":"-100.929069,47.501748,-100.800336,47.589085",
     "geom:latitude":47.545813,
     "geom:longitude":-100.864436,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.548326,
     "lbl:longitude":-100.849722,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":55,
     "uscensus:geoid":3805544220,
     "uscensus:name":"Lake Williams",
     "uscensus:namelsad":"Lake Williams township",
+    "uscensus:population":74,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3805544220
+        "uscensus:geoid":"3805544220"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473745
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404481587,
-    "wof:lastmodified":1605055828,
+    "wof:lastmodified":1722117751,
     "wof:name":"Lake Williams Township",
     "wof:parent_id":102082097,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":59,
+    "wof:population":74,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

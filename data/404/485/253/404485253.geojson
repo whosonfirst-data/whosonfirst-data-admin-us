@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000279,
-    "geom:area_square_m":2590460.764882,
+    "geom:area_square_m":2590460.764881,
     "geom:bbox":"-76.721513,41.270819,-76.691703,41.28868",
     "geom:latitude":41.280438,
     "geom:longitude":-76.707905,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.280498,
     "lbl:longitude":-76.708921,
     "lbl:max_zoom":17.0,
@@ -67,11 +73,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":81,
     "uscensus:geoid":4208160136,
     "uscensus:name":"Picture Rocks",
     "uscensus:namelsad":"Picture Rocks borough",
+    "uscensus:population":630,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -81,8 +90,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4208160136
+        "uscensus:geoid":"4208160136"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -98,11 +108,11 @@
         }
     ],
     "wof:id":404485253,
-    "wof:lastmodified":1605055370,
+    "wof:lastmodified":1722117773,
     "wof:name":"Picture Rocks",
     "wof:parent_id":102081317,
     "wof:placetype":"localadmin",
-    "wof:population":678,
+    "wof:population":630,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

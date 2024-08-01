@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010575,
-    "geom:area_square_m":93041156.402243,
+    "geom:area_square_m":93041156.402299,
     "geom:bbox":"-91.771959,44.596581,-91.650248,44.683779",
     "geom:latitude":44.640164,
     "geom:longitude":-91.71111,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.640205,
     "lbl:longitude":-91.711111,
     "lbl:max_zoom":17.0,
@@ -175,22 +181,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":91,
     "uscensus:geoid":5509100800,
     "uscensus:name":"Albany",
     "uscensus:namelsad":"Albany town",
+    "uscensus:population":743,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081803
+        102081803,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5509100800
+        "uscensus:geoid":"5509100800"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473511
     ],
@@ -209,11 +219,11 @@
         }
     ],
     "wof:id":404491945,
-    "wof:lastmodified":1636499313,
+    "wof:lastmodified":1722117816,
     "wof:name":"Albany",
     "wof:parent_id":102081803,
     "wof:placetype":"localadmin",
-    "wof:population":676,
+    "wof:population":743,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

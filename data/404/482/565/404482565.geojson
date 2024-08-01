@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000265,
-    "geom:area_square_m":2473946.879034,
+    "geom:area_square_m":2473946.879045,
     "geom:bbox":"-79.690272,41.078576,-79.674244,41.103283",
     "geom:latitude":41.09064,
     "geom:longitude":-79.68459,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.090382,
     "lbl:longitude":-79.684736,
     "lbl:max_zoom":17.0,
@@ -115,11 +121,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":4200557976,
     "uscensus:name":"Parker",
     "uscensus:namelsad":"Parker city",
+    "uscensus:population":682,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -129,8 +138,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200557976
+        "uscensus:geoid":"4200557976"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -146,11 +156,11 @@
         }
     ],
     "wof:id":404482565,
-    "wof:lastmodified":1605055385,
+    "wof:lastmodified":1722117757,
     "wof:name":"Parker",
     "wof:parent_id":102081371,
     "wof:placetype":"localadmin",
-    "wof:population":840,
+    "wof:population":682,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

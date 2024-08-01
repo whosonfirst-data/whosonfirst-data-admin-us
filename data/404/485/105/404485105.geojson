@@ -10,6 +10,12 @@
     "geom:latitude":40.288275,
     "geom:longitude":-78.917714,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.288405,
     "lbl:longitude":-78.917711,
     "lbl:max_zoom":16.0,
@@ -94,11 +100,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":4202125680,
     "uscensus:name":"Ferndale",
     "uscensus:namelsad":"Ferndale borough",
+    "uscensus:population":1508,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -108,8 +117,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202125680
+        "uscensus:geoid":"4202125680"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -125,11 +135,11 @@
         }
     ],
     "wof:id":404485105,
-    "wof:lastmodified":1605055355,
+    "wof:lastmodified":1722117772,
     "wof:name":"Ferndale",
     "wof:parent_id":102080879,
     "wof:placetype":"localadmin",
-    "wof:population":1636,
+    "wof:population":1508,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

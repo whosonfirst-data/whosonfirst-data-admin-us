@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002105,
-    "geom:area_square_m":18441626.701546,
+    "geom:area_square_m":18441626.701552,
     "geom:bbox":"-87.906542,44.857749,-87.821221,44.906509",
     "geom:latitude":44.891811,
     "geom:longitude":-87.869423,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.892019,
     "lbl:longitude":-87.869497,
     "lbl:max_zoom":15.0,
@@ -70,11 +76,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":83,
     "uscensus:geoid":5508359350,
     "uscensus:name":"Oconto",
     "uscensus:namelsad":"Oconto city",
+    "uscensus:population":4621,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -84,8 +93,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5508359350
+        "uscensus:geoid":"5508359350"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -101,11 +111,11 @@
         }
     ],
     "wof:id":404494541,
-    "wof:lastmodified":1605055976,
+    "wof:lastmodified":1722117833,
     "wof:name":"Oconto",
     "wof:parent_id":102081293,
     "wof:placetype":"localadmin",
-    "wof:population":4513,
+    "wof:population":4621,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

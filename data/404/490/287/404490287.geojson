@@ -10,6 +10,12 @@
     "geom:latitude":43.476347,
     "geom:longitude":-97.988726,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.473422,
     "lbl:longitude":-97.985783,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":67,
     "uscensus:geoid":4606716620,
     "uscensus:name":"Dimock",
     "uscensus:namelsad":"Dimock town",
+    "uscensus:population":153,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4606716620
+        "uscensus:geoid":"4606716620"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,11 +93,11 @@
         }
     ],
     "wof:id":404490287,
-    "wof:lastmodified":1605055509,
+    "wof:lastmodified":1722117805,
     "wof:name":"Dimock",
     "wof:parent_id":102086815,
     "wof:placetype":"localadmin",
-    "wof:population":125,
+    "wof:population":153,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

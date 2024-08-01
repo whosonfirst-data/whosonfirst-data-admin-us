@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009868,
-    "geom:area_square_m":93412064.261121,
+    "geom:area_square_m":93412064.261089,
     "geom:bbox":"-96.803363,40.001335,-96.689454,40.088695",
     "geom:latitude":40.044985,
     "geom:longitude":-96.746431,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.044819,
     "lbl:longitude":-96.746434,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":67,
     "uscensus:geoid":3106737980,
     "uscensus:name":"Paddock",
     "uscensus:namelsad":"Paddock township",
+    "uscensus:population":326,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3106737980
+        "uscensus:geoid":"3106737980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404518471,
-    "wof:lastmodified":1605055687,
+    "wof:lastmodified":1722233671,
     "wof:name":"Paddock Township",
     "wof:parent_id":102083491,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":385,
+    "wof:population":326,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

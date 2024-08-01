@@ -10,6 +10,12 @@
     "geom:latitude":43.734031,
     "geom:longitude":-91.923762,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.73331,
     "lbl:longitude":-91.926894,
     "lbl:max_zoom":18.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":2704569808,
     "uscensus:name":"Whalan",
     "uscensus:namelsad":"Whalan city",
+    "uscensus:population":70,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2704569808
+        "uscensus:geoid":"2704569808"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404514289,
-    "wof:lastmodified":1605056016,
+    "wof:lastmodified":1722117965,
     "wof:name":"Whalan",
     "wof:parent_id":102086997,
     "wof:placetype":"localadmin",
-    "wof:population":63,
+    "wof:population":70,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

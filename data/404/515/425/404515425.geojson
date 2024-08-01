@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009875,
-    "geom:area_square_m":93894406.158191,
+    "geom:area_square_m":93894406.158179,
     "geom:bbox":"-93.984273,39.698865,-93.870195,39.786884",
     "geom:latitude":39.742837,
     "geom:longitude":-93.927114,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.742839,
     "lbl:longitude":-93.927118,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":2902527784,
     "uscensus:name":"Gomer",
     "uscensus:namelsad":"Gomer township",
+    "uscensus:population":335,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":29,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2902527784
+        "uscensus:geoid":"2902527784"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729479389
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404515425,
-    "wof:lastmodified":1604970163,
+    "wof:lastmodified":1722117972,
     "wof:name":"Gomer Township",
     "wof:parent_id":102085265,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":340,
+    "wof:population":335,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

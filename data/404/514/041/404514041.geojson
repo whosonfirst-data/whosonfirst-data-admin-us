@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000323,
-    "geom:area_square_m":2850404.071129,
+    "geom:area_square_m":2850404.071128,
     "geom:bbox":"-93.920584,44.514547,-93.898646,44.538563",
     "geom:latitude":44.527851,
     "geom:longitude":-93.90909,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.528577,
     "lbl:longitude":-93.908879,
     "lbl:max_zoom":17.0,
@@ -136,11 +142,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":143,
     "uscensus:geoid":2714328394,
     "uscensus:name":"Henderson",
     "uscensus:namelsad":"Henderson city",
+    "uscensus:population":975,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -150,8 +159,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2714328394
+        "uscensus:geoid":"2714328394"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -167,11 +177,11 @@
         }
     ],
     "wof:id":404514041,
-    "wof:lastmodified":1605056016,
+    "wof:lastmodified":1722117963,
     "wof:name":"Henderson",
     "wof:parent_id":102087775,
     "wof:placetype":"localadmin",
-    "wof:population":886,
+    "wof:population":975,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

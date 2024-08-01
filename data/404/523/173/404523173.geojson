@@ -10,6 +10,12 @@
     "geom:latitude":43.335928,
     "geom:longitude":-73.903789,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.338698,
     "lbl:longitude":-73.90245,
     "lbl:max_zoom":15.0,
@@ -91,11 +97,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":91,
     "uscensus:geoid":3609131269,
     "uscensus:name":"Hadley",
     "uscensus:namelsad":"Hadley town",
+    "uscensus:population":1956,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -105,8 +114,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3609131269
+        "uscensus:geoid":"3609131269"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -122,12 +132,12 @@
         }
     ],
     "wof:id":404523173,
-    "wof:lastmodified":1605056090,
+    "wof:lastmodified":1722117999,
     "wof:name":"Hadley",
     "wof:parent_id":102082413,
     "wof:placetype":"localadmin",
-    "wof:population":2048,
-    "wof:population_rank":4,
+    "wof:population":1956,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

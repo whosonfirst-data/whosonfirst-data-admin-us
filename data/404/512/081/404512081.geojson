@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011028,
-    "geom:area_square_m":93570603.310711,
+    "geom:area_square_m":93570603.310713,
     "geom:bbox":"-93.90445,46.62912,-93.777415,46.717014",
     "geom:latitude":46.673073,
     "geom:longitude":-93.841168,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.673167,
     "lbl:longitude":-93.841167,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":2703555978,
     "uscensus:name":"Ross Lake",
     "uscensus:namelsad":"Ross Lake township",
+    "uscensus:population":170,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2703555978
+        "uscensus:geoid":"2703555978"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729479059
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404512081,
-    "wof:lastmodified":1605056130,
+    "wof:lastmodified":1722117948,
     "wof:name":"Ross Lake Township",
     "wof:parent_id":102087093,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":165,
+    "wof:population":170,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

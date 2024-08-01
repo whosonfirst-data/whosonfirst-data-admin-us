@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011171,
-    "geom:area_square_m":92775836.970668,
+    "geom:area_square_m":92775836.970697,
     "geom:bbox":"-101.871936,47.760496,-101.742882,47.847797",
     "geom:latitude":47.804199,
     "geom:longitude":-101.80754,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.804163,
     "lbl:longitude":-101.807555,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":55,
     "uscensus:geoid":3805529660,
     "uscensus:name":"Gate",
     "uscensus:namelsad":"Gate township",
+    "uscensus:population":25,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3805529660
+        "uscensus:geoid":"3805529660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476921
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404481583,
-    "wof:lastmodified":1605055836,
+    "wof:lastmodified":1722117751,
     "wof:name":"Gate Township",
     "wof:parent_id":102082097,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":20,
+    "wof:population":25,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

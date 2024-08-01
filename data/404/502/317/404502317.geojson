@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.036676,
-    "geom:area_square_m":352271960.240949,
+    "geom:area_square_m":352271960.24092,
     "geom:bbox":"-99.428533,38.928814,-99.222271,39.13324",
     "geom:latitude":39.033322,
     "geom:longitude":-99.328202,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.034945,
     "lbl:longitude":-99.333693,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":2005108950,
     "uscensus:name":"Buckeye",
     "uscensus:namelsad":"Buckeye township",
+    "uscensus:population":421,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2005108950
+        "uscensus:geoid":"2005108950"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458375
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404502317,
-    "wof:lastmodified":1605055276,
+    "wof:lastmodified":1722117878,
     "wof:name":"Buckeye Township",
     "wof:parent_id":102082161,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":414,
+    "wof:population":421,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

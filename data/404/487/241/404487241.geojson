@@ -10,6 +10,12 @@
     "geom:latitude":40.912892,
     "geom:longitude":-76.202754,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.917159,
     "lbl:longitude":-76.201575,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":107,
     "uscensus:geoid":4210755472,
     "uscensus:name":"North Union",
     "uscensus:namelsad":"North Union township",
+    "uscensus:population":1417,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4210755472
+        "uscensus:geoid":"4210755472"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404487241,
-    "wof:lastmodified":1605055890,
+    "wof:lastmodified":1722117786,
     "wof:name":"North Union Township",
     "wof:parent_id":102081271,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1476,
+    "wof:population":1417,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

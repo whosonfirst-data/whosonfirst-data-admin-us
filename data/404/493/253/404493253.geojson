@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000153,
-    "geom:area_square_m":1382584.104062,
+    "geom:area_square_m":1382584.10406,
     "geom:bbox":"-89.06744,42.84752,-89.040478,42.860282",
     "geom:latitude":42.855501,
     "geom:longitude":-89.055327,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.857531,
     "lbl:longitude":-89.050622,
     "lbl:max_zoom":18.0,
@@ -91,11 +97,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":5502522575,
     "uscensus:name":"Edgerton",
     "uscensus:namelsad":"Edgerton city",
+    "uscensus:population":149,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -105,8 +114,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5502522575
+        "uscensus:geoid":"5502522575"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -122,11 +132,11 @@
         }
     ],
     "wof:id":404493253,
-    "wof:lastmodified":1605055954,
+    "wof:lastmodified":1722117824,
     "wof:name":"Edgerton",
     "wof:parent_id":102081795,
     "wof:placetype":"localadmin",
-    "wof:population":97,
+    "wof:population":149,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

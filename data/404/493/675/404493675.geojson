@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010389,
-    "geom:area_square_m":91680343.066736,
+    "geom:area_square_m":91680343.066734,
     "geom:bbox":"-89.964395,44.423524,-89.844546,44.511726",
     "geom:latitude":44.467606,
     "geom:longitude":-89.903874,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.467641,
     "lbl:longitude":-89.903861,
     "lbl:max_zoom":16.0,
@@ -67,11 +73,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":141,
     "uscensus:geoid":5514173900,
     "uscensus:name":"Sigel",
     "uscensus:namelsad":"Sigel town",
+    "uscensus:population":1023,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -81,8 +90,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5514173900
+        "uscensus:geoid":"5514173900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457881
     ],
@@ -101,11 +111,11 @@
         }
     ],
     "wof:id":404493675,
-    "wof:lastmodified":1605055941,
+    "wof:lastmodified":1722117827,
     "wof:name":"Sigel",
     "wof:parent_id":102081737,
     "wof:placetype":"localadmin",
-    "wof:population":1051,
+    "wof:population":1023,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

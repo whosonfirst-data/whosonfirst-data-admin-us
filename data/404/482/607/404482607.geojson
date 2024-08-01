@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000453,
-    "geom:area_square_m":4247309.776546,
+    "geom:area_square_m":4247309.776579,
     "geom:bbox":"-80.350262,40.723658,-80.315925,40.762375",
     "geom:latitude":40.743395,
     "geom:longitude":-80.332862,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.755303,
     "lbl:longitude":-80.338286,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":4200758375,
     "uscensus:name":"Patterson",
     "uscensus:namelsad":"Patterson township",
+    "uscensus:population":3061,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200758375
+        "uscensus:geoid":"4200758375"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460661
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404482607,
-    "wof:lastmodified":1605055389,
+    "wof:lastmodified":1722117757,
     "wof:name":"Patterson Township",
     "wof:parent_id":102081323,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3029,
+    "wof:population":3061,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

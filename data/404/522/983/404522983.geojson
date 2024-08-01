@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001237,
-    "geom:area_square_m":11287914.803971,
+    "geom:area_square_m":11287914.803978,
     "geom:bbox":"-75.109756,42.433641,-75.022694,42.477909",
     "geom:latitude":42.455112,
     "geom:longitude":-75.066619,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.454807,
     "lbl:longitude":-75.070932,
     "lbl:max_zoom":15.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":77,
     "uscensus:geoid":3607754881,
     "uscensus:name":"Oneonta",
     "uscensus:namelsad":"Oneonta city",
+    "uscensus:population":15331,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3607754881
+        "uscensus:geoid":"3607754881"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404522983,
-    "wof:lastmodified":1605056072,
+    "wof:lastmodified":1722117997,
     "wof:name":"Oneonta",
     "wof:parent_id":102082399,
     "wof:placetype":"localadmin",
-    "wof:population":13901,
+    "wof:population":15331,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

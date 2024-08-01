@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00952,
-    "geom:area_square_m":91545318.030433,
+    "geom:area_square_m":91545318.030459,
     "geom:bbox":"-89.138478,38.910076,-89.028627,38.999149",
     "geom:latitude":38.954749,
     "geom:longitude":-89.083619,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.95468,
     "lbl:longitude":-89.083619,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":1705177330,
     "uscensus:name":"Vandalia",
     "uscensus:namelsad":"Vandalia township",
+    "uscensus:population":6223,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1705177330
+        "uscensus:geoid":"1705177330"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404497907,
-    "wof:lastmodified":1605055485,
+    "wof:lastmodified":1722233640,
     "wof:name":"Vandalia Township",
     "wof:parent_id":102082287,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":6629,
+    "wof:population":6223,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

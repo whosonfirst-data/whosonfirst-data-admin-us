@@ -143,7 +143,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1322133,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -159,16 +160,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"32700",
     "uscensus:placens":"01267441",
+    "uscensus:population":448,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"46",
     "wd:latitude":42.604444,
     "wd:longitude":-96.562778,
     "wd:wordcount":1002,
     "wof:belongsto":[
-        85688693,
         102191575,
-        404489389,
         85633793,
-        102086029
+        102086029,
+        404489389,
+        85688693
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -177,10 +180,11 @@
         "gn:id":5228801,
         "gp:id":2428851,
         "qs_pg:id":317705,
-        "uscensus:geoid":4632700,
+        "uscensus:geoid":"4632700",
         "wd:id":"Q2661951",
         "wk:page":"Jefferson, South Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -201,11 +205,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690888210,
+    "wof:lastmodified":1722116247,
     "wof:name":"Jefferson",
     "wof:parent_id":404489389,
     "wof:placetype":"locality",
-    "wof:population":547,
+    "wof:population":448,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

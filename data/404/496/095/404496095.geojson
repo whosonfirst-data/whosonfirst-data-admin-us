@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0101,
-    "geom:area_square_m":95217914.584841,
+    "geom:area_square_m":95217914.584936,
     "geom:bbox":"-90.450227,40.275418,-90.332859,40.36427",
     "geom:latitude":40.319934,
     "geom:longitude":-90.391814,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.319928,
     "lbl:longitude":-90.391817,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":57,
     "uscensus:geoid":1705777655,
     "uscensus:name":"Vermont",
     "uscensus:namelsad":"Vermont township",
+    "uscensus:population":806,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1705777655
+        "uscensus:geoid":"1705777655"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404496095,
-    "wof:lastmodified":1605055605,
+    "wof:lastmodified":1722233633,
     "wof:name":"Vermont Township",
     "wof:parent_id":102086207,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":974,
+    "wof:population":806,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

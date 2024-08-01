@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010439,
-    "geom:area_square_m":93431420.036427,
+    "geom:area_square_m":93431420.036407,
     "geom:bbox":"-92.569634,43.586879,-92.449414,43.674436",
     "geom:latitude":43.630682,
     "geom:longitude":-92.509423,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.630663,
     "lbl:longitude":-92.509424,
     "lbl:max_zoom":18.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":2709905176,
     "uscensus:name":"Bennington",
     "uscensus:namelsad":"Bennington township",
+    "uscensus:population":145,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2709905176
+        "uscensus:geoid":"2709905176"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478021
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404510055,
-    "wof:lastmodified":1605055613,
+    "wof:lastmodified":1722117933,
     "wof:name":"Bennington Township",
     "wof:parent_id":102087717,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":169,
+    "wof:population":145,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

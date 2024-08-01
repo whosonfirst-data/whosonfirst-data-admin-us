@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01228,
-    "geom:area_square_m":117758671.570477,
+    "geom:area_square_m":117758671.570495,
     "geom:bbox":"-85.095867,39.08983,-84.929666,39.206308",
     "geom:latitude":39.147957,
     "geom:longitude":-85.01229,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.146931,
     "lbl:longitude":-85.013869,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":1802946368,
     "uscensus:name":"Manchester",
     "uscensus:namelsad":"Manchester township",
+    "uscensus:population":3328,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1802946368
+        "uscensus:geoid":"1802946368"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476067
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404501215,
-    "wof:lastmodified":1604969665,
+    "wof:lastmodified":1722117871,
     "wof:name":"Manchester Township",
     "wof:parent_id":102087067,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3215,
+    "wof:population":3328,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

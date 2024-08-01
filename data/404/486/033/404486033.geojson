@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00794,
-    "geom:area_square_m":73252961.473077,
+    "geom:area_square_m":73252961.473029,
     "geom:bbox":"-79.911761,41.710921,-79.77021,41.775187",
     "geom:latitude":41.74556,
     "geom:longitude":-79.842369,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.744603,
     "lbl:longitude":-79.842404,
     "lbl:max_zoom":17.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":39,
     "uscensus:geoid":4203903408,
     "uscensus:name":"Athens",
     "uscensus:namelsad":"Athens township",
+    "uscensus:population":631,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4203903408
+        "uscensus:geoid":"4203903408"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461407
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404486033,
-    "wof:lastmodified":1605055874,
+    "wof:lastmodified":1722117777,
     "wof:name":"Athens Township",
     "wof:parent_id":102080911,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":734,
+    "wof:population":631,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

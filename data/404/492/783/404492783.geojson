@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012521,
-    "geom:area_square_m":106806496.603626,
+    "geom:area_square_m":106806496.603635,
     "geom:bbox":"-90.798367,46.3276,-90.673555,46.45783",
     "geom:latitude":46.380466,
     "geom:longitude":-90.733358,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.371413,
     "lbl:longitude":-90.732171,
     "lbl:max_zoom":17.0,
@@ -121,11 +127,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":5500303250,
     "uscensus:name":"Ashland",
     "uscensus:namelsad":"Ashland town",
+    "uscensus:population":597,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -135,8 +144,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5500303250
+        "uscensus:geoid":"5500303250"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474629
     ],
@@ -155,11 +165,11 @@
         }
     ],
     "wof:id":404492783,
-    "wof:lastmodified":1605056004,
+    "wof:lastmodified":1722117821,
     "wof:name":"Ashland",
     "wof:parent_id":102081839,
     "wof:placetype":"localadmin",
-    "wof:population":594,
+    "wof:population":597,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

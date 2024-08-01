@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01914,
-    "geom:area_square_m":165332636.553239,
+    "geom:area_square_m":165332636.553179,
     "geom:bbox":"-92.887067,45.643138,-92.651185,45.730024",
     "geom:latitude":45.685741,
     "geom:longitude":-92.762639,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.686476,
     "lbl:longitude":-92.762625,
     "lbl:max_zoom":17.0,
@@ -155,22 +161,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":5501301900,
     "uscensus:name":"Anderson",
     "uscensus:namelsad":"Anderson town",
+    "uscensus:population":424,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081835
+        102081835,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5501301900
+        "uscensus:geoid":"5501301900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473133
     ],
@@ -189,11 +199,11 @@
         }
     ],
     "wof:id":404491549,
-    "wof:lastmodified":1636499312,
+    "wof:lastmodified":1722117814,
     "wof:name":"Anderson",
     "wof:parent_id":102081835,
     "wof:placetype":"localadmin",
-    "wof:population":398,
+    "wof:population":424,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

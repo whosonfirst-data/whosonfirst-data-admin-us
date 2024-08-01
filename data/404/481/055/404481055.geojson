@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01085,
-    "geom:area_square_m":90414189.386974,
+    "geom:area_square_m":90414189.387035,
     "geom:bbox":"-99.138165,47.587398,-99.009708,47.672876",
     "geom:latitude":47.630034,
     "geom:longitude":-99.073717,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.6302,
     "lbl:longitude":-99.073715,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":3802777140,
     "uscensus:name":"Superior",
     "uscensus:namelsad":"Superior township",
+    "uscensus:population":65,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3802777140
+        "uscensus:geoid":"3802777140"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472621
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404481055,
-    "wof:lastmodified":1605055825,
+    "wof:lastmodified":1722117748,
     "wof:name":"Superior Township",
     "wof:parent_id":102081503,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":55,
+    "wof:population":65,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

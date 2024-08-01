@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004974,
-    "geom:area_square_m":47002310.487036,
+    "geom:area_square_m":47002310.487016,
     "geom:bbox":"-75.539581,40.119159,-75.441876,40.224544",
     "geom:latitude":40.165426,
     "geom:longitude":-75.488864,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.167355,
     "lbl:longitude":-75.48407,
     "lbl:max_zoom":14.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":91,
     "uscensus:geoid":4209179256,
     "uscensus:name":"Upper Providence",
     "uscensus:namelsad":"Upper Providence township",
+    "uscensus:population":24863,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4209179256
+        "uscensus:geoid":"4209179256"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456057
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404485717,
-    "wof:lastmodified":1605055373,
+    "wof:lastmodified":1722117776,
     "wof:name":"Upper Providence Township",
     "wof:parent_id":102081355,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":21219,
+    "wof:population":24863,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000356,
-    "geom:area_square_m":3329453.207993,
+    "geom:area_square_m":3329453.20799,
     "geom:bbox":"-74.045821,40.750317,-74.014905,40.782887",
     "geom:latitude":40.767425,
     "geom:longitude":-74.032277,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.765389,
     "lbl:longitude":-74.036374,
     "lbl:max_zoom":14.0,
@@ -100,11 +106,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":3401774630,
     "uscensus:name":"Union City",
     "uscensus:namelsad":"Union City city",
+    "uscensus:population":64462,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -114,8 +123,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3401774630
+        "uscensus:geoid":"3401774630"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -131,11 +141,11 @@
         }
     ],
     "wof:id":404478145,
-    "wof:lastmodified":1605055341,
+    "wof:lastmodified":1722117728,
     "wof:name":"Union City",
     "wof:parent_id":102080719,
     "wof:placetype":"localadmin",
-    "wof:population":66455,
+    "wof:population":64462,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

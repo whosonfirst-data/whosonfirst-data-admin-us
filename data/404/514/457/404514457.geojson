@@ -10,6 +10,12 @@
     "geom:latitude":45.100226,
     "geom:longitude":-93.088214,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.099074,
     "lbl:longitude":-93.087531,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":123,
     "uscensus:geoid":2712347104,
     "uscensus:name":"North Oaks",
     "uscensus:namelsad":"North Oaks city",
+    "uscensus:population":5163,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2712347104
+        "uscensus:geoid":"2712347104"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,12 +81,12 @@
         }
     ],
     "wof:id":404514457,
-    "wof:lastmodified":1605056028,
+    "wof:lastmodified":1722117966,
     "wof:name":"North Oaks",
     "wof:parent_id":102087007,
     "wof:placetype":"localadmin",
-    "wof:population":4469,
-    "wof:population_rank":4,
+    "wof:population":5163,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

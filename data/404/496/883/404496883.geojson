@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.019761,
-    "geom:area_square_m":186001124.049161,
+    "geom:area_square_m":186001124.049164,
     "geom:bbox":"-87.935364,40.370791,-87.759734,40.488197",
     "geom:latitude":40.429326,
     "geom:longitude":-87.84733,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.429372,
     "lbl:longitude":-87.847342,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":183,
     "uscensus:geoid":1718310162,
     "uscensus:name":"Butler",
     "uscensus:namelsad":"Butler township",
+    "uscensus:population":852,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1718310162
+        "uscensus:geoid":"1718310162"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404496883,
-    "wof:lastmodified":1605055603,
+    "wof:lastmodified":1722233636,
     "wof:name":"Butler Township",
     "wof:parent_id":102083507,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":992,
+    "wof:population":852,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010392,
-    "geom:area_square_m":94997103.383929,
+    "geom:area_square_m":94997103.383911,
     "geom:bbox":"-90.221044,42.283983,-90.097561,42.372174",
     "geom:latitude":42.328098,
     "geom:longitude":-90.159645,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.328092,
     "lbl:longitude":-90.159646,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":85,
     "uscensus:geoid":1708582907,
     "uscensus:name":"Woodbine",
     "uscensus:namelsad":"Woodbine township",
+    "uscensus:population":523,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1708582907
+        "uscensus:geoid":"1708582907"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404496525,
-    "wof:lastmodified":1605055607,
+    "wof:lastmodified":1722233635,
     "wof:name":"Woodbine Township",
     "wof:parent_id":102080811,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":584,
+    "wof:population":523,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

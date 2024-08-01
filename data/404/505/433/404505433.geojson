@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000495,
-    "geom:area_square_m":4744141.058587,
+    "geom:area_square_m":4744141.058585,
     "geom:bbox":"-97.724704,39.106261,-97.678222,39.132201",
     "geom:latitude":39.124289,
     "geom:longitude":-97.699655,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.12403,
     "lbl:longitude":-97.700387,
     "lbl:max_zoom":15.0,
@@ -367,11 +373,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":143,
     "uscensus:geoid":2014347075,
     "uscensus:name":"Minneapolis",
     "uscensus:namelsad":"Minneapolis city",
+    "uscensus:population":1936,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -381,8 +390,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2014347075
+        "uscensus:geoid":"2014347075"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -398,12 +408,12 @@
         }
     ],
     "wof:id":404505433,
-    "wof:lastmodified":1605055291,
+    "wof:lastmodified":1722117900,
     "wof:name":"Minneapolis",
     "wof:parent_id":102084197,
     "wof:placetype":"localadmin",
-    "wof:population":2032,
-    "wof:population_rank":4,
+    "wof:population":1936,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

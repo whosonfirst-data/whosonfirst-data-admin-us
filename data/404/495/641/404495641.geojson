@@ -10,6 +10,12 @@
     "geom:latitude":43.152145,
     "geom:longitude":-88.160477,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "village"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.148792,
     "lbl:longitude":-88.154771,
     "lbl:max_zoom":16.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":133,
     "uscensus:geoid":5513342450,
     "uscensus:name":"Lannon",
     "uscensus:namelsad":"Lannon village",
+    "uscensus:population":2290,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5513342450
+        "uscensus:geoid":"5513342450"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,12 +81,12 @@
         }
     ],
     "wof:id":404495641,
-    "wof:lastmodified":1605055991,
+    "wof:lastmodified":1722117841,
     "wof:name":"Lannon",
     "wof:parent_id":102081741,
     "wof:placetype":"localadmin",
-    "wof:population":1107,
-    "wof:population_rank":3,
+    "wof:population":2290,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

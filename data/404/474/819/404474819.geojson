@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012746,
-    "geom:area_square_m":112617063.66954,
+    "geom:area_square_m":112617063.669538,
     "geom:bbox":"-69.506382,44.327998,-69.339636,44.463839",
     "geom:latitude":44.396027,
     "geom:longitude":-69.427108,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.396176,
     "lbl:longitude":-69.42837,
     "lbl:max_zoom":16.0,
@@ -400,22 +406,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":2302756450,
     "uscensus:name":"Palermo",
     "uscensus:namelsad":"Palermo town",
+    "uscensus:population":1628,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688769,
-        102087445
+        102087445,
+        85688769
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2302756450
+        "uscensus:geoid":"2302756450"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466917
     ],
@@ -434,11 +444,11 @@
         }
     ],
     "wof:id":404474819,
-    "wof:lastmodified":1636499387,
+    "wof:lastmodified":1722117703,
     "wof:name":"Palermo",
     "wof:parent_id":102087445,
     "wof:placetype":"localadmin",
-    "wof:population":1535,
+    "wof:population":1628,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002463,
-    "geom:area_square_m":21222548.859171,
+    "geom:area_square_m":21222548.859168,
     "geom:bbox":"-88.098149,45.8047,-88.026301,45.852481",
     "geom:latitude":45.8275,
     "geom:longitude":-88.059893,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.826572,
     "lbl:longitude":-88.059192,
     "lbl:max_zoom":15.0,
@@ -79,22 +85,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":43,
     "uscensus:geoid":2604340960,
     "uscensus:name":"Iron Mountain",
     "uscensus:namelsad":"Iron Mountain city",
+    "uscensus:population":7519,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688599,
-        102083107
+        102083107,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2604340960
+        "uscensus:geoid":"2604340960"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404507317,
-    "wof:lastmodified":1636499361,
+    "wof:lastmodified":1722117913,
     "wof:name":"Iron Mountain",
     "wof:parent_id":102083107,
     "wof:placetype":"localadmin",
-    "wof:population":7624,
+    "wof:population":7519,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009551,
-    "geom:area_square_m":89049837.255861,
+    "geom:area_square_m":89049837.255874,
     "geom:bbox":"-75.39367,40.999475,-75.223483,41.111571",
     "geom:latitude":41.061171,
     "geom:longitude":-75.310173,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.059178,
     "lbl:longitude":-75.30888,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":89,
     "uscensus:geoid":4208961728,
     "uscensus:name":"Pocono",
     "uscensus:namelsad":"Pocono township",
+    "uscensus:population":10775,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4208961728
+        "uscensus:geoid":"4208961728"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404488225,
-    "wof:lastmodified":1605055814,
+    "wof:lastmodified":1722117792,
     "wof:name":"Pocono Township",
     "wof:parent_id":102080945,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":11065,
+    "wof:population":10775,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

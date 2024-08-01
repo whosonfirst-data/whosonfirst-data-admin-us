@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002421,
-    "geom:area_square_m":21836049.51631,
+    "geom:area_square_m":21836049.51632,
     "geom:bbox":"-78.738898,43.143742,-78.662373,43.193908",
     "geom:latitude":43.169848,
     "geom:longitude":-78.695625,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.17127,
     "lbl:longitude":-78.694905,
     "lbl:max_zoom":14.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":63,
     "uscensus:geoid":3606343082,
     "uscensus:name":"Lockport",
     "uscensus:namelsad":"Lockport city",
+    "uscensus:population":20436,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3606343082
+        "uscensus:geoid":"3606343082"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404522735,
-    "wof:lastmodified":1605056075,
+    "wof:lastmodified":1722117996,
     "wof:name":"Lockport",
     "wof:parent_id":102081767,
     "wof:placetype":"localadmin",
-    "wof:population":21165,
+    "wof:population":20436,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007833,
-    "geom:area_square_m":73239293.296453,
+    "geom:area_square_m":73239293.296465,
     "geom:bbox":"-79.102155,40.837545,-78.99043,40.910205",
     "geom:latitude":40.87411,
     "geom:longitude":-79.046597,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.87392,
     "lbl:longitude":-79.046591,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":63,
     "uscensus:geoid":4206355184,
     "uscensus:name":"North Mahoning",
     "uscensus:namelsad":"North Mahoning township",
+    "uscensus:population":1328,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206355184
+        "uscensus:geoid":"4206355184"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470361
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404483487,
-    "wof:lastmodified":1605055446,
+    "wof:lastmodified":1722117763,
     "wof:name":"North Mahoning Township",
     "wof:parent_id":102081387,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1428,
+    "wof:population":1328,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

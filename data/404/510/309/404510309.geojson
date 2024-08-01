@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010371,
-    "geom:area_square_m":92412401.584021,
+    "geom:area_square_m":92412401.584041,
     "geom:bbox":"-92.43858,43.848052,-92.31826,43.934932",
     "geom:latitude":43.891353,
     "geom:longitude":-92.378504,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.891246,
     "lbl:longitude":-92.378506,
     "lbl:max_zoom":17.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":109,
     "uscensus:geoid":2710951550,
     "uscensus:name":"Pleasant Grove",
     "uscensus:namelsad":"Pleasant Grove township",
+    "uscensus:population":729,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2710951550
+        "uscensus:geoid":"2710951550"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476555
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404510309,
-    "wof:lastmodified":1605055609,
+    "wof:lastmodified":1722117935,
     "wof:name":"Pleasant Grove Township",
     "wof:parent_id":102087829,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":806,
+    "wof:population":729,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

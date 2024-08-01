@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01274,
-    "geom:area_square_m":120817550.520425,
+    "geom:area_square_m":120817550.520484,
     "geom:bbox":"-93.003379,39.875646,-92.849635,39.96671",
     "geom:latitude":39.919921,
     "geom:longitude":-92.924389,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.920318,
     "lbl:longitude":-92.924359,
     "lbl:max_zoom":18.0,
@@ -58,11 +64,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":2911503016,
     "uscensus:name":"Baker",
     "uscensus:namelsad":"Baker township",
+    "uscensus:population":184,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":29,
     "wof:belongsto":[
         102191575,
@@ -72,8 +81,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2911503016
+        "uscensus:geoid":"2911503016"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456531
     ],
@@ -92,12 +102,12 @@
         }
     ],
     "wof:id":404517397,
-    "wof:lastmodified":1604969414,
+    "wof:lastmodified":1722117976,
     "wof:name":"Baker Township",
     "wof:parent_id":102085269,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":196,
+    "wof:population":184,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

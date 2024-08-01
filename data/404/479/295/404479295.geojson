@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000217,
-    "geom:area_square_m":1776665.550283,
+    "geom:area_square_m":1776665.550276,
     "geom:bbox":"-97.677153,48.590198,-97.660698,48.604806",
     "geom:latitude":48.598094,
     "geom:longitude":-97.668574,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.598824,
     "lbl:longitude":-97.668574,
     "lbl:max_zoom":18.0,
@@ -283,11 +289,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":67,
     "uscensus:geoid":3806717060,
     "uscensus:name":"Crystal",
     "uscensus:namelsad":"Crystal city",
+    "uscensus:population":111,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -297,8 +306,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3806717060
+        "uscensus:geoid":"3806717060"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -314,11 +324,11 @@
         }
     ],
     "wof:id":404479295,
-    "wof:lastmodified":1605055474,
+    "wof:lastmodified":1722117736,
     "wof:name":"Crystal",
     "wof:parent_id":102081509,
     "wof:placetype":"localadmin",
-    "wof:population":138,
+    "wof:population":111,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

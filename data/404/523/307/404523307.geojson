@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.015888,
-    "geom:area_square_m":142237543.006519,
+    "geom:area_square_m":142237543.006495,
     "geom:bbox":"-73.578901,43.534131,-73.3936,43.699539",
     "geom:latitude":43.614674,
     "geom:longitude":-73.478557,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.600125,
     "lbl:longitude":-73.479983,
     "lbl:max_zoom":17.0,
@@ -433,11 +439,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":3611520885,
     "uscensus:name":"Dresden",
     "uscensus:namelsad":"Dresden town",
+    "uscensus:population":538,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -447,8 +456,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3611520885
+        "uscensus:geoid":"3611520885"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470055
     ],
@@ -467,11 +477,11 @@
         }
     ],
     "wof:id":404523307,
-    "wof:lastmodified":1605056083,
+    "wof:lastmodified":1722118000,
     "wof:name":"Dresden",
     "wof:parent_id":102083153,
     "wof:placetype":"localadmin",
-    "wof:population":652,
+    "wof:population":538,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

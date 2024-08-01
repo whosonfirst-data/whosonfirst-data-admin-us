@@ -122,7 +122,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":3416446,
     "uscensus:awater":1093454,
     "uscensus:classfp":"U1",
@@ -138,13 +139,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"40988",
     "uscensus:placens":"02390019",
+    "uscensus:population":2515,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"42",
     "wof:belongsto":[
-        85688481,
         102191575,
-        404484917,
         85633793,
-        102080899
+        102080899,
+        404484917,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -152,13 +155,14 @@
         "gn:id":4559053,
         "gp:id":28744870,
         "qs_pg:id":248290,
-        "uscensus:geoid":4240988,
+        "uscensus:geoid":"4240988",
         "wd:id":"Q1181316",
         "wk:page":"Lake Meade, Pennsylvania"
     },
     "wof:concordances_alt":{
         "qs_pg:id":483443
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -176,11 +180,11 @@
         }
     ],
     "wof:id":101720539,
-    "wof:lastmodified":1690890247,
+    "wof:lastmodified":1722116376,
     "wof:name":"Lake Meade",
     "wof:parent_id":404484917,
     "wof:placetype":"locality",
-    "wof:population":2563,
+    "wof:population":2515,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

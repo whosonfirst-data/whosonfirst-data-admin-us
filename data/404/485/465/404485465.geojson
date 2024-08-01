@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004745,
-    "geom:area_square_m":44816490.868008,
+    "geom:area_square_m":44816490.868014,
     "geom:bbox":"-75.226779,40.156923,-75.106878,40.241455",
     "geom:latitude":40.199283,
     "geom:longitude":-75.166463,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.199525,
     "lbl:longitude":-75.166465,
     "lbl:max_zoom":14.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":91,
     "uscensus:geoid":4209135808,
     "uscensus:name":"Horsham",
     "uscensus:namelsad":"Horsham township",
+    "uscensus:population":27086,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4209135808
+        "uscensus:geoid":"4209135808"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404485465,
-    "wof:lastmodified":1605055361,
+    "wof:lastmodified":1722117774,
     "wof:name":"Horsham Township",
     "wof:parent_id":102081355,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":26147,
+    "wof:population":27086,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

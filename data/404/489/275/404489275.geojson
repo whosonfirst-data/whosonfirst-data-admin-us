@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00008,
-    "geom:area_square_m":714999.161128,
+    "geom:area_square_m":714999.161126,
     "geom:bbox":"-100.087416,43.436979,-100.076434,43.444376",
     "geom:latitude":43.440641,
     "geom:longitude":-100.081957,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.440641,
     "lbl:longitude":-100.081957,
     "lbl:max_zoom":18.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":123,
     "uscensus:geoid":4612345100,
     "uscensus:name":"New Witten",
     "uscensus:namelsad":"New Witten town",
+    "uscensus:population":54,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4612345100
+        "uscensus:geoid":"4612345100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404489275,
-    "wof:lastmodified":1605055924,
+    "wof:lastmodified":1722117799,
     "wof:name":"New Witten",
     "wof:parent_id":102086855,
     "wof:placetype":"localadmin",
-    "wof:population":79,
+    "wof:population":54,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

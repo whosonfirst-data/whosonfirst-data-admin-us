@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010831,
-    "geom:area_square_m":93851921.044325,
+    "geom:area_square_m":93851921.044335,
     "geom:bbox":"-89.919921,45.467298,-89.795718,45.555598",
     "geom:latitude":45.51141,
     "geom:longitude":-89.857513,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.511277,
     "lbl:longitude":-89.857502,
     "lbl:max_zoom":17.0,
@@ -139,11 +145,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":69,
     "uscensus:geoid":5506987425,
     "uscensus:name":"Wilson",
     "uscensus:namelsad":"Wilson town",
+    "uscensus:population":323,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -153,8 +162,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5506987425
+        "uscensus:geoid":"5506987425"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468963
     ],
@@ -173,11 +183,11 @@
         }
     ],
     "wof:id":404495049,
-    "wof:lastmodified":1605055981,
+    "wof:lastmodified":1722117837,
     "wof:name":"Wilson",
     "wof:parent_id":102081889,
     "wof:placetype":"localadmin",
-    "wof:population":309,
+    "wof:population":323,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

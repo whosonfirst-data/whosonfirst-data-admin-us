@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000231,
-    "geom:area_square_m":2122483.215371,
+    "geom:area_square_m":2122483.215369,
     "geom:bbox":"-75.619149,41.937931,-75.590646,41.951723",
     "geom:latitude":41.943806,
     "geom:longitude":-75.603981,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.94406,
     "lbl:longitude":-75.603981,
     "lbl:max_zoom":16.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":4211575568,
     "uscensus:name":"Susquehanna Depot",
     "uscensus:namelsad":"Susquehanna Depot borough",
+    "uscensus:population":1343,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4211575568
+        "uscensus:geoid":"4211575568"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404483875,
-    "wof:lastmodified":1605055439,
+    "wof:lastmodified":1722117765,
     "wof:name":"Susquehanna Depot",
     "wof:parent_id":102081381,
     "wof:placetype":"localadmin",
-    "wof:population":1643,
+    "wof:population":1343,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010071,
-    "geom:area_square_m":94411561.922386,
+    "geom:area_square_m":94411561.922372,
     "geom:bbox":"-85.449859,40.653607,-85.334646,40.742041",
     "geom:latitude":40.698056,
     "geom:longitude":-85.392336,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.697978,
     "lbl:longitude":-85.392336,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":69,
     "uscensus:geoid":1806967320,
     "uscensus:name":"Salamonie",
     "uscensus:namelsad":"Salamonie township",
+    "uscensus:population":2275,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1806967320
+        "uscensus:geoid":"1806967320"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404500053,
-    "wof:lastmodified":1604530776,
+    "wof:lastmodified":1722233648,
     "wof:name":"Salamonie Township",
     "wof:parent_id":102087073,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2049,
+    "wof:population":2275,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

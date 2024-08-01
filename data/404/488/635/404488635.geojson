@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000242,
-    "geom:area_square_m":2176200.467724,
+    "geom:area_square_m":2176200.467716,
     "geom:bbox":"-98.419528,43.410017,-98.396856,43.437999",
     "geom:latitude":43.422352,
     "geom:longitude":-98.407337,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.423144,
     "lbl:longitude":-98.406559,
     "lbl:max_zoom":17.0,
@@ -436,11 +442,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":43,
     "uscensus:geoid":4604313980,
     "uscensus:name":"Corsica",
     "uscensus:namelsad":"Corsica city",
+    "uscensus:population":556,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -450,8 +459,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4604313980
+        "uscensus:geoid":"4604313980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -467,11 +477,11 @@
         }
     ],
     "wof:id":404488635,
-    "wof:lastmodified":1605055806,
+    "wof:lastmodified":1722117795,
     "wof:name":"Corsica",
     "wof:parent_id":102086053,
     "wof:placetype":"localadmin",
-    "wof:population":592,
+    "wof:population":556,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

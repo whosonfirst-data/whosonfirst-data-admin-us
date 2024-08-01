@@ -155,7 +155,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1777169,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -171,17 +172,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"71500",
     "uscensus:placens":"01036256",
+    "uscensus:population":248,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":847.0,
     "wd:latitude":46.147222,
     "wd:longitude":-103.144167,
     "wd:wordcount":849,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404480305,
         85633793,
-        102081521
+        102081521,
+        404480305,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -190,10 +193,11 @@
         "gn:id":5692010,
         "gp:id":2490113,
         "qs_pg:id":159607,
-        "uscensus:geoid":3871500,
+        "uscensus:geoid":"3871500",
         "wd:id":"Q954451",
         "wk:page":"Scranton, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -214,11 +218,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882129,
+    "wof:lastmodified":1722115965,
     "wof:name":"Scranton",
     "wof:parent_id":404480305,
     "wof:placetype":"locality",
-    "wof:population":281,
+    "wof:population":248,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

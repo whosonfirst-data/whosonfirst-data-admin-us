@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006596,
-    "geom:area_square_m":55162313.486012,
+    "geom:area_square_m":55162313.486054,
     "geom:bbox":"-94.927531,47.409833,-94.799695,47.493969",
     "geom:latitude":47.439759,
     "geom:longitude":-94.860471,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.427324,
     "lbl:longitude":-94.884683,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":2700705086,
     "uscensus:name":"Bemidji",
     "uscensus:namelsad":"Bemidji township",
+    "uscensus:population":3610,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2700705086
+        "uscensus:geoid":"2700705086"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461745
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404511371,
-    "wof:lastmodified":1605055722,
+    "wof:lastmodified":1722117943,
     "wof:name":"Bemidji Township",
     "wof:parent_id":102087773,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3134,
+    "wof:population":3610,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

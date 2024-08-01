@@ -148,7 +148,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":10419919,
     "uscensus:awater":25132,
     "uscensus:classfp":"C5",
@@ -164,16 +165,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"47610",
     "uscensus:placens":"00885306",
+    "uscensus:population":9361,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"34",
     "wd:latitude":41.048889,
     "wd:longitude":-74.040556,
     "wd:wordcount":6466,
     "wof:belongsto":[
-        85688607,
         102191575,
-        404477691,
         85633793,
-        102086773
+        102086773,
+        404477691,
+        85688607
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -181,10 +184,11 @@
         "gn:id":5101361,
         "gp:id":2453586,
         "qs_pg:id":240274,
-        "uscensus:geoid":3447610,
+        "uscensus:geoid":"3447610",
         "wd:id":"Q178277",
         "wk:page":"Montvale, New Jersey"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -202,11 +206,11 @@
         }
     ],
     "wof:id":85975973,
-    "wof:lastmodified":1690884665,
+    "wof:lastmodified":1722116112,
     "wof:name":"Montvale",
     "wof:parent_id":404477691,
     "wof:placetype":"locality",
-    "wof:population":7844,
+    "wof:population":9361,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

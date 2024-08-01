@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010036,
-    "geom:area_square_m":89339149.596187,
+    "geom:area_square_m":89339149.596208,
     "geom:bbox":"-102.258419,43.907461,-102.138451,43.994665",
     "geom:latitude":43.949783,
     "geom:longitude":-102.196979,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.951032,
     "lbl:longitude":-102.192838,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":103,
     "uscensus:geoid":4610320900,
     "uscensus:name":"Fairview",
     "uscensus:namelsad":"Fairview township",
+    "uscensus:population":70,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4610320900
+        "uscensus:geoid":"4610320900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456397
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404489093,
-    "wof:lastmodified":1605055935,
+    "wof:lastmodified":1722117798,
     "wof:name":"Fairview Township",
     "wof:parent_id":102086781,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":54,
+    "wof:population":70,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

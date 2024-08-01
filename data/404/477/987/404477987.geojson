@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000912,
-    "geom:area_square_m":8663888.609997,
+    "geom:area_square_m":8663888.610003,
     "geom:bbox":"-74.957651,39.78376,-74.902368,39.821425",
     "geom:latitude":39.805348,
     "geom:longitude":-74.925478,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.809431,
     "lbl:longitude":-74.92736,
     "lbl:max_zoom":15.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":3400705470,
     "uscensus:name":"Berlin",
     "uscensus:namelsad":"Berlin township",
+    "uscensus:population":5972,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400705470
+        "uscensus:geoid":"3400705470"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468367
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404477987,
-    "wof:lastmodified":1605055433,
+    "wof:lastmodified":1722117727,
     "wof:name":"Berlin Township",
     "wof:parent_id":102081131,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":5357,
+    "wof:population":5972,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

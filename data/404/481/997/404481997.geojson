@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010687,
-    "geom:area_square_m":91260685.878,
+    "geom:area_square_m":91260685.878048,
     "geom:bbox":"-103.926896,46.280027,-103.800897,46.367236",
     "geom:latitude":46.324227,
     "geom:longitude":-103.862857,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.323719,
     "lbl:longitude":-103.862859,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":87,
     "uscensus:geoid":3808739300,
     "uscensus:name":"Hughes",
     "uscensus:namelsad":"Hughes township",
+    "uscensus:population":8,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3808739300
+        "uscensus:geoid":"3808739300"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470837
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404481997,
-    "wof:lastmodified":1605055821,
+    "wof:lastmodified":1722117754,
     "wof:name":"Hughes Township",
     "wof:parent_id":102081491,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":6,
+    "wof:population":8,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

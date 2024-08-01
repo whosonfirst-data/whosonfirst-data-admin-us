@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000263,
-    "geom:area_square_m":2500212.521332,
+    "geom:area_square_m":2500212.521331,
     "geom:bbox":"-77.152732,39.800469,-77.122542,39.818818",
     "geom:latitude":39.810426,
     "geom:longitude":-77.13626,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.810031,
     "lbl:longitude":-77.136034,
     "lbl:max_zoom":16.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":4200107560,
     "uscensus:name":"Bonneauville",
     "uscensus:namelsad":"Bonneauville borough",
+    "uscensus:population":1788,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200107560
+        "uscensus:geoid":"4200107560"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404484787,
-    "wof:lastmodified":1605055469,
+    "wof:lastmodified":1722117770,
     "wof:name":"Bonneauville",
     "wof:parent_id":102080899,
     "wof:placetype":"localadmin",
-    "wof:population":1800,
+    "wof:population":1788,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

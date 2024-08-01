@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004348,
-    "geom:area_square_m":40110259.690086,
+    "geom:area_square_m":40110259.690089,
     "geom:bbox":"-76.527756,41.723178,-76.416636,41.773352",
     "geom:latitude":41.745822,
     "geom:longitude":-76.477261,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.748133,
     "lbl:longitude":-76.477258,
     "lbl:max_zoom":16.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":4201577176,
     "uscensus:name":"Towanda",
     "uscensus:namelsad":"Towanda township",
+    "uscensus:population":1028,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201577176
+        "uscensus:geoid":"4201577176"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473753
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404484683,
-    "wof:lastmodified":1605055465,
+    "wof:lastmodified":1722117769,
     "wof:name":"Towanda Township",
     "wof:parent_id":102081319,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1149,
+    "wof:population":1028,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

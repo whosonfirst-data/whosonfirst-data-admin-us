@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000626,
-    "geom:area_square_m":5930304.529844,
+    "geom:area_square_m":5930304.529841,
     "geom:bbox":"-79.608486,40.001467,-79.564476,40.027869",
     "geom:latitude":40.015795,
     "geom:longitude":-79.589925,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.016884,
     "lbl:longitude":-79.592098,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":4205115776,
     "uscensus:name":"Connellsville",
     "uscensus:namelsad":"Connellsville city",
+    "uscensus:population":6700,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4205115776
+        "uscensus:geoid":"4205115776"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404486925,
-    "wof:lastmodified":1605055867,
+    "wof:lastmodified":1722117783,
     "wof:name":"Connellsville",
     "wof:parent_id":102080959,
     "wof:placetype":"localadmin",
-    "wof:population":7637,
+    "wof:population":6700,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

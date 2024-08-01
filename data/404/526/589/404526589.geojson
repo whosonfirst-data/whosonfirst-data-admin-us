@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007145,
-    "geom:area_square_m":66501276.143244,
+    "geom:area_square_m":66501276.143233,
     "geom:bbox":"-82.739136,41.140643,-82.638689,41.214963",
     "geom:latitude":41.177759,
     "geom:longitude":-82.688701,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.177534,
     "lbl:longitude":-82.688707,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":77,
     "uscensus:geoid":3907762246,
     "uscensus:name":"Peru",
     "uscensus:namelsad":"Peru township",
+    "uscensus:population":1046,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3907762246
+        "uscensus:geoid":"3907762246"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464485
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404526589,
-    "wof:lastmodified":1605055651,
+    "wof:lastmodified":1722118024,
     "wof:name":"Peru Township",
     "wof:parent_id":102083735,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1105,
+    "wof:population":1046,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

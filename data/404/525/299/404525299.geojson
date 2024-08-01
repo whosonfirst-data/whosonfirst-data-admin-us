@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007163,
-    "geom:area_square_m":66529489.992198,
+    "geom:area_square_m":66529489.992211,
     "geom:bbox":"-81.972749,41.274806,-81.87696,41.351268",
     "geom:latitude":41.312934,
     "geom:longitude":-81.924832,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.312945,
     "lbl:longitude":-81.924852,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":93,
     "uscensus:geoid":3909316910,
     "uscensus:name":"Columbia",
     "uscensus:namelsad":"Columbia township",
+    "uscensus:population":8343,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3909316910
+        "uscensus:geoid":"3909316910"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466913
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404525299,
-    "wof:lastmodified":1605056062,
+    "wof:lastmodified":1722118014,
     "wof:name":"Columbia Township",
     "wof:parent_id":102083683,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":7040,
+    "wof:population":8343,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

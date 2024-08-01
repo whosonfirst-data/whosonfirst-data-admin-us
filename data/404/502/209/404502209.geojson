@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00958,
-    "geom:area_square_m":91375292.135458,
+    "geom:area_square_m":91375292.135469,
     "geom:bbox":"-97.591973,39.480922,-97.479281,39.566695",
     "geom:latitude":39.523881,
     "geom:longitude":-97.535741,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.523854,
     "lbl:longitude":-97.535744,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":2002949600,
     "uscensus:name":"Nelson",
     "uscensus:namelsad":"Nelson township",
+    "uscensus:population":107,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2002949600
+        "uscensus:geoid":"2002949600"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457563
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404502209,
-    "wof:lastmodified":1605055274,
+    "wof:lastmodified":1722117877,
     "wof:name":"Nelson Township",
     "wof:parent_id":102082683,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":109,
+    "wof:population":107,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

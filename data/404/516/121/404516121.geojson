@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.029127,
-    "geom:area_square_m":275481270.915007,
+    "geom:area_square_m":275481270.915086,
     "geom:bbox":"-94.445737,40.034885,-94.216481,40.170041",
     "geom:latitude":40.102194,
     "geom:longitude":-94.329189,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.104627,
     "lbl:longitude":-94.329197,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":75,
     "uscensus:geoid":2907548224,
     "uscensus:name":"Miller",
     "uscensus:namelsad":"Miller township",
+    "uscensus:population":443,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":29,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2907548224
+        "uscensus:geoid":"2907548224"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404516121,
-    "wof:lastmodified":1604530744,
+    "wof:lastmodified":1722233669,
     "wof:name":"Miller Township",
     "wof:parent_id":102085311,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":432,
+    "wof:population":443,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006113,
-    "geom:area_square_m":56646815.708178,
+    "geom:area_square_m":56646815.708224,
     "geom:bbox":"-82.786538,41.416631,-82.617723,41.493944",
     "geom:latitude":41.456392,
     "geom:longitude":-82.714131,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.458946,
     "lbl:longitude":-82.712822,
     "lbl:max_zoom":14.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":43,
     "uscensus:geoid":3904370380,
     "uscensus:name":"Sandusky",
     "uscensus:namelsad":"Sandusky city",
+    "uscensus:population":24241,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3904370380
+        "uscensus:geoid":"3904370380"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404524561,
-    "wof:lastmodified":1605056102,
+    "wof:lastmodified":1722118009,
     "wof:name":"Sandusky",
     "wof:parent_id":102084735,
     "wof:placetype":"localadmin",
-    "wof:population":25793,
+    "wof:population":24241,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

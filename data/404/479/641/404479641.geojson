@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000066,
-    "geom:area_square_m":540270.253347,
+    "geom:area_square_m":540270.25335,
     "geom:bbox":"-99.251961,48.786459,-99.23798,48.794324",
     "geom:latitude":48.79016,
     "geom:longitude":-99.245898,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.790655,
     "lbl:longitude":-99.245765,
     "lbl:max_zoom":18.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":3809567500,
     "uscensus:name":"Rocklake",
     "uscensus:namelsad":"Rocklake city",
+    "uscensus:population":90,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3809567500
+        "uscensus:geoid":"3809567500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404479641,
-    "wof:lastmodified":1605055481,
+    "wof:lastmodified":1722117739,
     "wof:name":"Rocklake",
     "wof:parent_id":102082111,
     "wof:placetype":"localadmin",
-    "wof:population":101,
+    "wof:population":90,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

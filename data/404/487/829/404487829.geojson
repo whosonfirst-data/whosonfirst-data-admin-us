@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008409,
-    "geom:area_square_m":79502587.078614,
+    "geom:area_square_m":79502587.078594,
     "geom:bbox":"-76.86804,40.081424,-76.704994,40.17947",
     "geom:latitude":40.12861,
     "geom:longitude":-76.791943,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.139578,
     "lbl:longitude":-76.79195,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":133,
     "uscensus:geoid":4213353224,
     "uscensus:name":"Newberry",
     "uscensus:namelsad":"Newberry township",
+    "uscensus:population":16010,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4213353224
+        "uscensus:geoid":"4213353224"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404487829,
-    "wof:lastmodified":1605055880,
+    "wof:lastmodified":1722117790,
     "wof:name":"Newberry Township",
     "wof:parent_id":102080953,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":15285,
+    "wof:population":16010,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

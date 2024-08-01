@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.021838,
-    "geom:area_square_m":180978417.359129,
+    "geom:area_square_m":180978417.35916,
     "geom:bbox":"-103.992012,47.848101,-103.797116,48.015756",
     "geom:latitude":47.915697,
     "geom:longitude":-103.877226,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.90766,
     "lbl:longitude":-103.875372,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":53,
     "uscensus:geoid":3805373380,
     "uscensus:name":"Sioux",
     "uscensus:namelsad":"Sioux township",
+    "uscensus:population":156,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3805373380
+        "uscensus:geoid":"3805373380"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476029
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404481005,
-    "wof:lastmodified":1605055834,
+    "wof:lastmodified":1722117748,
     "wof:name":"Sioux Township",
     "wof:parent_id":102082091,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":108,
+    "wof:population":156,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

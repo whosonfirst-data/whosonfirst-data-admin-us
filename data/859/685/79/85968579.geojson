@@ -157,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":19757703,
     "uscensus:awater":1122352,
     "uscensus:classfp":"C5",
@@ -173,17 +174,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"60250",
     "uscensus:placens":"02395886",
+    "uscensus:population":1812,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":233.0,
     "wd:latitude":47.294444,
     "wd:longitude":-91.2575,
     "wd:wordcount":1011,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404509961,
         85633793,
-        102087863
+        102087863,
+        404509961,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -192,10 +195,11 @@
         "gn:id":5047308,
         "gp:id":2493589,
         "qs_pg:id":156401,
-        "uscensus:geoid":2760250,
+        "uscensus:geoid":"2760250",
         "wd:id":"Q2194774",
         "wk:page":"Silver Bay, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -216,11 +220,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884834,
+    "wof:lastmodified":1722116123,
     "wof:name":"Silver Bay",
     "wof:parent_id":404509961,
     "wof:placetype":"locality",
-    "wof:population":1887,
+    "wof:population":1812,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01032,
-    "geom:area_square_m":94508498.261373,
+    "geom:area_square_m":94508498.261385,
     "geom:bbox":"-78.943504,42.172353,-78.825274,42.260482",
     "geom:latitude":42.216482,
     "geom:longitude":-78.884538,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.216418,
     "lbl:longitude":-78.884538,
     "lbl:max_zoom":16.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":3600949462,
     "uscensus:name":"Napoli",
     "uscensus:namelsad":"Napoli town",
+    "uscensus:population":1198,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3600949462
+        "uscensus:geoid":"3600949462"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460675
     ],
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404521175,
-    "wof:lastmodified":1605055632,
+    "wof:lastmodified":1722117984,
     "wof:name":"Napoli",
     "wof:parent_id":102081853,
     "wof:placetype":"localadmin",
-    "wof:population":1248,
+    "wof:population":1198,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

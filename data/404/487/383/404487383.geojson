@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000285,
-    "geom:area_square_m":2627216.32088,
+    "geom:area_square_m":2627216.320879,
     "geom:bbox":"-75.734873,41.865842,-75.714744,41.889361",
     "geom:latitude":41.876143,
     "geom:longitude":-75.726561,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.876735,
     "lbl:longitude":-75.726561,
     "lbl:max_zoom":17.0,
@@ -70,11 +76,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":4211553880,
     "uscensus:name":"New Milford",
     "uscensus:namelsad":"New Milford borough",
+    "uscensus:population":802,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -84,8 +93,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4211553880
+        "uscensus:geoid":"4211553880"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -101,11 +111,11 @@
         }
     ],
     "wof:id":404487383,
-    "wof:lastmodified":1605055885,
+    "wof:lastmodified":1722117786,
     "wof:name":"New Milford",
     "wof:parent_id":102081381,
     "wof:placetype":"localadmin",
-    "wof:population":868,
+    "wof:population":802,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

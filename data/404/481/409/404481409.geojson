@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.016303,
-    "geom:area_square_m":138824393.055899,
+    "geom:area_square_m":138824393.055898,
     "geom:bbox":"-97.531932,46.413193,-97.40586,46.543763",
     "geom:latitude":46.478314,
     "geom:longitude":-97.468859,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.478365,
     "lbl:longitude":-97.46886,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":73,
     "uscensus:geoid":3807372300,
     "uscensus:name":"Shenford",
     "uscensus:namelsad":"Shenford township",
+    "uscensus:population":112,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3807372300
+        "uscensus:geoid":"3807372300"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472581
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404481409,
-    "wof:lastmodified":1605055825,
+    "wof:lastmodified":1722117750,
     "wof:name":"Shenford Township",
     "wof:parent_id":102081505,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":118,
+    "wof:population":112,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

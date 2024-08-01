@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010356,
-    "geom:area_square_m":93133382.038687,
+    "geom:area_square_m":93133382.038685,
     "geom:bbox":"-85.80091,43.292943,-85.681789,43.380925",
     "geom:latitude":43.33696,
     "geom:longitude":-85.741478,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.337109,
     "lbl:longitude":-85.741481,
     "lbl:max_zoom":15.0,
@@ -61,11 +67,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":123,
     "uscensus:geoid":2612334380,
     "uscensus:name":"Grant",
     "uscensus:namelsad":"Grant township",
+    "uscensus:population":3383,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -75,8 +84,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2612334380
+        "uscensus:geoid":"2612334380"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471681
     ],
@@ -95,12 +105,12 @@
         }
     ],
     "wof:id":404506325,
-    "wof:lastmodified":1605055758,
+    "wof:lastmodified":1722117906,
     "wof:name":"Grant Township",
     "wof:parent_id":102082987,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3294,
+    "wof:population":3383,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013764,
-    "geom:area_square_m":125893235.602792,
+    "geom:area_square_m":125893235.602795,
     "geom:bbox":"-75.698222,42.232996,-75.555373,42.346215",
     "geom:latitude":42.293696,
     "geom:longitude":-75.625455,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.29479,
     "lbl:longitude":-75.624504,
     "lbl:max_zoom":16.0,
@@ -265,11 +271,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":3601718619,
     "uscensus:name":"Coventry",
     "uscensus:namelsad":"Coventry town",
+    "uscensus:population":1487,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -279,8 +288,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3601718619
+        "uscensus:geoid":"3601718619"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469015
     ],
@@ -299,11 +309,11 @@
         }
     ],
     "wof:id":404522131,
-    "wof:lastmodified":1605056075,
+    "wof:lastmodified":1722117991,
     "wof:name":"Coventry",
     "wof:parent_id":102082367,
     "wof:placetype":"localadmin",
-    "wof:population":1655,
+    "wof:population":1487,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

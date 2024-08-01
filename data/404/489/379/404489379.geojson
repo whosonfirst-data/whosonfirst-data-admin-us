@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000302,
-    "geom:area_square_m":2693297.863019,
+    "geom:area_square_m":2693297.86302,
     "geom:bbox":"-96.668207,43.898914,-96.643233,43.913876",
     "geom:latitude":43.906265,
     "geom:longitude":-96.657813,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.906249,
     "lbl:longitude":-96.657815,
     "lbl:max_zoom":17.0,
@@ -124,22 +130,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":101,
     "uscensus:geoid":4610163940,
     "uscensus:name":"Trent",
     "uscensus:namelsad":"Trent town",
+    "uscensus:population":235,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688693,
-        102086851
+        102086851,
+        85688693
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4610163940
+        "uscensus:geoid":"4610163940"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -155,11 +165,11 @@
         }
     ],
     "wof:id":404489379,
-    "wof:lastmodified":1636499389,
+    "wof:lastmodified":1722117800,
     "wof:name":"Trent",
     "wof:parent_id":102086851,
     "wof:placetype":"localadmin",
-    "wof:population":232,
+    "wof:population":235,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.017857,
-    "geom:area_square_m":151750914.579542,
+    "geom:area_square_m":151750914.579524,
     "geom:bbox":"-97.032356,46.543248,-96.820972,46.630299",
     "geom:latitude":46.587325,
     "geom:longitude":-96.927148,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.594001,
     "lbl:longitude":-96.927145,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":77,
     "uscensus:geoid":3807782820,
     "uscensus:name":"Walcott",
     "uscensus:namelsad":"Walcott township",
+    "uscensus:population":344,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3807782820
+        "uscensus:geoid":"3807782820"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473581
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404481511,
-    "wof:lastmodified":1605055828,
+    "wof:lastmodified":1722117751,
     "wof:name":"Walcott Township",
     "wof:parent_id":102082103,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":326,
+    "wof:population":344,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

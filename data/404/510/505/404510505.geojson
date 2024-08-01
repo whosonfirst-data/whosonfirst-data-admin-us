@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000449,
-    "geom:area_square_m":3907002.823996,
+    "geom:area_square_m":3907002.823999,
     "geom:bbox":"-94.322859,45.305793,-94.281571,45.325333",
     "geom:latitude":45.31433,
     "geom:longitude":-94.300807,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.314381,
     "lbl:longitude":-94.299398,
     "lbl:max_zoom":17.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":145,
     "uscensus:geoid":2714533164,
     "uscensus:name":"Kimball",
     "uscensus:namelsad":"Kimball city",
+    "uscensus:population":856,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2714533164
+        "uscensus:geoid":"2714533164"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404510505,
-    "wof:lastmodified":1605055609,
+    "wof:lastmodified":1722117937,
     "wof:name":"Kimball",
     "wof:parent_id":102087719,
     "wof:placetype":"localadmin",
-    "wof:population":762,
+    "wof:population":856,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

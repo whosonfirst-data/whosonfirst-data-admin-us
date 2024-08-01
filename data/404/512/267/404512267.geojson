@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011534,
-    "geom:area_square_m":100960087.061858,
+    "geom:area_square_m":100960087.061877,
     "geom:bbox":"-94.635504,44.891851,-94.501877,44.979695",
     "geom:latitude":44.935651,
     "geom:longitude":-94.569086,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.935695,
     "lbl:longitude":-94.573243,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":93,
     "uscensus:geoid":2709310486,
     "uscensus:name":"Cedar Mills",
     "uscensus:namelsad":"Cedar Mills township",
+    "uscensus:population":426,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2709310486
+        "uscensus:geoid":"2709310486"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729477727
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404512267,
-    "wof:lastmodified":1605056124,
+    "wof:lastmodified":1722117949,
     "wof:name":"Cedar Mills Township",
     "wof:parent_id":102087663,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":460,
+    "wof:population":426,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

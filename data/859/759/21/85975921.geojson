@@ -154,7 +154,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":10221577,
     "uscensus:awater":674547,
     "uscensus:classfp":"C5",
@@ -170,16 +171,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"10480",
     "uscensus:placens":"00885180",
+    "uscensus:population":6333,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"34",
     "wd:latitude":40.8264,
     "wd:longitude":-74.0623,
     "wd:wordcount":5515,
     "wof:belongsto":[
-        85688607,
         102191575,
-        404477645,
         85633793,
-        102086773
+        102086773,
+        404477645,
+        85688607
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -187,10 +190,11 @@
         "gn:id":5096289,
         "gp:id":2375077,
         "qs_pg:id":815462,
-        "uscensus:geoid":3410480,
+        "uscensus:geoid":"3410480",
         "wd:id":"Q1043422",
         "wk:page":"Carlstadt, New Jersey"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -208,11 +212,11 @@
         }
     ],
     "wof:id":85975921,
-    "wof:lastmodified":1690884666,
+    "wof:lastmodified":1722116112,
     "wof:name":"Carlstadt",
     "wof:parent_id":404477645,
     "wof:placetype":"locality",
-    "wof:population":6127,
+    "wof:population":6333,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

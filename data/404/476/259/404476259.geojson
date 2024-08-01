@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005192,
-    "geom:area_square_m":47325385.67679,
+    "geom:area_square_m":47325385.676775,
     "geom:bbox":"-70.949917,42.481883,-70.743567,42.552083",
     "geom:latitude":42.515734,
     "geom:longitude":-70.854441,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.514066,
     "lbl:longitude":-70.899423,
     "lbl:max_zoom":14.0,
@@ -166,22 +172,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":2500959105,
     "uscensus:name":"Salem",
     "uscensus:namelsad":"Salem city",
+    "uscensus:population":44744,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688645,
-        102084463
+        102084463,
+        85688645
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2500959105
+        "uscensus:geoid":"2500959105"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -197,11 +207,11 @@
         }
     ],
     "wof:id":404476259,
-    "wof:lastmodified":1636499278,
+    "wof:lastmodified":1722117713,
     "wof:name":"Salem",
     "wof:parent_id":102084463,
     "wof:placetype":"localadmin",
-    "wof:population":41340,
+    "wof:population":44744,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

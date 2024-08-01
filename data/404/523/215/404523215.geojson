@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009767,
-    "geom:area_square_m":89711799.392506,
+    "geom:area_square_m":89711799.392461,
     "geom:bbox":"-76.47303,41.99832,-76.274055,42.092904",
     "geom:latitude":42.029558,
     "geom:longitude":-76.349455,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.031536,
     "lbl:longitude":-76.314817,
     "lbl:max_zoom":15.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":107,
     "uscensus:geoid":3610751121,
     "uscensus:name":"Nichols",
     "uscensus:namelsad":"Nichols town",
+    "uscensus:population":2303,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3610751121
+        "uscensus:geoid":"3610751121"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404523215,
-    "wof:lastmodified":1605056095,
+    "wof:lastmodified":1722233679,
     "wof:name":"Nichols",
     "wof:parent_id":102082391,
     "wof:placetype":"localadmin",
-    "wof:population":2525,
+    "wof:population":2303,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

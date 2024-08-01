@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008736,
-    "geom:area_square_m":76622720.185185,
+    "geom:area_square_m":76622720.185194,
     "geom:bbox":"-85.815119,44.774431,-85.714395,44.862964",
     "geom:latitude":44.818409,
     "geom:longitude":-85.764572,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.818444,
     "lbl:longitude":-85.764567,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":89,
     "uscensus:geoid":2608974500,
     "uscensus:name":"Solon",
     "uscensus:namelsad":"Solon township",
+    "uscensus:population":1614,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2608974500
+        "uscensus:geoid":"2608974500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404506141,
-    "wof:lastmodified":1605055765,
+    "wof:lastmodified":1722117905,
     "wof:name":"Solon Township",
     "wof:parent_id":102083155,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1509,
+    "wof:population":1614,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

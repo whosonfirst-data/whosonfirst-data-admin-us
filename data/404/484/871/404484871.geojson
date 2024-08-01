@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000601,
-    "geom:area_square_m":5658980.087771,
+    "geom:area_square_m":5658980.087798,
     "geom:bbox":"-79.865262,40.422944,-79.820884,40.452819",
     "geom:latitude":40.43885,
     "geom:longitude":-79.8416,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.439233,
     "lbl:longitude":-79.841923,
     "lbl:max_zoom":15.0,
@@ -76,22 +82,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4200313608,
     "uscensus:name":"Churchill",
     "uscensus:namelsad":"Churchill borough",
+    "uscensus:population":3035,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688481,
-        102080887
+        102080887,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200313608
+        "uscensus:geoid":"4200313608"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404484871,
-    "wof:lastmodified":1636499300,
+    "wof:lastmodified":1722117771,
     "wof:name":"Churchill",
     "wof:parent_id":102080887,
     "wof:placetype":"localadmin",
-    "wof:population":3011,
+    "wof:population":3035,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

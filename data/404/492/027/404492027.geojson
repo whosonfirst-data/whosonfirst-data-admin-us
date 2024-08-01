@@ -10,6 +10,12 @@
     "geom:latitude":44.926602,
     "geom:longitude":-89.226192,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "village"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.926602,
     "lbl:longitude":-89.226193,
     "lbl:max_zoom":18.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":73,
     "uscensus:geoid":5507307600,
     "uscensus:name":"Birnamwood",
     "uscensus:namelsad":"Birnamwood village",
+    "uscensus:population":15,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5507307600
+        "uscensus:geoid":"5507307600"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404492027,
-    "wof:lastmodified":1605056007,
+    "wof:lastmodified":1722117817,
     "wof:name":"Birnamwood",
     "wof:parent_id":102081881,
     "wof:placetype":"localadmin",
-    "wof:population":16,
+    "wof:population":15,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

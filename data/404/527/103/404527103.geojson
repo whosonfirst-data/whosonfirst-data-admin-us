@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00134,
-    "geom:area_square_m":12044279.353917,
+    "geom:area_square_m":12044279.353916,
     "geom:bbox":"-72.606972,43.345247,-72.538771,43.380975",
     "geom:latitude":43.359626,
     "geom:longitude":-72.565938,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.359542,
     "lbl:longitude":-72.565421,
     "lbl:max_zoom":17.0,
@@ -379,11 +385,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":5002702575,
     "uscensus:name":"Baltimore",
     "uscensus:namelsad":"Baltimore town",
+    "uscensus:population":232,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -393,8 +402,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5002702575
+        "uscensus:geoid":"5002702575"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469779
     ],
@@ -413,11 +423,11 @@
         }
     ],
     "wof:id":404527103,
-    "wof:lastmodified":1605055676,
+    "wof:lastmodified":1722118028,
     "wof:name":"Baltimore",
     "wof:parent_id":102080777,
     "wof:placetype":"localadmin",
-    "wof:population":244,
+    "wof:population":232,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

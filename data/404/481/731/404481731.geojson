@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010745,
-    "geom:area_square_m":92184123.683494,
+    "geom:area_square_m":92184123.683429,
     "geom:bbox":"-97.633685,46.022017,-97.508742,46.109683",
     "geom:latitude":46.065913,
     "geom:longitude":-97.571056,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.066051,
     "lbl:longitude":-97.571053,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":81,
     "uscensus:geoid":3808169380,
     "uscensus:name":"Rutland",
     "uscensus:namelsad":"Rutland township",
+    "uscensus:population":52,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3808169380
+        "uscensus:geoid":"3808169380"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470909
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404481731,
-    "wof:lastmodified":1605055821,
+    "wof:lastmodified":1722117752,
     "wof:name":"Rutland Township",
     "wof:parent_id":102082115,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":55,
+    "wof:population":52,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

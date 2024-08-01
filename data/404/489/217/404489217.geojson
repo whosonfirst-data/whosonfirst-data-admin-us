@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010544,
-    "geom:area_square_m":92573805.847782,
+    "geom:area_square_m":92573805.847888,
     "geom:bbox":"-98.463259,44.719548,-98.341471,44.806636",
     "geom:latitude":44.763091,
     "geom:longitude":-98.402333,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.763159,
     "lbl:longitude":-98.402332,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":4611514420,
     "uscensus:name":"Crandon",
     "uscensus:namelsad":"Crandon township",
+    "uscensus:population":74,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4611514420
+        "uscensus:geoid":"4611514420"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729477609
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404489217,
-    "wof:lastmodified":1605055924,
+    "wof:lastmodified":1722117799,
     "wof:name":"Crandon Township",
     "wof:parent_id":102086027,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":73,
+    "wof:population":74,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

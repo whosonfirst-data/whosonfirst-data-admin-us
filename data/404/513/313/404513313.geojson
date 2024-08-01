@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01137,
-    "geom:area_square_m":94749957.064444,
+    "geom:area_square_m":94749957.064443,
     "geom:bbox":"-93.903312,47.583773,-93.77371,47.673767",
     "geom:latitude":47.629318,
     "geom:longitude":-93.838647,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.629304,
     "lbl:longitude":-93.838651,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":2706134568,
     "uscensus:name":"Lake Jessie",
     "uscensus:namelsad":"Lake Jessie township",
+    "uscensus:population":249,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2706134568
+        "uscensus:geoid":"2706134568"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461241
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404513313,
-    "wof:lastmodified":1605056039,
+    "wof:lastmodified":1722117957,
     "wof:name":"Lake Jessie Township",
     "wof:parent_id":102086963,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":303,
+    "wof:population":249,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

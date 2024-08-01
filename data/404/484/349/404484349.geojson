@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007669,
-    "geom:area_square_m":71865034.529151,
+    "geom:area_square_m":71865034.529182,
     "geom:bbox":"-79.692634,40.676648,-79.578908,40.773248",
     "geom:latitude":40.729472,
     "geom:longitude":-79.643599,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.732968,
     "lbl:longitude":-79.644673,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":4200572000,
     "uscensus:name":"South Buffalo",
     "uscensus:namelsad":"South Buffalo township",
+    "uscensus:population":2662,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200572000
+        "uscensus:geoid":"4200572000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472911
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404484349,
-    "wof:lastmodified":1605055460,
+    "wof:lastmodified":1722117767,
     "wof:name":"South Buffalo Township",
     "wof:parent_id":102081371,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2636,
+    "wof:population":2662,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

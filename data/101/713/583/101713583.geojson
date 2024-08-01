@@ -324,7 +324,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":5017747,
     "uscensus:awater":0,
     "uscensus:classfp":"U1",
@@ -340,13 +341,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"69666",
     "uscensus:placens":"02725568",
+    "uscensus:population":197,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"39",
     "wof:belongsto":[
-        85688485,
         102191575,
-        404523607,
         85633793,
-        102083665
+        102083665,
+        404523607,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -355,9 +358,10 @@
         "gn:id":4523468,
         "gp:id":2487040,
         "qs_pg:id":929772,
-        "uscensus:geoid":3969666,
+        "uscensus:geoid":"3969666",
         "wd:id":"Q2668046"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -378,11 +382,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690888507,
+    "wof:lastmodified":1722116267,
     "wof:name":"St. Martin",
     "wof:parent_id":404523607,
     "wof:placetype":"locality",
-    "wof:population":129,
+    "wof:population":197,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009325,
-    "geom:area_square_m":84508371.006189,
+    "geom:area_square_m":84508371.006211,
     "geom:bbox":"-97.279029,42.799701,-97.160202,42.909547",
     "geom:latitude":42.865976,
     "geom:longitude":-97.210612,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.875317,
     "lbl:longitude":-97.209473,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":135,
     "uscensus:geoid":4613523940,
     "uscensus:name":"Gayville",
     "uscensus:namelsad":"Gayville township",
+    "uscensus:population":191,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4613523940
+        "uscensus:geoid":"4613523940"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470745
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404491315,
-    "wof:lastmodified":1605055582,
+    "wof:lastmodified":1722117812,
     "wof:name":"Gayville Township",
     "wof:parent_id":102086043,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":197,
+    "wof:population":191,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

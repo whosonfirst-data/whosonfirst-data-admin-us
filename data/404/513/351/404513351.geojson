@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000084,
-    "geom:area_square_m":725201.842607,
+    "geom:area_square_m":725201.842606,
     "geom:bbox":"-93.12485,45.864553,-93.114368,45.87551",
     "geom:latitude":45.871291,
     "geom:longitude":-93.119702,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.871824,
     "lbl:longitude":-93.119701,
     "lbl:max_zoom":18.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":2711528574,
     "uscensus:name":"Henriette",
     "uscensus:namelsad":"Henriette city",
+    "uscensus:population":59,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2711528574
+        "uscensus:geoid":"2711528574"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,11 +96,11 @@
         }
     ],
     "wof:id":404513351,
-    "wof:lastmodified":1605056040,
+    "wof:lastmodified":1722117957,
     "wof:name":"Henriette",
     "wof:parent_id":102087721,
     "wof:placetype":"localadmin",
-    "wof:population":71,
+    "wof:population":59,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

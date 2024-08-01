@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010812,
-    "geom:area_square_m":97070500.003011,
+    "geom:area_square_m":97070500.002983,
     "geom:bbox":"-72.271883,43.394352,-72.111387,43.493351",
     "geom:latitude":43.444078,
     "geom:longitude":-72.190755,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.444558,
     "lbl:longitude":-72.190732,
     "lbl:max_zoom":17.0,
@@ -118,22 +124,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":3301916340,
     "uscensus:name":"Croydon",
     "uscensus:namelsad":"Croydon town",
+    "uscensus:population":844,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":33,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688689,
-        102086583
+        102086583,
+        85688689
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3301916340
+        "uscensus:geoid":"3301916340"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465959
     ],
@@ -152,11 +162,11 @@
         }
     ],
     "wof:id":404476729,
-    "wof:lastmodified":1636499288,
+    "wof:lastmodified":1722117717,
     "wof:name":"Croydon",
     "wof:parent_id":102086583,
     "wof:placetype":"localadmin",
-    "wof:population":764,
+    "wof:population":844,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

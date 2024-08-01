@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01161,
-    "geom:area_square_m":101670872.420467,
+    "geom:area_square_m":101670872.42046,
     "geom:bbox":"-85.71946,44.862623,-85.561745,44.952757",
     "geom:latitude":44.910407,
     "geom:longitude":-85.647345,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.90769,
     "lbl:longitude":-85.647347,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":89,
     "uscensus:geoid":2608908440,
     "uscensus:name":"Bingham",
     "uscensus:namelsad":"Bingham township",
+    "uscensus:population":2660,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2608908440
+        "uscensus:geoid":"2608908440"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465655
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404508083,
-    "wof:lastmodified":1605055735,
+    "wof:lastmodified":1722117919,
     "wof:name":"Bingham Township",
     "wof:parent_id":102083155,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2497,
+    "wof:population":2660,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012042,
-    "geom:area_square_m":105330329.222328,
+    "geom:area_square_m":105330329.222335,
     "geom:bbox":"-72.993433,44.91988,-72.821948,45.016659",
     "geom:latitude":44.976293,
     "geom:longitude":-72.89777,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.974336,
     "lbl:longitude":-72.88919,
     "lbl:max_zoom":16.0,
@@ -142,11 +148,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":5001127100,
     "uscensus:name":"Franklin",
     "uscensus:namelsad":"Franklin town",
+    "uscensus:population":1408,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -156,8 +165,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5001127100
+        "uscensus:geoid":"5001127100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471237
     ],
@@ -176,11 +186,11 @@
         }
     ],
     "wof:id":404527121,
-    "wof:lastmodified":1605055681,
+    "wof:lastmodified":1722118028,
     "wof:name":"Franklin",
     "wof:parent_id":102080729,
     "wof:placetype":"localadmin",
-    "wof:population":1405,
+    "wof:population":1408,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

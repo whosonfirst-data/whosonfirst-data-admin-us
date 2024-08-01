@@ -206,7 +206,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":57529716,
     "uscensus:awater":2020702,
     "uscensus:classfp":"C5",
@@ -222,17 +223,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"40710",
     "uscensus:placens":"00618302",
+    "uscensus:population":53455,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"25",
     "wd:elevation":35.0,
     "wd:latitude":42.726111,
     "wd:longitude":-71.191389,
     "wd:wordcount":2882,
     "wof:belongsto":[
-        85688645,
         102191575,
-        404475949,
         85633793,
-        102084463
+        102084463,
+        404475949,
+        85688645
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -240,10 +243,11 @@
         "gn:id":4943828,
         "gp:id":2449917,
         "qs_pg:id":1050627,
-        "uscensus:geoid":2540710,
+        "uscensus:geoid":"2540710",
         "wd:id":"Q54179",
         "wk:page":"Methuen, Massachusetts"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -261,12 +265,12 @@
         }
     ],
     "wof:id":85950411,
-    "wof:lastmodified":1690881923,
+    "wof:lastmodified":1722115953,
     "wof:name":"Methuen Town",
     "wof:parent_id":404475949,
     "wof:placetype":"locality",
-    "wof:population":47255,
-    "wof:population_rank":7,
+    "wof:population":53455,
+    "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010972,
-    "geom:area_square_m":92331377.072343,
+    "geom:area_square_m":92331377.072277,
     "geom:bbox":"-99.608479,47.067162,-99.481183,47.154416",
     "geom:latitude":47.1108,
     "geom:longitude":-99.544837,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.110879,
     "lbl:longitude":-99.56595,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":43,
     "uscensus:geoid":3804362100,
     "uscensus:name":"Pettibone",
     "uscensus:namelsad":"Pettibone township",
+    "uscensus:population":40,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3804362100
+        "uscensus:geoid":"3804362100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475723
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404480989,
-    "wof:lastmodified":1605055919,
+    "wof:lastmodified":1722117748,
     "wof:name":"Pettibone Township",
     "wof:parent_id":102082547,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":45,
+    "wof:population":40,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

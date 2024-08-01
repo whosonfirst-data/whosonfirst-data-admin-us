@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000527,
-    "geom:area_square_m":4971798.998059,
+    "geom:area_square_m":4971798.998048,
     "geom:bbox":"-79.594803,40.229099,-79.564974,40.258475",
     "geom:latitude":40.244308,
     "geom:longitude":-79.581116,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.245366,
     "lbl:longitude":-79.581399,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":129,
     "uscensus:geoid":4212987232,
     "uscensus:name":"Youngwood",
     "uscensus:namelsad":"Youngwood borough",
+    "uscensus:population":2910,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212987232
+        "uscensus:geoid":"4212987232"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404487643,
-    "wof:lastmodified":1605055880,
+    "wof:lastmodified":1722117788,
     "wof:name":"Youngwood",
     "wof:parent_id":102081383,
     "wof:placetype":"localadmin",
-    "wof:population":3050,
+    "wof:population":2910,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

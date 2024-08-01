@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005991,
-    "geom:area_square_m":55233265.493409,
+    "geom:area_square_m":55233265.493394,
     "geom:bbox":"-85.058578,41.759491,-84.941812,41.811324",
     "geom:latitude":41.785433,
     "geom:longitude":-85.000305,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.78544,
     "lbl:longitude":-85.000317,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":2602343260,
     "uscensus:name":"Kinderhook",
     "uscensus:namelsad":"Kinderhook township",
+    "uscensus:population":1429,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2602343260
+        "uscensus:geoid":"2602343260"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461909
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404505795,
-    "wof:lastmodified":1605055288,
+    "wof:lastmodified":1722117902,
     "wof:name":"Kinderhook Township",
     "wof:parent_id":102083037,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1497,
+    "wof:population":1429,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

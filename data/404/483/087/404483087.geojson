@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012014,
-    "geom:area_square_m":111956286.806957,
+    "geom:area_square_m":111956286.806976,
     "geom:bbox":"-77.862457,41.018562,-77.670872,41.18195",
     "geom:latitude":41.096372,
     "geom:longitude":-77.765243,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.075049,
     "lbl:longitude":-77.749407,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":4202717800,
     "uscensus:name":"Curtin",
     "uscensus:namelsad":"Curtin township",
+    "uscensus:population":486,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202717800
+        "uscensus:geoid":"4202717800"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404483087,
-    "wof:lastmodified":1605055445,
+    "wof:lastmodified":1722117760,
     "wof:name":"Curtin Township",
     "wof:parent_id":102081369,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":618,
+    "wof:population":486,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

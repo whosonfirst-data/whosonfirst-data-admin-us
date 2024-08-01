@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005258,
-    "geom:area_square_m":48056329.255845,
+    "geom:area_square_m":48056329.255832,
     "geom:bbox":"-76.856839,42.293101,-76.790655,42.386034",
     "geom:latitude":42.337291,
     "geom:longitude":-76.82418,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.336801,
     "lbl:longitude":-76.825939,
     "lbl:max_zoom":15.0,
@@ -61,11 +67,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":97,
     "uscensus:geoid":3609748186,
     "uscensus:name":"Montour",
     "uscensus:namelsad":"Montour town",
+    "uscensus:population":2259,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -75,8 +84,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3609748186
+        "uscensus:geoid":"3609748186"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -92,11 +102,11 @@
         }
     ],
     "wof:id":404521413,
-    "wof:lastmodified":1605055627,
+    "wof:lastmodified":1722233673,
     "wof:name":"Montour",
     "wof:parent_id":102082397,
     "wof:placetype":"localadmin",
-    "wof:population":2308,
+    "wof:population":2259,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000044,
-    "geom:area_square_m":362578.340946,
+    "geom:area_square_m":362578.340945,
     "geom:bbox":"-100.91679,48.710759,-100.906018,48.718731",
     "geom:latitude":48.713878,
     "geom:longitude":-100.91264,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.71407,
     "lbl:longitude":-100.913457,
     "lbl:max_zoom":18.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":3800956020,
     "uscensus:name":"Newburg",
     "uscensus:namelsad":"Newburg city",
+    "uscensus:population":94,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3800956020
+        "uscensus:geoid":"3800956020"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -104,11 +114,11 @@
         }
     ],
     "wof:id":404480447,
-    "wof:lastmodified":1605055907,
+    "wof:lastmodified":1722117744,
     "wof:name":"Newburg",
     "wof:parent_id":102082109,
     "wof:placetype":"localadmin",
-    "wof:population":110,
+    "wof:population":94,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

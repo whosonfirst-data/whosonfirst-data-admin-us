@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00149,
-    "geom:area_square_m":13812882.982462,
+    "geom:area_square_m":13812882.982499,
     "geom:bbox":"-74.452908,41.417408,-74.392806,41.474347",
     "geom:latitude":41.445958,
     "geom:longitude":-74.423573,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.446949,
     "lbl:longitude":-74.421535,
     "lbl:max_zoom":14.0,
@@ -109,11 +115,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":71,
     "uscensus:geoid":3607147042,
     "uscensus:name":"Middletown",
     "uscensus:namelsad":"Middletown city",
+    "uscensus:population":30152,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -123,8 +132,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3607147042
+        "uscensus:geoid":"3607147042"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -140,11 +150,11 @@
         }
     ],
     "wof:id":404522903,
-    "wof:lastmodified":1605056075,
+    "wof:lastmodified":1722117997,
     "wof:name":"Middletown",
     "wof:parent_id":102083061,
     "wof:placetype":"localadmin",
-    "wof:population":28086,
+    "wof:population":30152,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

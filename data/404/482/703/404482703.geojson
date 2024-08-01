@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000072,
-    "geom:area_square_m":677729.763612,
+    "geom:area_square_m":677729.763604,
     "geom:bbox":"-78.544715,40.469653,-78.537033,40.489162",
     "geom:latitude":40.479909,
     "geom:longitude":-78.540759,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.479127,
     "lbl:longitude":-78.539479,
     "lbl:max_zoom":18.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":4201377808,
     "uscensus:name":"Tunnelhill",
     "uscensus:namelsad":"Tunnelhill borough",
+    "uscensus:population":106,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201377808
+        "uscensus:geoid":"4201377808"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404482703,
-    "wof:lastmodified":1605055384,
+    "wof:lastmodified":1722117758,
     "wof:name":"Tunnelhill",
     "wof:parent_id":102081325,
     "wof:placetype":"localadmin",
-    "wof:population":118,
+    "wof:population":106,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

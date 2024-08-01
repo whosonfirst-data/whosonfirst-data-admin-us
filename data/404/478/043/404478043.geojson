@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002731,
-    "geom:area_square_m":25588778.663804,
+    "geom:area_square_m":25588778.663824,
     "geom:bbox":"-74.372449,40.713188,-74.285187,40.761112",
     "geom:latitude":40.739375,
     "geom:longitude":-74.32404,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.738446,
     "lbl:longitude":-74.323199,
     "lbl:max_zoom":14.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":3401346380,
     "uscensus:name":"Millburn",
     "uscensus:namelsad":"Millburn township",
+    "uscensus:population":21859,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3401346380
+        "uscensus:geoid":"3401346380"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404478043,
-    "wof:lastmodified":1605055348,
+    "wof:lastmodified":1722117727,
     "wof:name":"Millburn Township",
     "wof:parent_id":102085043,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":20149,
+    "wof:population":21859,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

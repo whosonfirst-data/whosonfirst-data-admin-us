@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000141,
-    "geom:area_square_m":1327041.774842,
+    "geom:area_square_m":1327041.774841,
     "geom:bbox":"-75.596362,40.394043,-75.57801,40.407091",
     "geom:latitude":40.400447,
     "geom:longitude":-75.587617,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.400218,
     "lbl:longitude":-75.587441,
     "lbl:max_zoom":16.0,
@@ -70,11 +76,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":4201103984,
     "uscensus:name":"Bally",
     "uscensus:namelsad":"Bally borough",
+    "uscensus:population":1218,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -84,8 +93,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201103984
+        "uscensus:geoid":"4201103984"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -101,11 +111,11 @@
         }
     ],
     "wof:id":404482649,
-    "wof:lastmodified":1605055385,
+    "wof:lastmodified":1722117758,
     "wof:name":"Bally",
     "wof:parent_id":102080991,
     "wof:placetype":"localadmin",
-    "wof:population":1090,
+    "wof:population":1218,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010434,
-    "geom:area_square_m":94062523.753594,
+    "geom:area_square_m":94062523.753589,
     "geom:bbox":"-83.235159,43.148709,-83.114205,43.240098",
     "geom:latitude":43.194502,
     "geom:longitude":-83.1749,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.194486,
     "lbl:longitude":-83.174898,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":87,
     "uscensus:geoid":2608758090,
     "uscensus:name":"North Branch",
     "uscensus:namelsad":"North Branch township",
+    "uscensus:population":3538,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2608758090
+        "uscensus:geoid":"2608758090"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404508079,
-    "wof:lastmodified":1605055735,
+    "wof:lastmodified":1722233667,
     "wof:name":"North Branch Township",
     "wof:parent_id":102083637,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3645,
+    "wof:population":3538,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

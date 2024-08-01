@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002248,
-    "geom:area_square_m":21227064.424467,
+    "geom:area_square_m":21227064.424448,
     "geom:bbox":"-74.819032,40.183839,-74.728808,40.248467",
     "geom:latitude":40.223697,
     "geom:longitude":-74.764007,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.220322,
     "lbl:longitude":-74.752731,
     "lbl:max_zoom":14.0,
@@ -127,11 +133,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":3402174000,
     "uscensus:name":"Trenton",
     "uscensus:namelsad":"Trenton city",
+    "uscensus:population":89620,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -141,8 +150,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3402174000
+        "uscensus:geoid":"3402174000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -158,11 +168,11 @@
         }
     ],
     "wof:id":404478265,
-    "wof:lastmodified":1605055349,
+    "wof:lastmodified":1722117729,
     "wof:name":"Trenton",
     "wof:parent_id":102081129,
     "wof:placetype":"localadmin",
-    "wof:population":84913,
+    "wof:population":89620,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

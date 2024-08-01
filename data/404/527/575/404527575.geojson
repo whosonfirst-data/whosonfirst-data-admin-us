@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012443,
-    "geom:area_square_m":109932684.516397,
+    "geom:area_square_m":109932684.516398,
     "geom:bbox":"-72.953599,44.330026,-72.804465,44.470408",
     "geom:latitude":44.398958,
     "geom:longitude":-72.87727,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.400049,
     "lbl:longitude":-72.883311,
     "lbl:max_zoom":16.0,
@@ -220,22 +226,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":5000706550,
     "uscensus:name":"Bolton",
     "uscensus:namelsad":"Bolton town",
+    "uscensus:population":1288,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688763,
-        102087451
+        102087451,
+        85688763
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5000706550
+        "uscensus:geoid":"5000706550"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471083
     ],
@@ -254,11 +264,11 @@
         }
     ],
     "wof:id":404527575,
-    "wof:lastmodified":1636499337,
+    "wof:lastmodified":1722118031,
     "wof:name":"Bolton",
     "wof:parent_id":102087451,
     "wof:placetype":"localadmin",
-    "wof:population":1182,
+    "wof:population":1288,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

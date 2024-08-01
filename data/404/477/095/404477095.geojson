@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007536,
-    "geom:area_square_m":67508366.033702,
+    "geom:area_square_m":67508366.033661,
     "geom:bbox":"-71.535534,43.500903,-71.428384,43.629541",
     "geom:latitude":43.572427,
     "geom:longitude":-71.477513,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.580042,
     "lbl:longitude":-71.481162,
     "lbl:max_zoom":15.0,
@@ -166,11 +172,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":3300140180,
     "uscensus:name":"Laconia",
     "uscensus:namelsad":"Laconia city",
+    "uscensus:population":17142,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":33,
     "wof:belongsto":[
         102191575,
@@ -180,8 +189,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3300140180
+        "uscensus:geoid":"3300140180"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -197,11 +207,11 @@
         }
     ],
     "wof:id":404477095,
-    "wof:lastmodified":1605055430,
+    "wof:lastmodified":1722117720,
     "wof:name":"Laconia",
     "wof:parent_id":102086503,
     "wof:placetype":"localadmin",
-    "wof:population":15951,
+    "wof:population":17142,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

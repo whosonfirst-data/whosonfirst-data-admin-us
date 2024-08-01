@@ -10,6 +10,12 @@
     "geom:latitude":45.782665,
     "geom:longitude":-92.382256,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "village"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.78346,
     "lbl:longitude":-92.380923,
     "lbl:max_zoom":17.0,
@@ -88,11 +94,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":5501374175,
     "uscensus:name":"Siren",
     "uscensus:namelsad":"Siren village",
+    "uscensus:population":880,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -102,8 +111,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5501374175
+        "uscensus:geoid":"5501374175"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -119,11 +129,11 @@
         }
     ],
     "wof:id":404492993,
-    "wof:lastmodified":1605056005,
+    "wof:lastmodified":1722117823,
     "wof:name":"Siren",
     "wof:parent_id":102081835,
     "wof:placetype":"localadmin",
-    "wof:population":806,
+    "wof:population":880,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

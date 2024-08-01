@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011355,
-    "geom:area_square_m":108571919.685541,
+    "geom:area_square_m":108571919.685618,
     "geom:bbox":"-96.960941,39.306349,-96.81175,39.394225",
     "geom:latitude":39.354307,
     "geom:longitude":-96.893074,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.356059,
     "lbl:longitude":-96.89903,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":161,
     "uscensus:geoid":2016103825,
     "uscensus:name":"Bala",
     "uscensus:namelsad":"Bala township",
+    "uscensus:population":675,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2016103825
+        "uscensus:geoid":"2016103825"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404505065,
-    "wof:lastmodified":1605055281,
+    "wof:lastmodified":1722233663,
     "wof:name":"Bala Township",
     "wof:parent_id":102084179,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":735,
+    "wof:population":675,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

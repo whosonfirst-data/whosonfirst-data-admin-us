@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000211,
-    "geom:area_square_m":1996689.186013,
+    "geom:area_square_m":1996689.186008,
     "geom:bbox":"-75.281355,39.899172,-75.254687,39.914798",
     "geom:latitude":39.907433,
     "geom:longitude":-75.267787,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.908539,
     "lbl:longitude":-75.268,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":4204569752,
     "uscensus:name":"Sharon Hill",
     "uscensus:namelsad":"Sharon Hill borough",
+    "uscensus:population":5958,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4204569752
+        "uscensus:geoid":"4204569752"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404486581,
-    "wof:lastmodified":1605055866,
+    "wof:lastmodified":1722117781,
     "wof:name":"Sharon Hill",
     "wof:parent_id":102080913,
     "wof:placetype":"localadmin",
-    "wof:population":5697,
+    "wof:population":5958,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

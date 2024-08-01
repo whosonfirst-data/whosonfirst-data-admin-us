@@ -9,7 +9,23 @@
     "geom:bbox":"-90.468507,39.620733,-90.443418,39.640828",
     "geom:latitude":39.629778,
     "geom:longitude":-90.455964,
+    "gn:admin1_code":"IL",
+    "gn:admin2_code":"171.0",
+    "gn:asciiname":"Winchester",
+    "gn:country_code":"US",
+    "gn:dem":168,
+    "gn:elevation":"165.0",
+    "gn:feature_class":"P",
+    "gn:feature_code":"PPLA2",
+    "gn:geonameid":4253268,
+    "gn:latitude":39.62977,
+    "gn:longitude":-90.45624,
+    "gn:modification_date":"2017-03-09",
+    "gn:name":"Winchester",
+    "gn:population":1513,
+    "gn:timezone":"America/Chicago",
     "iso:country":"US",
+    "lbl:bbox":"-90.47624,39.60977,-90.43624,39.64977",
     "lbl:latitude":39.62863,
     "lbl:longitude":-90.457465,
     "lbl:max_zoom":18.0,
@@ -174,6 +190,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2923180,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -189,16 +207,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"82270",
     "uscensus:placens":"02397336",
+    "uscensus:population":1494,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"17",
     "wd:latitude":39.63,
     "wd:longitude":-90.455833,
     "wd:wordcount":531,
     "wof:belongsto":[
-        85688697,
         102191575,
-        404498703,
         85633793,
-        102080837
+        102080837,
+        404498703,
+        85688697
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -207,13 +227,22 @@
         "gn:id":4243802,
         "gp:id":2521692,
         "qs_pg:id":22196,
-        "uscensus:geoid":1782270,
+        "uscensus:geoid":"1782270",
         "wd:id":"Q575394",
         "wk:page":"Winchester, Illinois"
     },
     "wof:concordances_alt":{
-        "qs_pg:id":848596
+        "gn:id":[
+            4253268
+        ],
+        "qs_pg:id":[
+            848596
+        ],
+        "wk:page":[
+            "Winchester%2C_Illinois"
+        ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -234,14 +263,17 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885504,
+    "wof:lastmodified":1722116398,
     "wof:name":"Winchester",
     "wof:parent_id":404498703,
     "wof:placetype":"locality",
+    "wof:population":1494,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[
-        1125402065
+        1125402065,
+        1225960193
     ],
     "wof:tags":[]
 },

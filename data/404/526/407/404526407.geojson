@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002396,
-    "geom:area_square_m":22154815.295024,
+    "geom:area_square_m":22154815.295018,
     "geom:bbox":"-83.556494,41.592418,-83.415744,41.61911",
     "geom:latitude":41.608908,
     "geom:longitude":-83.48362,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.609777,
     "lbl:longitude":-83.483593,
     "lbl:max_zoom":15.0,
@@ -91,11 +97,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":173,
     "uscensus:geoid":3917357190,
     "uscensus:name":"Northwood",
     "uscensus:namelsad":"Northwood city",
+    "uscensus:population":5211,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -105,8 +114,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3917357190
+        "uscensus:geoid":"3917357190"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -122,11 +132,11 @@
         }
     ],
     "wof:id":404526407,
-    "wof:lastmodified":1605055648,
+    "wof:lastmodified":1722118023,
     "wof:name":"Northwood",
     "wof:parent_id":102084781,
     "wof:placetype":"localadmin",
-    "wof:population":5265,
+    "wof:population":5211,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

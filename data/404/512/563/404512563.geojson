@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000292,
-    "geom:area_square_m":2503592.882543,
+    "geom:area_square_m":2503592.882542,
     "geom:bbox":"-93.689432,46.064437,-93.651295,46.07678",
     "geom:latitude":46.069979,
     "geom:longitude":-93.667719,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.069866,
     "lbl:longitude":-93.666189,
     "lbl:max_zoom":17.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":2709548310,
     "uscensus:name":"Onamia",
     "uscensus:namelsad":"Onamia city",
+    "uscensus:population":831,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2709548310
+        "uscensus:geoid":"2709548310"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404512563,
-    "wof:lastmodified":1605056128,
+    "wof:lastmodified":1722117951,
     "wof:name":"Onamia",
     "wof:parent_id":102087761,
     "wof:placetype":"localadmin",
-    "wof:population":878,
+    "wof:population":831,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

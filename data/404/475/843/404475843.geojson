@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005164,
-    "geom:area_square_m":45341672.714949,
+    "geom:area_square_m":45341672.714926,
     "geom:bbox":"-67.549955,44.721991,-67.432401,44.809349",
     "geom:latitude":44.761537,
     "geom:longitude":-67.493229,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.759549,
     "lbl:longitude":-67.494128,
     "lbl:max_zoom":17.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":2302943640,
     "uscensus:name":"Marshfield",
     "uscensus:namelsad":"Marshfield town",
+    "uscensus:population":530,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2302943640
+        "uscensus:geoid":"2302943640"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478751
     ],
@@ -116,11 +126,11 @@
         }
     ],
     "wof:id":404475843,
-    "wof:lastmodified":1605055842,
+    "wof:lastmodified":1722117710,
     "wof:name":"Marshfield",
     "wof:parent_id":102081143,
     "wof:placetype":"localadmin",
-    "wof:population":518,
+    "wof:population":530,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

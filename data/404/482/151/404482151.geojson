@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000196,
-    "geom:area_square_m":1648572.653011,
+    "geom:area_square_m":1648572.653009,
     "geom:bbox":"-100.294164,47.136257,-100.272697,47.148646",
     "geom:latitude":47.142266,
     "geom:longitude":-100.282317,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.142536,
     "lbl:longitude":-100.278893,
     "lbl:max_zoom":18.0,
@@ -220,11 +226,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":3801586780,
     "uscensus:name":"Wing",
     "uscensus:namelsad":"Wing city",
+    "uscensus:population":131,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -234,8 +243,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3801586780
+        "uscensus:geoid":"3801586780"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -251,11 +261,11 @@
         }
     ],
     "wof:id":404482151,
-    "wof:lastmodified":1605055377,
+    "wof:lastmodified":1722117755,
     "wof:name":"Wing",
     "wof:parent_id":102082107,
     "wof:placetype":"localadmin",
-    "wof:population":152,
+    "wof:population":131,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

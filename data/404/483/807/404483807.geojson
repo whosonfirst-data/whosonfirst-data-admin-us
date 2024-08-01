@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00949,
-    "geom:area_square_m":87511607.855448,
+    "geom:area_square_m":87511607.855443,
     "geom:bbox":"-77.963866,41.736343,-77.845187,41.817083",
     "geom:latitude":41.776551,
     "geom:longitude":-77.904546,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.776562,
     "lbl:longitude":-77.904548,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":4210575720,
     "uscensus:name":"Sweden",
     "uscensus:namelsad":"Sweden township",
+    "uscensus:population":843,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4210575720
+        "uscensus:geoid":"4210575720"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404483807,
-    "wof:lastmodified":1605055447,
+    "wof:lastmodified":1722117764,
     "wof:name":"Sweden Township",
     "wof:parent_id":102081299,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":872,
+    "wof:population":843,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

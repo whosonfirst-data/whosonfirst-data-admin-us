@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000882,
-    "geom:area_square_m":7546222.740328,
+    "geom:area_square_m":7546222.740337,
     "geom:bbox":"-92.949713,46.186603,-92.897444,46.216377",
     "geom:latitude":46.205099,
     "geom:longitude":-92.924832,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.205769,
     "lbl:longitude":-92.918699,
     "lbl:max_zoom":17.0,
@@ -58,11 +64,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":2711521122,
     "uscensus:name":"Finlayson",
     "uscensus:namelsad":"Finlayson city",
+    "uscensus:population":321,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -72,8 +81,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2711521122
+        "uscensus:geoid":"2711521122"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -89,11 +99,11 @@
         }
     ],
     "wof:id":404513347,
-    "wof:lastmodified":1605056038,
+    "wof:lastmodified":1722117957,
     "wof:name":"Finlayson",
     "wof:parent_id":102087721,
     "wof:placetype":"localadmin",
-    "wof:population":315,
+    "wof:population":321,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

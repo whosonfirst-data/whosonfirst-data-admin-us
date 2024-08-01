@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005888,
-    "geom:area_square_m":54291100.252008,
+    "geom:area_square_m":54291100.252015,
     "geom:bbox":"-86.108465,41.760074,-85.991288,41.811125",
     "geom:latitude":41.785667,
     "geom:longitude":-86.049932,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.785597,
     "lbl:longitude":-86.049929,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":2602760900,
     "uscensus:name":"Ontwa",
     "uscensus:namelsad":"Ontwa township",
+    "uscensus:population":6840,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2602760900
+        "uscensus:geoid":"2602760900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404507103,
-    "wof:lastmodified":1605055766,
+    "wof:lastmodified":1722233666,
     "wof:name":"Ontwa Township",
     "wof:parent_id":102083027,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":6549,
+    "wof:population":6840,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

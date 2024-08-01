@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009507,
-    "geom:area_square_m":93672239.624084,
+    "geom:area_square_m":93672239.624116,
     "geom:bbox":"-97.692961,37.125846,-97.583449,37.213757",
     "geom:latitude":37.169711,
     "geom:longitude":-97.638108,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.169656,
     "lbl:longitude":-97.638122,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":191,
     "uscensus:geoid":2019113150,
     "uscensus:name":"Chikaskia",
     "uscensus:namelsad":"Chikaskia township",
+    "uscensus:population":56,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2019113150
+        "uscensus:geoid":"2019113150"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469553
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404503235,
-    "wof:lastmodified":1605055318,
+    "wof:lastmodified":1722117884,
     "wof:name":"Chikaskia Township",
     "wof:parent_id":102085325,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":59,
+    "wof:population":56,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -148,7 +148,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2574142,
     "uscensus:awater":30096,
     "uscensus:classfp":"C5",
@@ -164,17 +165,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"54340",
     "uscensus:placens":"02396371",
+    "uscensus:population":78,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":414.0,
     "wd:latitude":46.506667,
     "wd:longitude":-95.625556,
     "wd:wordcount":797,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404510361,
         85633793,
-        102087803
+        102087803,
+        404510361,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -183,10 +186,11 @@
         "gn:id":5043217,
         "gp:id":2480993,
         "qs_pg:id":245318,
-        "uscensus:geoid":2754340,
+        "uscensus:geoid":"2754340",
         "wd:id":"Q2229040",
         "wk:page":"Richville, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -207,11 +211,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882612,
+    "wof:lastmodified":1722115994,
     "wof:name":"Richville",
     "wof:parent_id":404510361,
     "wof:placetype":"locality",
-    "wof:population":96,
+    "wof:population":78,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

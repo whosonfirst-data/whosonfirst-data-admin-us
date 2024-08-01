@@ -10,6 +10,12 @@
     "geom:latitude":45.101809,
     "geom:longitude":-96.79977,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.101883,
     "lbl:longitude":-96.799163,
     "lbl:max_zoom":18.0,
@@ -658,11 +664,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":4605161740,
     "uscensus:name":"Stockholm",
     "uscensus:namelsad":"Stockholm town",
+    "uscensus:population":106,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -672,8 +681,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4605161740
+        "uscensus:geoid":"4605161740"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -689,11 +699,11 @@
         }
     ],
     "wof:id":404489037,
-    "wof:lastmodified":1605055926,
+    "wof:lastmodified":1722117798,
     "wof:name":"Stockholm",
     "wof:parent_id":102086849,
     "wof:placetype":"localadmin",
-    "wof:population":108,
+    "wof:population":106,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

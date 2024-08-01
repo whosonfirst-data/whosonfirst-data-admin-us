@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.019615,
-    "geom:area_square_m":170667610.035234,
+    "geom:area_square_m":170667610.035138,
     "geom:bbox":"-84.24938,45.198651,-84.12381,45.368306",
     "geom:latitude":45.279805,
     "geom:longitude":-84.186816,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.280293,
     "lbl:longitude":-84.187645,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":141,
     "uscensus:geoid":2614101480,
     "uscensus:name":"Allis",
     "uscensus:namelsad":"Allis township",
+    "uscensus:population":951,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2614101480
+        "uscensus:geoid":"2614101480"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465135
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404508505,
-    "wof:lastmodified":1605055733,
+    "wof:lastmodified":1722117922,
     "wof:name":"Allis Township",
     "wof:parent_id":102082991,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":948,
+    "wof:population":951,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

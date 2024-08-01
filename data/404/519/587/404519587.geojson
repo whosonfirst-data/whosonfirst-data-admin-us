@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008588,
-    "geom:area_square_m":79718355.421259,
+    "geom:area_square_m":79718355.421327,
     "geom:bbox":"-97.254175,41.30783,-97.137753,41.385966",
     "geom:latitude":41.345608,
     "geom:longitude":-97.196492,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.344543,
     "lbl:longitude":-97.197269,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":3102343860,
     "uscensus:name":"Savannah",
     "uscensus:namelsad":"Savannah township",
+    "uscensus:population":550,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3102343860
+        "uscensus:geoid":"3102343860"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404519587,
-    "wof:lastmodified":1605055668,
+    "wof:lastmodified":1722233671,
     "wof:name":"Savannah Township",
     "wof:parent_id":102082839,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":624,
+    "wof:population":550,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

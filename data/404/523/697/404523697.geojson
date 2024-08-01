@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.023022,
-    "geom:area_square_m":213279106.962259,
+    "geom:area_square_m":213279106.962245,
     "geom:bbox":"-81.878984,41.390628,-81.532744,41.604436",
     "geom:latitude":41.47926,
     "geom:longitude":-81.680233,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.496551,
     "lbl:longitude":-81.651327,
     "lbl:max_zoom":13.0,
@@ -343,11 +349,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":3903516000,
     "uscensus:name":"Cleveland",
     "uscensus:namelsad":"Cleveland city",
+    "uscensus:population":362656,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -357,8 +366,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3903516000
+        "uscensus:geoid":"3903516000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -374,11 +384,11 @@
         }
     ],
     "wof:id":404523697,
-    "wof:lastmodified":1605056097,
+    "wof:lastmodified":1722118003,
     "wof:name":"Cleveland",
     "wof:parent_id":102084837,
     "wof:placetype":"localadmin",
-    "wof:population":396815,
+    "wof:population":362656,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

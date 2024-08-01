@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008741,
-    "geom:area_square_m":82229542.714677,
+    "geom:area_square_m":82229542.714652,
     "geom:bbox":"-76.992101,40.404753,-76.879374,40.527862",
     "geom:latitude":40.469763,
     "geom:longitude":-76.92669,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.49645,
     "lbl:longitude":-76.917399,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":43,
     "uscensus:geoid":4204332040,
     "uscensus:name":"Halifax",
     "uscensus:namelsad":"Halifax township",
+    "uscensus:population":3326,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4204332040
+        "uscensus:geoid":"4204332040"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459209
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404486071,
-    "wof:lastmodified":1605055862,
+    "wof:lastmodified":1722117778,
     "wof:name":"Halifax Township",
     "wof:parent_id":102081347,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3483,
+    "wof:population":3326,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

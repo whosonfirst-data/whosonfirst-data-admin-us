@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006618,
-    "geom:area_square_m":59426174.992425,
+    "geom:area_square_m":59426174.992443,
     "geom:bbox":"-73.250847,43.402953,-73.119919,43.465943",
     "geom:latitude":43.432449,
     "geom:longitude":-73.1896,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.435876,
     "lbl:longitude":-73.188353,
     "lbl:max_zoom":16.0,
@@ -97,11 +103,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":5002177950,
     "uscensus:name":"Wells",
     "uscensus:namelsad":"Wells town",
+    "uscensus:population":1213,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -111,8 +120,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5002177950
+        "uscensus:geoid":"5002177950"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -128,11 +138,11 @@
         }
     ],
     "wof:id":404527067,
-    "wof:lastmodified":1605055684,
+    "wof:lastmodified":1722118028,
     "wof:name":"Wells",
     "wof:parent_id":102080771,
     "wof:placetype":"localadmin",
-    "wof:population":1150,
+    "wof:population":1213,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

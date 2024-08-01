@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009718,
-    "geom:area_square_m":87655040.590841,
+    "geom:area_square_m":87655040.590853,
     "geom:bbox":"-76.963615,43.122669,-76.825096,43.201081",
     "geom:latitude":43.161254,
     "geom:longitude":-76.895363,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.161559,
     "lbl:longitude":-76.895365,
     "lbl:max_zoom":15.0,
@@ -400,11 +406,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":117,
     "uscensus:geoid":3611763605,
     "uscensus:name":"Rose",
     "uscensus:namelsad":"Rose town",
+    "uscensus:population":2268,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -414,8 +423,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3611763605
+        "uscensus:geoid":"3611763605"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -431,11 +441,11 @@
         }
     ],
     "wof:id":404521671,
-    "wof:lastmodified":1605055635,
+    "wof:lastmodified":1722117987,
     "wof:name":"Rose",
     "wof:parent_id":102082409,
     "wof:placetype":"localadmin",
-    "wof:population":2369,
+    "wof:population":2268,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002581,
-    "geom:area_square_m":24188822.333146,
+    "geom:area_square_m":24188822.333197,
     "geom:bbox":"-74.45518,40.688038,-74.39074,40.771631",
     "geom:latitude":40.727342,
     "geom:longitude":-74.428933,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.724019,
     "lbl:longitude":-74.428454,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":3402712130,
     "uscensus:name":"Chatham",
     "uscensus:namelsad":"Chatham township",
+    "uscensus:population":11127,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3402712130
+        "uscensus:geoid":"3402712130"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473619
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404478301,
-    "wof:lastmodified":1605055333,
+    "wof:lastmodified":1722117729,
     "wof:name":"Chatham Township",
     "wof:parent_id":102087413,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":10452,
+    "wof:population":11127,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

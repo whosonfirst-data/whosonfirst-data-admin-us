@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013074,
-    "geom:area_square_m":115894007.063564,
+    "geom:area_square_m":115894007.063512,
     "geom:bbox":"-91.033302,44.15825,-90.872259,44.254938",
     "geom:latitude":44.202496,
     "geom:longitude":-90.960216,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.203182,
     "lbl:longitude":-90.960229,
     "lbl:max_zoom":17.0,
@@ -121,11 +127,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":53,
     "uscensus:geoid":5505337275,
     "uscensus:name":"Irving",
     "uscensus:namelsad":"Irving town",
+    "uscensus:population":851,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -135,8 +144,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5505337275
+        "uscensus:geoid":"5505337275"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461929
     ],
@@ -155,11 +165,11 @@
         }
     ],
     "wof:id":404493899,
-    "wof:lastmodified":1605055955,
+    "wof:lastmodified":1722117829,
     "wof:name":"Irving",
     "wof:parent_id":102081821,
     "wof:placetype":"localadmin",
-    "wof:population":751,
+    "wof:population":851,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

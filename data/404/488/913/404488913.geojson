@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010562,
-    "geom:area_square_m":93975600.376473,
+    "geom:area_square_m":93975600.376429,
     "geom:bbox":"-97.37017,43.935244,-97.248644,44.022786",
     "geom:latitude":43.978906,
     "geom:longitude":-97.309406,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.978848,
     "lbl:longitude":-97.309404,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":79,
     "uscensus:geoid":4607972140,
     "uscensus:name":"Winfred",
     "uscensus:namelsad":"Winfred township",
+    "uscensus:population":127,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4607972140
+        "uscensus:geoid":"4607972140"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404488913,
-    "wof:lastmodified":1605055809,
+    "wof:lastmodified":1722117797,
     "wof:name":"Winfred Township",
     "wof:parent_id":102086107,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":144,
+    "wof:population":127,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

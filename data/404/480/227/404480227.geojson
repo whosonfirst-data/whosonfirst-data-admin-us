@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010558,
-    "geom:area_square_m":90711730.420726,
+    "geom:area_square_m":90711730.420724,
     "geom:bbox":"-102.746679,45.944904,-102.621581,46.032022",
     "geom:latitude":45.988186,
     "geom:longitude":-102.68532,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.988544,
     "lbl:longitude":-102.686175,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":3800137740,
     "uscensus:name":"Hettinger",
     "uscensus:namelsad":"Hettinger township",
+    "uscensus:population":181,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3800137740
+        "uscensus:geoid":"3800137740"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469687
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404480227,
-    "wof:lastmodified":1605055907,
+    "wof:lastmodified":1722117743,
     "wof:name":"Hettinger Township",
     "wof:parent_id":102082065,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":195,
+    "wof:population":181,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

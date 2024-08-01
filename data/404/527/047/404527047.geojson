@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011857,
-    "geom:area_square_m":103890792.158202,
+    "geom:area_square_m":103890792.158206,
     "geom:bbox":"-72.538743,44.833512,-72.401996,44.926318",
     "geom:latitude":44.880067,
     "geom:longitude":-72.47234,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.880453,
     "lbl:longitude":-72.47234,
     "lbl:max_zoom":17.0,
@@ -94,11 +100,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":5001980200,
     "uscensus:name":"Westfield",
     "uscensus:namelsad":"Westfield town",
+    "uscensus:population":517,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -108,8 +117,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5001980200
+        "uscensus:geoid":"5001980200"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470535
     ],
@@ -128,11 +138,11 @@
         }
     ],
     "wof:id":404527047,
-    "wof:lastmodified":1605055678,
+    "wof:lastmodified":1722118028,
     "wof:name":"Westfield",
     "wof:parent_id":102087443,
     "wof:placetype":"localadmin",
-    "wof:population":536,
+    "wof:population":517,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

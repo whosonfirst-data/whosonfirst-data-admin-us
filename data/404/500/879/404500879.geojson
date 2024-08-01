@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0098,
-    "geom:area_square_m":93058801.814202,
+    "geom:area_square_m":93058801.814207,
     "geom:bbox":"-85.954013,39.782674,-85.839894,39.871004",
     "geom:latitude":39.826851,
     "geom:longitude":-85.89685,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.826807,
     "lbl:longitude":-85.896848,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":59,
     "uscensus:geoid":1805908794,
     "uscensus:name":"Buck Creek",
     "uscensus:namelsad":"Buck Creek township",
+    "uscensus:population":9747,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1805908794
+        "uscensus:geoid":"1805908794"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404500879,
-    "wof:lastmodified":1604530781,
+    "wof:lastmodified":1722233651,
     "wof:name":"Buck Creek Township",
     "wof:parent_id":102086473,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":8430,
+    "wof:population":9747,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

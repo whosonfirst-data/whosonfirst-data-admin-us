@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009529,
-    "geom:area_square_m":90206544.328996,
+    "geom:area_square_m":90206544.329004,
     "geom:bbox":"-81.631352,39.98599,-81.531739,40.091128",
     "geom:latitude":40.039265,
     "geom:longitude":-81.582225,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.03906,
     "lbl:longitude":-81.581561,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":59,
     "uscensus:geoid":3905911003,
     "uscensus:name":"Cambridge",
     "uscensus:namelsad":"Cambridge township",
+    "uscensus:population":13754,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3905911003
+        "uscensus:geoid":"3905911003"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404525399,
-    "wof:lastmodified":1605056049,
+    "wof:lastmodified":1722233686,
     "wof:name":"Cambridge Township",
     "wof:parent_id":102084783,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":14570,
+    "wof:population":13754,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

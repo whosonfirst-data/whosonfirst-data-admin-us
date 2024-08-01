@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009806,
-    "geom:area_square_m":94458048.428881,
+    "geom:area_square_m":94458048.428823,
     "geom:bbox":"-97.260981,38.783778,-97.148578,38.871609",
     "geom:latitude":38.827745,
     "geom:longitude":-97.204923,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.827746,
     "lbl:longitude":-97.204925,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":2004150225,
     "uscensus:name":"Newbern",
     "uscensus:namelsad":"Newbern township",
+    "uscensus:population":392,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2004150225
+        "uscensus:geoid":"2004150225"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457381
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404502285,
-    "wof:lastmodified":1605055273,
+    "wof:lastmodified":1722117878,
     "wof:name":"Newbern Township",
     "wof:parent_id":102082691,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":326,
+    "wof:population":392,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

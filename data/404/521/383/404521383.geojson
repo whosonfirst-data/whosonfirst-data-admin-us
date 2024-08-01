@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006852,
-    "geom:area_square_m":61879626.637572,
+    "geom:area_square_m":61879626.637571,
     "geom:bbox":"-78.311487,43.04367,-78.231798,43.131632",
     "geom:latitude":43.087225,
     "geom:longitude":-78.271658,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.087459,
     "lbl:longitude":-78.271661,
     "lbl:max_zoom":15.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":37,
     "uscensus:geoid":3603754166,
     "uscensus:name":"Oakfield",
     "uscensus:namelsad":"Oakfield town",
+    "uscensus:population":3086,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3603754166
+        "uscensus:geoid":"3603754166"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -104,11 +114,11 @@
         }
     ],
     "wof:id":404521383,
-    "wof:lastmodified":1605055630,
+    "wof:lastmodified":1722233673,
     "wof:name":"Oakfield",
     "wof:parent_id":102083105,
     "wof:placetype":"localadmin",
-    "wof:population":3250,
+    "wof:population":3086,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

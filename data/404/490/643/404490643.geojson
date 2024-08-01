@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000338,
-    "geom:area_square_m":2973076.770516,
+    "geom:area_square_m":2973076.770513,
     "geom:bbox":"-97.047062,44.713655,-97.016151,44.731834",
     "geom:latitude":44.724158,
     "geom:longitude":-97.030921,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.724478,
     "lbl:longitude":-97.030921,
     "lbl:max_zoom":17.0,
@@ -70,11 +76,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":57,
     "uscensus:geoid":4605710500,
     "uscensus:name":"Castlewood",
     "uscensus:namelsad":"Castlewood city",
+    "uscensus:population":706,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -84,8 +93,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4605710500
+        "uscensus:geoid":"4605710500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -101,11 +111,11 @@
         }
     ],
     "wof:id":404490643,
-    "wof:lastmodified":1605055508,
+    "wof:lastmodified":1722117808,
     "wof:name":"Castlewood",
     "wof:parent_id":102086845,
     "wof:placetype":"localadmin",
-    "wof:population":627,
+    "wof:population":706,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -9,11 +9,23 @@
     "geom:bbox":"-117.721001,33.606985,-117.62056,33.712007",
     "geom:latitude":33.663259,
     "geom:longitude":-117.670607,
+    "gn:admin1_code":"CA",
+    "gn:admin2_code":"59",
+    "gn:asciiname":"Lake Forest",
+    "gn:country_code":"US",
+    "gn:dem":150,
     "gn:elevation":148,
+    "gn:feature_class":"P",
+    "gn:feature_code":"PPL",
+    "gn:geonameid":5364514,
     "gn:latitude":33.64697,
     "gn:longitude":-117.68922,
+    "gn:modification_date":"2017-03-09",
+    "gn:name":"Lake Forest",
     "gn:population":77264,
+    "gn:timezone":"America/Los_Angeles",
     "iso:country":"US",
+    "lbl:bbox":"-117.70922,33.62697,-117.66922,33.66697",
     "lbl:latitude":33.663538,
     "lbl:longitude":-117.671374,
     "lbl:max_zoom":14.0,
@@ -222,7 +234,10 @@
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":85840,
+    "uscensus:population_date":"2023",
     "wd:elevation":148.0,
     "wd:latitude":33.641667,
     "wd:longitude":-117.690833,
@@ -231,8 +246,8 @@
     "wof:belongsto":[
         102191575,
         85633793,
-        85688637,
-        102080847
+        102080847,
+        85688637
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -246,8 +261,17 @@
         "wk:page":"Lake Forest, California"
     },
     "wof:concordances_alt":{
-        "qs_pg:id":988833
+        "gn:id":[
+            5364514
+        ],
+        "qs_pg:id":[
+            988833
+        ],
+        "wk:page":[
+            "Lake_Forest%2C_California"
+        ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg"
@@ -266,16 +290,17 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885292,
+    "wof:lastmodified":1722116395,
     "wof:name":"Lake Forest",
     "wof:parent_id":102080847,
     "wof:placetype":"locality",
-    "wof:population":77264,
+    "wof:population":85840,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[
-        1125301467
+        1125301467,
+        1343696363
     ],
     "wof:tags":[]
 },

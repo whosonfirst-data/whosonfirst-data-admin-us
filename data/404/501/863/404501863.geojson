@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01559,
-    "geom:area_square_m":144866835.492734,
+    "geom:area_square_m":144866835.492955,
     "geom:bbox":"-87.335629,41.182857,-87.218812,41.362368",
     "geom:latitude":41.282076,
     "geom:longitude":-87.283808,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.279637,
     "lbl:longitude":-87.276856,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":89,
     "uscensus:geoid":1808919306,
     "uscensus:name":"Eagle Creek",
     "uscensus:namelsad":"Eagle Creek township",
+    "uscensus:population":1727,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1808919306
+        "uscensus:geoid":"1808919306"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476611
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404501863,
-    "wof:lastmodified":1604969669,
+    "wof:lastmodified":1722117875,
     "wof:name":"Eagle Creek Township",
     "wof:parent_id":102087149,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1668,
+    "wof:population":1727,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

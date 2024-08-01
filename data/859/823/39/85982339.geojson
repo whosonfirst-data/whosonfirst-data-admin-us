@@ -136,7 +136,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":472463,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -152,17 +153,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"15140",
     "uscensus:placens":"01035974",
+    "uscensus:population":65,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":581.0,
     "wd:latitude":47.5425,
     "wd:longitude":-101.223056,
     "wd:wordcount":811,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404479487,
         85633793,
-        102082097
+        102082097,
+        404479487,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -171,10 +174,11 @@
         "gn:id":5688514,
         "gp:id":2382853,
         "qs_pg:id":196362,
-        "uscensus:geoid":3815140,
+        "uscensus:geoid":"3815140",
         "wd:id":"Q2447209",
         "wk:page":"Coleharbor, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -195,11 +199,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884821,
+    "wof:lastmodified":1722116122,
     "wof:name":"Coleharbor",
     "wof:parent_id":404479487,
     "wof:placetype":"locality",
-    "wof:population":79,
+    "wof:population":65,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

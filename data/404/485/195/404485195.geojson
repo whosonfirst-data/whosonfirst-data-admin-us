@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004484,
-    "geom:area_square_m":42387616.138767,
+    "geom:area_square_m":42387616.13876,
     "geom:bbox":"-75.810559,40.098646,-75.67034,40.167597",
     "geom:latitude":40.134496,
     "geom:longitude":-75.738761,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.12673,
     "lbl:longitude":-75.739825,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":4202921576,
     "uscensus:name":"East Nantmeal",
     "uscensus:namelsad":"East Nantmeal township",
+    "uscensus:population":1854,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202921576
+        "uscensus:geoid":"4202921576"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729477687
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404485195,
-    "wof:lastmodified":1605055355,
+    "wof:lastmodified":1722117772,
     "wof:name":"East Nantmeal Township",
     "wof:parent_id":102081275,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1803,
+    "wof:population":1854,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

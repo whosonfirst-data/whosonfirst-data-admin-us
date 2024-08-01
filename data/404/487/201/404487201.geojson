@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00013,
-    "geom:area_square_m":1217844.464743,
+    "geom:area_square_m":1217844.464746,
     "geom:bbox":"-76.072894,40.613951,-76.045168,40.626622",
     "geom:latitude":40.621361,
     "geom:longitude":-76.056496,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.6207,
     "lbl:longitude":-76.054393,
     "lbl:max_zoom":17.0,
@@ -85,22 +91,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":107,
     "uscensus:geoid":4210718576,
     "uscensus:name":"Deer Lake",
     "uscensus:namelsad":"Deer Lake borough",
+    "uscensus:population":678,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688481,
-        102081271
+        102081271,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4210718576
+        "uscensus:geoid":"4210718576"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -116,11 +126,11 @@
         }
     ],
     "wof:id":404487201,
-    "wof:lastmodified":1636499385,
+    "wof:lastmodified":1722117785,
     "wof:name":"Deer Lake",
     "wof:parent_id":102081271,
     "wof:placetype":"localadmin",
-    "wof:population":687,
+    "wof:population":678,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00032,
-    "geom:area_square_m":2981764.134866,
+    "geom:area_square_m":2981764.134865,
     "geom:bbox":"-75.771396,41.054417,-75.748212,41.069828",
     "geom:latitude":41.062092,
     "geom:longitude":-75.759443,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.06202,
     "lbl:longitude":-75.759447,
     "lbl:max_zoom":17.0,
@@ -58,11 +64,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":4202521816,
     "uscensus:name":"East Side",
     "uscensus:namelsad":"East Side borough",
+    "uscensus:population":250,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -72,8 +81,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202521816
+        "uscensus:geoid":"4202521816"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -89,11 +99,11 @@
         }
     ],
     "wof:id":404485517,
-    "wof:lastmodified":1605055362,
+    "wof:lastmodified":1722117774,
     "wof:name":"East Side",
     "wof:parent_id":102081331,
     "wof:placetype":"localadmin",
-    "wof:population":317,
+    "wof:population":250,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

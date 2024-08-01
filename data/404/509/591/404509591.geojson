@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010771,
-    "geom:area_square_m":92705360.498005,
+    "geom:area_square_m":92705360.497999,
     "geom:bbox":"-95.634408,45.846695,-95.509754,45.933492",
     "geom:latitude":45.890147,
     "geom:longitude":-95.572025,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.890139,
     "lbl:longitude":-95.57203,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":2704143558,
     "uscensus:name":"Moe",
     "uscensus:namelsad":"Moe township",
+    "uscensus:population":780,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2704143558
+        "uscensus:geoid":"2704143558"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462843
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404509591,
-    "wof:lastmodified":1605055793,
+    "wof:lastmodified":1722117930,
     "wof:name":"Moe Township",
     "wof:parent_id":102087127,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":784,
+    "wof:population":780,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

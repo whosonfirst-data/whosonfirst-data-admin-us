@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000441,
-    "geom:area_square_m":3938710.433445,
+    "geom:area_square_m":3938710.433447,
     "geom:bbox":"-89.146628,43.683307,-89.11623,43.704522",
     "geom:latitude":43.693457,
     "geom:longitude":-89.130368,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "village"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.694332,
     "lbl:longitude":-89.131911,
     "lbl:max_zoom":17.0,
@@ -211,22 +217,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":47,
     "uscensus:geoid":5504739750,
     "uscensus:name":"Kingston",
     "uscensus:namelsad":"Kingston village",
+    "uscensus:population":284,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081283
+        102081283,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5504739750
+        "uscensus:geoid":"5504739750"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -242,11 +252,11 @@
         }
     ],
     "wof:id":404491859,
-    "wof:lastmodified":1636499308,
+    "wof:lastmodified":1722117815,
     "wof:name":"Kingston",
     "wof:parent_id":102081283,
     "wof:placetype":"localadmin",
-    "wof:population":326,
+    "wof:population":284,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

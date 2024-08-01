@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00937,
-    "geom:area_square_m":89069880.257117,
+    "geom:area_square_m":89069880.257091,
     "geom:bbox":"-83.251136,39.709293,-83.127894,39.812503",
     "geom:latitude":39.760113,
     "geom:longitude":-83.199287,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.767666,
     "lbl:longitude":-83.200414,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":129,
     "uscensus:geoid":3912920156,
     "uscensus:name":"Darby",
     "uscensus:namelsad":"Darby township",
+    "uscensus:population":3355,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3912920156
+        "uscensus:geoid":"3912920156"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404526029,
-    "wof:lastmodified":1605055654,
+    "wof:lastmodified":1722118020,
     "wof:name":"Darby Township",
     "wof:parent_id":102084815,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3366,
+    "wof:population":3355,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

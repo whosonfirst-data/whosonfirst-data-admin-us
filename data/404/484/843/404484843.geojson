@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001615,
-    "geom:area_square_m":15212954.295534,
+    "geom:area_square_m":15212954.295543,
     "geom:bbox":"-80.010923,40.329527,-79.935384,40.410659",
     "geom:latitude":40.369023,
     "geom:longitude":-79.966861,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.377723,
     "lbl:longitude":-79.954294,
     "lbl:max_zoom":15.0,
@@ -121,11 +127,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4200303928,
     "uscensus:name":"Baldwin",
     "uscensus:namelsad":"Baldwin borough",
+    "uscensus:population":20708,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -135,8 +144,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200303928
+        "uscensus:geoid":"4200303928"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -152,12 +162,12 @@
         }
     ],
     "wof:id":404484843,
-    "wof:lastmodified":1605055456,
+    "wof:lastmodified":1722117770,
     "wof:name":"Baldwin",
     "wof:parent_id":102080887,
     "wof:placetype":"localadmin",
-    "wof:population":19767,
-    "wof:population_rank":6,
+    "wof:population":20708,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

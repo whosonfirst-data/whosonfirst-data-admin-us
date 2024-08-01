@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000149,
-    "geom:area_square_m":1370321.642871,
+    "geom:area_square_m":1370321.642873,
     "geom:bbox":"-80.021929,42.128492,-80.002161,42.14469",
     "geom:latitude":42.136922,
     "geom:longitude":-80.012271,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.139039,
     "lbl:longitude":-80.014584,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":4204982344,
     "uscensus:name":"Wesleyville",
     "uscensus:namelsad":"Wesleyville borough",
+    "uscensus:population":3148,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4204982344
+        "uscensus:geoid":"4204982344"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404486813,
-    "wof:lastmodified":1605055872,
+    "wof:lastmodified":1722117783,
     "wof:name":"Wesleyville",
     "wof:parent_id":102080955,
     "wof:placetype":"localadmin",
-    "wof:population":3341,
+    "wof:population":3148,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

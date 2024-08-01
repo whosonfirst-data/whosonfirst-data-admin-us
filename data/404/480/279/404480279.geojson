@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011093,
-    "geom:area_square_m":90263679.642328,
+    "geom:area_square_m":90263679.642309,
     "geom:bbox":"-100.446175,48.806009,-100.314192,48.893073",
     "geom:latitude":48.849853,
     "geom:longitude":-100.37903,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.849388,
     "lbl:longitude":-100.379052,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":3800985860,
     "uscensus:name":"Whitteron",
     "uscensus:namelsad":"Whitteron township",
+    "uscensus:population":508,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3800985860
+        "uscensus:geoid":"3800985860"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473671
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404480279,
-    "wof:lastmodified":1605055915,
+    "wof:lastmodified":1722117743,
     "wof:name":"Whitteron Township",
     "wof:parent_id":102082109,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":405,
+    "wof:population":508,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

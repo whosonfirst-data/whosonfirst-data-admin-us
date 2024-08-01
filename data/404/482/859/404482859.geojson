@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006426,
-    "geom:area_square_m":60038441.570824,
+    "geom:area_square_m":60038441.570836,
     "geom:bbox":"-79.784034,40.884893,-79.689925,40.957667",
     "geom:latitude":40.920389,
     "geom:longitude":-79.736889,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.915331,
     "lbl:longitude":-79.737519,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":4201919456,
     "uscensus:name":"Donegal",
     "uscensus:namelsad":"Donegal township",
+    "uscensus:population":1774,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201919456
+        "uscensus:geoid":"4201919456"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457607
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404482859,
-    "wof:lastmodified":1605055379,
+    "wof:lastmodified":1722117759,
     "wof:name":"Donegal Township",
     "wof:parent_id":102083677,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1864,
+    "wof:population":1774,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011851,
-    "geom:area_square_m":102145239.401842,
+    "geom:area_square_m":102145239.401863,
     "geom:bbox":"-68.166626,45.765517,-68.032582,45.85593",
     "geom:latitude":45.810414,
     "geom:longitude":-68.099743,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "plantation"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.810394,
     "lbl:longitude":-68.099762,
     "lbl:max_zoom":18.0,
@@ -97,11 +103,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":2300327855,
     "uscensus:name":"Glenwood",
     "uscensus:namelsad":"Glenwood plantation",
+    "uscensus:population":4,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
@@ -111,8 +120,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2300327855
+        "uscensus:geoid":"2300327855"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468199
     ],
@@ -131,11 +141,11 @@
         }
     ],
     "wof:id":404474863,
-    "wof:lastmodified":1605055903,
+    "wof:lastmodified":1722117704,
     "wof:name":"Glenwood",
     "wof:parent_id":102081161,
     "wof:placetype":"localadmin",
-    "wof:population":3,
+    "wof:population":4,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

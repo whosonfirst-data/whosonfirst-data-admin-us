@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01054,
-    "geom:area_square_m":92319253.486793,
+    "geom:area_square_m":92319253.486788,
     "geom:bbox":"-92.136348,44.857665,-92.014248,44.944815",
     "geom:latitude":44.901176,
     "geom:longitude":-92.075165,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.901237,
     "lbl:longitude":-92.075166,
     "lbl:max_zoom":17.0,
@@ -118,11 +124,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":33,
     "uscensus:geoid":5503346175,
     "uscensus:name":"Lucas",
     "uscensus:namelsad":"Lucas town",
+    "uscensus:population":711,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -132,8 +141,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5503346175
+        "uscensus:geoid":"5503346175"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472547
     ],
@@ -152,11 +162,11 @@
         }
     ],
     "wof:id":404491451,
-    "wof:lastmodified":1605055588,
+    "wof:lastmodified":1722117813,
     "wof:name":"Lucas",
     "wof:parent_id":102081747,
     "wof:placetype":"localadmin",
-    "wof:population":764,
+    "wof:population":711,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

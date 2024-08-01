@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011278,
-    "geom:area_square_m":92878737.316548,
+    "geom:area_square_m":92878737.316557,
     "geom:bbox":"-99.977448,48.195155,-99.847382,48.282346",
     "geom:latitude":48.238801,
     "geom:longitude":-99.912447,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.238806,
     "lbl:longitude":-99.912449,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":69,
     "uscensus:geoid":3806966060,
     "uscensus:name":"Reno Valley",
     "uscensus:namelsad":"Reno Valley township",
+    "uscensus:population":49,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3806966060
+        "uscensus:geoid":"3806966060"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474775
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404479331,
-    "wof:lastmodified":1605055470,
+    "wof:lastmodified":1722117737,
     "wof:name":"Reno Valley Township",
     "wof:parent_id":102082085,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":38,
+    "wof:population":49,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

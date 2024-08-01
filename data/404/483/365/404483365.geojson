@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00628,
-    "geom:area_square_m":58196615.919647,
+    "geom:area_square_m":58196615.919648,
     "geom:bbox":"-75.834695,41.408659,-75.686206,41.50383",
     "geom:latitude":41.454846,
     "geom:longitude":-75.766784,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.461311,
     "lbl:longitude":-75.772977,
     "lbl:max_zoom":15.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":69,
     "uscensus:geoid":4206954136,
     "uscensus:name":"Newton",
     "uscensus:namelsad":"Newton township",
+    "uscensus:population":2927,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206954136
+        "uscensus:geoid":"4206954136"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468673
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404483365,
-    "wof:lastmodified":1605055436,
+    "wof:lastmodified":1722117762,
     "wof:name":"Newton Township",
     "wof:parent_id":102081345,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2846,
+    "wof:population":2927,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

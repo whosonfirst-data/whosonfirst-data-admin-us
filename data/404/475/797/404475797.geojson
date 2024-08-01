@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008166,
-    "geom:area_square_m":73016238.230834,
+    "geom:area_square_m":73016238.230839,
     "geom:bbox":"-70.839408,43.637999,-70.719607,43.751605",
     "geom:latitude":43.688612,
     "geom:longitude":-70.786422,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.693716,
     "lbl:longitude":-70.78642,
     "lbl:max_zoom":15.0,
@@ -247,11 +253,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":2303139195,
     "uscensus:name":"Limerick",
     "uscensus:namelsad":"Limerick town",
+    "uscensus:population":3523,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
@@ -261,8 +270,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2303139195
+        "uscensus:geoid":"2303139195"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -278,11 +288,11 @@
         }
     ],
     "wof:id":404475797,
-    "wof:lastmodified":1605055836,
+    "wof:lastmodified":1722117710,
     "wof:name":"Limerick",
     "wof:parent_id":102087449,
     "wof:placetype":"localadmin",
-    "wof:population":2892,
+    "wof:population":3523,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

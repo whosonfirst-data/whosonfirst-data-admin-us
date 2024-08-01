@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00749,
-    "geom:area_square_m":70484152.624036,
+    "geom:area_square_m":70484152.624041,
     "geom:bbox":"-79.075796,40.390393,-78.923135,40.487562",
     "geom:latitude":40.443852,
     "geom:longitude":-79.008601,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.437951,
     "lbl:longitude":-78.995913,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":63,
     "uscensus:geoid":4206322048,
     "uscensus:name":"East Wheatfield",
     "uscensus:namelsad":"East Wheatfield township",
+    "uscensus:population":2129,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206322048
+        "uscensus:geoid":"4206322048"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461477
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404486461,
-    "wof:lastmodified":1605055874,
+    "wof:lastmodified":1722117780,
     "wof:name":"East Wheatfield Township",
     "wof:parent_id":102081387,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2366,
+    "wof:population":2129,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

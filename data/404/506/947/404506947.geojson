@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010193,
-    "geom:area_square_m":93623818.153354,
+    "geom:area_square_m":93623818.153341,
     "geom:bbox":"-85.060404,41.985405,-84.94193,42.072903",
     "geom:latitude":42.029623,
     "geom:longitude":-85.001475,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.029206,
     "lbl:longitude":-85.016287,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":2602332280,
     "uscensus:name":"Girard",
     "uscensus:namelsad":"Girard township",
+    "uscensus:population":1749,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2602332280
+        "uscensus:geoid":"2602332280"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471409
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404506947,
-    "wof:lastmodified":1605055757,
+    "wof:lastmodified":1722117911,
     "wof:name":"Girard Township",
     "wof:parent_id":102083037,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1780,
+    "wof:population":1749,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

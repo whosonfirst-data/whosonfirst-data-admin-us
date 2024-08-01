@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002402,
-    "geom:area_square_m":22909145.118488,
+    "geom:area_square_m":22909145.118482,
     "geom:bbox":"-83.474662,39.512953,-83.386743,39.56475",
     "geom:latitude":39.538268,
     "geom:longitude":-83.427852,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.543951,
     "lbl:longitude":-83.424304,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":47,
     "uscensus:geoid":3904781718,
     "uscensus:name":"Washington Court House",
     "uscensus:namelsad":"Washington Court House city",
+    "uscensus:population":14412,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3904781718
+        "uscensus:geoid":"3904781718"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404524507,
-    "wof:lastmodified":1605056110,
+    "wof:lastmodified":1722118009,
     "wof:name":"Washington Court House",
     "wof:parent_id":102083691,
     "wof:placetype":"localadmin",
-    "wof:population":14192,
+    "wof:population":14412,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

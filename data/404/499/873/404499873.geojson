@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013243,
-    "geom:area_square_m":123107216.138241,
+    "geom:area_square_m":123107216.138275,
     "geom:bbox":"-88.705162,41.194217,-88.586912,41.322109",
     "geom:latitude":41.252238,
     "geom:longitude":-88.648242,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.25153,
     "lbl:longitude":-88.649033,
     "lbl:max_zoom":16.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":1709908583,
     "uscensus:name":"Brookfield",
     "uscensus:namelsad":"Brookfield township",
+    "uscensus:population":1054,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1709908583
+        "uscensus:geoid":"1709908583"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404499873,
-    "wof:lastmodified":1605055539,
+    "wof:lastmodified":1722233647,
     "wof:name":"Brookfield Township",
     "wof:parent_id":102081255,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1060,
+    "wof:population":1054,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

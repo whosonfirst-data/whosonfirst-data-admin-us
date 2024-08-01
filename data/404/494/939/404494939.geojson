@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010368,
-    "geom:area_square_m":93783163.470019,
+    "geom:area_square_m":93783163.470012,
     "geom:bbox":"-90.784602,42.944527,-90.665497,43.032328",
     "geom:latitude":42.988397,
     "geom:longitude":-90.725093,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.98837,
     "lbl:longitude":-90.725093,
     "lbl:max_zoom":17.0,
@@ -64,11 +70,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":43,
     "uscensus:geoid":5504354775,
     "uscensus:name":"Mount Ida",
     "uscensus:namelsad":"Mount Ida town",
+    "uscensus:population":570,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -78,8 +87,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5504354775
+        "uscensus:geoid":"5504354775"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462979
     ],
@@ -98,11 +108,11 @@
         }
     ],
     "wof:id":404494939,
-    "wof:lastmodified":1605055959,
+    "wof:lastmodified":1722117836,
     "wof:name":"Mount Ida",
     "wof:parent_id":102081857,
     "wof:placetype":"localadmin",
-    "wof:population":561,
+    "wof:population":570,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

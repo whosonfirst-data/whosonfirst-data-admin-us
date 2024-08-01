@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.023777,
-    "geom:area_square_m":227213979.138742,
+    "geom:area_square_m":227213979.138706,
     "geom:bbox":"-100.162573,39.343531,-99.882534,39.436984",
     "geom:latitude":39.393851,
     "geom:longitude":-100.021099,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.39445,
     "lbl:longitude":-100.028536,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":65,
     "uscensus:geoid":2006526175,
     "uscensus:name":"Gettysburg",
     "uscensus:namelsad":"Gettysburg township",
+    "uscensus:population":64,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2006526175
+        "uscensus:geoid":"2006526175"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404503715,
-    "wof:lastmodified":1605055321,
+    "wof:lastmodified":1722233660,
     "wof:name":"Gettysburg Township",
     "wof:parent_id":102084143,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":74,
+    "wof:population":64,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

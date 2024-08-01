@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008808,
-    "geom:area_square_m":83358493.928132,
+    "geom:area_square_m":83358493.928144,
     "geom:bbox":"-74.160461,40.001221,-74.05112,40.137036",
     "geom:latitude":40.059971,
     "geom:longitude":-74.109784,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.05676,
     "lbl:longitude":-74.121746,
     "lbl:max_zoom":14.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":3402907420,
     "uscensus:name":"Brick",
     "uscensus:namelsad":"Brick township",
+    "uscensus:population":76021,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3402907420
+        "uscensus:geoid":"3402907420"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466851
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404477835,
-    "wof:lastmodified":1605055419,
+    "wof:lastmodified":1722117725,
     "wof:name":"Brick Township",
     "wof:parent_id":102081485,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":75072,
+    "wof:population":76021,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

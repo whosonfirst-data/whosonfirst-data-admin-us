@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004688,
-    "geom:area_square_m":42125843.203257,
+    "geom:area_square_m":42125843.203219,
     "geom:bbox":"-88.281707,43.368635,-88.160963,43.427473",
     "geom:latitude":43.393792,
     "geom:longitude":-88.237567,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.398358,
     "lbl:longitude":-88.250779,
     "lbl:max_zoom":15.0,
@@ -94,22 +100,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":131,
     "uscensus:geoid":5513185375,
     "uscensus:name":"West Bend",
     "uscensus:namelsad":"West Bend town",
+    "uscensus:population":4438,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081745
+        102081745,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5513185375
+        "uscensus:geoid":"5513185375"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468637
     ],
@@ -128,11 +138,11 @@
         }
     ],
     "wof:id":404495619,
-    "wof:lastmodified":1636499411,
+    "wof:lastmodified":1722117841,
     "wof:name":"West Bend",
     "wof:parent_id":102081745,
     "wof:placetype":"localadmin",
-    "wof:population":4774,
+    "wof:population":4438,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

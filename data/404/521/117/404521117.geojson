@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010055,
-    "geom:area_square_m":93086015.292925,
+    "geom:area_square_m":93086015.292913,
     "geom:bbox":"-97.599957,41.482129,-97.48411,41.569629",
     "geom:latitude":41.525977,
     "geom:longitude":-97.541981,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.525974,
     "lbl:longitude":-97.541999,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":141,
     "uscensus:geoid":3114129225,
     "uscensus:name":"Lost Creek",
     "uscensus:namelsad":"Lost Creek township",
+    "uscensus:population":503,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3114129225
+        "uscensus:geoid":"3114129225"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404521117,
-    "wof:lastmodified":1605055632,
+    "wof:lastmodified":1722233673,
     "wof:name":"Lost Creek Township",
     "wof:parent_id":102084277,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":517,
+    "wof:population":503,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

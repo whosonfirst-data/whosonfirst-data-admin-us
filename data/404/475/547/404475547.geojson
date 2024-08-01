@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011024,
-    "geom:area_square_m":97803562.184366,
+    "geom:area_square_m":97803562.184389,
     "geom:bbox":"-68.746207,44.112683,-68.548191,44.200336",
     "geom:latitude":44.151089,
     "geom:longitude":-68.644488,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.156431,
     "lbl:longitude":-68.632717,
     "lbl:max_zoom":16.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":2300974580,
     "uscensus:name":"Stonington",
     "uscensus:namelsad":"Stonington town",
+    "uscensus:population":1055,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2300974580
+        "uscensus:geoid":"2300974580"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457677
     ],
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404475547,
-    "wof:lastmodified":1605055855,
+    "wof:lastmodified":1722117708,
     "wof:name":"Stonington",
     "wof:parent_id":102081201,
     "wof:placetype":"localadmin",
-    "wof:population":1043,
+    "wof:population":1055,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

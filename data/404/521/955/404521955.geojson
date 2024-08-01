@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001781,
-    "geom:area_square_m":16246509.539363,
+    "geom:area_square_m":16246509.539346,
     "geom:bbox":"-79.400156,42.456825,-79.29393,42.509943",
     "geom:latitude":42.471982,
     "geom:longitude":-79.331509,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.467368,
     "lbl:longitude":-79.304255,
     "lbl:max_zoom":16.0,
@@ -301,11 +307,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":3601321116,
     "uscensus:name":"Dunkirk",
     "uscensus:namelsad":"Dunkirk town",
+    "uscensus:population":1221,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -315,8 +324,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3601321116
+        "uscensus:geoid":"3601321116"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459525
     ],
@@ -335,11 +345,11 @@
         }
     ],
     "wof:id":404521955,
-    "wof:lastmodified":1605055626,
+    "wof:lastmodified":1722117990,
     "wof:name":"Dunkirk",
     "wof:parent_id":102081811,
     "wof:placetype":"localadmin",
-    "wof:population":1318,
+    "wof:population":1221,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

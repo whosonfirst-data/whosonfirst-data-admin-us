@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009006,
-    "geom:area_square_m":82126712.288893,
+    "geom:area_square_m":82126712.288861,
     "geom:bbox":"-83.670904,42.431359,-83.551907,42.523911",
     "geom:latitude":42.47948,
     "geom:longitude":-83.606158,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":42.478065,
     "lbl:longitude":-83.596026,
@@ -447,11 +450,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":2612549820,
     "uscensus:name":"Lyon",
     "uscensus:namelsad":"Lyon charter township",
+    "uscensus:population":25369,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -461,8 +467,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2612549820
+        "uscensus:geoid":"2612549820"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468195
     ],
@@ -481,12 +488,12 @@
         }
     ],
     "wof:id":404508207,
-    "wof:lastmodified":1605055746,
+    "wof:lastmodified":1722117920,
     "wof:name":"Lyon",
     "wof:parent_id":102083713,
     "wof:placetype":"localadmin",
-    "wof:population":14545,
-    "wof:population_rank":6,
+    "wof:population":25369,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010371,
-    "geom:area_square_m":93152963.876867,
+    "geom:area_square_m":93152963.876893,
     "geom:bbox":"-88.401579,43.369352,-88.281,43.456781",
     "geom:latitude":43.413018,
     "geom:longitude":-88.341334,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.413201,
     "lbl:longitude":-88.341327,
     "lbl:max_zoom":15.0,
@@ -103,11 +109,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":131,
     "uscensus:geoid":5513100425,
     "uscensus:name":"Addison",
     "uscensus:namelsad":"Addison town",
+    "uscensus:population":3426,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -117,8 +126,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5513100425
+        "uscensus:geoid":"5513100425"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -134,11 +144,11 @@
         }
     ],
     "wof:id":404492489,
-    "wof:lastmodified":1605056008,
+    "wof:lastmodified":1722117819,
     "wof:name":"Addison",
     "wof:parent_id":102081745,
     "wof:placetype":"localadmin",
-    "wof:population":3495,
+    "wof:population":3426,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

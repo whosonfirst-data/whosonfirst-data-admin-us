@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013993,
-    "geom:area_square_m":121603432.068065,
+    "geom:area_square_m":121603432.068132,
     "geom:bbox":"-84.854005,45.289382,-84.730011,45.419076",
     "geom:latitude":45.347968,
     "geom:longitude":-84.794607,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.345571,
     "lbl:longitude":-84.795432,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":47,
     "uscensus:geoid":2604775900,
     "uscensus:name":"Springvale",
     "uscensus:namelsad":"Springvale township",
+    "uscensus:population":2145,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2604775900
+        "uscensus:geoid":"2604775900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462873
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404505637,
-    "wof:lastmodified":1605055290,
+    "wof:lastmodified":1722117901,
     "wof:name":"Springvale Township",
     "wof:parent_id":102083073,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2141,
+    "wof:population":2145,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

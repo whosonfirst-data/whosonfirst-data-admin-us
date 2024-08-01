@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000064,
-    "geom:area_square_m":604767.971538,
+    "geom:area_square_m":604767.971537,
     "geom:bbox":"-80.161749,40.521677,-80.149259,40.533518",
     "geom:latitude":40.526907,
     "geom:longitude":-80.156163,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.525287,
     "lbl:longitude":-80.156777,
     "lbl:max_zoom":18.0,
@@ -64,11 +70,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4200333312,
     "uscensus:name":"Haysville",
     "uscensus:namelsad":"Haysville borough",
+    "uscensus:population":79,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -78,8 +87,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200333312
+        "uscensus:geoid":"4200333312"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -95,11 +105,11 @@
         }
     ],
     "wof:id":404482835,
-    "wof:lastmodified":1605055380,
+    "wof:lastmodified":1722117759,
     "wof:name":"Haysville",
     "wof:parent_id":102080887,
     "wof:placetype":"localadmin",
-    "wof:population":70,
+    "wof:population":79,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

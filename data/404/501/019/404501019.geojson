@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008464,
-    "geom:area_square_m":79761335.521904,
+    "geom:area_square_m":79761335.521951,
     "geom:bbox":"-84.901053,40.309406,-84.803592,40.397115",
     "geom:latitude":40.353329,
     "geom:longitude":-84.852422,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.353404,
     "lbl:longitude":-84.852421,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":75,
     "uscensus:geoid":1807545972,
     "uscensus:name":"Madison",
     "uscensus:namelsad":"Madison township",
+    "uscensus:population":630,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1807545972
+        "uscensus:geoid":"1807545972"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404501019,
-    "wof:lastmodified":1604530767,
+    "wof:lastmodified":1722233652,
     "wof:name":"Madison Township",
     "wof:parent_id":102086251,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":656,
+    "wof:population":630,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

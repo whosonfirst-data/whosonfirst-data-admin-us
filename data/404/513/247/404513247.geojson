@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.027848,
-    "geom:area_square_m":235815757.124036,
+    "geom:area_square_m":235815757.123961,
     "geom:bbox":"-92.301192,46.649241,-91.920178,46.880658",
     "geom:latitude":46.778375,
     "geom:longitude":-92.125045,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.798067,
     "lbl:longitude":-92.124915,
     "lbl:max_zoom":14.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":137,
     "uscensus:geoid":2713717000,
     "uscensus:name":"Duluth",
     "uscensus:namelsad":"Duluth city",
+    "uscensus:population":87680,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2713717000
+        "uscensus:geoid":"2713717000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404513247,
-    "wof:lastmodified":1605056042,
+    "wof:lastmodified":1722117957,
     "wof:name":"Duluth",
     "wof:parent_id":102087653,
     "wof:placetype":"localadmin",
-    "wof:population":86265,
+    "wof:population":87680,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

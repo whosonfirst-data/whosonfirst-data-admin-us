@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002581,
-    "geom:area_square_m":24237562.352592,
+    "geom:area_square_m":24237562.3526,
     "geom:bbox":"-75.25654,40.541736,-75.166635,40.603088",
     "geom:latitude":40.571299,
     "geom:longitude":-75.217519,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.571133,
     "lbl:longitude":-75.220549,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":4201720480,
     "uscensus:name":"Durham",
     "uscensus:namelsad":"Durham township",
+    "uscensus:population":1088,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201720480
+        "uscensus:geoid":"4201720480"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473897
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404484809,
-    "wof:lastmodified":1605055465,
+    "wof:lastmodified":1722117770,
     "wof:name":"Durham Township",
     "wof:parent_id":102080987,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1144,
+    "wof:population":1088,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

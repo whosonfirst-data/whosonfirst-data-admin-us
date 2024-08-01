@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010033,
-    "geom:area_square_m":91258138.707553,
+    "geom:area_square_m":91258138.707535,
     "geom:bbox":"-89.602315,42.595454,-89.484668,42.683411",
     "geom:latitude":42.639726,
     "geom:longitude":-89.54308,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.639446,
     "lbl:longitude":-89.537291,
     "lbl:max_zoom":16.0,
@@ -61,11 +67,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":5504578875,
     "uscensus:name":"Sylvester",
     "uscensus:namelsad":"Sylvester town",
+    "uscensus:population":1007,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -75,8 +84,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5504578875
+        "uscensus:geoid":"5504578875"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471613
     ],
@@ -95,11 +105,11 @@
         }
     ],
     "wof:id":404495237,
-    "wof:lastmodified":1605055993,
+    "wof:lastmodified":1722117838,
     "wof:name":"Sylvester",
     "wof:parent_id":102081827,
     "wof:placetype":"localadmin",
-    "wof:population":1004,
+    "wof:population":1007,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

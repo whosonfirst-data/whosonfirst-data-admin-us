@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.046466,
-    "geom:area_square_m":414321132.355743,
+    "geom:area_square_m":414321132.355702,
     "geom:bbox":"-74.336826,43.744513,-73.858041,43.969797",
     "geom:latitude":43.854283,
     "geom:longitude":-74.055444,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.861477,
     "lbl:longitude":-74.012022,
     "lbl:max_zoom":17.0,
@@ -244,11 +250,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":3603147669,
     "uscensus:name":"Minerva",
     "uscensus:namelsad":"Minerva town",
+    "uscensus:population":749,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -258,8 +267,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3603147669
+        "uscensus:geoid":"3603147669"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469207
     ],
@@ -278,11 +288,11 @@
         }
     ],
     "wof:id":404522283,
-    "wof:lastmodified":1605056076,
+    "wof:lastmodified":1722117992,
     "wof:name":"Minerva",
     "wof:parent_id":102082405,
     "wof:placetype":"localadmin",
-    "wof:population":809,
+    "wof:population":749,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

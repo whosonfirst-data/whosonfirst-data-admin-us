@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0002,
-    "geom:area_square_m":1877365.446162,
+    "geom:area_square_m":1877365.446163,
     "geom:bbox":"-76.401713,40.623018,-76.378671,40.637985",
     "geom:latitude":40.630246,
     "geom:longitude":-76.39119,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.630659,
     "lbl:longitude":-76.3912,
     "lbl:max_zoom":16.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":107,
     "uscensus:geoid":4210777392,
     "uscensus:name":"Tremont",
     "uscensus:namelsad":"Tremont borough",
+    "uscensus:population":1684,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4210777392
+        "uscensus:geoid":"4210777392"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404487321,
-    "wof:lastmodified":1605055897,
+    "wof:lastmodified":1722117786,
     "wof:name":"Tremont",
     "wof:parent_id":102081271,
     "wof:placetype":"localadmin",
-    "wof:population":1752,
+    "wof:population":1684,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

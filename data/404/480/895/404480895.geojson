@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011191,
-    "geom:area_square_m":92003819.591964,
+    "geom:area_square_m":92003819.591911,
     "geom:bbox":"-101.014351,48.283484,-100.886159,48.371432",
     "geom:latitude":48.32741,
     "geom:longitude":-100.950408,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.327456,
     "lbl:longitude":-100.95041,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":3804943460,
     "uscensus:name":"Kottke Valley",
     "uscensus:namelsad":"Kottke Valley township",
+    "uscensus:population":63,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3804943460
+        "uscensus:geoid":"3804943460"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470685
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404480895,
-    "wof:lastmodified":1605055909,
+    "wof:lastmodified":1722117747,
     "wof:name":"Kottke Valley Township",
     "wof:parent_id":102082517,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":49,
+    "wof:population":63,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007214,
-    "geom:area_square_m":67292300.982633,
+    "geom:area_square_m":67292300.982644,
     "geom:bbox":"-82.436916,40.992861,-82.334556,41.065761",
     "geom:latitude":41.029372,
     "geom:longitude":-82.385237,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.029284,
     "lbl:longitude":-82.385246,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":3900568966,
     "uscensus:name":"Ruggles",
     "uscensus:namelsad":"Ruggles township",
+    "uscensus:population":970,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3900568966
+        "uscensus:geoid":"3900568966"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473501
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404524689,
-    "wof:lastmodified":1605056104,
+    "wof:lastmodified":1722118010,
     "wof:name":"Ruggles Township",
     "wof:parent_id":102084829,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":905,
+    "wof:population":970,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

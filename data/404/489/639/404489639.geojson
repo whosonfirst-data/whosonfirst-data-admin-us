@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01062,
-    "geom:area_square_m":92816899.560467,
+    "geom:area_square_m":92816899.560487,
     "geom:bbox":"-97.861444,44.978562,-97.738434,45.065639",
     "geom:latitude":45.022011,
     "geom:longitude":-97.799857,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.022021,
     "lbl:longitude":-97.799893,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":4602572660,
     "uscensus:name":"Woodland",
     "uscensus:namelsad":"Woodland township",
+    "uscensus:population":60,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4602572660
+        "uscensus:geoid":"4602572660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456077
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404489639,
-    "wof:lastmodified":1605055934,
+    "wof:lastmodified":1722117801,
     "wof:name":"Woodland Township",
     "wof:parent_id":102086035,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":63,
+    "wof:population":60,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00144,
-    "geom:area_square_m":13410071.352462,
+    "geom:area_square_m":13410071.352477,
     "geom:bbox":"-83.421299,41.129056,-83.371644,41.189474",
     "geom:latitude":41.160487,
     "geom:longitude":-83.402872,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.161396,
     "lbl:longitude":-83.410802,
     "lbl:max_zoom":15.0,
@@ -67,11 +73,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":147,
     "uscensus:geoid":3914728014,
     "uscensus:name":"Fostoria",
     "uscensus:namelsad":"Fostoria city",
+    "uscensus:population":9075,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -81,8 +90,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3914728014
+        "uscensus:geoid":"3914728014"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -98,11 +108,11 @@
         }
     ],
     "wof:id":404525605,
-    "wof:lastmodified":1605056052,
+    "wof:lastmodified":1722118017,
     "wof:name":"Fostoria",
     "wof:parent_id":102084717,
     "wof:placetype":"localadmin",
-    "wof:population":9471,
+    "wof:population":9075,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010036,
-    "geom:area_square_m":94739065.547021,
+    "geom:area_square_m":94739065.547018,
     "geom:bbox":"-90.451916,40.187743,-90.335508,40.276339",
     "geom:latitude":40.232126,
     "geom:longitude":-90.39382,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.232144,
     "lbl:longitude":-90.393814,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":57,
     "uscensus:geoid":1705702648,
     "uscensus:name":"Astoria",
     "uscensus:namelsad":"Astoria township",
+    "uscensus:population":1199,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1705702648
+        "uscensus:geoid":"1705702648"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404496085,
-    "wof:lastmodified":1605055596,
+    "wof:lastmodified":1722233633,
     "wof:name":"Astoria Township",
     "wof:parent_id":102086207,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1464,
+    "wof:population":1199,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

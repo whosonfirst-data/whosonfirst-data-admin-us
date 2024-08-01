@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000959,
-    "geom:area_square_m":8663697.892352,
+    "geom:area_square_m":8663697.89234,
     "geom:bbox":"-89.35922,43.037536,-89.306679,43.086884",
     "geom:latitude":43.054008,
     "geom:longitude":-89.333448,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.050637,
     "lbl:longitude":-89.32871,
     "lbl:max_zoom":15.0,
@@ -70,11 +76,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":5502553675,
     "uscensus:name":"Monona",
     "uscensus:namelsad":"Monona city",
+    "uscensus:population":8536,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -84,8 +93,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5502553675
+        "uscensus:geoid":"5502553675"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -101,11 +111,11 @@
         }
     ],
     "wof:id":404493279,
-    "wof:lastmodified":1605055951,
+    "wof:lastmodified":1722117825,
     "wof:name":"Monona",
     "wof:parent_id":102081795,
     "wof:placetype":"localadmin",
-    "wof:population":7533,
+    "wof:population":8536,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

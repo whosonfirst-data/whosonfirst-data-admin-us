@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008918,
-    "geom:area_square_m":78587414.798143,
+    "geom:area_square_m":78587414.798165,
     "geom:bbox":"-88.371426,44.500215,-88.219323,44.587757",
     "geom:latitude":44.550705,
     "geom:longitude":-88.309571,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.553264,
     "lbl:longitude":-88.298003,
     "lbl:max_zoom":16.0,
@@ -109,22 +115,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":87,
     "uscensus:geoid":5508772750,
     "uscensus:name":"Seymour",
     "uscensus:namelsad":"Seymour town",
+    "uscensus:population":1205,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081851
+        102081851,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5508772750
+        "uscensus:geoid":"5508772750"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470751
     ],
@@ -143,11 +153,11 @@
         }
     ],
     "wof:id":404495089,
-    "wof:lastmodified":1636499416,
+    "wof:lastmodified":1722117837,
     "wof:name":"Seymour",
     "wof:parent_id":102081851,
     "wof:placetype":"localadmin",
-    "wof:population":1193,
+    "wof:population":1205,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

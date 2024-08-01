@@ -92,7 +92,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":2784052,
     "uscensus:awater":387972,
     "uscensus:classfp":"U1",
@@ -108,14 +109,16 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"82952",
     "uscensus:placens":"02633883",
+    "uscensus:population":364,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"42",
     "wd:wordcount":69,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404487649,
         85633793,
-        102080947
+        102080947,
+        404487649,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -123,13 +126,14 @@
         "gn:id":5189302,
         "gp:id":2402141,
         "qs_pg:id":988211,
-        "uscensus:geoid":4282952,
+        "uscensus:geoid":"4282952",
         "wd:id":"Q6166895",
         "wk:page":"West Falls, Pennsylvania"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1051908
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -147,11 +151,11 @@
         }
     ],
     "wof:id":101719927,
-    "wof:lastmodified":1690889577,
+    "wof:lastmodified":1722116335,
     "wof:name":"West Falls",
     "wof:parent_id":404487649,
     "wof:placetype":"locality",
-    "wof:population":382,
+    "wof:population":364,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

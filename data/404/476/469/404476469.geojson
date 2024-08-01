@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003671,
-    "geom:area_square_m":33471424.848703,
+    "geom:area_square_m":33471424.848669,
     "geom:bbox":"-71.206967,42.44983,-71.112116,42.530001",
     "geom:latitude":42.486879,
     "geom:longitude":-71.154267,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.491517,
     "lbl:longitude":-71.145675,
     "lbl:max_zoom":14.0,
@@ -58,11 +64,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":2501781035,
     "uscensus:name":"Woburn",
     "uscensus:namelsad":"Woburn city",
+    "uscensus:population":41647,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -72,8 +81,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2501781035
+        "uscensus:geoid":"2501781035"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -89,11 +99,11 @@
         }
     ],
     "wof:id":404476469,
-    "wof:lastmodified":1605055407,
+    "wof:lastmodified":1722117715,
     "wof:name":"Woburn",
     "wof:parent_id":102084643,
     "wof:placetype":"localadmin",
-    "wof:population":38120,
+    "wof:population":41647,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

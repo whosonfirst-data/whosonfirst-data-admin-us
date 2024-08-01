@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000458,
-    "geom:area_square_m":4355537.954529,
+    "geom:area_square_m":4355537.954546,
     "geom:bbox":"-95.582885,39.652806,-95.50991,39.678209",
     "geom:latitude":39.66269,
     "geom:longitude":-95.532699,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.664111,
     "lbl:longitude":-95.525876,
     "lbl:max_zoom":16.0,
@@ -88,11 +94,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":2001333200,
     "uscensus:name":"Horton",
     "uscensus:namelsad":"Horton city",
+    "uscensus:population":1480,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -102,8 +111,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2001333200
+        "uscensus:geoid":"2001333200"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -119,11 +129,11 @@
         }
     ],
     "wof:id":404502461,
-    "wof:lastmodified":1605055275,
+    "wof:lastmodified":1722117879,
     "wof:name":"Horton",
     "wof:parent_id":102082685,
     "wof:placetype":"localadmin",
-    "wof:population":1776,
+    "wof:population":1480,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

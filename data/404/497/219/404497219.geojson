@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010299,
-    "geom:area_square_m":94343072.187931,
+    "geom:area_square_m":94343072.187928,
     "geom:bbox":"-88.940979,42.15232,-88.821801,42.241042",
     "geom:latitude":42.196627,
     "geom:longitude":-88.881135,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.196581,
     "lbl:longitude":-88.881135,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":1700726441,
     "uscensus:name":"Flora",
     "uscensus:namelsad":"Flora township",
+    "uscensus:population":2992,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1700726441
+        "uscensus:geoid":"1700726441"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404497219,
-    "wof:lastmodified":1605055489,
+    "wof:lastmodified":1722233637,
     "wof:name":"Flora Township",
     "wof:parent_id":102086197,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2981,
+    "wof:population":2992,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

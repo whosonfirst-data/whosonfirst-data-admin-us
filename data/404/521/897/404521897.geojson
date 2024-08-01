@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.017359,
-    "geom:area_square_m":156207096.406973,
+    "geom:area_square_m":156207096.40697,
     "geom:bbox":"-75.162564,43.223033,-75.000018,43.416539",
     "geom:latitude":43.301352,
     "geom:longitude":-75.0672,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.282545,
     "lbl:longitude":-75.061645,
     "lbl:max_zoom":15.0,
@@ -850,11 +856,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":43,
     "uscensus:geoid":3604364254,
     "uscensus:name":"Russia",
     "uscensus:namelsad":"Russia town",
+    "uscensus:population":2268,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -864,8 +873,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3604364254
+        "uscensus:geoid":"3604364254"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -881,11 +891,11 @@
         }
     ],
     "wof:id":404521897,
-    "wof:lastmodified":1605055639,
+    "wof:lastmodified":1722233674,
     "wof:name":"Russia",
     "wof:parent_id":102081877,
     "wof:placetype":"localadmin",
-    "wof:population":2587,
+    "wof:population":2268,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011343,
-    "geom:area_square_m":102940313.202177,
+    "geom:area_square_m":102940313.202167,
     "geom:bbox":"-72.809113,42.733187,-72.681072,42.828484",
     "geom:latitude":42.781348,
     "geom:longitude":-72.744451,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.781557,
     "lbl:longitude":-72.744452,
     "lbl:max_zoom":17.0,
@@ -145,11 +151,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":5002531150,
     "uscensus:name":"Halifax",
     "uscensus:namelsad":"Halifax town",
+    "uscensus:population":767,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -159,8 +168,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5002531150
+        "uscensus:geoid":"5002531150"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472523
     ],
@@ -179,11 +189,11 @@
         }
     ],
     "wof:id":404527327,
-    "wof:lastmodified":1605055684,
+    "wof:lastmodified":1722118030,
     "wof:name":"Halifax",
     "wof:parent_id":102080773,
     "wof:placetype":"localadmin",
-    "wof:population":728,
+    "wof:population":767,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

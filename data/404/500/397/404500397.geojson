@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009356,
-    "geom:area_square_m":88965432.081403,
+    "geom:area_square_m":88965432.081438,
     "geom:bbox":"-86.793694,39.688141,-86.68678,39.776655",
     "geom:latitude":39.73239,
     "geom:longitude":-86.740195,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.732385,
     "lbl:longitude":-86.740196,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":133,
     "uscensus:geoid":1813323782,
     "uscensus:name":"Floyd",
     "uscensus:namelsad":"Floyd township",
+    "uscensus:population":4237,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1813323782
+        "uscensus:geoid":"1813323782"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404500397,
-    "wof:lastmodified":1604530773,
+    "wof:lastmodified":1722117865,
     "wof:name":"Floyd Township",
     "wof:parent_id":102087217,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":4011,
+    "wof:population":4237,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

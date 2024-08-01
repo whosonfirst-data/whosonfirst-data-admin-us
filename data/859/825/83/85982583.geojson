@@ -184,7 +184,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":13506668,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -200,17 +201,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"82660",
     "uscensus:placens":"01036311",
+    "uscensus:population":8000,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":294.0,
     "wd:latitude":46.27,
     "wd:longitude":-96.610556,
     "wd:wordcount":2312,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404481507,
         85633793,
-        102082103
+        102082103,
+        404481507,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -219,10 +222,11 @@
         "gn:id":5062355,
         "gp:id":2513135,
         "qs_pg:id":274757,
-        "uscensus:geoid":3882660,
+        "uscensus:geoid":"3882660",
         "wd:id":"Q1996092",
         "wk:page":"Wahpeton, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -243,11 +247,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885202,
+    "wof:lastmodified":1722116145,
     "wof:name":"Wahpeton",
     "wof:parent_id":404481507,
     "wof:placetype":"locality",
-    "wof:population":7766,
+    "wof:population":8000,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

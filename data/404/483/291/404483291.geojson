@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00008,
-    "geom:area_square_m":752831.422616,
+    "geom:area_square_m":752831.422621,
     "geom:bbox":"-77.904505,40.235786,-77.893099,40.246202",
     "geom:latitude":40.241067,
     "geom:longitude":-77.899521,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.241073,
     "lbl:longitude":-77.899523,
     "lbl:max_zoom":17.0,
@@ -58,11 +64,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":4206165496,
     "uscensus:name":"Rockhill",
     "uscensus:namelsad":"Rockhill borough",
+    "uscensus:population":370,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -72,8 +81,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206165496
+        "uscensus:geoid":"4206165496"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -89,11 +99,11 @@
         }
     ],
     "wof:id":404483291,
-    "wof:lastmodified":1605055447,
+    "wof:lastmodified":1722117762,
     "wof:name":"Rockhill",
     "wof:parent_id":102080901,
     "wof:placetype":"localadmin",
-    "wof:population":371,
+    "wof:population":370,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

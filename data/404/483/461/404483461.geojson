@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000187,
-    "geom:area_square_m":1740269.796668,
+    "geom:area_square_m":1740269.796667,
     "geom:bbox":"-75.906201,41.013497,-75.886279,41.026448",
     "geom:latitude":41.021221,
     "geom:longitude":-75.896323,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.020986,
     "lbl:longitude":-75.896512,
     "lbl:max_zoom":15.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":79,
     "uscensus:geoid":4207927744,
     "uscensus:name":"Freeland",
     "uscensus:namelsad":"Freeland borough",
+    "uscensus:population":3822,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207927744
+        "uscensus:geoid":"4207927744"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404483461,
-    "wof:lastmodified":1605055448,
+    "wof:lastmodified":1722117762,
     "wof:name":"Freeland",
     "wof:parent_id":102081351,
     "wof:placetype":"localadmin",
-    "wof:population":3531,
+    "wof:population":3822,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

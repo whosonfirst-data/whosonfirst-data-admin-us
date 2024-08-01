@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004704,
-    "geom:area_square_m":44521016.782061,
+    "geom:area_square_m":44521016.782002,
     "geom:bbox":"-76.763744,40.017906,-76.644265,40.110626",
     "geom:latitude":40.056707,
     "geom:longitude":-76.701903,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.047234,
     "lbl:longitude":-76.683863,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":133,
     "uscensus:geoid":4213321464,
     "uscensus:name":"East Manchester",
     "uscensus:namelsad":"East Manchester township",
+    "uscensus:population":8589,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4213321464
+        "uscensus:geoid":"4213321464"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462249
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404487755,
-    "wof:lastmodified":1605055878,
+    "wof:lastmodified":1722117789,
     "wof:name":"East Manchester Township",
     "wof:parent_id":102080953,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":7264,
+    "wof:population":8589,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004031,
-    "geom:area_square_m":37688012.410133,
+    "geom:area_square_m":37688012.410132,
     "geom:bbox":"-80.410238,40.85235,-80.317463,40.907472",
     "geom:latitude":40.877269,
     "geom:longitude":-80.370112,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.879811,
     "lbl:longitude":-80.375625,
     "lbl:max_zoom":16.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":73,
     "uscensus:geoid":4207353184,
     "uscensus:name":"New Beaver",
     "uscensus:namelsad":"New Beaver borough",
+    "uscensus:population":1343,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207353184
+        "uscensus:geoid":"4207353184"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404483405,
-    "wof:lastmodified":1605055447,
+    "wof:lastmodified":1722117762,
     "wof:name":"New Beaver",
     "wof:parent_id":102080929,
     "wof:placetype":"localadmin",
-    "wof:population":1502,
+    "wof:population":1343,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010435,
-    "geom:area_square_m":90649018.852798,
+    "geom:area_square_m":90649018.852773,
     "geom:bbox":"-96.739823,45.326264,-96.616296,45.413294",
     "geom:latitude":45.368865,
     "geom:longitude":-96.678935,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.368428,
     "lbl:longitude":-96.678937,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":109,
     "uscensus:geoid":4610924060,
     "uscensus:name":"Geneseo",
     "uscensus:namelsad":"Geneseo township",
+    "uscensus:population":293,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4610924060
+        "uscensus:geoid":"4610924060"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457177
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404489171,
-    "wof:lastmodified":1605055938,
+    "wof:lastmodified":1722117798,
     "wof:name":"Geneseo Township",
     "wof:parent_id":102086057,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":271,
+    "wof:population":293,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

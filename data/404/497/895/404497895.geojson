@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008132,
-    "geom:area_square_m":78386219.361147,
+    "geom:area_square_m":78386219.361199,
     "geom:bbox":"-89.254214,38.736331,-89.138084,38.847843",
     "geom:latitude":38.781871,
     "geom:longitude":-89.180637,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.773912,
     "lbl:longitude":-89.170132,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":1705161106,
     "uscensus:name":"Pope",
     "uscensus:namelsad":"Pope township",
+    "uscensus:population":219,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1705161106
+        "uscensus:geoid":"1705161106"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456025
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404497895,
-    "wof:lastmodified":1605055490,
+    "wof:lastmodified":1722117852,
     "wof:name":"Pope Township",
     "wof:parent_id":102082287,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":213,
+    "wof:population":219,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

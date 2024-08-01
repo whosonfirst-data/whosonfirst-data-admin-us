@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.02577,
-    "geom:area_square_m":215276862.936252,
+    "geom:area_square_m":215276862.936292,
     "geom:bbox":"-93.577848,47.456825,-93.278048,47.544559",
     "geom:latitude":47.50064,
     "geom:longitude":-93.428243,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.500491,
     "lbl:longitude":-93.42824,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":2706103430,
     "uscensus:name":"Balsam",
     "uscensus:namelsad":"Balsam township",
+    "uscensus:population":555,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2706103430
+        "uscensus:geoid":"2706103430"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458659
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404513133,
-    "wof:lastmodified":1605056032,
+    "wof:lastmodified":1722117956,
     "wof:name":"Balsam Township",
     "wof:parent_id":102086963,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":550,
+    "wof:population":555,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

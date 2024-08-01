@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01111,
-    "geom:area_square_m":91499108.558201,
+    "geom:area_square_m":91499108.558213,
     "geom:bbox":"-96.891448,48.195104,-96.760889,48.282178",
     "geom:latitude":48.239255,
     "geom:longitude":-96.827079,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.238649,
     "lbl:longitude":-96.827087,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":89,
     "uscensus:geoid":2708968206,
     "uscensus:name":"Warrenton",
     "uscensus:namelsad":"Warrenton township",
+    "uscensus:population":99,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2708968206
+        "uscensus:geoid":"2708968206"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476959
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404510169,
-    "wof:lastmodified":1605055610,
+    "wof:lastmodified":1722117934,
     "wof:name":"Warrenton Township",
     "wof:parent_id":102087695,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":103,
+    "wof:population":99,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

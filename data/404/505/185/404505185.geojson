@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012823,
-    "geom:area_square_m":123851250.085703,
+    "geom:area_square_m":123851250.085685,
     "geom:bbox":"-99.143231,38.580144,-99.032779,38.697021",
     "geom:latitude":38.638743,
     "geom:longitude":-99.087991,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.638672,
     "lbl:longitude":-99.087996,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":165,
     "uscensus:geoid":2016556325,
     "uscensus:name":"Pleasantdale",
     "uscensus:namelsad":"Pleasantdale township",
+    "uscensus:population":22,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2016556325
+        "uscensus:geoid":"2016556325"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463835
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404505185,
-    "wof:lastmodified":1605055294,
+    "wof:lastmodified":1722117898,
     "wof:name":"Pleasantdale Township",
     "wof:parent_id":102082713,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":31,
+    "wof:population":22,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

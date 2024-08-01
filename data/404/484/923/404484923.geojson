@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00589,
-    "geom:area_square_m":55833410.411023,
+    "geom:area_square_m":55833410.410931,
     "geom:bbox":"-77.253345,39.901509,-77.082139,40.025084",
     "geom:latitude":39.954292,
     "geom:longitude":-77.154939,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.95929,
     "lbl:longitude":-77.167913,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":4200178160,
     "uscensus:name":"Tyrone",
     "uscensus:namelsad":"Tyrone township",
+    "uscensus:population":2313,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200178160
+        "uscensus:geoid":"4200178160"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404484923,
-    "wof:lastmodified":1605055460,
+    "wof:lastmodified":1722117771,
     "wof:name":"Tyrone Township",
     "wof:parent_id":102080899,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2298,
+    "wof:population":2313,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

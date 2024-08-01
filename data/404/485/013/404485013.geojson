@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000092,
-    "geom:area_square_m":864036.789488,
+    "geom:area_square_m":864036.789487,
     "geom:bbox":"-79.995554,40.673042,-79.977043,40.680819",
     "geom:latitude":40.676695,
     "geom:longitude":-79.988106,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.677119,
     "lbl:longitude":-79.988101,
     "lbl:max_zoom":17.0,
@@ -397,11 +403,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":4201979504,
     "uscensus:name":"Valencia",
     "uscensus:namelsad":"Valencia borough",
+    "uscensus:population":690,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -411,8 +420,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201979504
+        "uscensus:geoid":"4201979504"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -428,11 +438,11 @@
         }
     ],
     "wof:id":404485013,
-    "wof:lastmodified":1605055358,
+    "wof:lastmodified":1722117771,
     "wof:name":"Valencia",
     "wof:parent_id":102083677,
     "wof:placetype":"localadmin",
-    "wof:population":551,
+    "wof:population":690,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010273,
-    "geom:area_square_m":91806816.422883,
+    "geom:area_square_m":91806816.422849,
     "geom:bbox":"-94.368131,43.673299,-94.247356,43.760585",
     "geom:latitude":43.71735,
     "geom:longitude":-94.307186,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.716937,
     "lbl:longitude":-94.298718,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":91,
     "uscensus:geoid":2709110594,
     "uscensus:name":"Center Creek",
     "uscensus:namelsad":"Center Creek township",
+    "uscensus:population":212,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2709110594
+        "uscensus:geoid":"2709110594"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458905
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404513999,
-    "wof:lastmodified":1605056033,
+    "wof:lastmodified":1722117962,
     "wof:name":"Center Creek Township",
     "wof:parent_id":102087019,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":217,
+    "wof:population":212,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

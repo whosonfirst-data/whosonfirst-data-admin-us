@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011153,
-    "geom:area_square_m":92782200.637083,
+    "geom:area_square_m":92782200.637095,
     "geom:bbox":"-98.782581,47.671994,-98.654007,47.75946",
     "geom:latitude":47.715835,
     "geom:longitude":-98.718429,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.715625,
     "lbl:longitude":-98.71843,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":3802744100,
     "uscensus:name":"Lake Washington",
     "uscensus:namelsad":"Lake Washington township",
+    "uscensus:population":22,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3802744100
+        "uscensus:geoid":"3802744100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476871
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404479187,
-    "wof:lastmodified":1605055475,
+    "wof:lastmodified":1722117736,
     "wof:name":"Lake Washington Township",
     "wof:parent_id":102081503,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":27,
+    "wof:population":22,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

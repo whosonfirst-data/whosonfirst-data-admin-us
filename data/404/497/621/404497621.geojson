@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002197,
-    "geom:area_square_m":20176333.556263,
+    "geom:area_square_m":20176333.556206,
     "geom:bbox":"-87.732456,42.019134,-87.66507,42.071732",
     "geom:latitude":42.046345,
     "geom:longitude":-87.693945,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.046069,
     "lbl:longitude":-87.69123,
     "lbl:max_zoom":14.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":1703124582,
     "uscensus:name":"Evanston",
     "uscensus:namelsad":"Evanston city",
+    "uscensus:population":75070,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1703124582
+        "uscensus:geoid":"1703124582"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404497621,
-    "wof:lastmodified":1605055488,
+    "wof:lastmodified":1722117850,
     "wof:name":"Evanston Township",
     "wof:parent_id":102084317,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":74486,
+    "wof:population":75070,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

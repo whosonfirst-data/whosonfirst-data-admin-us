@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.038014,
-    "geom:area_square_m":372819347.094454,
+    "geom:area_square_m":372819347.094433,
     "geom:bbox":"-96.526327,37.432049,-96.307087,37.607261",
     "geom:latitude":37.519731,
     "geom:longitude":-96.416656,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.519669,
     "lbl:longitude":-96.416657,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":2004972500,
     "uscensus:name":"Union Center",
     "uscensus:namelsad":"Union Center township",
+    "uscensus:population":104,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2004972500
+        "uscensus:geoid":"2004972500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472303
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404503457,
-    "wof:lastmodified":1605055328,
+    "wof:lastmodified":1722117886,
     "wof:name":"Union Center Township",
     "wof:parent_id":102084193,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":103,
+    "wof:population":104,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010606,
-    "geom:area_square_m":91993670.862549,
+    "geom:area_square_m":91993670.86261,
     "geom:bbox":"-97.613828,45.412885,-97.489166,45.500344",
     "geom:latitude":45.456436,
     "geom:longitude":-97.550822,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.456768,
     "lbl:longitude":-97.550826,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":37,
     "uscensus:geoid":4603753020,
     "uscensus:name":"Raritan",
     "uscensus:namelsad":"Raritan township",
+    "uscensus:population":76,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4603753020
+        "uscensus:geoid":"4603753020"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456907
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404489787,
-    "wof:lastmodified":1605055937,
+    "wof:lastmodified":1722117802,
     "wof:name":"Raritan Township",
     "wof:parent_id":102086871,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":75,
+    "wof:population":76,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

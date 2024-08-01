@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008114,
-    "geom:area_square_m":77572631.384834,
+    "geom:area_square_m":77572631.384808,
     "geom:bbox":"-96.183948,39.332614,-96.034612,39.391126",
     "geom:latitude":39.363236,
     "geom:longitude":-96.105505,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.3617,
     "lbl:longitude":-96.105502,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":149,
     "uscensus:geoid":2014962150,
     "uscensus:name":"St. Clere",
     "uscensus:namelsad":"St. Clere township",
+    "uscensus:population":59,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2014962150
+        "uscensus:geoid":"2014962150"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458741
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404505569,
-    "wof:lastmodified":1605055277,
+    "wof:lastmodified":1722117901,
     "wof:name":"St. Clere Township",
     "wof:parent_id":102082663,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":72,
+    "wof:population":59,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

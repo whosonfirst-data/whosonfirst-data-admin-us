@@ -148,7 +148,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":3095450,
     "uscensus:awater":21482,
     "uscensus:classfp":"C5",
@@ -164,17 +165,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"35940",
     "uscensus:placens":"01036084",
+    "uscensus:population":827,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":272.0,
     "wd:latitude":46.979444,
     "wd:longitude":-96.8825,
     "wd:wordcount":888,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404480581,
         85633793,
-        102082073
+        102082073,
+        404480581,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -183,10 +186,11 @@
         "gn:id":5059583,
         "gp:id":2418493,
         "qs_pg:id":361605,
-        "uscensus:geoid":3835940,
+        "uscensus:geoid":"3835940",
         "wd:id":"Q2447063",
         "wk:page":"Harwood, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -207,11 +211,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882554,
+    "wof:lastmodified":1722115990,
     "wof:name":"Harwood",
     "wof:parent_id":404480581,
     "wof:placetype":"locality",
-    "wof:population":718,
+    "wof:population":827,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

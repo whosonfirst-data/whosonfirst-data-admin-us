@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010846,
-    "geom:area_square_m":94704519.461656,
+    "geom:area_square_m":94704519.461636,
     "geom:bbox":"-90.923737,45.031143,-90.799539,45.119347",
     "geom:latitude":45.075347,
     "geom:longitude":-90.861682,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.075415,
     "lbl:longitude":-90.861687,
     "lbl:max_zoom":17.0,
@@ -100,11 +106,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":119,
     "uscensus:geoid":5511978950,
     "uscensus:name":"Taft",
     "uscensus:namelsad":"Taft town",
+    "uscensus:population":308,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -114,8 +123,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5511978950
+        "uscensus:geoid":"5511978950"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460257
     ],
@@ -134,11 +144,11 @@
         }
     ],
     "wof:id":404493793,
-    "wof:lastmodified":1605055949,
+    "wof:lastmodified":1722117828,
     "wof:name":"Taft",
     "wof:parent_id":102081769,
     "wof:placetype":"localadmin",
-    "wof:population":430,
+    "wof:population":308,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

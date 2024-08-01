@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006421,
-    "geom:area_square_m":59767278.890558,
+    "geom:area_square_m":59767278.890547,
     "geom:bbox":"-81.193268,41.133757,-81.098116,41.202156",
     "geom:latitude":41.167941,
     "geom:longitude":-81.145803,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.168109,
     "lbl:longitude":-81.145817,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":133,
     "uscensus:geoid":3913313610,
     "uscensus:name":"Charlestown",
     "uscensus:namelsad":"Charlestown township",
+    "uscensus:population":1762,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3913313610
+        "uscensus:geoid":"3913313610"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471213
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404523941,
-    "wof:lastmodified":1605056090,
+    "wof:lastmodified":1722118005,
     "wof:name":"Charlestown Township",
     "wof:parent_id":102084819,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1799,
+    "wof:population":1762,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

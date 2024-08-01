@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000253,
-    "geom:area_square_m":2342246.727147,
+    "geom:area_square_m":2342246.727144,
     "geom:bbox":"-79.694933,41.463342,-79.67379,41.478188",
     "geom:latitude":41.470401,
     "geom:longitude":-79.684667,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.470956,
     "lbl:longitude":-79.685523,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":121,
     "uscensus:geoid":4212166440,
     "uscensus:name":"Rouseville",
     "uscensus:namelsad":"Rouseville borough",
+    "uscensus:population":445,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212166440
+        "uscensus:geoid":"4212166440"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404483933,
-    "wof:lastmodified":1605055445,
+    "wof:lastmodified":1722117765,
     "wof:name":"Rouseville",
     "wof:parent_id":102081279,
     "wof:placetype":"localadmin",
-    "wof:population":523,
+    "wof:population":445,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

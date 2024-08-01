@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010128,
-    "geom:area_square_m":98329094.043496,
+    "geom:area_square_m":98329094.0435,
     "geom:bbox":"-87.988164,38.228715,-87.807669,38.360431",
     "geom:latitude":38.266728,
     "geom:longitude":-87.875163,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.25738,
     "lbl:longitude":-87.881275,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":1805179298,
     "uscensus:name":"Wabash",
     "uscensus:namelsad":"Wabash township",
+    "uscensus:population":27,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1805179298
+        "uscensus:geoid":"1805179298"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729454845
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404500745,
-    "wof:lastmodified":1604969693,
+    "wof:lastmodified":1722117868,
     "wof:name":"Wabash Township",
     "wof:parent_id":102086375,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":30,
+    "wof:population":27,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

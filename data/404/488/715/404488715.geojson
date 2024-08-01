@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010834,
-    "geom:area_square_m":96678901.583874,
+    "geom:area_square_m":96678901.583945,
     "geom:bbox":"-98.796965,43.759667,-98.674113,43.848808",
     "geom:latitude":43.804382,
     "geom:longitude":-98.735175,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.804272,
     "lbl:longitude":-98.735216,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4600334780,
     "uscensus:name":"Lake",
     "uscensus:namelsad":"Lake township",
+    "uscensus:population":51,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4600334780
+        "uscensus:geoid":"4600334780"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467129
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404488715,
-    "wof:lastmodified":1605055808,
+    "wof:lastmodified":1722117796,
     "wof:name":"Lake Township",
     "wof:parent_id":102086839,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":49,
+    "wof:population":51,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

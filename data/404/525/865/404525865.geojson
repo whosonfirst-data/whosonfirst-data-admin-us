@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006093,
-    "geom:area_square_m":56440440.033863,
+    "geom:area_square_m":56440440.033859,
     "geom:bbox":"-83.068157,41.457169,-82.952224,41.516976",
     "geom:latitude":41.484319,
     "geom:longitude":-83.008787,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.485015,
     "lbl:longitude":-83.009543,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":123,
     "uscensus:geoid":3912304304,
     "uscensus:name":"Bay",
     "uscensus:namelsad":"Bay township",
+    "uscensus:population":1114,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3912304304
+        "uscensus:geoid":"3912304304"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466653
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404525865,
-    "wof:lastmodified":1605056061,
+    "wof:lastmodified":1722118019,
     "wof:name":"Bay Township",
     "wof:parent_id":102083765,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1458,
+    "wof:population":1114,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

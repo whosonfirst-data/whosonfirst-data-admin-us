@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007052,
-    "geom:area_square_m":66647795.174526,
+    "geom:area_square_m":66647795.174529,
     "geom:bbox":"-82.56758,40.112486,-82.467364,40.191399",
     "geom:latitude":40.151984,
     "geom:longitude":-82.517514,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.151925,
     "lbl:longitude":-82.517516,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":89,
     "uscensus:geoid":3908946116,
     "uscensus:name":"McKean",
     "uscensus:namelsad":"McKean township",
+    "uscensus:population":1632,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3908946116
+        "uscensus:geoid":"3908946116"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466679
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404525239,
-    "wof:lastmodified":1605056061,
+    "wof:lastmodified":1722118014,
     "wof:name":"Mckean Township",
     "wof:parent_id":102084761,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1523,
+    "wof:population":1632,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

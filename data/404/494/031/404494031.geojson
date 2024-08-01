@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.023086,
-    "geom:area_square_m":200453906.182694,
+    "geom:area_square_m":200453906.182658,
     "geom:bbox":"-88.060379,45.335208,-87.814164,45.454868",
     "geom:latitude":45.395137,
     "geom:longitude":-87.9565,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.407041,
     "lbl:longitude":-88.009618,
     "lbl:max_zoom":16.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":75,
     "uscensus:geoid":5507584550,
     "uscensus:name":"Wausaukee",
     "uscensus:namelsad":"Wausaukee town",
+    "uscensus:population":1123,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5507584550
+        "uscensus:geoid":"5507584550"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464085
     ],
@@ -80,11 +90,11 @@
         }
     ],
     "wof:id":404494031,
-    "wof:lastmodified":1605055963,
+    "wof:lastmodified":1722117830,
     "wof:name":"Wausaukee",
     "wof:parent_id":102081785,
     "wof:placetype":"localadmin",
-    "wof:population":1066,
+    "wof:population":1123,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

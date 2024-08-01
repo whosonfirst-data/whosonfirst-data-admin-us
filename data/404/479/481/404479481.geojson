@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000078,
-    "geom:area_square_m":645399.022239,
+    "geom:area_square_m":645399.02224,
     "geom:bbox":"-101.08968,47.826456,-101.079015,47.833835",
     "geom:latitude":47.830132,
     "geom:longitude":-101.084323,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.830131,
     "lbl:longitude":-101.08433,
     "lbl:max_zoom":18.0,
@@ -97,11 +103,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":55,
     "uscensus:geoid":3805505980,
     "uscensus:name":"Benedict",
     "uscensus:namelsad":"Benedict city",
+    "uscensus:population":66,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -111,8 +120,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3805505980
+        "uscensus:geoid":"3805505980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -128,7 +138,7 @@
         }
     ],
     "wof:id":404479481,
-    "wof:lastmodified":1605055480,
+    "wof:lastmodified":1722117738,
     "wof:name":"Benedict",
     "wof:parent_id":102082097,
     "wof:placetype":"localadmin",

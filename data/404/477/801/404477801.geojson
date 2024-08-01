@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014881,
-    "geom:area_square_m":141560128.433622,
+    "geom:area_square_m":141560128.433596,
     "geom:bbox":"-74.390372,39.640307,-74.148647,39.77449",
     "geom:latitude":39.704953,
     "geom:longitude":-74.264398,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.700304,
     "lbl:longitude":-74.262564,
     "lbl:max_zoom":14.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":3402970320,
     "uscensus:name":"Stafford",
     "uscensus:namelsad":"Stafford township",
+    "uscensus:population":30261,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3402970320
+        "uscensus:geoid":"3402970320"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404477801,
-    "wof:lastmodified":1605055431,
+    "wof:lastmodified":1722117725,
     "wof:name":"Stafford Township",
     "wof:parent_id":102081485,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":26535,
+    "wof:population":30261,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

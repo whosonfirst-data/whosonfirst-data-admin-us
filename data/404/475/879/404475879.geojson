@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006878,
-    "geom:area_square_m":61755216.121332,
+    "geom:area_square_m":61755216.121262,
     "geom:bbox":"-70.607252,43.372186,-70.476865,43.49628",
     "geom:latitude":43.440562,
     "geom:longitude":-70.530039,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.441544,
     "lbl:longitude":-70.518199,
     "lbl:max_zoom":15.0,
@@ -109,11 +115,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":2303101605,
     "uscensus:name":"Arundel",
     "uscensus:namelsad":"Arundel town",
+    "uscensus:population":4471,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
@@ -123,8 +132,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2303101605
+        "uscensus:geoid":"2303101605"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456039
     ],
@@ -143,11 +153,11 @@
         }
     ],
     "wof:id":404475879,
-    "wof:lastmodified":1605055850,
+    "wof:lastmodified":1722117711,
     "wof:name":"Arundel",
     "wof:parent_id":102087449,
     "wof:placetype":"localadmin",
-    "wof:population":4022,
+    "wof:population":4471,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

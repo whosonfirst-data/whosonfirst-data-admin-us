@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000994,
-    "geom:area_square_m":8796424.868232,
+    "geom:area_square_m":8796424.868225,
     "geom:bbox":"-89.929584,44.292811,-89.886418,44.33392",
     "geom:latitude":44.313454,
     "geom:longitude":-89.907269,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.312834,
     "lbl:longitude":-89.911192,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":141,
     "uscensus:geoid":5514155875,
     "uscensus:name":"Nekoosa",
     "uscensus:namelsad":"Nekoosa city",
+    "uscensus:population":2409,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5514155875
+        "uscensus:geoid":"5514155875"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404493657,
-    "wof:lastmodified":1605055946,
+    "wof:lastmodified":1722117827,
     "wof:name":"Nekoosa",
     "wof:parent_id":102081737,
     "wof:placetype":"localadmin",
-    "wof:population":2580,
+    "wof:population":2409,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

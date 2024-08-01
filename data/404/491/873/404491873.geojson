@@ -10,6 +10,12 @@
     "geom:latitude":43.047478,
     "geom:longitude":-90.380072,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "village"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.046695,
     "lbl:longitude":-90.381077,
     "lbl:max_zoom":17.0,
@@ -136,22 +142,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":5504934450,
     "uscensus:name":"Highland",
     "uscensus:namelsad":"Highland village",
+    "uscensus:population":867,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081277
+        102081277,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5504934450
+        "uscensus:geoid":"5504934450"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -167,11 +177,11 @@
         }
     ],
     "wof:id":404491873,
-    "wof:lastmodified":1636499307,
+    "wof:lastmodified":1722117816,
     "wof:name":"Highland",
     "wof:parent_id":102081277,
     "wof:placetype":"localadmin",
-    "wof:population":842,
+    "wof:population":867,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

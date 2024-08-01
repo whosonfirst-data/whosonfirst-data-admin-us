@@ -10,6 +10,12 @@
     "geom:latitude":40.394169,
     "geom:longitude":-79.810022,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.392921,
     "lbl:longitude":-79.809434,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4200385496,
     "uscensus:name":"Wilmerding",
     "uscensus:namelsad":"Wilmerding borough",
+    "uscensus:population":1715,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200385496
+        "uscensus:geoid":"4200385496"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,12 +81,12 @@
         }
     ],
     "wof:id":404482543,
-    "wof:lastmodified":1605055382,
+    "wof:lastmodified":1722117757,
     "wof:name":"Wilmerding",
     "wof:parent_id":102080887,
     "wof:placetype":"localadmin",
-    "wof:population":2190,
-    "wof:population_rank":4,
+    "wof:population":1715,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

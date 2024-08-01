@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010734,
-    "geom:area_square_m":94287962.599009,
+    "geom:area_square_m":94287962.599011,
     "geom:bbox":"-86.059081,44.689228,-85.937084,44.778739",
     "geom:latitude":44.734073,
     "geom:longitude":-85.997881,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.734342,
     "lbl:longitude":-85.997881,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":2601964760,
     "uscensus:name":"Platte",
     "uscensus:namelsad":"Platte township",
+    "uscensus:population":352,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2601964760
+        "uscensus:geoid":"2601964760"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471969
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404506967,
-    "wof:lastmodified":1605055759,
+    "wof:lastmodified":1722117911,
     "wof:name":"Platte Township",
     "wof:parent_id":102082999,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":354,
+    "wof:population":352,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

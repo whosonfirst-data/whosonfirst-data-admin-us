@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009693,
-    "geom:area_square_m":93824983.062409,
+    "geom:area_square_m":93824983.062389,
     "geom:bbox":"-98.145963,38.434426,-98.034797,38.522248",
     "geom:latitude":38.478522,
     "geom:longitude":-98.090316,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.478522,
     "lbl:longitude":-98.090321,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":159,
     "uscensus:geoid":2015925175,
     "uscensus:name":"Galt",
     "uscensus:namelsad":"Galt township",
+    "uscensus:population":83,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2015925175
+        "uscensus:geoid":"2015925175"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464251
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404504997,
-    "wof:lastmodified":1605055296,
+    "wof:lastmodified":1722117897,
     "wof:name":"Galt Township",
     "wof:parent_id":102082709,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":71,
+    "wof:population":83,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

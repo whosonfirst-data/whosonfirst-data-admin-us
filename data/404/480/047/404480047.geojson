@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010918,
-    "geom:area_square_m":92331196.515315,
+    "geom:area_square_m":92331196.515339,
     "geom:bbox":"-97.933761,46.803801,-97.807477,46.891481",
     "geom:latitude":46.84771,
     "geom:longitude":-97.870769,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.847784,
     "lbl:longitude":-97.870771,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3800317300,
     "uscensus:name":"Cuba",
     "uscensus:namelsad":"Cuba township",
+    "uscensus:population":74,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3800317300
+        "uscensus:geoid":"3800317300"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470503
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404480047,
-    "wof:lastmodified":1605055908,
+    "wof:lastmodified":1722117742,
     "wof:name":"Cuba Township",
     "wof:parent_id":102082051,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":76,
+    "wof:population":74,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000263,
-    "geom:area_square_m":2494645.368106,
+    "geom:area_square_m":2494645.368097,
     "geom:bbox":"-75.030583,40.002669,-74.997407,40.020166",
     "geom:latitude":40.011569,
     "geom:longitude":-75.014905,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.012717,
     "lbl:longitude":-75.016037,
     "lbl:max_zoom":15.0,
@@ -100,22 +106,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":3400563660,
     "uscensus:name":"Riverton",
     "uscensus:namelsad":"Riverton borough",
+    "uscensus:population":2781,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688607,
-        102087415
+        102087415,
+        85688607
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400563660
+        "uscensus:geoid":"3400563660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -131,11 +141,11 @@
         }
     ],
     "wof:id":404477961,
-    "wof:lastmodified":1636499292,
+    "wof:lastmodified":1722117726,
     "wof:name":"Riverton",
     "wof:parent_id":102087415,
     "wof:placetype":"localadmin",
-    "wof:population":2779,
+    "wof:population":2781,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

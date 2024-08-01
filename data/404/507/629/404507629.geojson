@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009905,
-    "geom:area_square_m":88380721.840782,
+    "geom:area_square_m":88380721.840841,
     "geom:bbox":"-83.001908,43.766023,-82.88023,43.855779",
     "geom:latitude":43.811216,
     "geom:longitude":-82.93908,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.811258,
     "lbl:longitude":-82.929889,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":63,
     "uscensus:geoid":2606382140,
     "uscensus:name":"Verona",
     "uscensus:namelsad":"Verona township",
+    "uscensus:population":1196,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2606382140
+        "uscensus:geoid":"2606382140"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456013
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404507629,
-    "wof:lastmodified":1605055771,
+    "wof:lastmodified":1722117915,
     "wof:name":"Verona Township",
     "wof:parent_id":102083017,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1259,
+    "wof:population":1196,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

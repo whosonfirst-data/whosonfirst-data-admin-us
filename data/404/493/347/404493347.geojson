@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005489,
-    "geom:area_square_m":48378586.219583,
+    "geom:area_square_m":48378586.219554,
     "geom:bbox":"-87.521696,44.472873,-87.445785,44.588717",
     "geom:latitude":44.540965,
     "geom:longitude":-87.495041,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.541821,
     "lbl:longitude":-87.495762,
     "lbl:max_zoom":17.0,
@@ -106,11 +112,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":5506162625,
     "uscensus:name":"Pierce",
     "uscensus:namelsad":"Pierce town",
+    "uscensus:population":773,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -120,8 +129,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5506162625
+        "uscensus:geoid":"5506162625"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459729
     ],
@@ -140,11 +150,11 @@
         }
     ],
     "wof:id":404493347,
-    "wof:lastmodified":1605055948,
+    "wof:lastmodified":1722117825,
     "wof:name":"Pierce",
     "wof:parent_id":102081295,
     "wof:placetype":"localadmin",
-    "wof:population":833,
+    "wof:population":773,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

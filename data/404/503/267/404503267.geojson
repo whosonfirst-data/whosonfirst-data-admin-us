@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010792,
-    "geom:area_square_m":103671848.379726,
+    "geom:area_square_m":103671848.379719,
     "geom:bbox":"-96.391025,38.985414,-96.241087,39.058273",
     "geom:latitude":39.021747,
     "geom:longitude":-96.316365,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.021727,
     "lbl:longitude":-96.31637,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":197,
     "uscensus:geoid":2019701375,
     "uscensus:name":"Alma",
     "uscensus:namelsad":"Alma township",
+    "uscensus:population":1207,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2019701375
+        "uscensus:geoid":"2019701375"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404503267,
-    "wof:lastmodified":1605055319,
+    "wof:lastmodified":1722233659,
     "wof:name":"Alma Township",
     "wof:parent_id":102082173,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1191,
+    "wof:population":1207,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

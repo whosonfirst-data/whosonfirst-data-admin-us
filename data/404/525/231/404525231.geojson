@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002952,
-    "geom:area_square_m":27951464.691695,
+    "geom:area_square_m":27951464.691716,
     "geom:bbox":"-82.501337,39.989953,-82.370458,40.052354",
     "geom:latitude":40.024147,
     "geom:longitude":-82.441086,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.028639,
     "lbl:longitude":-82.445699,
     "lbl:max_zoom":15.0,
@@ -151,11 +157,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":89,
     "uscensus:geoid":3908934748,
     "uscensus:name":"Heath",
     "uscensus:namelsad":"Heath city",
+    "uscensus:population":10693,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -165,8 +174,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3908934748
+        "uscensus:geoid":"3908934748"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -182,11 +192,11 @@
         }
     ],
     "wof:id":404525231,
-    "wof:lastmodified":1605056060,
+    "wof:lastmodified":1722118014,
     "wof:name":"Heath",
     "wof:parent_id":102084761,
     "wof:placetype":"localadmin",
-    "wof:population":10310,
+    "wof:population":10693,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

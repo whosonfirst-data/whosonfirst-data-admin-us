@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.022769,
-    "geom:area_square_m":213134980.723013,
+    "geom:area_square_m":213134980.723011,
     "geom:bbox":"-85.943124,40.737269,-85.734889,40.869021",
     "geom:latitude":40.798714,
     "geom:longitude":-85.85291,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.80307,
     "lbl:longitude":-85.861328,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":169,
     "uscensus:geoid":1816954162,
     "uscensus:name":"Noble",
     "uscensus:namelsad":"Noble township",
+    "uscensus:population":13700,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1816954162
+        "uscensus:geoid":"1816954162"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404502061,
-    "wof:lastmodified":1604530707,
+    "wof:lastmodified":1722233656,
     "wof:name":"Noble Township",
     "wof:parent_id":102086467,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":14230,
+    "wof:population":13700,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

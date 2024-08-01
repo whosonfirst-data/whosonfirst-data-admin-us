@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001073,
-    "geom:area_square_m":10075024.892864,
+    "geom:area_square_m":10075024.892863,
     "geom:bbox":"-73.701399,40.574632,-73.635702,40.595839",
     "geom:latitude":40.58559,
     "geom:longitude":-73.665434,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.586031,
     "lbl:longitude":-73.664808,
     "lbl:max_zoom":14.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":59,
     "uscensus:geoid":3605943335,
     "uscensus:name":"Long Beach",
     "uscensus:namelsad":"Long Beach city",
+    "uscensus:population":34595,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3605943335
+        "uscensus:geoid":"3605943335"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404522727,
-    "wof:lastmodified":1605056083,
+    "wof:lastmodified":1722117995,
     "wof:name":"Long Beach",
     "wof:parent_id":102082371,
     "wof:placetype":"localadmin",
-    "wof:population":33275,
+    "wof:population":34595,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009108,
-    "geom:area_square_m":85415138.792587,
+    "geom:area_square_m":85415138.792583,
     "geom:bbox":"-91.185295,40.634946,-91.022177,40.720702",
     "geom:latitude":40.673975,
     "geom:longitude":-91.078191,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.678262,
     "lbl:longitude":-91.071597,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":71,
     "uscensus:geoid":1707144394,
     "uscensus:name":"Lomax",
     "uscensus:namelsad":"Lomax township",
+    "uscensus:population":705,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1707144394
+        "uscensus:geoid":"1707144394"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404498119,
-    "wof:lastmodified":1605055564,
+    "wof:lastmodified":1722233640,
     "wof:name":"Lomax Township",
     "wof:parent_id":102086929,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":850,
+    "wof:population":705,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

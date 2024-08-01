@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000098,
-    "geom:area_square_m":941861.503327,
+    "geom:area_square_m":941861.503328,
     "geom:bbox":"-74.830856,38.995649,-74.812963,39.007181",
     "geom:latitude":39.000607,
     "geom:longitude":-74.823546,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.000187,
     "lbl:longitude":-74.823681,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":3400980210,
     "uscensus:name":"West Wildwood",
     "uscensus:namelsad":"West Wildwood borough",
+    "uscensus:population":542,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400980210
+        "uscensus:geoid":"3400980210"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404477413,
-    "wof:lastmodified":1605055416,
+    "wof:lastmodified":1722117722,
     "wof:name":"West Wildwood",
     "wof:parent_id":102086777,
     "wof:placetype":"localadmin",
-    "wof:population":603,
+    "wof:population":542,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

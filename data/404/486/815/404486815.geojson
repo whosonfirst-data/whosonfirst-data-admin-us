@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000298,
-    "geom:area_square_m":2823212.509042,
+    "geom:area_square_m":2823212.509043,
     "geom:bbox":"-79.911144,40.009124,-79.874267,40.028282",
     "geom:latitude":40.018766,
     "geom:longitude":-79.891027,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.016668,
     "lbl:longitude":-79.893807,
     "lbl:max_zoom":15.0,
@@ -106,11 +112,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":4205109432,
     "uscensus:name":"Brownsville",
     "uscensus:namelsad":"Brownsville borough",
+    "uscensus:population":2102,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -120,8 +129,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4205109432
+        "uscensus:geoid":"4205109432"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -137,11 +147,11 @@
         }
     ],
     "wof:id":404486815,
-    "wof:lastmodified":1605055871,
+    "wof:lastmodified":1722117783,
     "wof:name":"Brownsville",
     "wof:parent_id":102080959,
     "wof:placetype":"localadmin",
-    "wof:population":2331,
+    "wof:population":2102,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

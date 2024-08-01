@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010388,
-    "geom:area_square_m":93380797.127329,
+    "geom:area_square_m":93380797.127344,
     "geom:bbox":"-83.344177,43.322422,-83.222962,43.412181",
     "geom:latitude":43.367185,
     "geom:longitude":-83.28378,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.367129,
     "lbl:longitude":-83.283784,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":157,
     "uscensus:geoid":2615719980,
     "uscensus:name":"Dayton",
     "uscensus:namelsad":"Dayton township",
+    "uscensus:population":1906,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2615719980
+        "uscensus:geoid":"2615719980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404506513,
-    "wof:lastmodified":1605055765,
+    "wof:lastmodified":1722117908,
     "wof:name":"Dayton Township",
     "wof:parent_id":102082989,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1848,
+    "wof:population":1906,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

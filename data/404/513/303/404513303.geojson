@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007527,
-    "geom:area_square_m":63191959.871905,
+    "geom:area_square_m":63191959.871916,
     "geom:bbox":"-93.576848,47.19513,-93.468317,47.28247",
     "geom:latitude":47.237982,
     "geom:longitude":-93.532663,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.245001,
     "lbl:longitude":-93.543463,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":2706125118,
     "uscensus:name":"Grand Rapids",
     "uscensus:namelsad":"Grand Rapids city",
+    "uscensus:population":11271,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2706125118
+        "uscensus:geoid":"2706125118"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404513303,
-    "wof:lastmodified":1605056040,
+    "wof:lastmodified":1722117957,
     "wof:name":"Grand Rapids",
     "wof:parent_id":102086963,
     "wof:placetype":"localadmin",
-    "wof:population":10869,
+    "wof:population":11271,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

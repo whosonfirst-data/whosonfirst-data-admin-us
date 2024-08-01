@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014389,
-    "geom:area_square_m":128404095.818245,
+    "geom:area_square_m":128404095.818271,
     "geom:bbox":"-73.392799,43.753084,-73.206322,43.858072",
     "geom:latitude":43.806206,
     "geom:longitude":-73.293155,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.804899,
     "lbl:longitude":-73.293155,
     "lbl:max_zoom":16.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":5000153725,
     "uscensus:name":"Orwell",
     "uscensus:namelsad":"Orwell town",
+    "uscensus:population":1246,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5000153725
+        "uscensus:geoid":"5000153725"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472001
     ],
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404527445,
-    "wof:lastmodified":1605055683,
+    "wof:lastmodified":1722118031,
     "wof:name":"Orwell",
     "wof:parent_id":102080765,
     "wof:placetype":"localadmin",
-    "wof:population":1250,
+    "wof:population":1246,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

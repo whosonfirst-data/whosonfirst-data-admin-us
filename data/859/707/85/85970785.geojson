@@ -141,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1552126,
     "uscensus:awater":24894,
     "uscensus:classfp":"C1",
@@ -157,6 +158,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"65034",
     "uscensus:placens":"02396504",
+    "uscensus:population":307,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"29",
     "wd:elevation":117.0,
     "wd:latitude":37.8761,
@@ -164,11 +167,11 @@
     "wd:population":360,
     "wd:wordcount":934,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404518283,
         85633793,
-        102086899
+        102086899,
+        404518283,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -176,10 +179,11 @@
         "gn:id":4407110,
         "gp:id":2487059,
         "qs_pg:id":153608,
-        "uscensus:geoid":2965034,
+        "uscensus:geoid":"2965034",
         "wd:id":"Q965988",
         "wk:page":"St. Mary, Missouri"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -197,11 +201,11 @@
         }
     ],
     "wof:id":85970785,
-    "wof:lastmodified":1690882047,
+    "wof:lastmodified":1722115960,
     "wof:name":"St. Mary",
     "wof:parent_id":404518283,
     "wof:placetype":"locality",
-    "wof:population":360,
+    "wof:population":307,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

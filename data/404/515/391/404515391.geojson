@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009653,
-    "geom:area_square_m":93614459.276481,
+    "geom:area_square_m":93614459.276433,
     "geom:bbox":"-94.182533,38.301438,-94.067936,38.390842",
     "geom:latitude":38.346164,
     "geom:longitude":-94.125335,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.346083,
     "lbl:longitude":-94.125337,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":2901370198,
     "uscensus:name":"Spruce",
     "uscensus:namelsad":"Spruce township",
+    "uscensus:population":303,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":29,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2901370198
+        "uscensus:geoid":"2901370198"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729479317
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404515391,
-    "wof:lastmodified":1604970160,
+    "wof:lastmodified":1722117972,
     "wof:name":"Spruce Township",
     "wof:parent_id":102085289,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":330,
+    "wof:population":303,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

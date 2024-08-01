@@ -9,11 +9,23 @@
     "geom:bbox":"-85.412689,33.361997,-85.382441,33.3874",
     "geom:latitude":33.375627,
     "geom:longitude":-85.397439,
+    "gn:admin1_code":"AL",
+    "gn:admin2_code":"111.0",
+    "gn:asciiname":"Woodland",
+    "gn:country_code":"US",
+    "gn:dem":336,
     "gn:elevation":336,
+    "gn:feature_class":"P",
+    "gn:feature_code":"PPL",
+    "gn:geonameid":4098389,
     "gn:latitude":33.37428,
     "gn:longitude":-85.39967,
+    "gn:modification_date":"2017-03-09",
+    "gn:name":"Woodland",
     "gn:population":184,
+    "gn:timezone":"America/Chicago",
     "iso:country":"US",
+    "lbl:bbox":"-85.41967,33.35428,-85.37967,33.39428",
     "lbl:latitude":33.376007,
     "lbl:longitude":-85.397668,
     "lbl:max_zoom":18.0,
@@ -144,7 +156,10 @@
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":227,
+    "uscensus:population_date":"2023",
     "wd:elevation":330.0,
     "wd:latitude":33.373655,
     "wd:longitude":-85.3957,
@@ -152,8 +167,8 @@
     "wof:belongsto":[
         102191575,
         85633793,
-        85688675,
-        102085739
+        102085739,
+        85688675
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -167,8 +182,17 @@
         "wk:page":"Woodland, Alabama"
     },
     "wof:concordances_alt":{
-        "qs_pg:id":202240
+        "gn:id":[
+            4098389
+        ],
+        "qs_pg:id":[
+            202240
+        ],
+        "wk:page":[
+            "Woodland%2C_Alabama"
+        ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg"
@@ -187,15 +211,17 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884267,
+    "wof:lastmodified":1722116394,
     "wof:name":"Woodland",
     "wof:parent_id":102085739,
     "wof:placetype":"locality",
-    "wof:population":184,
-    "wof:population_rank":1,
+    "wof:population":227,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1242693379
+    ],
     "wof:tags":[]
 },
   "bbox": [

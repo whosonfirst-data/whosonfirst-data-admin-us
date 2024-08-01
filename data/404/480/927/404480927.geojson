@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01058,
-    "geom:area_square_m":87725868.325166,
+    "geom:area_square_m":87725868.325112,
     "geom:bbox":"-100.456341,47.847336,-100.327346,47.934607",
     "geom:latitude":47.889092,
     "geom:longitude":-100.392864,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.880673,
     "lbl:longitude":-100.398016,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":3804975020,
     "uscensus:name":"Spring Grove",
     "uscensus:namelsad":"Spring Grove township",
+    "uscensus:population":38,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3804975020
+        "uscensus:geoid":"3804975020"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475463
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404480927,
-    "wof:lastmodified":1605055918,
+    "wof:lastmodified":1722117747,
     "wof:name":"Spring Grove Township",
     "wof:parent_id":102082517,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":39,
+    "wof:population":38,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

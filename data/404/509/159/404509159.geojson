@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011101,
-    "geom:area_square_m":94551655.068796,
+    "geom:area_square_m":94551655.068746,
     "geom:bbox":"-93.558987,46.417652,-93.430692,46.505709",
     "geom:latitude":46.46178,
     "geom:longitude":-93.495289,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.461909,
     "lbl:longitude":-93.495289,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":2700123930,
     "uscensus:name":"Glen",
     "uscensus:namelsad":"Glen township",
+    "uscensus:population":446,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2700123930
+        "uscensus:geoid":"2700123930"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460021
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404509159,
-    "wof:lastmodified":1605055784,
+    "wof:lastmodified":1722117927,
     "wof:name":"Glen Township",
     "wof:parent_id":102087811,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":450,
+    "wof:population":446,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

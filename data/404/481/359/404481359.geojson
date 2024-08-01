@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011329,
-    "geom:area_square_m":92981125.614832,
+    "geom:area_square_m":92981125.614865,
     "geom:bbox":"-98.709893,48.369921,-98.57898,48.457146",
     "geom:latitude":48.413506,
     "geom:longitude":-98.644513,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.413504,
     "lbl:longitude":-98.644528,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":71,
     "uscensus:geoid":3807160340,
     "uscensus:name":"Overland",
     "uscensus:namelsad":"Overland township",
+    "uscensus:population":15,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3807160340
+        "uscensus:geoid":"3807160340"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473877
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404481359,
-    "wof:lastmodified":1605055828,
+    "wof:lastmodified":1722117750,
     "wof:name":"Overland Township",
     "wof:parent_id":102081517,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":14,
+    "wof:population":15,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

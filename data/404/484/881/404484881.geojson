@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000209,
-    "geom:area_square_m":1967256.940371,
+    "geom:area_square_m":1967256.940364,
     "geom:bbox":"-80.046487,40.383017,-80.028696,40.40429",
     "geom:latitude":40.394046,
     "geom:longitude":-80.037709,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.394367,
     "lbl:longitude":-80.037842,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4200319576,
     "uscensus:name":"Dormont",
     "uscensus:namelsad":"Dormont borough",
+    "uscensus:population":7930,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200319576
+        "uscensus:geoid":"4200319576"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404484881,
-    "wof:lastmodified":1605055456,
+    "wof:lastmodified":1722117771,
     "wof:name":"Dormont",
     "wof:parent_id":102080887,
     "wof:placetype":"localadmin",
-    "wof:population":8593,
+    "wof:population":7930,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

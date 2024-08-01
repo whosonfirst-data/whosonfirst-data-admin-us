@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000144,
-    "geom:area_square_m":1195895.849018,
+    "geom:area_square_m":1195895.849015,
     "geom:bbox":"-95.276387,47.645137,-95.250429,47.656338",
     "geom:latitude":47.651233,
     "geom:longitude":-95.266973,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.651187,
     "lbl:longitude":-95.272579,
     "lbl:max_zoom":18.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":2702936494,
     "uscensus:name":"Leonard",
     "uscensus:namelsad":"Leonard city",
+    "uscensus:population":44,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2702936494
+        "uscensus:geoid":"2702936494"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404509143,
-    "wof:lastmodified":1605055791,
+    "wof:lastmodified":1722117927,
     "wof:name":"Leonard",
     "wof:parent_id":102087753,
     "wof:placetype":"localadmin",
-    "wof:population":41,
+    "wof:population":44,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

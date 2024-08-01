@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011249,
-    "geom:area_square_m":92644458.082992,
+    "geom:area_square_m":92644458.082972,
     "geom:bbox":"-100.106838,48.195411,-99.977163,48.282762",
     "geom:latitude":48.239093,
     "geom:longitude":-100.04201,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.239104,
     "lbl:longitude":-100.042011,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":69,
     "uscensus:geoid":3806980100,
     "uscensus:name":"Tuscarora",
     "uscensus:namelsad":"Tuscarora township",
+    "uscensus:population":68,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3806980100
+        "uscensus:geoid":"3806980100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461237
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404482317,
-    "wof:lastmodified":1605055391,
+    "wof:lastmodified":1722117756,
     "wof:name":"Tuscarora Township",
     "wof:parent_id":102082085,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":62,
+    "wof:population":68,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000174,
-    "geom:area_square_m":1551929.811975,
+    "geom:area_square_m":1551929.811967,
     "geom:bbox":"-90.930134,43.899964,-90.910054,43.91703",
     "geom:latitude":43.907429,
     "geom:longitude":-90.917579,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "village"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.904429,
     "lbl:longitude":-90.918887,
     "lbl:max_zoom":17.0,
@@ -88,11 +94,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":63,
     "uscensus:geoid":5506368900,
     "uscensus:name":"Rockland",
     "uscensus:namelsad":"Rockland village",
+    "uscensus:population":778,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -102,8 +111,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5506368900
+        "uscensus:geoid":"5506368900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -119,11 +129,11 @@
         }
     ],
     "wof:id":404491719,
-    "wof:lastmodified":1605055591,
+    "wof:lastmodified":1722117815,
     "wof:name":"Rockland",
     "wof:parent_id":102081301,
     "wof:placetype":"localadmin",
-    "wof:population":594,
+    "wof:population":778,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

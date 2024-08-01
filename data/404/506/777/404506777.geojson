@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010181,
-    "geom:area_square_m":92872881.794428,
+    "geom:area_square_m":92872881.794398,
     "geom:bbox":"-86.012929,42.418906,-85.894982,42.506652",
     "geom:latitude":42.462756,
     "geom:longitude":-85.954232,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.462805,
     "lbl:longitude":-85.954221,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":2600515200,
     "uscensus:name":"Cheshire",
     "uscensus:namelsad":"Cheshire township",
+    "uscensus:population":2229,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2600515200
+        "uscensus:geoid":"2600515200"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471585
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404506777,
-    "wof:lastmodified":1605055757,
+    "wof:lastmodified":1722117909,
     "wof:name":"Cheshire Township",
     "wof:parent_id":102083043,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2199,
+    "wof:population":2229,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

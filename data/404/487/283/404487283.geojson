@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.022489,
-    "geom:area_square_m":207627642.750937,
+    "geom:area_square_m":207627642.750864,
     "geom:bbox":"-75.211366,41.608721,-75.043562,41.778823",
     "geom:latitude":41.699332,
     "geom:longitude":-75.125241,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.697916,
     "lbl:longitude":-75.132031,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":127,
     "uscensus:geoid":4212718104,
     "uscensus:name":"Damascus",
     "uscensus:namelsad":"Damascus township",
+    "uscensus:population":3704,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212718104
+        "uscensus:geoid":"4212718104"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464747
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404487283,
-    "wof:lastmodified":1605055890,
+    "wof:lastmodified":1722117786,
     "wof:name":"Damascus Township",
     "wof:parent_id":102081379,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3659,
+    "wof:population":3704,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

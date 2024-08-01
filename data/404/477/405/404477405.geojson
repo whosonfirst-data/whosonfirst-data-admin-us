@@ -10,6 +10,12 @@
     "geom:latitude":39.916648,
     "geom:longitude":-75.095624,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.916765,
     "lbl:longitude":-75.09551,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":3400782450,
     "uscensus:name":"Woodlynne",
     "uscensus:namelsad":"Woodlynne borough",
+    "uscensus:population":2909,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400782450
+        "uscensus:geoid":"3400782450"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404477405,
-    "wof:lastmodified":1605055430,
+    "wof:lastmodified":1722117722,
     "wof:name":"Woodlynne",
     "wof:parent_id":102081131,
     "wof:placetype":"localadmin",
-    "wof:population":2978,
+    "wof:population":2909,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

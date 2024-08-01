@@ -10,6 +10,12 @@
     "geom:latitude":38.73257,
     "geom:longitude":-98.228637,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.733202,
     "lbl:longitude":-98.227217,
     "lbl:max_zoom":15.0,
@@ -91,11 +97,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":53,
     "uscensus:geoid":2005320500,
     "uscensus:name":"Ellsworth",
     "uscensus:namelsad":"Ellsworth city",
+    "uscensus:population":3133,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -105,8 +114,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2005320500
+        "uscensus:geoid":"2005320500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -122,11 +132,11 @@
         }
     ],
     "wof:id":404503561,
-    "wof:lastmodified":1605055314,
+    "wof:lastmodified":1722117886,
     "wof:name":"Ellsworth",
     "wof:parent_id":102085323,
     "wof:placetype":"localadmin",
-    "wof:population":3120,
+    "wof:population":3133,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010243,
-    "geom:area_square_m":97635840.10074,
+    "geom:area_square_m":97635840.100753,
     "geom:bbox":"-83.266737,39.51219,-83.158576,39.627109",
     "geom:latitude":39.565211,
     "geom:longitude":-83.21303,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.564716,
     "lbl:longitude":-83.21406,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":129,
     "uscensus:geoid":3912962008,
     "uscensus:name":"Perry",
     "uscensus:namelsad":"Perry township",
+    "uscensus:population":1311,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3912962008
+        "uscensus:geoid":"3912962008"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404526041,
-    "wof:lastmodified":1605055644,
+    "wof:lastmodified":1722233688,
     "wof:name":"Perry Township",
     "wof:parent_id":102084815,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1328,
+    "wof:population":1311,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

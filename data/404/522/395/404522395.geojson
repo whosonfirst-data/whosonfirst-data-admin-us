@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012709,
-    "geom:area_square_m":111439752.981975,
+    "geom:area_square_m":111439752.981966,
     "geom:bbox":"-74.499745,44.783467,-74.362054,44.891425",
     "geom:latitude":44.837513,
     "geom:longitude":-74.43014,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.837249,
     "lbl:longitude":-74.430149,
     "lbl:max_zoom":15.0,
@@ -160,11 +166,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":33,
     "uscensus:geoid":3603304319,
     "uscensus:name":"Bangor",
     "uscensus:namelsad":"Bangor town",
+    "uscensus:population":2211,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -174,8 +183,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3603304319
+        "uscensus:geoid":"3603304319"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468921
     ],
@@ -194,11 +204,11 @@
         }
     ],
     "wof:id":404522395,
-    "wof:lastmodified":1605056074,
+    "wof:lastmodified":1722117993,
     "wof:name":"Bangor",
     "wof:parent_id":102081817,
     "wof:placetype":"localadmin",
-    "wof:population":2224,
+    "wof:population":2211,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011027,
-    "geom:area_square_m":92796028.866263,
+    "geom:area_square_m":92796028.866223,
     "geom:bbox":"-98.467371,47.066545,-98.34035,47.15371",
     "geom:latitude":47.110104,
     "geom:longitude":-98.403936,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.110139,
     "lbl:longitude":-98.403939,
     "lbl:max_zoom":18.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3800380980,
     "uscensus:name":"Uxbridge",
     "uscensus:namelsad":"Uxbridge township",
+    "uscensus:population":77,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3800380980
+        "uscensus:geoid":"3800380980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474405
     ],
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404478669,
-    "wof:lastmodified":1605055338,
+    "wof:lastmodified":1722117732,
     "wof:name":"Uxbridge Township",
     "wof:parent_id":102082051,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":89,
+    "wof:population":77,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

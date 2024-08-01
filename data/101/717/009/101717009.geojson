@@ -113,7 +113,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":13432027,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -129,13 +130,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"41848",
     "uscensus:placens":"01215398",
+    "uscensus:population":564,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"42",
     "wof:belongsto":[
-        85688481,
         102191575,
-        404483539,
         85633793,
-        102081351
+        102081351,
+        404483539,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -144,9 +147,10 @@
         "gn:id":5197355,
         "gp:id":2437079,
         "qs_pg:id":1013170,
-        "uscensus:geoid":4241848,
+        "uscensus:geoid":"4241848",
         "wd:id":"Q1183174"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -167,11 +171,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889738,
+    "wof:lastmodified":1722116346,
     "wof:name":"Laurel Run",
     "wof:parent_id":404483539,
     "wof:placetype":"locality",
-    "wof:population":500,
+    "wof:population":564,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001352,
-    "geom:area_square_m":12568428.406126,
+    "geom:area_square_m":12568428.406116,
     "geom:bbox":"-75.96058,41.24018,-75.911189,41.288074",
     "geom:latitude":41.263896,
     "geom:longitude":-75.932571,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.263617,
     "lbl:longitude":-75.932945,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":79,
     "uscensus:geoid":4207941608,
     "uscensus:name":"Larksville",
     "uscensus:namelsad":"Larksville borough",
+    "uscensus:population":4252,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207941608
+        "uscensus:geoid":"4207941608"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404486889,
-    "wof:lastmodified":1605055861,
+    "wof:lastmodified":1722117783,
     "wof:name":"Larksville",
     "wof:parent_id":102081351,
     "wof:placetype":"localadmin",
-    "wof:population":4480,
+    "wof:population":4252,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

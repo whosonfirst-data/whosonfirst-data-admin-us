@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002555,
-    "geom:area_square_m":23858841.270183,
+    "geom:area_square_m":23858841.270172,
     "geom:bbox":"-73.944662,40.913604,-73.893979,41.005885",
     "geom:latitude":40.961639,
     "geom:longitude":-73.919908,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.961311,
     "lbl:longitude":-73.921624,
     "lbl:max_zoom":16.0,
@@ -136,22 +142,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3400301090,
     "uscensus:name":"Alpine",
     "uscensus:namelsad":"Alpine borough",
+    "uscensus:population":1750,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688607,
-        102086773
+        102086773,
+        85688607
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400301090
+        "uscensus:geoid":"3400301090"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -167,11 +177,11 @@
         }
     ],
     "wof:id":404477641,
-    "wof:lastmodified":1636499293,
+    "wof:lastmodified":1722117724,
     "wof:name":"Alpine",
     "wof:parent_id":102086773,
     "wof:placetype":"localadmin",
-    "wof:population":1849,
+    "wof:population":1750,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

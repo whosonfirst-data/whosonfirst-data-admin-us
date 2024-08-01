@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000096,
-    "geom:area_square_m":913314.389395,
+    "geom:area_square_m":913314.389396,
     "geom:bbox":"-75.812237,39.955921,-75.793167,39.966885",
     "geom:latitude":39.961812,
     "geom:longitude":-75.802402,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.960727,
     "lbl:longitude":-75.79937,
     "lbl:max_zoom":17.0,
@@ -280,11 +286,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":4202950232,
     "uscensus:name":"Modena",
     "uscensus:namelsad":"Modena borough",
+    "uscensus:population":543,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -294,8 +303,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202950232
+        "uscensus:geoid":"4202950232"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -311,11 +321,11 @@
         }
     ],
     "wof:id":404482929,
-    "wof:lastmodified":1605055390,
+    "wof:lastmodified":1722117759,
     "wof:name":"Modena",
     "wof:parent_id":102081275,
     "wof:placetype":"localadmin",
-    "wof:population":535,
+    "wof:population":543,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

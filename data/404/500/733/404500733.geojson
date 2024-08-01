@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013161,
-    "geom:area_square_m":127806755.066869,
+    "geom:area_square_m":127806755.06692,
     "geom:bbox":"-87.466744,38.201168,-87.316605,38.289923",
     "geom:latitude":38.245458,
     "geom:longitude":-87.391458,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.245528,
     "lbl:longitude":-87.391463,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":1805103556,
     "uscensus:name":"Barton",
     "uscensus:namelsad":"Barton township",
+    "uscensus:population":1476,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1805103556
+        "uscensus:geoid":"1805103556"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404500733,
-    "wof:lastmodified":1604530779,
+    "wof:lastmodified":1722233650,
     "wof:name":"Barton Township",
     "wof:parent_id":102086375,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1677,
+    "wof:population":1476,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

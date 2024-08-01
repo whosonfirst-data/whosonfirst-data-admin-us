@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009684,
-    "geom:area_square_m":90042435.905535,
+    "geom:area_square_m":90042435.905575,
     "geom:bbox":"-88.933078,41.192948,-88.816599,41.281168",
     "geom:latitude":41.238432,
     "geom:longitude":-88.872845,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.236818,
     "lbl:longitude":-88.872841,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":1709925583,
     "uscensus:name":"Farm Ridge",
     "uscensus:namelsad":"Farm Ridge township",
+    "uscensus:population":830,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1709925583
+        "uscensus:geoid":"1709925583"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404499889,
-    "wof:lastmodified":1605055539,
+    "wof:lastmodified":1722233647,
     "wof:name":"Farm Ridge Township",
     "wof:parent_id":102081255,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":918,
+    "wof:population":830,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

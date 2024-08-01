@@ -10,6 +10,12 @@
     "geom:latitude":45.044067,
     "geom:longitude":-96.760441,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.044025,
     "lbl:longitude":-96.759855,
     "lbl:max_zoom":18.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":4605161980,
     "uscensus:name":"Strandburg",
     "uscensus:namelsad":"Strandburg town",
+    "uscensus:population":67,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4605161980
+        "uscensus:geoid":"4605161980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404489039,
-    "wof:lastmodified":1605055927,
+    "wof:lastmodified":1722117798,
     "wof:name":"Strandburg",
     "wof:parent_id":102086849,
     "wof:placetype":"localadmin",
-    "wof:population":72,
+    "wof:population":67,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

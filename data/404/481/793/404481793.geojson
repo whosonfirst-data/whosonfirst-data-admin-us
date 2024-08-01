@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000097,
-    "geom:area_square_m":812659.498977,
+    "geom:area_square_m":812659.498975,
     "geom:bbox":"-100.794295,47.157122,-100.773378,47.164877",
     "geom:latitude":47.160391,
     "geom:longitude":-100.787184,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.16089,
     "lbl:longitude":-100.787185,
     "lbl:max_zoom":17.0,
@@ -100,11 +106,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":55,
     "uscensus:geoid":3805586580,
     "uscensus:name":"Wilton",
     "uscensus:namelsad":"Wilton city",
+    "uscensus:population":529,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -114,8 +123,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3805586580
+        "uscensus:geoid":"3805586580"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -131,11 +141,11 @@
         }
     ],
     "wof:id":404481793,
-    "wof:lastmodified":1605055829,
+    "wof:lastmodified":1722117753,
     "wof:name":"Wilton",
     "wof:parent_id":102082097,
     "wof:placetype":"localadmin",
-    "wof:population":550,
+    "wof:population":529,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003963,
-    "geom:area_square_m":36620448.877659,
+    "geom:area_square_m":36620448.877597,
     "geom:bbox":"-70.919982,41.582058,-70.815818,41.681167",
     "geom:latitude":41.637558,
     "geom:longitude":-70.87144,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.651186,
     "lbl:longitude":-70.871453,
     "lbl:max_zoom":15.0,
@@ -64,11 +70,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":2500522130,
     "uscensus:name":"Fairhaven",
     "uscensus:namelsad":"Fairhaven town",
+    "uscensus:population":15878,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -78,8 +87,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2500522130
+        "uscensus:geoid":"2500522130"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463425
     ],
@@ -98,11 +108,11 @@
         }
     ],
     "wof:id":404476175,
-    "wof:lastmodified":1605055401,
+    "wof:lastmodified":1722117712,
     "wof:name":"Fairhaven",
     "wof:parent_id":102084407,
     "wof:placetype":"localadmin",
-    "wof:population":15873,
+    "wof:population":15878,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

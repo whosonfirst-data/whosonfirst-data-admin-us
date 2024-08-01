@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000558,
-    "geom:area_square_m":4639531.550026,
+    "geom:area_square_m":4639531.550027,
     "geom:bbox":"-99.952367,47.759753,-99.909014,47.796703",
     "geom:latitude":47.776561,
     "geom:longitude":-99.930147,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.770318,
     "lbl:longitude":-99.929677,
     "lbl:max_zoom":16.0,
@@ -100,11 +106,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":103,
     "uscensus:geoid":3810335900,
     "uscensus:name":"Harvey",
     "uscensus:namelsad":"Harvey city",
+    "uscensus:population":1600,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -114,8 +123,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3810335900
+        "uscensus:geoid":"3810335900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -131,11 +141,11 @@
         }
     ],
     "wof:id":404482121,
-    "wof:lastmodified":1605055383,
+    "wof:lastmodified":1722117754,
     "wof:name":"Harvey",
     "wof:parent_id":102081507,
     "wof:placetype":"localadmin",
-    "wof:population":1783,
+    "wof:population":1600,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

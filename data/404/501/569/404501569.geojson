@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014147,
-    "geom:area_square_m":138015390.637497,
+    "geom:area_square_m":138015390.637412,
     "geom:bbox":"-87.268995,37.825048,-87.14688,37.989574",
     "geom:latitude":37.912016,
     "geom:longitude":-87.200779,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.907583,
     "lbl:longitude":-87.20194,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":147,
     "uscensus:geoid":1814745216,
     "uscensus:name":"Luce",
     "uscensus:namelsad":"Luce township",
+    "uscensus:population":2410,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1814745216
+        "uscensus:geoid":"1814745216"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404501569,
-    "wof:lastmodified":1604530755,
+    "wof:lastmodified":1722233654,
     "wof:name":"Luce Township",
     "wof:parent_id":102087069,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2572,
+    "wof:population":2410,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

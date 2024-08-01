@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010231,
-    "geom:area_square_m":91167958.433573,
+    "geom:area_square_m":91167958.433605,
     "geom:bbox":"-95.100586,43.847799,-94.979008,43.934696",
     "geom:latitude":43.890767,
     "geom:longitude":-95.039523,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.882759,
     "lbl:longitude":-95.013442,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":33,
     "uscensus:geoid":2703335000,
     "uscensus:name":"Lakeside",
     "uscensus:namelsad":"Lakeside township",
+    "uscensus:population":230,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2703335000
+        "uscensus:geoid":"2703335000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464297
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404511863,
-    "wof:lastmodified":1605055729,
+    "wof:lastmodified":1722117946,
     "wof:name":"Lakeside Township",
     "wof:parent_id":102086995,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":237,
+    "wof:population":230,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

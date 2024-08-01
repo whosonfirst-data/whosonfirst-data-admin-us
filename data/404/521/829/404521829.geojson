@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010158,
-    "geom:area_square_m":93158000.267248,
+    "geom:area_square_m":93158000.267238,
     "geom:bbox":"-76.114033,42.071361,-75.935441,42.16047",
     "geom:latitude":42.125814,
     "geom:longitude":-76.032956,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.128614,
     "lbl:longitude":-76.03295,
     "lbl:max_zoom":14.0,
@@ -139,11 +145,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":3600776056,
     "uscensus:name":"Union",
     "uscensus:namelsad":"Union town",
+    "uscensus:population":54385,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -153,8 +162,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3600776056
+        "uscensus:geoid":"3600776056"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -170,11 +180,11 @@
         }
     ],
     "wof:id":404521829,
-    "wof:lastmodified":1605055626,
+    "wof:lastmodified":1722233674,
     "wof:name":"Union",
     "wof:parent_id":102081755,
     "wof:placetype":"localadmin",
-    "wof:population":56346,
+    "wof:population":54385,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

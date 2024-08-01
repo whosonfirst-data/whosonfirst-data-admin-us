@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010708,
-    "geom:area_square_m":93153658.563321,
+    "geom:area_square_m":93153658.56329,
     "geom:bbox":"-98.969646,45.244692,-98.845191,45.331702",
     "geom:latitude":45.288239,
     "geom:longitude":-98.907349,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.288245,
     "lbl:longitude":-98.907351,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":4604533700,
     "uscensus:name":"Kent",
     "uscensus:namelsad":"Kent township",
+    "uscensus:population":24,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4604533700
+        "uscensus:geoid":"4604533700"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466713
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404488659,
-    "wof:lastmodified":1605055806,
+    "wof:lastmodified":1722117795,
     "wof:name":"Kent Township",
     "wof:parent_id":102086789,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":29,
+    "wof:population":24,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

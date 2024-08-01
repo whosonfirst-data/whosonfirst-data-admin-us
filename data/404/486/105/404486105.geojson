@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000436,
-    "geom:area_square_m":4071368.092426,
+    "geom:area_square_m":4071368.092428,
     "geom:bbox":"-76.633434,40.946321,-76.592559,40.980651",
     "geom:latitude":40.961514,
     "geom:longitude":-76.612077,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.962461,
     "lbl:longitude":-76.61346,
     "lbl:max_zoom":15.0,
@@ -103,22 +109,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":93,
     "uscensus:geoid":4209318136,
     "uscensus:name":"Danville",
     "uscensus:namelsad":"Danville borough",
+    "uscensus:population":4140,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688481,
-        102080931
+        102080931,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4209318136
+        "uscensus:geoid":"4209318136"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -134,11 +144,11 @@
         }
     ],
     "wof:id":404486105,
-    "wof:lastmodified":1636499381,
+    "wof:lastmodified":1722117778,
     "wof:name":"Danville",
     "wof:parent_id":102080931,
     "wof:placetype":"localadmin",
-    "wof:population":4699,
+    "wof:population":4140,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

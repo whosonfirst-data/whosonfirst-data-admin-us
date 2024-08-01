@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010627,
-    "geom:area_square_m":99184544.332348,
+    "geom:area_square_m":99184544.332368,
     "geom:bbox":"-77.105018,40.907644,-77.027157,41.085575",
     "geom:latitude":40.991122,
     "geom:longitude":-77.069643,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.988079,
     "lbl:longitude":-77.065911,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":119,
     "uscensus:geoid":4211982640,
     "uscensus:name":"West Buffalo",
     "uscensus:namelsad":"West Buffalo township",
+    "uscensus:population":2846,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4211982640
+        "uscensus:geoid":"4211982640"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463955
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404487519,
-    "wof:lastmodified":1605055885,
+    "wof:lastmodified":1722117787,
     "wof:name":"West Buffalo Township",
     "wof:parent_id":102081335,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2983,
+    "wof:population":2846,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

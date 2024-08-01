@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000382,
-    "geom:area_square_m":3622198.36727,
+    "geom:area_square_m":3622198.367275,
     "geom:bbox":"-75.361887,39.889414,-75.337536,39.914288",
     "geom:latitude":39.902322,
     "geom:longitude":-75.348744,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.902941,
     "lbl:longitude":-75.348513,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":4204575648,
     "uscensus:name":"Swarthmore",
     "uscensus:namelsad":"Swarthmore borough",
+    "uscensus:population":6536,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4204575648
+        "uscensus:geoid":"4204575648"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404486585,
-    "wof:lastmodified":1605055875,
+    "wof:lastmodified":1722117781,
     "wof:name":"Swarthmore",
     "wof:parent_id":102080913,
     "wof:placetype":"localadmin",
-    "wof:population":6194,
+    "wof:population":6536,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

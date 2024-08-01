@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014315,
-    "geom:area_square_m":138464722.217343,
+    "geom:area_square_m":138464722.21728,
     "geom:bbox":"-88.257592,38.467007,-88.147777,38.599516",
     "geom:latitude":38.533103,
     "geom:longitude":-88.202754,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.533018,
     "lbl:longitude":-88.202748,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":191,
     "uscensus:geoid":1719150946,
     "uscensus:name":"Mount Erie",
     "uscensus:namelsad":"Mount Erie township",
+    "uscensus:population":328,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1719150946
+        "uscensus:geoid":"1719150946"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404498939,
-    "wof:lastmodified":1605055557,
+    "wof:lastmodified":1722233644,
     "wof:name":"Mount Erie Township",
     "wof:parent_id":102082299,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":370,
+    "wof:population":328,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

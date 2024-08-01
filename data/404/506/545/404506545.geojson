@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.057425,
-    "geom:area_square_m":488067096.828961,
+    "geom:area_square_m":488067096.828905,
     "geom:bbox":"-90.418392,46.466718,-89.904475,46.749945",
     "geom:latitude":46.579275,
     "geom:longitude":-90.14994,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":46.584783,
     "lbl:longitude":-90.111054,
@@ -90,22 +93,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":53,
     "uscensus:geoid":2605341080,
     "uscensus:name":"Ironwood",
     "uscensus:namelsad":"Ironwood charter township",
+    "uscensus:population":2196,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688599,
-        102083009
+        102083009,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2605341080
+        "uscensus:geoid":"2605341080"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471565
     ],
@@ -124,11 +131,11 @@
         }
     ],
     "wof:id":404506545,
-    "wof:lastmodified":1636499356,
+    "wof:lastmodified":1722117908,
     "wof:name":"Ironwood",
     "wof:parent_id":102083009,
     "wof:placetype":"localadmin",
-    "wof:population":2333,
+    "wof:population":2196,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

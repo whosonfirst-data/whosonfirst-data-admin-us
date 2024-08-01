@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009328,
-    "geom:area_square_m":88635301.896812,
+    "geom:area_square_m":88635301.896822,
     "geom:bbox":"-97.707292,39.740042,-97.595692,39.827732",
     "geom:latitude":39.782358,
     "geom:longitude":-97.652137,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.776503,
     "lbl:longitude":-97.648367,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":157,
     "uscensus:geoid":2015705625,
     "uscensus:name":"Belleville",
     "uscensus:namelsad":"Belleville township",
+    "uscensus:population":203,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2015705625
+        "uscensus:geoid":"2015705625"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464113
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404504753,
-    "wof:lastmodified":1605055295,
+    "wof:lastmodified":1722117895,
     "wof:name":"Belleville Township",
     "wof:parent_id":102082135,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":236,
+    "wof:population":203,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

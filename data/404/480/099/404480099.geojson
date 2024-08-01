@@ -10,6 +10,12 @@
     "geom:latitude":47.218602,
     "geom:longitude":-97.965306,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.218484,
     "lbl:longitude":-97.9652,
     "lbl:max_zoom":18.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3800372820,
     "uscensus:name":"Sibley",
     "uscensus:namelsad":"Sibley city",
+    "uscensus:population":19,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3800372820
+        "uscensus:geoid":"3800372820"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404480099,
-    "wof:lastmodified":1605055909,
+    "wof:lastmodified":1722117742,
     "wof:name":"Sibley",
     "wof:parent_id":102082051,
     "wof:placetype":"localadmin",
-    "wof:population":30,
+    "wof:population":19,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

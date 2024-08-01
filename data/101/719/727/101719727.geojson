@@ -110,7 +110,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":1660817,
     "uscensus:awater":0,
     "uscensus:classfp":"U1",
@@ -126,13 +127,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"54264",
     "uscensus:placens":"02389552",
+    "uscensus:population":252,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"42",
     "wof:belongsto":[
-        85688481,
         102191575,
-        404488151,
         85633793,
-        102081271
+        102081271,
+        404488151,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -140,13 +143,14 @@
         "gn:id":4560007,
         "gp:id":28745642,
         "qs_pg:id":64267,
-        "uscensus:geoid":4254264,
+        "uscensus:geoid":"4254264",
         "wd:id":"Q3459956",
         "wk:page":"Newtown, Schuylkill County, Pennsylvania"
     },
     "wof:concordances_alt":{
         "qs_pg:id":218974
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -164,11 +168,11 @@
         }
     ],
     "wof:id":101719727,
-    "wof:lastmodified":1690889587,
+    "wof:lastmodified":1722116336,
     "wof:name":"Newtown",
     "wof:parent_id":404488151,
     "wof:placetype":"locality",
-    "wof:population":243,
+    "wof:population":252,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

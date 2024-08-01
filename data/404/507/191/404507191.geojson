@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.03657,
-    "geom:area_square_m":312441853.413607,
+    "geom:area_square_m":312441853.413623,
     "geom:bbox":"-84.98927,46.244301,-84.383815,46.332172",
     "geom:latitude":46.29572,
     "geom:longitude":-84.679831,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":46.302959,
     "lbl:longitude":-84.679831,
@@ -102,11 +105,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":33,
     "uscensus:geoid":2603343480,
     "uscensus:name":"Kinross",
     "uscensus:namelsad":"Kinross charter township",
+    "uscensus:population":6683,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -116,8 +122,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2603343480
+        "uscensus:geoid":"2603343480"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457389
     ],
@@ -136,11 +143,11 @@
         }
     ],
     "wof:id":404507191,
-    "wof:lastmodified":1605055776,
+    "wof:lastmodified":1722117912,
     "wof:name":"Kinross",
     "wof:parent_id":102083033,
     "wof:placetype":"localadmin",
-    "wof:population":7561,
+    "wof:population":6683,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

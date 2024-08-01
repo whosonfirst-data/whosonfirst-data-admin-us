@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010161,
-    "geom:area_square_m":88043642.455484,
+    "geom:area_square_m":88043642.455419,
     "geom:bbox":"-91.05008,45.46555,-90.92444,45.552547",
     "geom:latitude":45.510685,
     "geom:longitude":-90.986864,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.519936,
     "lbl:longitude":-90.986492,
     "lbl:max_zoom":17.0,
@@ -112,11 +118,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":107,
     "uscensus:geoid":5510720000,
     "uscensus:name":"Dewey",
     "uscensus:namelsad":"Dewey town",
+    "uscensus:population":537,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -126,8 +135,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5510720000
+        "uscensus:geoid":"5510720000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471535
     ],
@@ -146,11 +156,11 @@
         }
     ],
     "wof:id":404495201,
-    "wof:lastmodified":1605055992,
+    "wof:lastmodified":1722117838,
     "wof:name":"Dewey",
     "wof:parent_id":102081739,
     "wof:placetype":"localadmin",
-    "wof:population":545,
+    "wof:population":537,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

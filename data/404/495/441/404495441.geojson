@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01012,
-    "geom:area_square_m":89178175.532215,
+    "geom:area_square_m":89178175.532143,
     "geom:bbox":"-89.223524,44.503781,-89.102187,44.591641",
     "geom:latitude":44.549319,
     "geom:longitude":-89.164496,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.547701,
     "lbl:longitude":-89.170494,
     "lbl:max_zoom":17.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":135,
     "uscensus:geoid":5513537050,
     "uscensus:name":"Iola",
     "uscensus:namelsad":"Iola town",
+    "uscensus:population":931,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5513537050
+        "uscensus:geoid":"5513537050"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468849
     ],
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404495441,
-    "wof:lastmodified":1605055981,
+    "wof:lastmodified":1722117839,
     "wof:name":"Iola",
     "wof:parent_id":102081823,
     "wof:placetype":"localadmin",
-    "wof:population":971,
+    "wof:population":931,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

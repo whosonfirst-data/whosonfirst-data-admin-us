@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008364,
-    "geom:area_square_m":80392548.778016,
+    "geom:area_square_m":80392548.778012,
     "geom:bbox":"-74.972253,38.931035,-74.830792,39.039125",
     "geom:latitude":38.981936,
     "geom:longitude":-74.908626,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.987927,
     "lbl:longitude":-74.919308,
     "lbl:max_zoom":14.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":3400941610,
     "uscensus:name":"Lower",
     "uscensus:namelsad":"Lower township",
+    "uscensus:population":21886,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400941610
+        "uscensus:geoid":"3400941610"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404477947,
-    "wof:lastmodified":1605055422,
+    "wof:lastmodified":1722117726,
     "wof:name":"Lower Township",
     "wof:parent_id":102086777,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":22866,
+    "wof:population":21886,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

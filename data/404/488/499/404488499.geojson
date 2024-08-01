@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000544,
-    "geom:area_square_m":4909007.676891,
+    "geom:area_square_m":4909007.676897,
     "geom:bbox":"-98.312926,43.059343,-98.275708,43.088932",
     "geom:latitude":43.076838,
     "geom:longitude":-98.293381,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.079983,
     "lbl:longitude":-98.291559,
     "lbl:max_zoom":16.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":4602368020,
     "uscensus:name":"Wagner",
     "uscensus:namelsad":"Wagner city",
+    "uscensus:population":1426,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4602368020
+        "uscensus:geoid":"4602368020"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404488499,
-    "wof:lastmodified":1605055806,
+    "wof:lastmodified":1722117794,
     "wof:name":"Wagner",
     "wof:parent_id":102086799,
     "wof:placetype":"localadmin",
-    "wof:population":1566,
+    "wof:population":1426,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

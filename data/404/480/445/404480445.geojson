@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011388,
-    "geom:area_square_m":92980330.462224,
+    "geom:area_square_m":92980330.462192,
     "geom:bbox":"-101.320863,48.632456,-101.189813,48.719783",
     "geom:latitude":48.676131,
     "geom:longitude":-101.255384,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.675998,
     "lbl:longitude":-101.255402,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":3800954900,
     "uscensus:name":"Mount Rose",
     "uscensus:namelsad":"Mount Rose township",
+    "uscensus:population":69,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3800954900
+        "uscensus:geoid":"3800954900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474193
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404480445,
-    "wof:lastmodified":1605055916,
+    "wof:lastmodified":1722117744,
     "wof:name":"Mount Rose Township",
     "wof:parent_id":102082109,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":59,
+    "wof:population":69,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

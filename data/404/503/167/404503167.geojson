@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.019467,
-    "geom:area_square_m":185912903.469776,
+    "geom:area_square_m":185912903.469826,
     "geom:bbox":"-100.3861,39.392868,-100.162046,39.480669",
     "geom:latitude":39.436688,
     "geom:longitude":-100.27396,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.436529,
     "lbl:longitude":-100.273958,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":179,
     "uscensus:geoid":2017908125,
     "uscensus:name":"Bowcreek",
     "uscensus:namelsad":"Bowcreek township",
+    "uscensus:population":30,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2017908125
+        "uscensus:geoid":"2017908125"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468733
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404503167,
-    "wof:lastmodified":1605055315,
+    "wof:lastmodified":1722117883,
     "wof:name":"Bowcreek Township",
     "wof:parent_id":102082157,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":40,
+    "wof:population":30,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013312,
-    "geom:area_square_m":116868929.476371,
+    "geom:area_square_m":116868929.47639,
     "geom:bbox":"-71.329763,44.705306,-71.210635,44.825132",
     "geom:latitude":44.765211,
     "geom:longitude":-71.270223,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.765207,
     "lbl:longitude":-71.270209,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":3300748260,
     "uscensus:name":"Millsfield",
     "uscensus:namelsad":"Millsfield township",
+    "uscensus:population":26,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":33,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3300748260
+        "uscensus:geoid":"3300748260"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465039
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404476865,
-    "wof:lastmodified":1605055408,
+    "wof:lastmodified":1722117718,
     "wof:name":"Millsfield Township",
     "wof:parent_id":102085529,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":23,
+    "wof:population":26,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

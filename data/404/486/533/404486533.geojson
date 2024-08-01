@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006254,
-    "geom:area_square_m":59116872.389615,
+    "geom:area_square_m":59116872.389585,
     "geom:bbox":"-77.509161,40.091992,-77.390816,40.192683",
     "geom:latitude":40.143788,
     "geom:longitude":-77.444548,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.135573,
     "lbl:longitude":-77.438713,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":4204155248,
     "uscensus:name":"North Newton",
     "uscensus:namelsad":"North Newton township",
+    "uscensus:population":2584,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4204155248
+        "uscensus:geoid":"4204155248"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458489
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404486533,
-    "wof:lastmodified":1605055858,
+    "wof:lastmodified":1722117781,
     "wof:name":"North Newton Township",
     "wof:parent_id":102081359,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2430,
+    "wof:population":2584,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

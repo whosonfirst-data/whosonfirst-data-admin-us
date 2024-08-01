@@ -217,7 +217,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":67852028,
     "uscensus:awater":39662608,
     "uscensus:classfp":"C5",
@@ -233,17 +234,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"26150",
     "uscensus:placens":"00618297",
+    "uscensus:population":29959,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"25",
     "wd:elevation":15.0,
     "wd:latitude":42.616667,
     "wd:longitude":-70.683333,
     "wd:wordcount":5176,
     "wof:belongsto":[
-        85688645,
         102191575,
-        404476197,
         85633793,
-        102084463
+        102084463,
+        404476197,
+        85688645
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -252,10 +255,11 @@
         "gp:id":2411521,
         "loc:id":"n80060602",
         "qs_pg:id":240171,
-        "uscensus:geoid":2526150,
+        "uscensus:geoid":"2526150",
         "wd:id":"Q49156",
         "wk:page":"Gloucester, Massachusetts"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -273,11 +277,11 @@
         }
     ],
     "wof:id":85950419,
-    "wof:lastmodified":1690881926,
+    "wof:lastmodified":1722115953,
     "wof:name":"Gloucester",
     "wof:parent_id":404476197,
     "wof:placetype":"locality",
-    "wof:population":28789,
+    "wof:population":29959,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

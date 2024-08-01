@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000663,
-    "geom:area_square_m":6114664.911866,
+    "geom:area_square_m":6114664.91186,
     "geom:bbox":"-78.66772,41.718134,-78.621085,41.732745",
     "geom:latitude":41.725476,
     "geom:longitude":-78.644394,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.725466,
     "lbl:longitude":-78.644396,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":83,
     "uscensus:geoid":4208351632,
     "uscensus:name":"Mount Jewett",
     "uscensus:namelsad":"Mount Jewett borough",
+    "uscensus:population":823,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4208351632
+        "uscensus:geoid":"4208351632"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404483721,
-    "wof:lastmodified":1605055449,
+    "wof:lastmodified":1722117764,
     "wof:name":"Mount Jewett",
     "wof:parent_id":102080951,
     "wof:placetype":"localadmin",
-    "wof:population":919,
+    "wof:population":823,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

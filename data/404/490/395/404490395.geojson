@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.020023,
-    "geom:area_square_m":176962565.109619,
+    "geom:area_square_m":176962565.109684,
     "geom:bbox":"-97.612264,44.296315,-97.451048,44.441363",
     "geom:latitude":44.376982,
     "geom:longitude":-97.526976,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.365099,
     "lbl:longitude":-97.492543,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":77,
     "uscensus:geoid":4607716300,
     "uscensus:name":"De Smet",
     "uscensus:namelsad":"De Smet township",
+    "uscensus:population":321,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4607716300
+        "uscensus:geoid":"4607716300"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461279
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404490395,
-    "wof:lastmodified":1605055516,
+    "wof:lastmodified":1722117806,
     "wof:name":"De Smet Township",
     "wof:parent_id":102086869,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":309,
+    "wof:population":321,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

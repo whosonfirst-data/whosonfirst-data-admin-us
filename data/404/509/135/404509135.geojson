@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000326,
-    "geom:area_square_m":2741561.075586,
+    "geom:area_square_m":2741561.075583,
     "geom:bbox":"-96.268909,47.064273,-96.24753,47.085989",
     "geom:latitude":47.07812,
     "geom:longitude":-96.258143,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.078732,
     "lbl:longitude":-96.258347,
     "lbl:max_zoom":17.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":2702766136,
     "uscensus:name":"Ulen",
     "uscensus:namelsad":"Ulen city",
+    "uscensus:population":475,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2702766136
+        "uscensus:geoid":"2702766136"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -104,11 +114,11 @@
         }
     ],
     "wof:id":404509135,
-    "wof:lastmodified":1605055784,
+    "wof:lastmodified":1722117927,
     "wof:name":"Ulen",
     "wof:parent_id":102087681,
     "wof:placetype":"localadmin",
-    "wof:population":547,
+    "wof:population":475,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

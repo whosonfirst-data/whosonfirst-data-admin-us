@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00588,
-    "geom:area_square_m":55530495.259649,
+    "geom:area_square_m":55530495.259671,
     "geom:bbox":"-82.369586,40.16984,-82.280942,40.240957",
     "geom:latitude":40.205296,
     "geom:longitude":-82.324047,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.205453,
     "lbl:longitude":-82.324047,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":89,
     "uscensus:geoid":3908924332,
     "uscensus:name":"Eden",
     "uscensus:namelsad":"Eden township",
+    "uscensus:population":1312,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3908924332
+        "uscensus:geoid":"3908924332"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465375
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404525217,
-    "wof:lastmodified":1605056051,
+    "wof:lastmodified":1722118014,
     "wof:name":"Eden Township",
     "wof:parent_id":102084761,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1248,
+    "wof:population":1312,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

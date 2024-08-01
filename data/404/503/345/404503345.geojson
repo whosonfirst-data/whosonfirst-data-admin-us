@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014047,
-    "geom:area_square_m":136313598.203605,
+    "geom:area_square_m":136313598.203572,
     "geom:bbox":"-95.821147,38.219172,-95.673497,38.346882",
     "geom:latitude":38.298143,
     "geom:longitude":-95.748081,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.299523,
     "lbl:longitude":-95.761444,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":2003153700,
     "uscensus:name":"Ottumwa",
     "uscensus:namelsad":"Ottumwa township",
+    "uscensus:population":702,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2003153700
+        "uscensus:geoid":"2003153700"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404503345,
-    "wof:lastmodified":1605055330,
+    "wof:lastmodified":1722233659,
     "wof:name":"Ottumwa Township",
     "wof:parent_id":102084185,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":716,
+    "wof:population":702,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

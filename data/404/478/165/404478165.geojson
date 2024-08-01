@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00785,
-    "geom:area_square_m":73882871.051849,
+    "geom:area_square_m":73882871.051834,
     "geom:bbox":"-74.916004,40.38208,-74.748147,40.48779",
     "geom:latitude":40.434598,
     "geom:longitude":-74.821969,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.450713,
     "lbl:longitude":-74.799748,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":3401918820,
     "uscensus:name":"East Amwell",
     "uscensus:namelsad":"East Amwell township",
+    "uscensus:population":3937,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3401918820
+        "uscensus:geoid":"3401918820"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475333
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404478165,
-    "wof:lastmodified":1605055344,
+    "wof:lastmodified":1722117728,
     "wof:name":"East Amwell Township",
     "wof:parent_id":102085997,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":4013,
+    "wof:population":3937,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

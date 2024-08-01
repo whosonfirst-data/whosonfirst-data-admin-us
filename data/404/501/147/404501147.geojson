@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007719,
-    "geom:area_square_m":72456326.087681,
+    "geom:area_square_m":72456326.087713,
     "geom:bbox":"-86.772708,40.561881,-86.655381,40.649379",
     "geom:latitude":40.608643,
     "geom:longitude":-86.726959,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.609006,
     "lbl:longitude":-86.733931,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":1801575824,
     "uscensus:name":"Tippecanoe",
     "uscensus:namelsad":"Tippecanoe township",
+    "uscensus:population":2443,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1801575824
+        "uscensus:geoid":"1801575824"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476987
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404501147,
-    "wof:lastmodified":1604969671,
+    "wof:lastmodified":1722117870,
     "wof:name":"Tippecanoe Township",
     "wof:parent_id":102087071,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2341,
+    "wof:population":2443,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

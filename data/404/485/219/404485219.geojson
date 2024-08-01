@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003097,
-    "geom:area_square_m":29391375.104365,
+    "geom:area_square_m":29391375.104415,
     "geom:bbox":"-75.919931,39.843072,-75.83532,39.907436",
     "geom:latitude":39.873644,
     "geom:longitude":-75.879142,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.870295,
     "lbl:longitude":-75.878494,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":4202944456,
     "uscensus:name":"Londonderry",
     "uscensus:namelsad":"Londonderry township",
+    "uscensus:population":2591,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202944456
+        "uscensus:geoid":"4202944456"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478271
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404485219,
-    "wof:lastmodified":1605055358,
+    "wof:lastmodified":1722117773,
     "wof:name":"Londonderry Township",
     "wof:parent_id":102081275,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2149,
+    "wof:population":2591,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

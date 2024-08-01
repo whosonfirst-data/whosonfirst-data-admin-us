@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009725,
-    "geom:area_square_m":91877622.301327,
+    "geom:area_square_m":91877622.301323,
     "geom:bbox":"-89.603598,40.13572,-89.48516,40.219835",
     "geom:latitude":40.177596,
     "geom:longitude":-89.544171,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.177566,
     "lbl:longitude":-89.544173,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":107,
     "uscensus:geoid":1710769290,
     "uscensus:name":"Sheridan",
     "uscensus:namelsad":"Sheridan township",
+    "uscensus:population":455,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1710769290
+        "uscensus:geoid":"1710769290"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404496417,
-    "wof:lastmodified":1605055603,
+    "wof:lastmodified":1722233634,
     "wof:name":"Sheridan Township",
     "wof:parent_id":102082843,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":477,
+    "wof:population":455,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

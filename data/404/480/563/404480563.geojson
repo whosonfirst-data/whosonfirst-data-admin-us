@@ -10,6 +10,12 @@
     "geom:latitude":46.630278,
     "geom:longitude":-97.603478,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.630292,
     "lbl:longitude":-97.603478,
     "lbl:max_zoom":18.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":3801724260,
     "uscensus:name":"Enderlin",
     "uscensus:namelsad":"Enderlin city",
+    "uscensus:population":5,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3801724260
+        "uscensus:geoid":"3801724260"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404480563,
-    "wof:lastmodified":1605055913,
+    "wof:lastmodified":1722117745,
     "wof:name":"Enderlin",
     "wof:parent_id":102082073,
     "wof:placetype":"localadmin",
-    "wof:population":4,
+    "wof:population":5,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

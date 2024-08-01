@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000069,
-    "geom:area_square_m":656414.447233,
+    "geom:area_square_m":656414.447234,
     "geom:bbox":"-79.844874,40.094905,-79.834093,40.10589",
     "geom:latitude":40.100792,
     "geom:longitude":-79.839231,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.100517,
     "lbl:longitude":-79.839312,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":4205125456,
     "uscensus:name":"Fayette City",
     "uscensus:namelsad":"Fayette City borough",
+    "uscensus:population":485,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4205125456
+        "uscensus:geoid":"4205125456"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404486933,
-    "wof:lastmodified":1605055870,
+    "wof:lastmodified":1722117783,
     "wof:name":"Fayette City",
     "wof:parent_id":102080959,
     "wof:placetype":"localadmin",
-    "wof:population":596,
+    "wof:population":485,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

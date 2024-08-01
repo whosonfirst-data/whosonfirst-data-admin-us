@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.021569,
-    "geom:area_square_m":187054810.183428,
+    "geom:area_square_m":187054810.183437,
     "geom:bbox":"-89.046738,45.378199,-88.799426,45.551703",
     "geom:latitude":45.464722,
     "geom:longitude":-88.923667,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.421734,
     "lbl:longitude":-88.874051,
     "lbl:max_zoom":16.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":5504155575,
     "uscensus:name":"Nashville",
     "uscensus:namelsad":"Nashville town",
+    "uscensus:population":1243,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5504155575
+        "uscensus:geoid":"5504155575"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404494819,
-    "wof:lastmodified":1605055962,
+    "wof:lastmodified":1722117835,
     "wof:name":"Nashville",
     "wof:parent_id":102081885,
     "wof:placetype":"localadmin",
-    "wof:population":1064,
+    "wof:population":1243,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

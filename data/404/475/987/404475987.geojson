@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004764,
-    "geom:area_square_m":43508452.305753,
+    "geom:area_square_m":43508452.305766,
     "geom:bbox":"-72.672126,42.349504,-72.574825,42.423144",
     "geom:latitude":42.387913,
     "geom:longitude":-72.621736,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.388934,
     "lbl:longitude":-72.616874,
     "lbl:max_zoom":15.0,
@@ -85,11 +91,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":2501529265,
     "uscensus:name":"Hatfield",
     "uscensus:namelsad":"Hatfield town",
+    "uscensus:population":3319,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -99,8 +108,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2501529265
+        "uscensus:geoid":"2501529265"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -116,11 +126,11 @@
         }
     ],
     "wof:id":404475987,
-    "wof:lastmodified":1605055856,
+    "wof:lastmodified":1722117711,
     "wof:name":"Hatfield",
     "wof:parent_id":102084459,
     "wof:placetype":"localadmin",
-    "wof:population":3279,
+    "wof:population":3319,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

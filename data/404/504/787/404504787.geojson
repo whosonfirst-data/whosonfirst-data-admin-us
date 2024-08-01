@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.081345,
-    "geom:area_square_m":782942681.748596,
+    "geom:area_square_m":782942681.748764,
     "geom:bbox":"-102.047161,38.697567,-101.814033,39.133419",
     "geom:latitude":38.886044,
     "geom:longitude":-101.94499,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.842344,
     "lbl:longitude":-101.931152,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":199,
     "uscensus:geoid":2019976700,
     "uscensus:name":"Weskan",
     "uscensus:namelsad":"Weskan township",
+    "uscensus:population":336,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2019976700
+        "uscensus:geoid":"2019976700"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404504787,
-    "wof:lastmodified":1605055312,
+    "wof:lastmodified":1722117895,
     "wof:name":"Weskan Township",
     "wof:parent_id":102082699,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":330,
+    "wof:population":336,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

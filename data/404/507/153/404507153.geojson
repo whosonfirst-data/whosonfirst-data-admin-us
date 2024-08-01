@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.027272,
-    "geom:area_square_m":235266909.197979,
+    "geom:area_square_m":235266909.197986,
     "geom:bbox":"-87.003325,45.658634,-86.750715,45.825",
     "geom:latitude":45.761525,
     "geom:longitude":-86.899193,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.761351,
     "lbl:longitude":-86.898033,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":2604106040,
     "uscensus:name":"Bay de Noc",
     "uscensus:namelsad":"Bay de Noc township",
+    "uscensus:population":299,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2604106040
+        "uscensus:geoid":"2604106040"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457215
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404507153,
-    "wof:lastmodified":1605055775,
+    "wof:lastmodified":1722117912,
     "wof:name":"Bay De Noc Township",
     "wof:parent_id":102083091,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":305,
+    "wof:population":299,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

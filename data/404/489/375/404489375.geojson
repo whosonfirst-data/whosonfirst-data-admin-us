@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010379,
-    "geom:area_square_m":92085522.121181,
+    "geom:area_square_m":92085522.121195,
     "geom:bbox":"-96.889237,44.109026,-96.768577,44.195752",
     "geom:latitude":44.152429,
     "geom:longitude":-96.828906,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.15247,
     "lbl:longitude":-96.828907,
     "lbl:max_zoom":17.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":101,
     "uscensus:geoid":4610123060,
     "uscensus:name":"Fremont",
     "uscensus:namelsad":"Fremont township",
+    "uscensus:population":288,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4610123060
+        "uscensus:geoid":"4610123060"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457039
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404489375,
-    "wof:lastmodified":1605055937,
+    "wof:lastmodified":1722117800,
     "wof:name":"Fremont Township",
     "wof:parent_id":102086851,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":274,
+    "wof:population":288,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

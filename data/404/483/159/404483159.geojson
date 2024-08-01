@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007118,
-    "geom:area_square_m":67175490.134369,
+    "geom:area_square_m":67175490.134383,
     "geom:bbox":"-77.185461,40.194864,-77.083942,40.30122",
     "geom:latitude":40.250163,
     "geom:longitude":-77.135632,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.251774,
     "lbl:longitude":-77.136596,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":4204149072,
     "uscensus:name":"Middlesex",
     "uscensus:namelsad":"Middlesex township",
+    "uscensus:population":7185,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4204149072
+        "uscensus:geoid":"4204149072"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404483159,
-    "wof:lastmodified":1605055436,
+    "wof:lastmodified":1722117761,
     "wof:name":"Middlesex Township",
     "wof:parent_id":102081359,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":7040,
+    "wof:population":7185,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

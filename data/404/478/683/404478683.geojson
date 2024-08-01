@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011251,
-    "geom:area_square_m":92654596.992962,
+    "geom:area_square_m":92654596.993004,
     "geom:bbox":"-99.847765,48.195155,-99.717996,48.28239",
     "geom:latitude":48.238691,
     "geom:longitude":-99.782869,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.238724,
     "lbl:longitude":-99.782867,
     "lbl:max_zoom":18.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":3800540180,
     "uscensus:name":"Iowa",
     "uscensus:namelsad":"Iowa township",
+    "uscensus:population":18,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3800540180
+        "uscensus:geoid":"3800540180"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476359
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404478683,
-    "wof:lastmodified":1605055348,
+    "wof:lastmodified":1722117732,
     "wof:name":"Iowa Township",
     "wof:parent_id":102082071,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":25,
+    "wof:population":18,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

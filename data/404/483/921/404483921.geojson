@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000155,
-    "geom:area_square_m":1431960.496463,
+    "geom:area_square_m":1431960.496462,
     "geom:bbox":"-79.882226,41.494338,-79.864857,41.505347",
     "geom:latitude":41.4998,
     "geom:longitude":-79.873626,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.499973,
     "lbl:longitude":-79.872924,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":121,
     "uscensus:geoid":4212116080,
     "uscensus:name":"Cooperstown",
     "uscensus:namelsad":"Cooperstown borough",
+    "uscensus:population":389,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212116080
+        "uscensus:geoid":"4212116080"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404483921,
-    "wof:lastmodified":1605055450,
+    "wof:lastmodified":1722117765,
     "wof:name":"Cooperstown",
     "wof:parent_id":102081279,
     "wof:placetype":"localadmin",
-    "wof:population":460,
+    "wof:population":389,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

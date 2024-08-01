@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001893,
-    "geom:area_square_m":16790392.609271,
+    "geom:area_square_m":16790392.609264,
     "geom:bbox":"-87.63048,44.122672,-87.543909,44.182736",
     "geom:latitude":44.156639,
     "geom:longitude":-87.582149,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.156952,
     "lbl:longitude":-87.568455,
     "lbl:max_zoom":15.0,
@@ -70,11 +76,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":71,
     "uscensus:geoid":5507181325,
     "uscensus:name":"Two Rivers",
     "uscensus:namelsad":"Two Rivers city",
+    "uscensus:population":11169,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -84,8 +93,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5507181325
+        "uscensus:geoid":"5507181325"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -101,11 +111,11 @@
         }
     ],
     "wof:id":404495267,
-    "wof:lastmodified":1605055983,
+    "wof:lastmodified":1722117838,
     "wof:name":"Two Rivers",
     "wof:parent_id":102081871,
     "wof:placetype":"localadmin",
-    "wof:population":11712,
+    "wof:population":11169,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

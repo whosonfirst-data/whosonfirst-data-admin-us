@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003123,
-    "geom:area_square_m":29900672.389971,
+    "geom:area_square_m":29900672.389904,
     "geom:bbox":"-74.654914,39.20685,-74.540292,39.310097",
     "geom:latitude":39.268886,
     "geom:longitude":-74.600912,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.287933,
     "lbl:longitude":-74.586569,
     "lbl:max_zoom":15.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":3400954360,
     "uscensus:name":"Ocean City",
     "uscensus:namelsad":"Ocean City city",
+    "uscensus:population":11242,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400954360
+        "uscensus:geoid":"3400954360"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404477953,
-    "wof:lastmodified":1605055413,
+    "wof:lastmodified":1722117726,
     "wof:name":"Ocean City",
     "wof:parent_id":102086777,
     "wof:placetype":"localadmin",
-    "wof:population":11701,
+    "wof:population":11242,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000166,
-    "geom:area_square_m":1632853.988087,
+    "geom:area_square_m":1632853.988088,
     "geom:bbox":"-94.832175,37.272742,-94.811961,37.284271",
     "geom:latitude":37.278067,
     "geom:longitude":-94.823026,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.277584,
     "lbl:longitude":-94.823024,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":2002163325,
     "uscensus:name":"Scammon",
     "uscensus:namelsad":"Scammon city",
+    "uscensus:population":368,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2002163325
+        "uscensus:geoid":"2002163325"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404504009,
-    "wof:lastmodified":1605055300,
+    "wof:lastmodified":1722117890,
     "wof:name":"Scammon",
     "wof:parent_id":102082169,
     "wof:placetype":"localadmin",
-    "wof:population":482,
+    "wof:population":368,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

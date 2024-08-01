@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01126,
-    "geom:area_square_m":93520999.543181,
+    "geom:area_square_m":93520999.543165,
     "geom:bbox":"-99.040118,47.759651,-98.909206,47.847336",
     "geom:latitude":47.803364,
     "geom:longitude":-98.975264,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.803128,
     "lbl:longitude":-98.975272,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":3802711140,
     "uscensus:name":"Bush",
     "uscensus:namelsad":"Bush township",
+    "uscensus:population":41,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3802711140
+        "uscensus:geoid":"3802711140"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729477217
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404479181,
-    "wof:lastmodified":1605055476,
+    "wof:lastmodified":1722117735,
     "wof:name":"Bush Township",
     "wof:parent_id":102081503,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":40,
+    "wof:population":41,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

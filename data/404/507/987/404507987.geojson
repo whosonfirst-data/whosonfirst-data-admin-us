@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006912,
-    "geom:area_square_m":62331593.942384,
+    "geom:area_square_m":62331593.942379,
     "geom:bbox":"-86.145546,43.118123,-86.026953,43.206091",
     "geom:latitude":43.17154,
     "geom:longitude":-86.073389,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.176467,
     "lbl:longitude":-86.073388,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":121,
     "uscensus:geoid":2612177100,
     "uscensus:name":"Sullivan",
     "uscensus:namelsad":"Sullivan township",
+    "uscensus:population":2665,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2612177100
+        "uscensus:geoid":"2612177100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459391
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404507987,
-    "wof:lastmodified":1605055782,
+    "wof:lastmodified":1722117918,
     "wof:name":"Sullivan Township",
     "wof:parent_id":102083707,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2441,
+    "wof:population":2665,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010192,
-    "geom:area_square_m":94800147.713638,
+    "geom:area_square_m":94800147.713624,
     "geom:bbox":"-86.93017,41.171974,-86.814224,41.273501",
     "geom:latitude":41.216777,
     "geom:longitude":-86.868387,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.216219,
     "lbl:longitude":-86.867617,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":149,
     "uscensus:geoid":1814962748,
     "uscensus:name":"Railroad",
     "uscensus:namelsad":"Railroad township",
+    "uscensus:population":1210,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1814962748
+        "uscensus:geoid":"1814962748"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404501495,
-    "wof:lastmodified":1604530768,
+    "wof:lastmodified":1722117873,
     "wof:name":"Railroad Township",
     "wof:parent_id":102087209,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1226,
+    "wof:population":1210,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008,
-    "geom:area_square_m":74801261.573872,
+    "geom:area_square_m":74801261.573886,
     "geom:bbox":"-75.633005,40.827705,-75.499628,40.928693",
     "geom:latitude":40.874979,
     "geom:longitude":-75.573811,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.879208,
     "lbl:longitude":-75.573812,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":4202577160,
     "uscensus:name":"Towamensing",
     "uscensus:namelsad":"Towamensing township",
+    "uscensus:population":4536,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202577160
+        "uscensus:geoid":"4202577160"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729455637
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404485637,
-    "wof:lastmodified":1605055370,
+    "wof:lastmodified":1722117775,
     "wof:name":"Towamensing Township",
     "wof:parent_id":102081331,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":4477,
+    "wof:population":4536,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

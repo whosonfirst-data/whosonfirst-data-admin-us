@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007376,
-    "geom:area_square_m":68880142.006674,
+    "geom:area_square_m":68880142.006689,
     "geom:bbox":"-81.647727,40.910312,-81.531647,40.988669",
     "geom:latitude":40.952489,
     "geom:longitude":-81.583816,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.95014,
     "lbl:longitude":-81.571108,
     "lbl:max_zoom":15.0,
@@ -64,11 +70,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":153,
     "uscensus:geoid":3915354562,
     "uscensus:name":"New Franklin",
     "uscensus:namelsad":"New Franklin city",
+    "uscensus:population":13788,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -78,8 +87,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3915354562
+        "uscensus:geoid":"3915354562"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -95,11 +105,11 @@
         }
     ],
     "wof:id":404525995,
-    "wof:lastmodified":1605056056,
+    "wof:lastmodified":1722118020,
     "wof:name":"New Franklin",
     "wof:parent_id":102084807,
     "wof:placetype":"localadmin",
-    "wof:population":14227,
+    "wof:population":13788,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

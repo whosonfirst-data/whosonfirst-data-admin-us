@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010462,
-    "geom:area_square_m":91353670.71773,
+    "geom:area_square_m":91353670.71771,
     "geom:bbox":"-89.96455,45.032752,-89.844371,45.120162",
     "geom:latitude":45.076473,
     "geom:longitude":-89.90437,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.076418,
     "lbl:longitude":-89.904372,
     "lbl:max_zoom":17.0,
@@ -544,11 +550,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":73,
     "uscensus:geoid":5507332200,
     "uscensus:name":"Hamburg",
     "uscensus:namelsad":"Hamburg town",
+    "uscensus:population":815,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -558,8 +567,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5507332200
+        "uscensus:geoid":"5507332200"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473187
     ],
@@ -578,11 +588,11 @@
         }
     ],
     "wof:id":404492041,
-    "wof:lastmodified":1605055998,
+    "wof:lastmodified":1722117817,
     "wof:name":"Hamburg",
     "wof:parent_id":102081881,
     "wof:placetype":"localadmin",
-    "wof:population":918,
+    "wof:population":815,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

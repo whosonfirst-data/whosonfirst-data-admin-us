@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000209,
-    "geom:area_square_m":1983891.790054,
+    "geom:area_square_m":1983891.790047,
     "geom:bbox":"-75.319887,39.732253,-75.301301,39.755706",
     "geom:latitude":39.74587,
     "geom:longitude":-75.311745,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.748299,
     "lbl:longitude":-75.310335,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":3401571850,
     "uscensus:name":"Swedesboro",
     "uscensus:namelsad":"Swedesboro borough",
+    "uscensus:population":2741,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3401571850
+        "uscensus:geoid":"3401571850"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404478195,
-    "wof:lastmodified":1605055333,
+    "wof:lastmodified":1722117728,
     "wof:name":"Swedesboro",
     "wof:parent_id":102085999,
     "wof:placetype":"localadmin",
-    "wof:population":2584,
+    "wof:population":2741,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

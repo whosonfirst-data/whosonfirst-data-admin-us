@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01451,
-    "geom:area_square_m":134299101.766946,
+    "geom:area_square_m":134299101.766943,
     "geom:bbox":"-74.985595,41.459805,-74.790473,41.615882",
     "geom:latitude":41.538683,
     "geom:longitude":-74.889106,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.532254,
     "lbl:longitude":-74.887629,
     "lbl:max_zoom":15.0,
@@ -136,22 +142,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":3610534473,
     "uscensus:name":"Highland",
     "uscensus:namelsad":"Highland town",
+    "uscensus:population":2219,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688543,
-        102082407
+        102082407,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3610534473
+        "uscensus:geoid":"3610534473"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470313
     ],
@@ -170,11 +180,11 @@
         }
     ],
     "wof:id":404523193,
-    "wof:lastmodified":1636499446,
+    "wof:lastmodified":1722117999,
     "wof:name":"Highland",
     "wof:parent_id":102082407,
     "wof:placetype":"localadmin",
-    "wof:population":2530,
+    "wof:population":2219,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

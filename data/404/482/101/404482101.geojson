@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011293,
-    "geom:area_square_m":92367725.428038,
+    "geom:area_square_m":92367725.428026,
     "geom:bbox":"-103.015811,48.546113,-102.885659,48.633403",
     "geom:latitude":48.589811,
     "geom:longitude":-102.9507,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.58986,
     "lbl:longitude":-102.950696,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":3810570900,
     "uscensus:name":"Sauk Valley",
     "uscensus:namelsad":"Sauk Valley township",
+    "uscensus:population":84,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3810570900
+        "uscensus:geoid":"3810570900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459237
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404482101,
-    "wof:lastmodified":1605055385,
+    "wof:lastmodified":1722117754,
     "wof:name":"Sauk Valley Township",
     "wof:parent_id":102082069,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":60,
+    "wof:population":84,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

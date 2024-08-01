@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.021264,
-    "geom:area_square_m":187643925.368357,
+    "geom:area_square_m":187643925.368323,
     "geom:bbox":"-85.095803,44.421946,-84.850929,44.511069",
     "geom:latitude":44.466576,
     "geom:longitude":-84.973566,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.466271,
     "lbl:longitude":-84.973577,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":113,
     "uscensus:geoid":2611359280,
     "uscensus:name":"Norwich",
     "uscensus:namelsad":"Norwich township",
+    "uscensus:population":647,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2611359280
+        "uscensus:geoid":"2611359280"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470763
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404506267,
-    "wof:lastmodified":1605055755,
+    "wof:lastmodified":1722117906,
     "wof:name":"Norwich Township",
     "wof:parent_id":102083057,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":611,
+    "wof:population":647,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

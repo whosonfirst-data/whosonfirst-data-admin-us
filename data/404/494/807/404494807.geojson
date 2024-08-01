@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.019778,
-    "geom:area_square_m":171235612.627131,
+    "geom:area_square_m":171235612.627161,
     "geom:bbox":"-88.675628,45.506278,-88.425684,45.621867",
     "geom:latitude":45.557167,
     "geom:longitude":-88.516674,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.564183,
     "lbl:longitude":-88.514309,
     "lbl:max_zoom":17.0,
@@ -85,11 +91,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":5504107950,
     "uscensus:name":"Blackwell",
     "uscensus:namelsad":"Blackwell town",
+    "uscensus:population":142,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -99,8 +108,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5504107950
+        "uscensus:geoid":"5504107950"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466463
     ],
@@ -119,12 +129,12 @@
         }
     ],
     "wof:id":404494807,
-    "wof:lastmodified":1605055972,
+    "wof:lastmodified":1722117835,
     "wof:name":"Blackwell",
     "wof:parent_id":102081885,
     "wof:placetype":"localadmin",
-    "wof:population":332,
-    "wof:population_rank":2,
+    "wof:population":142,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

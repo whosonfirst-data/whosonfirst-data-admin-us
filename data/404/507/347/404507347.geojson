@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010429,
-    "geom:area_square_m":94998968.545279,
+    "geom:area_square_m":94998968.545276,
     "geom:bbox":"-85.075043,42.509173,-84.95435,42.597184",
     "geom:latitude":42.55303,
     "geom:longitude":-85.014697,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.553024,
     "lbl:longitude":-85.014697,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":2604542220,
     "uscensus:name":"Kalamo",
     "uscensus:namelsad":"Kalamo township",
+    "uscensus:population":1769,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2604542220
+        "uscensus:geoid":"2604542220"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457083
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404507347,
-    "wof:lastmodified":1605055775,
+    "wof:lastmodified":1722117913,
     "wof:name":"Kalamo Township",
     "wof:parent_id":102083005,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1842,
+    "wof:population":1769,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

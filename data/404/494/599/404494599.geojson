@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011288,
-    "geom:area_square_m":97512794.82267,
+    "geom:area_square_m":97512794.822637,
     "geom:bbox":"-91.785877,45.638509,-91.662377,45.75596",
     "geom:latitude":45.685044,
     "geom:longitude":-91.720981,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.681461,
     "lbl:longitude":-91.720983,
     "lbl:max_zoom":17.0,
@@ -91,22 +97,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":129,
     "uscensus:geoid":5512945650,
     "uscensus:name":"Long Lake",
     "uscensus:namelsad":"Long Lake town",
+    "uscensus:population":649,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081805
+        102081805,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5512945650
+        "uscensus:geoid":"5512945650"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465293
     ],
@@ -125,11 +135,11 @@
         }
     ],
     "wof:id":404494599,
-    "wof:lastmodified":1636499404,
+    "wof:lastmodified":1722117834,
     "wof:name":"Long Lake",
     "wof:parent_id":102081805,
     "wof:placetype":"localadmin",
-    "wof:population":624,
+    "wof:population":649,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

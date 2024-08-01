@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005713,
-    "geom:area_square_m":53000980.288206,
+    "geom:area_square_m":53000980.288209,
     "geom:bbox":"-81.488922,41.348272,-81.391694,41.424753",
     "geom:latitude":41.386438,
     "geom:longitude":-81.44011,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.375681,
     "lbl:longitude":-81.431308,
     "lbl:max_zoom":14.0,
@@ -220,11 +226,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":3903572928,
     "uscensus:name":"Solon",
     "uscensus:namelsad":"Solon city",
+    "uscensus:population":23702,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -234,8 +243,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3903572928
+        "uscensus:geoid":"3903572928"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -251,11 +261,11 @@
         }
     ],
     "wof:id":404524457,
-    "wof:lastmodified":1605056115,
+    "wof:lastmodified":1722118008,
     "wof:name":"Solon",
     "wof:parent_id":102084837,
     "wof:placetype":"localadmin",
-    "wof:population":23348,
+    "wof:population":23702,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

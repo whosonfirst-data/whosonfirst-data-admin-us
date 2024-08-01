@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00822,
-    "geom:area_square_m":76885439.050116,
+    "geom:area_square_m":76885439.050234,
     "geom:bbox":"-89.64088,40.797537,-89.524286,40.886353",
     "geom:latitude":40.84869,
     "geom:longitude":-89.584016,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.856613,
     "lbl:longitude":-89.558853,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":143,
     "uscensus:geoid":1714348099,
     "uscensus:name":"Medina",
     "uscensus:namelsad":"Medina township",
+    "uscensus:population":13778,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1714348099
+        "uscensus:geoid":"1714348099"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404498783,
-    "wof:lastmodified":1605055564,
+    "wof:lastmodified":1722233643,
     "wof:name":"Medina Township",
     "wof:parent_id":102081247,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":12564,
+    "wof:population":13778,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

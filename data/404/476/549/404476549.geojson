@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007987,
-    "geom:area_square_m":72708636.807014,
+    "geom:area_square_m":72708636.807019,
     "geom:bbox":"-71.862953,42.543783,-71.747769,42.637985",
     "geom:latitude":42.59124,
     "geom:longitude":-71.815601,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.592199,
     "lbl:longitude":-71.816692,
     "lbl:max_zoom":14.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":2502723875,
     "uscensus:name":"Fitchburg",
     "uscensus:namelsad":"Fitchburg city",
+    "uscensus:population":41579,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2502723875
+        "uscensus:geoid":"2502723875"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404476549,
-    "wof:lastmodified":1605055409,
+    "wof:lastmodified":1722117715,
     "wof:name":"Fitchburg",
     "wof:parent_id":102084655,
     "wof:placetype":"localadmin",
-    "wof:population":40318,
+    "wof:population":41579,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009867,
-    "geom:area_square_m":90878195.056079,
+    "geom:area_square_m":90878195.056075,
     "geom:bbox":"-88.602566,41.806846,-88.488332,41.895655",
     "geom:latitude":41.85116,
     "geom:longitude":-88.545406,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.851088,
     "lbl:longitude":-88.545413,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":89,
     "uscensus:geoid":1708938908,
     "uscensus:name":"Kaneville",
     "uscensus:namelsad":"Kaneville township",
+    "uscensus:population":1131,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1708938908
+        "uscensus:geoid":"1708938908"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404498229,
-    "wof:lastmodified":1605055557,
+    "wof:lastmodified":1722233641,
     "wof:name":"Kaneville Township",
     "wof:parent_id":102086925,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1264,
+    "wof:population":1131,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

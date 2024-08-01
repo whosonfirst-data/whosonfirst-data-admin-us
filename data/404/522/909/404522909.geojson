@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014306,
-    "geom:area_square_m":132401718.491763,
+    "geom:area_square_m":132401718.49179,
     "geom:bbox":"-74.30407,41.474491,-74.118488,41.603758",
     "geom:latitude":41.539868,
     "geom:longitude":-74.207282,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.538653,
     "lbl:longitude":-74.216552,
     "lbl:max_zoom":14.0,
@@ -163,11 +169,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":71,
     "uscensus:geoid":3607148153,
     "uscensus:name":"Montgomery",
     "uscensus:namelsad":"Montgomery town",
+    "uscensus:population":23220,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -177,8 +186,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3607148153
+        "uscensus:geoid":"3607148153"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -194,11 +204,11 @@
         }
     ],
     "wof:id":404522909,
-    "wof:lastmodified":1605056065,
+    "wof:lastmodified":1722233678,
     "wof:name":"Montgomery",
     "wof:parent_id":102083061,
     "wof:placetype":"localadmin",
-    "wof:population":22606,
+    "wof:population":23220,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

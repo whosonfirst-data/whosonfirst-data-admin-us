@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010204,
-    "geom:area_square_m":90180878.24913,
+    "geom:area_square_m":90180878.249168,
     "geom:bbox":"-91.529228,44.33408,-91.39695,44.422225",
     "geom:latitude":44.380901,
     "geom:longitude":-91.469708,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.378178,
     "lbl:longitude":-91.475356,
     "lbl:max_zoom":17.0,
@@ -106,22 +112,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":121,
     "uscensus:geoid":5512111325,
     "uscensus:name":"Burnside",
     "uscensus:namelsad":"Burnside town",
+    "uscensus:population":494,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081731
+        102081731,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5512111325
+        "uscensus:geoid":"5512111325"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460779
     ],
@@ -140,11 +150,11 @@
         }
     ],
     "wof:id":404493879,
-    "wof:lastmodified":1636499396,
+    "wof:lastmodified":1722117829,
     "wof:name":"Burnside",
     "wof:parent_id":102081731,
     "wof:placetype":"localadmin",
-    "wof:population":511,
+    "wof:population":494,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

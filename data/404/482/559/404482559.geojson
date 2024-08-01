@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000133,
-    "geom:area_square_m":1243874.238458,
+    "geom:area_square_m":1243874.23846,
     "geom:bbox":"-79.610135,40.624449,-79.593911,40.637499",
     "geom:latitude":40.630302,
     "geom:longitude":-79.602259,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.629067,
     "lbl:longitude":-79.602261,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":4200542280,
     "uscensus:name":"Leechburg",
     "uscensus:namelsad":"Leechburg borough",
+    "uscensus:population":2091,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200542280
+        "uscensus:geoid":"4200542280"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404482559,
-    "wof:lastmodified":1605055376,
+    "wof:lastmodified":1722117757,
     "wof:name":"Leechburg",
     "wof:parent_id":102081371,
     "wof:placetype":"localadmin",
-    "wof:population":2156,
+    "wof:population":2091,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000043,
-    "geom:area_square_m":405987.272941,
+    "geom:area_square_m":405987.272942,
     "geom:bbox":"-75.705843,40.822755,-75.693967,40.835077",
     "geom:latitude":40.82888,
     "geom:longitude":-75.701022,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.830049,
     "lbl:longitude":-75.702418,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":4202582080,
     "uscensus:name":"Weissport",
     "uscensus:namelsad":"Weissport borough",
+    "uscensus:population":412,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202582080
+        "uscensus:geoid":"4202582080"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,7 +81,7 @@
         }
     ],
     "wof:id":404483081,
-    "wof:lastmodified":1605055446,
+    "wof:lastmodified":1722117760,
     "wof:name":"Weissport",
     "wof:parent_id":102081331,
     "wof:placetype":"localadmin",

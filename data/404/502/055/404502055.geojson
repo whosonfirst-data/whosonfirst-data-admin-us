@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.023041,
-    "geom:area_square_m":215564480.509293,
+    "geom:area_square_m":215564480.509327,
     "geom:bbox":"-85.793014,40.739426,-85.639902,40.914738",
     "geom:latitude":40.834378,
     "geom:longitude":-85.709197,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.839151,
     "lbl:longitude":-85.703082,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":169,
     "uscensus:geoid":1816940914,
     "uscensus:name":"Lagro",
     "uscensus:namelsad":"Lagro township",
+    "uscensus:population":2709,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1816940914
+        "uscensus:geoid":"1816940914"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404502055,
-    "wof:lastmodified":1604530706,
+    "wof:lastmodified":1722233656,
     "wof:name":"Lagro Township",
     "wof:parent_id":102086467,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2894,
+    "wof:population":2709,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000367,
-    "geom:area_square_m":3268690.438257,
+    "geom:area_square_m":3268690.438253,
     "geom:bbox":"-103.583282,43.918983,-103.54756,43.944006",
     "geom:latitude":43.933662,
     "geom:longitude":-103.569383,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.936594,
     "lbl:longitude":-103.565262,
     "lbl:max_zoom":17.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":103,
     "uscensus:geoid":4610329100,
     "uscensus:name":"Hill City",
     "uscensus:namelsad":"Hill City city",
+    "uscensus:population":953,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4610329100
+        "uscensus:geoid":"4610329100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404490667,
-    "wof:lastmodified":1605055511,
+    "wof:lastmodified":1722117808,
     "wof:name":"Hill City",
     "wof:parent_id":102086781,
     "wof:placetype":"localadmin",
-    "wof:population":948,
+    "wof:population":953,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

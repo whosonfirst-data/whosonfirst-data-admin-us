@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010078,
-    "geom:area_square_m":93043801.906717,
+    "geom:area_square_m":93043801.90675,
     "geom:bbox":"-97.484737,41.656228,-97.368037,41.743207",
     "geom:latitude":41.699734,
     "geom:longitude":-97.426211,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.699791,
     "lbl:longitude":-97.426212,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":141,
     "uscensus:geoid":3114123515,
     "uscensus:name":"Humphrey",
     "uscensus:namelsad":"Humphrey township",
+    "uscensus:population":480,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3114123515
+        "uscensus:geoid":"3114123515"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404520301,
-    "wof:lastmodified":1605055696,
+    "wof:lastmodified":1722233672,
     "wof:name":"Humphrey Township",
     "wof:parent_id":102084277,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":387,
+    "wof:population":480,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

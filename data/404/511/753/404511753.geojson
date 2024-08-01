@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.021671,
-    "geom:area_square_m":182529797.524186,
+    "geom:area_square_m":182529797.524182,
     "geom:bbox":"-94.66403,46.976926,-94.530918,47.1515",
     "geom:latitude":47.063834,
     "geom:longitude":-94.599141,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.025723,
     "lbl:longitude":-94.616306,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":2702159872,
     "uscensus:name":"Shingobee",
     "uscensus:namelsad":"Shingobee township",
+    "uscensus:population":1734,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2702159872
+        "uscensus:geoid":"2702159872"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459553
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404511753,
-    "wof:lastmodified":1605055714,
+    "wof:lastmodified":1722117946,
     "wof:name":"Shingobee Township",
     "wof:parent_id":102087905,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1514,
+    "wof:population":1734,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

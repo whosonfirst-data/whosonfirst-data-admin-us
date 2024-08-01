@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01823,
-    "geom:area_square_m":176313636.432847,
+    "geom:area_square_m":176313636.432806,
     "geom:bbox":"-96.097996,38.477579,-95.949621,38.608453",
     "geom:latitude":38.539617,
     "geom:longitude":-96.021635,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.537132,
     "lbl:longitude":-96.021635,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":111,
     "uscensus:geoid":2011158625,
     "uscensus:name":"Reading",
     "uscensus:namelsad":"Reading township",
+    "uscensus:population":412,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2011158625
+        "uscensus:geoid":"2011158625"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404504477,
-    "wof:lastmodified":1605055298,
+    "wof:lastmodified":1722233661,
     "wof:name":"Reading Township",
     "wof:parent_id":102082661,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":487,
+    "wof:population":412,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

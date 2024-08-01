@@ -154,7 +154,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":3231688,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -170,17 +171,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"23830",
     "uscensus:placens":"02395425",
+    "uscensus:population":518,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"31",
     "wd:elevation":726.0,
     "wd:latitude":40.235833,
     "wd:longitude":-100.419167,
     "wd:wordcount":952,
     "wof:belongsto":[
-        85688563,
         102191575,
-        404519105,
         85633793,
-        102082769
+        102082769,
+        404519105,
+        85688563
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -189,10 +192,11 @@
         "gn:id":5696393,
         "gp:id":2427068,
         "qs_pg:id":1052954,
-        "uscensus:geoid":3123830,
+        "uscensus:geoid":"3123830",
         "wd:id":"Q958112",
         "wk:page":"Indianola, Nebraska"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -213,11 +217,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885870,
+    "wof:lastmodified":1722116186,
     "wof:name":"Indianola",
     "wof:parent_id":404519105,
     "wof:placetype":"locality",
-    "wof:population":584,
+    "wof:population":518,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014487,
-    "geom:area_square_m":128886077.161267,
+    "geom:area_square_m":128886077.161249,
     "geom:bbox":"-73.064801,43.922209,-72.90603,44.044623",
     "geom:latitude":43.988524,
     "geom:longitude":-72.991513,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.988269,
     "lbl:longitude":-72.993082,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":5000159650,
     "uscensus:name":"Ripton",
     "uscensus:namelsad":"Ripton town",
+    "uscensus:population":745,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5000159650
+        "uscensus:geoid":"5000159650"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470203
     ],
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404527211,
-    "wof:lastmodified":1605055677,
+    "wof:lastmodified":1722118029,
     "wof:name":"Ripton",
     "wof:parent_id":102080765,
     "wof:placetype":"localadmin",
-    "wof:population":588,
+    "wof:population":745,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

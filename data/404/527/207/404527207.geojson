@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011067,
-    "geom:area_square_m":98574273.699131,
+    "geom:area_square_m":98574273.699121,
     "geom:bbox":"-73.001639,43.861656,-72.81633,43.975114",
     "geom:latitude":43.919724,
     "geom:longitude":-72.910892,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.927114,
     "lbl:longitude":-72.927736,
     "lbl:max_zoom":17.0,
@@ -121,22 +127,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":5000131525,
     "uscensus:name":"Hancock",
     "uscensus:namelsad":"Hancock town",
+    "uscensus:population":357,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688763,
-        102080765
+        102080765,
+        85688763
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5000131525
+        "uscensus:geoid":"5000131525"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472133
     ],
@@ -155,11 +165,11 @@
         }
     ],
     "wof:id":404527207,
-    "wof:lastmodified":1636499339,
+    "wof:lastmodified":1722118029,
     "wof:name":"Hancock",
     "wof:parent_id":102080765,
     "wof:placetype":"localadmin",
-    "wof:population":323,
+    "wof:population":357,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

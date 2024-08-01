@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009682,
-    "geom:area_square_m":92413854.738676,
+    "geom:area_square_m":92413854.738651,
     "geom:bbox":"-90.264973,39.432804,-90.152275,39.520317",
     "geom:latitude":39.476612,
     "geom:longitude":-90.208982,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.47671,
     "lbl:longitude":-90.208982,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":1706102700,
     "uscensus:name":"Athensville",
     "uscensus:namelsad":"Athensville township",
+    "uscensus:population":274,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1706102700
+        "uscensus:geoid":"1706102700"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473947
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404496105,
-    "wof:lastmodified":1605055593,
+    "wof:lastmodified":1722117841,
     "wof:name":"Athensville Township",
     "wof:parent_id":102083529,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":343,
+    "wof:population":274,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

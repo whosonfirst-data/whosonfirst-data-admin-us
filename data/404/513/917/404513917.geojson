@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00026,
-    "geom:area_square_m":2229176.257739,
+    "geom:area_square_m":2229176.257744,
     "geom:bbox":"-95.567628,46.060203,-95.536222,46.078379",
     "geom:latitude":46.069093,
     "geom:longitude":-95.557047,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.067839,
     "lbl:longitude":-95.562046,
     "lbl:max_zoom":18.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":2704142254,
     "uscensus:name":"Millerville",
     "uscensus:namelsad":"Millerville city",
+    "uscensus:population":99,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2704142254
+        "uscensus:geoid":"2704142254"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,11 +96,11 @@
         }
     ],
     "wof:id":404513917,
-    "wof:lastmodified":1605056047,
+    "wof:lastmodified":1722117962,
     "wof:name":"Millerville",
     "wof:parent_id":102087127,
     "wof:placetype":"localadmin",
-    "wof:population":106,
+    "wof:population":99,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

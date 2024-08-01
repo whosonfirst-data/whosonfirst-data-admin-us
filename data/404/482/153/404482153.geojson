@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000463,
-    "geom:area_square_m":3891667.911784,
+    "geom:area_square_m":3891667.911783,
     "geom:bbox":"-97.229094,47.180675,-97.197109,47.202464",
     "geom:latitude":47.190368,
     "geom:longitude":-97.213097,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.187939,
     "lbl:longitude":-97.210204,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":3801739460,
     "uscensus:name":"Hunter",
     "uscensus:namelsad":"Hunter city",
+    "uscensus:population":327,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3801739460
+        "uscensus:geoid":"3801739460"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404482153,
-    "wof:lastmodified":1605055383,
+    "wof:lastmodified":1722117755,
     "wof:name":"Hunter",
     "wof:parent_id":102082073,
     "wof:placetype":"localadmin",
-    "wof:population":261,
+    "wof:population":327,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

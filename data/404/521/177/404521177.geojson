@@ -10,6 +10,12 @@
     "geom:latitude":42.23169,
     "geom:longitude":-78.312899,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "Reservation"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.231698,
     "lbl:longitude":-78.312949,
     "lbl:max_zoom":18.0,
@@ -48,10 +54,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":3600954523,
     "uscensus:name":"Oil Springs",
     "uscensus:namelsad":"Oil Springs Reservation",
+    "uscensus:population":11,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -61,8 +71,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3600954523
+        "uscensus:geoid":"3600954523"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462621
     ],
@@ -81,10 +92,12 @@
         }
     ],
     "wof:id":404521177,
-    "wof:lastmodified":1605055639,
+    "wof:lastmodified":1722117984,
     "wof:name":"Oil Springs",
     "wof:parent_id":102081853,
     "wof:placetype":"localadmin",
+    "wof:population":11,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

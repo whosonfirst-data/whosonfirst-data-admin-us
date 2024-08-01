@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.020515,
-    "geom:area_square_m":179286851.687777,
+    "geom:area_square_m":179286851.687653,
     "geom:bbox":"-84.371609,44.94088,-84.246498,45.113091",
     "geom:latitude":45.027679,
     "geom:longitude":-84.309638,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.027206,
     "lbl:longitude":-84.310458,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":119,
     "uscensus:geoid":2611982420,
     "uscensus:name":"Vienna",
     "uscensus:namelsad":"Vienna township",
+    "uscensus:population":563,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2611982420
+        "uscensus:geoid":"2611982420"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458879
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404507891,
-    "wof:lastmodified":1605055780,
+    "wof:lastmodified":1722117918,
     "wof:name":"Vienna Township",
     "wof:parent_id":102083127,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":587,
+    "wof:population":563,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

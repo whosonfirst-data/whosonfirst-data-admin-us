@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000718,
-    "geom:area_square_m":6525794.618578,
+    "geom:area_square_m":6525794.618586,
     "geom:bbox":"-84.308604,42.666077,-84.263757,42.700969",
     "geom:latitude":42.683461,
     "geom:longitude":-84.283543,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.683233,
     "lbl:longitude":-84.283224,
     "lbl:max_zoom":15.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":65,
     "uscensus:geoid":2606587420,
     "uscensus:name":"Williamston",
     "uscensus:namelsad":"Williamston city",
+    "uscensus:population":3772,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2606587420
+        "uscensus:geoid":"2606587420"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404507665,
-    "wof:lastmodified":1605055780,
+    "wof:lastmodified":1722117916,
     "wof:name":"Williamston",
     "wof:parent_id":102083649,
     "wof:placetype":"localadmin",
-    "wof:population":3854,
+    "wof:population":3772,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

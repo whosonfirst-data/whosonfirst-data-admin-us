@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009207,
-    "geom:area_square_m":83262624.1088,
+    "geom:area_square_m":83262624.10882,
     "geom:bbox":"-84.284756,42.954078,-84.167023,43.042622",
     "geom:latitude":42.999171,
     "geom:longitude":-84.2305,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":43.004517,
     "lbl:longitude":-84.246069,
@@ -54,11 +57,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":155,
     "uscensus:geoid":2615561960,
     "uscensus:name":"Owosso",
     "uscensus:namelsad":"Owosso charter township",
+    "uscensus:population":4791,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -68,8 +74,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2615561960
+        "uscensus:geoid":"2615561960"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468009
     ],
@@ -88,11 +95,11 @@
         }
     ],
     "wof:id":404508017,
-    "wof:lastmodified":1605055745,
+    "wof:lastmodified":1722117919,
     "wof:name":"Owosso",
     "wof:parent_id":102083041,
     "wof:placetype":"localadmin",
-    "wof:population":4821,
+    "wof:population":4791,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

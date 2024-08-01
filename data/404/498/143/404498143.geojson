@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007654,
-    "geom:area_square_m":70944321.447401,
+    "geom:area_square_m":70944321.447396,
     "geom:bbox":"-90.319593,41.41119,-90.201833,41.477319",
     "geom:latitude":41.444088,
     "geom:longitude":-90.26059,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.444008,
     "lbl:longitude":-90.260588,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":73,
     "uscensus:geoid":1707322476,
     "uscensus:name":"Edford",
     "uscensus:namelsad":"Edford township",
+    "uscensus:population":643,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1707322476
+        "uscensus:geoid":"1707322476"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467635
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404498143,
-    "wof:lastmodified":1605055563,
+    "wof:lastmodified":1722117853,
     "wof:name":"Edford Township",
     "wof:parent_id":102086205,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":667,
+    "wof:population":643,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009378,
-    "geom:area_square_m":89343997.025078,
+    "geom:area_square_m":89343997.025006,
     "geom:bbox":"-84.056908,39.566194,-83.917835,39.673618",
     "geom:latitude":39.607081,
     "geom:longitude":-83.986173,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.61094,
     "lbl:longitude":-83.991771,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":57,
     "uscensus:geoid":3905774223,
     "uscensus:name":"Spring Valley",
     "uscensus:namelsad":"Spring Valley township",
+    "uscensus:population":2514,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3905774223
+        "uscensus:geoid":"3905774223"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404525393,
-    "wof:lastmodified":1605056058,
+    "wof:lastmodified":1722233686,
     "wof:name":"Spring Valley Township",
     "wof:parent_id":102084765,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2581,
+    "wof:population":2514,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

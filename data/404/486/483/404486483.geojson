@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007904,
-    "geom:area_square_m":73980981.484947,
+    "geom:area_square_m":73980981.484944,
     "geom:bbox":"-79.215235,40.761298,-79.100359,40.839361",
     "geom:latitude":40.803831,
     "geom:longitude":-79.155308,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.805185,
     "lbl:longitude":-79.135704,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":63,
     "uscensus:geoid":4206372304,
     "uscensus:name":"South Mahoning",
     "uscensus:namelsad":"South Mahoning township",
+    "uscensus:population":1814,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206372304
+        "uscensus:geoid":"4206372304"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459131
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404486483,
-    "wof:lastmodified":1605055861,
+    "wof:lastmodified":1722117780,
     "wof:name":"South Mahoning Township",
     "wof:parent_id":102081387,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1841,
+    "wof:population":1814,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010113,
-    "geom:area_square_m":95422257.020818,
+    "geom:area_square_m":95422257.020815,
     "geom:bbox":"-85.01748,40.221923,-84.900249,40.309415",
     "geom:latitude":40.26577,
     "geom:longitude":-84.958717,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.265809,
     "lbl:longitude":-84.958717,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":135,
     "uscensus:geoid":1813580072,
     "uscensus:name":"Ward",
     "uscensus:namelsad":"Ward township",
+    "uscensus:population":1024,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1813580072
+        "uscensus:geoid":"1813580072"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404501815,
-    "wof:lastmodified":1604530766,
+    "wof:lastmodified":1722233655,
     "wof:name":"Ward Township",
     "wof:parent_id":102086449,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1109,
+    "wof:population":1024,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

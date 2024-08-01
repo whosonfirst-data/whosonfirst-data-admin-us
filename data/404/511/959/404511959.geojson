@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012418,
-    "geom:area_square_m":110964490.098973,
+    "geom:area_square_m":110964490.098975,
     "geom:bbox":"-91.730747,43.673417,-91.610618,43.796055",
     "geom:latitude":43.726455,
     "geom:longitude":-91.675298,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.72151,
     "lbl:longitude":-91.680103,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":55,
     "uscensus:geoid":2705572166,
     "uscensus:name":"Yucatan",
     "uscensus:namelsad":"Yucatan township",
+    "uscensus:population":324,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2705572166
+        "uscensus:geoid":"2705572166"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462191
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404511959,
-    "wof:lastmodified":1605055723,
+    "wof:lastmodified":1722117947,
     "wof:name":"Yucatan Township",
     "wof:parent_id":102087605,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":323,
+    "wof:population":324,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.015569,
-    "geom:area_square_m":140010000.105223,
+    "geom:area_square_m":140010000.105205,
     "geom:bbox":"-75.886756,43.288006,-75.673134,43.403729",
     "geom:latitude":43.343642,
     "geom:longitude":-75.779569,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.343435,
     "lbl:longitude":-75.779561,
     "lbl:max_zoom":15.0,
@@ -145,22 +151,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":65,
     "uscensus:geoid":3606511858,
     "uscensus:name":"Camden",
     "uscensus:namelsad":"Camden town",
+    "uscensus:population":4673,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688543,
-        102083149
+        102083149,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3606511858
+        "uscensus:geoid":"3606511858"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -176,11 +186,11 @@
         }
     ],
     "wof:id":404522769,
-    "wof:lastmodified":1636499441,
+    "wof:lastmodified":1722233677,
     "wof:name":"Camden",
     "wof:parent_id":102083149,
     "wof:placetype":"localadmin",
-    "wof:population":4934,
+    "wof:population":4673,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

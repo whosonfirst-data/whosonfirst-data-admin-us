@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008839,
-    "geom:area_square_m":84545108.443594,
+    "geom:area_square_m":84545108.443577,
     "geom:bbox":"-82.757499,39.266214,-82.635686,39.368165",
     "geom:latitude":39.324899,
     "geom:longitude":-82.69914,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.328423,
     "lbl:longitude":-82.699132,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":163,
     "uscensus:geoid":3916323100,
     "uscensus:name":"Eagle",
     "uscensus:namelsad":"Eagle township",
+    "uscensus:population":667,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3916323100
+        "uscensus:geoid":"3916323100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464445
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404526121,
-    "wof:lastmodified":1605055650,
+    "wof:lastmodified":1722118020,
     "wof:name":"Eagle Township",
     "wof:parent_id":102084833,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":704,
+    "wof:population":667,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

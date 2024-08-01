@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00018,
-    "geom:area_square_m":1611932.180349,
+    "geom:area_square_m":1611932.180347,
     "geom:bbox":"-97.788821,43.647834,-97.771901,43.663918",
     "geom:latitude":43.654039,
     "geom:longitude":-97.779917,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.653587,
     "lbl:longitude":-97.779918,
     "lbl:max_zoom":17.0,
@@ -415,11 +421,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":4606100820,
     "uscensus:name":"Alexandria",
     "uscensus:namelsad":"Alexandria city",
+    "uscensus:population":654,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -429,8 +438,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4606100820
+        "uscensus:geoid":"4606100820"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -446,11 +456,11 @@
         }
     ],
     "wof:id":404490181,
-    "wof:lastmodified":1605055515,
+    "wof:lastmodified":1722117805,
     "wof:name":"Alexandria",
     "wof:parent_id":102086795,
     "wof:placetype":"localadmin",
-    "wof:population":615,
+    "wof:population":654,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

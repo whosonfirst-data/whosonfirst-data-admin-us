@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011193,
-    "geom:area_square_m":92809173.673638,
+    "geom:area_square_m":92809173.673598,
     "geom:bbox":"-101.871874,47.847555,-101.742733,47.934839",
     "geom:latitude":47.891087,
     "geom:longitude":-101.807384,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.891019,
     "lbl:longitude":-101.807388,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":101,
     "uscensus:geoid":3810137860,
     "uscensus:name":"Hiddenwood",
     "uscensus:namelsad":"Hiddenwood township",
+    "uscensus:population":36,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3810137860
+        "uscensus:geoid":"3810137860"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729477195
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404479985,
-    "wof:lastmodified":1605055476,
+    "wof:lastmodified":1722117741,
     "wof:name":"Hiddenwood Township",
     "wof:parent_id":102082117,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":24,
+    "wof:population":36,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

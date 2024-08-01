@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010181,
-    "geom:area_square_m":90062689.263579,
+    "geom:area_square_m":90062689.263586,
     "geom:bbox":"-92.671155,44.281536,-92.550733,44.369283",
     "geom:latitude":44.326245,
     "geom:longitude":-92.60947,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.325329,
     "lbl:longitude":-92.609421,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":2704972346,
     "uscensus:name":"Zumbrota",
     "uscensus:namelsad":"Zumbrota township",
+    "uscensus:population":616,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2704972346
+        "uscensus:geoid":"2704972346"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464677
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404511789,
-    "wof:lastmodified":1605055731,
+    "wof:lastmodified":1722117946,
     "wof:name":"Zumbrota Township",
     "wof:parent_id":102087843,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":586,
+    "wof:population":616,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

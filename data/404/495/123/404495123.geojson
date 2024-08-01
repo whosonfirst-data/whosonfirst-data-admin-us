@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010246,
-    "geom:area_square_m":93346694.901785,
+    "geom:area_square_m":93346694.901762,
     "geom:bbox":"-89.36662,42.497994,-89.247738,42.586007",
     "geom:latitude":42.542468,
     "geom:longitude":-89.306876,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.542423,
     "lbl:longitude":-89.30687,
     "lbl:max_zoom":17.0,
@@ -130,11 +136,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":5510504100,
     "uscensus:name":"Avon",
     "uscensus:namelsad":"Avon town",
+    "uscensus:population":585,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -144,8 +153,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5510504100
+        "uscensus:geoid":"5510504100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471955
     ],
@@ -164,11 +174,11 @@
         }
     ],
     "wof:id":404495123,
-    "wof:lastmodified":1605055994,
+    "wof:lastmodified":1722117837,
     "wof:name":"Avon",
     "wof:parent_id":102081829,
     "wof:placetype":"localadmin",
-    "wof:population":608,
+    "wof:population":585,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

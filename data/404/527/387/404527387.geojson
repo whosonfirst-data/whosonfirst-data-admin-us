@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012887,
-    "geom:area_square_m":115401343.034627,
+    "geom:area_square_m":115401343.034634,
     "geom:bbox":"-72.637941,43.533341,-72.46644,43.661252",
     "geom:latitude":43.59748,
     "geom:longitude":-72.552129,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.598087,
     "lbl:longitude":-72.552128,
     "lbl:max_zoom":15.0,
@@ -157,11 +163,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":5002785975,
     "uscensus:name":"Woodstock",
     "uscensus:namelsad":"Woodstock town",
+    "uscensus:population":3032,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -171,8 +180,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5002785975
+        "uscensus:geoid":"5002785975"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -188,11 +198,11 @@
         }
     ],
     "wof:id":404527387,
-    "wof:lastmodified":1605055685,
+    "wof:lastmodified":1722233691,
     "wof:name":"Woodstock",
     "wof:parent_id":102080777,
     "wof:placetype":"localadmin",
-    "wof:population":3048,
+    "wof:population":3032,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

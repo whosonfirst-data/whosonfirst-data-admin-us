@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005095,
-    "geom:area_square_m":48379844.611859,
+    "geom:area_square_m":48379844.611862,
     "geom:bbox":"-76.671382,39.783635,-76.536974,39.875864",
     "geom:latitude":39.832576,
     "geom:longitude":-76.617357,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.81095,
     "lbl:longitude":-76.623973,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":133,
     "uscensus:geoid":4213355112,
     "uscensus:name":"North Hopewell",
     "uscensus:namelsad":"North Hopewell township",
+    "uscensus:population":2736,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4213355112
+        "uscensus:geoid":"4213355112"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463285
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404487859,
-    "wof:lastmodified":1605055882,
+    "wof:lastmodified":1722117790,
     "wof:name":"North Hopewell Township",
     "wof:parent_id":102080953,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2791,
+    "wof:population":2736,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

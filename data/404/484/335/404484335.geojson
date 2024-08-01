@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00012,
-    "geom:area_square_m":1132275.668408,
+    "geom:area_square_m":1132275.668409,
     "geom:bbox":"-79.804752,40.385933,-79.773387,40.3958",
     "geom:latitude":40.391595,
     "geom:longitude":-79.785856,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.391404,
     "lbl:longitude":-79.786096,
     "lbl:max_zoom":17.0,
@@ -280,11 +286,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4200380600,
     "uscensus:name":"Wall",
     "uscensus:namelsad":"Wall borough",
+    "uscensus:population":497,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -294,8 +303,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200380600
+        "uscensus:geoid":"4200380600"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -311,11 +321,11 @@
         }
     ],
     "wof:id":404484335,
-    "wof:lastmodified":1605055462,
+    "wof:lastmodified":1722117767,
     "wof:name":"Wall",
     "wof:parent_id":102080887,
     "wof:placetype":"localadmin",
-    "wof:population":580,
+    "wof:population":497,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

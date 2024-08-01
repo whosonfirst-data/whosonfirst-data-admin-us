@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010246,
-    "geom:area_square_m":93849394.037701,
+    "geom:area_square_m":93849394.037664,
     "geom:bbox":"-85.413533,42.1578,-85.295351,42.246071",
     "geom:latitude":42.201802,
     "geom:longitude":-85.354438,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.201877,
     "lbl:longitude":-85.354448,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":77,
     "uscensus:geoid":2607716460,
     "uscensus:name":"Climax",
     "uscensus:namelsad":"Climax township",
+    "uscensus:population":2363,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2607716460
+        "uscensus:geoid":"2607716460"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404506079,
-    "wof:lastmodified":1605055752,
+    "wof:lastmodified":1722233665,
     "wof:name":"Climax Township",
     "wof:parent_id":102083671,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2463,
+    "wof:population":2363,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

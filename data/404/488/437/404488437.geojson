@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010694,
-    "geom:area_square_m":92896100.464229,
+    "geom:area_square_m":92896100.464216,
     "geom:bbox":"-98.227312,45.327364,-98.10357,45.414725",
     "geom:latitude":45.371067,
     "geom:longitude":-98.165431,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.371052,
     "lbl:longitude":-98.16543,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":4601370380,
     "uscensus:name":"West Hanson",
     "uscensus:namelsad":"West Hanson township",
+    "uscensus:population":46,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4601370380
+        "uscensus:geoid":"4601370380"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466335
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404488437,
-    "wof:lastmodified":1605055805,
+    "wof:lastmodified":1722117794,
     "wof:name":"West Hanson Township",
     "wof:parent_id":102086843,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":61,
+    "wof:population":46,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000244,
-    "geom:area_square_m":2284253.031381,
+    "geom:area_square_m":2284253.031372,
     "geom:bbox":"-78.227502,40.878895,-78.204391,40.906427",
     "geom:latitude":40.895233,
     "geom:longitude":-78.214621,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.902031,
     "lbl:longitude":-78.217327,
     "lbl:max_zoom":15.0,
@@ -85,11 +91,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":4202760008,
     "uscensus:name":"Philipsburg",
     "uscensus:namelsad":"Philipsburg borough",
+    "uscensus:population":2710,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -99,8 +108,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202760008
+        "uscensus:geoid":"4202760008"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -116,11 +126,11 @@
         }
     ],
     "wof:id":404485769,
-    "wof:lastmodified":1605055365,
+    "wof:lastmodified":1722117776,
     "wof:name":"Philipsburg",
     "wof:parent_id":102081369,
     "wof:placetype":"localadmin",
-    "wof:population":2770,
+    "wof:population":2710,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

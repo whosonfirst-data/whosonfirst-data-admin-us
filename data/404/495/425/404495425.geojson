@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009662,
-    "geom:area_square_m":84630965.36549,
+    "geom:area_square_m":84630965.365501,
     "geom:bbox":"-89.845423,44.858059,-89.727043,44.94425",
     "geom:latitude":44.899605,
     "geom:longitude":-89.78381,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.901127,
     "lbl:longitude":-89.783704,
     "lbl:max_zoom":16.0,
@@ -322,22 +328,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":73,
     "uscensus:geoid":5507349075,
     "uscensus:name":"Marathon",
     "uscensus:namelsad":"Marathon town",
+    "uscensus:population":1004,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081881
+        102081881,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5507349075
+        "uscensus:geoid":"5507349075"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468499
     ],
@@ -356,11 +366,11 @@
         }
     ],
     "wof:id":404495425,
-    "wof:lastmodified":1636499411,
+    "wof:lastmodified":1722117839,
     "wof:name":"Marathon",
     "wof:parent_id":102081881,
     "wof:placetype":"localadmin",
-    "wof:population":1048,
+    "wof:population":1004,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

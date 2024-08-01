@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000407,
-    "geom:area_square_m":3814161.138498,
+    "geom:area_square_m":3814161.138501,
     "geom:bbox":"-74.032874,40.756601,-74.001327,40.780685",
     "geom:latitude":40.767623,
     "geom:longitude":-74.016613,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.766256,
     "lbl:longitude":-74.016609,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":3401777930,
     "uscensus:name":"Weehawken",
     "uscensus:namelsad":"Weehawken township",
+    "uscensus:population":17207,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3401777930
+        "uscensus:geoid":"3401777930"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729477453
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404478147,
-    "wof:lastmodified":1605055353,
+    "wof:lastmodified":1722117728,
     "wof:name":"Weehawken Township",
     "wof:parent_id":102080719,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":12554,
+    "wof:population":17207,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

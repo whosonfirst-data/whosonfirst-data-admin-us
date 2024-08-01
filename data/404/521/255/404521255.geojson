@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010324,
-    "geom:area_square_m":94545024.383247,
+    "geom:area_square_m":94545024.383242,
     "geom:bbox":"-79.178924,42.173403,-79.059682,42.260722",
     "geom:latitude":42.216993,
     "geom:longitude":-79.119404,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.217072,
     "lbl:longitude":-79.119411,
     "lbl:max_zoom":16.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":3601324053,
     "uscensus:name":"Ellington",
     "uscensus:namelsad":"Ellington town",
+    "uscensus:population":1484,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3601324053
+        "uscensus:geoid":"3601324053"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462397
     ],
@@ -116,11 +126,11 @@
         }
     ],
     "wof:id":404521255,
-    "wof:lastmodified":1605055639,
+    "wof:lastmodified":1722117984,
     "wof:name":"Ellington",
     "wof:parent_id":102081811,
     "wof:placetype":"localadmin",
-    "wof:population":1643,
+    "wof:population":1484,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

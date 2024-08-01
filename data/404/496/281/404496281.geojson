@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012996,
-    "geom:area_square_m":125057888.023931,
+    "geom:area_square_m":125057888.023899,
     "geom:bbox":"-87.795447,38.848857,-87.670152,38.956302",
     "geom:latitude":38.902579,
     "geom:longitude":-87.732564,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.902857,
     "lbl:longitude":-87.732568,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":33,
     "uscensus:geoid":1703335970,
     "uscensus:name":"Honey Creek",
     "uscensus:namelsad":"Honey Creek township",
+    "uscensus:population":1437,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1703335970
+        "uscensus:geoid":"1703335970"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404496281,
-    "wof:lastmodified":1605055597,
+    "wof:lastmodified":1722233634,
     "wof:name":"Honey Creek Township",
     "wof:parent_id":102080809,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1563,
+    "wof:population":1437,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

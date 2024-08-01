@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000092,
-    "geom:area_square_m":860641.539255,
+    "geom:area_square_m":860641.539258,
     "geom:bbox":"-78.056975,40.565288,-78.042803,40.578697",
     "geom:latitude":40.572598,
     "geom:longitude":-78.050615,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.572287,
     "lbl:longitude":-78.04895,
     "lbl:max_zoom":17.0,
@@ -112,11 +118,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":4206159616,
     "uscensus:name":"Petersburg",
     "uscensus:namelsad":"Petersburg borough",
+    "uscensus:population":414,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -126,8 +135,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206159616
+        "uscensus:geoid":"4206159616"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -143,11 +153,11 @@
         }
     ],
     "wof:id":404483289,
-    "wof:lastmodified":1605055438,
+    "wof:lastmodified":1722117761,
     "wof:name":"Petersburg",
     "wof:parent_id":102080901,
     "wof:placetype":"localadmin",
-    "wof:population":480,
+    "wof:population":414,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

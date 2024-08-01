@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007424,
-    "geom:area_square_m":70521888.108557,
+    "geom:area_square_m":70521888.108544,
     "geom:bbox":"-81.908083,39.760405,-81.810032,39.850975",
     "geom:latitude":39.80562,
     "geom:longitude":-81.855605,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.80362,
     "lbl:longitude":-81.852999,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":119,
     "uscensus:geoid":3911907398,
     "uscensus:name":"Blue Rock",
     "uscensus:namelsad":"Blue Rock township",
+    "uscensus:population":665,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3911907398
+        "uscensus:geoid":"3911907398"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466497
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404525677,
-    "wof:lastmodified":1605056060,
+    "wof:lastmodified":1722118017,
     "wof:name":"Blue Rock Township",
     "wof:parent_id":102084785,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":677,
+    "wof:population":665,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

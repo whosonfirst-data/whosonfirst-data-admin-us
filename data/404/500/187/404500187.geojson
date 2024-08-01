@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008369,
-    "geom:area_square_m":80927310.766428,
+    "geom:area_square_m":80927310.766456,
     "geom:bbox":"-85.723834,38.486857,-85.558787,38.60573",
     "geom:latitude":38.553389,
     "geom:longitude":-85.635656,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.55394,
     "lbl:longitude":-85.634388,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":1801956898,
     "uscensus:name":"Oregon",
     "uscensus:namelsad":"Oregon township",
+    "uscensus:population":1802,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1801956898
+        "uscensus:geoid":"1801956898"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478109
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404500187,
-    "wof:lastmodified":1604969680,
+    "wof:lastmodified":1722117864,
     "wof:name":"Oregon Township",
     "wof:parent_id":102086421,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1769,
+    "wof:population":1802,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

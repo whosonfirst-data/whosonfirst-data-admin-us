@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011487,
-    "geom:area_square_m":94433796.237992,
+    "geom:area_square_m":94433796.237997,
     "geom:bbox":"-103.087802,48.284051,-102.957136,48.37257",
     "geom:latitude":48.328328,
     "geom:longitude":-103.022263,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.32829,
     "lbl:longitude":-103.022248,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":3810584580,
     "uscensus:name":"West Bank",
     "uscensus:namelsad":"West Bank township",
+    "uscensus:population":74,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3810584580
+        "uscensus:geoid":"3810584580"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459321
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404482283,
-    "wof:lastmodified":1605055385,
+    "wof:lastmodified":1722117755,
     "wof:name":"West Bank Township",
     "wof:parent_id":102082069,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":52,
+    "wof:population":74,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

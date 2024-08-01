@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009527,
-    "geom:area_square_m":93540008.856109,
+    "geom:area_square_m":93540008.856188,
     "geom:bbox":"-96.825955,37.388508,-96.712432,37.476126",
     "geom:latitude":37.432437,
     "geom:longitude":-96.76898,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.432337,
     "lbl:longitude":-96.76898,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":2003552850,
     "uscensus:name":"Omnia",
     "uscensus:namelsad":"Omnia township",
+    "uscensus:population":258,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2003552850
+        "uscensus:geoid":"2003552850"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404503381,
-    "wof:lastmodified":1605055331,
+    "wof:lastmodified":1722233659,
     "wof:name":"Omnia Township",
     "wof:parent_id":102082165,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":312,
+    "wof:population":258,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

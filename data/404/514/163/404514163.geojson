@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010737,
-    "geom:area_square_m":89174506.692182,
+    "geom:area_square_m":89174506.692166,
     "geom:bbox":"-96.740117,47.760334,-96.610933,47.847577",
     "geom:latitude":47.805195,
     "geom:longitude":-96.677567,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.8039,
     "lbl:longitude":-96.677568,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":119,
     "uscensus:geoid":2711938330,
     "uscensus:name":"Lowell",
     "uscensus:namelsad":"Lowell township",
+    "uscensus:population":284,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2711938330
+        "uscensus:geoid":"2711938330"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729455515
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404514163,
-    "wof:lastmodified":1605056023,
+    "wof:lastmodified":1722117964,
     "wof:name":"Lowell Township",
     "wof:parent_id":102087599,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":298,
+    "wof:population":284,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

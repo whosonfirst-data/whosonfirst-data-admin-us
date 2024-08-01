@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006663,
-    "geom:area_square_m":62416921.479754,
+    "geom:area_square_m":62416921.479736,
     "geom:bbox":"-75.196861,40.719429,-75.042054,40.789896",
     "geom:latitude":40.752676,
     "geom:longitude":-75.124611,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.754248,
     "lbl:longitude":-75.109134,
     "lbl:max_zoom":15.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":3404130090,
     "uscensus:name":"Harmony",
     "uscensus:namelsad":"Harmony township",
+    "uscensus:population":2525,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3404130090
+        "uscensus:geoid":"3404130090"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404478427,
-    "wof:lastmodified":1605055348,
+    "wof:lastmodified":1722117730,
     "wof:name":"Harmony Township",
     "wof:parent_id":102083873,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2667,
+    "wof:population":2525,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

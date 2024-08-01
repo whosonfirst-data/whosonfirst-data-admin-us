@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011928,
-    "geom:area_square_m":115964208.542657,
+    "geom:area_square_m":115964208.54263,
     "geom:bbox":"-95.407805,38.125238,-95.240838,38.198792",
     "geom:latitude":38.16247,
     "geom:longitude":-95.325535,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.162133,
     "lbl:longitude":-95.325525,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":2000376450,
     "uscensus:name":"Welda",
     "uscensus:namelsad":"Welda township",
+    "uscensus:population":299,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2000376450
+        "uscensus:geoid":"2000376450"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404505401,
-    "wof:lastmodified":1605055282,
+    "wof:lastmodified":1722117900,
     "wof:name":"Welda Township",
     "wof:parent_id":102083439,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":290,
+    "wof:population":299,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

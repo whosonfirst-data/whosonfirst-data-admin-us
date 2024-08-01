@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009495,
-    "geom:area_square_m":88966770.155403,
+    "geom:area_square_m":88966770.155417,
     "geom:bbox":"-84.340004,40.685658,-84.222799,40.773446",
     "geom:latitude":40.731047,
     "geom:longitude":-84.278217,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.729186,
     "lbl:longitude":-84.277429,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3900301602,
     "uscensus:name":"Amanda",
     "uscensus:namelsad":"Amanda township",
+    "uscensus:population":2051,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3900301602
+        "uscensus:geoid":"3900301602"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475299
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404524743,
-    "wof:lastmodified":1605056116,
+    "wof:lastmodified":1722118010,
     "wof:name":"Amanda Township",
     "wof:parent_id":102083673,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2071,
+    "wof:population":2051,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

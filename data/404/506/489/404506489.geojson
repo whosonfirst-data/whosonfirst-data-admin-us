@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.015093,
-    "geom:area_square_m":135704942.407222,
+    "geom:area_square_m":135704942.407212,
     "geom:bbox":"-83.120396,43.28368,-82.984439,43.417142",
     "geom:latitude":43.350729,
     "geom:longitude":-83.049516,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.365731,
     "lbl:longitude":-83.034485,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":151,
     "uscensus:geoid":2615151840,
     "uscensus:name":"Marlette",
     "uscensus:namelsad":"Marlette township",
+    "uscensus:population":1672,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2615151840
+        "uscensus:geoid":"2615151840"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472939
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404506489,
-    "wof:lastmodified":1605055762,
+    "wof:lastmodified":1722117907,
     "wof:name":"Marlette Township",
     "wof:parent_id":102083137,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1763,
+    "wof:population":1672,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -10,6 +10,12 @@
     "geom:latitude":40.028178,
     "geom:longitude":-75.280761,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.038098,
     "lbl:longitude":-75.287415,
     "lbl:max_zoom":14.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":91,
     "uscensus:geoid":4209144976,
     "uscensus:name":"Lower Merion",
     "uscensus:namelsad":"Lower Merion township",
+    "uscensus:population":64157,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4209144976
+        "uscensus:geoid":"4209144976"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404485475,
-    "wof:lastmodified":1605055368,
+    "wof:lastmodified":1722117774,
     "wof:name":"Lower Merion Township",
     "wof:parent_id":102081355,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":57825,
+    "wof:population":64157,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

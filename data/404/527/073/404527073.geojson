@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011276,
-    "geom:area_square_m":99679033.459159,
+    "geom:area_square_m":99679033.459163,
     "geom:bbox":"-72.550612,44.304375,-72.380629,44.425693",
     "geom:latitude":44.364937,
     "geom:longitude":-72.465734,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.365096,
     "lbl:longitude":-72.465734,
     "lbl:max_zoom":16.0,
@@ -280,22 +286,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":5002311350,
     "uscensus:name":"Calais",
     "uscensus:namelsad":"Calais town",
+    "uscensus:population":1673,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688763,
-        102080779
+        102080779,
+        85688763
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5002311350
+        "uscensus:geoid":"5002311350"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471705
     ],
@@ -314,11 +324,11 @@
         }
     ],
     "wof:id":404527073,
-    "wof:lastmodified":1636499338,
+    "wof:lastmodified":1722118028,
     "wof:name":"Calais",
     "wof:parent_id":102080779,
     "wof:placetype":"localadmin",
-    "wof:population":1607,
+    "wof:population":1673,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

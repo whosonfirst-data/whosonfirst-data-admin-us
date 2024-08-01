@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000118,
-    "geom:area_square_m":1115019.689334,
+    "geom:area_square_m":1115019.689335,
     "geom:bbox":"-76.116816,40.427295,-76.104226,40.440747",
     "geom:latitude":40.433367,
     "geom:longitude":-76.110627,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.433178,
     "lbl:longitude":-76.110747,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":4201105848,
     "uscensus:name":"Bernville",
     "uscensus:namelsad":"Bernville borough",
+    "uscensus:population":902,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201105848
+        "uscensus:geoid":"4201105848"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404482651,
-    "wof:lastmodified":1605055379,
+    "wof:lastmodified":1722117758,
     "wof:name":"Bernville",
     "wof:parent_id":102080991,
     "wof:placetype":"localadmin",
-    "wof:population":955,
+    "wof:population":902,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

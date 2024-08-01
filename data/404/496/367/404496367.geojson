@@ -10,6 +10,12 @@
     "geom:latitude":40.531074,
     "geom:longitude":-88.175988,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.531074,
     "lbl:longitude":-88.175989,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":53,
     "uscensus:geoid":1705378474,
     "uscensus:name":"Wall",
     "uscensus:namelsad":"Wall township",
+    "uscensus:population":183,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1705378474
+        "uscensus:geoid":"1705378474"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475441
     ],
@@ -83,13 +93,13 @@
         }
     ],
     "wof:id":404496367,
-    "wof:lastmodified":1605055602,
+    "wof:lastmodified":1722117843,
     "wof:name":"Wall Township",
     "wof:parent_id":102082859,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":209,
-    "wof:population_rank":2,
+    "wof:population":183,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

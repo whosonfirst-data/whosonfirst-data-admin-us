@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008894,
-    "geom:area_square_m":84405607.520917,
+    "geom:area_square_m":84405607.520872,
     "geom:bbox":"-76.381716,39.805425,-76.255673,39.942244",
     "geom:latitude":39.872142,
     "geom:longitude":-76.314355,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.871667,
     "lbl:longitude":-76.30818,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":71,
     "uscensus:geoid":4207147824,
     "uscensus:name":"Martic",
     "uscensus:namelsad":"Martic township",
+    "uscensus:population":5170,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207147824
+        "uscensus:geoid":"4207147824"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729454327
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404485325,
-    "wof:lastmodified":1605055364,
+    "wof:lastmodified":1722117773,
     "wof:name":"Martic Township",
     "wof:parent_id":102081377,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":5190,
+    "wof:population":5170,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

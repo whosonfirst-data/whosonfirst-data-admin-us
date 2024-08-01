@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000139,
-    "geom:area_square_m":1293686.126032,
+    "geom:area_square_m":1293686.126034,
     "geom:bbox":"-79.686719,41.137022,-79.675597,41.154933",
     "geom:latitude":41.145907,
     "geom:longitude":-79.680227,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.145928,
     "lbl:longitude":-79.680889,
     "lbl:max_zoom":18.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":4203127112,
     "uscensus:name":"Foxburg",
     "uscensus:namelsad":"Foxburg borough",
+    "uscensus:population":178,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4203127112
+        "uscensus:geoid":"4203127112"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404482955,
-    "wof:lastmodified":1605055377,
+    "wof:lastmodified":1722117760,
     "wof:name":"Foxburg",
     "wof:parent_id":102081389,
     "wof:placetype":"localadmin",
-    "wof:population":183,
+    "wof:population":178,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

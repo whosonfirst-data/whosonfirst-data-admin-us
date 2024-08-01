@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010621,
-    "geom:area_square_m":92829766.768951,
+    "geom:area_square_m":92829766.768847,
     "geom:bbox":"-97.738837,44.978207,-97.616062,45.065346",
     "geom:latitude":45.021808,
     "geom:longitude":-97.677446,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.021851,
     "lbl:longitude":-97.677466,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":4602563380,
     "uscensus:name":"Thorp",
     "uscensus:namelsad":"Thorp township",
+    "uscensus:population":51,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4602563380
+        "uscensus:geoid":"4602563380"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469937
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404488523,
-    "wof:lastmodified":1605055818,
+    "wof:lastmodified":1722117794,
     "wof:name":"Thorp Township",
     "wof:parent_id":102086035,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":46,
+    "wof:population":51,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

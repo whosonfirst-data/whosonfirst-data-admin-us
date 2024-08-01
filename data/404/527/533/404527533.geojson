@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011639,
-    "geom:area_square_m":101799491.199889,
+    "geom:area_square_m":101799491.199907,
     "geom:bbox":"-71.917738,44.943631,-71.698115,45.011656",
     "geom:latitude":44.979312,
     "geom:longitude":-71.816158,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.978512,
     "lbl:longitude":-71.816158,
     "lbl:max_zoom":18.0,
@@ -115,11 +121,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":5000952750,
     "uscensus:name":"Norton",
     "uscensus:namelsad":"Norton town",
+    "uscensus:population":156,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -129,8 +138,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5000952750
+        "uscensus:geoid":"5000952750"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469843
     ],
@@ -149,11 +159,11 @@
         }
     ],
     "wof:id":404527533,
-    "wof:lastmodified":1605055676,
+    "wof:lastmodified":1722118031,
     "wof:name":"Norton",
     "wof:parent_id":102080725,
     "wof:placetype":"localadmin",
-    "wof:population":169,
+    "wof:population":156,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

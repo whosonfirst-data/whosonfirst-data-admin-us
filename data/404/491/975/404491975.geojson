@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0111,
-    "geom:area_square_m":96036598.853078,
+    "geom:area_square_m":96036598.853075,
     "geom:bbox":"-92.283892,45.553504,-92.15478,45.640084",
     "geom:latitude":45.596851,
     "geom:longitude":-92.219252,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.596914,
     "lbl:longitude":-92.219249,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":5509546900,
     "uscensus:name":"McKinley",
     "uscensus:namelsad":"McKinley town",
+    "uscensus:population":350,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5509546900
+        "uscensus:geoid":"5509546900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473751
     ],
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404491975,
-    "wof:lastmodified":1605055592,
+    "wof:lastmodified":1722117816,
     "wof:name":"Mckinley",
     "wof:parent_id":102081307,
     "wof:placetype":"localadmin",
-    "wof:population":347,
+    "wof:population":350,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

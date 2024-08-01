@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000078,
-    "geom:area_square_m":633079.998836,
+    "geom:area_square_m":633079.998837,
     "geom:bbox":"-101.573308,48.864731,-101.562359,48.871954",
     "geom:latitude":48.868354,
     "geom:longitude":-101.567889,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.868338,
     "lbl:longitude":-101.567886,
     "lbl:max_zoom":18.0,
@@ -61,11 +67,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":75,
     "uscensus:geoid":3807548020,
     "uscensus:name":"Loraine",
     "uscensus:namelsad":"Loraine city",
+    "uscensus:population":10,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -75,8 +84,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3807548020
+        "uscensus:geoid":"3807548020"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -92,11 +102,11 @@
         }
     ],
     "wof:id":404479409,
-    "wof:lastmodified":1605055474,
+    "wof:lastmodified":1722117737,
     "wof:name":"Loraine",
     "wof:parent_id":102082063,
     "wof:placetype":"localadmin",
-    "wof:population":9,
+    "wof:population":10,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

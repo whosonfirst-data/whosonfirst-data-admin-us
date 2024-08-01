@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000222,
-    "geom:area_square_m":2053854.615673,
+    "geom:area_square_m":2053854.615674,
     "geom:bbox":"-76.275429,41.661003,-76.250794,41.6783",
     "geom:latitude":41.670283,
     "geom:longitude":-76.262258,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.669439,
     "lbl:longitude":-76.264124,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":4201586656,
     "uscensus:name":"Wyalusing",
     "uscensus:namelsad":"Wyalusing borough",
+    "uscensus:population":610,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201586656
+        "uscensus:geoid":"4201586656"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,11 +93,11 @@
         }
     ],
     "wof:id":404484699,
-    "wof:lastmodified":1605055465,
+    "wof:lastmodified":1722117769,
     "wof:name":"Wyalusing",
     "wof:parent_id":102081319,
     "wof:placetype":"localadmin",
-    "wof:population":596,
+    "wof:population":610,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001656,
-    "geom:area_square_m":15679071.692126,
+    "geom:area_square_m":15679071.692144,
     "geom:bbox":"-76.354266,39.987745,-76.273251,40.053146",
     "geom:latitude":40.021798,
     "geom:longitude":-76.322822,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.029071,
     "lbl:longitude":-76.333225,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":71,
     "uscensus:geoid":4207141224,
     "uscensus:name":"Lancaster",
     "uscensus:namelsad":"Lancaster township",
+    "uscensus:population":18677,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207141224
+        "uscensus:geoid":"4207141224"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466275
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404487185,
-    "wof:lastmodified":1605055897,
+    "wof:lastmodified":1722117785,
     "wof:name":"Lancaster Township",
     "wof:parent_id":102081377,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":16149,
+    "wof:population":18677,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

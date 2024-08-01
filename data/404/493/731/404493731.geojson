@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009319,
-    "geom:area_square_m":81866574.395401,
+    "geom:area_square_m":81866574.395398,
     "geom:bbox":"-90.316868,44.685154,-90.198344,44.772052",
     "geom:latitude":44.728199,
     "geom:longitude":-90.256716,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.725888,
     "lbl:longitude":-90.25189,
     "lbl:max_zoom":16.0,
@@ -115,22 +121,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":73,
     "uscensus:geoid":5507375425,
     "uscensus:name":"Spencer",
     "uscensus:namelsad":"Spencer town",
+    "uscensus:population":1595,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081881
+        102081881,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5507375425
+        "uscensus:geoid":"5507375425"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457753
     ],
@@ -149,11 +159,11 @@
         }
     ],
     "wof:id":404493731,
-    "wof:lastmodified":1636499392,
+    "wof:lastmodified":1722117828,
     "wof:name":"Spencer",
     "wof:parent_id":102081881,
     "wof:placetype":"localadmin",
-    "wof:population":1581,
+    "wof:population":1595,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

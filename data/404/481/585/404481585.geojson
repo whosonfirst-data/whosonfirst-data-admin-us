@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011191,
-    "geom:area_square_m":93101281.869444,
+    "geom:area_square_m":93101281.869379,
     "geom:bbox":"-100.971938,47.674189,-100.84226,47.761361",
     "geom:latitude":47.717781,
     "geom:longitude":-100.907188,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.717793,
     "lbl:longitude":-100.907205,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":55,
     "uscensus:geoid":3805538940,
     "uscensus:name":"Horseshoe Valley",
     "uscensus:namelsad":"Horseshoe Valley township",
+    "uscensus:population":41,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3805538940
+        "uscensus:geoid":"3805538940"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476397
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404481585,
-    "wof:lastmodified":1605055835,
+    "wof:lastmodified":1722117751,
     "wof:name":"Horseshoe Valley Township",
     "wof:parent_id":102082097,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":27,
+    "wof:population":41,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

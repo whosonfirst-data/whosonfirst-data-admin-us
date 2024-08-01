@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000242,
-    "geom:area_square_m":2012723.652898,
+    "geom:area_square_m":2012723.6529,
     "geom:bbox":"-101.303853,47.811987,-101.274717,47.826621",
     "geom:latitude":47.82042,
     "geom:longitude":-101.291106,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.821267,
     "lbl:longitude":-101.288445,
     "lbl:max_zoom":17.0,
@@ -115,11 +121,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":55,
     "uscensus:geoid":3805551380,
     "uscensus:name":"Max",
     "uscensus:namelsad":"Max city",
+    "uscensus:population":323,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -129,8 +138,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3805551380
+        "uscensus:geoid":"3805551380"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -146,11 +156,11 @@
         }
     ],
     "wof:id":404481595,
-    "wof:lastmodified":1605055820,
+    "wof:lastmodified":1722117751,
     "wof:name":"Max",
     "wof:parent_id":102082097,
     "wof:placetype":"localadmin",
-    "wof:population":334,
+    "wof:population":323,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

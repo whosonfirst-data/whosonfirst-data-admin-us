@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000215,
-    "geom:area_square_m":1759982.809,
+    "geom:area_square_m":1759982.809001,
     "geom:bbox":"-101.897275,48.502673,-101.869842,48.513903",
     "geom:latitude":48.507731,
     "geom:longitude":-101.887054,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.50838,
     "lbl:longitude":-101.888167,
     "lbl:max_zoom":18.0,
@@ -61,11 +67,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":101,
     "uscensus:geoid":3810119900,
     "uscensus:name":"Donnybrook",
     "uscensus:namelsad":"Donnybrook city",
+    "uscensus:population":73,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -75,8 +84,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3810119900
+        "uscensus:geoid":"3810119900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -92,11 +102,11 @@
         }
     ],
     "wof:id":404479979,
-    "wof:lastmodified":1605055475,
+    "wof:lastmodified":1722117741,
     "wof:name":"Donnybrook",
     "wof:parent_id":102082117,
     "wof:placetype":"localadmin",
-    "wof:population":59,
+    "wof:population":73,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

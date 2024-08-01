@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010217,
-    "geom:area_square_m":92545423.666672,
+    "geom:area_square_m":92545423.666629,
     "geom:bbox":"-89.72056,42.857365,-89.602346,42.94474",
     "geom:latitude":42.901051,
     "geom:longitude":-89.661488,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.901107,
     "lbl:longitude":-89.661491,
     "lbl:max_zoom":17.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":5502565575,
     "uscensus:name":"Primrose",
     "uscensus:namelsad":"Primrose town",
+    "uscensus:population":729,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5502565575
+        "uscensus:geoid":"5502565575"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472377
     ],
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404491677,
-    "wof:lastmodified":1605055587,
+    "wof:lastmodified":1722117814,
     "wof:name":"Primrose",
     "wof:parent_id":102081795,
     "wof:placetype":"localadmin",
-    "wof:population":731,
+    "wof:population":729,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010047,
-    "geom:area_square_m":93009668.501359,
+    "geom:area_square_m":93009668.501367,
     "geom:bbox":"-96.674385,41.480505,-96.558574,41.567981",
     "geom:latitude":41.524207,
     "geom:longitude":-96.61645,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.524191,
     "lbl:longitude":-96.61645,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":53,
     "uscensus:geoid":3105330450,
     "uscensus:name":"Maple",
     "uscensus:namelsad":"Maple township",
+    "uscensus:population":313,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3105330450
+        "uscensus:geoid":"3105330450"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467725
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404519961,
-    "wof:lastmodified":1605055668,
+    "wof:lastmodified":1722117981,
     "wof:name":"Maple Township",
     "wof:parent_id":102082773,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":322,
+    "wof:population":313,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

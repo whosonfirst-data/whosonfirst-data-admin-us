@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000055,
-    "geom:area_square_m":521710.908783,
+    "geom:area_square_m":521710.908784,
     "geom:bbox":"-79.217437,39.882808,-79.205069,39.88884",
     "geom:latitude":39.885721,
     "geom:longitude":-79.211085,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.885607,
     "lbl:longitude":-79.210968,
     "lbl:max_zoom":18.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":111,
     "uscensus:geoid":4211111624,
     "uscensus:name":"Casselman",
     "uscensus:namelsad":"Casselman borough",
+    "uscensus:population":114,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4211111624
+        "uscensus:geoid":"4211111624"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404484011,
-    "wof:lastmodified":1605055464,
+    "wof:lastmodified":1722117765,
     "wof:name":"Casselman",
     "wof:parent_id":102081361,
     "wof:placetype":"localadmin",
-    "wof:population":94,
+    "wof:population":114,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

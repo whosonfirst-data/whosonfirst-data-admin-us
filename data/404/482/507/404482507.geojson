@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01126,
-    "geom:area_square_m":93203304.498468,
+    "geom:area_square_m":93203304.498362,
     "geom:bbox":"-101.228565,47.935352,-101.099527,48.0229",
     "geom:latitude":47.979136,
     "geom:longitude":-101.1641,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.979138,
     "lbl:longitude":-101.164099,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":101,
     "uscensus:geoid":3810156500,
     "uscensus:name":"Newman",
     "uscensus:namelsad":"Newman township",
+    "uscensus:population":60,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3810156500
+        "uscensus:geoid":"3810156500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459055
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404482507,
-    "wof:lastmodified":1605055384,
+    "wof:lastmodified":1722117757,
     "wof:name":"Newman Township",
     "wof:parent_id":102082117,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":55,
+    "wof:population":60,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

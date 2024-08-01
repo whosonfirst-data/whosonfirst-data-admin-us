@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014405,
-    "geom:area_square_m":137784270.206848,
+    "geom:area_square_m":137784270.206905,
     "geom:bbox":"-100.943691,39.263527,-100.832232,39.394283",
     "geom:latitude":39.329046,
     "geom:longitude":-100.888188,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.328986,
     "lbl:longitude":-100.888186,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":193,
     "uscensus:geoid":2019351300,
     "uscensus:name":"North Randall",
     "uscensus:namelsad":"North Randall township",
+    "uscensus:population":75,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2019351300
+        "uscensus:geoid":"2019351300"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463419
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404505311,
-    "wof:lastmodified":1605055292,
+    "wof:lastmodified":1722117899,
     "wof:name":"North Randall Township",
     "wof:parent_id":102082669,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":85,
+    "wof:population":75,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

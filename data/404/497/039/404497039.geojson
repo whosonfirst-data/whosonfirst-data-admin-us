@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012927,
-    "geom:area_square_m":123717733.798796,
+    "geom:area_square_m":123717733.79876,
     "geom:bbox":"-90.296122,39.224672,-90.148069,39.353298",
     "geom:latitude":39.288489,
     "geom:longitude":-90.216121,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.302093,
     "lbl:longitude":-90.214756,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":1706164824,
     "uscensus:name":"Rockbridge",
     "uscensus:namelsad":"Rockbridge township",
+    "uscensus:population":1505,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1706164824
+        "uscensus:geoid":"1706164824"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404497039,
-    "wof:lastmodified":1605055492,
+    "wof:lastmodified":1722233636,
     "wof:name":"Rockbridge Township",
     "wof:parent_id":102083529,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1633,
+    "wof:population":1505,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

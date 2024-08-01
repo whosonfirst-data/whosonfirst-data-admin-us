@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006109,
-    "geom:area_square_m":58534183.066418,
+    "geom:area_square_m":58534183.066405,
     "geom:bbox":"-88.322169,39.171217,-88.210616,39.229905",
     "geom:latitude":39.201395,
     "geom:longitude":-88.269081,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.200317,
     "lbl:longitude":-88.269103,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":1703582959,
     "uscensus:name":"Woodbury",
     "uscensus:namelsad":"Woodbury township",
+    "uscensus:population":543,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1703582959
+        "uscensus:geoid":"1703582959"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404497695,
-    "wof:lastmodified":1605055492,
+    "wof:lastmodified":1722233639,
     "wof:name":"Woodbury Township",
     "wof:parent_id":102080843,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":604,
+    "wof:population":543,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012371,
-    "geom:area_square_m":113147955.872408,
+    "geom:area_square_m":113147955.872407,
     "geom:bbox":"-85.298024,42.246071,-85.131951,42.359433",
     "geom:latitude":42.298567,
     "geom:longitude":-85.229669,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.283247,
     "lbl:longitude":-85.256998,
     "lbl:max_zoom":14.0,
@@ -52,22 +58,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":2602505920,
     "uscensus:name":"Battle Creek",
     "uscensus:namelsad":"Battle Creek city",
+    "uscensus:population":52175,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688599,
-        102082993
+        102082993,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2602505920
+        "uscensus:geoid":"2602505920"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,11 +93,11 @@
         }
     ],
     "wof:id":404507051,
-    "wof:lastmodified":1636499361,
+    "wof:lastmodified":1722117911,
     "wof:name":"Battle Creek",
     "wof:parent_id":102082993,
     "wof:placetype":"localadmin",
-    "wof:population":52347,
+    "wof:population":52175,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

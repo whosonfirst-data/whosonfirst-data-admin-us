@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002311,
-    "geom:area_square_m":22019004.240611,
+    "geom:area_square_m":22019004.240623,
     "geom:bbox":"-74.88443,39.561665,-74.800412,39.623958",
     "geom:latitude":39.592883,
     "geom:longitude":-74.84244,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.592912,
     "lbl:longitude":-74.842439,
     "lbl:max_zoom":16.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":3400123940,
     "uscensus:name":"Folsom",
     "uscensus:namelsad":"Folsom borough",
+    "uscensus:population":1813,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400123940
+        "uscensus:geoid":"3400123940"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404477273,
-    "wof:lastmodified":1605055416,
+    "wof:lastmodified":1722117721,
     "wof:name":"Folsom",
     "wof:parent_id":102083869,
     "wof:placetype":"localadmin",
-    "wof:population":1885,
+    "wof:population":1813,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

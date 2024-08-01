@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000235,
-    "geom:area_square_m":2182859.944668,
+    "geom:area_square_m":2182859.944669,
     "geom:bbox":"-76.797413,41.192554,-76.773728,41.2112",
     "geom:latitude":41.202161,
     "geom:longitude":-76.785507,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.203127,
     "lbl:longitude":-76.786306,
     "lbl:max_zoom":15.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":81,
     "uscensus:geoid":4208152264,
     "uscensus:name":"Muncy",
     "uscensus:namelsad":"Muncy borough",
+    "uscensus:population":2398,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4208152264
+        "uscensus:geoid":"4208152264"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404485239,
-    "wof:lastmodified":1605055371,
+    "wof:lastmodified":1722117773,
     "wof:name":"Muncy",
     "wof:parent_id":102081317,
     "wof:placetype":"localadmin",
-    "wof:population":2477,
+    "wof:population":2398,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

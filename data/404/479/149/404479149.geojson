@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011113,
-    "geom:area_square_m":92145895.046326,
+    "geom:area_square_m":92145895.046298,
     "geom:bbox":"-103.026732,47.847225,-102.898052,47.934306",
     "geom:latitude":47.890875,
     "geom:longitude":-102.962449,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.890921,
     "lbl:longitude":-102.962449,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":53,
     "uscensus:geoid":3805308020,
     "uscensus:name":"Blue Butte",
     "uscensus:namelsad":"Blue Butte township",
+    "uscensus:population":83,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3805308020
+        "uscensus:geoid":"3805308020"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729455335
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404479149,
-    "wof:lastmodified":1605055485,
+    "wof:lastmodified":1722117735,
     "wof:name":"Blue Butte Township",
     "wof:parent_id":102082091,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":79,
+    "wof:population":83,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

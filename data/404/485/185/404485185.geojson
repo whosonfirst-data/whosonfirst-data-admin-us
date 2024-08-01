@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002909,
-    "geom:area_square_m":27561195.477958,
+    "geom:area_square_m":27561195.47798,
     "geom:bbox":"-75.994644,39.937869,-75.927193,40.016421",
     "geom:latitude":39.972936,
     "geom:longitude":-75.956115,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.974048,
     "lbl:longitude":-75.955602,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":4202983968,
     "uscensus:name":"West Sadsbury",
     "uscensus:namelsad":"West Sadsbury township",
+    "uscensus:population":2438,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202983968
+        "uscensus:geoid":"4202983968"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456437
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404485185,
-    "wof:lastmodified":1605055375,
+    "wof:lastmodified":1722117772,
     "wof:name":"West Sadsbury Township",
     "wof:parent_id":102081275,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2444,
+    "wof:population":2438,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

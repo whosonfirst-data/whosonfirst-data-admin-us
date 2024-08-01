@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000138,
-    "geom:area_square_m":1235570.660218,
+    "geom:area_square_m":1235570.660214,
     "geom:bbox":"-92.879531,43.812391,-92.869373,43.826972",
     "geom:latitude":43.819315,
     "geom:longitude":-92.874625,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.819276,
     "lbl:longitude":-92.874558,
     "lbl:max_zoom":18.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":2709967918,
     "uscensus:name":"Waltham",
     "uscensus:namelsad":"Waltham city",
+    "uscensus:population":164,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2709967918
+        "uscensus:geoid":"2709967918"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404510073,
-    "wof:lastmodified":1605055618,
+    "wof:lastmodified":1722117933,
     "wof:name":"Waltham",
     "wof:parent_id":102087717,
     "wof:placetype":"localadmin",
-    "wof:population":151,
+    "wof:population":164,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

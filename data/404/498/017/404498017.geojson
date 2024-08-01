@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006634,
-    "geom:area_square_m":62607955.013856,
+    "geom:area_square_m":62607955.013848,
     "geom:bbox":"-89.262655,40.22273,-89.147794,40.28252",
     "geom:latitude":40.252505,
     "geom:longitude":-89.205141,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.252451,
     "lbl:longitude":-89.205178,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":107,
     "uscensus:geoid":1710702765,
     "uscensus:name":"Atlanta",
     "uscensus:namelsad":"Atlanta township",
+    "uscensus:population":1870,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1710702765
+        "uscensus:geoid":"1710702765"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404498017,
-    "wof:lastmodified":1605055568,
+    "wof:lastmodified":1722233640,
     "wof:name":"Atlanta Township",
     "wof:parent_id":102082843,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1926,
+    "wof:population":1870,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

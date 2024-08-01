@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011015,
-    "geom:area_square_m":97064036.400269,
+    "geom:area_square_m":97064036.400179,
     "geom:bbox":"-70.152481,44.485235,-70.035546,44.620999",
     "geom:latitude":44.549287,
     "geom:longitude":-70.091789,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.556663,
     "lbl:longitude":-70.103443,
     "lbl:max_zoom":16.0,
@@ -61,11 +67,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":2300712595,
     "uscensus:name":"Chesterville",
     "uscensus:namelsad":"Chesterville town",
+    "uscensus:population":1366,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
@@ -75,8 +84,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2300712595
+        "uscensus:geoid":"2300712595"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478179
     ],
@@ -95,11 +105,11 @@
         }
     ],
     "wof:id":404475449,
-    "wof:lastmodified":1605055840,
+    "wof:lastmodified":1722117708,
     "wof:name":"Chesterville",
     "wof:parent_id":102087433,
     "wof:placetype":"localadmin",
-    "wof:population":1352,
+    "wof:population":1366,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

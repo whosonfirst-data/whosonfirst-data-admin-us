@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005893,
-    "geom:area_square_m":50110820.659329,
+    "geom:area_square_m":50110820.65937,
     "geom:bbox":"-87.459051,46.506163,-87.361766,46.601401",
     "geom:latitude":46.550772,
     "geom:longitude":-87.395918,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.548206,
     "lbl:longitude":-87.394986,
     "lbl:max_zoom":14.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":103,
     "uscensus:geoid":2610351900,
     "uscensus:name":"Marquette",
     "uscensus:namelsad":"Marquette city",
+    "uscensus:population":21079,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2610351900
+        "uscensus:geoid":"2610351900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404508617,
-    "wof:lastmodified":1605055735,
+    "wof:lastmodified":1722117923,
     "wof:name":"Marquette",
     "wof:parent_id":102083039,
     "wof:placetype":"localadmin",
-    "wof:population":21355,
+    "wof:population":21079,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

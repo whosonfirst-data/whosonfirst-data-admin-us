@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000578,
-    "geom:area_square_m":5067312.593493,
+    "geom:area_square_m":5067312.593488,
     "geom:bbox":"-98.535692,44.85161,-98.49311,44.888249",
     "geom:latitude":44.872524,
     "geom:longitude":-98.518573,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.873856,
     "lbl:longitude":-98.520014,
     "lbl:max_zoom":15.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":4611553460,
     "uscensus:name":"Redfield",
     "uscensus:namelsad":"Redfield city",
+    "uscensus:population":2131,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4611553460
+        "uscensus:geoid":"4611553460"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404490939,
-    "wof:lastmodified":1605055507,
+    "wof:lastmodified":1722117810,
     "wof:name":"Redfield",
     "wof:parent_id":102086027,
     "wof:placetype":"localadmin",
-    "wof:population":2333,
+    "wof:population":2131,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

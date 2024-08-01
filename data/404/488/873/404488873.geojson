@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010439,
-    "geom:area_square_m":93062797.978943,
+    "geom:area_square_m":93062797.978932,
     "geom:bbox":"-100.586735,43.820776,-100.466613,43.908195",
     "geom:latitude":43.864495,
     "geom:longitude":-100.52669,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.864463,
     "lbl:longitude":-100.526693,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":75,
     "uscensus:geoid":4607517380,
     "uscensus:name":"Dunkel",
     "uscensus:namelsad":"Dunkel township",
+    "uscensus:population":13,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4607517380
+        "uscensus:geoid":"4607517380"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465949
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404488873,
-    "wof:lastmodified":1605055804,
+    "wof:lastmodified":1722117796,
     "wof:name":"Dunkel Township",
     "wof:parent_id":102086803,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":15,
+    "wof:population":13,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

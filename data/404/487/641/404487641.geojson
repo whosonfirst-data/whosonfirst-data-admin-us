@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000307,
-    "geom:area_square_m":2902311.528357,
+    "geom:area_square_m":2902311.528354,
     "geom:bbox":"-79.782639,40.19906,-79.759274,40.226217",
     "geom:latitude":40.209314,
     "geom:longitude":-79.769968,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.207657,
     "lbl:longitude":-79.769165,
     "lbl:max_zoom":15.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":129,
     "uscensus:geoid":4212983680,
     "uscensus:name":"West Newton",
     "uscensus:namelsad":"West Newton borough",
+    "uscensus:population":2605,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212983680
+        "uscensus:geoid":"4212983680"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404487641,
-    "wof:lastmodified":1605055892,
+    "wof:lastmodified":1722117788,
     "wof:name":"West Newton",
     "wof:parent_id":102081383,
     "wof:placetype":"localadmin",
-    "wof:population":2633,
+    "wof:population":2605,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

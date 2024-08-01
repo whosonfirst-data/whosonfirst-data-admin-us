@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010796,
-    "geom:area_square_m":91894361.409158,
+    "geom:area_square_m":91894361.409171,
     "geom:bbox":"-102.800794,46.455625,-102.675974,46.543385",
     "geom:latitude":46.49946,
     "geom:longitude":-102.738245,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.499509,
     "lbl:longitude":-102.738242,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":3804136220,
     "uscensus:name":"Havelock",
     "uscensus:namelsad":"Havelock township",
+    "uscensus:population":22,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3804136220
+        "uscensus:geoid":"3804136220"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475643
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404480717,
-    "wof:lastmodified":1605055919,
+    "wof:lastmodified":1722117746,
     "wof:name":"Havelock Township",
     "wof:parent_id":102081495,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":23,
+    "wof:population":22,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

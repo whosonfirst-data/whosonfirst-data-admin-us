@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005356,
-    "geom:area_square_m":48418489.785237,
+    "geom:area_square_m":48418489.785242,
     "geom:bbox":"-72.259569,42.971727,-72.174316,43.053391",
     "geom:latitude":43.017403,
     "geom:longitude":-72.214876,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.018837,
     "lbl:longitude":-72.214875,
     "lbl:max_zoom":17.0,
@@ -112,11 +118,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":3300574900,
     "uscensus:name":"Sullivan",
     "uscensus:namelsad":"Sullivan town",
+    "uscensus:population":682,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":33,
     "wof:belongsto":[
         102191575,
@@ -126,8 +135,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3300574900
+        "uscensus:geoid":"3300574900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466489
     ],
@@ -146,11 +156,11 @@
         }
     ],
     "wof:id":404477041,
-    "wof:lastmodified":1605055416,
+    "wof:lastmodified":1722117719,
     "wof:name":"Sullivan",
     "wof:parent_id":102085643,
     "wof:placetype":"localadmin",
-    "wof:population":677,
+    "wof:population":682,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010325,
-    "geom:area_square_m":92408111.810746,
+    "geom:area_square_m":92408111.810738,
     "geom:bbox":"-91.850164,43.587285,-91.730449,43.673949",
     "geom:latitude":43.63059,
     "geom:longitude":-91.790348,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.630665,
     "lbl:longitude":-91.790346,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":2704552396,
     "uscensus:name":"Preble",
     "uscensus:namelsad":"Preble township",
+    "uscensus:population":215,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2704552396
+        "uscensus:geoid":"2704552396"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478651
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404514275,
-    "wof:lastmodified":1605056017,
+    "wof:lastmodified":1722117964,
     "wof:name":"Preble Township",
     "wof:parent_id":102086997,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":209,
+    "wof:population":215,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

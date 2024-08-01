@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010007,
-    "geom:area_square_m":96337181.296902,
+    "geom:area_square_m":96337181.296847,
     "geom:bbox":"-88.695165,38.826299,-88.579884,38.915432",
     "geom:latitude":38.871014,
     "geom:longitude":-88.637587,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.870991,
     "lbl:longitude":-88.637599,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":1702542158,
     "uscensus:name":"Larkinsburg",
     "uscensus:namelsad":"Larkinsburg township",
+    "uscensus:population":569,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1702542158
+        "uscensus:geoid":"1702542158"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404497561,
-    "wof:lastmodified":1605055486,
+    "wof:lastmodified":1722233638,
     "wof:name":"Larkinsburg Township",
     "wof:parent_id":102086203,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":644,
+    "wof:population":569,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

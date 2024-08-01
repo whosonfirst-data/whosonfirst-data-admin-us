@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00039,
-    "geom:area_square_m":3701291.249194,
+    "geom:area_square_m":3701291.249182,
     "geom:bbox":"-75.047162,39.857785,-75.012666,39.879969",
     "geom:latitude":39.867308,
     "geom:longitude":-75.028903,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.866351,
     "lbl:longitude":-75.027206,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":3400739420,
     "uscensus:name":"Lawnside",
     "uscensus:namelsad":"Lawnside borough",
+    "uscensus:population":3301,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400739420
+        "uscensus:geoid":"3400739420"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404478015,
-    "wof:lastmodified":1605055335,
+    "wof:lastmodified":1722117727,
     "wof:name":"Lawnside",
     "wof:parent_id":102081131,
     "wof:placetype":"localadmin",
-    "wof:population":2945,
+    "wof:population":3301,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

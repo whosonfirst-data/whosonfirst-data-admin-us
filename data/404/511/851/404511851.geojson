@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000219,
-    "geom:area_square_m":1952543.962395,
+    "geom:area_square_m":1952543.962393,
     "geom:bbox":"-95.056703,43.902364,-95.038632,43.920459",
     "geom:latitude":43.909547,
     "geom:longitude":-95.046097,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.909258,
     "lbl:longitude":-95.045926,
     "lbl:max_zoom":18.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":33,
     "uscensus:geoid":2703305896,
     "uscensus:name":"Bingham Lake",
     "uscensus:namelsad":"Bingham Lake city",
+    "uscensus:population":138,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2703305896
+        "uscensus:geoid":"2703305896"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404511851,
-    "wof:lastmodified":1605055719,
+    "wof:lastmodified":1722117946,
     "wof:name":"Bingham Lake",
     "wof:parent_id":102086995,
     "wof:placetype":"localadmin",
-    "wof:population":126,
+    "wof:population":138,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

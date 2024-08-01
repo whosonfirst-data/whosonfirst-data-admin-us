@@ -154,7 +154,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2637353,
     "uscensus:awater":83228,
     "uscensus:classfp":"C5",
@@ -170,17 +171,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"30860",
     "uscensus:placens":"01036058",
+    "uscensus:population":725,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":634.0,
     "wd:latitude":46.814444,
     "wd:longitude":-101.830833,
     "wd:wordcount":1044,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404481673,
         85633793,
-        102082067
+        102082067,
+        404481673,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -189,10 +192,11 @@
         "gn:id":5689296,
         "gp:id":2410918,
         "qs_pg:id":1210942,
-        "uscensus:geoid":3830860,
+        "uscensus:geoid":"3830860",
         "wd:id":"Q28164",
         "wk:page":"Glen Ullin, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -213,11 +217,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882128,
+    "wof:lastmodified":1722115965,
     "wof:name":"Glen Ullin",
     "wof:parent_id":404481673,
     "wof:placetype":"locality",
-    "wof:population":807,
+    "wof:population":725,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

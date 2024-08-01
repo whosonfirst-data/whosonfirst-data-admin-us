@@ -149,7 +149,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2030922,
     "uscensus:awater":28457,
     "uscensus:classfp":"C5",
@@ -165,13 +166,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"72700",
     "uscensus:placens":"01267662",
+    "uscensus:population":648,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"46",
     "wof:belongsto":[
-        85688693,
         102191575,
-        404490887,
         85633793,
-        102086061
+        102086061,
+        404490887,
+        85688693
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -180,9 +183,10 @@
         "gn:id":5233037,
         "gp:id":2523922,
         "qs_pg:id":849859,
-        "uscensus:geoid":4672700,
+        "uscensus:geoid":"4672700",
         "wd:id":"Q2725794"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -203,11 +207,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889590,
+    "wof:lastmodified":1722116336,
     "wof:name":"Woonsocket",
     "wof:parent_id":404490887,
     "wof:placetype":"locality",
-    "wof:population":655,
+    "wof:population":648,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

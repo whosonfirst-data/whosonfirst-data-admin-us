@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001472,
-    "geom:area_square_m":13637058.507732,
+    "geom:area_square_m":13637058.507727,
     "geom:bbox":"-81.532225,41.449663,-81.480539,41.501367",
     "geom:latitude":41.47586,
     "geom:longitude":-81.502966,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.475513,
     "lbl:longitude":-81.498257,
     "lbl:max_zoom":15.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":3903504500,
     "uscensus:name":"Beachwood",
     "uscensus:namelsad":"Beachwood city",
+    "uscensus:population":13734,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3903504500
+        "uscensus:geoid":"3903504500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404525039,
-    "wof:lastmodified":1605056054,
+    "wof:lastmodified":1722118012,
     "wof:name":"Beachwood",
     "wof:parent_id":102084837,
     "wof:placetype":"localadmin",
-    "wof:population":11953,
+    "wof:population":13734,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

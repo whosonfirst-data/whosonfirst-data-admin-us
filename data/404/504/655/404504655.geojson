@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.018958,
-    "geom:area_square_m":186420123.380323,
+    "geom:area_square_m":186420123.380325,
     "geom:bbox":"-95.964666,37.25516,-95.819303,37.386668",
     "geom:latitude":37.320878,
     "geom:longitude":-95.891969,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.320926,
     "lbl:longitude":-95.891974,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":2012542900,
     "uscensus:name":"Louisburg",
     "uscensus:namelsad":"Louisburg township",
+    "uscensus:population":529,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2012542900
+        "uscensus:geoid":"2012542900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404504655,
-    "wof:lastmodified":1605055308,
+    "wof:lastmodified":1722233662,
     "wof:name":"Louisburg Township",
     "wof:parent_id":102082143,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":616,
+    "wof:population":529,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

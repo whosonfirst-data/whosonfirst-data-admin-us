@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003019,
-    "geom:area_square_m":28998991.226284,
+    "geom:area_square_m":28998991.226291,
     "geom:bbox":"-96.888322,38.986358,-96.801955,39.090245",
     "geom:latitude":39.027118,
     "geom:longitude":-96.849636,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.027663,
     "lbl:longitude":-96.83987,
     "lbl:max_zoom":14.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":2006135750,
     "uscensus:name":"Junction City",
     "uscensus:namelsad":"Junction City city",
+    "uscensus:population":21856,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2006135750
+        "uscensus:geoid":"2006135750"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404503583,
-    "wof:lastmodified":1605055331,
+    "wof:lastmodified":1722117887,
     "wof:name":"Junction City",
     "wof:parent_id":102083459,
     "wof:placetype":"localadmin",
-    "wof:population":23353,
+    "wof:population":21856,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

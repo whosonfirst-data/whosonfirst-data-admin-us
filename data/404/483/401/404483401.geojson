@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000479,
-    "geom:area_square_m":4475328.853927,
+    "geom:area_square_m":4475328.853933,
     "geom:bbox":"-80.500881,40.962983,-80.471643,40.987583",
     "geom:latitude":40.975598,
     "geom:longitude":-80.487865,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.974961,
     "lbl:longitude":-80.489611,
     "lbl:max_zoom":16.0,
@@ -91,11 +97,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":73,
     "uscensus:geoid":4207305936,
     "uscensus:name":"Bessemer",
     "uscensus:namelsad":"Bessemer borough",
+    "uscensus:population":1048,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -105,8 +114,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207305936
+        "uscensus:geoid":"4207305936"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -122,11 +132,11 @@
         }
     ],
     "wof:id":404483401,
-    "wof:lastmodified":1605055439,
+    "wof:lastmodified":1722117762,
     "wof:name":"Bessemer",
     "wof:parent_id":102080929,
     "wof:placetype":"localadmin",
-    "wof:population":1111,
+    "wof:population":1048,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

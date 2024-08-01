@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001204,
-    "geom:area_square_m":11252010.778056,
+    "geom:area_square_m":11252010.778082,
     "geom:bbox":"-74.068305,40.858634,-74.024819,40.913465",
     "geom:latitude":40.889046,
     "geom:longitude":-74.046167,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.886995,
     "lbl:longitude":-74.048312,
     "lbl:max_zoom":14.0,
@@ -88,11 +94,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3400328680,
     "uscensus:name":"Hackensack",
     "uscensus:namelsad":"Hackensack city",
+    "uscensus:population":45736,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -102,8 +111,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400328680
+        "uscensus:geoid":"3400328680"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -119,11 +129,11 @@
         }
     ],
     "wof:id":404477545,
-    "wof:lastmodified":1605055423,
+    "wof:lastmodified":1722117723,
     "wof:name":"Hackensack",
     "wof:parent_id":102086773,
     "wof:placetype":"localadmin",
-    "wof:population":43010,
+    "wof:population":45736,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

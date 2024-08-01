@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005594,
-    "geom:area_square_m":51897904.657455,
+    "geom:area_square_m":51897904.657447,
     "geom:bbox":"-81.785057,41.350697,-81.684575,41.419412",
     "geom:latitude":41.384248,
     "geom:longitude":-81.728588,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.384878,
     "lbl:longitude":-81.714466,
     "lbl:max_zoom":14.0,
@@ -304,22 +310,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":3903561000,
     "uscensus:name":"Parma",
     "uscensus:namelsad":"Parma city",
+    "uscensus:population":78951,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688485,
-        102084837
+        102084837,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3903561000
+        "uscensus:geoid":"3903561000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -335,11 +345,11 @@
         }
     ],
     "wof:id":404524443,
-    "wof:lastmodified":1636499452,
+    "wof:lastmodified":1722118008,
     "wof:name":"Parma",
     "wof:parent_id":102084837,
     "wof:placetype":"localadmin",
-    "wof:population":81601,
+    "wof:population":78951,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

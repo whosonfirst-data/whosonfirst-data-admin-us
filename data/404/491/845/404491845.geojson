@@ -10,6 +10,12 @@
     "geom:latitude":42.854979,
     "geom:longitude":-89.53175,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "village"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.854718,
     "lbl:longitude":-89.531176,
     "lbl:max_zoom":17.0,
@@ -142,22 +148,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":5504506300,
     "uscensus:name":"Belleville",
     "uscensus:namelsad":"Belleville village",
+    "uscensus:population":630,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081827
+        102081827,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5504506300
+        "uscensus:geoid":"5504506300"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -173,11 +183,11 @@
         }
     ],
     "wof:id":404491845,
-    "wof:lastmodified":1636499307,
+    "wof:lastmodified":1722117815,
     "wof:name":"Belleville",
     "wof:parent_id":102081827,
     "wof:placetype":"localadmin",
-    "wof:population":537,
+    "wof:population":630,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

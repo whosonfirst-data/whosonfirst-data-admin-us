@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010448,
-    "geom:area_square_m":92748865.985665,
+    "geom:area_square_m":92748865.985645,
     "geom:bbox":"-90.792487,44.071397,-90.6724,44.159513",
     "geom:latitude":44.115436,
     "geom:longitude":-90.732394,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.115386,
     "lbl:longitude":-90.732399,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":81,
     "uscensus:geoid":5508156950,
     "uscensus:name":"New Lyme",
     "uscensus:namelsad":"New Lyme town",
+    "uscensus:population":198,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5508156950
+        "uscensus:geoid":"5508156950"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465565
     ],
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404494393,
-    "wof:lastmodified":1605055969,
+    "wof:lastmodified":1722117832,
     "wof:name":"New Lyme",
     "wof:parent_id":102081777,
     "wof:placetype":"localadmin",
-    "wof:population":168,
+    "wof:population":198,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

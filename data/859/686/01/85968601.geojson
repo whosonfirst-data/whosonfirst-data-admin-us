@@ -185,7 +185,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":960888,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -201,17 +202,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"38996",
     "uscensus:placens":"02395067",
+    "uscensus:population":43,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":381.0,
     "wd:latitude":46.24,
     "wd:longitude":-93.2725,
     "wd:wordcount":843,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404509169,
         85633793,
-        102087811
+        102087811,
+        404509169,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -219,10 +222,11 @@
         "gn:id":5037035,
         "gp:id":2448000,
         "qs_pg:id":100305,
-        "uscensus:geoid":2738996,
+        "uscensus:geoid":"2738996",
         "wd:id":"Q2230209",
         "wk:page":"McGrath, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -240,11 +244,11 @@
         }
     ],
     "wof:id":85968601,
-    "wof:lastmodified":1690882114,
+    "wof:lastmodified":1722115964,
     "wof:name":"McGrath",
     "wof:parent_id":404509169,
     "wof:placetype":"locality",
-    "wof:population":80,
+    "wof:population":43,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

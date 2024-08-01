@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011276,
-    "geom:area_square_m":93173306.147199,
+    "geom:area_square_m":93173306.147203,
     "geom:bbox":"-101.274428,48.022862,-101.144292,48.109982",
     "geom:latitude":48.066366,
     "geom:longitude":-101.209528,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.066322,
     "lbl:longitude":-101.209566,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":101,
     "uscensus:geoid":3810186180,
     "uscensus:name":"Willis",
     "uscensus:namelsad":"Willis township",
+    "uscensus:population":125,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3810186180
+        "uscensus:geoid":"3810186180"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470139
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404480013,
-    "wof:lastmodified":1605055908,
+    "wof:lastmodified":1722117741,
     "wof:name":"Willis Township",
     "wof:parent_id":102082117,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":106,
+    "wof:population":125,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000027,
-    "geom:area_square_m":253762.355472,
+    "geom:area_square_m":253762.355474,
     "geom:bbox":"-78.439303,40.391131,-78.431775,40.396137",
     "geom:latitude":40.393325,
     "geom:longitude":-78.435719,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.393205,
     "lbl:longitude":-78.435786,
     "lbl:max_zoom":17.0,
@@ -163,11 +169,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":4201354024,
     "uscensus:name":"Newry",
     "uscensus:namelsad":"Newry borough",
+    "uscensus:population":231,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -177,8 +186,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201354024
+        "uscensus:geoid":"4201354024"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -194,11 +204,11 @@
         }
     ],
     "wof:id":404482701,
-    "wof:lastmodified":1605055375,
+    "wof:lastmodified":1722117758,
     "wof:name":"Newry",
     "wof:parent_id":102081325,
     "wof:placetype":"localadmin",
-    "wof:population":270,
+    "wof:population":231,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

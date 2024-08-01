@@ -10,6 +10,12 @@
     "geom:latitude":40.890477,
     "geom:longitude":-74.194568,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.890514,
     "lbl:longitude":-74.191142,
     "lbl:max_zoom":15.0,
@@ -58,11 +64,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":3403182423,
     "uscensus:name":"Woodland Park",
     "uscensus:namelsad":"Woodland Park borough",
+    "uscensus:population":13138,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -72,8 +81,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3403182423
+        "uscensus:geoid":"3403182423"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -89,11 +99,11 @@
         }
     ],
     "wof:id":404477351,
-    "wof:lastmodified":1605055425,
+    "wof:lastmodified":1722117722,
     "wof:name":"Woodland Park",
     "wof:parent_id":102081133,
     "wof:placetype":"localadmin",
-    "wof:population":11819,
+    "wof:population":13138,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

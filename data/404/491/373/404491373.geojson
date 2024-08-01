@@ -10,6 +10,12 @@
     "geom:latitude":45.861989,
     "geom:longitude":-97.28691,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.860726,
     "lbl:longitude":-97.287444,
     "lbl:max_zoom":17.0,
@@ -70,11 +76,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":91,
     "uscensus:geoid":4609166540,
     "uscensus:name":"Veblen",
     "uscensus:namelsad":"Veblen city",
+    "uscensus:population":314,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -84,8 +93,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4609166540
+        "uscensus:geoid":"4609166540"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -101,11 +111,11 @@
         }
     ],
     "wof:id":404491373,
-    "wof:lastmodified":1605055591,
+    "wof:lastmodified":1722117812,
     "wof:name":"Veblen",
     "wof:parent_id":102086785,
     "wof:placetype":"localadmin",
-    "wof:population":531,
+    "wof:population":314,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

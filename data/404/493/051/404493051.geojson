@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010645,
-    "geom:area_square_m":93231754.866321,
+    "geom:area_square_m":93231754.866328,
     "geom:bbox":"-90.922777,44.857387,-90.800343,44.944932",
     "geom:latitude":44.901165,
     "geom:longitude":-90.861391,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.901214,
     "lbl:longitude":-90.861391,
     "lbl:max_zoom":17.0,
@@ -70,11 +76,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":5501989125,
     "uscensus:name":"Worden",
     "uscensus:namelsad":"Worden town",
+    "uscensus:population":716,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -84,8 +93,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5501989125
+        "uscensus:geoid":"5501989125"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461977
     ],
@@ -104,11 +114,11 @@
         }
     ],
     "wof:id":404493051,
-    "wof:lastmodified":1605055955,
+    "wof:lastmodified":1722117823,
     "wof:name":"Worden",
     "wof:parent_id":102081269,
     "wof:placetype":"localadmin",
-    "wof:population":666,
+    "wof:population":716,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

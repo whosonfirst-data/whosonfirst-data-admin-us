@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000523,
-    "geom:area_square_m":4395496.274374,
+    "geom:area_square_m":4395496.274385,
     "geom:bbox":"-93.51222,47.215145,-93.474837,47.245215",
     "geom:latitude":47.230133,
     "geom:longitude":-93.49124,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.230428,
     "lbl:longitude":-93.489397,
     "lbl:max_zoom":17.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":2706135648,
     "uscensus:name":"La Prairie",
     "uscensus:namelsad":"La Prairie city",
+    "uscensus:population":669,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2706135648
+        "uscensus:geoid":"2706135648"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404513315,
-    "wof:lastmodified":1605056038,
+    "wof:lastmodified":1722117957,
     "wof:name":"La Prairie",
     "wof:parent_id":102086963,
     "wof:placetype":"localadmin",
-    "wof:population":665,
+    "wof:population":669,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

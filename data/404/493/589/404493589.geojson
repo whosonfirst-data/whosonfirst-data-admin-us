@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.027022,
-    "geom:area_square_m":233085960.92912,
+    "geom:area_square_m":233085960.929118,
     "geom:bbox":"-88.675965,45.7219,-88.365199,45.81023",
     "geom:latitude":45.766159,
     "geom:longitude":-88.520671,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.766423,
     "lbl:longitude":-88.520684,
     "lbl:max_zoom":18.0,
@@ -193,11 +199,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":37,
     "uscensus:geoid":5503725575,
     "uscensus:name":"Fence",
     "uscensus:namelsad":"Fence town",
+    "uscensus:population":188,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -207,8 +216,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5503725575
+        "uscensus:geoid":"5503725575"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459875
     ],
@@ -227,11 +237,11 @@
         }
     ],
     "wof:id":404493589,
-    "wof:lastmodified":1605055948,
+    "wof:lastmodified":1722117827,
     "wof:name":"Fence",
     "wof:parent_id":102081313,
     "wof:placetype":"localadmin",
-    "wof:population":192,
+    "wof:population":188,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0006,
-    "geom:area_square_m":5759991.594433,
+    "geom:area_square_m":5759991.594428,
     "geom:bbox":"-84.373042,39.113122,-84.328486,39.133367",
     "geom:latitude":39.124327,
     "geom:longitude":-84.351574,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "village"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.124546,
     "lbl:longitude":-84.349782,
     "lbl:max_zoom":15.0,
@@ -115,11 +121,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":3906155678,
     "uscensus:name":"Newtown",
     "uscensus:namelsad":"Newtown village",
+    "uscensus:population":2655,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -129,8 +138,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3906155678
+        "uscensus:geoid":"3906155678"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -146,11 +156,11 @@
         }
     ],
     "wof:id":404525375,
-    "wof:lastmodified":1605056064,
+    "wof:lastmodified":1722118015,
     "wof:name":"Newtown",
     "wof:parent_id":102083687,
     "wof:placetype":"localadmin",
-    "wof:population":2672,
+    "wof:population":2655,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011364,
-    "geom:area_square_m":97470896.849114,
+    "geom:area_square_m":97470896.849103,
     "geom:bbox":"-68.563567,46.035229,-68.432273,46.125189",
     "geom:latitude":46.080121,
     "geom:longitude":-68.500053,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.080113,
     "lbl:longitude":-68.500052,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":2301947560,
     "uscensus:name":"Mount Chase",
     "uscensus:namelsad":"Mount Chase town",
+    "uscensus:population":188,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2301947560
+        "uscensus:geoid":"2301947560"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466413
     ],
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404474739,
-    "wof:lastmodified":1605055898,
+    "wof:lastmodified":1722117703,
     "wof:name":"Mount Chase",
     "wof:parent_id":102080723,
     "wof:placetype":"localadmin",
-    "wof:population":201,
-    "wof:population_rank":2,
+    "wof:population":188,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

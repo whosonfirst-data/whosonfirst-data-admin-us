@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000145,
-    "geom:area_square_m":1373478.471939,
+    "geom:area_square_m":1373478.471944,
     "geom:bbox":"-76.003795,39.945581,-75.990123,39.962192",
     "geom:latitude":39.954504,
     "geom:longitude":-75.996982,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.955662,
     "lbl:longitude":-75.998478,
     "lbl:max_zoom":16.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":71,
     "uscensus:geoid":4207113512,
     "uscensus:name":"Christiana",
     "uscensus:namelsad":"Christiana borough",
+    "uscensus:population":1099,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207113512
+        "uscensus:geoid":"4207113512"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -104,11 +114,11 @@
         }
     ],
     "wof:id":404483377,
-    "wof:lastmodified":1605055441,
+    "wof:lastmodified":1722117762,
     "wof:name":"Christiana",
     "wof:parent_id":102081377,
     "wof:placetype":"localadmin",
-    "wof:population":1168,
+    "wof:population":1099,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

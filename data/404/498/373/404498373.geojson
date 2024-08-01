@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010409,
-    "geom:area_square_m":95091910.019065,
+    "geom:area_square_m":95091910.01905,
     "geom:bbox":"-88.004692,42.326272,-87.884409,42.415213",
     "geom:latitude":42.370996,
     "geom:longitude":-87.944678,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.371039,
     "lbl:longitude":-87.944675,
     "lbl:max_zoom":14.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":97,
     "uscensus:geoid":1709778877,
     "uscensus:name":"Warren",
     "uscensus:namelsad":"Warren township",
+    "uscensus:population":64897,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1709778877
+        "uscensus:geoid":"1709778877"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404498373,
-    "wof:lastmodified":1605055572,
+    "wof:lastmodified":1722233641,
     "wof:name":"Warren Township",
     "wof:parent_id":102086215,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":64841,
+    "wof:population":64897,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

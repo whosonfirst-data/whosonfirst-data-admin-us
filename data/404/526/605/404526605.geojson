@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009181,
-    "geom:area_square_m":87061268.055671,
+    "geom:area_square_m":87061268.055733,
     "geom:bbox":"-84.167363,39.87981,-84.042937,39.974349",
     "geom:latitude":39.928062,
     "geom:longitude":-84.101294,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.930192,
     "lbl:longitude":-84.100109,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":109,
     "uscensus:geoid":3910906110,
     "uscensus:name":"Bethel",
     "uscensus:namelsad":"Bethel township",
+    "uscensus:population":4866,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3910906110
+        "uscensus:geoid":"3910906110"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404526605,
-    "wof:lastmodified":1605055646,
+    "wof:lastmodified":1722118024,
     "wof:name":"Bethel Township",
     "wof:parent_id":102084719,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":4843,
+    "wof:population":4866,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

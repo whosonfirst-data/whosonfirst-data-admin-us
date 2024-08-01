@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003003,
-    "geom:area_square_m":26569448.791053,
+    "geom:area_square_m":26569448.791066,
     "geom:bbox":"-94.516778,44.275803,-94.413969,44.360014",
     "geom:latitude":44.312117,
     "geom:longitude":-94.468545,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.311107,
     "lbl:longitude":-94.469444,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":2701546042,
     "uscensus:name":"New Ulm",
     "uscensus:namelsad":"New Ulm city",
+    "uscensus:population":13925,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2701546042
+        "uscensus:geoid":"2701546042"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,11 +93,11 @@
         }
     ],
     "wof:id":404511599,
-    "wof:lastmodified":1605055724,
+    "wof:lastmodified":1722117945,
     "wof:name":"New Ulm",
     "wof:parent_id":102087615,
     "wof:placetype":"localadmin",
-    "wof:population":13522,
+    "wof:population":13925,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008095,
-    "geom:area_square_m":77171853.382409,
+    "geom:area_square_m":77171853.382397,
     "geom:bbox":"-86.687574,39.513887,-86.559847,39.601395",
     "geom:latitude":39.556825,
     "geom:longitude":-86.61629,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.55404,
     "lbl:longitude":-86.615049,
     "lbl:max_zoom":16.0,
@@ -61,11 +67,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":109,
     "uscensus:geoid":1810900442,
     "uscensus:name":"Adams",
     "uscensus:namelsad":"Adams township",
+    "uscensus:population":1224,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -75,8 +84,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1810900442
+        "uscensus:geoid":"1810900442"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729477027
     ],
@@ -95,12 +105,12 @@
         }
     ],
     "wof:id":404501381,
-    "wof:lastmodified":1604969671,
+    "wof:lastmodified":1722117872,
     "wof:name":"Adams Township",
     "wof:parent_id":102087091,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1194,
+    "wof:population":1224,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00023,
-    "geom:area_square_m":2044503.435431,
+    "geom:area_square_m":2044503.435433,
     "geom:bbox":"-95.963816,43.92471,-95.938744,43.935599",
     "geom:latitude":43.930644,
     "geom:longitude":-95.951171,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.930247,
     "lbl:longitude":-95.949325,
     "lbl:max_zoom":17.0,
@@ -103,11 +109,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":101,
     "uscensus:geoid":2710110900,
     "uscensus:name":"Chandler",
     "uscensus:namelsad":"Chandler city",
+    "uscensus:population":270,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -117,8 +126,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2710110900
+        "uscensus:geoid":"2710110900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -134,7 +144,7 @@
         }
     ],
     "wof:id":404510079,
-    "wof:lastmodified":1605055611,
+    "wof:lastmodified":1722117933,
     "wof:name":"Chandler",
     "wof:parent_id":102087879,
     "wof:placetype":"localadmin",

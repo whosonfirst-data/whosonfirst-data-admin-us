@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010837,
-    "geom:area_square_m":93408061.223921,
+    "geom:area_square_m":93408061.223919,
     "geom:bbox":"-98.103629,45.762569,-97.978769,45.84979",
     "geom:latitude":45.806152,
     "geom:longitude":-98.041255,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.80612,
     "lbl:longitude":-98.041251,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":4601345540,
     "uscensus:name":"North Detroit",
     "uscensus:namelsad":"North Detroit township",
+    "uscensus:population":46,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4601345540
+        "uscensus:geoid":"4601345540"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729454547
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404489531,
-    "wof:lastmodified":1605055930,
+    "wof:lastmodified":1722117801,
     "wof:name":"North Detroit Township",
     "wof:parent_id":102086843,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":44,
+    "wof:population":46,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

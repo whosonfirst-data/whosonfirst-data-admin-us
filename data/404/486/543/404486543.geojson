@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014104,
-    "geom:area_square_m":133511754.540161,
+    "geom:area_square_m":133511754.540073,
     "geom:bbox":"-77.561682,39.944077,-77.35373,40.124151",
     "geom:latitude":40.042347,
     "geom:longitude":-77.45695,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.026918,
     "lbl:longitude":-77.446773,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":4204171904,
     "uscensus:name":"Southampton",
     "uscensus:namelsad":"Southampton township",
+    "uscensus:population":8195,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4204171904
+        "uscensus:geoid":"4204171904"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460157
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404486543,
-    "wof:lastmodified":1605055866,
+    "wof:lastmodified":1722117781,
     "wof:name":"Southampton Township",
     "wof:parent_id":102081359,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":6359,
+    "wof:population":8195,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

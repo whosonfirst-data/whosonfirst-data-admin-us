@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010849,
-    "geom:area_square_m":92046507.648368,
+    "geom:area_square_m":92046507.648397,
     "geom:bbox":"-97.934327,46.630182,-97.807859,46.717419",
     "geom:latitude":46.673748,
     "geom:longitude":-97.871712,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.673735,
     "lbl:longitude":-97.872687,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3800378700,
     "uscensus:name":"Thordenskjold",
     "uscensus:namelsad":"Thordenskjold township",
+    "uscensus:population":64,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3800378700
+        "uscensus:geoid":"3800378700"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471845
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404480111,
-    "wof:lastmodified":1605055911,
+    "wof:lastmodified":1722117742,
     "wof:name":"Thordenskjold Township",
     "wof:parent_id":102082051,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":67,
+    "wof:population":64,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

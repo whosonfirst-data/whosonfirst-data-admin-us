@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009997,
-    "geom:area_square_m":95540012.855706,
+    "geom:area_square_m":95540012.855711,
     "geom:bbox":"-86.251684,39.341672,-86.138684,39.432149",
     "geom:latitude":39.386822,
     "geom:longitude":-86.195311,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.38667,
     "lbl:longitude":-86.195304,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":81,
     "uscensus:geoid":1808133160,
     "uscensus:name":"Hensley",
     "uscensus:namelsad":"Hensley township",
+    "uscensus:population":3939,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1808133160
+        "uscensus:geoid":"1808133160"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404500927,
-    "wof:lastmodified":1604530785,
+    "wof:lastmodified":1722233651,
     "wof:name":"Hensley Township",
     "wof:parent_id":102086239,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3329,
+    "wof:population":3939,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

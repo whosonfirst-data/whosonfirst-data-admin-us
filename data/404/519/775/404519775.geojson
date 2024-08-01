@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010116,
-    "geom:area_square_m":93141744.531409,
+    "geom:area_square_m":93141744.531361,
     "geom:bbox":"-97.019762,41.829545,-96.903241,41.917013",
     "geom:latitude":41.87334,
     "geom:longitude":-96.961488,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.873313,
     "lbl:longitude":-96.961489,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":39,
     "uscensus:geoid":3103905063,
     "uscensus:name":"Bismark",
     "uscensus:namelsad":"Bismark township",
+    "uscensus:population":147,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3103905063
+        "uscensus:geoid":"3103905063"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469209
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404519775,
-    "wof:lastmodified":1605055674,
+    "wof:lastmodified":1722117980,
     "wof:name":"Bismark Township",
     "wof:parent_id":102082731,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":178,
+    "wof:population":147,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

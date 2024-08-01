@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010997,
-    "geom:area_square_m":93150399.375421,
+    "geom:area_square_m":93150399.375429,
     "geom:bbox":"-94.02997,46.716369,-93.902899,46.803721",
     "geom:latitude":46.760144,
     "geom:longitude":-93.966532,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.759978,
     "lbl:longitude":-93.966532,
     "lbl:max_zoom":17.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":2703519286,
     "uscensus:name":"Emily",
     "uscensus:namelsad":"Emily city",
+    "uscensus:population":863,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2703519286
+        "uscensus:geoid":"2703519286"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -104,11 +114,11 @@
         }
     ],
     "wof:id":404509521,
-    "wof:lastmodified":1605055790,
+    "wof:lastmodified":1722117930,
     "wof:name":"Emily",
     "wof:parent_id":102087093,
     "wof:placetype":"localadmin",
-    "wof:population":813,
+    "wof:population":863,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -151,7 +151,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":3790348,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -167,17 +168,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"71824",
     "uscensus:placens":"02397381",
+    "uscensus:population":169,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":398.0,
     "wd:latitude":46.669167,
     "wd:longitude":-93.006944,
     "wd:wordcount":911,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404509353,
         85633793,
-        102087809
+        102087809,
+        404509353,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -186,10 +189,11 @@
         "gn:id":5053483,
         "gp:id":2524099,
         "qs_pg:id":206219,
-        "uscensus:geoid":2771824,
+        "uscensus:geoid":"2771824",
         "wd:id":"Q1870208",
         "wk:page":"Wright, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -210,11 +214,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884809,
+    "wof:lastmodified":1722116121,
     "wof:name":"Wright",
     "wof:parent_id":404509353,
     "wof:placetype":"locality",
-    "wof:population":127,
+    "wof:population":169,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -196,7 +196,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2147304,
     "uscensus:awater":77238,
     "uscensus:classfp":"C5",
@@ -212,17 +213,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"37700",
     "uscensus:placens":"01036091",
+    "uscensus:population":1043,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":822.0,
     "wd:latitude":46.000833,
     "wd:longitude":-102.633333,
     "wd:wordcount":916,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404480225,
         85633793,
-        102082065
+        102082065,
+        404480225,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -230,13 +233,14 @@
         "gn:id":5689618,
         "gp:id":2420549,
         "qs_pg:id":1052905,
-        "uscensus:geoid":3837700,
+        "uscensus:geoid":"3837700",
         "wd:id":"Q28444",
         "wk:page":"Hettinger, North Dakota"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1003409
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -254,11 +258,11 @@
         }
     ],
     "wof:id":85982119,
-    "wof:lastmodified":1690882557,
+    "wof:lastmodified":1722115990,
     "wof:name":"Hettinger",
     "wof:parent_id":404480225,
     "wof:placetype":"locality",
-    "wof:population":1226,
+    "wof:population":1043,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

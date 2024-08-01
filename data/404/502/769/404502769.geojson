@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.028866,
-    "geom:area_square_m":277203826.147068,
+    "geom:area_square_m":277203826.147134,
     "geom:bbox":"-101.314782,38.9611,-101.145259,39.135518",
     "geom:latitude":39.048382,
     "geom:longitude":-101.22997,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.048369,
     "lbl:longitude":-101.229982,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":109,
     "uscensus:geoid":2010980100,
     "uscensus:name":"Winona",
     "uscensus:namelsad":"Winona township",
+    "uscensus:population":239,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2010980100
+        "uscensus:geoid":"2010980100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404502769,
-    "wof:lastmodified":1605055271,
+    "wof:lastmodified":1722233658,
     "wof:name":"Winona Township",
     "wof:parent_id":102082177,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":242,
+    "wof:population":239,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

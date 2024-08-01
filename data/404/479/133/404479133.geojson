@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011273,
-    "geom:area_square_m":92993727.552803,
+    "geom:area_square_m":92993727.552856,
     "geom:bbox":"-100.626163,48.109073,-100.496163,48.196569",
     "geom:latitude":48.152689,
     "geom:longitude":-100.561227,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.15262,
     "lbl:longitude":-100.561217,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":3804982220,
     "uscensus:name":"Villard",
     "uscensus:namelsad":"Villard township",
+    "uscensus:population":17,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3804982220
+        "uscensus:geoid":"3804982220"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475009
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404479133,
-    "wof:lastmodified":1605055471,
+    "wof:lastmodified":1722117735,
     "wof:name":"Villard Township",
     "wof:parent_id":102082517,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":15,
+    "wof:population":17,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

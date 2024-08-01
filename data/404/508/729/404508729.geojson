@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000472,
-    "geom:area_square_m":4173496.395972,
+    "geom:area_square_m":4173496.395971,
     "geom:bbox":"-85.418541,44.400021,-85.38809,44.425127",
     "geom:latitude":44.411456,
     "geom:longitude":-85.400985,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.409031,
     "lbl:longitude":-85.399457,
     "lbl:max_zoom":16.0,
@@ -70,11 +76,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":165,
     "uscensus:geoid":2616550880,
     "uscensus:name":"Manton",
     "uscensus:namelsad":"Manton city",
+    "uscensus:population":1449,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -84,8 +93,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2616550880
+        "uscensus:geoid":"2616550880"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -101,11 +111,11 @@
         }
     ],
     "wof:id":404508729,
-    "wof:lastmodified":1605055749,
+    "wof:lastmodified":1722117924,
     "wof:name":"Manton",
     "wof:parent_id":102083119,
     "wof:placetype":"localadmin",
-    "wof:population":1287,
+    "wof:population":1449,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

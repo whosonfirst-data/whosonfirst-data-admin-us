@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009219,
-    "geom:area_square_m":88531039.235339,
+    "geom:area_square_m":88531039.235426,
     "geom:bbox":"-82.099065,38.958378,-81.971373,39.105046",
     "geom:latitude":39.04835,
     "geom:longitude":-82.050609,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.060405,
     "lbl:longitude":-82.05156,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":3910570114,
     "uscensus:name":"Salisbury",
     "uscensus:namelsad":"Salisbury township",
+    "uscensus:population":5368,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3910570114
+        "uscensus:geoid":"3910570114"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404526477,
-    "wof:lastmodified":1605055645,
+    "wof:lastmodified":1722233689,
     "wof:name":"Salisbury Township",
     "wof:parent_id":102083655,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":6356,
+    "wof:population":5368,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

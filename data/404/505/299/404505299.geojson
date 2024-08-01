@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008067,
-    "geom:area_square_m":79391289.385898,
+    "geom:area_square_m":79391289.385921,
     "geom:bbox":"-97.475878,37.215131,-97.365917,37.30437",
     "geom:latitude":37.257729,
     "geom:longitude":-97.425558,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.244468,
     "lbl:longitude":-97.444943,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":191,
     "uscensus:geoid":2019176500,
     "uscensus:name":"Wellington",
     "uscensus:namelsad":"Wellington township",
+    "uscensus:population":322,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2019176500
+        "uscensus:geoid":"2019176500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463365
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404505299,
-    "wof:lastmodified":1605055292,
+    "wof:lastmodified":1722117899,
     "wof:name":"Wellington Township",
     "wof:parent_id":102085325,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":360,
+    "wof:population":322,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

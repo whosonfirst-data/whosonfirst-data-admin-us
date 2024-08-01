@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0102,
-    "geom:area_square_m":92387631.72996,
+    "geom:area_square_m":92387631.729979,
     "geom:bbox":"-84.720117,42.85667,-84.601848,42.943556",
     "geom:latitude":42.9002,
     "geom:longitude":-84.661099,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.900146,
     "lbl:longitude":-84.661098,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":37,
     "uscensus:geoid":2603768600,
     "uscensus:name":"Riley",
     "uscensus:namelsad":"Riley township",
+    "uscensus:population":2015,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2603768600
+        "uscensus:geoid":"2603768600"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458803
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404507253,
-    "wof:lastmodified":1605055780,
+    "wof:lastmodified":1722117913,
     "wof:name":"Riley Township",
     "wof:parent_id":102083123,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2024,
+    "wof:population":2015,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

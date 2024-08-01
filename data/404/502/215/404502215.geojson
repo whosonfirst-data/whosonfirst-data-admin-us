@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012797,
-    "geom:area_square_m":124027362.949,
+    "geom:area_square_m":124027362.948994,
     "geom:bbox":"-95.821017,38.346589,-95.673848,38.43449",
     "geom:latitude":38.390406,
     "geom:longitude":-95.747537,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.390416,
     "lbl:longitude":-95.747531,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":2003136650,
     "uscensus:name":"Key West",
     "uscensus:namelsad":"Key West township",
+    "uscensus:population":245,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2003136650
+        "uscensus:geoid":"2003136650"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457187
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404502215,
-    "wof:lastmodified":1605055273,
+    "wof:lastmodified":1722117877,
     "wof:name":"Key West Township",
     "wof:parent_id":102084185,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":242,
+    "wof:population":245,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

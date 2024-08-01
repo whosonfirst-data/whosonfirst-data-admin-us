@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01025,
-    "geom:area_square_m":90046271.669681,
+    "geom:area_square_m":90046271.669634,
     "geom:bbox":"-89.845357,44.684702,-89.726466,44.771806",
     "geom:latitude":44.728145,
     "geom:longitude":-89.786041,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.728158,
     "lbl:longitude":-89.786049,
     "lbl:max_zoom":17.0,
@@ -337,11 +343,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":73,
     "uscensus:geoid":5507306875,
     "uscensus:name":"Bergen",
     "uscensus:namelsad":"Bergen town",
+    "uscensus:population":744,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -351,8 +360,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5507306875
+        "uscensus:geoid":"5507306875"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473497
     ],
@@ -371,11 +381,11 @@
         }
     ],
     "wof:id":404492025,
-    "wof:lastmodified":1605055999,
+    "wof:lastmodified":1722117816,
     "wof:name":"Bergen",
     "wof:parent_id":102081881,
     "wof:placetype":"localadmin",
-    "wof:population":641,
+    "wof:population":744,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

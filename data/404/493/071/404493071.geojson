@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010596,
-    "geom:area_square_m":92395188.049119,
+    "geom:area_square_m":92395188.049171,
     "geom:bbox":"-91.666419,45.112908,-91.530087,45.207991",
     "geom:latitude":45.157274,
     "geom:longitude":-91.606969,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.152562,
     "lbl:longitude":-91.608289,
     "lbl:max_zoom":17.0,
@@ -121,11 +127,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":5501703725,
     "uscensus:name":"Auburn",
     "uscensus:namelsad":"Auburn town",
+    "uscensus:population":792,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -135,8 +144,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5501703725
+        "uscensus:geoid":"5501703725"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458325
     ],
@@ -155,11 +165,11 @@
         }
     ],
     "wof:id":404493071,
-    "wof:lastmodified":1605055942,
+    "wof:lastmodified":1722117823,
     "wof:name":"Auburn",
     "wof:parent_id":102081787,
     "wof:placetype":"localadmin",
-    "wof:population":697,
+    "wof:population":792,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

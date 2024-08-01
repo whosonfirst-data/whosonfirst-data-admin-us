@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006031,
-    "geom:area_square_m":56874794.689162,
+    "geom:area_square_m":56874794.689163,
     "geom:bbox":"-74.762433,40.239811,-74.66455,40.358476",
     "geom:latitude":40.29539,
     "geom:longitude":-74.72051,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.300349,
     "lbl:longitude":-74.720505,
     "lbl:max_zoom":14.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":3402139510,
     "uscensus:name":"Lawrence",
     "uscensus:namelsad":"Lawrence township",
+    "uscensus:population":31771,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3402139510
+        "uscensus:geoid":"3402139510"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404478255,
-    "wof:lastmodified":1605055351,
+    "wof:lastmodified":1722117729,
     "wof:name":"Lawrence Township",
     "wof:parent_id":102081129,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":33472,
+    "wof:population":31771,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

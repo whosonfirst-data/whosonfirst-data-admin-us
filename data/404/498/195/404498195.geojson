@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.015059,
-    "geom:area_square_m":140742313.365448,
+    "geom:area_square_m":140742313.36548,
     "geom:bbox":"-87.847964,40.857968,-87.653622,40.949549",
     "geom:latitude":40.902265,
     "geom:longitude":-87.740942,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.904289,
     "lbl:longitude":-87.740964,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":75,
     "uscensus:geoid":1707547293,
     "uscensus:name":"Martinton",
     "uscensus:namelsad":"Martinton township",
+    "uscensus:population":806,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1707547293
+        "uscensus:geoid":"1707547293"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404498195,
-    "wof:lastmodified":1605055556,
+    "wof:lastmodified":1722233641,
     "wof:name":"Martinton Township",
     "wof:parent_id":102086209,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":943,
+    "wof:population":806,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

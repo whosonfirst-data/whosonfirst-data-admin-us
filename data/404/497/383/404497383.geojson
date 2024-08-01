@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010173,
-    "geom:area_square_m":94149195.364994,
+    "geom:area_square_m":94149195.365001,
     "geom:bbox":"-89.862351,41.496496,-89.742889,41.58451",
     "geom:latitude":41.540662,
     "geom:longitude":-89.801631,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.54047,
     "lbl:longitude":-89.801629,
     "lbl:max_zoom":17.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":1701124790,
     "uscensus:name":"Fairfield",
     "uscensus:namelsad":"Fairfield township",
+    "uscensus:population":363,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1701124790
+        "uscensus:geoid":"1701124790"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456255
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404497383,
-    "wof:lastmodified":1605055492,
+    "wof:lastmodified":1722117848,
     "wof:name":"Fairfield Township",
     "wof:parent_id":102082267,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":375,
+    "wof:population":363,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

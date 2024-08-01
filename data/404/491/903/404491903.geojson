@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.020863,
-    "geom:area_square_m":184796435.570325,
+    "geom:area_square_m":184796435.570227,
     "geom:bbox":"-90.559517,44.160215,-90.435732,44.335944",
     "geom:latitude":44.248639,
     "geom:longitude":-90.496447,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.248068,
     "lbl:longitude":-90.495621,
     "lbl:max_zoom":17.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":53,
     "uscensus:geoid":5505340000,
     "uscensus:name":"Knapp",
     "uscensus:namelsad":"Knapp town",
+    "uscensus:population":302,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5505340000
+        "uscensus:geoid":"5505340000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471421
     ],
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404491903,
-    "wof:lastmodified":1605055584,
+    "wof:lastmodified":1722117816,
     "wof:name":"Knapp",
     "wof:parent_id":102081821,
     "wof:placetype":"localadmin",
-    "wof:population":299,
+    "wof:population":302,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

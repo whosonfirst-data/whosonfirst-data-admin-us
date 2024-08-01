@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011283,
-    "geom:area_square_m":93080061.170076,
+    "geom:area_square_m":93080061.170103,
     "geom:bbox":"-99.718418,48.107623,-99.588367,48.195577",
     "geom:latitude":48.151693,
     "geom:longitude":-99.653412,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.151725,
     "lbl:longitude":-99.653428,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":3800509740,
     "uscensus:name":"Broe",
     "uscensus:namelsad":"Broe township",
+    "uscensus:population":36,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3800509740
+        "uscensus:geoid":"3800509740"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471967
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404480127,
-    "wof:lastmodified":1605055911,
+    "wof:lastmodified":1722117742,
     "wof:name":"Broe Township",
     "wof:parent_id":102082071,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":35,
+    "wof:population":36,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

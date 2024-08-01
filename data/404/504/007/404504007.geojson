@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009072,
-    "geom:area_square_m":89393987.402873,
+    "geom:area_square_m":89393987.402872,
     "geom:bbox":"-94.940746,37.119356,-94.831668,37.208476",
     "geom:latitude":37.163385,
     "geom:longitude":-94.888748,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.159008,
     "lbl:longitude":-94.903202,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":2002162575,
     "uscensus:name":"Salamanca",
     "uscensus:namelsad":"Salamanca township",
+    "uscensus:population":464,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2002162575
+        "uscensus:geoid":"2002162575"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465167
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404504007,
-    "wof:lastmodified":1605055300,
+    "wof:lastmodified":1722117890,
     "wof:name":"Salamanca Township",
     "wof:parent_id":102082169,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":505,
+    "wof:population":464,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

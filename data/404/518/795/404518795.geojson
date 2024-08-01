@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012975,
-    "geom:area_square_m":120480853.206433,
+    "geom:area_square_m":120480853.206455,
     "geom:bbox":"-98.275408,41.264126,-98.17351,41.394217",
     "geom:latitude":41.329245,
     "geom:longitude":-98.224549,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.329176,
     "lbl:longitude":-98.224555,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":3112510845,
     "uscensus:name":"Cottonwood",
     "uscensus:namelsad":"Cottonwood township",
+    "uscensus:population":61,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3112510845
+        "uscensus:geoid":"3112510845"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475385
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404518795,
-    "wof:lastmodified":1605055691,
+    "wof:lastmodified":1722117978,
     "wof:name":"Cottonwood Township",
     "wof:parent_id":102083487,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":73,
+    "wof:population":61,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

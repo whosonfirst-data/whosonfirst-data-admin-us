@@ -10,6 +10,12 @@
     "geom:latitude":40.029904,
     "geom:longitude":-78.191697,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.03019,
     "lbl:longitude":-78.191851,
     "lbl:max_zoom":18.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":57,
     "uscensus:geoid":4205779644,
     "uscensus:name":"Valley-Hi",
     "uscensus:namelsad":"Valley-Hi borough",
+    "uscensus:population":5,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4205779644
+        "uscensus:geoid":"4205779644"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404483253,
-    "wof:lastmodified":1605055447,
+    "wof:lastmodified":1722117761,
     "wof:name":"Valley-Hi",
     "wof:parent_id":102081273,
     "wof:placetype":"localadmin",
-    "wof:population":15,
+    "wof:population":5,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

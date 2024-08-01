@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010233,
-    "geom:area_square_m":93128768.539399,
+    "geom:area_square_m":93128768.539391,
     "geom:bbox":"-72.364767,42.547227,-72.224932,42.675424",
     "geom:latitude":42.606565,
     "geom:longitude":-72.293077,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.602196,
     "lbl:longitude":-72.294141,
     "lbl:max_zoom":15.0,
@@ -178,22 +184,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":2501151265,
     "uscensus:name":"Orange",
     "uscensus:namelsad":"Orange town",
+    "uscensus:population":7558,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688645,
-        102084457
+        102084457,
+        85688645
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2501151265
+        "uscensus:geoid":"2501151265"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -209,11 +219,11 @@
         }
     ],
     "wof:id":404476327,
-    "wof:lastmodified":1636499286,
+    "wof:lastmodified":1722117714,
     "wof:name":"Orange",
     "wof:parent_id":102084457,
     "wof:placetype":"localadmin",
-    "wof:population":7839,
+    "wof:population":7558,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

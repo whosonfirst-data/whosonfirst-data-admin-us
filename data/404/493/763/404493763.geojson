@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011347,
-    "geom:area_square_m":99378082.243139,
+    "geom:area_square_m":99378082.243177,
     "geom:bbox":"-92.774968,44.861967,-92.61914,44.949262",
     "geom:latitude":44.904892,
     "geom:longitude":-92.693213,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.902353,
     "lbl:longitude":-92.694443,
     "lbl:max_zoom":15.0,
@@ -322,11 +328,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":109,
     "uscensus:geoid":5510980800,
     "uscensus:name":"Troy",
     "uscensus:namelsad":"Troy town",
+    "uscensus:population":5578,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -336,8 +345,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5510980800
+        "uscensus:geoid":"5510980800"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457283
     ],
@@ -356,12 +366,12 @@
         }
     ],
     "wof:id":404493763,
-    "wof:lastmodified":1605055938,
+    "wof:lastmodified":1722117828,
     "wof:name":"Troy",
     "wof:parent_id":102081855,
     "wof:placetype":"localadmin",
-    "wof:population":4705,
-    "wof:population_rank":4,
+    "wof:population":5578,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

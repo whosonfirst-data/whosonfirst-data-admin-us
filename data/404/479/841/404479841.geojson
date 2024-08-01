@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01124,
-    "geom:area_square_m":92565887.478176,
+    "geom:area_square_m":92565887.478165,
     "geom:bbox":"-103.216741,48.197403,-103.086784,48.284479",
     "geom:latitude":48.240889,
     "geom:longitude":-103.151853,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.240887,
     "lbl:longitude":-103.151854,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":3810582100,
     "uscensus:name":"View",
     "uscensus:namelsad":"View township",
+    "uscensus:population":38,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3810582100
+        "uscensus:geoid":"3810582100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478561
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404479841,
-    "wof:lastmodified":1605055479,
+    "wof:lastmodified":1722117740,
     "wof:name":"View Township",
     "wof:parent_id":102082069,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":32,
+    "wof:population":38,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

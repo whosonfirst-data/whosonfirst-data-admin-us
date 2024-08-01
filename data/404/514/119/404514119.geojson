@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010295,
-    "geom:area_square_m":92141549.799871,
+    "geom:area_square_m":92141549.799842,
     "geom:bbox":"-92.20938,43.587237,-92.08943,43.67405",
     "geom:latitude":43.630327,
     "geom:longitude":-92.14981,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.630621,
     "lbl:longitude":-92.149806,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":2704509910,
     "uscensus:name":"Carimona",
     "uscensus:namelsad":"Carimona township",
+    "uscensus:population":295,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2704509910
+        "uscensus:geoid":"2704509910"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729455009
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404514119,
-    "wof:lastmodified":1605056021,
+    "wof:lastmodified":1722117963,
     "wof:name":"Carimona Township",
     "wof:parent_id":102086997,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":296,
+    "wof:population":295,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

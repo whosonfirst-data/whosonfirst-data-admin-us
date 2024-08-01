@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010983,
-    "geom:area_square_m":92577861.420627,
+    "geom:area_square_m":92577861.420656,
     "geom:bbox":"-99.988237,46.981078,-99.861057,47.068407",
     "geom:latitude":47.02463,
     "geom:longitude":-99.924809,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.024697,
     "lbl:longitude":-99.924826,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":43,
     "uscensus:geoid":3804336580,
     "uscensus:name":"Haynes",
     "uscensus:namelsad":"Haynes township",
+    "uscensus:population":23,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3804336580
+        "uscensus:geoid":"3804336580"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476213
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404480975,
-    "wof:lastmodified":1605055920,
+    "wof:lastmodified":1722117748,
     "wof:name":"Haynes Township",
     "wof:parent_id":102082547,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":18,
+    "wof:population":23,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

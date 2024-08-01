@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000135,
-    "geom:area_square_m":1278985.820639,
+    "geom:area_square_m":1278985.820638,
     "geom:bbox":"-74.928814,40.170679,-74.912901,40.185542",
     "geom:latitude":40.177691,
     "geom:longitude":-74.921201,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.177614,
     "lbl:longitude":-74.921074,
     "lbl:max_zoom":16.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":4201741392,
     "uscensus:name":"Langhorne",
     "uscensus:namelsad":"Langhorne borough",
+    "uscensus:population":1624,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201741392
+        "uscensus:geoid":"4201741392"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404482757,
-    "wof:lastmodified":1605055384,
+    "wof:lastmodified":1722117758,
     "wof:name":"Langhorne",
     "wof:parent_id":102080987,
     "wof:placetype":"localadmin",
-    "wof:population":1622,
+    "wof:population":1624,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -138,7 +138,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1458378,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -154,16 +155,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"13700",
     "uscensus:placens":"01267336",
+    "uscensus:population":140,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"46",
     "wd:latitude":45.156667,
     "wd:longitude":-98.098611,
     "wd:wordcount":784,
     "wof:belongsto":[
-        85688693,
         102191575,
-        404489215,
         85633793,
-        102086027
+        102086027,
+        404489215,
+        85688693
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -172,10 +175,11 @@
         "gn:id":5227010,
         "gp:id":2384064,
         "qs_pg:id":196425,
-        "uscensus:geoid":4613700,
+        "uscensus:geoid":"4613700",
         "wd:id":"Q2195126",
         "wk:page":"Conde, South Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -196,7 +200,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889654,
+    "wof:lastmodified":1722116340,
     "wof:name":"Conde",
     "wof:parent_id":404489215,
     "wof:placetype":"locality",

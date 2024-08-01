@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006747,
-    "geom:area_square_m":64139381.926191,
+    "geom:area_square_m":64139381.926175,
     "geom:bbox":"-84.937098,39.726569,-84.814277,39.785293",
     "geom:latitude":39.756253,
     "geom:longitude":-84.872244,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.755844,
     "lbl:longitude":-84.872268,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":177,
     "uscensus:geoid":1817706670,
     "uscensus:name":"Boston",
     "uscensus:namelsad":"Boston township",
+    "uscensus:population":913,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1817706670
+        "uscensus:geoid":"1817706670"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404502099,
-    "wof:lastmodified":1604530705,
+    "wof:lastmodified":1722233656,
     "wof:name":"Boston Township",
     "wof:parent_id":102086979,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":887,
+    "wof:population":913,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010423,
-    "geom:area_square_m":93138310.258047,
+    "geom:area_square_m":93138310.25809,
     "geom:bbox":"-82.88023,43.68277,-82.758368,43.772866",
     "geom:latitude":43.727746,
     "geom:longitude":-82.819293,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.727755,
     "lbl:longitude":-82.819294,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":63,
     "uscensus:geoid":2606362360,
     "uscensus:name":"Paris",
     "uscensus:namelsad":"Paris township",
+    "uscensus:population":482,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2606362360
+        "uscensus:geoid":"2606362360"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457939
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404507613,
-    "wof:lastmodified":1605055777,
+    "wof:lastmodified":1722117915,
     "wof:name":"Paris Township",
     "wof:parent_id":102083017,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":481,
+    "wof:population":482,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

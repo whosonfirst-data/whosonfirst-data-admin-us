@@ -10,6 +10,12 @@
     "geom:latitude":42.461019,
     "geom:longitude":-98.646494,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.461282,
     "lbl:longitude":-98.647845,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":89,
     "uscensus:geoid":3108937105,
     "uscensus:name":"O'Neill",
     "uscensus:namelsad":"O'Neill city",
+    "uscensus:population":3575,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3108937105
+        "uscensus:geoid":"3108937105"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404520545,
-    "wof:lastmodified":1605055703,
+    "wof:lastmodified":1722117982,
     "wof:name":"O'Neill",
     "wof:parent_id":102084271,
     "wof:placetype":"localadmin",
-    "wof:population":3705,
+    "wof:population":3575,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

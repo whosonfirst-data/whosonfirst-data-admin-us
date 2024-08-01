@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000538,
-    "geom:area_square_m":4751794.278466,
+    "geom:area_square_m":4751794.278464,
     "geom:bbox":"-93.221271,44.418708,-93.173336,44.439507",
     "geom:latitude":44.427642,
     "geom:longitude":-93.203939,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.427991,
     "lbl:longitude":-93.203928,
     "lbl:max_zoom":16.0,
@@ -70,11 +76,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":131,
     "uscensus:geoid":2713117126,
     "uscensus:name":"Dundas",
     "uscensus:namelsad":"Dundas city",
+    "uscensus:population":1758,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -84,8 +93,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2713117126
+        "uscensus:geoid":"2713117126"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -101,11 +111,11 @@
         }
     ],
     "wof:id":404512627,
-    "wof:lastmodified":1605056122,
+    "wof:lastmodified":1722117952,
     "wof:name":"Dundas",
     "wof:parent_id":102087623,
     "wof:placetype":"localadmin",
-    "wof:population":1367,
+    "wof:population":1758,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

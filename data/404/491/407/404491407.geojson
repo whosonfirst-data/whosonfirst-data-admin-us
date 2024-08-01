@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000468,
-    "geom:area_square_m":4192244.342374,
+    "geom:area_square_m":4192244.342367,
     "geom:bbox":"-88.932868,43.548818,-88.896524,43.57314",
     "geom:latitude":43.561829,
     "geom:longitude":-88.913005,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.56144,
     "lbl:longitude":-88.9133,
     "lbl:max_zoom":16.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":5502727000,
     "uscensus:name":"Fox Lake",
     "uscensus:namelsad":"Fox Lake city",
+    "uscensus:population":1603,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5502727000
+        "uscensus:geoid":"5502727000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404491407,
-    "wof:lastmodified":1605055580,
+    "wof:lastmodified":1722117813,
     "wof:name":"Fox Lake",
     "wof:parent_id":102081887,
     "wof:placetype":"localadmin",
-    "wof:population":1519,
+    "wof:population":1603,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

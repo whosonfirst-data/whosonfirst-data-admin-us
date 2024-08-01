@@ -10,6 +10,12 @@
     "geom:latitude":39.983481,
     "geom:longitude":-78.772274,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.983517,
     "lbl:longitude":-78.772416,
     "lbl:max_zoom":18.0,
@@ -64,11 +70,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":111,
     "uscensus:geoid":4211153168,
     "uscensus:name":"New Baltimore",
     "uscensus:namelsad":"New Baltimore borough",
+    "uscensus:population":134,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -78,8 +87,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4211153168
+        "uscensus:geoid":"4211153168"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -95,11 +105,11 @@
         }
     ],
     "wof:id":404484023,
-    "wof:lastmodified":1605055454,
+    "wof:lastmodified":1722117766,
     "wof:name":"New Baltimore",
     "wof:parent_id":102081361,
     "wof:placetype":"localadmin",
-    "wof:population":180,
+    "wof:population":134,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

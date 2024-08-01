@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000134,
-    "geom:area_square_m":1229601.068739,
+    "geom:area_square_m":1229601.06874,
     "geom:bbox":"-76.965152,41.857725,-76.951321,41.870936",
     "geom:latitude":41.863696,
     "geom:longitude":-76.957577,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.863434,
     "lbl:longitude":-76.957447,
     "lbl:max_zoom":18.0,
@@ -91,11 +97,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":117,
     "uscensus:geoid":4211766232,
     "uscensus:name":"Roseville",
     "uscensus:namelsad":"Roseville borough",
+    "uscensus:population":176,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -105,8 +114,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4211766232
+        "uscensus:geoid":"4211766232"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -122,11 +132,11 @@
         }
     ],
     "wof:id":404483901,
-    "wof:lastmodified":1605055436,
+    "wof:lastmodified":1722117765,
     "wof:name":"Roseville",
     "wof:parent_id":102080937,
     "wof:placetype":"localadmin",
-    "wof:population":189,
+    "wof:population":176,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

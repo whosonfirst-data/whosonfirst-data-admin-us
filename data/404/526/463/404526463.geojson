@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010635,
-    "geom:area_square_m":101988511.505357,
+    "geom:area_square_m":101988511.505327,
     "geom:bbox":"-82.086765,39.099667,-81.960882,39.193802",
     "geom:latitude":39.146632,
     "geom:longitude":-82.023694,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.146733,
     "lbl:longitude":-82.023702,
     "lbl:max_zoom":16.0,
@@ -58,11 +64,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":3910504906,
     "uscensus:name":"Bedford",
     "uscensus:namelsad":"Bedford township",
+    "uscensus:population":1209,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -72,8 +81,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3910504906
+        "uscensus:geoid":"3910504906"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463825
     ],
@@ -92,12 +102,12 @@
         }
     ],
     "wof:id":404526463,
-    "wof:lastmodified":1605055647,
+    "wof:lastmodified":1722118023,
     "wof:name":"Bedford Township",
     "wof:parent_id":102083655,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1355,
+    "wof:population":1209,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

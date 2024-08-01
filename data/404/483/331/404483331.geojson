@@ -10,6 +10,12 @@
     "geom:latitude":39.963735,
     "geom:longitude":-75.252615,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.963923,
     "lbl:longitude":-75.252707,
     "lbl:max_zoom":16.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":4204549504,
     "uscensus:name":"Millbourne",
     "uscensus:namelsad":"Millbourne borough",
+    "uscensus:population":1202,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4204549504
+        "uscensus:geoid":"4204549504"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404483331,
-    "wof:lastmodified":1605055435,
+    "wof:lastmodified":1722117762,
     "wof:name":"Millbourne",
     "wof:parent_id":102080913,
     "wof:placetype":"localadmin",
-    "wof:population":1159,
+    "wof:population":1202,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009967,
-    "geom:area_square_m":91168309.215622,
+    "geom:area_square_m":91168309.215602,
     "geom:bbox":"-85.531694,42.244859,-85.413533,42.332874",
     "geom:latitude":42.288775,
     "geom:longitude":-85.4741,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":42.288805,
     "lbl:longitude":-85.474111,
@@ -81,11 +84,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":77,
     "uscensus:geoid":2607717680,
     "uscensus:name":"Comstock",
     "uscensus:namelsad":"Comstock charter township",
+    "uscensus:population":15142,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -95,8 +101,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2607717680
+        "uscensus:geoid":"2607717680"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -112,11 +119,11 @@
         }
     ],
     "wof:id":404507681,
-    "wof:lastmodified":1605055769,
+    "wof:lastmodified":1722117916,
     "wof:name":"Comstock",
     "wof:parent_id":102083671,
     "wof:placetype":"localadmin",
-    "wof:population":14854,
+    "wof:population":15142,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

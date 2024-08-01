@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010085,
-    "geom:area_square_m":91082293.473011,
+    "geom:area_square_m":91082293.473002,
     "geom:bbox":"-77.951044,43.036575,-77.818198,43.129335",
     "geom:latitude":43.080245,
     "geom:longitude":-77.875231,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.08281,
     "lbl:longitude":-77.875237,
     "lbl:max_zoom":15.0,
@@ -535,11 +541,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":55,
     "uscensus:geoid":3605561808,
     "uscensus:name":"Riga",
     "uscensus:namelsad":"Riga town",
+    "uscensus:population":5543,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -549,8 +558,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3605561808
+        "uscensus:geoid":"3605561808"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -566,11 +576,11 @@
         }
     ],
     "wof:id":404521465,
-    "wof:lastmodified":1605055630,
+    "wof:lastmodified":1722233673,
     "wof:name":"Riga",
     "wof:parent_id":102081815,
     "wof:placetype":"localadmin",
-    "wof:population":5590,
+    "wof:population":5543,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

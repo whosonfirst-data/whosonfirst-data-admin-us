@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008307,
-    "geom:area_square_m":78487065.298444,
+    "geom:area_square_m":78487065.298476,
     "geom:bbox":"-93.878391,40.132909,-93.763496,40.206148",
     "geom:latitude":40.169563,
     "geom:longitude":-93.820935,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.169501,
     "lbl:longitude":-93.820936,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":81,
     "uscensus:geoid":2908171350,
     "uscensus:name":"Sugar Creek",
     "uscensus:namelsad":"Sugar Creek township",
+    "uscensus:population":456,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":29,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2908171350
+        "uscensus:geoid":"2908171350"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404517127,
-    "wof:lastmodified":1604530717,
+    "wof:lastmodified":1722233670,
     "wof:name":"Sugar Creek Township",
     "wof:parent_id":102086891,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":525,
+    "wof:population":456,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

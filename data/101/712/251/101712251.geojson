@@ -179,7 +179,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":7483134,
     "uscensus:awater":0,
     "uscensus:classfp":"C2",
@@ -195,17 +196,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"65732",
     "uscensus:placens":"01086225",
+    "uscensus:population":10380,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"39",
     "wd:elevation":171.0,
     "wd:latitude":39.2228,
     "wd:longitude":-84.4392,
     "wd:wordcount":1150,
     "wof:belongsto":[
-        85688485,
         102191575,
-        404523805,
         85633793,
-        102083687
+        102083687,
+        404523805,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -214,10 +217,11 @@
         "gn:id":4522228,
         "gp:id":2479092,
         "qs_pg:id":154088,
-        "uscensus:geoid":3965732,
+        "uscensus:geoid":"3965732",
         "wd:id":"Q1848450",
         "wk:page":"Reading, Ohio"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -238,11 +242,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690888782,
+    "wof:lastmodified":1722116285,
     "wof:name":"Reading",
     "wof:parent_id":404523805,
     "wof:placetype":"locality",
-    "wof:population":10385,
+    "wof:population":10380,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

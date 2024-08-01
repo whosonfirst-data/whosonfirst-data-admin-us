@@ -10,6 +10,12 @@
     "geom:latitude":40.244217,
     "geom:longitude":-76.89912,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.243338,
     "lbl:longitude":-76.899403,
     "lbl:max_zoom":15.0,
@@ -61,11 +67,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":4204142648,
     "uscensus:name":"Lemoyne",
     "uscensus:namelsad":"Lemoyne borough",
+    "uscensus:population":4785,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -75,8 +84,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4204142648
+        "uscensus:geoid":"4204142648"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -92,11 +102,11 @@
         }
     ],
     "wof:id":404483155,
-    "wof:lastmodified":1605055444,
+    "wof:lastmodified":1722117761,
     "wof:name":"Lemoyne",
     "wof:parent_id":102081359,
     "wof:placetype":"localadmin",
-    "wof:population":4553,
+    "wof:population":4785,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

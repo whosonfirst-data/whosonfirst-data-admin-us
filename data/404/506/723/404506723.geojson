@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001686,
-    "geom:area_square_m":15170234.020367,
+    "geom:area_square_m":15170234.020358,
     "geom:bbox":"-84.627419,43.269135,-84.563069,43.306177",
     "geom:latitude":43.291166,
     "geom:longitude":-84.595662,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.291678,
     "lbl:longitude":-84.598271,
     "lbl:max_zoom":15.0,
@@ -193,22 +199,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":57,
     "uscensus:geoid":2605741340,
     "uscensus:name":"Ithaca",
     "uscensus:namelsad":"Ithaca city",
+    "uscensus:population":2813,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688599,
-        102083717
+        102083717,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2605741340
+        "uscensus:geoid":"2605741340"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -224,11 +234,11 @@
         }
     ],
     "wof:id":404506723,
-    "wof:lastmodified":1636499355,
+    "wof:lastmodified":1722117909,
     "wof:name":"Ithaca",
     "wof:parent_id":102083717,
     "wof:placetype":"localadmin",
-    "wof:population":2910,
+    "wof:population":2813,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

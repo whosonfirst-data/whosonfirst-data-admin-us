@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00996,
-    "geom:area_square_m":91340914.246214,
+    "geom:area_square_m":91340914.246197,
     "geom:bbox":"-72.274455,42.090665,-72.135004,42.183831",
     "geom:latitude":42.128631,
     "geom:longitude":-72.206213,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.131594,
     "lbl:longitude":-72.228457,
     "lbl:max_zoom":15.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":2501308470,
     "uscensus:name":"Brimfield",
     "uscensus:namelsad":"Brimfield town",
+    "uscensus:population":3699,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2501308470
+        "uscensus:geoid":"2501308470"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466049
     ],
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404476343,
-    "wof:lastmodified":1605055412,
+    "wof:lastmodified":1722117714,
     "wof:name":"Brimfield",
     "wof:parent_id":102084627,
     "wof:placetype":"localadmin",
-    "wof:population":3609,
+    "wof:population":3699,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

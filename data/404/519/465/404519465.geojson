@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.018215,
-    "geom:area_square_m":164955834.720357,
+    "geom:area_square_m":164955834.720242,
     "geom:bbox":"-98.899904,42.82427,-98.762147,42.998512",
     "geom:latitude":42.915021,
     "geom:longitude":-98.832764,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.905602,
     "lbl:longitude":-98.838337,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":3101507520,
     "uscensus:name":"Butte",
     "uscensus:namelsad":"Butte township",
+    "uscensus:population":377,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3101507520
+        "uscensus:geoid":"3101507520"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404519465,
-    "wof:lastmodified":1605055666,
+    "wof:lastmodified":1722233671,
     "wof:name":"Butte Township",
     "wof:parent_id":102082225,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":484,
+    "wof:population":377,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

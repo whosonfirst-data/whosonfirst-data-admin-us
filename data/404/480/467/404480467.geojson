@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011009,
-    "geom:area_square_m":92947850.720109,
+    "geom:area_square_m":92947850.720082,
     "geom:bbox":"-100.708959,46.895638,-100.580746,46.982901",
     "geom:latitude":46.939257,
     "geom:longitude":-100.644871,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.939299,
     "lbl:longitude":-100.644867,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":3801555540,
     "uscensus:name":"Naughton",
     "uscensus:namelsad":"Naughton township",
+    "uscensus:population":187,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3801555540
+        "uscensus:geoid":"3801555540"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474329
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404480467,
-    "wof:lastmodified":1605055916,
+    "wof:lastmodified":1722117744,
     "wof:name":"Naughton Township",
     "wof:parent_id":102082107,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":158,
+    "wof:population":187,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

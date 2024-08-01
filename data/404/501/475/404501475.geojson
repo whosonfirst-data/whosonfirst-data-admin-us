@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010618,
-    "geom:area_square_m":102542640.455495,
+    "geom:area_square_m":102542640.455435,
     "geom:bbox":"-85.888399,38.561269,-85.812158,38.735013",
     "geom:latitude":38.64474,
     "geom:longitude":-85.85237,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.629188,
     "lbl:longitude":-85.851645,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":143,
     "uscensus:geoid":1814323224,
     "uscensus:name":"Finley",
     "uscensus:namelsad":"Finley township",
+    "uscensus:population":1508,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1814323224
+        "uscensus:geoid":"1814323224"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476113
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404501475,
-    "wof:lastmodified":1604969665,
+    "wof:lastmodified":1722117872,
     "wof:name":"Finley Township",
     "wof:parent_id":102087167,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1469,
+    "wof:population":1508,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

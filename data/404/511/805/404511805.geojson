@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010112,
-    "geom:area_square_m":87167599.523646,
+    "geom:area_square_m":87167599.52368,
     "geom:bbox":"-95.88235,45.7596,-95.758385,45.846933",
     "geom:latitude":45.801411,
     "geom:longitude":-95.822388,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.800848,
     "lbl:longitude":-95.831473,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":2705135396,
     "uscensus:name":"Land",
     "uscensus:namelsad":"Land township",
+    "uscensus:population":267,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2705135396
+        "uscensus:geoid":"2705135396"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461323
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404511805,
-    "wof:lastmodified":1605055720,
+    "wof:lastmodified":1722117946,
     "wof:name":"Land Township",
     "wof:parent_id":102087739,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":261,
+    "wof:population":267,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

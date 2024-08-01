@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002268,
-    "geom:area_square_m":20996588.794074,
+    "geom:area_square_m":20996588.794062,
     "geom:bbox":"-81.603198,41.48277,-81.529655,41.545292",
     "geom:latitude":41.511238,
     "geom:longitude":-81.563574,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.510922,
     "lbl:longitude":-81.564155,
     "lbl:max_zoom":14.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":3903516014,
     "uscensus:name":"Cleveland Heights",
     "uscensus:namelsad":"Cleveland Heights city",
+    "uscensus:population":43908,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3903516014
+        "uscensus:geoid":"3903516014"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404525063,
-    "wof:lastmodified":1605056053,
+    "wof:lastmodified":1722118013,
     "wof:name":"Cleveland Heights",
     "wof:parent_id":102084837,
     "wof:placetype":"localadmin",
-    "wof:population":46121,
+    "wof:population":43908,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

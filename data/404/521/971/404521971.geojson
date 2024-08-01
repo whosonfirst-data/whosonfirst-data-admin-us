@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009069,
-    "geom:area_square_m":81122478.571853,
+    "geom:area_square_m":81122478.571855,
     "geom:bbox":"-75.510055,43.620338,-75.360914,43.708733",
     "geom:latitude":43.664003,
     "geom:longitude":-75.42944,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.663011,
     "lbl:longitude":-75.429452,
     "lbl:max_zoom":17.0,
@@ -412,11 +418,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":3604975693,
     "uscensus:name":"Turin",
     "uscensus:namelsad":"Turin town",
+    "uscensus:population":762,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -426,8 +435,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3604975693
+        "uscensus:geoid":"3604975693"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -443,11 +453,11 @@
         }
     ],
     "wof:id":404521971,
-    "wof:lastmodified":1605055631,
+    "wof:lastmodified":1722233675,
     "wof:name":"Turin",
     "wof:parent_id":102085867,
     "wof:placetype":"localadmin",
-    "wof:population":761,
+    "wof:population":762,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

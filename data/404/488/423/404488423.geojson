@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012345,
-    "geom:area_square_m":106888724.470534,
+    "geom:area_square_m":106888724.470447,
     "geom:bbox":"-98.476255,45.502247,-98.350969,45.604449",
     "geom:latitude":45.553846,
     "geom:longitude":-98.412899,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.560336,
     "lbl:longitude":-98.413749,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":4601347420,
     "uscensus:name":"Ordway",
     "uscensus:namelsad":"Ordway township",
+    "uscensus:population":274,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4601347420
+        "uscensus:geoid":"4601347420"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466169
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404488423,
-    "wof:lastmodified":1605055805,
+    "wof:lastmodified":1722117794,
     "wof:name":"Ordway Township",
     "wof:parent_id":102086843,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":300,
+    "wof:population":274,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

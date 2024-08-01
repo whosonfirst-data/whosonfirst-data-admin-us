@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000183,
-    "geom:area_square_m":1690577.627992,
+    "geom:area_square_m":1690577.627991,
     "geom:bbox":"-96.675704,41.660062,-96.655804,41.67024",
     "geom:latitude":41.664993,
     "geom:longitude":-96.665343,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.665168,
     "lbl:longitude":-96.665347,
     "lbl:max_zoom":17.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":53,
     "uscensus:geoid":3105344280,
     "uscensus:name":"Scribner",
     "uscensus:namelsad":"Scribner city",
+    "uscensus:population":810,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3105344280
+        "uscensus:geoid":"3105344280"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,11 +96,11 @@
         }
     ],
     "wof:id":404519973,
-    "wof:lastmodified":1605055675,
+    "wof:lastmodified":1722117981,
     "wof:name":"Scribner",
     "wof:parent_id":102082773,
     "wof:placetype":"localadmin",
-    "wof:population":857,
+    "wof:population":810,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -9,9 +9,23 @@
     "geom:bbox":"-86.16458,35.154266,-86.03991,35.237584",
     "geom:latitude":35.189839,
     "geom:longitude":-86.10777,
+    "gn:admin1_code":"TN",
+    "gn:admin2_code":"51.0",
+    "gn:asciiname":"Winchester",
+    "gn:country_code":"US",
+    "gn:dem":298,
     "gn:elevation":298,
+    "gn:feature_class":"P",
+    "gn:feature_code":"PPLA2",
+    "gn:geonameid":4668336,
+    "gn:latitude":35.18592,
+    "gn:longitude":-86.11221,
+    "gn:modification_date":"2017-03-09",
+    "gn:name":"Winchester",
     "gn:population":8530,
+    "gn:timezone":"America/Chicago",
     "iso:country":"US",
+    "lbl:bbox":"-86.13221,35.16592,-86.09221,35.20592",
     "lbl:latitude":35.185717,
     "lbl:longitude":-86.113257,
     "lbl:max_zoom":15.0,
@@ -166,7 +180,10 @@
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":9978,
+    "uscensus:population_date":"2023",
     "wd:elevation":298.0,
     "wd:latitude":35.188333,
     "wd:longitude":-86.1125,
@@ -174,8 +191,8 @@
     "wof:belongsto":[
         102191575,
         85633793,
-        85688701,
-        102086227
+        102086227,
+        85688701
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -189,8 +206,17 @@
         "wk:page":"Winchester, Tennessee"
     },
     "wof:concordances_alt":{
-        "qs_pg:id":238449
+        "gn:id":[
+            4668336
+        ],
+        "qs_pg:id":[
+            238449
+        ],
+        "wk:page":[
+            "Winchester%2C_Tennessee"
+        ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg"
@@ -209,16 +235,17 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690888213,
+    "wof:lastmodified":1722116402,
     "wof:name":"Winchester",
     "wof:parent_id":102086227,
     "wof:placetype":"locality",
-    "wof:population":8530,
+    "wof:population":9978,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[
-        1125299167
+        1125299167,
+        1343787787
     ],
     "wof:tags":[]
 },

@@ -163,7 +163,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":10387064,
     "uscensus:awater":3165383,
     "uscensus:classfp":"C5",
@@ -179,16 +180,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"68430",
     "uscensus:placens":"00885397",
+    "uscensus:population":10465,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"34",
     "wd:latitude":39.317222,
     "wd:longitude":-74.606667,
     "wd:wordcount":5330,
     "wof:belongsto":[
-        85688607,
         102191575,
-        404477635,
         85633793,
-        102083869
+        102083869,
+        404477635,
+        85688607
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -196,10 +199,11 @@
         "gn:id":4504186,
         "gp:id":2495671,
         "qs_pg:id":237804,
-        "uscensus:geoid":3468430,
+        "uscensus:geoid":"3468430",
         "wd:id":"Q1084242",
         "wk:page":"Somers Point, New Jersey"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -217,11 +221,11 @@
         }
     ],
     "wof:id":85975323,
-    "wof:lastmodified":1690881782,
+    "wof:lastmodified":1722115944,
     "wof:name":"Somers Point",
     "wof:parent_id":404477635,
     "wof:placetype":"locality",
-    "wof:population":10795,
+    "wof:population":10465,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

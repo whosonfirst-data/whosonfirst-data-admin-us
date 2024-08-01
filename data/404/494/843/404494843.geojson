@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010893,
-    "geom:area_square_m":94679036.044409,
+    "geom:area_square_m":94679036.044408,
     "geom:bbox":"-92.704054,45.295672,-92.549249,45.383117",
     "geom:latitude":45.340064,
     "geom:longitude":-92.615781,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.330538,
     "lbl:longitude":-92.591099,
     "lbl:max_zoom":15.0,
@@ -106,11 +112,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":5509560475,
     "uscensus:name":"Osceola",
     "uscensus:namelsad":"Osceola town",
+    "uscensus:population":3098,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -120,8 +129,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5509560475
+        "uscensus:geoid":"5509560475"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463743
     ],
@@ -140,11 +150,11 @@
         }
     ],
     "wof:id":404494843,
-    "wof:lastmodified":1605055962,
+    "wof:lastmodified":1722117835,
     "wof:name":"Osceola",
     "wof:parent_id":102081307,
     "wof:placetype":"localadmin",
-    "wof:population":2855,
+    "wof:population":3098,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

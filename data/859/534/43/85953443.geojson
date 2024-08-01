@@ -157,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2631283,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -173,17 +174,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"45520",
     "uscensus:placens":"02395224",
+    "uscensus:population":345,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":334.0,
     "wd:latitude":48.355556,
     "wd:longitude":-96.33,
     "wd:wordcount":919,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404513843,
         85633793,
-        102087695
+        102087695,
+        404513843,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -192,10 +195,11 @@
         "gn:id":5039202,
         "gp:id":2459444,
         "qs_pg:id":932873,
-        "uscensus:geoid":2745520,
+        "uscensus:geoid":"2745520",
         "wd:id":"Q2228100",
         "wk:page":"Newfolden, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -216,11 +220,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690881617,
+    "wof:lastmodified":1722115935,
     "wof:name":"Newfolden",
     "wof:parent_id":404513843,
     "wof:placetype":"locality",
-    "wof:population":368,
+    "wof:population":345,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

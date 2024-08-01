@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01107,
-    "geom:area_square_m":98405680.055174,
+    "geom:area_square_m":98405680.055231,
     "geom:bbox":"-83.927199,43.978056,-83.743381,44.084205",
     "geom:latitude":44.035986,
     "geom:longitude":-83.860117,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.036484,
     "lbl:longitude":-83.896853,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":2601103360,
     "uscensus:name":"Arenac",
     "uscensus:namelsad":"Arenac township",
+    "uscensus:population":872,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2601103360
+        "uscensus:geoid":"2601103360"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470461
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404506859,
-    "wof:lastmodified":1605055753,
+    "wof:lastmodified":1722117910,
     "wof:name":"Arenac Township",
     "wof:parent_id":102083015,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":903,
+    "wof:population":872,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

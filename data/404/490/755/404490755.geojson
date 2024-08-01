@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000311,
-    "geom:area_square_m":2675020.301171,
+    "geom:area_square_m":2675020.301175,
     "geom:bbox":"-102.172311,45.931299,-102.145514,45.944737",
     "geom:latitude":45.938495,
     "geom:longitude":-102.158926,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.938868,
     "lbl:longitude":-102.15893,
     "lbl:max_zoom":16.0,
@@ -61,11 +67,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":4610536340,
     "uscensus:name":"Lemmon",
     "uscensus:namelsad":"Lemmon city",
+    "uscensus:population":1156,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -75,8 +84,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4610536340
+        "uscensus:geoid":"4610536340"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -92,11 +102,11 @@
         }
     ],
     "wof:id":404490755,
-    "wof:lastmodified":1605055506,
+    "wof:lastmodified":1722117809,
     "wof:name":"Lemmon",
     "wof:parent_id":102086801,
     "wof:placetype":"localadmin",
-    "wof:population":1227,
+    "wof:population":1156,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

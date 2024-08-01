@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014116,
-    "geom:area_square_m":130104686.639122,
+    "geom:area_square_m":130104686.639124,
     "geom:bbox":"-77.179586,41.758943,-77.020836,41.856119",
     "geom:latitude":41.809063,
     "geom:longitude":-77.101576,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.805777,
     "lbl:longitude":-77.135024,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":117,
     "uscensus:geoid":4211764624,
     "uscensus:name":"Richmond",
     "uscensus:namelsad":"Richmond township",
+    "uscensus:population":2137,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4211764624
+        "uscensus:geoid":"4211764624"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465517
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404487457,
-    "wof:lastmodified":1605055894,
+    "wof:lastmodified":1722117787,
     "wof:name":"Richmond Township",
     "wof:parent_id":102080937,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2396,
+    "wof:population":2137,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

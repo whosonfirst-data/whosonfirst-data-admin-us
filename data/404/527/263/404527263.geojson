@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.016975,
-    "geom:area_square_m":148543551.906315,
+    "geom:area_square_m":148543551.906305,
     "geom:bbox":"-72.24674,44.864724,-72.052169,45.006369",
     "geom:latitude":44.951163,
     "geom:longitude":-72.136872,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.959794,
     "lbl:longitude":-72.128988,
     "lbl:max_zoom":15.0,
@@ -269,22 +275,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":5001917350,
     "uscensus:name":"Derby",
     "uscensus:namelsad":"Derby town",
+    "uscensus:population":4485,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688763,
-        102087443
+        102087443,
+        85688763
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5001917350
+        "uscensus:geoid":"5001917350"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -300,11 +310,11 @@
         }
     ],
     "wof:id":404527263,
-    "wof:lastmodified":1636499339,
+    "wof:lastmodified":1722233691,
     "wof:name":"Derby",
     "wof:parent_id":102087443,
     "wof:placetype":"localadmin",
-    "wof:population":4621,
+    "wof:population":4485,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

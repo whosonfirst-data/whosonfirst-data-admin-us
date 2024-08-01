@@ -10,6 +10,12 @@
     "geom:latitude":46.941107,
     "geom:longitude":-100.812161,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "unorganized territory"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.939613,
     "lbl:longitude":-100.812156,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":3801511045,
     "uscensus:name":"Burnt Creek-Riverview",
     "uscensus:namelsad":"Burnt Creek-Riverview UT",
+    "uscensus:population":2550,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3801511045
+        "uscensus:geoid":"3801511045"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476073
     ],
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404480375,
-    "wof:lastmodified":1605055919,
+    "wof:lastmodified":1722117744,
     "wof:name":"Burnt Creek-Riverview",
     "wof:parent_id":102082107,
     "wof:placetype":"localadmin",
-    "wof:population":2254,
+    "wof:population":2550,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005318,
-    "geom:area_square_m":50793212.996691,
+    "geom:area_square_m":50793212.996685,
     "geom:bbox":"-85.169474,39.396604,-85.092276,39.468967",
     "geom:latitude":39.433057,
     "geom:longitude":-85.131218,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.433235,
     "lbl:longitude":-85.131229,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":47,
     "uscensus:geoid":1804748564,
     "uscensus:name":"Metamora",
     "uscensus:namelsad":"Metamora township",
+    "uscensus:population":935,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1804748564
+        "uscensus:geoid":"1804748564"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404500711,
-    "wof:lastmodified":1604530787,
+    "wof:lastmodified":1722117867,
     "wof:name":"Metamora Township",
     "wof:parent_id":102086385,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":974,
+    "wof:population":935,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

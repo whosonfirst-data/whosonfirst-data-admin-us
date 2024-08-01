@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009554,
-    "geom:area_square_m":92375436.095523,
+    "geom:area_square_m":92375436.095511,
     "geom:bbox":"-98.811889,38.521538,-98.701203,38.609276",
     "geom:latitude":38.565562,
     "geom:longitude":-98.756414,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.565231,
     "lbl:longitude":-98.755668,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":2000951200,
     "uscensus:name":"North Homestead",
     "uscensus:namelsad":"North Homestead township",
+    "uscensus:population":104,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2000951200
+        "uscensus:geoid":"2000951200"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469341
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404503843,
-    "wof:lastmodified":1605055318,
+    "wof:lastmodified":1722117889,
     "wof:name":"North Homestead Township",
     "wof:parent_id":102083449,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":111,
+    "wof:population":104,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

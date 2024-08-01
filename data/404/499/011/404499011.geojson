@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003833,
-    "geom:area_square_m":35995685.064697,
+    "geom:area_square_m":35995685.06468,
     "geom:bbox":"-89.678856,40.552461,-89.607241,40.660765",
     "geom:latitude":40.590582,
     "geom:longitude":-89.630841,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.590141,
     "lbl:longitude":-89.631378,
     "lbl:max_zoom":14.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":179,
     "uscensus:geoid":1717958460,
     "uscensus:name":"Pekin",
     "uscensus:namelsad":"Pekin township",
+    "uscensus:population":26963,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1717958460
+        "uscensus:geoid":"1717958460"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404499011,
-    "wof:lastmodified":1605055548,
+    "wof:lastmodified":1722233644,
     "wof:name":"Pekin Township",
     "wof:parent_id":102083515,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":29807,
+    "wof:population":26963,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

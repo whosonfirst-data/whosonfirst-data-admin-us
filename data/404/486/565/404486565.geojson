@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002756,
-    "geom:area_square_m":26109954.320101,
+    "geom:area_square_m":26109954.320109,
     "geom:bbox":"-75.453771,39.95891,-75.372338,40.027434",
     "geom:latitude":39.992026,
     "geom:longitude":-75.410648,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.992142,
     "lbl:longitude":-75.410642,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":4204554224,
     "uscensus:name":"Newtown",
     "uscensus:namelsad":"Newtown township",
+    "uscensus:population":15271,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4204554224
+        "uscensus:geoid":"4204554224"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460715
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404486565,
-    "wof:lastmodified":1605055870,
+    "wof:lastmodified":1722117781,
     "wof:name":"Newtown Township",
     "wof:parent_id":102080913,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":12216,
+    "wof:population":15271,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

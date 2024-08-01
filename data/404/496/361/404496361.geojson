@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00937,
-    "geom:area_square_m":88174211.197085,
+    "geom:area_square_m":88174211.197046,
     "geom:bbox":"-88.041223,40.399048,-87.931712,40.488672",
     "geom:latitude":40.443101,
     "geom:longitude":-87.987368,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.442391,
     "lbl:longitude":-87.987364,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":53,
     "uscensus:geoid":1705310214,
     "uscensus:name":"Button",
     "uscensus:namelsad":"Button township",
+    "uscensus:population":233,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1705310214
+        "uscensus:geoid":"1705310214"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475195
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404496361,
-    "wof:lastmodified":1605055601,
+    "wof:lastmodified":1722117843,
     "wof:name":"Button Township",
     "wof:parent_id":102082859,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":281,
+    "wof:population":233,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

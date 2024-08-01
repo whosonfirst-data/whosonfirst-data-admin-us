@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.023244,
-    "geom:area_square_m":226812769.615856,
+    "geom:area_square_m":226812769.615871,
     "geom:bbox":"-96.525712,37.825054,-96.306139,37.9562",
     "geom:latitude":37.89376,
     "geom:longitude":-96.434891,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.890616,
     "lbl:longitude":-96.434891,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":73,
     "uscensus:geoid":2007366925,
     "uscensus:name":"South Salem",
     "uscensus:namelsad":"South Salem township",
+    "uscensus:population":92,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2007366925
+        "uscensus:geoid":"2007366925"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470649
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404503957,
-    "wof:lastmodified":1605055322,
+    "wof:lastmodified":1722117889,
     "wof:name":"South Salem Township",
     "wof:parent_id":102084205,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":95,
+    "wof:population":92,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

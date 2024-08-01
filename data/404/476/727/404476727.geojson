@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01471,
-    "geom:area_square_m":132420565.242547,
+    "geom:area_square_m":132420565.242541,
     "geom:bbox":"-71.247336,43.203598,-71.054381,43.355123",
     "geom:latitude":43.280277,
     "geom:longitude":-71.148736,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.280904,
     "lbl:longitude":-71.148732,
     "lbl:max_zoom":15.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":3301773860,
     "uscensus:name":"Strafford",
     "uscensus:namelsad":"Strafford town",
+    "uscensus:population":4333,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":33,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3301773860
+        "uscensus:geoid":"3301773860"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466007
     ],
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404476727,
-    "wof:lastmodified":1605055412,
+    "wof:lastmodified":1722117717,
     "wof:name":"Strafford",
     "wof:parent_id":102085609,
     "wof:placetype":"localadmin",
-    "wof:population":3991,
+    "wof:population":4333,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

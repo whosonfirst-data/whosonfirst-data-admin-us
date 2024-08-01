@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010571,
-    "geom:area_square_m":91319022.578512,
+    "geom:area_square_m":91319022.578525,
     "geom:bbox":"-92.155273,45.639742,-92.031228,45.725732",
     "geom:latitude":45.682785,
     "geom:longitude":-92.093308,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.682878,
     "lbl:longitude":-92.093366,
     "lbl:max_zoom":18.0,
@@ -163,11 +169,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":5501369325,
     "uscensus:name":"Roosevelt",
     "uscensus:namelsad":"Roosevelt town",
+    "uscensus:population":203,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -177,8 +186,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5501369325
+        "uscensus:geoid":"5501369325"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471363
     ],
@@ -197,12 +207,12 @@
         }
     ],
     "wof:id":404491555,
-    "wof:lastmodified":1605055584,
+    "wof:lastmodified":1722117814,
     "wof:name":"Roosevelt",
     "wof:parent_id":102081835,
     "wof:placetype":"localadmin",
-    "wof:population":199,
-    "wof:population_rank":1,
+    "wof:population":203,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

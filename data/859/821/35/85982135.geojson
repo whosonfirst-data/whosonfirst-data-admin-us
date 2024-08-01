@@ -136,7 +136,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":3869057,
     "uscensus:awater":33022,
     "uscensus:classfp":"C5",
@@ -152,13 +153,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"39460",
     "uscensus:placens":"01036097",
+    "uscensus:population":327,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wof:belongsto":[
-        85688525,
         102191575,
-        404482153,
         85633793,
-        102082073
+        102082073,
+        404482153,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -167,9 +170,10 @@
         "gn:id":5059765,
         "gp:id":2425653,
         "qs_pg:id":156455,
-        "uscensus:geoid":3839460,
+        "uscensus:geoid":"3839460",
         "wd:id":"Q2447189"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -190,11 +194,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882553,
+    "wof:lastmodified":1722115990,
     "wof:name":"Hunter",
     "wof:parent_id":404482153,
     "wof:placetype":"locality",
-    "wof:population":261,
+    "wof:population":327,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

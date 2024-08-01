@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011039,
-    "geom:area_square_m":92140639.292432,
+    "geom:area_square_m":92140639.292471,
     "geom:bbox":"-99.010578,47.500398,-98.8832,47.587534",
     "geom:latitude":47.543916,
     "geom:longitude":-98.946984,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.54395,
     "lbl:longitude":-98.946983,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":3803157380,
     "uscensus:name":"Nordmore",
     "uscensus:namelsad":"Nordmore township",
+    "uscensus:population":75,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3803157380
+        "uscensus:geoid":"3803157380"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474077
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404481131,
-    "wof:lastmodified":1605055829,
+    "wof:lastmodified":1722117749,
     "wof:name":"Nordmore Township",
     "wof:parent_id":102082089,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":65,
+    "wof:population":75,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

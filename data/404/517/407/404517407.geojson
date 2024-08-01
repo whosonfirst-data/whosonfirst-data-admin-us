@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012641,
-    "geom:area_square_m":119866874.871021,
+    "geom:area_square_m":119866874.870958,
     "geom:bbox":"-93.141818,39.880052,-92.990622,39.973039",
     "geom:latitude":39.928344,
     "geom:longitude":-93.06903,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.928907,
     "lbl:longitude":-93.068973,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":2911528612,
     "uscensus:name":"Grantsville",
     "uscensus:namelsad":"Grantsville township",
+    "uscensus:population":258,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":29,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2911528612
+        "uscensus:geoid":"2911528612"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457241
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404517407,
-    "wof:lastmodified":1604969420,
+    "wof:lastmodified":1722117976,
     "wof:name":"Grantsville Township",
     "wof:parent_id":102085269,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":257,
+    "wof:population":258,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

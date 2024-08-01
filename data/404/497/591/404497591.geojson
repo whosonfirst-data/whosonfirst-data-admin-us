@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013254,
-    "geom:area_square_m":122551823.075326,
+    "geom:area_square_m":122551823.075467,
     "geom:bbox":"-87.67975,41.557205,-87.524997,41.648675",
     "geom:latitude":41.601635,
     "geom:longitude":-87.601187,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.601073,
     "lbl:longitude":-87.601195,
     "lbl:max_zoom":14.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":1703175198,
     "uscensus:name":"Thornton",
     "uscensus:namelsad":"Thornton township",
+    "uscensus:population":150526,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1703175198
+        "uscensus:geoid":"1703175198"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404497591,
-    "wof:lastmodified":1605055496,
+    "wof:lastmodified":1722233638,
     "wof:name":"Thornton Township",
     "wof:parent_id":102084317,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":169326,
+    "wof:population":150526,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

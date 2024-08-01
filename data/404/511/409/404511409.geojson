@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011169,
-    "geom:area_square_m":93225327.275791,
+    "geom:area_square_m":93225327.275775,
     "geom:bbox":"-94.545538,47.498138,-94.41428,47.586491",
     "geom:latitude":47.542535,
     "geom:longitude":-94.479672,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.542382,
     "lbl:longitude":-94.479658,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":2700743936,
     "uscensus:name":"Moose Lake",
     "uscensus:namelsad":"Moose Lake township",
+    "uscensus:population":248,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2700743936
+        "uscensus:geoid":"2700743936"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461021
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404511409,
-    "wof:lastmodified":1605055719,
+    "wof:lastmodified":1722117943,
     "wof:name":"Moose Lake Township",
     "wof:parent_id":102087773,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":226,
+    "wof:population":248,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

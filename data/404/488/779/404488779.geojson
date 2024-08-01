@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010438,
-    "geom:area_square_m":92464759.801197,
+    "geom:area_square_m":92464759.801143,
     "geom:bbox":"-97.008871,44.195662,-96.888337,44.282824",
     "geom:latitude":44.239248,
     "geom:longitude":-96.948622,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.239253,
     "lbl:longitude":-96.948622,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":4601147860,
     "uscensus:name":"Oslo",
     "uscensus:namelsad":"Oslo township",
+    "uscensus:population":220,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4601147860
+        "uscensus:geoid":"4601147860"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467345
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404488779,
-    "wof:lastmodified":1605055809,
+    "wof:lastmodified":1722117796,
     "wof:name":"Oslo Township",
     "wof:parent_id":102086013,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":202,
+    "wof:population":220,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

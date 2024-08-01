@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003495,
-    "geom:area_square_m":32626992.955771,
+    "geom:area_square_m":32626992.955791,
     "geom:bbox":"-79.690001,40.957071,-79.581238,41.005922",
     "geom:latitude":40.984233,
     "geom:longitude":-79.647882,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.983203,
     "lbl:longitude":-79.647887,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":4200508152,
     "uscensus:name":"Bradys Bend",
     "uscensus:namelsad":"Bradys Bend township",
+    "uscensus:population":766,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200508152
+        "uscensus:geoid":"4200508152"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460869
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404482549,
-    "wof:lastmodified":1605055389,
+    "wof:lastmodified":1722117757,
     "wof:name":"Bradys Bend Township",
     "wof:parent_id":102081371,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":773,
+    "wof:population":766,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

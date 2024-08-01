@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007981,
-    "geom:area_square_m":73365826.251919,
+    "geom:area_square_m":73365826.251887,
     "geom:bbox":"-71.054184,41.929671,-70.899185,42.010999",
     "geom:latitude":41.97283,
     "geom:longitude":-70.974875,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.974862,
     "lbl:longitude":-70.973398,
     "lbl:max_zoom":14.0,
@@ -103,11 +109,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":2502308130,
     "uscensus:name":"Bridgewater Town",
     "uscensus:namelsad":"Bridgewater Town city",
+    "uscensus:population":28818,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -117,8 +126,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2502308130
+        "uscensus:geoid":"2502308130"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -134,11 +144,11 @@
         }
     ],
     "wof:id":404476501,
-    "wof:lastmodified":1605055402,
+    "wof:lastmodified":1722117715,
     "wof:name":"Bridgewater",
     "wof:parent_id":102084367,
     "wof:placetype":"localadmin",
-    "wof:population":26563,
+    "wof:population":28818,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

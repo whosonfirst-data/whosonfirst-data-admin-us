@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006655,
-    "geom:area_square_m":59662979.513419,
+    "geom:area_square_m":59662979.513436,
     "geom:bbox":"-90.789958,43.494989,-90.669866,43.553005",
     "geom:latitude":43.524459,
     "geom:longitude":-90.731585,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.524018,
     "lbl:longitude":-90.731594,
     "lbl:max_zoom":17.0,
@@ -265,11 +271,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":123,
     "uscensus:geoid":5512343900,
     "uscensus:name":"Liberty",
     "uscensus:namelsad":"Liberty town",
+    "uscensus:population":363,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -279,8 +288,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5512343900
+        "uscensus:geoid":"5512343900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467505
     ],
@@ -299,11 +309,11 @@
         }
     ],
     "wof:id":404494113,
-    "wof:lastmodified":1605055976,
+    "wof:lastmodified":1722117830,
     "wof:name":"Liberty",
     "wof:parent_id":102081733,
     "wof:placetype":"localadmin",
-    "wof:population":252,
+    "wof:population":363,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005989,
-    "geom:area_square_m":55921985.026849,
+    "geom:area_square_m":55921985.026845,
     "geom:bbox":"-86.169144,40.931208,-86.075912,40.997284",
     "geom:latitude":40.964021,
     "geom:longitude":-86.122551,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.963913,
     "lbl:longitude":-86.122553,
     "lbl:max_zoom":17.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":103,
     "uscensus:geoid":1810301018,
     "uscensus:name":"Allen",
     "uscensus:namelsad":"Allen township",
+    "uscensus:population":602,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1810301018
+        "uscensus:geoid":"1810301018"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404500241,
-    "wof:lastmodified":1604530781,
+    "wof:lastmodified":1722233648,
     "wof:name":"Allen Township",
     "wof:parent_id":102087079,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":695,
+    "wof:population":602,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

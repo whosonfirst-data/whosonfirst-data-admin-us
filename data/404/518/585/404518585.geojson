@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009966,
-    "geom:area_square_m":92635491.00215,
+    "geom:area_square_m":92635491.002171,
     "geom:bbox":"-97.02366,41.219983,-96.908473,41.307227",
     "geom:latitude":41.263622,
     "geom:longitude":-96.966157,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.263579,
     "lbl:longitude":-96.966157,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":3102345540,
     "uscensus:name":"Skull Creek",
     "uscensus:namelsad":"Skull Creek township",
+    "uscensus:population":253,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3102345540
+        "uscensus:geoid":"3102345540"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404518585,
-    "wof:lastmodified":1605055693,
+    "wof:lastmodified":1722233671,
     "wof:name":"Skull Creek Township",
     "wof:parent_id":102082839,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":271,
+    "wof:population":253,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009108,
-    "geom:area_square_m":78919944.359893,
+    "geom:area_square_m":78919944.359916,
     "geom:bbox":"-92.816821,45.46962,-92.682474,45.568478",
     "geom:latitude":45.511705,
     "geom:longitude":-92.76621,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.514788,
     "lbl:longitude":-92.771646,
     "lbl:max_zoom":17.0,
@@ -44,11 +50,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":2702501306,
     "uscensus:name":"Amador",
     "uscensus:namelsad":"Amador township",
+    "uscensus:population":864,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     "wof:concordances":{
         "gp:id":26793495,
         "qs_pg:id":272307,
-        "uscensus:geoid":2702501306
+        "uscensus:geoid":"2702501306"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459517
     ],
@@ -81,12 +91,12 @@
         }
     ],
     "wof:id":404511105,
-    "wof:lastmodified":1605055714,
+    "wof:lastmodified":1722117941,
     "wof:name":"Amador Township",
     "wof:parent_id":102086987,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":885,
+    "wof:population":864,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

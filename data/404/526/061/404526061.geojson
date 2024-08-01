@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004143,
-    "geom:area_square_m":38651086.766022,
+    "geom:area_square_m":38651086.766025,
     "geom:bbox":"-81.49248,40.988351,-81.393212,41.066689",
     "geom:latitude":41.013202,
     "geom:longitude":-81.436862,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.003802,
     "lbl:longitude":-81.45621,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":153,
     "uscensus:geoid":3915374130,
     "uscensus:name":"Springfield",
     "uscensus:namelsad":"Springfield township",
+    "uscensus:population":14108,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3915374130
+        "uscensus:geoid":"3915374130"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404526061,
-    "wof:lastmodified":1605055656,
+    "wof:lastmodified":1722118020,
     "wof:name":"Springfield Township",
     "wof:parent_id":102084807,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":14644,
+    "wof:population":14108,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

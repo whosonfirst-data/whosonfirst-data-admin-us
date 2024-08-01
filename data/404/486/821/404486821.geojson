@@ -10,6 +10,12 @@
     "geom:latitude":41.462176,
     "geom:longitude":-75.547831,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.464203,
     "lbl:longitude":-75.550211,
     "lbl:max_zoom":15.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":69,
     "uscensus:geoid":4206938160,
     "uscensus:name":"Jessup",
     "uscensus:namelsad":"Jessup borough",
+    "uscensus:population":4488,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206938160
+        "uscensus:geoid":"4206938160"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404486821,
-    "wof:lastmodified":1605055861,
+    "wof:lastmodified":1722117783,
     "wof:name":"Jessup",
     "wof:parent_id":102081345,
     "wof:placetype":"localadmin",
-    "wof:population":4676,
+    "wof:population":4488,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

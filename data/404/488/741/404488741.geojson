@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010548,
-    "geom:area_square_m":92888628.111147,
+    "geom:area_square_m":92888628.111188,
     "geom:bbox":"-98.220669,44.545142,-98.099027,44.632448",
     "geom:latitude":44.58883,
     "geom:longitude":-98.159768,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.588826,
     "lbl:longitude":-98.159768,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":4600535140,
     "uscensus:name":"Lake Byron",
     "uscensus:namelsad":"Lake Byron township",
+    "uscensus:population":123,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4600535140
+        "uscensus:geoid":"4600535140"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467359
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404488741,
-    "wof:lastmodified":1605055809,
+    "wof:lastmodified":1722117796,
     "wof:name":"Lake Byron Township",
     "wof:parent_id":102086841,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":182,
+    "wof:population":123,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

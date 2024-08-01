@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01102,
-    "geom:area_square_m":100210665.495818,
+    "geom:area_square_m":100210665.495855,
     "geom:bbox":"-76.908013,42.627567,-76.671717,42.684557",
     "geom:latitude":42.655961,
     "geom:longitude":-76.789692,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.655413,
     "lbl:longitude":-76.789695,
     "lbl:max_zoom":15.0,
@@ -337,11 +343,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":3609955827,
     "uscensus:name":"Ovid",
     "uscensus:namelsad":"Ovid town",
+    "uscensus:population":2786,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -351,8 +360,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3609955827
+        "uscensus:geoid":"3609955827"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -368,11 +378,11 @@
         }
     ],
     "wof:id":404522571,
-    "wof:lastmodified":1605056081,
+    "wof:lastmodified":1722233676,
     "wof:name":"Ovid",
     "wof:parent_id":102081757,
     "wof:placetype":"localadmin",
-    "wof:population":2311,
+    "wof:population":2786,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

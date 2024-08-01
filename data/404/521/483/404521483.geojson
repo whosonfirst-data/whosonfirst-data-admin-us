@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003119,
-    "geom:area_square_m":28189310.377525,
+    "geom:area_square_m":28189310.377528,
     "geom:bbox":"-78.906266,43.018863,-78.825366,43.073825",
     "geom:latitude":43.04572,
     "geom:longitude":-78.865913,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.045633,
     "lbl:longitude":-78.865919,
     "lbl:max_zoom":14.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":63,
     "uscensus:geoid":3606353682,
     "uscensus:name":"North Tonawanda",
     "uscensus:namelsad":"North Tonawanda city",
+    "uscensus:population":30031,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3606353682
+        "uscensus:geoid":"3606353682"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404521483,
-    "wof:lastmodified":1605055627,
+    "wof:lastmodified":1722117986,
     "wof:name":"North Tonawanda",
     "wof:parent_id":102081767,
     "wof:placetype":"localadmin",
-    "wof:population":31568,
+    "wof:population":30031,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002289,
-    "geom:area_square_m":21068106.974321,
+    "geom:area_square_m":21068106.974341,
     "geom:bbox":"-84.089184,41.874877,-84.009851,41.925732",
     "geom:latitude":41.899338,
     "geom:longitude":-84.044611,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.900686,
     "lbl:longitude":-84.044043,
     "lbl:max_zoom":14.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":91,
     "uscensus:geoid":2609100440,
     "uscensus:name":"Adrian",
     "uscensus:namelsad":"Adrian city",
+    "uscensus:population":20238,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2609100440
+        "uscensus:geoid":"2609100440"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404508341,
-    "wof:lastmodified":1605055739,
+    "wof:lastmodified":1722117921,
     "wof:name":"Adrian",
     "wof:parent_id":102083099,
     "wof:placetype":"localadmin",
-    "wof:population":21133,
+    "wof:population":20238,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

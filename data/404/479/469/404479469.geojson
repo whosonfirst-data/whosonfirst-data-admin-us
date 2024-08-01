@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010703,
-    "geom:area_square_m":91532756.140618,
+    "geom:area_square_m":91532756.140612,
     "geom:bbox":"-98.006993,46.196457,-97.881302,46.282626",
     "geom:latitude":46.239543,
     "geom:longitude":-97.944605,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.239535,
     "lbl:longitude":-97.944609,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":81,
     "uscensus:geoid":3808119180,
     "uscensus:name":"Denver",
     "uscensus:namelsad":"Denver township",
+    "uscensus:population":62,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3808119180
+        "uscensus:geoid":"3808119180"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729454083
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404479469,
-    "wof:lastmodified":1605055481,
+    "wof:lastmodified":1722117738,
     "wof:name":"Denver Township",
     "wof:parent_id":102082115,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":57,
+    "wof:population":62,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

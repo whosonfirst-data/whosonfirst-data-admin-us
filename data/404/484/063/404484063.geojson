@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000089,
-    "geom:area_square_m":817281.159305,
+    "geom:area_square_m":817281.159307,
     "geom:bbox":"-75.753694,41.968474,-75.737445,41.979463",
     "geom:latitude":41.973402,
     "geom:longitude":-75.745851,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.973473,
     "lbl:longitude":-75.745728,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":4211530728,
     "uscensus:name":"Great Bend",
     "uscensus:namelsad":"Great Bend borough",
+    "uscensus:population":623,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4211530728
+        "uscensus:geoid":"4211530728"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404484063,
-    "wof:lastmodified":1605055458,
+    "wof:lastmodified":1722117766,
     "wof:name":"Great Bend",
     "wof:parent_id":102081381,
     "wof:placetype":"localadmin",
-    "wof:population":734,
+    "wof:population":623,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

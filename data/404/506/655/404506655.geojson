@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010291,
-    "geom:area_square_m":91352936.750035,
+    "geom:area_square_m":91352936.750053,
     "geom:bbox":"-84.608104,44.074383,-84.486261,44.160654",
     "geom:latitude":44.117833,
     "geom:longitude":-84.546752,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.117819,
     "lbl:longitude":-84.546743,
     "lbl:max_zoom":16.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":2605173140,
     "uscensus:name":"Sherman",
     "uscensus:namelsad":"Sherman township",
+    "uscensus:population":1022,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2605173140
+        "uscensus:geoid":"2605173140"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473033
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404506655,
-    "wof:lastmodified":1605055762,
+    "wof:lastmodified":1722117909,
     "wof:name":"Sherman Township",
     "wof:parent_id":102083025,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1043,
+    "wof:population":1022,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010806,
-    "geom:area_square_m":92841606.442733,
+    "geom:area_square_m":92841606.442685,
     "geom:bbox":"-103.618606,45.944944,-103.493796,46.032219",
     "geom:latitude":45.988687,
     "geom:longitude":-103.556219,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.988616,
     "lbl:longitude":-103.556235,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":3801132460,
     "uscensus:name":"Grand River",
     "uscensus:namelsad":"Grand River township",
+    "uscensus:population":13,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3801132460
+        "uscensus:geoid":"3801132460"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475377
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404478767,
-    "wof:lastmodified":1605055344,
+    "wof:lastmodified":1722117732,
     "wof:name":"Grand River Township",
     "wof:parent_id":102081521,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":12,
+    "wof:population":13,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

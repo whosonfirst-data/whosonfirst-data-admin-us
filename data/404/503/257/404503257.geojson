@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014641,
-    "geom:area_square_m":140034483.304435,
+    "geom:area_square_m":140034483.304383,
     "geom:bbox":"-100.833652,39.263411,-100.720646,39.394322",
     "geom:latitude":39.328773,
     "geom:longitude":-100.777054,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.328914,
     "lbl:longitude":-100.777055,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":193,
     "uscensus:geoid":2019345775,
     "uscensus:name":"Menlo",
     "uscensus:namelsad":"Menlo township",
+    "uscensus:population":65,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2019345775
+        "uscensus:geoid":"2019345775"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404503257,
-    "wof:lastmodified":1605055318,
+    "wof:lastmodified":1722233659,
     "wof:name":"Menlo Township",
     "wof:parent_id":102082669,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":95,
+    "wof:population":65,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001036,
-    "geom:area_square_m":9340508.830604,
+    "geom:area_square_m":9340508.830599,
     "geom:bbox":"-91.047954,43.147099,-91.001608,43.176495",
     "geom:latitude":43.162196,
     "geom:longitude":-91.025349,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "village"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.161744,
     "lbl:longitude":-91.025796,
     "lbl:max_zoom":17.0,
@@ -91,11 +97,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":5502321900,
     "uscensus:name":"Eastman",
     "uscensus:namelsad":"Eastman village",
+    "uscensus:population":341,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -105,8 +114,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5502321900
+        "uscensus:geoid":"5502321900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -122,11 +132,11 @@
         }
     ],
     "wof:id":404493229,
-    "wof:lastmodified":1605055941,
+    "wof:lastmodified":1722117824,
     "wof:name":"Eastman",
     "wof:parent_id":102081315,
     "wof:placetype":"localadmin",
-    "wof:population":428,
+    "wof:population":341,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

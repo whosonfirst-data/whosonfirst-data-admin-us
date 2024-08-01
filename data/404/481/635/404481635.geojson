@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010681,
-    "geom:area_square_m":91350505.961594,
+    "geom:area_square_m":91350505.961598,
     "geom:bbox":"-97.010968,46.196354,-96.885405,46.282389",
     "geom:latitude":46.239238,
     "geom:longitude":-96.947945,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.239344,
     "lbl:longitude":-96.948208,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":77,
     "uscensus:geoid":3807704980,
     "uscensus:name":"Barney",
     "uscensus:namelsad":"Barney township",
+    "uscensus:population":115,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3807704980
+        "uscensus:geoid":"3807704980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472701
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404481635,
-    "wof:lastmodified":1605055825,
+    "wof:lastmodified":1722117752,
     "wof:name":"Barney Township",
     "wof:parent_id":102082103,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":134,
+    "wof:population":115,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

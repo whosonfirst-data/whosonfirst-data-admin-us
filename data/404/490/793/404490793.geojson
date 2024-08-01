@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004815,
-    "geom:area_square_m":41410220.501784,
+    "geom:area_square_m":41410220.501775,
     "geom:bbox":"-102.445607,45.905939,-102.320648,45.945038",
     "geom:latitude":45.925596,
     "geom:longitude":-102.383177,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.925609,
     "lbl:longitude":-102.383176,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":4610571060,
     "uscensus:name":"White Butte",
     "uscensus:namelsad":"White Butte township",
+    "uscensus:population":20,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4610571060
+        "uscensus:geoid":"4610571060"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461459
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404490793,
-    "wof:lastmodified":1605055517,
+    "wof:lastmodified":1722117809,
     "wof:name":"White Butte Township",
     "wof:parent_id":102086801,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":19,
+    "wof:population":20,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009884,
-    "geom:area_square_m":96433557.502126,
+    "geom:area_square_m":96433557.502091,
     "geom:bbox":"-89.264234,37.861645,-89.150662,37.950486",
     "geom:latitude":37.906243,
     "geom:longitude":-89.206884,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.906276,
     "lbl:longitude":-89.206879,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":77,
     "uscensus:geoid":1707723217,
     "uscensus:name":"Elk",
     "uscensus:namelsad":"Elk township",
+    "uscensus:population":1718,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1707723217
+        "uscensus:geoid":"1707723217"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404498219,
-    "wof:lastmodified":1605055559,
+    "wof:lastmodified":1722233641,
     "wof:name":"Elk Township",
     "wof:parent_id":102082841,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1907,
+    "wof:population":1718,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

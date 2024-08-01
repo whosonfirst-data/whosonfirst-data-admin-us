@@ -141,7 +141,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":848378,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -157,6 +158,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"06148",
     "uscensus:placens":"02394182",
+    "uscensus:population":178,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"29",
     "wd:elevation":192.0,
     "wd:latitude":38.9794,
@@ -164,11 +167,11 @@
     "wd:population":162,
     "wd:wordcount":822,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404516753,
         85633793,
-        102087533
+        102087533,
+        404516753,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -177,10 +180,11 @@
         "gn:id":4377400,
         "gp:id":2365078,
         "qs_pg:id":153458,
-        "uscensus:geoid":2906148,
+        "uscensus:geoid":"2906148",
         "wd:id":"Q952998",
         "wk:page":"Blackwater, Missouri"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -201,11 +205,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690881606,
+    "wof:lastmodified":1722115934,
     "wof:name":"Blackwater",
     "wof:parent_id":404516753,
     "wof:placetype":"locality",
-    "wof:population":162,
+    "wof:population":178,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

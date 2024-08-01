@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011398,
-    "geom:area_square_m":99724832.665175,
+    "geom:area_square_m":99724832.665189,
     "geom:bbox":"-69.20852,44.91077,-69.062387,45.017387",
     "geom:latitude":44.964389,
     "geom:longitude":-69.135499,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.964027,
     "lbl:longitude":-69.135499,
     "lbl:max_zoom":16.0,
@@ -250,11 +256,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":2301924110,
     "uscensus:name":"Exeter",
     "uscensus:namelsad":"Exeter town",
+    "uscensus:population":986,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
@@ -264,8 +273,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2301924110
+        "uscensus:geoid":"2301924110"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468387
     ],
@@ -284,12 +294,12 @@
         }
     ],
     "wof:id":404474721,
-    "wof:lastmodified":1605055904,
+    "wof:lastmodified":1722117702,
     "wof:name":"Exeter",
     "wof:parent_id":102080723,
     "wof:placetype":"localadmin",
-    "wof:population":1092,
-    "wof:population_rank":3,
+    "wof:population":986,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

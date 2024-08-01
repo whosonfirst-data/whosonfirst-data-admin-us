@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010969,
-    "geom:area_square_m":98024868.906676,
+    "geom:area_square_m":98024868.906641,
     "geom:bbox":"-92.089476,43.67352,-91.949548,43.767726",
     "geom:latitude":43.720918,
     "geom:longitude":-92.025889,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.720639,
     "lbl:longitude":-92.027256,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":2704510090,
     "uscensus:name":"Carrolton",
     "uscensus:namelsad":"Carrolton township",
+    "uscensus:population":383,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2704510090
+        "uscensus:geoid":"2704510090"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729454921
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404514121,
-    "wof:lastmodified":1605056021,
+    "wof:lastmodified":1722117963,
     "wof:name":"Carrolton Township",
     "wof:parent_id":102086997,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":314,
+    "wof:population":383,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

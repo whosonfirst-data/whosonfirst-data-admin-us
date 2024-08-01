@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010053,
-    "geom:area_square_m":91954621.308361,
+    "geom:area_square_m":91954621.308392,
     "geom:bbox":"-85.415004,42.245305,-85.296996,42.332908",
     "geom:latitude":42.289244,
     "geom:longitude":-85.355189,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.289177,
     "lbl:longitude":-85.355196,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":77,
     "uscensus:geoid":2607714720,
     "uscensus:name":"Charleston",
     "uscensus:namelsad":"Charleston township",
+    "uscensus:population":1891,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2607714720
+        "uscensus:geoid":"2607714720"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404507805,
-    "wof:lastmodified":1605055773,
+    "wof:lastmodified":1722233667,
     "wof:name":"Charleston Township",
     "wof:parent_id":102083671,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1975,
+    "wof:population":1891,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010998,
-    "geom:area_square_m":92555192.238106,
+    "geom:area_square_m":92555192.238084,
     "geom:bbox":"-99.101078,47.06625,-98.974245,47.153454",
     "geom:latitude":47.109899,
     "geom:longitude":-99.037692,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.109907,
     "lbl:longitude":-99.037692,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":93,
     "uscensus:geoid":3809368740,
     "uscensus:name":"Round Top",
     "uscensus:namelsad":"Round Top township",
+    "uscensus:population":11,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3809368740
+        "uscensus:geoid":"3809368740"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478545
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404479759,
-    "wof:lastmodified":1605055479,
+    "wof:lastmodified":1722117740,
     "wof:name":"Round Top Township",
     "wof:parent_id":102082093,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":9,
+    "wof:population":11,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

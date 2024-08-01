@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013898,
-    "geom:area_square_m":123837968.234786,
+    "geom:area_square_m":123837968.234741,
     "geom:bbox":"-72.173584,43.837944,-71.963769,43.957381",
     "geom:latitude":43.895557,
     "geom:longitude":-72.066649,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.897178,
     "lbl:longitude":-72.06666,
     "lbl:max_zoom":16.0,
@@ -70,11 +76,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":3300958500,
     "uscensus:name":"Orford",
     "uscensus:namelsad":"Orford town",
+    "uscensus:population":1245,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":33,
     "wof:belongsto":[
         102191575,
@@ -84,8 +93,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3300958500
+        "uscensus:geoid":"3300958500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468321
     ],
@@ -104,11 +114,11 @@
         }
     ],
     "wof:id":404477115,
-    "wof:lastmodified":1605055433,
+    "wof:lastmodified":1722117720,
     "wof:name":"Orford",
     "wof:parent_id":102086567,
     "wof:placetype":"localadmin",
-    "wof:population":1237,
+    "wof:population":1245,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

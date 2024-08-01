@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010979,
-    "geom:area_square_m":97418649.568041,
+    "geom:area_square_m":97418649.568065,
     "geom:bbox":"-75.793833,44.087041,-75.615735,44.206253",
     "geom:latitude":44.14637,
     "geom:longitude":-75.705294,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.146711,
     "lbl:longitude":-75.705307,
     "lbl:max_zoom":16.0,
@@ -475,11 +481,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":3604557562,
     "uscensus:name":"Philadelphia",
     "uscensus:namelsad":"Philadelphia town",
+    "uscensus:population":1945,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -489,8 +498,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3604557562
+        "uscensus:geoid":"3604557562"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -506,11 +516,11 @@
         }
     ],
     "wof:id":404521203,
-    "wof:lastmodified":1605055629,
+    "wof:lastmodified":1722233673,
     "wof:name":"Philadelphia",
     "wof:parent_id":102082357,
     "wof:placetype":"localadmin",
-    "wof:population":1947,
+    "wof:population":1945,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

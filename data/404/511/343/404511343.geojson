@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010977,
-    "geom:area_square_m":92532070.797398,
+    "geom:area_square_m":92532070.797405,
     "geom:bbox":"-95.424209,46.977308,-95.296608,47.064605",
     "geom:latitude":47.020938,
     "geom:longitude":-95.360442,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.020886,
     "lbl:longitude":-95.360449,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":2700551244,
     "uscensus:name":"Pine Point",
     "uscensus:namelsad":"Pine Point township",
+    "uscensus:population":346,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2700551244
+        "uscensus:geoid":"2700551244"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404511343,
-    "wof:lastmodified":1605055732,
+    "wof:lastmodified":1722117943,
     "wof:name":"Pine Point Township",
     "wof:parent_id":102087001,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":400,
+    "wof:population":346,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -10,6 +10,12 @@
     "geom:latitude":46.871603,
     "geom:longitude":-99.627096,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.871461,
     "lbl:longitude":-99.627096,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":43,
     "uscensus:geoid":3804377980,
     "uscensus:name":"Tappen",
     "uscensus:namelsad":"Tappen city",
+    "uscensus:population":211,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3804377980
+        "uscensus:geoid":"3804377980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404480769,
-    "wof:lastmodified":1605055913,
+    "wof:lastmodified":1722117746,
     "wof:name":"Tappen",
     "wof:parent_id":102082547,
     "wof:placetype":"localadmin",
-    "wof:population":197,
-    "wof:population_rank":1,
+    "wof:population":211,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

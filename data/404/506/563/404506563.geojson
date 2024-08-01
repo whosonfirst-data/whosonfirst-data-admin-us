@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010703,
-    "geom:area_square_m":94161061.444326,
+    "geom:area_square_m":94161061.444322,
     "geom:bbox":"-85.817741,44.599489,-85.695776,44.689043",
     "geom:latitude":44.644065,
     "geom:longitude":-85.757106,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.644022,
     "lbl:longitude":-85.757108,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":55,
     "uscensus:geoid":2605534960,
     "uscensus:name":"Green Lake",
     "uscensus:namelsad":"Green Lake township",
+    "uscensus:population":6763,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2605534960
+        "uscensus:geoid":"2605534960"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404506563,
-    "wof:lastmodified":1605055759,
+    "wof:lastmodified":1722117908,
     "wof:name":"Green Lake Township",
     "wof:parent_id":102083133,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":5784,
+    "wof:population":6763,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

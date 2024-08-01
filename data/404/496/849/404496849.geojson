@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009999,
-    "geom:area_square_m":93166324.361447,
+    "geom:area_square_m":93166324.361461,
     "geom:bbox":"-89.754041,41.061337,-89.638456,41.148545",
     "geom:latitude":41.104701,
     "geom:longitude":-89.696083,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.104688,
     "lbl:longitude":-89.696053,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":175,
     "uscensus:geoid":1717558603,
     "uscensus:name":"Penn",
     "uscensus:namelsad":"Penn township",
+    "uscensus:population":304,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1717558603
+        "uscensus:geoid":"1717558603"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475783
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404496849,
-    "wof:lastmodified":1605055604,
+    "wof:lastmodified":1722117845,
     "wof:name":"Penn Township",
     "wof:parent_id":102083523,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":354,
+    "wof:population":304,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

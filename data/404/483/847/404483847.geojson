@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000087,
-    "geom:area_square_m":813718.758451,
+    "geom:area_square_m":813718.75845,
     "geom:bbox":"-76.562877,40.584781,-76.542124,40.592273",
     "geom:latitude":40.588434,
     "geom:longitude":-76.553074,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.587766,
     "lbl:longitude":-76.552917,
     "lbl:max_zoom":16.0,
@@ -67,11 +73,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":107,
     "uscensus:geoid":4210777184,
     "uscensus:name":"Tower City",
     "uscensus:namelsad":"Tower City borough",
+    "uscensus:population":1429,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -81,8 +90,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4210777184
+        "uscensus:geoid":"4210777184"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -98,11 +108,11 @@
         }
     ],
     "wof:id":404483847,
-    "wof:lastmodified":1605055446,
+    "wof:lastmodified":1722117765,
     "wof:name":"Tower City",
     "wof:parent_id":102081271,
     "wof:placetype":"localadmin",
-    "wof:population":1346,
+    "wof:population":1429,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

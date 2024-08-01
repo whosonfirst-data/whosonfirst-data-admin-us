@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014032,
-    "geom:area_square_m":123200813.766084,
+    "geom:area_square_m":123200813.766033,
     "geom:bbox":"-74.780798,44.68624,-74.604572,44.815154",
     "geom:latitude":44.758625,
     "geom:longitude":-74.676714,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.757674,
     "lbl:longitude":-74.669574,
     "lbl:max_zoom":16.0,
@@ -124,11 +130,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":89,
     "uscensus:geoid":3608941564,
     "uscensus:name":"Lawrence",
     "uscensus:namelsad":"Lawrence town",
+    "uscensus:population":1742,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -138,8 +147,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3608941564
+        "uscensus:geoid":"3608941564"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472717
     ],
@@ -158,11 +168,11 @@
         }
     ],
     "wof:id":404523123,
-    "wof:lastmodified":1605056099,
+    "wof:lastmodified":1722117998,
     "wof:name":"Lawrence",
     "wof:parent_id":102082379,
     "wof:placetype":"localadmin",
-    "wof:population":1826,
+    "wof:population":1742,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

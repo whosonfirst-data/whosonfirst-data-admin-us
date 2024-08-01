@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012831,
-    "geom:area_square_m":112483952.94322,
+    "geom:area_square_m":112483952.943224,
     "geom:bbox":"-96.602392,44.804643,-96.45144,44.890098",
     "geom:latitude":44.847401,
     "geom:longitude":-96.526999,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.847485,
     "lbl:longitude":-96.527003,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":39,
     "uscensus:geoid":4603924700,
     "uscensus:name":"Glenwood",
     "uscensus:namelsad":"Glenwood township",
+    "uscensus:population":111,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4603924700
+        "uscensus:geoid":"4603924700"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729455063
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404489823,
-    "wof:lastmodified":1605055932,
+    "wof:lastmodified":1722117803,
     "wof:name":"Glenwood Township",
     "wof:parent_id":102086025,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":105,
+    "wof:population":111,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

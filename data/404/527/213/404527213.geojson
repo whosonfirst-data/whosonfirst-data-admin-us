@@ -10,6 +10,12 @@
     "geom:latitude":44.166405,
     "geom:longitude":-73.255528,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.166458,
     "lbl:longitude":-73.255528,
     "lbl:max_zoom":15.0,
@@ -70,11 +76,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":5000174650,
     "uscensus:name":"Vergennes",
     "uscensus:namelsad":"Vergennes city",
+    "uscensus:population":2566,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -84,8 +93,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5000174650
+        "uscensus:geoid":"5000174650"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -101,11 +111,11 @@
         }
     ],
     "wof:id":404527213,
-    "wof:lastmodified":1605055683,
+    "wof:lastmodified":1722118029,
     "wof:name":"Vergennes",
     "wof:parent_id":102080765,
     "wof:placetype":"localadmin",
-    "wof:population":2588,
+    "wof:population":2566,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

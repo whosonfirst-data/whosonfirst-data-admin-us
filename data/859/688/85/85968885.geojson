@@ -165,7 +165,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1645480,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -181,17 +182,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"61402",
     "uscensus:placens":"02395915",
+    "uscensus:population":183,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":338.0,
     "wd:latitude":45.2925,
     "wd:longitude":-94.211944,
     "wd:wordcount":872,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404510767,
         85633793,
-        102087815
+        102087815,
+        404510767,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -200,10 +203,11 @@
         "gn:id":5047970,
         "gp:id":2496316,
         "qs_pg:id":188508,
-        "uscensus:geoid":2761402,
+        "uscensus:geoid":"2761402",
         "wd:id":"Q930568",
         "wk:page":"South Haven, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -224,11 +228,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882277,
+    "wof:lastmodified":1722115974,
     "wof:name":"South Haven",
     "wof:parent_id":404510767,
     "wof:placetype":"locality",
-    "wof:population":187,
+    "wof:population":183,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

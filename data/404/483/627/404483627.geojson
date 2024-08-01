@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000242,
-    "geom:area_square_m":2285568.73704,
+    "geom:area_square_m":2285568.737039,
     "geom:bbox":"-75.329076,40.061791,-75.305614,40.080249",
     "geom:latitude":40.07026,
     "geom:longitude":-75.318841,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.069872,
     "lbl:longitude":-75.319995,
     "lbl:max_zoom":16.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":91,
     "uscensus:geoid":4209182736,
     "uscensus:name":"West Conshohocken",
     "uscensus:namelsad":"West Conshohocken borough",
+    "uscensus:population":1495,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4209182736
+        "uscensus:geoid":"4209182736"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404483627,
-    "wof:lastmodified":1605055439,
+    "wof:lastmodified":1722117763,
     "wof:name":"West Conshohocken",
     "wof:parent_id":102081355,
     "wof:placetype":"localadmin",
-    "wof:population":1320,
+    "wof:population":1495,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

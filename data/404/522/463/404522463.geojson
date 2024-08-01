@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010219,
-    "geom:area_square_m":92283825.263071,
+    "geom:area_square_m":92283825.263055,
     "geom:bbox":"-78.23451,43.04418,-78.115462,43.132398",
     "geom:latitude":43.088494,
     "geom:longitude":-78.173973,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.088351,
     "lbl:longitude":-78.173973,
     "lbl:max_zoom":15.0,
@@ -241,11 +247,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":37,
     "uscensus:geoid":3603723756,
     "uscensus:name":"Elba",
     "uscensus:namelsad":"Elba town",
+    "uscensus:population":2128,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -255,8 +264,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3603723756
+        "uscensus:geoid":"3603723756"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -272,11 +282,11 @@
         }
     ],
     "wof:id":404522463,
-    "wof:lastmodified":1605056070,
+    "wof:lastmodified":1722233676,
     "wof:name":"Elba",
     "wof:parent_id":102083105,
     "wof:placetype":"localadmin",
-    "wof:population":2370,
+    "wof:population":2128,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

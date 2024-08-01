@@ -9,7 +9,11 @@
     "geom:bbox":"-86.480167,42.092528,-86.411372,42.141495",
     "geom:latitude":42.115884,
     "geom:longitude":-86.448705,
+    "gn:country":"US",
+    "gn:fcode":"PPL",
+    "gn:population":10038,
     "iso:country":"US",
+    "lbl:bbox":"-86.47419,42.09671,-86.43419,42.13671",
     "lbl:latitude":42.111161,
     "lbl:longitude":-86.45104,
     "lbl:max_zoom":15.0,
@@ -19,6 +23,7 @@
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":7.0,
+    "mz:note":"Quattroshapes Point Gazetteer import 20170519",
     "name:ara_x_preferred":[
         "\u0628\u064a\u0646\u062a\u0648\u0646 \u0647\u0627\u0631\u0628\u0648\u0631"
     ],
@@ -295,13 +300,34 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
+    "qs_pg:aaroncc":"US",
+    "qs_pg:gn_country":"US",
+    "qs_pg:gn_fcode":"PPL",
+    "qs_pg:gn_id":4985711,
+    "qs_pg:gn_pop":10038,
+    "qs_pg:name":"Benton Harbor",
+    "qs_pg:name_adm0":"United States",
+    "qs_pg:name_adm1":"Michigan",
+    "qs_pg:photos":3759,
+    "qs_pg:photos_1k":762,
+    "qs_pg:photos_9k":17,
+    "qs_pg:photos_9r":12,
+    "qs_pg:photos_all":3759,
+    "qs_pg:photos_sr":21,
+    "qs_pg:pop_sr":8,
+    "qs_pg:qs_id":814034,
+    "qs_pg:qs_pg_placetype":"locality",
+    "qs_pg:qs_pg_placetype_gp":"Town",
+    "qs_pg:woe_adm0":23424977,
+    "qs_pg:woe_id":2362797,
     "src:geom":"uscensus",
     "src:geom_alt":[
         "quattroshapes_pg",
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":11346710,
     "uscensus:awater":650156,
     "uscensus:classfp":"C5",
@@ -317,18 +343,24 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"07520",
     "uscensus:placens":"01625919",
+    "uscensus:population":8875,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"26",
     "wd:elevation":180.0,
     "wd:latitude":42.116667,
     "wd:longitude":-86.454167,
     "wd:population":10038,
     "wd:wordcount":2701,
+    "woe:adm0_id":23424977,
+    "woe:name_adm0":"United States",
+    "woe:name_adm1":"Michigan",
+    "woe:placetype":"Town",
     "wof:belongsto":[
-        85688599,
         102191575,
-        404506977,
         85633793,
-        102083151
+        102083151,
+        404506977,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -337,13 +369,25 @@
         "gn:id":4985719,
         "gp:id":28744224,
         "qs_pg:id":43638,
-        "uscensus:geoid":2607520,
+        "uscensus:geoid":"2607520",
         "wd:id":"Q818338",
         "wk:page":"Benton Harbor, Michigan"
     },
     "wof:concordances_alt":{
-        "qs_pg:id":814034
+        "gn:id":[
+            4985711
+        ],
+        "gp:id":[
+            2362797
+        ],
+        "qs_pg:id":[
+            814034
+        ],
+        "wd:id":[
+            "Q818338"
+        ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -364,18 +408,19 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690886492,
+    "wof:lastmodified":1722116399,
     "wof:megacity":0,
     "wof:name":"Benton Harbor",
     "wof:parent_id":404506977,
     "wof:placetype":"locality",
-    "wof:population":10038,
-    "wof:population_rank":6,
+    "wof:population":8875,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:scale":8,
     "wof:superseded_by":[],
     "wof:supersedes":[
-        1125290585
+        1125290585,
+        1126051979
     ],
     "wof:tags":[]
 },

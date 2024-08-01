@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01002,
-    "geom:area_square_m":97931208.351515,
+    "geom:area_square_m":97931208.351635,
     "geom:bbox":"-98.137035,37.732821,-98.027326,37.825019",
     "geom:latitude":37.779001,
     "geom:longitude":-98.082218,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.778953,
     "lbl:longitude":-98.082217,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":155,
     "uscensus:geoid":2015561150,
     "uscensus:name":"Roscoe",
     "uscensus:namelsad":"Roscoe township",
+    "uscensus:population":116,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2015561150
+        "uscensus:geoid":"2015561150"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404505503,
-    "wof:lastmodified":1605055279,
+    "wof:lastmodified":1722233664,
     "wof:name":"Roscoe Township",
     "wof:parent_id":102082171,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":105,
+    "wof:population":116,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

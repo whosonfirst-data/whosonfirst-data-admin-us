@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007692,
-    "geom:area_square_m":74292673.968564,
+    "geom:area_square_m":74292673.968618,
     "geom:bbox":"-86.384188,38.586243,-86.307725,38.68852",
     "geom:latitude":38.637337,
     "geom:longitude":-86.345741,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.637495,
     "lbl:longitude":-86.345745,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":117,
     "uscensus:geoid":1811754648,
     "uscensus:name":"Northeast",
     "uscensus:namelsad":"Northeast township",
+    "uscensus:population":509,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1811754648
+        "uscensus:geoid":"1811754648"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729477527
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404500287,
-    "wof:lastmodified":1604969675,
+    "wof:lastmodified":1722117865,
     "wof:name":"Northeast Township",
     "wof:parent_id":102087163,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":549,
+    "wof:population":509,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

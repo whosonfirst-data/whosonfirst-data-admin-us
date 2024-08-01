@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001601,
-    "geom:area_square_m":14307067.223504,
+    "geom:area_square_m":14307067.223495,
     "geom:bbox":"-87.87038,43.703056,-87.800124,43.750307",
     "geom:latitude":43.729032,
     "geom:longitude":-87.826604,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.732134,
     "lbl:longitude":-87.811933,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":117,
     "uscensus:geoid":5511773025,
     "uscensus:name":"Sheboygan Falls",
     "uscensus:namelsad":"Sheboygan Falls city",
+    "uscensus:population":8187,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5511773025
+        "uscensus:geoid":"5511773025"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404494565,
-    "wof:lastmodified":1605055969,
+    "wof:lastmodified":1722117833,
     "wof:name":"Sheboygan Falls",
     "wof:parent_id":102081869,
     "wof:placetype":"localadmin",
-    "wof:population":7775,
+    "wof:population":8187,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

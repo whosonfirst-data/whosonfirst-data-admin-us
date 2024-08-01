@@ -10,6 +10,12 @@
     "geom:latitude":42.969041,
     "geom:longitude":-90.427267,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "village"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.969618,
     "lbl:longitude":-90.427038,
     "lbl:max_zoom":18.0,
@@ -109,11 +115,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":5504953950,
     "uscensus:name":"Montfort",
     "uscensus:namelsad":"Montfort village",
+    "uscensus:population":73,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -123,8 +132,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5504953950
+        "uscensus:geoid":"5504953950"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -140,11 +150,11 @@
         }
     ],
     "wof:id":404491879,
-    "wof:lastmodified":1605055585,
+    "wof:lastmodified":1722117816,
     "wof:name":"Montfort",
     "wof:parent_id":102081277,
     "wof:placetype":"localadmin",
-    "wof:population":96,
+    "wof:population":73,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009476,
-    "geom:area_square_m":85446362.764077,
+    "geom:area_square_m":85446362.764069,
     "geom:bbox":"-75.226973,43.114769,-75.069165,43.24835",
     "geom:latitude":43.180211,
     "geom:longitude":-75.149046,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.18091,
     "lbl:longitude":-75.149045,
     "lbl:max_zoom":15.0,
@@ -88,11 +94,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":65,
     "uscensus:geoid":3606519928,
     "uscensus:name":"Deerfield",
     "uscensus:namelsad":"Deerfield town",
+    "uscensus:population":3913,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -102,8 +111,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3606519928
+        "uscensus:geoid":"3606519928"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468667
     ],
@@ -122,11 +132,11 @@
         }
     ],
     "wof:id":404522771,
-    "wof:lastmodified":1605056072,
+    "wof:lastmodified":1722117996,
     "wof:name":"Deerfield",
     "wof:parent_id":102083149,
     "wof:placetype":"localadmin",
-    "wof:population":4273,
+    "wof:population":3913,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

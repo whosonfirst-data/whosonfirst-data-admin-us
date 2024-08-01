@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00201,
-    "geom:area_square_m":18323930.277051,
+    "geom:area_square_m":18323930.277059,
     "geom:bbox":"-83.126375,42.475929,-83.084523,42.534792",
     "geom:latitude":42.507268,
     "geom:longitude":-83.103353,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.508849,
     "lbl:longitude":-83.101649,
     "lbl:max_zoom":14.0,
@@ -58,11 +64,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":2612550560,
     "uscensus:name":"Madison Heights",
     "uscensus:namelsad":"Madison Heights city",
+    "uscensus:population":28238,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -72,8 +81,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2612550560
+        "uscensus:geoid":"2612550560"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -89,11 +99,11 @@
         }
     ],
     "wof:id":404508209,
-    "wof:lastmodified":1605055745,
+    "wof:lastmodified":1722117920,
     "wof:name":"Madison Heights",
     "wof:parent_id":102083713,
     "wof:placetype":"localadmin",
-    "wof:population":29694,
+    "wof:population":28238,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

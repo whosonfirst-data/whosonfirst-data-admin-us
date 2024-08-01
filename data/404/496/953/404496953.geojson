@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012741,
-    "geom:area_square_m":123426177.431352,
+    "geom:area_square_m":123426177.431441,
     "geom:bbox":"-90.145575,38.323537,-90.03589,38.484663",
     "geom:latitude":38.423052,
     "geom:longitude":-90.083877,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.42313,
     "lbl:longitude":-90.083886,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":163,
     "uscensus:geoid":1716349399,
     "uscensus:name":"Millstadt",
     "uscensus:namelsad":"Millstadt township",
+    "uscensus:population":6524,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1716349399
+        "uscensus:geoid":"1716349399"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404496953,
-    "wof:lastmodified":1605055593,
+    "wof:lastmodified":1722233636,
     "wof:name":"Millstadt Township",
     "wof:parent_id":102084321,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":6718,
+    "wof:population":6524,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

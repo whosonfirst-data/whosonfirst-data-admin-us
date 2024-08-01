@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0004,
-    "geom:area_square_m":3762924.622518,
+    "geom:area_square_m":3762924.622508,
     "geom:bbox":"-74.217026,40.422612,-74.183605,40.447476",
     "geom:latitude":40.43273,
     "geom:longitude":-74.201193,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.431407,
     "lbl:longitude":-74.201446,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":3402536810,
     "uscensus:name":"Keyport",
     "uscensus:namelsad":"Keyport borough",
+    "uscensus:population":7099,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3402536810
+        "uscensus:geoid":"3402536810"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,11 +93,11 @@
         }
     ],
     "wof:id":404478357,
-    "wof:lastmodified":1605055344,
+    "wof:lastmodified":1722117729,
     "wof:name":"Keyport",
     "wof:parent_id":102085049,
     "wof:placetype":"localadmin",
-    "wof:population":7240,
+    "wof:population":7099,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010166,
-    "geom:area_square_m":93123305.065269,
+    "geom:area_square_m":93123305.065283,
     "geom:bbox":"-88.588998,42.15359,-88.47191,42.240709",
     "geom:latitude":42.197194,
     "geom:longitude":-88.530442,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.197186,
     "lbl:longitude":-88.530445,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":111,
     "uscensus:geoid":1711116314,
     "uscensus:name":"Coral",
     "uscensus:namelsad":"Coral township",
+    "uscensus:population":3642,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1711116314
+        "uscensus:geoid":"1711116314"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404496663,
-    "wof:lastmodified":1605055605,
+    "wof:lastmodified":1722233635,
     "wof:name":"Coral Township",
     "wof:parent_id":102081661,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3552,
+    "wof:population":3642,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

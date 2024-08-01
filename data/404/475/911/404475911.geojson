@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007814,
-    "geom:area_square_m":71163643.875157,
+    "geom:area_square_m":71163643.875149,
     "geom:bbox":"-73.212108,42.510933,-73.080486,42.606072",
     "geom:latitude":42.56385,
     "geom:longitude":-73.151205,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.568159,
     "lbl:longitude":-73.157772,
     "lbl:max_zoom":15.0,
@@ -235,11 +241,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":2500313345,
     "uscensus:name":"Cheshire",
     "uscensus:namelsad":"Cheshire town",
+    "uscensus:population":3195,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -249,8 +258,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2500313345
+        "uscensus:geoid":"2500313345"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -266,11 +276,11 @@
         }
     ],
     "wof:id":404475911,
-    "wof:lastmodified":1605055855,
+    "wof:lastmodified":1722117711,
     "wof:name":"Cheshire",
     "wof:parent_id":102084369,
     "wof:placetype":"localadmin",
-    "wof:population":3235,
+    "wof:population":3195,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

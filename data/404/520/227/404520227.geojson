@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00805,
-    "geom:area_square_m":74703306.051839,
+    "geom:area_square_m":74703306.051805,
     "geom:bbox":"-98.061178,41.305795,-97.944437,41.409201",
     "geom:latitude":41.371048,
     "geom:longitude":-98.009731,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.371613,
     "lbl:longitude":-98.022729,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":3112517845,
     "uscensus:name":"Fullerton",
     "uscensus:namelsad":"Fullerton township",
+    "uscensus:population":116,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3112517845
+        "uscensus:geoid":"3112517845"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729477627
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404520227,
-    "wof:lastmodified":1605055697,
+    "wof:lastmodified":1722117982,
     "wof:name":"Fullerton Township",
     "wof:parent_id":102083487,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":150,
+    "wof:population":116,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01076,
-    "geom:area_square_m":94622348.495422,
+    "geom:area_square_m":94622348.495487,
     "geom:bbox":"-67.892057,44.62221,-67.743893,44.734795",
     "geom:latitude":44.670094,
     "geom:longitude":-67.814502,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.670475,
     "lbl:longitude":-67.814496,
     "lbl:max_zoom":17.0,
@@ -199,22 +205,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":2302913750,
     "uscensus:name":"Columbia",
     "uscensus:namelsad":"Columbia town",
+    "uscensus:population":439,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688769,
-        102081143
+        102081143,
+        85688769
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2302913750
+        "uscensus:geoid":"2302913750"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458005
     ],
@@ -233,11 +243,11 @@
         }
     ],
     "wof:id":404475317,
-    "wof:lastmodified":1636499380,
+    "wof:lastmodified":1722117707,
     "wof:name":"Columbia",
     "wof:parent_id":102081143,
     "wof:placetype":"localadmin",
-    "wof:population":486,
+    "wof:population":439,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

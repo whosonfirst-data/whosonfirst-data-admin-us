@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010389,
-    "geom:area_square_m":92910041.916852,
+    "geom:area_square_m":92910041.916903,
     "geom:bbox":"-88.401795,43.630142,-88.280131,43.718428",
     "geom:latitude":43.674102,
     "geom:longitude":-88.340492,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.668762,
     "lbl:longitude":-88.321539,
     "lbl:max_zoom":16.0,
@@ -121,11 +127,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":39,
     "uscensus:geoid":5503922500,
     "uscensus:name":"Eden",
     "uscensus:namelsad":"Eden town",
+    "uscensus:population":1022,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -135,8 +144,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5503922500
+        "uscensus:geoid":"5503922500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460761
     ],
@@ -155,11 +165,11 @@
         }
     ],
     "wof:id":404493613,
-    "wof:lastmodified":1605055951,
+    "wof:lastmodified":1722117827,
     "wof:name":"Eden",
     "wof:parent_id":102081759,
     "wof:placetype":"localadmin",
-    "wof:population":1028,
+    "wof:population":1022,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

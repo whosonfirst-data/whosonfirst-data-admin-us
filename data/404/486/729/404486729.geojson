@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014326,
-    "geom:area_square_m":133224174.380633,
+    "geom:area_square_m":133224174.380626,
     "geom:bbox":"-79.059522,41.1664,-78.888685,41.299569",
     "geom:latitude":41.22977,
     "geom:longitude":-78.986545,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.22586,
     "lbl:longitude":-78.979656,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":65,
     "uscensus:geoid":4206581120,
     "uscensus:name":"Warsaw",
     "uscensus:namelsad":"Warsaw township",
+    "uscensus:population":1340,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206581120
+        "uscensus:geoid":"4206581120"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462123
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404486729,
-    "wof:lastmodified":1605055877,
+    "wof:lastmodified":1722117782,
     "wof:name":"Warsaw Township",
     "wof:parent_id":102083883,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1424,
+    "wof:population":1340,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

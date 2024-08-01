@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01031,
-    "geom:area_square_m":91196820.257564,
+    "geom:area_square_m":91196820.257613,
     "geom:bbox":"-98.45842,44.283649,-98.335948,44.370658",
     "geom:latitude":44.32818,
     "geom:longitude":-98.396217,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.327156,
     "lbl:longitude":-98.387242,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":4600515740,
     "uscensus:name":"Dearborn",
     "uscensus:namelsad":"Dearborn township",
+    "uscensus:population":99,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4600515740
+        "uscensus:geoid":"4600515740"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467479
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404488733,
-    "wof:lastmodified":1605055810,
+    "wof:lastmodified":1722117796,
     "wof:name":"Dearborn Township",
     "wof:parent_id":102086841,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":123,
+    "wof:population":99,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

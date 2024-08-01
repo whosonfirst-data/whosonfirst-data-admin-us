@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000033,
-    "geom:area_square_m":287756.460265,
+    "geom:area_square_m":287756.460267,
     "geom:bbox":"-99.553274,45.994068,-99.543387,45.999644",
     "geom:latitude":45.997076,
     "geom:longitude":-99.5478,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.997373,
     "lbl:longitude":-99.549377,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":3805181700,
     "uscensus:name":"Venturia",
     "uscensus:namelsad":"Venturia city",
+    "uscensus:population":20,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3805181700
+        "uscensus:geoid":"3805181700"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,11 +93,11 @@
         }
     ],
     "wof:id":404479141,
-    "wof:lastmodified":1605055484,
+    "wof:lastmodified":1722117735,
     "wof:name":"Venturia",
     "wof:parent_id":102082061,
     "wof:placetype":"localadmin",
-    "wof:population":10,
+    "wof:population":20,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

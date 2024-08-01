@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002245,
-    "geom:area_square_m":20257283.878116,
+    "geom:area_square_m":20257283.878149,
     "geom:bbox":"-88.264014,43.106691,-88.185098,43.162814",
     "geom:latitude":43.134061,
     "geom:longitude":-88.223166,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "village"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.130234,
     "lbl:longitude":-88.223996,
     "lbl:max_zoom":15.0,
@@ -169,11 +175,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":133,
     "uscensus:geoid":5513378750,
     "uscensus:name":"Sussex",
     "uscensus:namelsad":"Sussex village",
+    "uscensus:population":12162,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -183,8 +192,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5513378750
+        "uscensus:geoid":"5513378750"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -200,11 +210,11 @@
         }
     ],
     "wof:id":404495677,
-    "wof:lastmodified":1605055991,
+    "wof:lastmodified":1722117841,
     "wof:name":"Sussex",
     "wof:parent_id":102081741,
     "wof:placetype":"localadmin",
-    "wof:population":10518,
+    "wof:population":12162,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

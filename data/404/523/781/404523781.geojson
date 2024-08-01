@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006847,
-    "geom:area_square_m":64743535.496233,
+    "geom:area_square_m":64743535.496263,
     "geom:bbox":"-81.720279,40.076187,-81.623593,40.152166",
     "geom:latitude":40.114217,
     "geom:longitude":-81.67178,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.114264,
     "lbl:longitude":-81.671779,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":59,
     "uscensus:geoid":3905940838,
     "uscensus:name":"Knox",
     "uscensus:namelsad":"Knox township",
+    "uscensus:population":523,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3905940838
+        "uscensus:geoid":"3905940838"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472737
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404523781,
-    "wof:lastmodified":1605056099,
+    "wof:lastmodified":1722118003,
     "wof:name":"Knox Township",
     "wof:parent_id":102084783,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":566,
+    "wof:population":523,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

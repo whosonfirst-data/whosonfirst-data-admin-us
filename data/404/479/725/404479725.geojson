@@ -10,6 +10,12 @@
     "geom:latitude":47.062599,
     "geom:longitude":-98.829018,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.062534,
     "lbl:longitude":-98.82897,
     "lbl:max_zoom":18.0,
@@ -130,22 +136,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":93,
     "uscensus:geoid":3809310060,
     "uscensus:name":"Buchanan",
     "uscensus:namelsad":"Buchanan city",
+    "uscensus:population":84,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688525,
-        102082093
+        102082093,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3809310060
+        "uscensus:geoid":"3809310060"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -161,11 +171,11 @@
         }
     ],
     "wof:id":404479725,
-    "wof:lastmodified":1636499302,
+    "wof:lastmodified":1722117739,
     "wof:name":"Buchanan",
     "wof:parent_id":102082093,
     "wof:placetype":"localadmin",
-    "wof:population":90,
+    "wof:population":84,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

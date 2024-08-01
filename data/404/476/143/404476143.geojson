@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003334,
-    "geom:area_square_m":30760208.181386,
+    "geom:area_square_m":30760208.181341,
     "geom:bbox":"-71.208292,41.681909,-71.114489,41.791064",
     "geom:latitude":41.740453,
     "geom:longitude":-71.161192,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.726787,
     "lbl:longitude":-71.173671,
     "lbl:max_zoom":15.0,
@@ -235,11 +241,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":2500562430,
     "uscensus:name":"Somerset",
     "uscensus:namelsad":"Somerset town",
+    "uscensus:population":18209,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -249,8 +258,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2500562430
+        "uscensus:geoid":"2500562430"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -266,11 +276,11 @@
         }
     ],
     "wof:id":404476143,
-    "wof:lastmodified":1605055401,
+    "wof:lastmodified":1722117712,
     "wof:name":"Somerset",
     "wof:parent_id":102084407,
     "wof:placetype":"localadmin",
-    "wof:population":18165,
+    "wof:population":18209,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

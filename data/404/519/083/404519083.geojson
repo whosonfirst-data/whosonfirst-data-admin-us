@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00984,
-    "geom:area_square_m":93144898.225779,
+    "geom:area_square_m":93144898.225793,
     "geom:bbox":"-96.689972,40.000873,-96.576497,40.088364",
     "geom:latitude":40.044686,
     "geom:longitude":-96.633201,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.044766,
     "lbl:longitude":-96.633203,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":67,
     "uscensus:geoid":3106703110,
     "uscensus:name":"Barneston",
     "uscensus:namelsad":"Barneston township",
+    "uscensus:population":168,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3106703110
+        "uscensus:geoid":"3106703110"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404519083,
-    "wof:lastmodified":1605055663,
+    "wof:lastmodified":1722233671,
     "wof:name":"Barneston Township",
     "wof:parent_id":102083491,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":182,
+    "wof:population":168,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

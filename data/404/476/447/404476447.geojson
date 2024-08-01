@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005099,
-    "geom:area_square_m":46537578.833463,
+    "geom:area_square_m":46537578.833475,
     "geom:bbox":"-71.5591,42.390025,-71.464349,42.466452",
     "geom:latitude":42.429831,
     "geom:longitude":-71.51148,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.43107,
     "lbl:longitude":-71.511486,
     "lbl:max_zoom":15.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":2501768050,
     "uscensus:name":"Stow",
     "uscensus:namelsad":"Stow town",
+    "uscensus:population":7088,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2501768050
+        "uscensus:geoid":"2501768050"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462177
     ],
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404476447,
-    "wof:lastmodified":1605055394,
+    "wof:lastmodified":1722117715,
     "wof:name":"Stow",
     "wof:parent_id":102084643,
     "wof:placetype":"localadmin",
-    "wof:population":6590,
+    "wof:population":7088,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

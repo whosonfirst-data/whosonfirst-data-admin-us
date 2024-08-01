@@ -160,7 +160,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":4550340,
     "uscensus:awater":898,
     "uscensus:classfp":"C5",
@@ -176,6 +177,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"11548",
     "uscensus:placens":"00663803",
+    "uscensus:population":1360,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":322.0,
     "wd:latitude":44.955,
@@ -183,11 +186,11 @@
     "wd:population":1360,
     "wd:wordcount":918,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404511779,
         85633793,
-        102087793
+        102087793,
+        404511779,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -196,10 +199,11 @@
         "gn:id":5021351,
         "gp:id":2380601,
         "qs_pg:id":185450,
-        "uscensus:geoid":2711548,
+        "uscensus:geoid":"2711548",
         "wd:id":"Q2334009",
         "wk:page":"Clara City, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -220,7 +224,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882069,
+    "wof:lastmodified":1722115961,
     "wof:name":"Clara City",
     "wof:parent_id":404511779,
     "wof:placetype":"locality",

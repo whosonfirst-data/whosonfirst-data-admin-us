@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008915,
-    "geom:area_square_m":81850391.262104,
+    "geom:area_square_m":81850391.262009,
     "geom:bbox":"-72.838942,41.997685,-72.705989,42.102218",
     "geom:latitude":42.05441,
     "geom:longitude":-72.778554,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.055032,
     "lbl:longitude":-72.783924,
     "lbl:max_zoom":15.0,
@@ -61,11 +67,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":2501365825,
     "uscensus:name":"Southwick",
     "uscensus:namelsad":"Southwick town",
+    "uscensus:population":9195,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -75,8 +84,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2501365825
+        "uscensus:geoid":"2501365825"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464069
     ],
@@ -95,11 +105,11 @@
         }
     ],
     "wof:id":404476367,
-    "wof:lastmodified":1605055403,
+    "wof:lastmodified":1722117714,
     "wof:name":"Southwick",
     "wof:parent_id":102084627,
     "wof:placetype":"localadmin",
-    "wof:population":9502,
+    "wof:population":9195,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

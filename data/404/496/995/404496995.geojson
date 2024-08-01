@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007335,
-    "geom:area_square_m":70172006.752288,
+    "geom:area_square_m":70172006.752256,
     "geom:bbox":"-88.806353,39.280868,-88.694193,39.347754",
     "geom:latitude":39.314184,
     "geom:longitude":-88.75032,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.314275,
     "lbl:longitude":-88.750344,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":173,
     "uscensus:geoid":1717314637,
     "uscensus:name":"Clarksburg",
     "uscensus:namelsad":"Clarksburg township",
+    "uscensus:population":355,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1717314637
+        "uscensus:geoid":"1717314637"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475233
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404496995,
-    "wof:lastmodified":1605055601,
+    "wof:lastmodified":1722117846,
     "wof:name":"Clarksburg Township",
     "wof:parent_id":102083519,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":401,
+    "wof:population":355,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

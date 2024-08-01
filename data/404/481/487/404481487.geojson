@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000564,
-    "geom:area_square_m":4841827.729863,
+    "geom:area_square_m":4841827.729862,
     "geom:bbox":"-96.910755,46.062073,-96.845796,46.087931",
     "geom:latitude":46.073426,
     "geom:longitude":-96.891791,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.074032,
     "lbl:longitude":-96.894399,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":77,
     "uscensus:geoid":3807734900,
     "uscensus:name":"Hankinson",
     "uscensus:namelsad":"Hankinson city",
+    "uscensus:population":918,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3807734900
+        "uscensus:geoid":"3807734900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404481487,
-    "wof:lastmodified":1605055832,
+    "wof:lastmodified":1722117751,
     "wof:name":"Hankinson",
     "wof:parent_id":102082103,
     "wof:placetype":"localadmin",
-    "wof:population":919,
+    "wof:population":918,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

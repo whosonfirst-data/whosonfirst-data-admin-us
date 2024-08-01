@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010973,
-    "geom:area_square_m":93913650.292228,
+    "geom:area_square_m":93913650.292203,
     "geom:bbox":"-93.9373,46.156497,-93.810244,46.243691",
     "geom:latitude":46.199932,
     "geom:longitude":-93.873795,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.200055,
     "lbl:longitude":-93.87379,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":2703555420,
     "uscensus:name":"Roosevelt",
     "uscensus:namelsad":"Roosevelt township",
+    "uscensus:population":605,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2703555420
+        "uscensus:geoid":"2703555420"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476703
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404512079,
-    "wof:lastmodified":1605056121,
+    "wof:lastmodified":1722117948,
     "wof:name":"Roosevelt Township",
     "wof:parent_id":102087093,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":601,
+    "wof:population":605,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007451,
-    "geom:area_square_m":70484475.251238,
+    "geom:area_square_m":70484475.251222,
     "geom:bbox":"-82.767483,40.046056,-82.663343,40.125855",
     "geom:latitude":40.086194,
     "geom:longitude":-82.715263,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.086179,
     "lbl:longitude":-82.715245,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":89,
     "uscensus:geoid":3908939102,
     "uscensus:name":"Jersey",
     "uscensus:namelsad":"Jersey township",
+    "uscensus:population":2639,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3908939102
+        "uscensus:geoid":"3908939102"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404525235,
-    "wof:lastmodified":1605056053,
+    "wof:lastmodified":1722233685,
     "wof:name":"Jersey Township",
     "wof:parent_id":102084761,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2740,
+    "wof:population":2639,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008405,
-    "geom:area_square_m":73864664.295289,
+    "geom:area_square_m":73864664.29527,
     "geom:bbox":"-68.528542,44.65504,-68.418681,44.763014",
     "geom:latitude":44.708986,
     "geom:longitude":-68.473811,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.709109,
     "lbl:longitude":-68.47381,
     "lbl:max_zoom":17.0,
@@ -97,11 +103,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":2300955890,
     "uscensus:name":"Otis",
     "uscensus:namelsad":"Otis town",
+    "uscensus:population":671,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
@@ -111,8 +120,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2300955890
+        "uscensus:geoid":"2300955890"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466603
     ],
@@ -131,11 +141,11 @@
         }
     ],
     "wof:id":404474963,
-    "wof:lastmodified":1605055899,
+    "wof:lastmodified":1722117704,
     "wof:name":"Otis",
     "wof:parent_id":102081201,
     "wof:placetype":"localadmin",
-    "wof:population":672,
+    "wof:population":671,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

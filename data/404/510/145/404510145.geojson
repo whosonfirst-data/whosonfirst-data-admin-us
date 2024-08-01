@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01403,
-    "geom:area_square_m":115577070.100898,
+    "geom:area_square_m":115577070.100886,
     "geom:bbox":"-95.982351,48.171686,-95.851935,48.280538",
     "geom:latitude":48.226098,
     "geom:longitude":-95.917008,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.226102,
     "lbl:longitude":-95.917006,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":89,
     "uscensus:geoid":2708925046,
     "uscensus:name":"Grand Plain",
     "uscensus:namelsad":"Grand Plain township",
+    "uscensus:population":52,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2708925046
+        "uscensus:geoid":"2708925046"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478541
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404510145,
-    "wof:lastmodified":1605055615,
+    "wof:lastmodified":1722117934,
     "wof:name":"Grand Plain Township",
     "wof:parent_id":102087695,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":55,
+    "wof:population":52,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

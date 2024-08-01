@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007427,
-    "geom:area_square_m":69883826.267506,
+    "geom:area_square_m":69883826.26755,
     "geom:bbox":"-83.022079,40.415004,-82.903088,40.490664",
     "geom:latitude":40.452073,
     "geom:longitude":-82.965715,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.453185,
     "lbl:longitude":-82.972801,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":117,
     "uscensus:geoid":3911783454,
     "uscensus:name":"Westfield",
     "uscensus:namelsad":"Westfield township",
+    "uscensus:population":1356,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3911783454
+        "uscensus:geoid":"3911783454"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466349
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404525671,
-    "wof:lastmodified":1605056059,
+    "wof:lastmodified":1722118017,
     "wof:name":"Westfield Township",
     "wof:parent_id":102083749,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1177,
+    "wof:population":1356,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

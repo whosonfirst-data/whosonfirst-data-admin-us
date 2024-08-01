@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009751,
-    "geom:area_square_m":88917564.414585,
+    "geom:area_square_m":88917564.414593,
     "geom:bbox":"-74.562283,42.431391,-74.413641,42.541764",
     "geom:latitude":42.483369,
     "geom:longitude":-74.489307,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.482534,
     "lbl:longitude":-74.489317,
     "lbl:max_zoom":17.0,
@@ -100,22 +106,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":3609506893,
     "uscensus:name":"Blenheim",
     "uscensus:namelsad":"Blenheim town",
+    "uscensus:population":312,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688543,
-        102083101
+        102083101,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3609506893
+        "uscensus:geoid":"3609506893"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460137
     ],
@@ -134,11 +144,11 @@
         }
     ],
     "wof:id":404521401,
-    "wof:lastmodified":1636499319,
+    "wof:lastmodified":1722117985,
     "wof:name":"Blenheim",
     "wof:parent_id":102083101,
     "wof:placetype":"localadmin",
-    "wof:population":377,
+    "wof:population":312,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008703,
-    "geom:area_square_m":78509556.366518,
+    "geom:area_square_m":78509556.366484,
     "geom:bbox":"-86.206016,43.117395,-86.06647,43.205245",
     "geom:latitude":43.153682,
     "geom:longitude":-86.150617,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":43.153347,
     "lbl:longitude":-86.171544,
@@ -54,11 +57,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":121,
     "uscensus:geoid":2612131020,
     "uscensus:name":"Fruitport",
     "uscensus:namelsad":"Fruitport charter township",
+    "uscensus:population":15307,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -68,8 +74,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2612131020
+        "uscensus:geoid":"2612131020"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -85,11 +92,11 @@
         }
     ],
     "wof:id":404507903,
-    "wof:lastmodified":1605055776,
+    "wof:lastmodified":1722233667,
     "wof:name":"Fruitport",
     "wof:parent_id":102083707,
     "wof:placetype":"localadmin",
-    "wof:population":13598,
+    "wof:population":15307,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

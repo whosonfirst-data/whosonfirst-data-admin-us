@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000378,
-    "geom:area_square_m":3538037.339819,
+    "geom:area_square_m":3538037.339826,
     "geom:bbox":"-75.305206,40.834633,-75.27978,40.86393",
     "geom:latitude":40.848389,
     "geom:longitude":-75.291715,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.848457,
     "lbl:longitude":-75.290658,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":4209585664,
     "uscensus:name":"Wind Gap",
     "uscensus:namelsad":"Wind Gap borough",
+    "uscensus:population":3601,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4209585664
+        "uscensus:geoid":"4209585664"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404483659,
-    "wof:lastmodified":1605055441,
+    "wof:lastmodified":1722117764,
     "wof:name":"Wind Gap",
     "wof:parent_id":102081395,
     "wof:placetype":"localadmin",
-    "wof:population":2720,
+    "wof:population":3601,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

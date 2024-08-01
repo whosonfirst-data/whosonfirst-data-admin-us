@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.02385,
-    "geom:area_square_m":233707137.176593,
+    "geom:area_square_m":233707137.176456,
     "geom:bbox":"-100.652642,37.474817,-100.542905,37.693197",
     "geom:latitude":37.583922,
     "geom:longitude":-100.597746,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.584012,
     "lbl:longitude":-100.597748,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":69,
     "uscensus:geoid":2006915500,
     "uscensus:name":"Copeland",
     "uscensus:namelsad":"Copeland township",
+    "uscensus:population":522,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2006915500
+        "uscensus:geoid":"2006915500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404503737,
-    "wof:lastmodified":1605055314,
+    "wof:lastmodified":1722233660,
     "wof:name":"Copeland Township",
     "wof:parent_id":102083447,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":552,
+    "wof:population":522,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

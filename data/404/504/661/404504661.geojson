@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.017822,
-    "geom:area_square_m":175251937.325822,
+    "geom:area_square_m":175251937.325902,
     "geom:bbox":"-95.819622,37.252596,-95.662529,37.385757",
     "geom:latitude":37.321326,
     "geom:longitude":-95.750596,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.323137,
     "lbl:longitude":-95.756886,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":2012569750,
     "uscensus:name":"Sycamore",
     "uscensus:namelsad":"Sycamore township",
+    "uscensus:population":795,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2012569750
+        "uscensus:geoid":"2012569750"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465457
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404504661,
-    "wof:lastmodified":1605055301,
+    "wof:lastmodified":1722117894,
     "wof:name":"Sycamore Township",
     "wof:parent_id":102082143,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":908,
+    "wof:population":795,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

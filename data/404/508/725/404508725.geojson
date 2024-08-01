@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01062,
-    "geom:area_square_m":93996220.632988,
+    "geom:area_square_m":93996220.632961,
     "geom:bbox":"-85.460191,44.193929,-85.33611,44.339631",
     "geom:latitude":44.291679,
     "geom:longitude":-85.396374,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":44.302387,
     "lbl:longitude":-85.380567,
@@ -51,11 +54,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":165,
     "uscensus:geoid":2616536600,
     "uscensus:name":"Haring",
     "uscensus:namelsad":"Haring charter township",
+    "uscensus:population":3586,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -65,8 +71,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2616536600
+        "uscensus:geoid":"2616536600"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -82,11 +89,11 @@
         }
     ],
     "wof:id":404508725,
-    "wof:lastmodified":1605055739,
+    "wof:lastmodified":1722117924,
     "wof:name":"Haring",
     "wof:parent_id":102083119,
     "wof:placetype":"localadmin",
-    "wof:population":3173,
+    "wof:population":3586,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

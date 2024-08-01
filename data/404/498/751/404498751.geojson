@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01012,
-    "geom:area_square_m":94656709.357282,
+    "geom:area_square_m":94656709.357281,
     "geom:bbox":"-90.788369,40.805086,-90.67139,40.894133",
     "geom:latitude":40.849673,
     "geom:longitude":-90.730067,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.849752,
     "lbl:longitude":-90.730067,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":187,
     "uscensus:geoid":1718775692,
     "uscensus:name":"Tompkins",
     "uscensus:namelsad":"Tompkins township",
+    "uscensus:population":854,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1718775692
+        "uscensus:geoid":"1718775692"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404498751,
-    "wof:lastmodified":1605055565,
+    "wof:lastmodified":1722233643,
     "wof:name":"Tompkins Township",
     "wof:parent_id":102082291,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":918,
+    "wof:population":854,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

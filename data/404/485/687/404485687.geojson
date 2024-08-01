@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00023,
-    "geom:area_square_m":2171377.340541,
+    "geom:area_square_m":2171377.340544,
     "geom:bbox":"-76.488738,40.330959,-76.461149,40.345812",
     "geom:latitude":40.338531,
     "geom:longitude":-76.477017,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.338136,
     "lbl:longitude":-76.477954,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":75,
     "uscensus:geoid":4207514160,
     "uscensus:name":"Cleona",
     "uscensus:namelsad":"Cleona borough",
+    "uscensus:population":2020,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207514160
+        "uscensus:geoid":"4207514160"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404485687,
-    "wof:lastmodified":1605055358,
+    "wof:lastmodified":1722117775,
     "wof:name":"Cleona",
     "wof:parent_id":102081341,
     "wof:placetype":"localadmin",
-    "wof:population":2080,
+    "wof:population":2020,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

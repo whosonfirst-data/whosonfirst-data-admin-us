@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009357,
-    "geom:area_square_m":86537187.782551,
+    "geom:area_square_m":86537187.782507,
     "geom:bbox":"-88.71268,41.528843,-88.599919,41.631389",
     "geom:latitude":41.588135,
     "geom:longitude":-88.659466,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.588375,
     "lbl:longitude":-88.659468,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":1709954248,
     "uscensus:name":"Northville",
     "uscensus:namelsad":"Northville township",
+    "uscensus:population":7298,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1709954248
+        "uscensus:geoid":"1709954248"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404498503,
-    "wof:lastmodified":1605055557,
+    "wof:lastmodified":1722233642,
     "wof:name":"Northville Township",
     "wof:parent_id":102081255,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":7410,
+    "wof:population":7298,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

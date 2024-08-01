@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011061,
-    "geom:area_square_m":92635894.374474,
+    "geom:area_square_m":92635894.374488,
     "geom:bbox":"-97.730431,47.324712,-97.601776,47.412388",
     "geom:latitude":47.368799,
     "geom:longitude":-97.665628,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.368475,
     "lbl:longitude":-97.665626,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":91,
     "uscensus:geoid":3809139340,
     "uscensus:name":"Hugo",
     "uscensus:namelsad":"Hugo township",
+    "uscensus:population":30,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3809139340
+        "uscensus:geoid":"3809139340"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456981
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404482211,
-    "wof:lastmodified":1605055377,
+    "wof:lastmodified":1722117755,
     "wof:name":"Hugo Township",
     "wof:parent_id":102082055,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":43,
+    "wof:population":30,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

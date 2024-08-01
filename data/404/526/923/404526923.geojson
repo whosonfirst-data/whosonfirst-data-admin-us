@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001689,
-    "geom:area_square_m":16019839.840595,
+    "geom:area_square_m":16019839.840626,
     "geom:bbox":"-84.338079,39.884755,-84.254666,39.921699",
     "geom:latitude":39.904874,
     "geom:longitude":-84.295125,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.910948,
     "lbl:longitude":-84.302643,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":113,
     "uscensus:geoid":3911378625,
     "uscensus:name":"Union City",
     "uscensus:namelsad":"Union City township",
+    "uscensus:population":6898,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3911378625
+        "uscensus:geoid":"3911378625"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404526923,
-    "wof:lastmodified":1605055650,
+    "wof:lastmodified":1722118027,
     "wof:name":"Union City Township",
     "wof:parent_id":102083667,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":6369,
+    "wof:population":6898,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

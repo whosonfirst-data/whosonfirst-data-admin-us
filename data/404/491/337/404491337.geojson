@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011174,
-    "geom:area_square_m":101032265.383742,
+    "geom:area_square_m":101032265.383702,
     "geom:bbox":"-96.568924,42.908654,-96.45413,43.083769",
     "geom:latitude":43.010812,
     "geom:longitude":-96.532531,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.009189,
     "lbl:longitude":-96.538186,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":127,
     "uscensus:geoid":4612767580,
     "uscensus:name":"Virginia",
     "uscensus:namelsad":"Virginia township",
+    "uscensus:population":265,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4612767580
+        "uscensus:geoid":"4612767580"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468877
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404491337,
-    "wof:lastmodified":1605055574,
+    "wof:lastmodified":1722117812,
     "wof:name":"Virginia Township",
     "wof:parent_id":102086029,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":240,
+    "wof:population":265,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

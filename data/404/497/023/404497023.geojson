@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004948,
-    "geom:area_square_m":48287606.481409,
+    "geom:area_square_m":48287606.481416,
     "geom:bbox":"-88.374602,37.863819,-88.263034,37.909083",
     "geom:latitude":37.886522,
     "geom:longitude":-88.319061,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.886612,
     "lbl:longitude":-88.319063,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":59,
     "uscensus:geoid":1705956016,
     "uscensus:name":"Omaha",
     "uscensus:namelsad":"Omaha township",
+    "uscensus:population":392,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1705956016
+        "uscensus:geoid":"1705956016"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404497023,
-    "wof:lastmodified":1605055488,
+    "wof:lastmodified":1722233636,
     "wof:name":"Omaha Township",
     "wof:parent_id":102086927,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":499,
+    "wof:population":392,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

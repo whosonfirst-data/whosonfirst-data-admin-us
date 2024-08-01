@@ -10,6 +10,12 @@
     "geom:latitude":44.378745,
     "geom:longitude":-90.98237,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.364318,
     "lbl:longitude":-90.973462,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":53,
     "uscensus:geoid":5505335100,
     "uscensus:name":"Hixton",
     "uscensus:namelsad":"Hixton town",
+    "uscensus:population":616,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5505335100
+        "uscensus:geoid":"5505335100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457943
     ],
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404493829,
-    "wof:lastmodified":1605055941,
+    "wof:lastmodified":1722117828,
     "wof:name":"Hixton",
     "wof:parent_id":102081821,
     "wof:placetype":"localadmin",
-    "wof:population":652,
+    "wof:population":616,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008627,
-    "geom:area_square_m":71484786.128874,
+    "geom:area_square_m":71484786.128851,
     "geom:bbox":"-97.196192,47.859222,-97.001393,47.991054",
     "geom:latitude":47.921776,
     "geom:longitude":-97.088512,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.909132,
     "lbl:longitude":-97.056661,
     "lbl:max_zoom":14.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":3803532060,
     "uscensus:name":"Grand Forks",
     "uscensus:namelsad":"Grand Forks city",
+    "uscensus:population":58921,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3803532060
+        "uscensus:geoid":"3803532060"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404480591,
-    "wof:lastmodified":1605055914,
+    "wof:lastmodified":1722117745,
     "wof:name":"Grand Forks",
     "wof:parent_id":102081493,
     "wof:placetype":"localadmin",
-    "wof:population":52838,
+    "wof:population":58921,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

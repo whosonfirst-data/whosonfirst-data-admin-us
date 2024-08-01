@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0003,
-    "geom:area_square_m":2618149.340957,
+    "geom:area_square_m":2618149.340958,
     "geom:bbox":"-99.144683,45.027617,-99.113549,45.042557",
     "geom:latitude":45.034155,
     "geom:longitude":-99.126732,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.03508,
     "lbl:longitude":-99.127034,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":4604921260,
     "uscensus:name":"Faulkton",
     "uscensus:namelsad":"Faulkton city",
+    "uscensus:population":823,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4604921260
+        "uscensus:geoid":"4604921260"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404488687,
-    "wof:lastmodified":1605055804,
+    "wof:lastmodified":1722117795,
     "wof:name":"Faulkton",
     "wof:parent_id":102086003,
     "wof:placetype":"localadmin",
-    "wof:population":736,
+    "wof:population":823,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

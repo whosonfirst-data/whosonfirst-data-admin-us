@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008509,
-    "geom:area_square_m":75298430.446281,
+    "geom:area_square_m":75298430.446288,
     "geom:bbox":"-94.153095,44.268075,-93.971395,44.333446",
     "geom:latitude":44.299619,
     "geom:longitude":-94.064735,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.297743,
     "lbl:longitude":-94.064767,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":103,
     "uscensus:geoid":2710348922,
     "uscensus:name":"Oshawa",
     "uscensus:namelsad":"Oshawa township",
+    "uscensus:population":577,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2710348922
+        "uscensus:geoid":"2710348922"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462535
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404513475,
-    "wof:lastmodified":1605056042,
+    "wof:lastmodified":1722117958,
     "wof:name":"Oshawa Township",
     "wof:parent_id":102087597,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":502,
+    "wof:population":577,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

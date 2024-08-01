@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004504,
-    "geom:area_square_m":41343961.201537,
+    "geom:area_square_m":41343961.201508,
     "geom:bbox":"-72.270657,42.031021,-72.191787,42.092522",
     "geom:latitude":42.062313,
     "geom:longitude":-72.233275,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.061684,
     "lbl:longitude":-72.23328,
     "lbl:max_zoom":16.0,
@@ -529,22 +535,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":2501372390,
     "uscensus:name":"Wales",
     "uscensus:namelsad":"Wales town",
+    "uscensus:population":1802,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688645,
-        102084627
+        102084627,
+        85688645
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2501372390
+        "uscensus:geoid":"2501372390"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458271
     ],
@@ -563,11 +573,11 @@
         }
     ],
     "wof:id":404475981,
-    "wof:lastmodified":1636499380,
+    "wof:lastmodified":1722117711,
     "wof:name":"Wales",
     "wof:parent_id":102084627,
     "wof:placetype":"localadmin",
-    "wof:population":1838,
+    "wof:population":1802,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

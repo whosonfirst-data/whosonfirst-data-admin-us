@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010321,
-    "geom:area_square_m":92559487.100411,
+    "geom:area_square_m":92559487.10041,
     "geom:bbox":"-85.324002,43.46737,-85.204278,43.55446",
     "geom:latitude":43.510988,
     "geom:longitude":-85.26409,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.511024,
     "lbl:longitude":-85.264089,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":107,
     "uscensus:geoid":2610738540,
     "uscensus:name":"Hinton",
     "uscensus:namelsad":"Hinton township",
+    "uscensus:population":1090,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2610738540
+        "uscensus:geoid":"2610738540"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469895
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404506229,
-    "wof:lastmodified":1605055751,
+    "wof:lastmodified":1722117906,
     "wof:name":"Hinton Township",
     "wof:parent_id":102083129,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1126,
+    "wof:population":1090,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

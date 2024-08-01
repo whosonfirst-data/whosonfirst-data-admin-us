@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00948,
-    "geom:area_square_m":89353293.008391,
+    "geom:area_square_m":89353293.00843,
     "geom:bbox":"-77.229166,40.283744,-77.116542,40.402243",
     "geom:latitude":40.336422,
     "geom:longitude":-77.173516,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.331488,
     "lbl:longitude":-77.172418,
     "lbl:max_zoom":15.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":4209911416,
     "uscensus:name":"Carroll",
     "uscensus:namelsad":"Carroll township",
+    "uscensus:population":5270,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4209911416
+        "uscensus:geoid":"4209911416"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478383
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404485843,
-    "wof:lastmodified":1605055359,
+    "wof:lastmodified":1722117776,
     "wof:name":"Carroll Township",
     "wof:parent_id":102080963,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":5269,
+    "wof:population":5270,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010895,
-    "geom:area_square_m":90788582.275136,
+    "geom:area_square_m":90788582.275131,
     "geom:bbox":"-100.033006,47.58817,-99.905139,47.673621",
     "geom:latitude":47.630876,
     "geom:longitude":-99.969086,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.630871,
     "lbl:longitude":-99.969093,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":103,
     "uscensus:geoid":3810363620,
     "uscensus:name":"Pony Gulch",
     "uscensus:namelsad":"Pony Gulch township",
+    "uscensus:population":51,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3810363620
+        "uscensus:geoid":"3810363620"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474773
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404480033,
-    "wof:lastmodified":1605055917,
+    "wof:lastmodified":1722117742,
     "wof:name":"Pony Gulch Township",
     "wof:parent_id":102081507,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":45,
+    "wof:population":51,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

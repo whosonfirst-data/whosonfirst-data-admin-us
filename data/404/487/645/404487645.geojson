@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001755,
-    "geom:area_square_m":16222700.249442,
+    "geom:area_square_m":16222700.249443,
     "geom:bbox":"-76.20089,41.611102,-76.098695,41.651825",
     "geom:latitude":41.636709,
     "geom:longitude":-76.146662,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.636442,
     "lbl:longitude":-76.130404,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":131,
     "uscensus:geoid":4213108176,
     "uscensus:name":"Braintrim",
     "uscensus:namelsad":"Braintrim township",
+    "uscensus:population":460,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4213108176
+        "uscensus:geoid":"4213108176"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462963
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404487645,
-    "wof:lastmodified":1605055881,
+    "wof:lastmodified":1722117788,
     "wof:name":"Braintrim Township",
     "wof:parent_id":102080947,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":502,
+    "wof:population":460,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

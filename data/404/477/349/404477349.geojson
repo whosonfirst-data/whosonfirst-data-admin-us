@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00013,
-    "geom:area_square_m":1216968.778074,
+    "geom:area_square_m":1216968.778073,
     "geom:bbox":"-74.181144,40.929946,-74.166816,40.946542",
     "geom:latitude":40.938056,
     "geom:longitude":-74.173605,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.937632,
     "lbl:longitude":-74.174305,
     "lbl:max_zoom":15.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":3403161170,
     "uscensus:name":"Prospect Park",
     "uscensus:namelsad":"Prospect Park borough",
+    "uscensus:population":6219,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3403161170
+        "uscensus:geoid":"3403161170"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404477349,
-    "wof:lastmodified":1605055422,
+    "wof:lastmodified":1722117721,
     "wof:name":"Prospect Park",
     "wof:parent_id":102081133,
     "wof:placetype":"localadmin",
-    "wof:population":5865,
+    "wof:population":6219,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.042019,
-    "geom:area_square_m":369982778.462555,
+    "geom:area_square_m":369982778.462543,
     "geom:bbox":"-84.37167,44.507068,-84.127992,44.681625",
     "geom:latitude":44.59433,
     "geom:longitude":-84.25031,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.594424,
     "lbl:longitude":-84.250301,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":135,
     "uscensus:geoid":2613508220,
     "uscensus:name":"Big Creek",
     "uscensus:namelsad":"Big Creek township",
+    "uscensus:population":2712,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2613508220
+        "uscensus:geoid":"2613508220"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404508365,
-    "wof:lastmodified":1605055733,
+    "wof:lastmodified":1722117921,
     "wof:name":"Big Creek Township",
     "wof:parent_id":102083737,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2827,
+    "wof:population":2712,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

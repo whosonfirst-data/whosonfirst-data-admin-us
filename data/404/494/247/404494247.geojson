@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012084,
-    "geom:area_square_m":103904865.050769,
+    "geom:area_square_m":103904865.050756,
     "geom:bbox":"-89.570572,45.898347,-89.422941,45.982369",
     "geom:latitude":45.94036,
     "geom:longitude":-89.498161,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.940454,
     "lbl:longitude":-89.498162,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":5512570725,
     "uscensus:name":"St. Germain",
     "uscensus:namelsad":"St. Germain town",
+    "uscensus:population":2166,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5512570725
+        "uscensus:geoid":"5512570725"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466155
     ],
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404494247,
-    "wof:lastmodified":1605055971,
+    "wof:lastmodified":1722117831,
     "wof:name":"St. Germain",
     "wof:parent_id":102081749,
     "wof:placetype":"localadmin",
-    "wof:population":2085,
+    "wof:population":2166,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00019,
-    "geom:area_square_m":1786305.541464,
+    "geom:area_square_m":1786305.541463,
     "geom:bbox":"-80.075357,40.490968,-80.060906,40.509007",
     "geom:latitude":40.501101,
     "geom:longitude":-80.068033,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.501118,
     "lbl:longitude":-80.067895,
     "lbl:max_zoom":15.0,
@@ -145,11 +151,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4200303608,
     "uscensus:name":"Avalon",
     "uscensus:namelsad":"Avalon borough",
+    "uscensus:population":4588,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -159,8 +168,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200303608
+        "uscensus:geoid":"4200303608"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -176,11 +186,11 @@
         }
     ],
     "wof:id":404484929,
-    "wof:lastmodified":1605055467,
+    "wof:lastmodified":1722117771,
     "wof:name":"Avalon",
     "wof:parent_id":102080887,
     "wof:placetype":"localadmin",
-    "wof:population":4705,
+    "wof:population":4588,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

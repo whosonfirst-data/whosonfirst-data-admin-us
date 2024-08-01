@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006686,
-    "geom:area_square_m":57888291.024503,
+    "geom:area_square_m":57888291.024488,
     "geom:bbox":"-67.535116,45.501234,-67.416262,45.60431",
     "geom:latitude":45.559992,
     "geom:longitude":-67.470341,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.562807,
     "lbl:longitude":-67.465396,
     "lbl:max_zoom":18.0,
@@ -61,11 +67,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":2302978675,
     "uscensus:name":"Vanceboro",
     "uscensus:namelsad":"Vanceboro town",
+    "uscensus:population":105,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
@@ -75,8 +84,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2302978675
+        "uscensus:geoid":"2302978675"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457047
     ],
@@ -95,11 +105,11 @@
         }
     ],
     "wof:id":404475865,
-    "wof:lastmodified":1605055853,
+    "wof:lastmodified":1722117710,
     "wof:name":"Vanceboro",
     "wof:parent_id":102081143,
     "wof:placetype":"localadmin",
-    "wof:population":140,
+    "wof:population":105,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

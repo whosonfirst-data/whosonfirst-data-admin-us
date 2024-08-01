@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007636,
-    "geom:area_square_m":67075484.112021,
+    "geom:area_square_m":67075484.112034,
     "geom:bbox":"-71.741665,44.66175,-71.581447,44.806309",
     "geom:latitude":44.73174,
     "geom:longitude":-71.662396,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.732146,
     "lbl:longitude":-71.662397,
     "lbl:max_zoom":18.0,
@@ -118,22 +124,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":5000910075,
     "uscensus:name":"Brunswick",
     "uscensus:namelsad":"Brunswick town",
+    "uscensus:population":84,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688763,
-        102080725
+        102080725,
+        85688763
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5000910075
+        "uscensus:geoid":"5000910075"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472847
     ],
@@ -152,11 +162,11 @@
         }
     ],
     "wof:id":404527515,
-    "wof:lastmodified":1636499340,
+    "wof:lastmodified":1722118031,
     "wof:name":"Brunswick",
     "wof:parent_id":102080725,
     "wof:placetype":"localadmin",
-    "wof:population":112,
+    "wof:population":84,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

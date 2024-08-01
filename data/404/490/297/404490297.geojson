@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010201,
-    "geom:area_square_m":91927392.903044,
+    "geom:area_square_m":91927392.903024,
     "geom:bbox":"-97.874995,43.168975,-97.755786,43.256231",
     "geom:latitude":43.212646,
     "geom:longitude":-97.815291,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.212603,
     "lbl:longitude":-97.815289,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":67,
     "uscensus:geoid":4606733420,
     "uscensus:name":"Kaylor",
     "uscensus:namelsad":"Kaylor township",
+    "uscensus:population":130,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4606733420
+        "uscensus:geoid":"4606733420"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404490297,
-    "wof:lastmodified":1605055525,
+    "wof:lastmodified":1722117805,
     "wof:name":"Kaylor Township",
     "wof:parent_id":102086815,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":170,
+    "wof:population":130,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

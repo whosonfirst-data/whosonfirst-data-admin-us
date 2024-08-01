@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01012,
-    "geom:area_square_m":91902943.590015,
+    "geom:area_square_m":91902943.590014,
     "geom:bbox":"-97.604233,42.699194,-97.485541,42.786777",
     "geom:latitude":42.743341,
     "geom:longitude":-97.545805,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.743145,
     "lbl:longitude":-97.548984,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":107,
     "uscensus:geoid":3110714205,
     "uscensus:name":"Eastern",
     "uscensus:namelsad":"Eastern township",
+    "uscensus:population":255,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3110714205
+        "uscensus:geoid":"3110714205"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729454617
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404520699,
-    "wof:lastmodified":1605055708,
+    "wof:lastmodified":1722117983,
     "wof:name":"Eastern Township",
     "wof:parent_id":102083471,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":262,
+    "wof:population":255,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

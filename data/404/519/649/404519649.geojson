@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014218,
-    "geom:area_square_m":132113662.851002,
+    "geom:area_square_m":132113662.85098,
     "geom:bbox":"-99.47252,41.219351,-99.318719,41.336373",
     "geom:latitude":41.282201,
     "geom:longitude":-99.396829,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.284967,
     "lbl:longitude":-99.390597,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":3104101570,
     "uscensus:name":"Ansley",
     "uscensus:namelsad":"Ansley township",
+    "uscensus:population":611,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3104101570
+        "uscensus:geoid":"3104101570"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404519649,
-    "wof:lastmodified":1605055670,
+    "wof:lastmodified":1722233671,
     "wof:name":"Ansley Township",
     "wof:parent_id":102084301,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":599,
+    "wof:population":611,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

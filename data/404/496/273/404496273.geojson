@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.065094,
-    "geom:area_square_m":599702263.871994,
+    "geom:area_square_m":599702263.871684,
     "geom:bbox":"-87.940097,41.644286,-87.523661,42.023135",
     "geom:latitude":41.835528,
     "geom:longitude":-87.68231,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.81184,
     "lbl:longitude":-87.666985,
     "lbl:max_zoom":13.0,
@@ -625,11 +631,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":1703114000,
     "uscensus:name":"Chicago",
     "uscensus:namelsad":"Chicago city",
+    "uscensus:population":2664452,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -639,8 +648,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1703114000
+        "uscensus:geoid":"1703114000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -656,11 +666,11 @@
         }
     ],
     "wof:id":404496273,
-    "wof:lastmodified":1605055595,
+    "wof:lastmodified":1722117842,
     "wof:name":"Chicago",
     "wof:parent_id":102084317,
     "wof:placetype":"localadmin",
-    "wof:population":2695598,
+    "wof:population":2664452,
     "wof:population_rank":12,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

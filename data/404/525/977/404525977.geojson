@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001986,
-    "geom:area_square_m":18917545.061945,
+    "geom:area_square_m":18917545.061941,
     "geom:bbox":"-82.961794,39.573148,-82.896951,39.639593",
     "geom:latitude":39.606197,
     "geom:longitude":-82.933473,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.60256,
     "lbl:longitude":-82.93662,
     "lbl:max_zoom":15.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":129,
     "uscensus:geoid":3912915070,
     "uscensus:name":"Circleville",
     "uscensus:namelsad":"Circleville city",
+    "uscensus:population":14452,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3912915070
+        "uscensus:geoid":"3912915070"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404525977,
-    "wof:lastmodified":1605056054,
+    "wof:lastmodified":1722118019,
     "wof:name":"Circleville",
     "wof:parent_id":102084815,
     "wof:placetype":"localadmin",
-    "wof:population":13314,
+    "wof:population":14452,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

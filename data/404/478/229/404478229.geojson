@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000249,
-    "geom:area_square_m":2334406.981155,
+    "geom:area_square_m":2334406.981156,
     "geom:bbox":"-74.848542,40.634519,-74.821277,40.649842",
     "geom:latitude":40.643241,
     "geom:longitude":-74.835063,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.642937,
     "lbl:longitude":-74.835321,
     "lbl:max_zoom":16.0,
@@ -685,11 +691,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":3401939630,
     "uscensus:name":"Lebanon",
     "uscensus:namelsad":"Lebanon borough",
+    "uscensus:population":1670,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -699,8 +708,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3401939630
+        "uscensus:geoid":"3401939630"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -716,11 +726,11 @@
         }
     ],
     "wof:id":404478229,
-    "wof:lastmodified":1605055334,
+    "wof:lastmodified":1722117728,
     "wof:name":"Lebanon",
     "wof:parent_id":102085997,
     "wof:placetype":"localadmin",
-    "wof:population":1358,
+    "wof:population":1670,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

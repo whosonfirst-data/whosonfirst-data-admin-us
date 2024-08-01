@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009623,
-    "geom:area_square_m":88641991.024459,
+    "geom:area_square_m":88641991.024456,
     "geom:bbox":"-77.606887,41.808259,-77.473387,41.88254",
     "geom:latitude":41.845979,
     "geom:longitude":-77.540451,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.845939,
     "lbl:longitude":-77.540453,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":117,
     "uscensus:geoid":4211714528,
     "uscensus:name":"Clymer",
     "uscensus:namelsad":"Clymer township",
+    "uscensus:population":612,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4211714528
+        "uscensus:geoid":"4211714528"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463657
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404487407,
-    "wof:lastmodified":1605055884,
+    "wof:lastmodified":1722117787,
     "wof:name":"Clymer Township",
     "wof:parent_id":102080937,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":581,
+    "wof:population":612,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

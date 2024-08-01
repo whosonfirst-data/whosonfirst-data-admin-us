@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004513,
-    "geom:area_square_m":42514715.715515,
+    "geom:area_square_m":42514715.715493,
     "geom:bbox":"-75.410402,40.328809,-75.294926,40.406538",
     "geom:latitude":40.368576,
     "geom:longitude":-75.348937,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.371025,
     "lbl:longitude":-75.34984,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":4201783960,
     "uscensus:name":"West Rockhill",
     "uscensus:namelsad":"West Rockhill township",
+    "uscensus:population":5452,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201783960
+        "uscensus:geoid":"4201783960"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729454923
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404485045,
-    "wof:lastmodified":1605055367,
+    "wof:lastmodified":1722117772,
     "wof:name":"West Rockhill Township",
     "wof:parent_id":102080987,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":5256,
+    "wof:population":5452,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

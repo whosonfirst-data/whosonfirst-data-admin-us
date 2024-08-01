@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00879,
-    "geom:area_square_m":82509888.409442,
+    "geom:area_square_m":82509888.40954,
     "geom:bbox":"-79.712807,40.551262,-79.567416,40.680049",
     "geom:latitude":40.615087,
     "geom:longitude":-79.643925,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.606225,
     "lbl:longitude":-79.645056,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":129,
     "uscensus:geoid":4212900892,
     "uscensus:name":"Allegheny",
     "uscensus:namelsad":"Allegheny township",
+    "uscensus:population":8201,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212900892
+        "uscensus:geoid":"4212900892"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462533
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404487355,
-    "wof:lastmodified":1605055880,
+    "wof:lastmodified":1722117786,
     "wof:name":"Allegheny Township",
     "wof:parent_id":102081383,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":8164,
+    "wof:population":8201,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

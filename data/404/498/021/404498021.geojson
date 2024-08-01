@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009188,
-    "geom:area_square_m":86909828.370489,
+    "geom:area_square_m":86909828.370493,
     "geom:bbox":"-89.601968,40.048782,-89.484316,40.136292",
     "geom:latitude":40.094839,
     "geom:longitude":-89.538028,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.092548,
     "lbl:longitude":-89.534882,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":107,
     "uscensus:geoid":1710716496,
     "uscensus:name":"Corwin",
     "uscensus:namelsad":"Corwin township",
+    "uscensus:population":602,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1710716496
+        "uscensus:geoid":"1710716496"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404498021,
-    "wof:lastmodified":1605055569,
+    "wof:lastmodified":1722233640,
     "wof:name":"Corwin Township",
     "wof:parent_id":102082843,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":643,
+    "wof:population":602,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

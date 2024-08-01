@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002748,
-    "geom:area_square_m":25634039.860808,
+    "geom:area_square_m":25634039.860831,
     "geom:bbox":"-73.789848,40.982445,-73.719524,41.069796",
     "geom:latitude":41.022089,
     "geom:longitude":-73.754875,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.014714,
     "lbl:longitude":-73.755405,
     "lbl:max_zoom":14.0,
@@ -100,11 +106,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":119,
     "uscensus:geoid":3611981677,
     "uscensus:name":"White Plains",
     "uscensus:namelsad":"White Plains city",
+    "uscensus:population":61288,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -114,8 +123,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3611981677
+        "uscensus:geoid":"3611981677"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -131,11 +141,11 @@
         }
     ],
     "wof:id":404523395,
-    "wof:lastmodified":1605056092,
+    "wof:lastmodified":1722118001,
     "wof:name":"White Plains",
     "wof:parent_id":102082373,
     "wof:placetype":"localadmin",
-    "wof:population":56853,
+    "wof:population":61288,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

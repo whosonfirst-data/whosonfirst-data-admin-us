@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002504,
-    "geom:area_square_m":23590946.624329,
+    "geom:area_square_m":23590946.624338,
     "geom:bbox":"-78.916532,40.336087,-78.798609,40.392543",
     "geom:latitude":40.370876,
     "geom:longitude":-78.860627,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.370812,
     "lbl:longitude":-78.87134,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":4202121896,
     "uscensus:name":"East Taylor",
     "uscensus:namelsad":"East Taylor township",
+    "uscensus:population":2366,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202121896
+        "uscensus:geoid":"4202121896"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729453665
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404485097,
-    "wof:lastmodified":1605055361,
+    "wof:lastmodified":1722117772,
     "wof:name":"East Taylor Township",
     "wof:parent_id":102080879,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2726,
+    "wof:population":2366,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008486,
-    "geom:area_square_m":69330776.612679,
+    "geom:area_square_m":69330776.612677,
     "geom:bbox":"-98.601066,48.608734,-98.448578,48.681151",
     "geom:latitude":48.641711,
     "geom:longitude":-98.524773,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.644971,
     "lbl:longitude":-98.541476,
     "lbl:max_zoom":18.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":3801947660,
     "uscensus:name":"Loma",
     "uscensus:namelsad":"Loma city",
+    "uscensus:population":8,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3801947660
+        "uscensus:geoid":"3801947660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404478545,
-    "wof:lastmodified":1605055343,
+    "wof:lastmodified":1722117731,
     "wof:name":"Loma",
     "wof:parent_id":102081513,
     "wof:placetype":"localadmin",
-    "wof:population":16,
+    "wof:population":8,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

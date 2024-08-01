@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009473,
-    "geom:area_square_m":92244599.757581,
+    "geom:area_square_m":92244599.75759,
     "geom:bbox":"-99.240928,37.999813,-99.132006,38.087216",
     "geom:latitude":38.043513,
     "geom:longitude":-99.186353,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.043463,
     "lbl:longitude":-99.186355,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":145,
     "uscensus:geoid":2014553000,
     "uscensus:name":"Orange",
     "uscensus:namelsad":"Orange township",
+    "uscensus:population":52,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2014553000
+        "uscensus:geoid":"2014553000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404505457,
-    "wof:lastmodified":1605055291,
+    "wof:lastmodified":1722233664,
     "wof:name":"Orange Township",
     "wof:parent_id":102082127,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":43,
+    "wof:population":52,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

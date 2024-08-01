@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000432,
-    "geom:area_square_m":4107793.429125,
+    "geom:area_square_m":4107793.429123,
     "geom:bbox":"-77.739908,39.778367,-77.713812,39.804571",
     "geom:latitude":39.79067,
     "geom:longitude":-77.726674,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.790238,
     "lbl:longitude":-77.726423,
     "lbl:max_zoom":15.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":55,
     "uscensus:geoid":4205530896,
     "uscensus:name":"Greencastle",
     "uscensus:namelsad":"Greencastle borough",
+    "uscensus:population":4244,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4205530896
+        "uscensus:geoid":"4205530896"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -104,11 +114,11 @@
         }
     ],
     "wof:id":404483237,
-    "wof:lastmodified":1605055448,
+    "wof:lastmodified":1722117761,
     "wof:name":"Greencastle",
     "wof:parent_id":102081365,
     "wof:placetype":"localadmin",
-    "wof:population":3996,
+    "wof:population":4244,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

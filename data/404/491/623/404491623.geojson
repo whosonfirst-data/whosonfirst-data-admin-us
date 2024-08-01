@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0106,
-    "geom:area_square_m":93264034.885192,
+    "geom:area_square_m":93264034.8852,
     "geom:bbox":"-90.557743,44.596375,-90.4354,44.683566",
     "geom:latitude":44.639983,
     "geom:longitude":-90.496746,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.639927,
     "lbl:longitude":-90.496745,
     "lbl:max_zoom":17.0,
@@ -298,11 +304,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":5501989425,
     "uscensus:name":"York",
     "uscensus:namelsad":"York town",
+    "uscensus:population":823,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -312,8 +321,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5501989425
+        "uscensus:geoid":"5501989425"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472075
     ],
@@ -332,11 +342,11 @@
         }
     ],
     "wof:id":404491623,
-    "wof:lastmodified":1605055586,
+    "wof:lastmodified":1722117814,
     "wof:name":"York",
     "wof:parent_id":102081269,
     "wof:placetype":"localadmin",
-    "wof:population":886,
+    "wof:population":823,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

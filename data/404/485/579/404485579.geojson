@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003502,
-    "geom:area_square_m":32998785.711884,
+    "geom:area_square_m":32998785.711849,
     "geom:bbox":"-75.490467,40.314641,-75.402254,40.396205",
     "geom:latitude":40.356923,
     "geom:longitude":-75.449288,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.357854,
     "lbl:longitude":-75.448632,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":91,
     "uscensus:geoid":4209147592,
     "uscensus:name":"Marlborough",
     "uscensus:namelsad":"Marlborough township",
+    "uscensus:population":3530,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4209147592
+        "uscensus:geoid":"4209147592"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456159
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404485579,
-    "wof:lastmodified":1605055373,
+    "wof:lastmodified":1722117775,
     "wof:name":"Marlborough Township",
     "wof:parent_id":102081355,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3178,
+    "wof:population":3530,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

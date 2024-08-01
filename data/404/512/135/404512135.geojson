@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010381,
-    "geom:area_square_m":92773788.825363,
+    "geom:area_square_m":92773788.825384,
     "geom:bbox":"-96.05323,43.67363,-95.932763,43.761424",
     "geom:latitude":43.717167,
     "geom:longitude":-95.993283,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.717378,
     "lbl:longitude":-95.992848,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":2710537430,
     "uscensus:name":"Lismore",
     "uscensus:namelsad":"Lismore township",
+    "uscensus:population":167,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2710537430
+        "uscensus:geoid":"2710537430"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475619
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404512135,
-    "wof:lastmodified":1605056118,
+    "wof:lastmodified":1722117948,
     "wof:name":"Lismore Township",
     "wof:parent_id":102087607,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":175,
+    "wof:population":167,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

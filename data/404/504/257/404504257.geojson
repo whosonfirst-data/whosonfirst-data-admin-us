@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009797,
-    "geom:area_square_m":93674095.83763,
+    "geom:area_square_m":93674095.837591,
     "geom:bbox":"-98.041738,39.306113,-97.928762,39.393543",
     "geom:latitude":39.349733,
     "geom:longitude":-97.985332,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.349732,
     "lbl:longitude":-97.985335,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":123,
     "uscensus:geoid":2012342025,
     "uscensus:name":"Logan",
     "uscensus:namelsad":"Logan township",
+    "uscensus:population":120,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2012342025
+        "uscensus:geoid":"2012342025"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404504257,
-    "wof:lastmodified":1605055299,
+    "wof:lastmodified":1722233661,
     "wof:name":"Logan Township",
     "wof:parent_id":102085275,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":125,
+    "wof:population":120,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

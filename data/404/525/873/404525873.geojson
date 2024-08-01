@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005096,
-    "geom:area_square_m":47146605.381364,
+    "geom:area_square_m":47146605.381366,
     "geom:bbox":"-82.898536,41.522825,-82.784354,41.608432",
     "geom:latitude":41.567499,
     "geom:longitude":-82.848859,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.568753,
     "lbl:longitude":-82.852756,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":123,
     "uscensus:geoid":3912312588,
     "uscensus:name":"Catawba Island",
     "uscensus:namelsad":"Catawba Island township",
+    "uscensus:population":3669,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3912312588
+        "uscensus:geoid":"3912312588"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465301
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404525873,
-    "wof:lastmodified":1605056051,
+    "wof:lastmodified":1722118019,
     "wof:name":"Catawba Island Township",
     "wof:parent_id":102083765,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3599,
+    "wof:population":3669,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

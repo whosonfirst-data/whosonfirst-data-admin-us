@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010157,
-    "geom:area_square_m":92657040.112525,
+    "geom:area_square_m":92657040.112473,
     "geom:bbox":"-71.965442,42.39495,-71.813101,42.519083",
     "geom:latitude":42.456494,
     "geom:longitude":-71.881283,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.452844,
     "lbl:longitude":-71.880134,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":2502755395,
     "uscensus:name":"Princeton",
     "uscensus:namelsad":"Princeton town",
+    "uscensus:population":3508,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2502755395
+        "uscensus:geoid":"2502755395"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464573
     ],
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404476075,
-    "wof:lastmodified":1605055406,
+    "wof:lastmodified":1722117712,
     "wof:name":"Princeton",
     "wof:parent_id":102084655,
     "wof:placetype":"localadmin",
-    "wof:population":3413,
+    "wof:population":3508,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003772,
-    "geom:area_square_m":35508286.721924,
+    "geom:area_square_m":35508286.721932,
     "geom:bbox":"-75.888626,40.387541,-75.772609,40.456522",
     "geom:latitude":40.424614,
     "geom:longitude":-75.82602,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.419509,
     "lbl:longitude":-75.825137,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":4201166728,
     "uscensus:name":"Ruscombmanor",
     "uscensus:namelsad":"Ruscombmanor township",
+    "uscensus:population":4012,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201166728
+        "uscensus:geoid":"4201166728"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473331
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404484553,
-    "wof:lastmodified":1605055463,
+    "wof:lastmodified":1722117769,
     "wof:name":"Ruscombmanor Township",
     "wof:parent_id":102080991,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":4112,
+    "wof:population":4012,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

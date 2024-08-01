@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.018092,
-    "geom:area_square_m":155615059.838154,
+    "geom:area_square_m":155615059.838122,
     "geom:bbox":"-87.368011,45.868453,-87.137618,45.985321",
     "geom:latitude":45.922957,
     "geom:longitude":-87.274981,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.922676,
     "lbl:longitude":-87.265646,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":2604118280,
     "uscensus:name":"Cornell",
     "uscensus:namelsad":"Cornell township",
+    "uscensus:population":566,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2604118280
+        "uscensus:geoid":"2604118280"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457699
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404507155,
-    "wof:lastmodified":1605055777,
+    "wof:lastmodified":1722117912,
     "wof:name":"Cornell Township",
     "wof:parent_id":102083091,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":593,
+    "wof:population":566,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

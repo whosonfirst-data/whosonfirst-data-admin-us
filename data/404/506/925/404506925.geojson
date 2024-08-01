@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000343,
-    "geom:area_square_m":3138716.823957,
+    "geom:area_square_m":3138716.823962,
     "geom:bbox":"-86.271724,42.178768,-86.242503,42.198613",
     "geom:latitude":42.188289,
     "geom:longitude":-86.257635,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.190286,
     "lbl:longitude":-86.258829,
     "lbl:max_zoom":16.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":2602184500,
     "uscensus:name":"Watervliet",
     "uscensus:namelsad":"Watervliet city",
+    "uscensus:population":1650,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2602184500
+        "uscensus:geoid":"2602184500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -104,11 +114,11 @@
         }
     ],
     "wof:id":404506925,
-    "wof:lastmodified":1605055757,
+    "wof:lastmodified":1722117910,
     "wof:name":"Watervliet",
     "wof:parent_id":102083151,
     "wof:placetype":"localadmin",
-    "wof:population":1735,
+    "wof:population":1650,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

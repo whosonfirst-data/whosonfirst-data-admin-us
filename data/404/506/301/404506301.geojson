@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.021234,
-    "geom:area_square_m":185846478.825024,
+    "geom:area_square_m":185846478.824991,
     "geom:bbox":"-84.012303,44.855723,-83.888405,45.03047",
     "geom:latitude":44.943206,
     "geom:longitude":-83.95021,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.943272,
     "lbl:longitude":-83.950223,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":119,
     "uscensus:geoid":2611970380,
     "uscensus:name":"Rust",
     "uscensus:namelsad":"Rust township",
+    "uscensus:population":552,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2611970380
+        "uscensus:geoid":"2611970380"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469649
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404506301,
-    "wof:lastmodified":1605055751,
+    "wof:lastmodified":1722117906,
     "wof:name":"Rust Township",
     "wof:parent_id":102083127,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":561,
+    "wof:population":552,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -226,7 +226,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":17950367,
     "uscensus:awater":1291685,
     "uscensus:classfp":"C5",
@@ -242,16 +243,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"34550",
     "uscensus:placens":"00619449",
+    "uscensus:population":88172,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"25",
     "wd:latitude":42.706944,
     "wd:longitude":-71.163611,
     "wd:wordcount":6520,
     "wof:belongsto":[
-        85688645,
         102191575,
-        404476205,
         85633793,
-        102084463
+        102084463,
+        404476205,
+        85688645
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -259,10 +262,11 @@
         "gn:id":4941720,
         "gp:id":2437266,
         "qs_pg:id":823108,
-        "uscensus:geoid":2534550,
+        "uscensus:geoid":"2534550",
         "wd:id":"Q49163",
         "wk:page":"Lawrence, Massachusetts"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -280,11 +284,11 @@
         }
     ],
     "wof:id":85950415,
-    "wof:lastmodified":1690881930,
+    "wof:lastmodified":1722115953,
     "wof:name":"Lawrence",
     "wof:parent_id":404476205,
     "wof:placetype":"locality",
-    "wof:population":76377,
+    "wof:population":88172,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

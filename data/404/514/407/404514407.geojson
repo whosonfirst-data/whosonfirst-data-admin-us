@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000238,
-    "geom:area_square_m":2133398.015561,
+    "geom:area_square_m":2133398.015545,
     "geom:bbox":"-93.498533,43.499474,-93.468425,43.517706",
     "geom:latitude":43.506872,
     "geom:longitude":-93.485095,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.505013,
     "lbl:longitude":-93.488601,
     "lbl:max_zoom":17.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":47,
     "uscensus:geoid":2704719340,
     "uscensus:name":"Emmons",
     "uscensus:namelsad":"Emmons city",
+    "uscensus:population":363,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2704719340
+        "uscensus:geoid":"2704719340"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404514407,
-    "wof:lastmodified":1605056019,
+    "wof:lastmodified":1722117965,
     "wof:name":"Emmons",
     "wof:parent_id":102087887,
     "wof:placetype":"localadmin",
-    "wof:population":391,
+    "wof:population":363,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

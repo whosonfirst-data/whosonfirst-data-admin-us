@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010614,
-    "geom:area_square_m":94354400.084566,
+    "geom:area_square_m":94354400.084603,
     "geom:bbox":"-86.400239,43.990928,-86.280111,44.081589",
     "geom:latitude":44.036133,
     "geom:longitude":-86.340172,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.036111,
     "lbl:longitude":-86.34017,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":2610582360,
     "uscensus:name":"Victory",
     "uscensus:namelsad":"Victory township",
+    "uscensus:population":1419,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2610582360
+        "uscensus:geoid":"2610582360"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472613
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404506223,
-    "wof:lastmodified":1605055761,
+    "wof:lastmodified":1722117906,
     "wof:name":"Victory Township",
     "wof:parent_id":102083743,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1383,
+    "wof:population":1419,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006293,
-    "geom:area_square_m":58764484.919087,
+    "geom:area_square_m":58764484.919158,
     "geom:bbox":"-74.791392,40.909095,-74.64722,41.009289",
     "geom:latitude":40.956686,
     "geom:longitude":-74.718166,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.950801,
     "lbl:longitude":-74.717168,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":37,
     "uscensus:geoid":3403709160,
     "uscensus:name":"Byram",
     "uscensus:namelsad":"Byram township",
+    "uscensus:population":8152,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3403709160
+        "uscensus:geoid":"3403709160"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404478453,
-    "wof:lastmodified":1605055340,
+    "wof:lastmodified":1722117730,
     "wof:name":"Byram Township",
     "wof:parent_id":102086779,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":8350,
+    "wof:population":8152,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

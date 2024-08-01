@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010572,
-    "geom:area_square_m":100690827.945512,
+    "geom:area_square_m":100690827.945511,
     "geom:bbox":"-91.14862,39.579635,-91.029252,39.669177",
     "geom:latitude":39.624502,
     "geom:longitude":-91.089001,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.624573,
     "lbl:longitude":-91.089006,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":149,
     "uscensus:geoid":1714960651,
     "uscensus:name":"Pleasant Vale",
     "uscensus:namelsad":"Pleasant Vale township",
+    "uscensus:population":493,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1714960651
+        "uscensus:geoid":"1714960651"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404499323,
-    "wof:lastmodified":1605055544,
+    "wof:lastmodified":1722233645,
     "wof:name":"Pleasant Vale Township",
     "wof:parent_id":102081665,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":573,
+    "wof:population":493,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

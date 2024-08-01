@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.028436,
-    "geom:area_square_m":251383959.106215,
+    "geom:area_square_m":251383959.106216,
     "geom:bbox":"-75.083794,44.254684,-74.915633,44.465345",
     "geom:latitude":44.361913,
     "geom:longitude":-74.998234,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.360789,
     "lbl:longitude":-74.998215,
     "lbl:max_zoom":18.0,
@@ -125,22 +131,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":89,
     "uscensus:geoid":3608915792,
     "uscensus:name":"Clare",
     "uscensus:namelsad":"Clare town",
+    "uscensus:population":91,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688543,
-        102082379
+        102082379,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3608915792
+        "uscensus:geoid":"3608915792"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460825
     ],
@@ -159,11 +169,11 @@
         }
     ],
     "wof:id":404521573,
-    "wof:lastmodified":1636499322,
+    "wof:lastmodified":1722117987,
     "wof:name":"Clare",
     "wof:parent_id":102082379,
     "wof:placetype":"localadmin",
-    "wof:population":105,
+    "wof:population":91,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

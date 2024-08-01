@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001349,
-    "geom:area_square_m":12909722.166841,
+    "geom:area_square_m":12909722.166844,
     "geom:bbox":"-84.512774,39.270237,-84.44696,39.305957",
     "geom:latitude":39.290901,
     "geom:longitude":-84.475952,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.290376,
     "lbl:longitude":-84.475441,
     "lbl:max_zoom":15.0,
@@ -91,11 +97,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":3906174104,
     "uscensus:name":"Springdale",
     "uscensus:namelsad":"Springdale city",
+    "uscensus:population":11073,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -105,8 +114,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3906174104
+        "uscensus:geoid":"3906174104"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -122,11 +132,11 @@
         }
     ],
     "wof:id":404525501,
-    "wof:lastmodified":1605056056,
+    "wof:lastmodified":1722118016,
     "wof:name":"Springdale",
     "wof:parent_id":102083687,
     "wof:placetype":"localadmin",
-    "wof:population":11223,
+    "wof:population":11073,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009698,
-    "geom:area_square_m":90816605.437132,
+    "geom:area_square_m":90816605.437198,
     "geom:bbox":"-81.087391,40.727003,-80.974598,40.813943",
     "geom:latitude":40.770606,
     "geom:longitude":-81.030874,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.770582,
     "lbl:longitude":-81.030874,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":3902982852,
     "uscensus:name":"West",
     "uscensus:namelsad":"West township",
+    "uscensus:population":3112,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3902982852
+        "uscensus:geoid":"3902982852"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404523667,
-    "wof:lastmodified":1605056088,
+    "wof:lastmodified":1722233680,
     "wof:name":"West Township",
     "wof:parent_id":102083745,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3307,
+    "wof:population":3112,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

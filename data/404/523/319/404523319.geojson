@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.016204,
-    "geom:area_square_m":145865330.504399,
+    "geom:area_square_m":145865330.504405,
     "geom:bbox":"-73.410285,43.217377,-73.253288,43.353",
     "geom:latitude":43.281648,
     "geom:longitude":-73.323916,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.277456,
     "lbl:longitude":-73.309712,
     "lbl:max_zoom":16.0,
@@ -250,11 +256,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":3611533040,
     "uscensus:name":"Hebron",
     "uscensus:namelsad":"Hebron town",
+    "uscensus:population":1774,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -264,8 +273,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3611533040
+        "uscensus:geoid":"3611533040"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472893
     ],
@@ -284,11 +294,11 @@
         }
     ],
     "wof:id":404523319,
-    "wof:lastmodified":1605056100,
+    "wof:lastmodified":1722118000,
     "wof:name":"Hebron",
     "wof:parent_id":102083153,
     "wof:placetype":"localadmin",
-    "wof:population":1853,
+    "wof:population":1774,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

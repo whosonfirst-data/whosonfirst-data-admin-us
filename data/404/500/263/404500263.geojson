@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006137,
-    "geom:area_square_m":58471874.844528,
+    "geom:area_square_m":58471874.844503,
     "geom:bbox":"-86.417903,39.550494,-86.335517,39.631985",
     "geom:latitude":39.593412,
     "geom:longitude":-86.376725,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.594058,
     "lbl:longitude":-86.37672,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":109,
     "uscensus:geoid":1810908344,
     "uscensus:name":"Brown",
     "uscensus:namelsad":"Brown township",
+    "uscensus:population":13951,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1810908344
+        "uscensus:geoid":"1810908344"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404500263,
-    "wof:lastmodified":1604530785,
+    "wof:lastmodified":1722233648,
     "wof:name":"Brown Township",
     "wof:parent_id":102087091,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":12973,
+    "wof:population":13951,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

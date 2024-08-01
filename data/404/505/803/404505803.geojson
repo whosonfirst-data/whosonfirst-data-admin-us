@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009326,
-    "geom:area_square_m":85430347.097205,
+    "geom:area_square_m":85430347.097196,
     "geom:bbox":"-84.827867,42.158909,-84.711481,42.246931",
     "geom:latitude":42.200459,
     "geom:longitude":-84.771687,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.195693,
     "lbl:longitude":-84.771705,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":2602501000,
     "uscensus:name":"Albion",
     "uscensus:namelsad":"Albion township",
+    "uscensus:population":1091,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2602501000
+        "uscensus:geoid":"2602501000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460229
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404505803,
-    "wof:lastmodified":1605055282,
+    "wof:lastmodified":1722117903,
     "wof:name":"Albion Township",
     "wof:parent_id":102082993,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1123,
+    "wof:population":1091,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

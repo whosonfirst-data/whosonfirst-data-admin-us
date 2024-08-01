@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011201,
-    "geom:area_square_m":92247896.851961,
+    "geom:area_square_m":92247896.851966,
     "geom:bbox":"-95.465732,48.194244,-95.33515,48.281733",
     "geom:latitude":48.237877,
     "geom:longitude":-95.399947,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.237777,
     "lbl:longitude":-95.39995,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":2700726900,
     "uscensus:name":"Hamre",
     "uscensus:namelsad":"Hamre township",
+    "uscensus:population":20,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2700726900
+        "uscensus:geoid":"2700726900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460995
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404509243,
-    "wof:lastmodified":1605055787,
+    "wof:lastmodified":1722117928,
     "wof:name":"Hamre Township",
     "wof:parent_id":102087773,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":13,
+    "wof:population":20,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

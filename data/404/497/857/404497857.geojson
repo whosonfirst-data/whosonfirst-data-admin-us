@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009079,
-    "geom:area_square_m":87046376.455565,
+    "geom:area_square_m":87046376.45557,
     "geom:bbox":"-88.581977,39.090475,-88.470861,39.215315",
     "geom:latitude":39.16429,
     "geom:longitude":-88.537424,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.165771,
     "lbl:longitude":-88.549578,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":1704920474,
     "uscensus:name":"Douglas",
     "uscensus:namelsad":"Douglas township",
+    "uscensus:population":12589,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1704920474
+        "uscensus:geoid":"1704920474"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404497857,
-    "wof:lastmodified":1605055490,
+    "wof:lastmodified":1722233639,
     "wof:name":"Douglas Township",
     "wof:parent_id":102081667,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":12604,
+    "wof:population":12589,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

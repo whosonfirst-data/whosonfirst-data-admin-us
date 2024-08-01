@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009519,
-    "geom:area_square_m":82607524.804052,
+    "geom:area_square_m":82607524.804082,
     "geom:bbox":"-93.633993,45.385611,-93.509791,45.472249",
     "geom:latitude":45.427314,
     "geom:longitude":-93.568686,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.417604,
     "lbl:longitude":-93.544873,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":141,
     "uscensus:geoid":2714137754,
     "uscensus:name":"Livonia",
     "uscensus:namelsad":"Livonia township",
+    "uscensus:population":6373,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2714137754
+        "uscensus:geoid":"2714137754"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462253
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404513879,
-    "wof:lastmodified":1605056041,
+    "wof:lastmodified":1722117961,
     "wof:name":"Livonia Township",
     "wof:parent_id":102087609,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":5951,
+    "wof:population":6373,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

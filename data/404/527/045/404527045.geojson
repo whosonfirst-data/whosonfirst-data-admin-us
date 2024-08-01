@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.016516,
-    "geom:area_square_m":144930414.268747,
+    "geom:area_square_m":144930414.268727,
     "geom:bbox":"-72.578161,44.722893,-72.343955,44.842086",
     "geom:latitude":44.791543,
     "geom:longitude":-72.456848,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.785293,
     "lbl:longitude":-72.454616,
     "lbl:max_zoom":17.0,
@@ -109,11 +115,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":5001940525,
     "uscensus:name":"Lowell",
     "uscensus:namelsad":"Lowell town",
+    "uscensus:population":881,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -123,8 +132,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5001940525
+        "uscensus:geoid":"5001940525"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -140,11 +150,11 @@
         }
     ],
     "wof:id":404527045,
-    "wof:lastmodified":1605055682,
+    "wof:lastmodified":1722118028,
     "wof:name":"Lowell",
     "wof:parent_id":102087443,
     "wof:placetype":"localadmin",
-    "wof:population":879,
+    "wof:population":881,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

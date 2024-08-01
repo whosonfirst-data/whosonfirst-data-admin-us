@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.016103,
-    "geom:area_square_m":146337452.654336,
+    "geom:area_square_m":146337452.654235,
     "geom:bbox":"-90.780985,42.573183,-90.66185,42.770356",
     "geom:latitude":42.697782,
     "geom:longitude":-90.716599,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.729289,
     "lbl:longitude":-90.741911,
     "lbl:max_zoom":17.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":43,
     "uscensus:geoid":5504364650,
     "uscensus:name":"Potosi",
     "uscensus:namelsad":"Potosi town",
+    "uscensus:population":832,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5504364650
+        "uscensus:geoid":"5504364650"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468829
     ],
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404495025,
-    "wof:lastmodified":1605055981,
+    "wof:lastmodified":1722117837,
     "wof:name":"Potosi",
     "wof:parent_id":102081857,
     "wof:placetype":"localadmin",
-    "wof:population":849,
+    "wof:population":832,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

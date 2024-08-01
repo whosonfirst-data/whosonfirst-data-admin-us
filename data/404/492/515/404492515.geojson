@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007375,
-    "geom:area_square_m":66687449.919865,
+    "geom:area_square_m":66687449.919917,
     "geom:bbox":"-88.304983,42.937877,-88.173729,43.059648",
     "geom:latitude":43.00873,
     "geom:longitude":-88.246341,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.023773,
     "lbl:longitude":-88.245002,
     "lbl:max_zoom":14.0,
@@ -61,22 +67,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":133,
     "uscensus:geoid":5513384250,
     "uscensus:name":"Waukesha",
     "uscensus:namelsad":"Waukesha city",
+    "uscensus:population":70446,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081741
+        102081741,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5513384250
+        "uscensus:geoid":"5513384250"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -92,11 +102,11 @@
         }
     ],
     "wof:id":404492515,
-    "wof:lastmodified":1636499429,
+    "wof:lastmodified":1722117820,
     "wof:name":"Waukesha",
     "wof:parent_id":102081741,
     "wof:placetype":"localadmin",
-    "wof:population":70718,
+    "wof:population":70446,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

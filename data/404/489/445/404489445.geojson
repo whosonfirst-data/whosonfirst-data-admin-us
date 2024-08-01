@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01084,
-    "geom:area_square_m":93585324.220778,
+    "geom:area_square_m":93585324.220757,
     "geom:bbox":"-98.104058,45.675519,-97.979219,45.762702",
     "geom:latitude":45.719101,
     "geom:longitude":-98.041593,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.719118,
     "lbl:longitude":-98.041602,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":4601359840,
     "uscensus:name":"South Detroit",
     "uscensus:namelsad":"South Detroit township",
+    "uscensus:population":50,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4601359840
+        "uscensus:geoid":"4601359840"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729455697
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404489445,
-    "wof:lastmodified":1605055933,
+    "wof:lastmodified":1722117800,
     "wof:name":"South Detroit Township",
     "wof:parent_id":102086843,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":65,
+    "wof:population":50,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

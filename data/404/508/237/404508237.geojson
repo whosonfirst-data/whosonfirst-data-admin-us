@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010319,
-    "geom:area_square_m":94639470.708389,
+    "geom:area_square_m":94639470.708396,
     "geom:bbox":"-84.011424,42.078005,-83.889685,42.167307",
     "geom:latitude":42.122609,
     "geom:longitude":-83.950745,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.122592,
     "lbl:longitude":-83.950749,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":161,
     "uscensus:geoid":2616110560,
     "uscensus:name":"Bridgewater",
     "uscensus:namelsad":"Bridgewater township",
+    "uscensus:population":1589,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2616110560
+        "uscensus:geoid":"2616110560"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468497
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404508237,
-    "wof:lastmodified":1605055747,
+    "wof:lastmodified":1722117920,
     "wof:name":"Bridgewater Township",
     "wof:parent_id":102083763,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1674,
+    "wof:population":1589,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.031832,
-    "geom:area_square_m":307500100.513502,
+    "geom:area_square_m":307500100.513474,
     "geom:bbox":"-100.907998,38.554915,-100.686858,38.700031",
     "geom:latitude":38.627517,
     "geom:longitude":-100.797454,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.627658,
     "lbl:longitude":-100.797448,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":171,
     "uscensus:geoid":2017146175,
     "uscensus:name":"Michigan",
     "uscensus:namelsad":"Michigan township",
+    "uscensus:population":79,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2017146175
+        "uscensus:geoid":"2017146175"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466791
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404504877,
-    "wof:lastmodified":1605055307,
+    "wof:lastmodified":1722117896,
     "wof:name":"Michigan Township",
     "wof:parent_id":102083461,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":89,
+    "wof:population":79,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

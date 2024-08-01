@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00166,
-    "geom:area_square_m":15688992.954142,
+    "geom:area_square_m":15688992.954114,
     "geom:bbox":"-75.376116,40.124794,-75.298153,40.175767",
     "geom:latitude":40.150628,
     "geom:longitude":-75.336444,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.150946,
     "lbl:longitude":-75.336448,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":91,
     "uscensus:geoid":4209121600,
     "uscensus:name":"East Norriton",
     "uscensus:namelsad":"East Norriton township",
+    "uscensus:population":14017,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4209121600
+        "uscensus:geoid":"4209121600"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729453553
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404485455,
-    "wof:lastmodified":1605055360,
+    "wof:lastmodified":1722117774,
     "wof:name":"East Norriton Township",
     "wof:parent_id":102081355,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":13590,
+    "wof:population":14017,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

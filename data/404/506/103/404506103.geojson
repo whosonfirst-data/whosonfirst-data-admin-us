@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010194,
-    "geom:area_square_m":92470510.065028,
+    "geom:area_square_m":92470510.065043,
     "geom:bbox":"-85.66381,42.768099,-85.545521,42.85493",
     "geom:latitude":42.811432,
     "geom:longitude":-85.604629,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":42.811435,
     "lbl:longitude":-85.604629,
@@ -75,11 +78,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":81,
     "uscensus:geoid":2608131240,
     "uscensus:name":"Gaines",
     "uscensus:namelsad":"Gaines charter township",
+    "uscensus:population":29564,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -89,8 +95,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2608131240
+        "uscensus:geoid":"2608131240"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -106,11 +113,11 @@
         }
     ],
     "wof:id":404506103,
-    "wof:lastmodified":1605055750,
+    "wof:lastmodified":1722117905,
     "wof:name":"Gaines",
     "wof:parent_id":102083023,
     "wof:placetype":"localadmin",
-    "wof:population":25146,
+    "wof:population":29564,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

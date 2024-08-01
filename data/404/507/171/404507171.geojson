@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.021215,
-    "geom:area_square_m":184706320.491941,
+    "geom:area_square_m":184706320.491931,
     "geom:bbox":"-84.611894,45.198724,-84.36599,45.287574",
     "geom:latitude":45.243007,
     "geom:longitude":-84.489421,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.243556,
     "lbl:longitude":-84.489427,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":2603159500,
     "uscensus:name":"Nunda",
     "uscensus:namelsad":"Nunda township",
+    "uscensus:population":1221,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2603159500
+        "uscensus:geoid":"2603159500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404507171,
-    "wof:lastmodified":1605055783,
+    "wof:lastmodified":1722233666,
     "wof:name":"Nunda Township",
     "wof:parent_id":102083095,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1042,
+    "wof:population":1221,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

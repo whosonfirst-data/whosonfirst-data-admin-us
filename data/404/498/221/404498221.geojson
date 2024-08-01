@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010135,
-    "geom:area_square_m":92971119.057927,
+    "geom:area_square_m":92971119.057903,
     "geom:bbox":"-88.355168,42.066382,-88.238186,42.154249",
     "geom:latitude":42.110308,
     "geom:longitude":-88.296499,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.110347,
     "lbl:longitude":-88.296499,
     "lbl:max_zoom":14.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":89,
     "uscensus:geoid":1708921046,
     "uscensus:name":"Dundee",
     "uscensus:namelsad":"Dundee township",
+    "uscensus:population":63900,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1708921046
+        "uscensus:geoid":"1708921046"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404498221,
-    "wof:lastmodified":1605055559,
+    "wof:lastmodified":1722233641,
     "wof:name":"Dundee Township",
     "wof:parent_id":102086925,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":64167,
+    "wof:population":63900,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

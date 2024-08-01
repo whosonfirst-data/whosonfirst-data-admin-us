@@ -10,6 +10,12 @@
     "geom:latitude":39.219903,
     "geom:longitude":-99.437736,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.21991,
     "lbl:longitude":-99.437743,
     "lbl:max_zoom":18.0,
@@ -47,11 +53,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":163,
     "uscensus:geoid":2016371243,
     "uscensus:name":"10",
     "uscensus:namelsad":"Township 10",
+    "uscensus:population":145,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     "wof:concordances":{
         "gn:id":4133759,
         "qs_pg:id":1032765,
-        "uscensus:geoid":2016371243
+        "uscensus:geoid":"2016371243"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -81,11 +91,11 @@
         }
     ],
     "wof:id":404505165,
-    "wof:lastmodified":1605055286,
+    "wof:lastmodified":1722233663,
     "wof:name":"Township 10",
     "wof:parent_id":102083435,
     "wof:placetype":"localadmin",
-    "wof:population":176,
+    "wof:population":145,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

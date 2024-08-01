@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01533,
-    "geom:area_square_m":134596350.794141,
+    "geom:area_square_m":134596350.794149,
     "geom:bbox":"-67.362143,44.697519,-67.143466,44.825788",
     "geom:latitude":44.761272,
     "geom:longitude":-67.252836,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.761891,
     "lbl:longitude":-67.252835,
     "lbl:max_zoom":17.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":2302985185,
     "uscensus:name":"Whiting",
     "uscensus:namelsad":"Whiting town",
+    "uscensus:population":487,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2302985185
+        "uscensus:geoid":"2302985185"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456411
     ],
@@ -116,7 +126,7 @@
         }
     ],
     "wof:id":404475871,
-    "wof:lastmodified":1605055852,
+    "wof:lastmodified":1722117711,
     "wof:name":"Whiting",
     "wof:parent_id":102081143,
     "wof:placetype":"localadmin",

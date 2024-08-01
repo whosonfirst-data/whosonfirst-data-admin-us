@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007646,
-    "geom:area_square_m":71794139.253301,
+    "geom:area_square_m":71794139.253306,
     "geom:bbox":"-75.100826,40.536101,-74.957757,40.646732",
     "geom:latitude":40.588405,
     "geom:longitude":-75.031149,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.585096,
     "lbl:longitude":-75.020311,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":3401900550,
     "uscensus:name":"Alexandria",
     "uscensus:namelsad":"Alexandria township",
+    "uscensus:population":4817,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3401900550
+        "uscensus:geoid":"3401900550"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473693
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404478151,
-    "wof:lastmodified":1605055334,
+    "wof:lastmodified":1722117728,
     "wof:name":"Alexandria Township",
     "wof:parent_id":102085997,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":4938,
+    "wof:population":4817,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

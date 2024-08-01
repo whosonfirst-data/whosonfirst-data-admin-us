@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010715,
-    "geom:area_square_m":93418959.156361,
+    "geom:area_square_m":93418959.15637,
     "geom:bbox":"-88.930554,45.11753,-88.803227,45.204536",
     "geom:latitude":45.161044,
     "geom:longitude":-88.866965,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.161006,
     "lbl:longitude":-88.866964,
     "lbl:max_zoom":17.0,
@@ -187,11 +193,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":67,
     "uscensus:geoid":5506724575,
     "uscensus:name":"Evergreen",
     "uscensus:namelsad":"Evergreen town",
+    "uscensus:population":458,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -201,8 +210,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5506724575
+        "uscensus:geoid":"5506724575"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471063
     ],
@@ -221,11 +231,11 @@
         }
     ],
     "wof:id":404491741,
-    "wof:lastmodified":1605055583,
+    "wof:lastmodified":1722117815,
     "wof:name":"Evergreen",
     "wof:parent_id":102081751,
     "wof:placetype":"localadmin",
-    "wof:population":495,
+    "wof:population":458,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

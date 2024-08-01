@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001558,
-    "geom:area_square_m":14666807.992791,
+    "geom:area_square_m":14666807.992793,
     "geom:bbox":"-74.212058,40.405025,-74.131271,40.448488",
     "geom:latitude":40.426535,
     "geom:longitude":-74.171186,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.426852,
     "lbl:longitude":-74.171197,
     "lbl:max_zoom":14.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":3402530690,
     "uscensus:name":"Hazlet",
     "uscensus:namelsad":"Hazlet township",
+    "uscensus:population":20524,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3402530690
+        "uscensus:geoid":"3402530690"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729477141
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404478345,
-    "wof:lastmodified":1605055352,
+    "wof:lastmodified":1722117729,
     "wof:name":"Hazlet Township",
     "wof:parent_id":102085049,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":20334,
+    "wof:population":20524,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

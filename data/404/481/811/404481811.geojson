@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011029,
-    "geom:area_square_m":92210893.008015,
+    "geom:area_square_m":92210893.007999,
     "geom:bbox":"-97.219336,47.410994,-97.091871,47.497944",
     "geom:latitude":47.45447,
     "geom:longitude":-97.155605,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.454456,
     "lbl:longitude":-97.155605,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":97,
     "uscensus:geoid":3809758540,
     "uscensus:name":"Norway",
     "uscensus:namelsad":"Norway township",
+    "uscensus:population":162,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3809758540
+        "uscensus:geoid":"3809758540"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471247
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404481811,
-    "wof:lastmodified":1605055822,
+    "wof:lastmodified":1722117753,
     "wof:name":"Norway Township",
     "wof:parent_id":102081481,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":169,
+    "wof:population":162,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

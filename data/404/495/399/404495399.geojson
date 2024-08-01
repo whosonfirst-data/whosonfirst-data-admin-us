@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010375,
-    "geom:area_square_m":90866977.387397,
+    "geom:area_square_m":90866977.387413,
     "geom:bbox":"-90.198724,44.858477,-90.078534,44.945668",
     "geom:latitude":44.902147,
     "geom:longitude":-90.138542,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.902079,
     "lbl:longitude":-90.138545,
     "lbl:max_zoom":17.0,
@@ -115,11 +121,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":73,
     "uscensus:geoid":5507327150,
     "uscensus:name":"Frankfort",
     "uscensus:namelsad":"Frankfort town",
+    "uscensus:population":637,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -129,8 +138,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5507327150
+        "uscensus:geoid":"5507327150"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468175
     ],
@@ -149,11 +159,11 @@
         }
     ],
     "wof:id":404495399,
-    "wof:lastmodified":1605055979,
+    "wof:lastmodified":1722117839,
     "wof:name":"Frankfort",
     "wof:parent_id":102081881,
     "wof:placetype":"localadmin",
-    "wof:population":670,
+    "wof:population":637,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

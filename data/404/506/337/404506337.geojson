@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000742,
-    "geom:area_square_m":6761920.287444,
+    "geom:area_square_m":6761920.28744,
     "geom:bbox":"-83.203419,42.488359,-83.158629,42.510634",
     "geom:latitude":42.498602,
     "geom:longitude":-83.185343,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.499565,
     "lbl:longitude":-83.185343,
     "lbl:max_zoom":15.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":2612507660,
     "uscensus:name":"Berkley",
     "uscensus:namelsad":"Berkley city",
+    "uscensus:population":14934,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2612507660
+        "uscensus:geoid":"2612507660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404506337,
-    "wof:lastmodified":1605055751,
+    "wof:lastmodified":1722117906,
     "wof:name":"Berkley",
     "wof:parent_id":102083713,
     "wof:placetype":"localadmin",
-    "wof:population":14970,
+    "wof:population":14934,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

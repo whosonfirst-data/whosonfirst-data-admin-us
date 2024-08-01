@@ -148,7 +148,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":7229221,
     "uscensus:awater":1626,
     "uscensus:classfp":"C5",
@@ -164,17 +165,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"27566",
     "uscensus:placens":"02394322",
+    "uscensus:population":51,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":513.0,
     "wd:latitude":43.9575,
     "wd:longitude":-96.195278,
     "wd:wordcount":733,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404513519,
         85633793,
-        102087865
+        102087865,
+        404513519,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -183,10 +186,11 @@
         "gn:id":5029513,
         "gp:id":2418637,
         "qs_pg:id":966978,
-        "uscensus:geoid":2727566,
+        "uscensus:geoid":"2727566",
         "wd:id":"Q2230598",
         "wk:page":"Hatfield, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -207,11 +211,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884444,
+    "wof:lastmodified":1722116099,
     "wof:name":"Hatfield",
     "wof:parent_id":404513519,
     "wof:placetype":"locality",
-    "wof:population":54,
+    "wof:population":51,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003261,
-    "geom:area_square_m":30819888.235666,
+    "geom:area_square_m":30819888.23568,
     "geom:bbox":"-84.298493,40.115393,-84.185681,40.186351",
     "geom:latitude":40.150528,
     "geom:longitude":-84.244004,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.148247,
     "lbl:longitude":-84.257291,
     "lbl:max_zoom":14.0,
@@ -61,11 +67,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":109,
     "uscensus:geoid":3910962848,
     "uscensus:name":"Piqua",
     "uscensus:namelsad":"Piqua city",
+    "uscensus:population":20747,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -75,8 +84,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3910962848
+        "uscensus:geoid":"3910962848"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -92,11 +102,11 @@
         }
     ],
     "wof:id":404526621,
-    "wof:lastmodified":1605055644,
+    "wof:lastmodified":1722118024,
     "wof:name":"Piqua",
     "wof:parent_id":102084719,
     "wof:placetype":"localadmin",
-    "wof:population":20522,
+    "wof:population":20747,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

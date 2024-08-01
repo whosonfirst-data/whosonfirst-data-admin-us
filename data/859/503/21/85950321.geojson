@@ -211,7 +211,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":155218810,
     "uscensus:awater":42830898,
     "uscensus:classfp":"C5",
@@ -227,17 +228,19 @@
     "uscensus:pcinecta":"Y",
     "uscensus:placefp":"03690",
     "uscensus:placens":"00618248",
+    "uscensus:population":49709,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"25",
     "wd:elevation":11.0,
     "wd:latitude":41.7,
     "wd:longitude":-70.3,
     "wd:wordcount":2724,
     "wof:belongsto":[
-        85688645,
         102191575,
-        404475893,
         85633793,
-        102084379
+        102084379,
+        404475893,
+        85688645
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -248,10 +251,11 @@
         "gp:id":2359460,
         "nyt:id":"N79403021392496191691",
         "qs_pg:id":1050570,
-        "uscensus:geoid":2503690,
+        "uscensus:geoid":"2503690",
         "wd:id":"Q808535",
         "wk:page":"Barnstable, Massachusetts"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -269,11 +273,11 @@
         }
     ],
     "wof:id":85950321,
-    "wof:lastmodified":1690881956,
+    "wof:lastmodified":1722115954,
     "wof:name":"Barnstable Town",
     "wof:parent_id":404475893,
     "wof:placetype":"locality",
-    "wof:population":47821,
+    "wof:population":49709,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

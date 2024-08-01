@@ -10,6 +10,7 @@
     "geom:latitude":33.364459,
     "geom:longitude":-82.07084,
     "iso:country":"US",
+    "lbl:bbox":"-82.0049805112,33.4408115835,-81.9649805112,33.4808115835",
     "lbl:latitude":33.411269,
     "lbl:longitude":-82.03151,
     "lbl:max_zoom":18.0,
@@ -375,6 +376,7 @@
     "ne:UN_LAT":0.0,
     "ne:UN_LONG":0.0,
     "ne:WORLDCITY":0,
+    "ne:min_zoom":6.0,
     "qs:a0":"United States",
     "qs:a1":"*Georgia",
     "qs:a1_lc":"13",
@@ -389,25 +391,38 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
+    "reversegeo:latitude":33.460812,
+    "reversegeo:longitude":-81.984981,
     "src:geom":"quattroshapes",
     "src:geom_alt":[
         "quattroshapes_pg",
         "naturalearth"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":200884,
+    "uscensus:population_date":"2023",
     "wof:belongsto":[
         102191575,
         85633793,
-        85688535,
-        102082951
+        102082951,
+        85688535
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":4180531,
         "gp:id":2357383,
         "qs_pg:id":274769,
+        "uscensus:geoid":"1304204",
         "wd:id":"Q181962"
     },
+    "wof:concordances_alt":{
+        "wd:id":[
+            "Q181962"
+        ]
+    },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -425,13 +440,17 @@
     ],
     "wof:id":85936989,
     "wof:label":"Augusta-Richmond County",
-    "wof:lastmodified":1690884333,
+    "wof:lastmodified":1722116397,
     "wof:name":"Augusta",
     "wof:parent_id":102082951,
     "wof:placetype":"locality",
+    "wof:population":200884,
+    "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1141908695
+    ],
     "wof:tags":[]
 },
   "bbox": [

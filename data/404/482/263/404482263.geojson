@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011046,
-    "geom:area_square_m":93410857.618133,
+    "geom:area_square_m":93410857.618082,
     "geom:bbox":"-98.945687,46.804513,-98.818602,46.892606",
     "geom:latitude":46.848802,
     "geom:longitude":-98.882039,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.848985,
     "lbl:longitude":-98.882032,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":93,
     "uscensus:geoid":3809347060,
     "uscensus:name":"Lippert",
     "uscensus:namelsad":"Lippert township",
+    "uscensus:population":85,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3809347060
+        "uscensus:geoid":"3809347060"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460683
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404482263,
-    "wof:lastmodified":1605055389,
+    "wof:lastmodified":1722117755,
     "wof:name":"Lippert Township",
     "wof:parent_id":102082093,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":96,
+    "wof:population":85,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

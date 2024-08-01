@@ -10,6 +10,12 @@
     "geom:latitude":45.856619,
     "geom:longitude":-97.103531,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.856174,
     "lbl:longitude":-97.104023,
     "lbl:max_zoom":18.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":109,
     "uscensus:geoid":4610912020,
     "uscensus:name":"Claire City",
     "uscensus:namelsad":"Claire City town",
+    "uscensus:population":81,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4610912020
+        "uscensus:geoid":"4610912020"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404490815,
-    "wof:lastmodified":1605055521,
+    "wof:lastmodified":1722117809,
     "wof:name":"Claire City",
     "wof:parent_id":102086057,
     "wof:placetype":"localadmin",
-    "wof:population":76,
+    "wof:population":81,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

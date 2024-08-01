@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00017,
-    "geom:area_square_m":1593468.151556,
+    "geom:area_square_m":1593468.151554,
     "geom:bbox":"-75.246363,40.648236,-75.226356,40.672944",
     "geom:latitude":40.660876,
     "geom:longitude":-75.236271,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.658474,
     "lbl:longitude":-75.237257,
     "lbl:max_zoom":17.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":4209529568,
     "uscensus:name":"Glendon",
     "uscensus:namelsad":"Glendon borough",
+    "uscensus:population":368,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4209529568
+        "uscensus:geoid":"4209529568"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,11 +96,11 @@
         }
     ],
     "wof:id":404486003,
-    "wof:lastmodified":1605055872,
+    "wof:lastmodified":1722117777,
     "wof:name":"Glendon",
     "wof:parent_id":102081395,
     "wof:placetype":"localadmin",
-    "wof:population":440,
+    "wof:population":368,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

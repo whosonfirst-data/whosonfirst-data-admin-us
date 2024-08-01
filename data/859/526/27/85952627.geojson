@@ -160,7 +160,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2098218,
     "uscensus:awater":228072,
     "uscensus:classfp":"C5",
@@ -176,17 +177,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"54736",
     "uscensus:placens":"02396386",
+    "uscensus:population":117,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":375.0,
     "wd:latitude":46.46,
     "wd:longitude":-94.051944,
     "wd:wordcount":848,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404509537,
         85633793,
-        102087093
+        102087093,
+        404509537,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -195,10 +198,11 @@
         "gn:id":5043403,
         "gp:id":2482322,
         "qs_pg:id":244719,
-        "uscensus:geoid":2754736,
+        "uscensus:geoid":"2754736",
         "wd:id":"Q1887967",
         "wk:page":"Riverton, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -219,7 +223,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883476,
+    "wof:lastmodified":1722116041,
     "wof:name":"Riverton",
     "wof:parent_id":404509537,
     "wof:placetype":"locality",

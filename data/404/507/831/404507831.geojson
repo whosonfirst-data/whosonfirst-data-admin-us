@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010459,
-    "geom:area_square_m":93869409.541734,
+    "geom:area_square_m":93869409.541739,
     "geom:bbox":"-82.992884,43.417142,-82.869154,43.508516",
     "geom:latitude":43.462595,
     "geom:longitude":-82.930715,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.46259,
     "lbl:longitude":-82.930716,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":151,
     "uscensus:geoid":2615155320,
     "uscensus:name":"Moore",
     "uscensus:namelsad":"Moore township",
+    "uscensus:population":1096,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2615155320
+        "uscensus:geoid":"2615155320"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404507831,
-    "wof:lastmodified":1605055780,
+    "wof:lastmodified":1722117917,
     "wof:name":"Moore Township",
     "wof:parent_id":102083137,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1203,
+    "wof:population":1096,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

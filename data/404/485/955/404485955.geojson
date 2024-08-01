@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006826,
-    "geom:area_square_m":63978806.46325,
+    "geom:area_square_m":63978806.46327,
     "geom:bbox":"-75.757807,40.662506,-75.633067,40.76612",
     "geom:latitude":40.709541,
     "geom:longitude":-75.699492,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.70714,
     "lbl:longitude":-75.700437,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":77,
     "uscensus:geoid":4207733616,
     "uscensus:name":"Heidelberg",
     "uscensus:namelsad":"Heidelberg township",
+    "uscensus:population":3335,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207733616
+        "uscensus:geoid":"4207733616"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729477993
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404485955,
-    "wof:lastmodified":1605055356,
+    "wof:lastmodified":1722117777,
     "wof:name":"Heidelberg Township",
     "wof:parent_id":102081327,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3416,
+    "wof:population":3335,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

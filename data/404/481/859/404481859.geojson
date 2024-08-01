@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011297,
-    "geom:area_square_m":92238406.722135,
+    "geom:area_square_m":92238406.722165,
     "geom:bbox":"-99.493133,48.631482,-99.362164,48.718359",
     "geom:latitude":48.674838,
     "geom:longitude":-99.427547,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.674976,
     "lbl:longitude":-99.427551,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":3809531980,
     "uscensus:name":"Grainfield",
     "uscensus:namelsad":"Grainfield township",
+    "uscensus:population":33,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3809531980
+        "uscensus:geoid":"3809531980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472081
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404481859,
-    "wof:lastmodified":1605055824,
+    "wof:lastmodified":1722117753,
     "wof:name":"Grainfield Township",
     "wof:parent_id":102082111,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":36,
+    "wof:population":33,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

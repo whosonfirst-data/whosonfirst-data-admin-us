@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003123,
-    "geom:area_square_m":26061175.525871,
+    "geom:area_square_m":26061175.525901,
     "geom:bbox":"-92.385976,47.523424,-92.272415,47.603327",
     "geom:latitude":47.55507,
     "geom:longitude":-92.323314,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.534547,
     "lbl:longitude":-92.336706,
     "lbl:max_zoom":17.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":137,
     "uscensus:geoid":2713706148,
     "uscensus:name":"Biwabik",
     "uscensus:namelsad":"Biwabik city",
+    "uscensus:population":963,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2713706148
+        "uscensus:geoid":"2713706148"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404513561,
-    "wof:lastmodified":1605056032,
+    "wof:lastmodified":1722117959,
     "wof:name":"Biwabik",
     "wof:parent_id":102087653,
     "wof:placetype":"localadmin",
-    "wof:population":969,
+    "wof:population":963,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

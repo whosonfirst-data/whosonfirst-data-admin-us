@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.015539,
-    "geom:area_square_m":147213507.728972,
+    "geom:area_square_m":147213507.728919,
     "geom:bbox":"-94.605377,39.936548,-94.452575,40.039308",
     "geom:latitude":39.988035,
     "geom:longitude":-94.529078,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.987974,
     "lbl:longitude":-94.529082,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":63,
     "uscensus:geoid":2906358772,
     "uscensus:name":"Polk",
     "uscensus:namelsad":"Polk township",
+    "uscensus:population":727,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":29,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2906358772
+        "uscensus:geoid":"2906358772"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404516803,
-    "wof:lastmodified":1604530741,
+    "wof:lastmodified":1722233669,
     "wof:name":"Polk Township",
     "wof:parent_id":102086139,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":768,
+    "wof:population":727,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

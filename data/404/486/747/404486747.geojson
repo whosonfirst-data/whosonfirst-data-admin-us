@@ -10,6 +10,12 @@
     "geom:latitude":40.571174,
     "geom:longitude":-77.39514,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.571175,
     "lbl:longitude":-77.395514,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":67,
     "uscensus:geoid":4206749304,
     "uscensus:name":"Mifflintown",
     "uscensus:namelsad":"Mifflintown borough",
+    "uscensus:population":818,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206749304
+        "uscensus:geoid":"4206749304"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404486747,
-    "wof:lastmodified":1605055866,
+    "wof:lastmodified":1722117782,
     "wof:name":"Mifflintown",
     "wof:parent_id":102081367,
     "wof:placetype":"localadmin",
-    "wof:population":936,
+    "wof:population":818,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

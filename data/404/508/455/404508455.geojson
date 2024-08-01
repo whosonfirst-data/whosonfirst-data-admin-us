@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010511,
-    "geom:area_square_m":93031676.842493,
+    "geom:area_square_m":93031676.842477,
     "geom:bbox":"-84.125731,44.247684,-84.004402,44.335006",
     "geom:latitude":44.291434,
     "geom:longitude":-84.065184,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.291253,
     "lbl:longitude":-84.065183,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":129,
     "uscensus:geoid":2612915740,
     "uscensus:name":"Churchill",
     "uscensus:namelsad":"Churchill township",
+    "uscensus:population":1559,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2612915740
+        "uscensus:geoid":"2612915740"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466315
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404508455,
-    "wof:lastmodified":1605055738,
+    "wof:lastmodified":1722117922,
     "wof:name":"Churchill Township",
     "wof:parent_id":102083113,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1713,
+    "wof:population":1559,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

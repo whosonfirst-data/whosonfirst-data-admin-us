@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000144,
-    "geom:area_square_m":1324317.969644,
+    "geom:area_square_m":1324317.969643,
     "geom:bbox":"-75.52249,41.855991,-75.505748,41.871882",
     "geom:latitude":41.863656,
     "geom:longitude":-75.514124,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.863818,
     "lbl:longitude":-75.51413,
     "lbl:max_zoom":17.0,
@@ -136,22 +142,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":4211576496,
     "uscensus:name":"Thompson",
     "uscensus:namelsad":"Thompson borough",
+    "uscensus:population":248,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688481,
-        102081381
+        102081381,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4211576496
+        "uscensus:geoid":"4211576496"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -167,11 +177,11 @@
         }
     ],
     "wof:id":404487395,
-    "wof:lastmodified":1636499384,
+    "wof:lastmodified":1722117787,
     "wof:name":"Thompson",
     "wof:parent_id":102081381,
     "wof:placetype":"localadmin",
-    "wof:population":299,
+    "wof:population":248,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

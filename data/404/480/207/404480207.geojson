@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013755,
-    "geom:area_square_m":111707202.612627,
+    "geom:area_square_m":111707202.612532,
     "geom:bbox":"-103.070643,48.894006,-102.938861,48.99933",
     "geom:latitude":48.946852,
     "geom:longitude":-103.004828,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.946861,
     "lbl:longitude":-103.004827,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":3802352260,
     "uscensus:name":"Mentor",
     "uscensus:namelsad":"Mentor township",
+    "uscensus:population":25,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3802352260
+        "uscensus:geoid":"3802352260"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474553
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404480207,
-    "wof:lastmodified":1605055917,
+    "wof:lastmodified":1722117743,
     "wof:name":"Mentor Township",
     "wof:parent_id":102082081,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":19,
+    "wof:population":25,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

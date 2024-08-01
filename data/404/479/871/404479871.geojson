@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013232,
-    "geom:area_square_m":107659813.688695,
+    "geom:area_square_m":107659813.688721,
     "geom:bbox":"-98.102679,48.804363,-97.949058,48.924536",
     "geom:latitude":48.853062,
     "geom:longitude":-98.021035,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.851871,
     "lbl:longitude":-98.022513,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":3801958060,
     "uscensus:name":"North Olga",
     "uscensus:namelsad":"North Olga township",
+    "uscensus:population":51,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3801958060
+        "uscensus:geoid":"3801958060"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729453691
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404479871,
-    "wof:lastmodified":1605055480,
+    "wof:lastmodified":1722117740,
     "wof:name":"North Olga Township",
     "wof:parent_id":102081513,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":39,
+    "wof:population":51,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

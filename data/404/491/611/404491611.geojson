@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010507,
-    "geom:area_square_m":92167354.853587,
+    "geom:area_square_m":92167354.853549,
     "geom:bbox":"-90.800754,44.770521,-90.678857,44.857393",
     "geom:latitude":44.814046,
     "geom:longitude":-90.73969,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.814033,
     "lbl:longitude":-90.73969,
     "lbl:max_zoom":17.0,
@@ -202,11 +208,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":5501950275,
     "uscensus:name":"Mead",
     "uscensus:namelsad":"Mead town",
+    "uscensus:population":358,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -216,8 +225,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5501950275
+        "uscensus:geoid":"5501950275"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469831
     ],
@@ -236,11 +246,11 @@
         }
     ],
     "wof:id":404491611,
-    "wof:lastmodified":1605055578,
+    "wof:lastmodified":1722117814,
     "wof:name":"Mead",
     "wof:parent_id":102081269,
     "wof:placetype":"localadmin",
-    "wof:population":321,
+    "wof:population":358,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

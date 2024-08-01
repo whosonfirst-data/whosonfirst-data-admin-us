@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010394,
-    "geom:area_square_m":92538945.085968,
+    "geom:area_square_m":92538945.085951,
     "geom:bbox":"-85.088477,43.900421,-84.968081,43.987911",
     "geom:latitude":43.944256,
     "geom:longitude":-85.028407,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.944232,
     "lbl:longitude":-85.028413,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":2603530560,
     "uscensus:name":"Freeman",
     "uscensus:namelsad":"Freeman township",
+    "uscensus:population":1133,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2603530560
+        "uscensus:geoid":"2603530560"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460047
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404505859,
-    "wof:lastmodified":1605055281,
+    "wof:lastmodified":1722117903,
     "wof:name":"Freeman Township",
     "wof:parent_id":102083753,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1157,
+    "wof:population":1133,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

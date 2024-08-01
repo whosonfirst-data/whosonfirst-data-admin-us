@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001207,
-    "geom:area_square_m":10953948.416843,
+    "geom:area_square_m":10953948.416835,
     "geom:bbox":"-73.731717,42.751143,-73.676762,42.794077",
     "geom:latitude":42.773276,
     "geom:longitude":-73.707736,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.775733,
     "lbl:longitude":-73.71503,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":3600116749,
     "uscensus:name":"Cohoes",
     "uscensus:namelsad":"Cohoes city",
+    "uscensus:population":18206,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3600116749
+        "uscensus:geoid":"3600116749"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404521135,
-    "wof:lastmodified":1605055624,
+    "wof:lastmodified":1722117984,
     "wof:name":"Cohoes",
     "wof:parent_id":102082353,
     "wof:placetype":"localadmin",
-    "wof:population":16168,
+    "wof:population":18206,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

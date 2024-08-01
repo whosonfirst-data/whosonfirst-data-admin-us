@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001333,
-    "geom:area_square_m":11734488.828211,
+    "geom:area_square_m":11734488.828222,
     "geom:bbox":"-88.777541,44.596991,-88.723294,44.647699",
     "geom:latitude":44.622188,
     "geom:longitude":-88.751326,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.623891,
     "lbl:longitude":-88.757668,
     "lbl:max_zoom":15.0,
@@ -64,11 +70,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":135,
     "uscensus:geoid":5513515725,
     "uscensus:name":"Clintonville",
     "uscensus:namelsad":"Clintonville city",
+    "uscensus:population":4529,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -78,8 +87,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5513515725
+        "uscensus:geoid":"5513515725"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -95,11 +105,11 @@
         }
     ],
     "wof:id":404495689,
-    "wof:lastmodified":1605055981,
+    "wof:lastmodified":1722117841,
     "wof:name":"Clintonville",
     "wof:parent_id":102081823,
     "wof:placetype":"localadmin",
-    "wof:population":4559,
+    "wof:population":4529,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

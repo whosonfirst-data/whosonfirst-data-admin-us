@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010265,
-    "geom:area_square_m":98066985.304214,
+    "geom:area_square_m":98066985.304195,
     "geom:bbox":"-82.06405,39.366452,-81.940542,39.460053",
     "geom:latitude":39.413132,
     "geom:longitude":-82.001992,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.413306,
     "lbl:longitude":-82.001992,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":3900901770,
     "uscensus:name":"Ames",
     "uscensus:namelsad":"Ames township",
+    "uscensus:population":1220,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3900901770
+        "uscensus:geoid":"3900901770"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404524819,
-    "wof:lastmodified":1605056104,
+    "wof:lastmodified":1722233683,
     "wof:name":"Ames Township",
     "wof:parent_id":102084755,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1183,
+    "wof:population":1220,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

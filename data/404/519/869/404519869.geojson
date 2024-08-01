@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013959,
-    "geom:area_square_m":127084628.114799,
+    "geom:area_square_m":127084628.114733,
     "geom:bbox":"-96.781089,42.524287,-96.631492,42.667168",
     "geom:latitude":42.585326,
     "geom:longitude":-96.726196,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.595536,
     "lbl:longitude":-96.744607,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":3105139730,
     "uscensus:name":"Ponca",
     "uscensus:namelsad":"Ponca township",
+    "uscensus:population":365,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3105139730
+        "uscensus:geoid":"3105139730"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466989
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404519869,
-    "wof:lastmodified":1605055665,
+    "wof:lastmodified":1722117981,
     "wof:name":"Ponca Township",
     "wof:parent_id":102082809,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":341,
+    "wof:population":365,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

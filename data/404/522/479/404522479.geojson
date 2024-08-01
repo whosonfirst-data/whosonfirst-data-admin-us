@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.016988,
-    "geom:area_square_m":155373421.075692,
+    "geom:area_square_m":155373421.075728,
     "geom:bbox":"-74.143122,42.221559,-73.909266,42.357574",
     "geom:latitude":42.296477,
     "geom:longitude":-74.020508,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.297861,
     "lbl:longitude":-74.020525,
     "lbl:max_zoom":15.0,
@@ -601,11 +607,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":39,
     "uscensus:geoid":3603911649,
     "uscensus:name":"Cairo",
     "uscensus:namelsad":"Cairo town",
+    "uscensus:population":6668,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -615,8 +624,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3603911649
+        "uscensus:geoid":"3603911649"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -632,11 +642,11 @@
         }
     ],
     "wof:id":404522479,
-    "wof:lastmodified":1605056068,
+    "wof:lastmodified":1722117994,
     "wof:name":"Cairo",
     "wof:parent_id":102082393,
     "wof:placetype":"localadmin",
-    "wof:population":6670,
+    "wof:population":6668,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

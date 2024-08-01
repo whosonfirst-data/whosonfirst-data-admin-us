@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00542,
-    "geom:area_square_m":51022119.218164,
+    "geom:area_square_m":51022119.218173,
     "geom:bbox":"-79.821804,40.385311,-79.703834,40.462069",
     "geom:latitude":40.426243,
     "geom:longitude":-79.760528,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "municipality"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.430183,
     "lbl:longitude":-79.750207,
     "lbl:max_zoom":14.0,
@@ -70,11 +76,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4200350528,
     "uscensus:name":"Monroeville",
     "uscensus:namelsad":"Monroeville municipality",
+    "uscensus:population":27974,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -84,8 +93,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200350528
+        "uscensus:geoid":"4200350528"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -101,11 +111,11 @@
         }
     ],
     "wof:id":404484135,
-    "wof:lastmodified":1605055451,
+    "wof:lastmodified":1722117766,
     "wof:name":"Monroeville",
     "wof:parent_id":102080887,
     "wof:placetype":"localadmin",
-    "wof:population":28386,
+    "wof:population":27974,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -9,9 +9,23 @@
     "geom:bbox":"-84.094096,35.701838,-83.914806,35.783958",
     "geom:latitude":35.746725,
     "geom:longitude":-83.979004,
+    "gn:admin1_code":"TN",
+    "gn:admin2_code":"9",
+    "gn:asciiname":"Maryville",
+    "gn:country_code":"US",
+    "gn:dem":286,
     "gn:elevation":285,
+    "gn:feature_class":"P",
+    "gn:feature_code":"PPLA2",
+    "gn:geonameid":4639848,
+    "gn:latitude":35.75647,
+    "gn:longitude":-83.97046,
+    "gn:modification_date":"2017-03-09",
+    "gn:name":"Maryville",
     "gn:population":27465,
+    "gn:timezone":"America/New_York",
     "iso:country":"US",
+    "lbl:bbox":"-83.99046,35.73647,-83.95046,35.77647",
     "lbl:latitude":35.738827,
     "lbl:longitude":-83.971466,
     "lbl:max_zoom":14.0,
@@ -19,7 +33,7 @@
     "mps:latitude":35.738827,
     "mps:longitude":-83.971466,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":9.0,
     "name:ara_x_preferred":[
         "\u0645\u0631\u0641\u064a\u0644"
@@ -175,7 +189,10 @@
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":32436,
+    "uscensus:population_date":"2023",
     "wd:elevation":290.0,
     "wd:latitude":35.74972,
     "wd:longitude":-83.97556,
@@ -183,8 +200,8 @@
     "wof:belongsto":[
         102191575,
         85633793,
-        85688701,
-        102087017
+        102087017,
+        85688701
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -197,8 +214,17 @@
         "wk:page":"Maryville, Tennessee"
     },
     "wof:concordances_alt":{
-        "qs_pg:id":464141
+        "gn:id":[
+            4639848
+        ],
+        "qs_pg:id":[
+            464141
+        ],
+        "wk:page":[
+            "Maryville%2C_Tennessee"
+        ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg"
@@ -214,16 +240,17 @@
         }
     ],
     "wof:id":101722701,
-    "wof:lastmodified":1690888164,
+    "wof:lastmodified":1722115916,
     "wof:name":"Maryville",
     "wof:parent_id":102087017,
     "wof:placetype":"locality",
-    "wof:population":27465,
+    "wof:population":32436,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[
-        1125321405
+        1125321405,
+        1327049387
     ],
     "wof:tags":[]
 },

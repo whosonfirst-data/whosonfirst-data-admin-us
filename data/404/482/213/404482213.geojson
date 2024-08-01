@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011116,
-    "geom:area_square_m":93096125.544435,
+    "geom:area_square_m":93096125.544434,
     "geom:bbox":"-97.8583,47.32513,-97.729637,47.412624",
     "geom:latitude":47.369049,
     "geom:longitude":-97.793958,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.368974,
     "lbl:longitude":-97.793958,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":91,
     "uscensus:geoid":3809152020,
     "uscensus:name":"Melrose",
     "uscensus:namelsad":"Melrose township",
+    "uscensus:population":37,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3809152020
+        "uscensus:geoid":"3809152020"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460001
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404482213,
-    "wof:lastmodified":1605055387,
+    "wof:lastmodified":1722117755,
     "wof:name":"Melrose Township",
     "wof:parent_id":102082055,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":38,
+    "wof:population":37,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

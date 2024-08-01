@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009906,
-    "geom:area_square_m":93410856.024969,
+    "geom:area_square_m":93410856.024958,
     "geom:bbox":"-98.840067,40.262813,-98.726359,40.350418",
     "geom:latitude":40.306582,
     "geom:longitude":-98.783293,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.306602,
     "lbl:longitude":-98.783293,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":3106134790,
     "uscensus:name":"North Franklin",
     "uscensus:namelsad":"North Franklin township",
+    "uscensus:population":308,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3106134790
+        "uscensus:geoid":"3106134790"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404518731,
-    "wof:lastmodified":1605055687,
+    "wof:lastmodified":1722233671,
     "wof:name":"North Franklin Township",
     "wof:parent_id":102083485,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":405,
+    "wof:population":308,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -10,6 +10,12 @@
     "geom:latitude":43.184416,
     "geom:longitude":-90.571829,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "village"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.184664,
     "lbl:longitude":-90.571828,
     "lbl:max_zoom":17.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":43,
     "uscensus:geoid":5504308525,
     "uscensus:name":"Blue River",
     "uscensus:namelsad":"Blue River village",
+    "uscensus:population":454,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5504308525
+        "uscensus:geoid":"5504308525"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404491813,
-    "wof:lastmodified":1605055587,
+    "wof:lastmodified":1722117815,
     "wof:name":"Blue River",
     "wof:parent_id":102081857,
     "wof:placetype":"localadmin",
-    "wof:population":434,
+    "wof:population":454,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

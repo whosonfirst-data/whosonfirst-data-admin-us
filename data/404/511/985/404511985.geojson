@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000431,
-    "geom:area_square_m":3801877.876017,
+    "geom:area_square_m":3801877.876019,
     "geom:bbox":"-93.221438,44.471226,-93.145916,44.486025",
     "geom:latitude":44.475593,
     "geom:longitude":-93.194521,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.476502,
     "lbl:longitude":-93.209257,
     "lbl:max_zoom":16.0,
@@ -85,11 +91,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":37,
     "uscensus:geoid":2703746924,
     "uscensus:name":"Northfield",
     "uscensus:namelsad":"Northfield city",
+    "uscensus:population":1251,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -99,8 +108,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2703746924
+        "uscensus:geoid":"2703746924"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -116,11 +126,11 @@
         }
     ],
     "wof:id":404511985,
-    "wof:lastmodified":1605055722,
+    "wof:lastmodified":1722117947,
     "wof:name":"Northfield",
     "wof:parent_id":102087895,
     "wof:placetype":"localadmin",
-    "wof:population":1147,
+    "wof:population":1251,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

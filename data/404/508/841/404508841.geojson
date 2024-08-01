@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009272,
-    "geom:area_square_m":82886684.930173,
+    "geom:area_square_m":82886684.930144,
     "geom:bbox":"-84.289992,43.654499,-84.166931,43.741855",
     "geom:latitude":43.702606,
     "geom:longitude":-84.225461,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":43.708068,
     "lbl:longitude":-84.225421,
@@ -75,11 +78,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":111,
     "uscensus:geoid":2611146160,
     "uscensus:name":"Larkin",
     "uscensus:namelsad":"Larkin charter township",
+    "uscensus:population":5412,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -89,8 +95,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2611146160
+        "uscensus:geoid":"2611146160"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467629
     ],
@@ -109,11 +116,11 @@
         }
     ],
     "wof:id":404508841,
-    "wof:lastmodified":1605055743,
+    "wof:lastmodified":1722117925,
     "wof:name":"Larkin",
     "wof:parent_id":102082997,
     "wof:placetype":"localadmin",
-    "wof:population":5136,
+    "wof:population":5412,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

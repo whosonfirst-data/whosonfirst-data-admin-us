@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002342,
-    "geom:area_square_m":20853042.918502,
+    "geom:area_square_m":20853042.918491,
     "geom:bbox":"-90.860676,43.902689,-90.760007,43.966593",
     "geom:latitude":43.937725,
     "geom:longitude":-90.813114,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.937387,
     "lbl:longitude":-90.819373,
     "lbl:max_zoom":15.0,
@@ -292,11 +298,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":81,
     "uscensus:geoid":5508175325,
     "uscensus:name":"Sparta",
     "uscensus:namelsad":"Sparta city",
+    "uscensus:population":9842,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -306,8 +315,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5508175325
+        "uscensus:geoid":"5508175325"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -323,11 +333,11 @@
         }
     ],
     "wof:id":404494409,
-    "wof:lastmodified":1605055964,
+    "wof:lastmodified":1722117832,
     "wof:name":"Sparta",
     "wof:parent_id":102081777,
     "wof:placetype":"localadmin",
-    "wof:population":9522,
+    "wof:population":9842,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

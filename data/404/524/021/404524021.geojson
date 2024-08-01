@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005799,
-    "geom:area_square_m":54380319.641923,
+    "geom:area_square_m":54380319.641955,
     "geom:bbox":"-82.957857,40.645148,-82.858302,40.705019",
     "geom:latitude":40.675269,
     "geom:longitude":-82.90837,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.6753,
     "lbl:longitude":-82.90837,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":101,
     "uscensus:geoid":3910177742,
     "uscensus:name":"Tully",
     "uscensus:namelsad":"Tully township",
+    "uscensus:population":843,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3910177742
+        "uscensus:geoid":"3910177742"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475023
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404524021,
-    "wof:lastmodified":1605056114,
+    "wof:lastmodified":1722118005,
     "wof:name":"Tully Township",
     "wof:parent_id":102084791,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":854,
+    "wof:population":843,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

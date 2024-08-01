@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01758,
-    "geom:area_square_m":152339059.180417,
+    "geom:area_square_m":152339059.18043,
     "geom:bbox":"-89.42844,45.467166,-89.173374,45.555781",
     "geom:latitude":45.508021,
     "geom:longitude":-89.321556,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.512189,
     "lbl:longitude":-89.321581,
     "lbl:max_zoom":17.0,
@@ -139,22 +145,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":85,
     "uscensus:geoid":5508524125,
     "uscensus:name":"Enterprise",
     "uscensus:namelsad":"Enterprise town",
+    "uscensus:population":357,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081305
+        102081305,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5508524125
+        "uscensus:geoid":"5508524125"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472973
     ],
@@ -173,11 +183,11 @@
         }
     ],
     "wof:id":404492133,
-    "wof:lastmodified":1636499421,
+    "wof:lastmodified":1722117817,
     "wof:name":"Enterprise",
     "wof:parent_id":102081305,
     "wof:placetype":"localadmin",
-    "wof:population":315,
+    "wof:population":357,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

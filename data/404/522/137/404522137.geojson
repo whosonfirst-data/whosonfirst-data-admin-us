@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011241,
-    "geom:area_square_m":102480723.599047,
+    "geom:area_square_m":102480723.599063,
     "geom:bbox":"-75.789511,42.451265,-75.661907,42.550873",
     "geom:latitude":42.501027,
     "geom:longitude":-75.725835,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.501084,
     "lbl:longitude":-75.725865,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":3601744127,
     "uscensus:name":"McDonough",
     "uscensus:namelsad":"McDonough town",
+    "uscensus:population":784,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3601744127
+        "uscensus:geoid":"3601744127"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469131
     ],
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404522137,
-    "wof:lastmodified":1605056076,
+    "wof:lastmodified":1722117991,
     "wof:name":"Mcdonough",
     "wof:parent_id":102082367,
     "wof:placetype":"localadmin",
-    "wof:population":886,
+    "wof:population":784,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

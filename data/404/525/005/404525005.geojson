@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009069,
-    "geom:area_square_m":85919022.993303,
+    "geom:area_square_m":85919022.993327,
     "geom:bbox":"-83.839809,39.946465,-83.672897,40.027342",
     "geom:latitude":39.988318,
     "geom:longitude":-83.741489,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.985052,
     "lbl:longitude":-83.723137,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":3902351912,
     "uscensus:name":"Moorefield",
     "uscensus:namelsad":"Moorefield township",
+    "uscensus:population":12490,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3902351912
+        "uscensus:geoid":"3902351912"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404525005,
-    "wof:lastmodified":1605056062,
+    "wof:lastmodified":1722118012,
     "wof:name":"Moorefield Township",
     "wof:parent_id":102083685,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":12436,
+    "wof:population":12490,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

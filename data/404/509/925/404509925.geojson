@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011343,
-    "geom:area_square_m":92782207.157134,
+    "geom:area_square_m":92782207.157132,
     "geom:bbox":"-96.780452,48.543526,-96.649393,48.630706",
     "geom:latitude":48.587066,
     "geom:longitude":-96.714832,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.587128,
     "lbl:longitude":-96.714881,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":69,
     "uscensus:geoid":2706961744,
     "uscensus:name":"Spring Brook",
     "uscensus:namelsad":"Spring Brook township",
+    "uscensus:population":49,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2706961744
+        "uscensus:geoid":"2706961744"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462207
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404509925,
-    "wof:lastmodified":1605055791,
+    "wof:lastmodified":1722117933,
     "wof:name":"Spring Brook Township",
     "wof:parent_id":102087613,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":52,
+    "wof:population":49,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

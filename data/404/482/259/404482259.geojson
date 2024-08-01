@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000186,
-    "geom:area_square_m":1560780.120094,
+    "geom:area_square_m":1560780.120093,
     "geom:bbox":"-98.742412,47.29406,-98.721037,47.305816",
     "geom:latitude":47.300033,
     "geom:longitude":-98.732107,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.300036,
     "lbl:longitude":-98.731892,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":93,
     "uscensus:geoid":3809342180,
     "uscensus:name":"Kensal",
     "uscensus:namelsad":"Kensal city",
+    "uscensus:population":147,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3809342180
+        "uscensus:geoid":"3809342180"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404482259,
-    "wof:lastmodified":1605055379,
+    "wof:lastmodified":1722117755,
     "wof:name":"Kensal",
     "wof:parent_id":102082093,
     "wof:placetype":"localadmin",
-    "wof:population":163,
+    "wof:population":147,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01381,
-    "geom:area_square_m":122054471.127775,
+    "geom:area_square_m":122054471.127758,
     "geom:bbox":"-91.710734,44.334265,-91.528745,44.422343",
     "geom:latitude":44.375828,
     "geom:longitude":-91.6088,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.378291,
     "lbl:longitude":-91.608782,
     "lbl:max_zoom":17.0,
@@ -538,22 +544,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":5501153850,
     "uscensus:name":"Montana",
     "uscensus:namelsad":"Montana town",
+    "uscensus:population":273,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081261
+        102081261,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5501153850
+        "uscensus:geoid":"5501153850"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474849
     ],
@@ -572,11 +582,11 @@
         }
     ],
     "wof:id":404492961,
-    "wof:lastmodified":1636499424,
+    "wof:lastmodified":1722117823,
     "wof:name":"Montana",
     "wof:parent_id":102081261,
     "wof:placetype":"localadmin",
-    "wof:population":284,
+    "wof:population":273,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

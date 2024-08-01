@@ -166,7 +166,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2737162,
     "uscensus:awater":16753,
     "uscensus:classfp":"C5",
@@ -182,17 +183,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"39320",
     "uscensus:placens":"02395811",
+    "uscensus:population":1301,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":319.0,
     "wd:latitude":44.204444,
     "wd:longitude":-93.815556,
     "wd:wordcount":967,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404509307,
         85633793,
-        102087625
+        102087625,
+        404509307,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -201,10 +204,11 @@
         "gn:id":5036223,
         "gp:id":2444003,
         "qs_pg:id":473286,
-        "uscensus:geoid":2739320,
+        "uscensus:geoid":"2739320",
         "wd:id":"Q1819561",
         "wk:page":"Madison Lake, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -225,11 +229,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690881536,
+    "wof:lastmodified":1722115929,
     "wof:name":"Madison Lake",
     "wof:parent_id":404509307,
     "wof:placetype":"locality",
-    "wof:population":1017,
+    "wof:population":1301,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

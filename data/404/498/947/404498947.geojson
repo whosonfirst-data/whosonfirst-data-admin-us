@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014392,
-    "geom:area_square_m":139870519.373237,
+    "geom:area_square_m":139870519.373261,
     "geom:bbox":"-88.263553,38.126161,-88.1509,38.257085",
     "geom:latitude":38.191374,
     "geom:longitude":-88.207133,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.191398,
     "lbl:longitude":-88.207147,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":193,
     "uscensus:geoid":1719309902,
     "uscensus:name":"Burnt Prairie",
     "uscensus:namelsad":"Burnt Prairie township",
+    "uscensus:population":309,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1719309902
+        "uscensus:geoid":"1719309902"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404498947,
-    "wof:lastmodified":1605055563,
+    "wof:lastmodified":1722233644,
     "wof:name":"Burnt Prairie Township",
     "wof:parent_id":102083525,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":345,
+    "wof:population":309,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

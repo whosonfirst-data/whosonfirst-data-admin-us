@@ -91,7 +91,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":12199597,
     "uscensus:awater":7955,
     "uscensus:classfp":"U1",
@@ -107,23 +108,26 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"27840",
     "uscensus:placens":"02583993",
+    "uscensus:population":6676,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"34",
     "wof:belongsto":[
-        85688607,
         102191575,
-        404477917,
         85633793,
-        102085045
+        102085045,
+        404477917,
+        85688607
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":5098634,
         "gp:id":28744998,
         "qs_pg:id":1013483,
-        "uscensus:geoid":3427840,
+        "uscensus:geoid":"3427840",
         "wd:id":"Q5602732",
         "wk:page":"Green Knoll, New Jersey"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -141,11 +145,11 @@
         }
     ],
     "wof:id":85976133,
-    "wof:lastmodified":1690884611,
+    "wof:lastmodified":1722116109,
     "wof:name":"Green Knoll",
     "wof:parent_id":404477917,
     "wof:placetype":"locality",
-    "wof:population":6200,
+    "wof:population":6676,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

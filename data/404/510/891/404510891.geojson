@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011496,
-    "geom:area_square_m":99404746.745381,
+    "geom:area_square_m":99404746.745464,
     "geom:bbox":"-96.385863,45.585215,-96.253026,45.672736",
     "geom:latitude":45.628939,
     "geom:longitude":-96.31957,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.629003,
     "lbl:longitude":-96.31957,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":155,
     "uscensus:geoid":2715536512,
     "uscensus:name":"Leonardsville",
     "uscensus:namelsad":"Leonardsville township",
+    "uscensus:population":105,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2715536512
+        "uscensus:geoid":"2715536512"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729455243
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404510891,
-    "wof:lastmodified":1605055621,
+    "wof:lastmodified":1722117939,
     "wof:name":"Leonardsville Township",
     "wof:parent_id":102087679,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":107,
+    "wof:population":105,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

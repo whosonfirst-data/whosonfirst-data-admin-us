@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010075,
-    "geom:area_square_m":90537555.618914,
+    "geom:area_square_m":90537555.618918,
     "geom:bbox":"-98.11257,43.340626,-97.994048,43.427736",
     "geom:latitude":43.384098,
     "geom:longitude":-98.053823,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.384155,
     "lbl:longitude":-98.053814,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":67,
     "uscensus:geoid":4606762500,
     "uscensus:name":"Susquehanna",
     "uscensus:namelsad":"Susquehanna township",
+    "uscensus:population":183,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4606762500
+        "uscensus:geoid":"4606762500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468793
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404488831,
-    "wof:lastmodified":1605055814,
+    "wof:lastmodified":1722117796,
     "wof:name":"Susquehanna Township",
     "wof:parent_id":102086815,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":181,
+    "wof:population":183,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

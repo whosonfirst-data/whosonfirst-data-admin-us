@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000139,
-    "geom:area_square_m":1244237.285852,
+    "geom:area_square_m":1244237.285853,
     "geom:bbox":"-91.775745,43.515177,-91.760381,43.525428",
     "geom:latitude":43.51984,
     "geom:longitude":-91.768053,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.519738,
     "lbl:longitude":-91.768055,
     "lbl:max_zoom":17.0,
@@ -58,11 +64,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":2704538888,
     "uscensus:name":"Mabel",
     "uscensus:namelsad":"Mabel city",
+    "uscensus:population":712,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -72,8 +81,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2704538888
+        "uscensus:geoid":"2704538888"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -89,11 +99,11 @@
         }
     ],
     "wof:id":404509637,
-    "wof:lastmodified":1605055796,
+    "wof:lastmodified":1722117931,
     "wof:name":"Mabel",
     "wof:parent_id":102086997,
     "wof:placetype":"localadmin",
-    "wof:population":780,
+    "wof:population":712,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

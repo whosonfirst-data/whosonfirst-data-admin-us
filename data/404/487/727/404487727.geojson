@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000633,
-    "geom:area_square_m":5976668.372983,
+    "geom:area_square_m":5976668.372969,
     "geom:bbox":"-80.206635,40.248117,-80.168627,40.282469",
     "geom:latitude":40.264247,
     "geom:longitude":-80.186776,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.259672,
     "lbl:longitude":-80.186767,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":4212511152,
     "uscensus:name":"Canonsburg",
     "uscensus:namelsad":"Canonsburg borough",
+    "uscensus:population":9629,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212511152
+        "uscensus:geoid":"4212511152"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404487727,
-    "wof:lastmodified":1605055897,
+    "wof:lastmodified":1722117789,
     "wof:name":"Canonsburg",
     "wof:parent_id":102081343,
     "wof:placetype":"localadmin",
-    "wof:population":8992,
+    "wof:population":9629,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

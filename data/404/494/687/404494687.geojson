@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.015039,
-    "geom:area_square_m":130386165.291991,
+    "geom:area_square_m":130386165.291966,
     "geom:bbox":"-90.55643,45.419496,-90.430125,45.55126",
     "geom:latitude":45.480861,
     "geom:longitude":-90.489991,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.475181,
     "lbl:longitude":-90.485781,
     "lbl:max_zoom":17.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":5509913200,
     "uscensus:name":"Catawba",
     "uscensus:namelsad":"Catawba town",
+    "uscensus:population":252,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5509913200
+        "uscensus:geoid":"5509913200"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463623
     ],
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404494687,
-    "wof:lastmodified":1605055962,
+    "wof:lastmodified":1722117834,
     "wof:name":"Catawba",
     "wof:parent_id":102081833,
     "wof:placetype":"localadmin",
-    "wof:population":269,
+    "wof:population":252,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

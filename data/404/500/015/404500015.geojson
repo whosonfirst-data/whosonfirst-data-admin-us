@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009555,
-    "geom:area_square_m":92625328.051112,
+    "geom:area_square_m":92625328.051073,
     "geom:bbox":"-86.142581,38.33066,-86.032345,38.419917",
     "geom:latitude":38.375089,
     "geom:longitude":-86.087442,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.375061,
     "lbl:longitude":-86.08746,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":1806151030,
     "uscensus:name":"Morgan",
     "uscensus:namelsad":"Morgan township",
+    "uscensus:population":4066,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1806151030
+        "uscensus:geoid":"1806151030"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404500015,
-    "wof:lastmodified":1604530774,
+    "wof:lastmodified":1722233648,
     "wof:name":"Morgan Township",
     "wof:parent_id":102087165,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":4153,
+    "wof:population":4066,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

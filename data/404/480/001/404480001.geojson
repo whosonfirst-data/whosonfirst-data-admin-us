@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000212,
-    "geom:area_square_m":1759407.883019,
+    "geom:area_square_m":1759407.88302,
     "geom:bbox":"-101.679121,47.913018,-101.657538,47.927511",
     "geom:latitude":47.921104,
     "geom:longitude":-101.669418,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.918406,
     "lbl:longitude":-101.672861,
     "lbl:max_zoom":18.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":101,
     "uscensus:geoid":3810169460,
     "uscensus:name":"Ryder",
     "uscensus:namelsad":"Ryder city",
+    "uscensus:population":103,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3810169460
+        "uscensus:geoid":"3810169460"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404480001,
-    "wof:lastmodified":1605055910,
+    "wof:lastmodified":1722117741,
     "wof:name":"Ryder",
     "wof:parent_id":102082117,
     "wof:placetype":"localadmin",
-    "wof:population":85,
+    "wof:population":103,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.057919,
-    "geom:area_square_m":570984979.104457,
+    "geom:area_square_m":570984979.104297,
     "geom:bbox":"-100.868691,36.998707,-100.633,37.257363",
     "geom:latitude":37.130595,
     "geom:longitude":-100.747247,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.132815,
     "lbl:longitude":-100.745702,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":175,
     "uscensus:geoid":2017523000,
     "uscensus:name":"Fargo",
     "uscensus:namelsad":"Fargo township",
+    "uscensus:population":1243,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2017523000
+        "uscensus:geoid":"2017523000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404504931,
-    "wof:lastmodified":1605055294,
+    "wof:lastmodified":1722233663,
     "wof:name":"Fargo Township",
     "wof:parent_id":102082139,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1563,
+    "wof:population":1243,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

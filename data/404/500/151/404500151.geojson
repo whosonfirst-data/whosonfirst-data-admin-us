@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011395,
-    "geom:area_square_m":107259481.681242,
+    "geom:area_square_m":107259481.681231,
     "geom:bbox":"-85.445829,40.378424,-85.331554,40.47937",
     "geom:latitude":40.429077,
     "geom:longitude":-85.388389,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.428993,
     "lbl:longitude":-85.388389,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":1800943650,
     "uscensus:name":"Licking",
     "uscensus:namelsad":"Licking township",
+    "uscensus:population":7600,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1800943650
+        "uscensus:geoid":"1800943650"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404500151,
-    "wof:lastmodified":1604530773,
+    "wof:lastmodified":1722233648,
     "wof:name":"Licking Township",
     "wof:parent_id":102087219,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":7899,
+    "wof:population":7600,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

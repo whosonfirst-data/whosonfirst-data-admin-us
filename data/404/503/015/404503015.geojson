@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009761,
-    "geom:area_square_m":92513469.138388,
+    "geom:area_square_m":92513469.138383,
     "geom:bbox":"-99.403493,39.91492,-99.290795,40.002136",
     "geom:latitude":39.958496,
     "geom:longitude":-99.347071,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.958466,
     "lbl:longitude":-99.34708,
     "lbl:max_zoom":18.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":147,
     "uscensus:geoid":2014775075,
     "uscensus:name":"Walnut",
     "uscensus:namelsad":"Walnut township",
+    "uscensus:population":19,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2014775075
+        "uscensus:geoid":"2014775075"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468885
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404503015,
-    "wof:lastmodified":1605055316,
+    "wof:lastmodified":1722117882,
     "wof:name":"Walnut Township",
     "wof:parent_id":102082123,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":17,
+    "wof:population":19,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

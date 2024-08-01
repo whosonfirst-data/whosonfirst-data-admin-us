@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000423,
-    "geom:area_square_m":3448600.403858,
+    "geom:area_square_m":3448600.403859,
     "geom:bbox":"-96.036202,48.764447,-96.00737,48.789973",
     "geom:latitude":48.776774,
     "geom:longitude":-96.021267,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.779265,
     "lbl:longitude":-96.023449,
     "lbl:max_zoom":17.0,
@@ -127,11 +133,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":135,
     "uscensus:geoid":2713503160,
     "uscensus:name":"Badger",
     "uscensus:namelsad":"Badger city",
+    "uscensus:population":419,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -141,8 +150,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2713503160
+        "uscensus:geoid":"2713503160"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -158,11 +168,11 @@
         }
     ],
     "wof:id":404510629,
-    "wof:lastmodified":1605055612,
+    "wof:lastmodified":1722117937,
     "wof:name":"Badger",
     "wof:parent_id":102087665,
     "wof:placetype":"localadmin",
-    "wof:population":375,
+    "wof:population":419,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

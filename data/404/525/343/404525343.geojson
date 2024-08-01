@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007415,
-    "geom:area_square_m":68704790.120794,
+    "geom:area_square_m":68704790.120778,
     "geom:bbox":"-83.883234,41.414135,-83.780638,41.516358",
     "geom:latitude":41.466351,
     "geom:longitude":-83.842735,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.461476,
     "lbl:longitude":-83.84687,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":3909564836,
     "uscensus:name":"Providence",
     "uscensus:namelsad":"Providence township",
+    "uscensus:population":3385,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3909564836
+        "uscensus:geoid":"3909564836"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404525343,
-    "wof:lastmodified":1605056064,
+    "wof:lastmodified":1722118015,
     "wof:name":"Providence Township",
     "wof:parent_id":102084787,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3361,
+    "wof:population":3385,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

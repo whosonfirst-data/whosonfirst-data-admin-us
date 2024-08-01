@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000118,
-    "geom:area_square_m":1108553.317474,
+    "geom:area_square_m":1108553.317475,
     "geom:bbox":"-79.538241,40.805261,-79.523691,40.822329",
     "geom:latitude":40.812738,
     "geom:longitude":-79.53121,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.812919,
     "lbl:longitude":-79.531704,
     "lbl:max_zoom":16.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":4200583248,
     "uscensus:name":"West Kittanning",
     "uscensus:namelsad":"West Kittanning borough",
+    "uscensus:population":1159,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200583248
+        "uscensus:geoid":"4200583248"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404482579,
-    "wof:lastmodified":1605055391,
+    "wof:lastmodified":1722117757,
     "wof:name":"West Kittanning",
     "wof:parent_id":102081371,
     "wof:placetype":"localadmin",
-    "wof:population":1175,
+    "wof:population":1159,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

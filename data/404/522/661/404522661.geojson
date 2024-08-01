@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001788,
-    "geom:area_square_m":16184879.068221,
+    "geom:area_square_m":16184879.068225,
     "geom:bbox":"-74.222114,42.919027,-74.161342,42.966263",
     "geom:latitude":42.941961,
     "geom:longitude":-74.190602,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.940648,
     "lbl:longitude":-74.196108,
     "lbl:max_zoom":15.0,
@@ -628,11 +634,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":57,
     "uscensus:geoid":3605702066,
     "uscensus:name":"Amsterdam",
     "uscensus:namelsad":"Amsterdam city",
+    "uscensus:population":18093,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -642,8 +651,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3605702066
+        "uscensus:geoid":"3605702066"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -659,11 +669,11 @@
         }
     ],
     "wof:id":404522661,
-    "wof:lastmodified":1605056071,
+    "wof:lastmodified":1722117995,
     "wof:name":"Amsterdam",
     "wof:parent_id":102082985,
     "wof:placetype":"localadmin",
-    "wof:population":18620,
+    "wof:population":18093,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

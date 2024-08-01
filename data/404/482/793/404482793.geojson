@@ -10,6 +10,12 @@
     "geom:latitude":39.830368,
     "geom:longitude":-77.233853,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.830713,
     "lbl:longitude":-77.234816,
     "lbl:max_zoom":15.0,
@@ -91,11 +97,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":4200128960,
     "uscensus:name":"Gettysburg",
     "uscensus:namelsad":"Gettysburg borough",
+    "uscensus:population":8468,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -105,8 +114,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200128960
+        "uscensus:geoid":"4200128960"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -122,11 +132,11 @@
         }
     ],
     "wof:id":404482793,
-    "wof:lastmodified":1605055384,
+    "wof:lastmodified":1722117759,
     "wof:name":"Gettysburg",
     "wof:parent_id":102080899,
     "wof:placetype":"localadmin",
-    "wof:population":7620,
+    "wof:population":8468,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

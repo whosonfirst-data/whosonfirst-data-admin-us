@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009867,
-    "geom:area_square_m":92564608.595803,
+    "geom:area_square_m":92564608.595785,
     "geom:bbox":"-98.052101,40.611426,-97.938274,40.698528",
     "geom:latitude":40.655018,
     "geom:longitude":-97.99515,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.655008,
     "lbl:longitude":-97.99515,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":3103514660,
     "uscensus:name":"Eldorado",
     "uscensus:namelsad":"Eldorado township",
+    "uscensus:population":96,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3103514660
+        "uscensus:geoid":"3103514660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467267
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404519725,
-    "wof:lastmodified":1605055666,
+    "wof:lastmodified":1722117980,
     "wof:name":"Eldorado Township",
     "wof:parent_id":102082241,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":104,
+    "wof:population":96,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

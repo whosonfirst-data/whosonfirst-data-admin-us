@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007945,
-    "geom:area_square_m":77261932.262606,
+    "geom:area_square_m":77261932.262625,
     "geom:bbox":"-97.922467,38.086447,-97.793803,38.173742",
     "geom:latitude":38.14179,
     "geom:longitude":-97.854551,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.14445,
     "lbl:longitude":-97.854548,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":155,
     "uscensus:geoid":2015545600,
     "uscensus:name":"Medora",
     "uscensus:namelsad":"Medora township",
+    "uscensus:population":1666,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2015545600
+        "uscensus:geoid":"2015545600"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468189
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404504727,
-    "wof:lastmodified":1605055313,
+    "wof:lastmodified":1722117895,
     "wof:name":"Medora Township",
     "wof:parent_id":102082171,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1665,
+    "wof:population":1666,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011413,
-    "geom:area_square_m":93345417.610632,
+    "geom:area_square_m":93345417.610532,
     "geom:bbox":"-100.92931,48.545662,-100.79767,48.632834",
     "geom:latitude":48.589275,
     "geom:longitude":-100.863515,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.589305,
     "lbl:longitude":-100.86351,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":3804918540,
     "uscensus:name":"Deep River",
     "uscensus:namelsad":"Deep River township",
+    "uscensus:population":40,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3804918540
+        "uscensus:geoid":"3804918540"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478405
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404479101,
-    "wof:lastmodified":1605055479,
+    "wof:lastmodified":1722117735,
     "wof:name":"Deep River Township",
     "wof:parent_id":102082517,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":48,
+    "wof:population":40,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00384,
-    "geom:area_square_m":35664051.731744,
+    "geom:area_square_m":35664051.731738,
     "geom:bbox":"-75.79273,41.264363,-75.677753,41.3454",
     "geom:latitude":41.308891,
     "geom:longitude":-75.720846,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.305195,
     "lbl:longitude":-75.715257,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":79,
     "uscensus:geoid":4207961056,
     "uscensus:name":"Pittston",
     "uscensus:namelsad":"Pittston township",
+    "uscensus:population":3215,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207961056
+        "uscensus:geoid":"4207961056"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404486983,
-    "wof:lastmodified":1605055865,
+    "wof:lastmodified":1722117784,
     "wof:name":"Pittston Township",
     "wof:parent_id":102081351,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3368,
+    "wof:population":3215,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

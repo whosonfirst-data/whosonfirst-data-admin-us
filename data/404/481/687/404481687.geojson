@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01138,
-    "geom:area_square_m":94361048.651809,
+    "geom:area_square_m":94361048.651876,
     "geom:bbox":"-102.656165,47.847349,-102.513678,47.934447",
     "geom:latitude":47.888957,
     "geom:longitude":-102.580059,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.891005,
     "lbl:longitude":-102.58006,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":3806106800,
     "uscensus:name":"Big Bend",
     "uscensus:namelsad":"Big Bend township",
+    "uscensus:population":32,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3806106800
+        "uscensus:geoid":"3806106800"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471799
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404481687,
-    "wof:lastmodified":1605055823,
+    "wof:lastmodified":1722117752,
     "wof:name":"Big Bend Township",
     "wof:parent_id":102082569,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":33,
+    "wof:population":32,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

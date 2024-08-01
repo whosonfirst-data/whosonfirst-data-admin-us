@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00952,
-    "geom:area_square_m":84414900.479226,
+    "geom:area_square_m":84414900.479222,
     "geom:bbox":"-88.245313,44.12166,-88.161878,44.242741",
     "geom:latitude":44.182571,
     "geom:longitude":-88.204607,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.189483,
     "lbl:longitude":-88.200595,
     "lbl:max_zoom":17.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":5501589000,
     "uscensus:name":"Woodville",
     "uscensus:namelsad":"Woodville town",
+    "uscensus:population":818,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5501589000
+        "uscensus:geoid":"5501589000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461997
     ],
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404493067,
-    "wof:lastmodified":1605055955,
+    "wof:lastmodified":1722117823,
     "wof:name":"Woodville",
     "wof:parent_id":102081289,
     "wof:placetype":"localadmin",
-    "wof:population":980,
+    "wof:population":818,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

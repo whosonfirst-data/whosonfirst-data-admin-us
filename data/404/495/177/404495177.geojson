@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009986,
-    "geom:area_square_m":88787917.407254,
+    "geom:area_square_m":88787917.407274,
     "geom:bbox":"-87.801624,43.979091,-87.680764,44.066663",
     "geom:latitude":44.023579,
     "geom:longitude":-87.743971,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.022771,
     "lbl:longitude":-87.744831,
     "lbl:max_zoom":15.0,
@@ -220,11 +226,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":71,
     "uscensus:geoid":5507157200,
     "uscensus:name":"Newton",
     "uscensus:namelsad":"Newton town",
+    "uscensus:population":2120,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -234,8 +243,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5507157200
+        "uscensus:geoid":"5507157200"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472059
     ],
@@ -254,11 +264,11 @@
         }
     ],
     "wof:id":404495177,
-    "wof:lastmodified":1605055994,
+    "wof:lastmodified":1722117838,
     "wof:name":"Newton",
     "wof:parent_id":102081871,
     "wof:placetype":"localadmin",
-    "wof:population":2264,
+    "wof:population":2120,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

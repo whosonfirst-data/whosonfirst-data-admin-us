@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011278,
-    "geom:area_square_m":102618855.79905,
+    "geom:area_square_m":102618855.799069,
     "geom:bbox":"-77.490889,42.576368,-77.366505,42.670296",
     "geom:latitude":42.622316,
     "geom:longitude":-77.428542,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.622111,
     "lbl:longitude":-77.428541,
     "lbl:max_zoom":15.0,
@@ -448,22 +454,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":69,
     "uscensus:geoid":3606949440,
     "uscensus:name":"Naples",
     "uscensus:namelsad":"Naples town",
+    "uscensus:population":2365,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688543,
-        102082359
+        102082359,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3606949440
+        "uscensus:geoid":"3606949440"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -479,11 +489,11 @@
         }
     ],
     "wof:id":404522785,
-    "wof:lastmodified":1636499440,
+    "wof:lastmodified":1722233677,
     "wof:name":"Naples",
     "wof:parent_id":102082359,
     "wof:placetype":"localadmin",
-    "wof:population":2502,
+    "wof:population":2365,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

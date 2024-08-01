@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008181,
-    "geom:area_square_m":73573512.887138,
+    "geom:area_square_m":73573512.887127,
     "geom:bbox":"-89.581325,43.293256,-89.481485,43.381233",
     "geom:latitude":43.338615,
     "geom:longitude":-89.531158,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.353689,
     "lbl:longitude":-89.523903,
     "lbl:max_zoom":15.0,
@@ -88,11 +94,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":5502145375,
     "uscensus:name":"Lodi",
     "uscensus:namelsad":"Lodi town",
+    "uscensus:population":3279,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -102,8 +111,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5502145375
+        "uscensus:geoid":"5502145375"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -119,11 +129,11 @@
         }
     ],
     "wof:id":404493197,
-    "wof:lastmodified":1605055949,
+    "wof:lastmodified":1722117824,
     "wof:name":"Lodi",
     "wof:parent_id":102081841,
     "wof:placetype":"localadmin",
-    "wof:population":3273,
+    "wof:population":3279,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

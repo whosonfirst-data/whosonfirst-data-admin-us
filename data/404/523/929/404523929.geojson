@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010971,
-    "geom:area_square_m":105955487.515193,
+    "geom:area_square_m":105955487.515192,
     "geom:bbox":"-82.601836,38.593031,-82.472478,38.68989",
     "geom:latitude":38.641198,
     "geom:longitude":-82.537481,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.641219,
     "lbl:longitude":-82.53748,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":87,
     "uscensus:geoid":3908700562,
     "uscensus:name":"Aid",
     "uscensus:namelsad":"Aid township",
+    "uscensus:population":777,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3908700562
+        "uscensus:geoid":"3908700562"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472699
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404523929,
-    "wof:lastmodified":1605056098,
+    "wof:lastmodified":1722118004,
     "wof:name":"Aid Township",
     "wof:parent_id":102083699,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":875,
+    "wof:population":777,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

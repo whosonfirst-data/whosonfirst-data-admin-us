@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000728,
-    "geom:area_square_m":6433713.395546,
+    "geom:area_square_m":6433713.395534,
     "geom:bbox":"-88.736849,44.372084,-88.708814,44.42709",
     "geom:latitude":44.397337,
     "geom:longitude":-88.727796,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.395526,
     "lbl:longitude":-88.729039,
     "lbl:max_zoom":16.0,
@@ -106,22 +112,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":87,
     "uscensus:geoid":5508756925,
     "uscensus:name":"New London",
     "uscensus:namelsad":"New London city",
+    "uscensus:population":1789,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081851
+        102081851,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5508756925
+        "uscensus:geoid":"5508756925"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -137,11 +147,11 @@
         }
     ],
     "wof:id":404495079,
-    "wof:lastmodified":1636499410,
+    "wof:lastmodified":1722117837,
     "wof:name":"New London",
     "wof:parent_id":102081851,
     "wof:placetype":"localadmin",
-    "wof:population":1610,
+    "wof:population":1789,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

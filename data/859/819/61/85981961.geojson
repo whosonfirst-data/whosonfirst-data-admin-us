@@ -142,7 +142,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":864659,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -158,17 +159,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"11340",
     "uscensus:placens":"01035949",
+    "uscensus:population":349,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":284.0,
     "wd:latitude":47.603333,
     "wd:longitude":-97.099722,
     "wd:wordcount":985,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404482391,
         85633793,
-        102081481
+        102081481,
+        404482391,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -177,10 +180,11 @@
         "gn:id":5058492,
         "gp:id":2372719,
         "qs_pg:id":1051221,
-        "uscensus:geoid":3811340,
+        "uscensus:geoid":"3811340",
         "wd:id":"Q2379488",
         "wk:page":"Buxton, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -201,11 +205,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882584,
+    "wof:lastmodified":1722115992,
     "wof:name":"Buxton",
     "wof:parent_id":404482391,
     "wof:placetype":"locality",
-    "wof:population":323,
+    "wof:population":349,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

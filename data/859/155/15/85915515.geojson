@@ -13,6 +13,7 @@
     "gn:longitude":-166.36083,
     "gn:population":229,
     "iso:country":"US",
+    "lbl:bbox":"-166.380786379,65.2435990592,-166.340786379,65.2835990592",
     "lbl:latitude":65.254473,
     "lbl:longitude":-166.359933,
     "lbl:max_zoom":17.0,
@@ -270,6 +271,7 @@
     "ne:UN_LAT":0.0,
     "ne:UN_LONG":0.0,
     "ne:WORLDCITY":0,
+    "ne:min_zoom":7.0,
     "qs:a0":"United States",
     "qs:a1":"*Alaska",
     "qs:a1_lc":"02",
@@ -284,13 +286,18 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
+    "reversegeo:latitude":65.263599,
+    "reversegeo:longitude":-166.360786,
     "src:geom":"quattroshapes",
     "src:geom_alt":[
         "naturalearth",
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":238,
+    "uscensus:population_date":"2023",
     "wd:elevation":0.0,
     "wd:latitude":65.2572,
     "wd:longitude":-166.354,
@@ -298,8 +305,8 @@
     "wof:belongsto":[
         102191575,
         85633793,
-        85688573,
-        102081401
+        102081401,
+        85688573
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -312,6 +319,12 @@
         "wd:id":"Q79856",
         "wk:page":"Teller, Alaska"
     },
+    "wof:concordances_alt":{
+        "wd:id":[
+            "Q79856"
+        ]
+    },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "naturalearth",
@@ -331,16 +344,17 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884473,
+    "wof:lastmodified":1722116394,
     "wof:name":"Teller",
     "wof:parent_id":102081401,
     "wof:placetype":"locality",
-    "wof:population":229,
+    "wof:population":238,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[
-        1125383231
+        1125383231,
+        1141906325
     ],
     "wof:tags":[]
 },

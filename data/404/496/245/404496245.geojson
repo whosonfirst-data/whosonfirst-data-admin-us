@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009877,
-    "geom:area_square_m":94623179.297553,
+    "geom:area_square_m":94623179.297606,
     "geom:bbox":"-88.009743,39.173925,-87.895182,39.263601",
     "geom:latitude":39.2188,
     "geom:longitude":-87.952642,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.218817,
     "lbl:longitude":-87.952639,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":1702338505,
     "uscensus:name":"Johnson",
     "uscensus:namelsad":"Johnson township",
+    "uscensus:population":367,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1702338505
+        "uscensus:geoid":"1702338505"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474283
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404496245,
-    "wof:lastmodified":1605055595,
+    "wof:lastmodified":1722117842,
     "wof:name":"Johnson Township",
     "wof:parent_id":102082285,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":383,
+    "wof:population":367,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

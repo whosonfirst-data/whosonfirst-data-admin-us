@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.03041,
-    "geom:area_square_m":267382733.987492,
+    "geom:area_square_m":267382733.987467,
     "geom:bbox":"-75.183056,44.575407,-74.896098,44.779338",
     "geom:latitude":44.677454,
     "geom:longitude":-75.039604,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.67757,
     "lbl:longitude":-75.039623,
     "lbl:max_zoom":15.0,
@@ -355,11 +361,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":89,
     "uscensus:geoid":3608959575,
     "uscensus:name":"Potsdam",
     "uscensus:namelsad":"Potsdam town",
+    "uscensus:population":14818,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -369,8 +378,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3608959575
+        "uscensus:geoid":"3608959575"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -386,11 +396,11 @@
         }
     ],
     "wof:id":404523149,
-    "wof:lastmodified":1605056100,
+    "wof:lastmodified":1722233678,
     "wof:name":"Potsdam",
     "wof:parent_id":102082379,
     "wof:placetype":"localadmin",
-    "wof:population":16041,
+    "wof:population":14818,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

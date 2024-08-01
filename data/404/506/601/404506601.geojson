@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0067,
-    "geom:area_square_m":60585425.092565,
+    "geom:area_square_m":60585425.09249,
     "geom:bbox":"-83.813085,42.957505,-83.692519,43.046224",
     "geom:latitude":43.002289,
     "geom:longitude":-83.766802,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":43.010865,
     "lbl:longitude":-83.774085,
@@ -255,11 +258,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":2604929020,
     "uscensus:name":"Flint",
     "uscensus:namelsad":"Flint charter township",
+    "uscensus:population":30910,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -269,8 +275,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2604929020
+        "uscensus:geoid":"2604929020"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473317
     ],
@@ -289,11 +296,11 @@
         }
     ],
     "wof:id":404506601,
-    "wof:lastmodified":1605055763,
+    "wof:lastmodified":1722117908,
     "wof:name":"Flint",
     "wof:parent_id":102083111,
     "wof:placetype":"localadmin",
-    "wof:population":31929,
+    "wof:population":30910,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

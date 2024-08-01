@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011275,
-    "geom:area_square_m":93169931.534093,
+    "geom:area_square_m":93169931.534062,
     "geom:bbox":"-98.033312,48.020834,-97.903375,48.10799",
     "geom:latitude":48.064469,
     "geom:longitude":-97.968273,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.064456,
     "lbl:longitude":-97.968274,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":63,
     "uscensus:geoid":3806355460,
     "uscensus:name":"Nash",
     "uscensus:namelsad":"Nash township",
+    "uscensus:population":41,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3806355460
+        "uscensus:geoid":"3806355460"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472473
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404481203,
-    "wof:lastmodified":1605055824,
+    "wof:lastmodified":1722117749,
     "wof:name":"Nash Township",
     "wof:parent_id":102082083,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":53,
+    "wof:population":41,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

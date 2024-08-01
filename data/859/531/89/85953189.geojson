@@ -187,7 +187,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":33721415,
     "uscensus:awater":2143626,
     "uscensus:classfp":"C5",
@@ -203,17 +204,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"55852",
     "uscensus:placens":"02396435",
+    "uscensus:population":35451,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":292.0,
     "wd:latitude":45.006111,
     "wd:longitude":-93.156667,
     "wd:wordcount":1742,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404514463,
         85633793,
-        102087007
+        102087007,
+        404514463,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -222,10 +225,11 @@
         "gn:id":5043799,
         "gp:id":2484863,
         "qs_pg:id":240377,
-        "uscensus:geoid":2755852,
+        "uscensus:geoid":"2755852",
         "wd:id":"Q983979",
         "wk:page":"Roseville, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -246,11 +250,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884437,
+    "wof:lastmodified":1722116099,
     "wof:name":"Roseville",
     "wof:parent_id":404514463,
     "wof:placetype":"locality",
-    "wof:population":33660,
+    "wof:population":35451,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

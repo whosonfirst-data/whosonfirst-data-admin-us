@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000253,
-    "geom:area_square_m":2377903.047652,
+    "geom:area_square_m":2377903.047648,
     "geom:bbox":"-77.170023,40.54507,-77.138173,40.562871",
     "geom:latitude":40.554276,
     "geom:longitude":-77.153049,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.552217,
     "lbl:longitude":-77.152814,
     "lbl:max_zoom":17.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":4209949720,
     "uscensus:name":"Millerstown",
     "uscensus:namelsad":"Millerstown borough",
+    "uscensus:population":694,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4209949720
+        "uscensus:geoid":"4209949720"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404485861,
-    "wof:lastmodified":1605055359,
+    "wof:lastmodified":1722117776,
     "wof:name":"Millerstown",
     "wof:parent_id":102080963,
     "wof:placetype":"localadmin",
-    "wof:population":673,
+    "wof:population":694,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001377,
-    "geom:area_square_m":12842134.232287,
+    "geom:area_square_m":12842134.232288,
     "geom:bbox":"-74.120746,41.004475,-74.074585,41.050563",
     "geom:latitude":41.027296,
     "geom:longitude":-74.09558,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.02888,
     "lbl:longitude":-74.096033,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3400365400,
     "uscensus:name":"Saddle River",
     "uscensus:namelsad":"Saddle River borough",
+    "uscensus:population":3368,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400365400
+        "uscensus:geoid":"3400365400"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,11 +93,11 @@
         }
     ],
     "wof:id":404477731,
-    "wof:lastmodified":1605055414,
+    "wof:lastmodified":1722117724,
     "wof:name":"Saddle River",
     "wof:parent_id":102086773,
     "wof:placetype":"localadmin",
-    "wof:population":3152,
+    "wof:population":3368,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

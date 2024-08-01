@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000127,
-    "geom:area_square_m":1208947.844537,
+    "geom:area_square_m":1208947.844538,
     "geom:bbox":"-79.909693,39.727941,-79.890514,39.74329",
     "geom:latitude":39.735476,
     "geom:longitude":-79.900766,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.736739,
     "lbl:longitude":-79.89997,
     "lbl:max_zoom":16.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":4205161864,
     "uscensus:name":"Point Marion",
     "uscensus:namelsad":"Point Marion borough",
+    "uscensus:population":1111,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4205161864
+        "uscensus:geoid":"4205161864"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404487059,
-    "wof:lastmodified":1605055893,
+    "wof:lastmodified":1722117784,
     "wof:name":"Point Marion",
     "wof:parent_id":102080959,
     "wof:placetype":"localadmin",
-    "wof:population":1159,
+    "wof:population":1111,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

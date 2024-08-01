@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011097,
-    "geom:area_square_m":93532745.478388,
+    "geom:area_square_m":93532745.478433,
     "geom:bbox":"-100.622691,46.98221,-100.495008,47.069855",
     "geom:latitude":47.026014,
     "geom:longitude":-100.558805,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.025908,
     "lbl:longitude":-100.558809,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":3801516900,
     "uscensus:name":"Cromwell",
     "uscensus:namelsad":"Cromwell township",
+    "uscensus:population":31,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3801516900
+        "uscensus:geoid":"3801516900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476131
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404480381,
-    "wof:lastmodified":1605055919,
+    "wof:lastmodified":1722117744,
     "wof:name":"Cromwell Township",
     "wof:parent_id":102082107,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":35,
+    "wof:population":31,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

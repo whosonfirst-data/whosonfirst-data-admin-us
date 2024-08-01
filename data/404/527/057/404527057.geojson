@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012598,
-    "geom:area_square_m":113279870.976984,
+    "geom:area_square_m":113279870.976952,
     "geom:bbox":"-72.996291,43.291641,-72.852672,43.397581",
     "geom:latitude":43.349364,
     "geom:longitude":-72.928139,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.348996,
     "lbl:longitude":-72.928151,
     "lbl:max_zoom":17.0,
@@ -175,11 +181,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":5002147425,
     "uscensus:name":"Mount Tabor",
     "uscensus:namelsad":"Mount Tabor town",
+    "uscensus:population":211,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -189,8 +198,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5002147425
+        "uscensus:geoid":"5002147425"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472197
     ],
@@ -209,11 +219,11 @@
         }
     ],
     "wof:id":404527057,
-    "wof:lastmodified":1605055684,
+    "wof:lastmodified":1722118028,
     "wof:name":"Mount Tabor",
     "wof:parent_id":102080771,
     "wof:placetype":"localadmin",
-    "wof:population":255,
+    "wof:population":211,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

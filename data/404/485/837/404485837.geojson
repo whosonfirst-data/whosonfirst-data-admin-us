@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000168,
-    "geom:area_square_m":1579798.277341,
+    "geom:area_square_m":1579798.277344,
     "geom:bbox":"-77.200424,40.412666,-77.177158,40.425712",
     "geom:latitude":40.418871,
     "geom:longitude":-77.188969,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.418373,
     "lbl:longitude":-77.188972,
     "lbl:max_zoom":16.0,
@@ -112,11 +118,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":4209907040,
     "uscensus:name":"Bloomfield",
     "uscensus:namelsad":"Bloomfield borough",
+    "uscensus:population":1221,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -126,8 +135,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4209907040
+        "uscensus:geoid":"4209907040"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -143,11 +153,11 @@
         }
     ],
     "wof:id":404485837,
-    "wof:lastmodified":1605055371,
+    "wof:lastmodified":1722117776,
     "wof:name":"Bloomfield",
     "wof:parent_id":102080963,
     "wof:placetype":"localadmin",
-    "wof:population":1247,
+    "wof:population":1221,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

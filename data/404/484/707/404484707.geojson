@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013542,
-    "geom:area_square_m":127434909.722786,
+    "geom:area_square_m":127434909.722749,
     "geom:bbox":"-78.396773,40.343376,-78.237743,40.530199",
     "geom:latitude":40.445257,
     "geom:longitude":-78.318524,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.450271,
     "lbl:longitude":-78.319743,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":4201327600,
     "uscensus:name":"Frankstown",
     "uscensus:namelsad":"Frankstown township",
+    "uscensus:population":7486,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201327600
+        "uscensus:geoid":"4201327600"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471669
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404484707,
-    "wof:lastmodified":1605055453,
+    "wof:lastmodified":1722117770,
     "wof:name":"Frankstown Township",
     "wof:parent_id":102081325,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":7381,
+    "wof:population":7486,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

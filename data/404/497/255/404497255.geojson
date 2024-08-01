@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009528,
-    "geom:area_square_m":92738154.289056,
+    "geom:area_square_m":92738154.289022,
     "geom:bbox":"-88.484477,38.038292,-88.372155,38.125099",
     "geom:latitude":38.081846,
     "geom:longitude":-88.428458,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.081801,
     "lbl:longitude":-88.428457,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":65,
     "uscensus:geoid":1706517627,
     "uscensus:name":"Crook",
     "uscensus:namelsad":"Crook township",
+    "uscensus:population":288,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1706517627
+        "uscensus:geoid":"1706517627"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457479
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404497255,
-    "wof:lastmodified":1605055501,
+    "wof:lastmodified":1722117848,
     "wof:name":"Crook Township",
     "wof:parent_id":102080813,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":312,
+    "wof:population":288,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.022775,
-    "geom:area_square_m":205514056.223367,
+    "geom:area_square_m":205514056.223366,
     "geom:bbox":"-90.035059,43.074213,-89.837904,43.206057",
     "geom:latitude":43.133171,
     "geom:longitude":-89.935291,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.134442,
     "lbl:longitude":-89.977493,
     "lbl:max_zoom":16.0,
@@ -133,11 +139,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":5504902575,
     "uscensus:name":"Arena",
     "uscensus:namelsad":"Arena town",
+    "uscensus:population":1512,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -147,8 +156,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5504902575
+        "uscensus:geoid":"5504902575"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470479
     ],
@@ -167,11 +177,11 @@
         }
     ],
     "wof:id":404495369,
-    "wof:lastmodified":1605055988,
+    "wof:lastmodified":1722117839,
     "wof:name":"Arena",
     "wof:parent_id":102081277,
     "wof:placetype":"localadmin",
-    "wof:population":1456,
+    "wof:population":1512,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

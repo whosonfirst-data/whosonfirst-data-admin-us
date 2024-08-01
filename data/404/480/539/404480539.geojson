@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011038,
-    "geom:area_square_m":93046602.051291,
+    "geom:area_square_m":93046602.051271,
     "geom:bbox":"-97.57907,46.978015,-97.451217,47.065311",
     "geom:latitude":47.021583,
     "geom:longitude":-97.515245,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.021714,
     "lbl:longitude":-97.532149,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":3801704060,
     "uscensus:name":"Ayr",
     "uscensus:namelsad":"Ayr township",
+    "uscensus:population":65,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3801704060
+        "uscensus:geoid":"3801704060"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472565
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404480539,
-    "wof:lastmodified":1605055913,
+    "wof:lastmodified":1722117745,
     "wof:name":"Ayr Township",
     "wof:parent_id":102082073,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":72,
+    "wof:population":65,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

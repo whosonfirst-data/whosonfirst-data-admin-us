@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010325,
-    "geom:area_square_m":92726409.53303,
+    "geom:area_square_m":92726409.532999,
     "geom:bbox":"-90.310666,43.37989,-90.191778,43.467428",
     "geom:latitude":43.423667,
     "geom:longitude":-90.251107,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.423775,
     "lbl:longitude":-90.251105,
     "lbl:max_zoom":17.0,
@@ -337,11 +343,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":103,
     "uscensus:geoid":5510387250,
     "uscensus:name":"Willow",
     "uscensus:namelsad":"Willow town",
+    "uscensus:population":499,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -351,8 +360,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5510387250
+        "uscensus:geoid":"5510387250"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470065
     ],
@@ -371,11 +381,11 @@
         }
     ],
     "wof:id":404495121,
-    "wof:lastmodified":1605055986,
+    "wof:lastmodified":1722117837,
     "wof:name":"Willow",
     "wof:parent_id":102081809,
     "wof:placetype":"localadmin",
-    "wof:population":579,
+    "wof:population":499,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

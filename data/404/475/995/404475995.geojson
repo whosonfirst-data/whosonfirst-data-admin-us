@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007271,
-    "geom:area_square_m":66391967.683526,
+    "geom:area_square_m":66391967.683529,
     "geom:bbox":"-72.777142,42.358244,-72.669138,42.45292",
     "geom:latitude":42.402423,
     "geom:longitude":-72.729534,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.396735,
     "lbl:longitude":-72.735963,
     "lbl:max_zoom":15.0,
@@ -109,11 +115,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":2501579915,
     "uscensus:name":"Williamsburg",
     "uscensus:namelsad":"Williamsburg town",
+    "uscensus:population":2469,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -123,8 +132,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2501579915
+        "uscensus:geoid":"2501579915"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729455259
     ],
@@ -143,11 +153,11 @@
         }
     ],
     "wof:id":404475995,
-    "wof:lastmodified":1605055848,
+    "wof:lastmodified":1722117711,
     "wof:name":"Williamsburg",
     "wof:parent_id":102084459,
     "wof:placetype":"localadmin",
-    "wof:population":2482,
+    "wof:population":2469,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

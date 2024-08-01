@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000177,
-    "geom:area_square_m":1684390.116962,
+    "geom:area_square_m":1684390.11696,
     "geom:bbox":"-75.836057,39.813938,-75.820413,39.827465",
     "geom:latitude":39.820609,
     "geom:longitude":-75.828358,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.820686,
     "lbl:longitude":-75.828358,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":4202983104,
     "uscensus:name":"West Grove",
     "uscensus:namelsad":"West Grove borough",
+    "uscensus:population":2805,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202983104
+        "uscensus:geoid":"4202983104"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404482943,
-    "wof:lastmodified":1605055391,
+    "wof:lastmodified":1722117759,
     "wof:name":"West Grove",
     "wof:parent_id":102081275,
     "wof:placetype":"localadmin",
-    "wof:population":2854,
+    "wof:population":2805,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

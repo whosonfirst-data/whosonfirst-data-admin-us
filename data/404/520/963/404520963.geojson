@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01172,
-    "geom:area_square_m":109087081.175778,
+    "geom:area_square_m":109087081.175737,
     "geom:bbox":"-96.464169,41.132063,-96.315929,41.219336",
     "geom:latitude":41.173358,
     "geom:longitude":-96.395841,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.175691,
     "lbl:longitude":-96.395842,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":155,
     "uscensus:geoid":3115530555,
     "uscensus:name":"Marble",
     "uscensus:namelsad":"Marble township",
+    "uscensus:population":480,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3115530555
+        "uscensus:geoid":"3115530555"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404520963,
-    "wof:lastmodified":1605055696,
+    "wof:lastmodified":1722117983,
     "wof:name":"Marble Township",
     "wof:parent_id":102082199,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":409,
+    "wof:population":480,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

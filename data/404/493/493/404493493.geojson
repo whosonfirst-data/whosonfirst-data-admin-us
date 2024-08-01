@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010221,
-    "geom:area_square_m":92777440.974272,
+    "geom:area_square_m":92777440.974221,
     "geom:bbox":"-90.073177,42.725947,-89.9562,42.814042",
     "geom:latitude":42.77003,
     "geom:longitude":-90.014753,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.770062,
     "lbl:longitude":-90.014785,
     "lbl:max_zoom":17.0,
@@ -94,11 +100,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":65,
     "uscensus:geoid":5506525475,
     "uscensus:name":"Fayette",
     "uscensus:namelsad":"Fayette town",
+    "uscensus:population":389,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -108,8 +117,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5506525475
+        "uscensus:geoid":"5506525475"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461437
     ],
@@ -128,11 +138,11 @@
         }
     ],
     "wof:id":404493493,
-    "wof:lastmodified":1605055953,
+    "wof:lastmodified":1722117826,
     "wof:name":"Fayette",
     "wof:parent_id":102081865,
     "wof:placetype":"localadmin",
-    "wof:population":376,
+    "wof:population":389,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

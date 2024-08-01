@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001576,
-    "geom:area_square_m":13473559.668252,
+    "geom:area_square_m":13473559.66827,
     "geom:bbox":"-96.632577,46.232263,-96.593394,46.30061",
     "geom:latitude":46.272142,
     "geom:longitude":-96.611812,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.272279,
     "lbl:longitude":-96.609861,
     "lbl:max_zoom":15.0,
@@ -70,11 +76,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":77,
     "uscensus:geoid":3807782660,
     "uscensus:name":"Wahpeton",
     "uscensus:namelsad":"Wahpeton city",
+    "uscensus:population":8000,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -84,8 +93,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3807782660
+        "uscensus:geoid":"3807782660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -101,11 +111,11 @@
         }
     ],
     "wof:id":404481507,
-    "wof:lastmodified":1605055829,
+    "wof:lastmodified":1722117751,
     "wof:name":"Wahpeton",
     "wof:parent_id":102082103,
     "wof:placetype":"localadmin",
-    "wof:population":7766,
+    "wof:population":8000,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

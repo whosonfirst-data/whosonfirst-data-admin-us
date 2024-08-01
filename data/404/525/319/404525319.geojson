@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001379,
-    "geom:area_square_m":12814243.316691,
+    "geom:area_square_m":12814243.316705,
     "geom:bbox":"-82.250862,41.258681,-82.181787,41.306007",
     "geom:latitude":41.285714,
     "geom:longitude":-82.219745,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.289129,
     "lbl:longitude":-82.222121,
     "lbl:max_zoom":15.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":93,
     "uscensus:geoid":3909357834,
     "uscensus:name":"Oberlin",
     "uscensus:namelsad":"Oberlin city",
+    "uscensus:population":7697,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3909357834
+        "uscensus:geoid":"3909357834"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404525319,
-    "wof:lastmodified":1605056064,
+    "wof:lastmodified":1722118015,
     "wof:name":"Oberlin",
     "wof:parent_id":102083683,
     "wof:placetype":"localadmin",
-    "wof:population":8286,
+    "wof:population":7697,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000439,
-    "geom:area_square_m":4069822.308596,
+    "geom:area_square_m":4069822.308591,
     "geom:bbox":"-76.619991,41.477937,-76.580773,41.499761",
     "geom:latitude":41.489612,
     "geom:longitude":-76.602841,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.490285,
     "lbl:longitude":-76.603138,
     "lbl:max_zoom":18.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":113,
     "uscensus:geoid":4211326760,
     "uscensus:name":"Forksville",
     "uscensus:namelsad":"Forksville borough",
+    "uscensus:population":109,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4211326760
+        "uscensus:geoid":"4211326760"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404484045,
-    "wof:lastmodified":1605055463,
+    "wof:lastmodified":1722117766,
     "wof:name":"Forksville",
     "wof:parent_id":102081281,
     "wof:placetype":"localadmin",
-    "wof:population":145,
+    "wof:population":109,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

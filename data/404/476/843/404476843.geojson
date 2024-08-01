@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01583,
-    "geom:area_square_m":143650817.99086,
+    "geom:area_square_m":143650817.990937,
     "geom:bbox":"-72.477275,42.722867,-72.320728,42.85307",
     "geom:latitude":42.787404,
     "geom:longitude":-72.400554,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.786851,
     "lbl:longitude":-72.400548,
     "lbl:max_zoom":15.0,
@@ -235,22 +241,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":3300585540,
     "uscensus:name":"Winchester",
     "uscensus:namelsad":"Winchester town",
+    "uscensus:population":4250,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":33,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688689,
-        102085643
+        102085643,
+        85688689
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3300585540
+        "uscensus:geoid":"3300585540"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -266,11 +276,11 @@
         }
     ],
     "wof:id":404476843,
-    "wof:lastmodified":1636499278,
+    "wof:lastmodified":1722117718,
     "wof:name":"Winchester",
     "wof:parent_id":102085643,
     "wof:placetype":"localadmin",
-    "wof:population":4341,
+    "wof:population":4250,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

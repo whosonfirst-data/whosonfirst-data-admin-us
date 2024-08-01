@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009902,
-    "geom:area_square_m":94205607.502058,
+    "geom:area_square_m":94205607.502016,
     "geom:bbox":"-84.594223,39.656158,-84.479919,39.7448",
     "geom:latitude":39.700433,
     "geom:longitude":-84.537344,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.700479,
     "lbl:longitude":-84.537345,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":135,
     "uscensus:geoid":3913541846,
     "uscensus:name":"Lanier",
     "uscensus:namelsad":"Lanier township",
+    "uscensus:population":3680,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3913541846
+        "uscensus:geoid":"3913541846"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404525821,
-    "wof:lastmodified":1605056051,
+    "wof:lastmodified":1722233687,
     "wof:name":"Lanier Township",
     "wof:parent_id":102083757,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3853,
+    "wof:population":3680,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

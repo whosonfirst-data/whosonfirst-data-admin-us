@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000407,
-    "geom:area_square_m":3432143.919298,
+    "geom:area_square_m":3432143.919299,
     "geom:bbox":"-93.928946,47.042317,-93.89611,47.071005",
     "geom:latitude":47.056856,
     "geom:longitude":-93.91259,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.056481,
     "lbl:longitude":-93.913612,
     "lbl:max_zoom":17.0,
@@ -61,11 +67,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":2702153782,
     "uscensus:name":"Remer",
     "uscensus:namelsad":"Remer city",
+    "uscensus:population":398,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -75,8 +84,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2702153782
+        "uscensus:geoid":"2702153782"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -92,11 +102,11 @@
         }
     ],
     "wof:id":404511749,
-    "wof:lastmodified":1605055721,
+    "wof:lastmodified":1722117946,
     "wof:name":"Remer",
     "wof:parent_id":102087905,
     "wof:placetype":"localadmin",
-    "wof:population":370,
+    "wof:population":398,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

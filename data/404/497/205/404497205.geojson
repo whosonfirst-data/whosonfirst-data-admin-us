@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011734,
-    "geom:area_square_m":112952832.880578,
+    "geom:area_square_m":112952832.880645,
     "geom:bbox":"-89.637931,38.827877,-89.484956,38.918958",
     "geom:latitude":38.876609,
     "geom:longitude":-89.553396,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.873593,
     "lbl:longitude":-89.553402,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":1700555730,
     "uscensus:name":"Old Ripley",
     "uscensus:namelsad":"Old Ripley township",
+    "uscensus:population":810,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1700555730
+        "uscensus:geoid":"1700555730"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404497205,
-    "wof:lastmodified":1605055492,
+    "wof:lastmodified":1722233637,
     "wof:name":"Old Ripley Township",
     "wof:parent_id":102081253,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":867,
+    "wof:population":810,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

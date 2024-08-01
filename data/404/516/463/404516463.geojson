@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013933,
-    "geom:area_square_m":133309909.027851,
+    "geom:area_square_m":133309909.027816,
     "geom:bbox":"-93.42002,39.22634,-93.206753,39.356223",
     "geom:latitude":39.307948,
     "geom:longitude":-93.350301,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.317042,
     "lbl:longitude":-93.378433,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":33,
     "uscensus:geoid":2903322780,
     "uscensus:name":"Eugene",
     "uscensus:namelsad":"Eugene township",
+    "uscensus:population":134,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":29,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2903322780
+        "uscensus:geoid":"2903322780"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456773
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404516463,
-    "wof:lastmodified":1604969567,
+    "wof:lastmodified":1722117974,
     "wof:name":"Eugene Township",
     "wof:parent_id":102085313,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":163,
+    "wof:population":134,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

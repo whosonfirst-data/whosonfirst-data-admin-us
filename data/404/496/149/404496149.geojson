@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010384,
-    "geom:area_square_m":98141129.493971,
+    "geom:area_square_m":98141129.493993,
     "geom:bbox":"-91.147003,40.106638,-91.027421,40.19554",
     "geom:latitude":40.151059,
     "geom:longitude":-91.087093,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.151079,
     "lbl:longitude":-91.087093,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":1700136295,
     "uscensus:name":"Houston",
     "uscensus:namelsad":"Houston township",
+    "uscensus:population":210,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1700136295
+        "uscensus:geoid":"1700136295"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404496149,
-    "wof:lastmodified":1605055608,
+    "wof:lastmodified":1722117842,
     "wof:name":"Houston Township",
     "wof:parent_id":102086213,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":221,
+    "wof:population":210,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

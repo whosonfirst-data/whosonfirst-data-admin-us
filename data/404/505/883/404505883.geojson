@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.021223,
-    "geom:area_square_m":186304403.769094,
+    "geom:area_square_m":186304403.769067,
     "geom:bbox":"-84.850027,44.684467,-84.724914,44.858388",
     "geom:latitude":44.771278,
     "geom:longitude":-84.786889,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.771455,
     "lbl:longitude":-84.786064,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":39,
     "uscensus:geoid":2603930480,
     "uscensus:name":"Frederic",
     "uscensus:namelsad":"Frederic township",
+    "uscensus:population":1185,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2603930480
+        "uscensus:geoid":"2603930480"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462087
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404505883,
-    "wof:lastmodified":1605055288,
+    "wof:lastmodified":1722117903,
     "wof:name":"Frederic Township",
     "wof:parent_id":102083659,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1341,
+    "wof:population":1185,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

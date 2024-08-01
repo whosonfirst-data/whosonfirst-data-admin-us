@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000103,
-    "geom:area_square_m":862270.492837,
+    "geom:area_square_m":862270.492835,
     "geom:bbox":"-97.103957,47.595245,-97.091941,47.606912",
     "geom:latitude":47.602065,
     "geom:longitude":-97.097519,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.602986,
     "lbl:longitude":-97.099213,
     "lbl:max_zoom":17.0,
@@ -103,11 +109,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":97,
     "uscensus:geoid":3809711340,
     "uscensus:name":"Buxton",
     "uscensus:namelsad":"Buxton city",
+    "uscensus:population":349,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -117,8 +126,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3809711340
+        "uscensus:geoid":"3809711340"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -134,11 +144,11 @@
         }
     ],
     "wof:id":404482391,
-    "wof:lastmodified":1605055375,
+    "wof:lastmodified":1722117756,
     "wof:name":"Buxton",
     "wof:parent_id":102081481,
     "wof:placetype":"localadmin",
-    "wof:population":323,
+    "wof:population":349,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000646,
-    "geom:area_square_m":6034309.109749,
+    "geom:area_square_m":6034309.109742,
     "geom:bbox":"-78.539948,40.960106,-78.49788,40.986168",
     "geom:latitude":40.973461,
     "geom:longitude":-78.51886,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.970464,
     "lbl:longitude":-78.518454,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":33,
     "uscensus:geoid":4203317840,
     "uscensus:name":"Curwensville",
     "uscensus:namelsad":"Curwensville borough",
+    "uscensus:population":2501,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4203317840
+        "uscensus:geoid":"4203317840"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404486909,
-    "wof:lastmodified":1605055857,
+    "wof:lastmodified":1722117783,
     "wof:name":"Curwensville",
     "wof:parent_id":102080967,
     "wof:placetype":"localadmin",
-    "wof:population":2542,
+    "wof:population":2501,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

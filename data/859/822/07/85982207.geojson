@@ -142,7 +142,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":363679,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -158,17 +159,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"56020",
     "uscensus:placens":"01036179",
+    "uscensus:population":94,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":447.0,
     "wd:latitude":48.714722,
     "wd:longitude":-100.912778,
     "wd:wordcount":709,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404480447,
         85633793,
-        102082109
+        102082109,
+        404480447,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -176,10 +179,11 @@
         "gn:id":5690716,
         "gp:id":2459351,
         "qs_pg:id":159601,
-        "uscensus:geoid":3856020,
+        "uscensus:geoid":"3856020",
         "wd:id":"Q2027891",
         "wk:page":"Newburg, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -197,11 +201,11 @@
         }
     ],
     "wof:id":85982207,
-    "wof:lastmodified":1690885250,
+    "wof:lastmodified":1722116148,
     "wof:name":"Newburg",
     "wof:parent_id":404480447,
     "wof:placetype":"locality",
-    "wof:population":110,
+    "wof:population":94,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

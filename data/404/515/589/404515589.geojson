@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01066,
-    "geom:area_square_m":100172220.143401,
+    "geom:area_square_m":100172220.143437,
     "geom:bbox":"-94.897615,40.502575,-94.74515,40.574737",
     "geom:latitude":40.538577,
     "geom:longitude":-94.821269,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.538684,
     "lbl:longitude":-94.821271,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":147,
     "uscensus:geoid":2914733022,
     "uscensus:name":"Hopkins",
     "uscensus:namelsad":"Hopkins township",
+    "uscensus:population":616,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":29,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2914733022
+        "uscensus:geoid":"2914733022"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404515589,
-    "wof:lastmodified":1604530793,
+    "wof:lastmodified":1722233668,
     "wof:name":"Hopkins Township",
     "wof:parent_id":102087507,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":739,
+    "wof:population":616,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

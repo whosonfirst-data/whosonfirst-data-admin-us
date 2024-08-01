@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011155,
-    "geom:area_square_m":92652408.253664,
+    "geom:area_square_m":92652408.253672,
     "geom:bbox":"-97.623627,47.758484,-97.495094,47.845713",
     "geom:latitude":47.80221,
     "geom:longitude":-97.559246,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.802181,
     "lbl:longitude":-97.559263,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":3803503940,
     "uscensus:name":"Avon",
     "uscensus:namelsad":"Avon township",
+    "uscensus:population":91,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3803503940
+        "uscensus:geoid":"3803503940"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475281
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404479229,
-    "wof:lastmodified":1605055471,
+    "wof:lastmodified":1722117736,
     "wof:name":"Avon Township",
     "wof:parent_id":102081493,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":78,
+    "wof:population":91,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

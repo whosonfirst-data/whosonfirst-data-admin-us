@@ -14,6 +14,7 @@
     "gn:longitude":-161.91583,
     "gn:population":669,
     "iso:country":"US",
+    "lbl:bbox":"-161.935786379,59.7292328075,-161.895786379,59.7692328075",
     "lbl:latitude":59.750663,
     "lbl:longitude":-161.90207,
     "lbl:max_zoom":17.0,
@@ -271,6 +272,7 @@
     "ne:UN_LAT":0.0,
     "ne:UN_LONG":0.0,
     "ne:WORLDCITY":0,
+    "ne:min_zoom":6.7,
     "qs:a0":"United States",
     "qs:a1":"*Alaska",
     "qs:a1_lc":"02",
@@ -285,13 +287,18 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
+    "reversegeo:latitude":59.749233,
+    "reversegeo:longitude":-161.915786,
     "src:geom":"quattroshapes",
     "src:geom_alt":[
         "quattroshapes_pg",
         "naturalearth"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":750,
+    "uscensus:population_date":"2023",
     "wd:elevation":5.0,
     "wd:latitude":59.750278,
     "wd:longitude":-161.904444,
@@ -299,8 +306,8 @@
     "wof:belongsto":[
         102191575,
         85633793,
-        85688573,
-        102085877
+        102085877,
+        85688573
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -313,6 +320,12 @@
         "wd:id":"Q79426",
         "wk:page":"Quinhagak, Alaska"
     },
+    "wof:concordances_alt":{
+        "wd:id":[
+            "Q79426"
+        ]
+    },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -332,16 +345,17 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690881634,
+    "wof:lastmodified":1722116395,
     "wof:name":"Quinhagak",
     "wof:parent_id":102085877,
     "wof:placetype":"locality",
-    "wof:population":669,
+    "wof:population":750,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[
-        1125382917
+        1125382917,
+        1141906881
     ],
     "wof:tags":[]
 },

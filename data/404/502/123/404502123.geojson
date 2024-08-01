@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009712,
-    "geom:area_square_m":89816192.900569,
+    "geom:area_square_m":89816192.900601,
     "geom:bbox":"-86.495121,41.563424,-86.29197,41.635764",
     "geom:latitude":41.592396,
     "geom:longitude":-86.368532,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.595546,
     "lbl:longitude":-86.356439,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":141,
     "uscensus:geoid":1814129502,
     "uscensus:name":"Greene",
     "uscensus:namelsad":"Greene township",
+    "uscensus:population":2950,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1814129502
+        "uscensus:geoid":"1814129502"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458071
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404502123,
-    "wof:lastmodified":1604969009,
+    "wof:lastmodified":1722117877,
     "wof:name":"Greene Township",
     "wof:parent_id":102086969,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3216,
+    "wof:population":2950,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

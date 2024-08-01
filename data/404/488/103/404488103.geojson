@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000243,
-    "geom:area_square_m":2258149.068233,
+    "geom:area_square_m":2258149.068231,
     "geom:bbox":"-80.506881,41.18773,-80.485338,41.206703",
     "geom:latitude":41.196938,
     "geom:longitude":-80.495777,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.194974,
     "lbl:longitude":-80.495988,
     "lbl:max_zoom":17.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":85,
     "uscensus:geoid":4208584376,
     "uscensus:name":"Wheatland",
     "uscensus:namelsad":"Wheatland borough",
+    "uscensus:population":569,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4208584376
+        "uscensus:geoid":"4208584376"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404488103,
-    "wof:lastmodified":1605055801,
+    "wof:lastmodified":1722117792,
     "wof:name":"Wheatland",
     "wof:parent_id":102080965,
     "wof:placetype":"localadmin",
-    "wof:population":632,
+    "wof:population":569,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

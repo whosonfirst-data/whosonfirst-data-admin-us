@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010829,
-    "geom:area_square_m":95573913.152523,
+    "geom:area_square_m":95573913.152529,
     "geom:bbox":"-87.644025,44.414356,-87.501917,44.501736",
     "geom:latitude":44.456783,
     "geom:longitude":-87.581133,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.458005,
     "lbl:longitude":-87.581134,
     "lbl:max_zoom":16.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":5506185775,
     "uscensus:name":"West Kewaunee",
     "uscensus:namelsad":"West Kewaunee town",
+    "uscensus:population":1291,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5506185775
+        "uscensus:geoid":"5506185775"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459641
     ],
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404493349,
-    "wof:lastmodified":1605055947,
+    "wof:lastmodified":1722117825,
     "wof:name":"West Kewaunee",
     "wof:parent_id":102081295,
     "wof:placetype":"localadmin",
-    "wof:population":1296,
+    "wof:population":1291,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

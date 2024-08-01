@@ -10,6 +10,12 @@
     "geom:latitude":43.067014,
     "geom:longitude":-98.529597,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.067272,
     "lbl:longitude":-98.532351,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":4602349460,
     "uscensus:name":"Pickstown",
     "uscensus:namelsad":"Pickstown town",
+    "uscensus:population":228,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4602349460
+        "uscensus:geoid":"4602349460"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404489571,
-    "wof:lastmodified":1605055936,
+    "wof:lastmodified":1722117801,
     "wof:name":"Pickstown",
     "wof:parent_id":102086799,
     "wof:placetype":"localadmin",
-    "wof:population":201,
+    "wof:population":228,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

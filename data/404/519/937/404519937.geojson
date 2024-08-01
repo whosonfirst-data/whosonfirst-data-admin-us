@@ -10,6 +10,12 @@
     "geom:latitude":42.714374,
     "geom:longitude":-98.244314,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.714015,
     "lbl:longitude":-98.245932,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":107,
     "uscensus:geoid":3110752260,
     "uscensus:name":"Western",
     "uscensus:namelsad":"Western township",
+    "uscensus:population":50,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3110752260
+        "uscensus:geoid":"3110752260"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466059
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404519937,
-    "wof:lastmodified":1605055661,
+    "wof:lastmodified":1722117981,
     "wof:name":"Western Township",
     "wof:parent_id":102083471,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":63,
+    "wof:population":50,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

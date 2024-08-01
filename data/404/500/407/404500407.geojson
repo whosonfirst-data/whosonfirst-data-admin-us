@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0126,
-    "geom:area_square_m":119251473.818048,
+    "geom:area_square_m":119251473.817925,
     "geom:bbox":"-84.930548,40.005077,-84.808461,40.121016",
     "geom:latitude":40.058165,
     "geom:longitude":-84.871095,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.056374,
     "lbl:longitude":-84.871101,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":135,
     "uscensus:geoid":1813529736,
     "uscensus:name":"Greensfork",
     "uscensus:namelsad":"Greensfork township",
+    "uscensus:population":1045,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1813529736
+        "uscensus:geoid":"1813529736"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729477959
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404500407,
-    "wof:lastmodified":1604969679,
+    "wof:lastmodified":1722117865,
     "wof:name":"Greensfork Township",
     "wof:parent_id":102086449,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1082,
+    "wof:population":1045,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

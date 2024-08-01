@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007851,
-    "geom:area_square_m":72795274.035095,
+    "geom:area_square_m":72795274.035078,
     "geom:bbox":"-74.119803,41.36791,-73.974501,41.456549",
     "geom:latitude":41.419494,
     "geom:longitude":-74.053957,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.417879,
     "lbl:longitude":-74.059842,
     "lbl:max_zoom":15.0,
@@ -307,11 +313,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":71,
     "uscensus:geoid":3607118300,
     "uscensus:name":"Cornwall",
     "uscensus:namelsad":"Cornwall town",
+    "uscensus:population":12644,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -321,8 +330,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3607118300
+        "uscensus:geoid":"3607118300"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -338,11 +348,11 @@
         }
     ],
     "wof:id":404522801,
-    "wof:lastmodified":1605056080,
+    "wof:lastmodified":1722233677,
     "wof:name":"Cornwall",
     "wof:parent_id":102083061,
     "wof:placetype":"localadmin",
-    "wof:population":12646,
+    "wof:population":12644,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

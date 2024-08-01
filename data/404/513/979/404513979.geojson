@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011505,
-    "geom:area_square_m":94267861.972893,
+    "geom:area_square_m":94267861.972881,
     "geom:bbox":"-95.993897,48.454336,-95.860756,48.543427",
     "geom:latitude":48.498783,
     "geom:longitude":-95.927371,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.49877,
     "lbl:longitude":-95.927374,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":89,
     "uscensus:geoid":2708964552,
     "uscensus:name":"Thief Lake",
     "uscensus:namelsad":"Thief Lake township",
+    "uscensus:population":30,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2708964552
+        "uscensus:geoid":"2708964552"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460833
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404513979,
-    "wof:lastmodified":1605056037,
+    "wof:lastmodified":1722117962,
     "wof:name":"Thief Lake Township",
     "wof:parent_id":102087695,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":39,
+    "wof:population":30,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

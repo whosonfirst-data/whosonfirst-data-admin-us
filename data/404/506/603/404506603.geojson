@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009085,
-    "geom:area_square_m":82031152.353802,
+    "geom:area_square_m":82031152.353821,
     "geom:bbox":"-83.929079,43.044511,-83.813016,43.133503",
     "geom:latitude":43.092107,
     "geom:longitude":-83.874763,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":43.100658,
     "lbl:longitude":-83.881729,
@@ -81,11 +84,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":2604929220,
     "uscensus:name":"Flushing",
     "uscensus:namelsad":"Flushing charter township",
+    "uscensus:population":10546,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -95,8 +101,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2604929220
+        "uscensus:geoid":"2604929220"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470799
     ],
@@ -115,11 +122,11 @@
         }
     ],
     "wof:id":404506603,
-    "wof:lastmodified":1605055755,
+    "wof:lastmodified":1722117908,
     "wof:name":"Flushing",
     "wof:parent_id":102083111,
     "wof:placetype":"localadmin",
-    "wof:population":10640,
+    "wof:population":10546,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

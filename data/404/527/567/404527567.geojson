@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003671,
-    "geom:area_square_m":32355648.181545,
+    "geom:area_square_m":32355648.181535,
     "geom:bbox":"-72.262965,44.501151,-72.137758,44.576818",
     "geom:latitude":44.537349,
     "geom:longitude":-72.20322,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.538416,
     "lbl:longitude":-72.203205,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":5000569925,
     "uscensus:name":"Stannard",
     "uscensus:namelsad":"Stannard town",
+    "uscensus:population":215,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5000569925
+        "uscensus:geoid":"5000569925"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469759
     ],
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404527567,
-    "wof:lastmodified":1605055676,
+    "wof:lastmodified":1722118031,
     "wof:name":"Stannard",
     "wof:parent_id":102080755,
     "wof:placetype":"localadmin",
-    "wof:population":216,
+    "wof:population":215,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000078,
-    "geom:area_square_m":689586.943873,
+    "geom:area_square_m":689586.943874,
     "geom:bbox":"-99.744705,44.519657,-99.732648,44.526995",
     "geom:latitude":44.523487,
     "geom:longitude":-99.739269,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.523349,
     "lbl:longitude":-99.739269,
     "lbl:max_zoom":18.0,
@@ -67,11 +73,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":65,
     "uscensus:geoid":4606527420,
     "uscensus:name":"Harrold",
     "uscensus:namelsad":"Harrold town",
+    "uscensus:population":100,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -81,8 +90,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4606527420
+        "uscensus:geoid":"4606527420"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -98,11 +108,11 @@
         }
     ],
     "wof:id":404488813,
-    "wof:lastmodified":1605055814,
+    "wof:lastmodified":1722117796,
     "wof:name":"Harrold",
     "wof:parent_id":102086823,
     "wof:placetype":"localadmin",
-    "wof:population":124,
+    "wof:population":100,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

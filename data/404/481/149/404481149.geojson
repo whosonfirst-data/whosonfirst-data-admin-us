@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000098,
-    "geom:area_square_m":830756.484921,
+    "geom:area_square_m":830756.48492,
     "geom:bbox":"-103.989648,46.73097,-103.97615,46.738395",
     "geom:latitude":46.734683,
     "geom:longitude":-103.982909,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.734679,
     "lbl:longitude":-103.982909,
     "lbl:max_zoom":18.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":33,
     "uscensus:geoid":3803331420,
     "uscensus:name":"Golva",
     "uscensus:namelsad":"Golva city",
+    "uscensus:population":85,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3803331420
+        "uscensus:geoid":"3803331420"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404481149,
-    "wof:lastmodified":1605055836,
+    "wof:lastmodified":1722117749,
     "wof:name":"Golva",
     "wof:parent_id":102082053,
     "wof:placetype":"localadmin",
-    "wof:population":61,
+    "wof:population":85,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

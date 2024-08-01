@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000306,
-    "geom:area_square_m":2863830.176247,
+    "geom:area_square_m":2863830.176248,
     "geom:bbox":"-79.606002,40.7458,-79.56517,40.759576",
     "geom:latitude":40.753053,
     "geom:longitude":-79.584801,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.753253,
     "lbl:longitude":-79.584801,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":4200510680,
     "uscensus:name":"Cadogan",
     "uscensus:namelsad":"Cadogan township",
+    "uscensus:population":336,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200510680
+        "uscensus:geoid":"4200510680"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472389
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404484267,
-    "wof:lastmodified":1605055457,
+    "wof:lastmodified":1722117767,
     "wof:name":"Cadogan Township",
     "wof:parent_id":102081371,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":344,
+    "wof:population":336,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

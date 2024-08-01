@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014365,
-    "geom:area_square_m":139805478.756509,
+    "geom:area_square_m":139805478.756546,
     "geom:bbox":"-88.152762,38.037924,-87.956664,38.12859",
     "geom:latitude":38.084432,
     "geom:longitude":-88.067734,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.081986,
     "lbl:longitude":-88.069614,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":193,
     "uscensus:geoid":1719333591,
     "uscensus:name":"Hawthorne",
     "uscensus:namelsad":"Hawthorne township",
+    "uscensus:population":244,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1719333591
+        "uscensus:geoid":"1719333591"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404498955,
-    "wof:lastmodified":1605055557,
+    "wof:lastmodified":1722233644,
     "wof:name":"Hawthorne Township",
     "wof:parent_id":102083525,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":275,
+    "wof:population":244,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.017052,
-    "geom:area_square_m":161953414.347562,
+    "geom:area_square_m":161953414.347681,
     "geom:bbox":"-88.357877,39.753287,-88.213282,39.879452",
     "geom:latitude":39.815277,
     "geom:longitude":-88.283726,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.816246,
     "lbl:longitude":-88.283734,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":1704176420,
     "uscensus:name":"Tuscola",
     "uscensus:namelsad":"Tuscola township",
+    "uscensus:population":5420,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1704176420
+        "uscensus:geoid":"1704176420"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404497759,
-    "wof:lastmodified":1605055497,
+    "wof:lastmodified":1722233639,
     "wof:name":"Tuscola Township",
     "wof:parent_id":102080821,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":5259,
+    "wof:population":5420,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

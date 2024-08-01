@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00015,
-    "geom:area_square_m":1346509.781584,
+    "geom:area_square_m":1346509.781585,
     "geom:bbox":"-100.750095,43.558202,-100.735922,43.576065",
     "geom:latitude":43.567068,
     "geom:longitude":-100.744875,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.567347,
     "lbl:longitude":-100.745009,
     "lbl:max_zoom":17.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":4609571340,
     "uscensus:name":"White River",
     "uscensus:namelsad":"White River city",
+    "uscensus:population":519,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4609571340
+        "uscensus:geoid":"4609571340"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404489329,
-    "wof:lastmodified":1605055936,
+    "wof:lastmodified":1722117799,
     "wof:name":"White River",
     "wof:parent_id":102086787,
     "wof:placetype":"localadmin",
-    "wof:population":581,
+    "wof:population":519,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

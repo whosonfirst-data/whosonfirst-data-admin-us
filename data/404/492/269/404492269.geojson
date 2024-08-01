@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010817,
-    "geom:area_square_m":95037207.876056,
+    "geom:area_square_m":95037207.876023,
     "geom:bbox":"-88.858771,44.678974,-88.73618,44.768043",
     "geom:latitude":44.723567,
     "geom:longitude":-88.797381,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.723544,
     "lbl:longitude":-88.797381,
     "lbl:max_zoom":17.0,
@@ -154,11 +160,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":5511561700,
     "uscensus:name":"Pella",
     "uscensus:namelsad":"Pella town",
+    "uscensus:population":915,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -168,8 +177,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5511561700
+        "uscensus:geoid":"5511561700"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -185,11 +195,11 @@
         }
     ],
     "wof:id":404492269,
-    "wof:lastmodified":1605056001,
+    "wof:lastmodified":1722117818,
     "wof:name":"Pella",
     "wof:parent_id":102081859,
     "wof:placetype":"localadmin",
-    "wof:population":865,
+    "wof:population":915,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

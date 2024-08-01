@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004864,
-    "geom:area_square_m":46788588.629358,
+    "geom:area_square_m":46788588.629349,
     "geom:bbox":"-87.101308,38.902434,-86.959291,38.976296",
     "geom:latitude":38.925416,
     "geom:longitude":-87.00962,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.926472,
     "lbl:longitude":-86.981146,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":55,
     "uscensus:geoid":1805510702,
     "uscensus:name":"Cass",
     "uscensus:namelsad":"Cass township",
+    "uscensus:population":289,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1805510702
+        "uscensus:geoid":"1805510702"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404500767,
-    "wof:lastmodified":1604530780,
+    "wof:lastmodified":1722233650,
     "wof:name":"Cass Township",
     "wof:parent_id":102087203,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":358,
+    "wof:population":289,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

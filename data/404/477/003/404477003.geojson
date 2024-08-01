@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014966,
-    "geom:area_square_m":132045089.640525,
+    "geom:area_square_m":132045089.640528,
     "geom:bbox":"-71.660167,44.410234,-71.429789,44.538743",
     "geom:latitude":44.475158,
     "geom:longitude":-71.547468,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.487291,
     "lbl:longitude":-71.539643,
     "lbl:max_zoom":15.0,
@@ -166,22 +172,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":3300740420,
     "uscensus:name":"Lancaster",
     "uscensus:namelsad":"Lancaster town",
+    "uscensus:population":3235,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":33,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688689,
-        102085529
+        102085529,
+        85688689
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3300740420
+        "uscensus:geoid":"3300740420"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -197,11 +207,11 @@
         }
     ],
     "wof:id":404477003,
-    "wof:lastmodified":1636499293,
+    "wof:lastmodified":1722117719,
     "wof:name":"Lancaster",
     "wof:parent_id":102085529,
     "wof:placetype":"localadmin",
-    "wof:population":3507,
+    "wof:population":3235,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

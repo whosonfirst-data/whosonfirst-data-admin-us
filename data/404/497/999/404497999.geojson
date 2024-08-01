@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008102,
-    "geom:area_square_m":75838656.974643,
+    "geom:area_square_m":75838656.974676,
     "geom:bbox":"-88.469748,40.75939,-88.35366,40.839938",
     "geom:latitude":40.795431,
     "geom:longitude":-88.413471,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.794675,
     "lbl:longitude":-88.414244,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":1710560612,
     "uscensus:name":"Pleasant Ridge",
     "uscensus:namelsad":"Pleasant Ridge township",
+    "uscensus:population":258,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1710560612
+        "uscensus:geoid":"1710560612"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404497999,
-    "wof:lastmodified":1605055487,
+    "wof:lastmodified":1722117852,
     "wof:name":"Pleasant Ridge Township",
     "wof:parent_id":102082873,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":252,
+    "wof:population":258,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

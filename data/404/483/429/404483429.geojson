@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000174,
-    "geom:area_square_m":1639041.609066,
+    "geom:area_square_m":1639041.609061,
     "geom:bbox":"-76.489566,40.403804,-76.471874,40.420721",
     "geom:latitude":40.412972,
     "geom:longitude":-76.480726,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.413148,
     "lbl:longitude":-76.480592,
     "lbl:max_zoom":16.0,
@@ -127,11 +133,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":75,
     "uscensus:geoid":4207538400,
     "uscensus:name":"Jonestown",
     "uscensus:namelsad":"Jonestown borough",
+    "uscensus:population":1645,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -141,8 +150,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207538400
+        "uscensus:geoid":"4207538400"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -158,11 +168,11 @@
         }
     ],
     "wof:id":404483429,
-    "wof:lastmodified":1605055446,
+    "wof:lastmodified":1722117762,
     "wof:name":"Jonestown",
     "wof:parent_id":102081341,
     "wof:placetype":"localadmin",
-    "wof:population":1905,
+    "wof:population":1645,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

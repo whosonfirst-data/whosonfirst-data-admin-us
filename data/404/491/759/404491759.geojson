@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012232,
-    "geom:area_square_m":107301786.314366,
+    "geom:area_square_m":107301786.314332,
     "geom:bbox":"-92.136401,44.771273,-91.974459,44.857931",
     "geom:latitude":44.811602,
     "geom:longitude":-92.06401,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.814645,
     "lbl:longitude":-92.063995,
     "lbl:max_zoom":17.0,
@@ -106,11 +112,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":33,
     "uscensus:geoid":5503385975,
     "uscensus:name":"Weston",
     "uscensus:namelsad":"Weston town",
+    "uscensus:population":585,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -120,8 +129,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5503385975
+        "uscensus:geoid":"5503385975"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471755
     ],
@@ -140,11 +150,11 @@
         }
     ],
     "wof:id":404491759,
-    "wof:lastmodified":1605055585,
+    "wof:lastmodified":1722117815,
     "wof:name":"Weston",
     "wof:parent_id":102081747,
     "wof:placetype":"localadmin",
-    "wof:population":594,
+    "wof:population":585,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

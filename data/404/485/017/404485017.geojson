@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001075,
-    "geom:area_square_m":10031574.508159,
+    "geom:area_square_m":10031574.508158,
     "geom:bbox":"-80.074454,40.990071,-80.029291,41.026779",
     "geom:latitude":41.007891,
     "geom:longitude":-80.057315,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.012266,
     "lbl:longitude":-80.059976,
     "lbl:max_zoom":17.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":4201983376,
     "uscensus:name":"West Liberty",
     "uscensus:namelsad":"West Liberty borough",
+    "uscensus:population":323,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201983376
+        "uscensus:geoid":"4201983376"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404485017,
-    "wof:lastmodified":1605055369,
+    "wof:lastmodified":1722117771,
     "wof:name":"West Liberty",
     "wof:parent_id":102083677,
     "wof:placetype":"localadmin",
-    "wof:population":343,
+    "wof:population":323,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

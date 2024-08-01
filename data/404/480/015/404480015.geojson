@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000078,
-    "geom:area_square_m":648951.830153,
+    "geom:area_square_m":648951.830152,
     "geom:bbox":"-99.714175,47.464828,-99.703552,47.472201",
     "geom:latitude":47.468514,
     "geom:longitude":-99.708868,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.468513,
     "lbl:longitude":-99.708869,
     "lbl:max_zoom":18.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":103,
     "uscensus:geoid":3810308580,
     "uscensus:name":"Bowdon",
     "uscensus:namelsad":"Bowdon city",
+    "uscensus:population":139,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3810308580
+        "uscensus:geoid":"3810308580"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404480015,
-    "wof:lastmodified":1605055907,
+    "wof:lastmodified":1722117741,
     "wof:name":"Bowdon",
     "wof:parent_id":102081507,
     "wof:placetype":"localadmin",
-    "wof:population":131,
+    "wof:population":139,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

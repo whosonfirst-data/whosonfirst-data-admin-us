@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005772,
-    "geom:area_square_m":54308130.094506,
+    "geom:area_square_m":54308130.094512,
     "geom:bbox":"-82.543862,40.410693,-82.460572,40.488752",
     "geom:latitude":40.450012,
     "geom:longitude":-82.501836,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.450079,
     "lbl:longitude":-82.499619,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":83,
     "uscensus:geoid":3908352290,
     "uscensus:name":"Morris",
     "uscensus:namelsad":"Morris township",
+    "uscensus:population":2077,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3908352290
+        "uscensus:geoid":"3908352290"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465399
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404526891,
-    "wof:lastmodified":1605055656,
+    "wof:lastmodified":1722118026,
     "wof:name":"Morris Township",
     "wof:parent_id":102084811,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2049,
+    "wof:population":2077,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

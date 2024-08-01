@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007912,
-    "geom:area_square_m":71577102.23123,
+    "geom:area_square_m":71577102.231265,
     "geom:bbox":"-75.550924,42.931774,-75.456499,43.021768",
     "geom:latitude":42.977182,
     "geom:longitude":-75.502227,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.976555,
     "lbl:longitude":-75.502233,
     "lbl:max_zoom":15.0,
@@ -163,11 +169,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":65,
     "uscensus:geoid":3606503155,
     "uscensus:name":"Augusta",
     "uscensus:namelsad":"Augusta town",
+    "uscensus:population":2005,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -177,8 +186,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3606503155
+        "uscensus:geoid":"3606503155"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -194,11 +204,11 @@
         }
     ],
     "wof:id":404521487,
-    "wof:lastmodified":1605055636,
+    "wof:lastmodified":1722233673,
     "wof:name":"Augusta",
     "wof:parent_id":102083149,
     "wof:placetype":"localadmin",
-    "wof:population":2020,
+    "wof:population":2005,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

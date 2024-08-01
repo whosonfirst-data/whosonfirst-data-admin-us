@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006403,
-    "geom:area_square_m":58430370.213514,
+    "geom:area_square_m":58430370.213519,
     "geom:bbox":"-77.169196,42.387556,-77.104873,42.50827",
     "geom:latitude":42.44104,
     "geom:longitude":-77.135152,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.441577,
     "lbl:longitude":-77.135769,
     "lbl:max_zoom":16.0,
@@ -106,11 +112,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":101,
     "uscensus:geoid":3610178883,
     "uscensus:name":"Wayne",
     "uscensus:namelsad":"Wayne town",
+    "uscensus:population":990,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -120,8 +129,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3610178883
+        "uscensus:geoid":"3610178883"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469085
     ],
@@ -140,12 +150,12 @@
         }
     ],
     "wof:id":404522507,
-    "wof:lastmodified":1605056075,
+    "wof:lastmodified":1722117994,
     "wof:name":"Wayne",
     "wof:parent_id":102083115,
     "wof:placetype":"localadmin",
-    "wof:population":1041,
-    "wof:population_rank":3,
+    "wof:population":990,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

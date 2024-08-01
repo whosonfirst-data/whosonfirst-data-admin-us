@@ -160,7 +160,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":5347559,
     "uscensus:awater":12803,
     "uscensus:classfp":"C5",
@@ -176,16 +177,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"15820",
     "uscensus:placens":"00885193",
+    "uscensus:population":9118,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"34",
     "wd:latitude":40.941944,
     "wd:longitude":-73.965,
     "wd:wordcount":6102,
     "wof:belongsto":[
-        85688607,
         102191575,
-        404477653,
         85633793,
-        102086773
+        102086773,
+        404477653,
+        85688607
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -193,10 +196,11 @@
         "gn:id":5097035,
         "gp:id":2387044,
         "qs_pg:id":12491,
-        "uscensus:geoid":3415820,
+        "uscensus:geoid":"3415820",
         "wd:id":"Q1088520",
         "wk:page":"Cresskill, New Jersey"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -214,11 +218,11 @@
         }
     ],
     "wof:id":85975915,
-    "wof:lastmodified":1690884672,
+    "wof:lastmodified":1722116113,
     "wof:name":"Cresskill",
     "wof:parent_id":404477653,
     "wof:placetype":"locality",
-    "wof:population":8573,
+    "wof:population":9118,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

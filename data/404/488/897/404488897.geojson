@@ -10,6 +10,12 @@
     "geom:latitude":44.228201,
     "geom:longitude":-97.309527,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.228197,
     "lbl:longitude":-97.309573,
     "lbl:max_zoom":18.0,
@@ -178,22 +184,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":77,
     "uscensus:geoid":4607746780,
     "uscensus:name":"Oldham",
     "uscensus:namelsad":"Oldham city",
+    "uscensus:population":119,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688693,
-        102086869
+        102086869,
+        85688693
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4607746780
+        "uscensus:geoid":"4607746780"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -209,11 +219,11 @@
         }
     ],
     "wof:id":404488897,
-    "wof:lastmodified":1636499369,
+    "wof:lastmodified":1722117797,
     "wof:name":"Oldham",
     "wof:parent_id":102086869,
     "wof:placetype":"localadmin",
-    "wof:population":133,
+    "wof:population":119,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

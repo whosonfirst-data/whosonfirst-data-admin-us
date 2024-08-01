@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0103,
-    "geom:area_square_m":94193927.672171,
+    "geom:area_square_m":94193927.672152,
     "geom:bbox":"-79.295901,42.260722,-79.178558,42.349311",
     "geom:latitude":42.304884,
     "geom:longitude":-79.237378,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.304923,
     "lbl:longitude":-79.23738,
     "lbl:max_zoom":16.0,
@@ -46,22 +52,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":3601313860,
     "uscensus:name":"Charlotte",
     "uscensus:namelsad":"Charlotte town",
+    "uscensus:population":1547,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688543,
-        102081811
+        102081811,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3601313860
+        "uscensus:geoid":"3601313860"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404521945,
-    "wof:lastmodified":1636499326,
+    "wof:lastmodified":1722233675,
     "wof:name":"Charlotte",
     "wof:parent_id":102081811,
     "wof:placetype":"localadmin",
-    "wof:population":1729,
+    "wof:population":1547,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

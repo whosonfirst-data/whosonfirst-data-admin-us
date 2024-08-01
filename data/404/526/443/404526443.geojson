@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009035,
-    "geom:area_square_m":84877553.747106,
+    "geom:area_square_m":84877553.74708,
     "geom:bbox":"-81.985221,40.521453,-81.858695,40.597479",
     "geom:latitude":40.559535,
     "geom:longitude":-81.921139,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.559593,
     "lbl:longitude":-81.921147,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":75,
     "uscensus:geoid":3907533460,
     "uscensus:name":"Hardy",
     "uscensus:namelsad":"Hardy township",
+    "uscensus:population":5975,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3907533460
+        "uscensus:geoid":"3907533460"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404526443,
-    "wof:lastmodified":1605055654,
+    "wof:lastmodified":1722233689,
     "wof:name":"Hardy Township",
     "wof:parent_id":102083651,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":5649,
+    "wof:population":5975,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

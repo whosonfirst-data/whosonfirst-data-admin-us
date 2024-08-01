@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007734,
-    "geom:area_square_m":70924234.644485,
+    "geom:area_square_m":70924234.644471,
     "geom:bbox":"-71.91697,42.072732,-71.797177,42.192425",
     "geom:latitude":42.128556,
     "geom:longitude":-71.866531,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.125616,
     "lbl:longitude":-71.86564,
     "lbl:max_zoom":15.0,
@@ -370,11 +376,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":2502751825,
     "uscensus:name":"Oxford",
     "uscensus:namelsad":"Oxford town",
+    "uscensus:population":13306,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -384,8 +393,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2502751825
+        "uscensus:geoid":"2502751825"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -401,11 +411,11 @@
         }
     ],
     "wof:id":404476675,
-    "wof:lastmodified":1605055394,
+    "wof:lastmodified":1722117716,
     "wof:name":"Oxford",
     "wof:parent_id":102084655,
     "wof:placetype":"localadmin",
-    "wof:population":13709,
+    "wof:population":13306,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

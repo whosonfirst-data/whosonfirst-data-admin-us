@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000952,
-    "geom:area_square_m":8832393.889538,
+    "geom:area_square_m":8832393.889542,
     "geom:bbox":"-75.760518,41.348684,-75.721908,41.392797",
     "geom:latitude":41.37048,
     "geom:longitude":-75.740855,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.371909,
     "lbl:longitude":-75.741148,
     "lbl:max_zoom":15.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":69,
     "uscensus:geoid":4206956576,
     "uscensus:name":"Old Forge",
     "uscensus:namelsad":"Old Forge borough",
+    "uscensus:population":8612,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206956576
+        "uscensus:geoid":"4206956576"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,11 +96,11 @@
         }
     ],
     "wof:id":404486835,
-    "wof:lastmodified":1605055863,
+    "wof:lastmodified":1722117783,
     "wof:name":"Old Forge",
     "wof:parent_id":102081345,
     "wof:placetype":"localadmin",
-    "wof:population":8313,
+    "wof:population":8612,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

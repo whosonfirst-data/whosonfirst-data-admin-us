@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011483,
-    "geom:area_square_m":99047848.83902,
+    "geom:area_square_m":99047848.83904,
     "geom:bbox":"-88.178181,45.713063,-88.058246,45.845282",
     "geom:latitude":45.767136,
     "geom:longitude":-88.126667,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.762055,
     "lbl:longitude":-88.133803,
     "lbl:max_zoom":16.0,
@@ -295,22 +301,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":37,
     "uscensus:geoid":5503703875,
     "uscensus:name":"Aurora",
     "uscensus:namelsad":"Aurora town",
+    "uscensus:population":1020,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081313
+        102081313,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5503703875
+        "uscensus:geoid":"5503703875"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459943
     ],
@@ -329,11 +339,11 @@
         }
     ],
     "wof:id":404493587,
-    "wof:lastmodified":1636499395,
+    "wof:lastmodified":1722117827,
     "wof:name":"Aurora",
     "wof:parent_id":102081313,
     "wof:placetype":"localadmin",
-    "wof:population":1036,
+    "wof:population":1020,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

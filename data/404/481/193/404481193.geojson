@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010974,
-    "geom:area_square_m":90683076.320872,
+    "geom:area_square_m":90683076.320908,
     "geom:bbox":"-98.422497,48.020723,-98.292527,48.108155",
     "geom:latitude":48.065158,
     "geom:longitude":-98.357843,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.070394,
     "lbl:longitude":-98.385597,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":63,
     "uscensus:geoid":3806344340,
     "uscensus:name":"Lakota",
     "uscensus:namelsad":"Lakota township",
+    "uscensus:population":51,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3806344340
+        "uscensus:geoid":"3806344340"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470865
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404481193,
-    "wof:lastmodified":1605055821,
+    "wof:lastmodified":1722117749,
     "wof:name":"Lakota Township",
     "wof:parent_id":102082083,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":50,
+    "wof:population":51,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

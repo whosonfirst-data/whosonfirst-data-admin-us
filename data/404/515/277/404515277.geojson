@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010479,
-    "geom:area_square_m":91998337.926106,
+    "geom:area_square_m":91998337.926095,
     "geom:bbox":"-96.338769,44.717795,-96.215507,44.805564",
     "geom:latitude":44.76255,
     "geom:longitude":-96.277544,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.769866,
     "lbl:longitude":-96.274261,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":173,
     "uscensus:geoid":2717326792,
     "uscensus:name":"Hammer",
     "uscensus:namelsad":"Hammer township",
+    "uscensus:population":180,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2717326792
+        "uscensus:geoid":"2717326792"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729479643
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404515277,
-    "wof:lastmodified":1605056139,
+    "wof:lastmodified":1722117972,
     "wof:name":"Hammer Township",
     "wof:parent_id":102087691,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":196,
+    "wof:population":180,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

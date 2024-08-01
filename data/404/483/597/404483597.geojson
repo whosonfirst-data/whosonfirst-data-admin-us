@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000441,
-    "geom:area_square_m":4170250.516027,
+    "geom:area_square_m":4170250.516023,
     "geom:bbox":"-75.475717,40.173284,-75.447367,40.202082",
     "geom:latitude":40.187242,
     "geom:longitude":-75.458069,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.186978,
     "lbl:longitude":-75.457852,
     "lbl:max_zoom":15.0,
@@ -64,11 +70,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":91,
     "uscensus:geoid":4209115192,
     "uscensus:name":"Collegeville",
     "uscensus:namelsad":"Collegeville borough",
+    "uscensus:population":5351,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -78,8 +87,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4209115192
+        "uscensus:geoid":"4209115192"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -95,11 +105,11 @@
         }
     ],
     "wof:id":404483597,
-    "wof:lastmodified":1605055444,
+    "wof:lastmodified":1722117763,
     "wof:name":"Collegeville",
     "wof:parent_id":102081355,
     "wof:placetype":"localadmin",
-    "wof:population":5089,
+    "wof:population":5351,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

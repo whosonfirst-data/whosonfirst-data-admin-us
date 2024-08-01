@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.015045,
-    "geom:area_square_m":142853111.788325,
+    "geom:area_square_m":142853111.788268,
     "geom:bbox":"-87.937645,39.792301,-87.765847,39.880875",
     "geom:latitude":39.836445,
     "geom:longitude":-87.851442,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.836488,
     "lbl:longitude":-87.851432,
     "lbl:max_zoom":17.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":1704584064,
     "uscensus:name":"Young America",
     "uscensus:namelsad":"Young America township",
+    "uscensus:population":582,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1704584064
+        "uscensus:geoid":"1704584064"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404497833,
-    "wof:lastmodified":1605055492,
+    "wof:lastmodified":1722233639,
     "wof:name":"Young America Township",
     "wof:parent_id":102082861,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":726,
+    "wof:population":582,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

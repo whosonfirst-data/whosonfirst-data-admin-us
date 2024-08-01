@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00814,
-    "geom:area_square_m":75661099.598365,
+    "geom:area_square_m":75661099.598264,
     "geom:bbox":"-79.322763,41.201343,-79.20905,41.320094",
     "geom:latitude":41.261392,
     "geom:longitude":-79.251344,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.259434,
     "lbl:longitude":-79.246738,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":4203149536,
     "uscensus:name":"Millcreek",
     "uscensus:namelsad":"Millcreek township",
+    "uscensus:population":356,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4203149536
+        "uscensus:geoid":"4203149536"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461427
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404486665,
-    "wof:lastmodified":1605055874,
+    "wof:lastmodified":1722117782,
     "wof:name":"Millcreek Township",
     "wof:parent_id":102081389,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":396,
+    "wof:population":356,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

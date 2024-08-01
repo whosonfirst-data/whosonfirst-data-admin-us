@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011087,
-    "geom:area_square_m":92390679.630015,
+    "geom:area_square_m":92390679.630043,
     "geom:bbox":"-97.60096,47.585173,-97.472745,47.672207",
     "geom:latitude":47.628738,
     "geom:longitude":-97.536772,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.628698,
     "lbl:longitude":-97.536807,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":91,
     "uscensus:geoid":3809156060,
     "uscensus:name":"Newburgh",
     "uscensus:namelsad":"Newburgh township",
+    "uscensus:population":79,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3809156060
+        "uscensus:geoid":"3809156060"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459559
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404482215,
-    "wof:lastmodified":1605055385,
+    "wof:lastmodified":1722117755,
     "wof:name":"Newburgh Township",
     "wof:parent_id":102082055,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":90,
+    "wof:population":79,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -10,6 +10,12 @@
     "geom:latitude":40.974953,
     "geom:longitude":-75.139178,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.98062,
     "lbl:longitude":-75.14191,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":89,
     "uscensus:geoid":4208918736,
     "uscensus:name":"Delaware Water Gap",
     "uscensus:namelsad":"Delaware Water Gap borough",
+    "uscensus:population":666,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4208918736
+        "uscensus:geoid":"4208918736"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404483771,
-    "wof:lastmodified":1605055442,
+    "wof:lastmodified":1722117764,
     "wof:name":"Delaware Water Gap",
     "wof:parent_id":102080945,
     "wof:placetype":"localadmin",
-    "wof:population":746,
+    "wof:population":666,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

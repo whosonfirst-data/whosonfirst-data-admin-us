@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000956,
-    "geom:area_square_m":8464168.037223,
+    "geom:area_square_m":8464168.037234,
     "geom:bbox":"-83.509261,44.275556,-83.458174,44.30418",
     "geom:latitude":44.286879,
     "geom:longitude":-83.48405,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.286143,
     "lbl:longitude":-83.48708,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":69,
     "uscensus:geoid":2606924420,
     "uscensus:name":"East Tawas",
     "uscensus:namelsad":"East Tawas city",
+    "uscensus:population":2680,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2606924420
+        "uscensus:geoid":"2606924420"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404507597,
-    "wof:lastmodified":1605055776,
+    "wof:lastmodified":1722117915,
     "wof:name":"East Tawas",
     "wof:parent_id":102083001,
     "wof:placetype":"localadmin",
-    "wof:population":2808,
+    "wof:population":2680,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

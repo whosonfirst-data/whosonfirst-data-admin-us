@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001107,
-    "geom:area_square_m":10245072.540131,
+    "geom:area_square_m":10245072.540128,
     "geom:bbox":"-81.463247,41.530692,-81.419936,41.570134",
     "geom:latitude":41.550105,
     "geom:longitude":-81.43679,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "village"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.550282,
     "lbl:longitude":-81.43504,
     "lbl:max_zoom":15.0,
@@ -88,11 +94,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":3903548468,
     "uscensus:name":"Mayfield",
     "uscensus:namelsad":"Mayfield village",
+    "uscensus:population":3300,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -102,8 +111,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3903548468
+        "uscensus:geoid":"3903548468"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -119,11 +129,11 @@
         }
     ],
     "wof:id":404523421,
-    "wof:lastmodified":1605056094,
+    "wof:lastmodified":1722118001,
     "wof:name":"Mayfield",
     "wof:parent_id":102084837,
     "wof:placetype":"localadmin",
-    "wof:population":3460,
+    "wof:population":3300,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

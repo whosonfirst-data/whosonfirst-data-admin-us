@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000632,
-    "geom:area_square_m":6026772.988712,
+    "geom:area_square_m":6026772.988709,
     "geom:bbox":"-74.266843,39.547005,-74.229615,39.585295",
     "geom:latitude":39.565772,
     "geom:longitude":-74.248742,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.56571,
     "lbl:longitude":-74.244365,
     "lbl:max_zoom":16.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":3402903940,
     "uscensus:name":"Beach Haven",
     "uscensus:namelsad":"Beach Haven borough",
+    "uscensus:population":1069,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3402903940
+        "uscensus:geoid":"3402903940"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404477827,
-    "wof:lastmodified":1605055415,
+    "wof:lastmodified":1722117725,
     "wof:name":"Beach Haven",
     "wof:parent_id":102081485,
     "wof:placetype":"localadmin",
-    "wof:population":1170,
+    "wof:population":1069,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

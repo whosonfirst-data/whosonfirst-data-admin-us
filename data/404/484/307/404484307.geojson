@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003074,
-    "geom:area_square_m":28897562.381818,
+    "geom:area_square_m":28897562.381813,
     "geom:bbox":"-79.988923,40.477917,-79.936072,40.555152",
     "geom:latitude":40.522884,
     "geom:longitude":-79.963235,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.528742,
     "lbl:longitude":-79.963749,
     "lbl:max_zoom":14.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4200369584,
     "uscensus:name":"Shaler",
     "uscensus:namelsad":"Shaler township",
+    "uscensus:population":27116,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200369584
+        "uscensus:geoid":"4200369584"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404484307,
-    "wof:lastmodified":1605055451,
+    "wof:lastmodified":1722117767,
     "wof:name":"Shaler Township",
     "wof:parent_id":102080887,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":28757,
+    "wof:population":27116,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

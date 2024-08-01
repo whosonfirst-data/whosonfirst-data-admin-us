@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007853,
-    "geom:area_square_m":71211471.729822,
+    "geom:area_square_m":71211471.729812,
     "geom:bbox":"-83.808833,42.781138,-83.687476,42.871263",
     "geom:latitude":42.833613,
     "geom:longitude":-83.752824,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":42.841994,
     "lbl:longitude":-83.740847,
@@ -99,11 +102,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":2604927780,
     "uscensus:name":"Fenton",
     "uscensus:namelsad":"Fenton charter township",
+    "uscensus:population":17130,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -113,8 +119,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2604927780
+        "uscensus:geoid":"2604927780"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -130,11 +137,11 @@
         }
     ],
     "wof:id":404506597,
-    "wof:lastmodified":1605055759,
+    "wof:lastmodified":1722117908,
     "wof:name":"Fenton",
     "wof:parent_id":102083111,
     "wof:placetype":"localadmin",
-    "wof:population":15552,
+    "wof:population":17130,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

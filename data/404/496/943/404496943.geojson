@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001382,
-    "geom:area_square_m":12778102.502154,
+    "geom:area_square_m":12778102.502157,
     "geom:bbox":"-90.351928,41.583559,-90.324162,41.670526",
     "geom:latitude":41.625943,
     "geom:longitude":-90.333306,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.625932,
     "lbl:longitude":-90.333516,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":161,
     "uscensus:geoid":1716161236,
     "uscensus:name":"Port Byron",
     "uscensus:namelsad":"Port Byron township",
+    "uscensus:population":1355,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1716161236
+        "uscensus:geoid":"1716161236"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404496943,
-    "wof:lastmodified":1605055608,
+    "wof:lastmodified":1722233636,
     "wof:name":"Port Byron Township",
     "wof:parent_id":102082281,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1446,
+    "wof:population":1355,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

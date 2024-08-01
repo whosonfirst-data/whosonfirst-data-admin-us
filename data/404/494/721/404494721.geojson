@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010029,
-    "geom:area_square_m":87169081.084907,
+    "geom:area_square_m":87169081.084925,
     "geom:bbox":"-92.285837,45.294911,-92.156383,45.381188",
     "geom:latitude":45.339376,
     "geom:longitude":-92.225782,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.338225,
     "lbl:longitude":-92.230243,
     "lbl:max_zoom":17.0,
@@ -112,11 +118,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":5509515125,
     "uscensus:name":"Clayton",
     "uscensus:namelsad":"Clayton town",
+    "uscensus:population":984,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -126,8 +135,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5509515125
+        "uscensus:geoid":"5509515125"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467235
     ],
@@ -146,11 +156,11 @@
         }
     ],
     "wof:id":404494721,
-    "wof:lastmodified":1605055975,
+    "wof:lastmodified":1722117834,
     "wof:name":"Clayton",
     "wof:parent_id":102081307,
     "wof:placetype":"localadmin",
-    "wof:population":975,
+    "wof:population":984,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

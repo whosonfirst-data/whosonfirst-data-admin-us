@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012622,
-    "geom:area_square_m":122612299.101266,
+    "geom:area_square_m":122612299.10129,
     "geom:bbox":"-88.593423,38.161511,-88.370367,38.256365",
     "geom:latitude":38.224044,
     "geom:longitude":-88.500017,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.233585,
     "lbl:longitude":-88.500039,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":65,
     "uscensus:geoid":1706517809,
     "uscensus:name":"Crouch",
     "uscensus:namelsad":"Crouch township",
+    "uscensus:population":382,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1706517809
+        "uscensus:geoid":"1706517809"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404497257,
-    "wof:lastmodified":1605055490,
+    "wof:lastmodified":1722233637,
     "wof:name":"Crouch Township",
     "wof:parent_id":102080813,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":374,
+    "wof:population":382,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

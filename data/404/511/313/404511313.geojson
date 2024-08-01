@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.015857,
-    "geom:area_square_m":138013222.767607,
+    "geom:area_square_m":138013222.767615,
     "geom:bbox":"-96.241858,45.176675,-96.103614,45.32658",
     "geom:latitude":45.261601,
     "geom:longitude":-96.172256,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.28102,
     "lbl:longitude":-96.167472,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":2701100532,
     "uscensus:name":"Akron",
     "uscensus:namelsad":"Akron township",
+    "uscensus:population":158,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2701100532
+        "uscensus:geoid":"2701100532"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461937
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404511313,
-    "wof:lastmodified":1605055722,
+    "wof:lastmodified":1722117943,
     "wof:name":"Akron Township",
     "wof:parent_id":102087619,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":168,
+    "wof:population":158,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

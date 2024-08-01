@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00033,
-    "geom:area_square_m":3091555.428617,
+    "geom:area_square_m":3091555.428613,
     "geom:bbox":"-80.347153,40.671304,-80.312609,40.696343",
     "geom:latitude":40.684889,
     "geom:longitude":-80.329806,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.684608,
     "lbl:longitude":-80.329819,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":4200779856,
     "uscensus:name":"Vanport",
     "uscensus:namelsad":"Vanport township",
+    "uscensus:population":1269,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200779856
+        "uscensus:geoid":"4200779856"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472245
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404484401,
-    "wof:lastmodified":1605055456,
+    "wof:lastmodified":1722117768,
     "wof:name":"Vanport Township",
     "wof:parent_id":102081323,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1321,
+    "wof:population":1269,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

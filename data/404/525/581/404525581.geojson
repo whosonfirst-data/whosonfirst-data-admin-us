@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008086,
-    "geom:area_square_m":76297819.339448,
+    "geom:area_square_m":76297819.339468,
     "geom:bbox":"-81.221408,40.227148,-81.106312,40.301843",
     "geom:latitude":40.264595,
     "geom:longitude":-81.163732,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.264654,
     "lbl:longitude":-81.163736,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":67,
     "uscensus:geoid":3906757456,
     "uscensus:name":"Nottingham",
     "uscensus:namelsad":"Nottingham township",
+    "uscensus:population":294,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3906757456
+        "uscensus:geoid":"3906757456"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465799
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404525581,
-    "wof:lastmodified":1605056055,
+    "wof:lastmodified":1722118017,
     "wof:name":"Nottingham Township",
     "wof:parent_id":102083669,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":324,
+    "wof:population":294,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

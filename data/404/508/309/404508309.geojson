@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009342,
-    "geom:area_square_m":82925448.148988,
+    "geom:area_square_m":82925448.148987,
     "geom:bbox":"-83.927493,44.083881,-83.806767,44.162071",
     "geom:latitude":44.12289,
     "geom:longitude":-83.867349,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.122961,
     "lbl:longitude":-83.86735,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":2601152120,
     "uscensus:name":"Mason",
     "uscensus:namelsad":"Mason township",
+    "uscensus:population":757,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2601152120
+        "uscensus:geoid":"2601152120"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404508309,
-    "wof:lastmodified":1605055732,
+    "wof:lastmodified":1722233667,
     "wof:name":"Mason Township",
     "wof:parent_id":102083015,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":851,
+    "wof:population":757,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

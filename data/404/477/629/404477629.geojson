@@ -10,6 +10,12 @@
     "geom:latitude":39.389937,
     "geom:longitude":-74.516851,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.400974,
     "lbl:longitude":-74.511459,
     "lbl:max_zoom":14.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":3400159640,
     "uscensus:name":"Pleasantville",
     "uscensus:namelsad":"Pleasantville city",
+    "uscensus:population":20613,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400159640
+        "uscensus:geoid":"3400159640"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404477629,
-    "wof:lastmodified":1605055417,
+    "wof:lastmodified":1722117724,
     "wof:name":"Pleasantville",
     "wof:parent_id":102083869,
     "wof:placetype":"localadmin",
-    "wof:population":20249,
+    "wof:population":20613,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

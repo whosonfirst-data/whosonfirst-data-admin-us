@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000182,
-    "geom:area_square_m":1725621.005122,
+    "geom:area_square_m":1725621.005118,
     "geom:bbox":"-76.616507,39.996081,-76.592079,40.009879",
     "geom:latitude":40.002434,
     "geom:longitude":-76.604157,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.002989,
     "lbl:longitude":-76.603325,
     "lbl:max_zoom":15.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":133,
     "uscensus:geoid":4213332056,
     "uscensus:name":"Hallam",
     "uscensus:namelsad":"Hallam borough",
+    "uscensus:population":2774,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4213332056
+        "uscensus:geoid":"4213332056"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -104,11 +114,11 @@
         }
     ],
     "wof:id":404487769,
-    "wof:lastmodified":1605055888,
+    "wof:lastmodified":1722117789,
     "wof:name":"Hallam",
     "wof:parent_id":102080953,
     "wof:placetype":"localadmin",
-    "wof:population":2673,
+    "wof:population":2774,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

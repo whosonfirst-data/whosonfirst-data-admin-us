@@ -160,7 +160,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2857863,
     "uscensus:awater":104252,
     "uscensus:classfp":"C5",
@@ -176,17 +177,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"22472",
     "uscensus:placens":"02394813",
+    "uscensus:population":1308,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":423.0,
     "wd:latitude":46.728056,
     "wd:longitude":-95.700833,
     "wd:wordcount":1338,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404511151,
         85633793,
-        102087001
+        102087001,
+        404511151,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -194,10 +197,11 @@
         "gn:id":5027366,
         "gp:id":2407096,
         "qs_pg:id":1051002,
-        "uscensus:geoid":2722472,
+        "uscensus:geoid":"2722472",
         "wd:id":"Q1933878",
         "wk:page":"Frazee, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -215,11 +219,11 @@
         }
     ],
     "wof:id":85952683,
-    "wof:lastmodified":1690883482,
+    "wof:lastmodified":1722116042,
     "wof:name":"Frazee",
     "wof:parent_id":404511151,
     "wof:placetype":"locality",
-    "wof:population":1350,
+    "wof:population":1308,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005237,
-    "geom:area_square_m":49471974.646233,
+    "geom:area_square_m":49471974.6462,
     "geom:bbox":"-80.882892,40.155111,-80.763443,40.203999",
     "geom:latitude":40.179741,
     "geom:longitude":-80.823181,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.179661,
     "lbl:longitude":-80.823142,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":81,
     "uscensus:geoid":3908152990,
     "uscensus:name":"Mount Pleasant",
     "uscensus:namelsad":"Mount Pleasant township",
+    "uscensus:population":2167,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3908152990
+        "uscensus:geoid":"3908152990"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404526667,
-    "wof:lastmodified":1605055647,
+    "wof:lastmodified":1722233689,
     "wof:name":"Mount Pleasant Township",
     "wof:parent_id":102084713,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2368,
+    "wof:population":2167,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

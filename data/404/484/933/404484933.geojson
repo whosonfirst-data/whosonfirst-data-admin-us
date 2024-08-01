@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003727,
-    "geom:area_square_m":34995427.764861,
+    "geom:area_square_m":34995427.764805,
     "geom:bbox":"-80.158691,40.542246,-80.064048,40.616286",
     "geom:latitude":40.590299,
     "geom:longitude":-80.099858,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.590732,
     "lbl:longitude":-80.092698,
     "lbl:max_zoom":15.0,
@@ -67,11 +73,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4200327552,
     "uscensus:name":"Franklin Park",
     "uscensus:namelsad":"Franklin Park borough",
+    "uscensus:population":15024,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -81,8 +90,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200327552
+        "uscensus:geoid":"4200327552"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -98,11 +108,11 @@
         }
     ],
     "wof:id":404484933,
-    "wof:lastmodified":1605055463,
+    "wof:lastmodified":1722117771,
     "wof:name":"Franklin Park",
     "wof:parent_id":102080887,
     "wof:placetype":"localadmin",
-    "wof:population":13470,
+    "wof:population":15024,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

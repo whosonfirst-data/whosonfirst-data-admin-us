@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011572,
-    "geom:area_square_m":94163946.218364,
+    "geom:area_square_m":94163946.218363,
     "geom:bbox":"-96.14107,48.80445,-96.00706,48.892747",
     "geom:latitude":48.848218,
     "geom:longitude":-96.073981,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.84801,
     "lbl:longitude":-96.073979,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":135,
     "uscensus:geoid":2713543900,
     "uscensus:name":"Moose",
     "uscensus:namelsad":"Moose township",
+    "uscensus:population":100,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2713543900
+        "uscensus:geoid":"2713543900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729479005
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404512933,
-    "wof:lastmodified":1605056129,
+    "wof:lastmodified":1722117954,
     "wof:name":"Moose Township",
     "wof:parent_id":102087665,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":114,
+    "wof:population":100,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

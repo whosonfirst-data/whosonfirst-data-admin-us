@@ -249,6 +249,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":20381000,
     "uscensus:awater":296252,
     "uscensus:classfp":"U1",
@@ -264,14 +266,16 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"64255",
     "uscensus:placens":"02377952",
+    "uscensus:population":4282,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"23",
     "wd:wordcount":147,
     "wof:belongsto":[
-        85688769,
         102191575,
-        404475769,
         85633793,
-        102087437
+        102087437,
+        404475769,
+        85688769
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -280,9 +284,10 @@
         "gn:id":4977125,
         "gp:id":2485737,
         "qs_pg:id":156055,
-        "uscensus:geoid":2364255,
+        "uscensus:geoid":"2364255",
         "wd:id":"Q413809"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -303,10 +308,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885214,
+    "wof:lastmodified":1722116145,
     "wof:name":"Rumford",
     "wof:parent_id":404475769,
     "wof:placetype":"locality",
+    "wof:population":4282,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

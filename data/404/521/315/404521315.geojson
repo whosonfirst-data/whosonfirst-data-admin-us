@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013448,
-    "geom:area_square_m":122569104.072227,
+    "geom:area_square_m":122569104.072223,
     "geom:bbox":"-76.261481,42.478205,-76.061946,42.555668",
     "geom:latitude":42.515819,
     "geom:longitude":-76.166364,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.517291,
     "lbl:longitude":-76.166367,
     "lbl:max_zoom":15.0,
@@ -409,11 +415,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":3602377596,
     "uscensus:name":"Virgil",
     "uscensus:namelsad":"Virgil town",
+    "uscensus:population":2386,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -423,8 +432,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3602377596
+        "uscensus:geoid":"3602377596"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -440,11 +450,11 @@
         }
     ],
     "wof:id":404521315,
-    "wof:lastmodified":1605055631,
+    "wof:lastmodified":1722117985,
     "wof:name":"Virgil",
     "wof:parent_id":102083011,
     "wof:placetype":"localadmin",
-    "wof:population":2401,
+    "wof:population":2386,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000438,
-    "geom:area_square_m":4071811.635938,
+    "geom:area_square_m":4071811.635955,
     "geom:bbox":"-75.885129,41.263581,-75.849087,41.301328",
     "geom:latitude":41.284344,
     "geom:longitude":-75.868852,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.279984,
     "lbl:longitude":-75.876087,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":79,
     "uscensus:geoid":4207926880,
     "uscensus:name":"Forty Fort",
     "uscensus:namelsad":"Forty Fort borough",
+    "uscensus:population":4233,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207926880
+        "uscensus:geoid":"4207926880"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404483459,
-    "wof:lastmodified":1605055448,
+    "wof:lastmodified":1722117762,
     "wof:name":"Forty Fort",
     "wof:parent_id":102081351,
     "wof:placetype":"localadmin",
-    "wof:population":4214,
+    "wof:population":4233,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

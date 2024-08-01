@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010615,
-    "geom:area_square_m":93615638.310187,
+    "geom:area_square_m":93615638.310215,
     "geom:bbox":"-96.64603,44.455862,-96.523519,44.543883",
     "geom:latitude":44.499949,
     "geom:longitude":-96.585367,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.499954,
     "lbl:longitude":-96.585366,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":4601146340,
     "uscensus:name":"Oak Lake",
     "uscensus:namelsad":"Oak Lake township",
+    "uscensus:population":96,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4601146340
+        "uscensus:geoid":"4601146340"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467307
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404488777,
-    "wof:lastmodified":1605055809,
+    "wof:lastmodified":1722117796,
     "wof:name":"Oak Lake Township",
     "wof:parent_id":102086013,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":100,
+    "wof:population":96,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

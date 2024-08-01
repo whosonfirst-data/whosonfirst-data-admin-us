@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009972,
-    "geom:area_square_m":92809460.564044,
+    "geom:area_square_m":92809460.564025,
     "geom:bbox":"-97.023887,41.133107,-96.908469,41.220402",
     "geom:latitude":41.176599,
     "geom:longitude":-96.966069,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.176632,
     "lbl:longitude":-96.966069,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":3102335280,
     "uscensus:name":"Oak Creek",
     "uscensus:namelsad":"Oak Creek township",
+    "uscensus:population":518,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3102335280
+        "uscensus:geoid":"3102335280"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404519575,
-    "wof:lastmodified":1605055667,
+    "wof:lastmodified":1722233671,
     "wof:name":"Oak Creek Township",
     "wof:parent_id":102082839,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":500,
+    "wof:population":518,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

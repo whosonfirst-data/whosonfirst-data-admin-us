@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005786,
-    "geom:area_square_m":55219737.631185,
+    "geom:area_square_m":55219737.631172,
     "geom:bbox":"-84.077527,39.443091,-83.979443,39.544116",
     "geom:latitude":39.486598,
     "geom:longitude":-84.019236,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.476813,
     "lbl:longitude":-84.014402,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":165,
     "uscensus:geoid":3916548216,
     "uscensus:name":"Massie",
     "uscensus:namelsad":"Massie township",
+    "uscensus:population":1235,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3916548216
+        "uscensus:geoid":"3916548216"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404526211,
-    "wof:lastmodified":1605055643,
+    "wof:lastmodified":1722233688,
     "wof:name":"Massie Township",
     "wof:parent_id":102082423,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1141,
+    "wof:population":1235,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

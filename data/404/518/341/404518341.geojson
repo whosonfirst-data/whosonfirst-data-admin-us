@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012989,
-    "geom:area_square_m":126556473.330648,
+    "geom:area_square_m":126556473.330618,
     "geom:bbox":"-94.614629,37.941693,-94.499236,38.060056",
     "geom:latitude":38.001355,
     "geom:longitude":-94.558179,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.000968,
     "lbl:longitude":-94.558176,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":217,
     "uscensus:geoid":2921731672,
     "uscensus:name":"Henry",
     "uscensus:namelsad":"Henry township",
+    "uscensus:population":220,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":29,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2921731672
+        "uscensus:geoid":"2921731672"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404518341,
-    "wof:lastmodified":1604530730,
+    "wof:lastmodified":1722233671,
     "wof:name":"Henry Township",
     "wof:parent_id":102086909,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":231,
+    "wof:population":220,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

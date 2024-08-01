@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006788,
-    "geom:area_square_m":63399566.706256,
+    "geom:area_square_m":63399566.706254,
     "geom:bbox":"-80.352277,40.907502,-80.263986,40.99893",
     "geom:latitude":40.949257,
     "geom:longitude":-80.305954,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.944445,
     "lbl:longitude":-80.303617,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":73,
     "uscensus:geoid":4207370080,
     "uscensus:name":"Shenango",
     "uscensus:namelsad":"Shenango township",
+    "uscensus:population":7012,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207370080
+        "uscensus:geoid":"4207370080"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729453543
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404485667,
-    "wof:lastmodified":1605055360,
+    "wof:lastmodified":1722117775,
     "wof:name":"Shenango Township",
     "wof:parent_id":102080929,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":7479,
+    "wof:population":7012,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

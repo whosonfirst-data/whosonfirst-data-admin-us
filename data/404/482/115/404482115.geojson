@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010951,
-    "geom:area_square_m":91254910.846755,
+    "geom:area_square_m":91254910.846732,
     "geom:bbox":"-99.522166,47.587468,-99.393845,47.673217",
     "geom:latitude":47.630373,
     "geom:longitude":-99.458034,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.630364,
     "lbl:longitude":-99.458035,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":103,
     "uscensus:geoid":3810329980,
     "uscensus:name":"Germantown",
     "uscensus:namelsad":"Germantown township",
+    "uscensus:population":39,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3810329980
+        "uscensus:geoid":"3810329980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460913
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404482115,
-    "wof:lastmodified":1605055389,
+    "wof:lastmodified":1722117754,
     "wof:name":"Germantown Township",
     "wof:parent_id":102081507,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":29,
+    "wof:population":39,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.018243,
-    "geom:area_square_m":177200249.554688,
+    "geom:area_square_m":177200249.554608,
     "geom:bbox":"-95.958874,38.170563,-95.76465,38.322133",
     "geom:latitude":38.2293,
     "geom:longitude":-95.881381,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.224242,
     "lbl:longitude":-95.883238,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":2003156225,
     "uscensus:name":"Pleasant",
     "uscensus:namelsad":"Pleasant township",
+    "uscensus:population":254,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2003156225
+        "uscensus:geoid":"2003156225"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470389
     ],
@@ -86,7 +96,7 @@
         }
     ],
     "wof:id":404503347,
-    "wof:lastmodified":1605055322,
+    "wof:lastmodified":1722117885,
     "wof:name":"Pleasant Township",
     "wof:parent_id":102084185,
     "wof:placetype":"localadmin",

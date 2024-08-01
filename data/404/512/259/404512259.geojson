@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000421,
-    "geom:area_square_m":3762979.131051,
+    "geom:area_square_m":3762979.131054,
     "geom:bbox":"-94.630404,43.658943,-94.572264,43.677397",
     "geom:latitude":43.666245,
     "geom:longitude":-94.607303,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.667511,
     "lbl:longitude":-94.61992,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":91,
     "uscensus:geoid":2709169070,
     "uscensus:name":"Welcome",
     "uscensus:namelsad":"Welcome city",
+    "uscensus:population":698,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2709169070
+        "uscensus:geoid":"2709169070"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404512259,
-    "wof:lastmodified":1605056123,
+    "wof:lastmodified":1722117949,
     "wof:name":"Welcome",
     "wof:parent_id":102087019,
     "wof:placetype":"localadmin",
-    "wof:population":686,
+    "wof:population":698,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

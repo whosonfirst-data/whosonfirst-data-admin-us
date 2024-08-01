@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010511,
-    "geom:area_square_m":93031860.784499,
+    "geom:area_square_m":93031860.784497,
     "geom:bbox":"-84.612446,44.247446,-84.489765,44.334682",
     "geom:latitude":44.291067,
     "geom:longitude":-84.551058,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.291138,
     "lbl:longitude":-84.551052,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":143,
     "uscensus:geoid":2614304720,
     "uscensus:name":"Backus",
     "uscensus:namelsad":"Backus township",
+    "uscensus:population":301,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2614304720
+        "uscensus:geoid":"2614304720"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469453
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404506195,
-    "wof:lastmodified":1605055750,
+    "wof:lastmodified":1722117905,
     "wof:name":"Backus Township",
     "wof:parent_id":102083077,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":330,
+    "wof:population":301,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

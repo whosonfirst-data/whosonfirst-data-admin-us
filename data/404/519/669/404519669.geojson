@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.03023,
-    "geom:area_square_m":281029128.179387,
+    "geom:area_square_m":281029128.179485,
     "geom:bbox":"-100.236458,41.176026,-100.025681,41.336273",
     "geom:latitude":41.251744,
     "geom:longitude":-100.13893,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.25656,
     "lbl:longitude":-100.144546,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":3104114835,
     "uscensus:name":"Elim",
     "uscensus:namelsad":"Elim township",
+    "uscensus:population":112,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3104114835
+        "uscensus:geoid":"3104114835"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466863
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404519669,
-    "wof:lastmodified":1605055665,
+    "wof:lastmodified":1722117980,
     "wof:name":"Elim Township",
     "wof:parent_id":102084301,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":133,
+    "wof:population":112,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

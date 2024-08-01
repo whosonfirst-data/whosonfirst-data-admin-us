@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011444,
-    "geom:area_square_m":110649756.928524,
+    "geom:area_square_m":110649756.92853,
     "geom:bbox":"-86.855499,38.525996,-86.682353,38.599335",
     "geom:latitude":38.563829,
     "geom:longitude":-86.761317,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.562485,
     "lbl:longitude":-86.761323,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":101,
     "uscensus:geoid":1810145036,
     "uscensus:name":"Lost River",
     "uscensus:namelsad":"Lost River township",
+    "uscensus:population":501,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1810145036
+        "uscensus:geoid":"1810145036"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475719
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404501959,
-    "wof:lastmodified":1604969662,
+    "wof:lastmodified":1722117876,
     "wof:name":"Lost River Township",
     "wof:parent_id":102086465,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":572,
+    "wof:population":501,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

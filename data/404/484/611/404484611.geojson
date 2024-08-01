@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000238,
-    "geom:area_square_m":2246022.453593,
+    "geom:area_square_m":2246022.453594,
     "geom:bbox":"-76.203897,40.359359,-76.170973,40.372341",
     "geom:latitude":40.365485,
     "geom:longitude":-76.186301,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.365244,
     "lbl:longitude":-76.1863,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":4201186056,
     "uscensus:name":"Womelsdorf",
     "uscensus:namelsad":"Womelsdorf borough",
+    "uscensus:population":2884,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201186056
+        "uscensus:geoid":"4201186056"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404484611,
-    "wof:lastmodified":1605055456,
+    "wof:lastmodified":1722117769,
     "wof:name":"Womelsdorf",
     "wof:parent_id":102080991,
     "wof:placetype":"localadmin",
-    "wof:population":2810,
+    "wof:population":2884,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

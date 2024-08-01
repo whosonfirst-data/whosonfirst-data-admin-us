@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000242,
-    "geom:area_square_m":2151798.667002,
+    "geom:area_square_m":2151798.667001,
     "geom:bbox":"-91.004754,44.121612,-90.983597,44.139833",
     "geom:latitude":44.131574,
     "geom:longitude":-90.996939,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "village"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.133144,
     "lbl:longitude":-90.998,
     "lbl:max_zoom":17.0,
@@ -97,11 +103,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":53,
     "uscensus:geoid":5505350750,
     "uscensus:name":"Melrose",
     "uscensus:namelsad":"Melrose village",
+    "uscensus:population":531,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -111,8 +120,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5505350750
+        "uscensus:geoid":"5505350750"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -128,11 +138,11 @@
         }
     ],
     "wof:id":404491907,
-    "wof:lastmodified":1605055573,
+    "wof:lastmodified":1722117816,
     "wof:name":"Melrose",
     "wof:parent_id":102081821,
     "wof:placetype":"localadmin",
-    "wof:population":503,
+    "wof:population":531,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

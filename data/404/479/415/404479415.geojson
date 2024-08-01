@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011358,
-    "geom:area_square_m":93057725.584664,
+    "geom:area_square_m":93057725.584653,
     "geom:bbox":"-101.19036,48.458427,-101.059661,48.545588",
     "geom:latitude":48.502024,
     "geom:longitude":-101.125042,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.502018,
     "lbl:longitude":-101.125045,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":75,
     "uscensus:geoid":3807564460,
     "uscensus:name":"Prescott",
     "uscensus:namelsad":"Prescott township",
+    "uscensus:population":29,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3807564460
+        "uscensus:geoid":"3807564460"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475933
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404479415,
-    "wof:lastmodified":1605055473,
+    "wof:lastmodified":1722117737,
     "wof:name":"Prescott Township",
     "wof:parent_id":102082063,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":28,
+    "wof:population":29,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

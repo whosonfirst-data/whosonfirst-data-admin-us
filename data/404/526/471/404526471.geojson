@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004698,
-    "geom:area_square_m":45198048.139569,
+    "geom:area_square_m":45198048.139549,
     "geom:bbox":"-81.928351,38.873869,-81.821304,38.952728",
     "geom:latitude":38.914872,
     "geom:longitude":-81.880413,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.91303,
     "lbl:longitude":-81.87515,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":3910542868,
     "uscensus:name":"Letart",
     "uscensus:namelsad":"Letart township",
+    "uscensus:population":725,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3910542868
+        "uscensus:geoid":"3910542868"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463433
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404526471,
-    "wof:lastmodified":1605055644,
+    "wof:lastmodified":1722118023,
     "wof:name":"Letart Township",
     "wof:parent_id":102083655,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":675,
+    "wof:population":725,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

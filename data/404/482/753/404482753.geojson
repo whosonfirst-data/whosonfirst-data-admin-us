@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00016,
-    "geom:area_square_m":1509077.867802,
+    "geom:area_square_m":1509077.867801,
     "geom:bbox":"-75.214093,40.366097,-75.193766,40.382727",
     "geom:latitude":40.372999,
     "geom:longitude":-75.20408,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.3726,
     "lbl:longitude":-75.204234,
     "lbl:max_zoom":15.0,
@@ -526,11 +532,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":4201720104,
     "uscensus:name":"Dublin",
     "uscensus:namelsad":"Dublin borough",
+    "uscensus:population":2269,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -540,8 +549,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201720104
+        "uscensus:geoid":"4201720104"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -557,11 +567,11 @@
         }
     ],
     "wof:id":404482753,
-    "wof:lastmodified":1605055376,
+    "wof:lastmodified":1722117758,
     "wof:name":"Dublin",
     "wof:parent_id":102080987,
     "wof:placetype":"localadmin",
-    "wof:population":2158,
+    "wof:population":2269,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

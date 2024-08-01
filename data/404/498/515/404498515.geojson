@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01045,
-    "geom:area_square_m":96777570.700169,
+    "geom:area_square_m":96777570.700157,
     "geom:bbox":"-88.816872,41.454735,-88.684735,41.544157",
     "geom:latitude":41.49915,
     "geom:longitude":-88.75635,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.499861,
     "lbl:longitude":-88.756354,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":1709968692,
     "uscensus:name":"Serena",
     "uscensus:namelsad":"Serena township",
+    "uscensus:population":1111,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1709968692
+        "uscensus:geoid":"1709968692"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468491
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404498515,
-    "wof:lastmodified":1605055573,
+    "wof:lastmodified":1722117855,
     "wof:name":"Serena Township",
     "wof:parent_id":102081255,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1138,
+    "wof:population":1111,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

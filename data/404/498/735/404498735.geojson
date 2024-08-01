@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009387,
-    "geom:area_square_m":89596205.041421,
+    "geom:area_square_m":89596205.041372,
     "geom:bbox":"-89.026408,39.434384,-88.917512,39.523072",
     "geom:latitude":39.478377,
     "geom:longitude":-88.97155,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.478561,
     "lbl:longitude":-88.971549,
     "lbl:max_zoom":17.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":173,
     "uscensus:geoid":1717366313,
     "uscensus:name":"Rural",
     "uscensus:namelsad":"Rural township",
+    "uscensus:population":309,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1717366313
+        "uscensus:geoid":"1717366313"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467787
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404498735,
-    "wof:lastmodified":1605055566,
+    "wof:lastmodified":1722117856,
     "wof:name":"Rural Township",
     "wof:parent_id":102083519,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":339,
+    "wof:population":309,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

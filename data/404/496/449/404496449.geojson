@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010056,
-    "geom:area_square_m":94184523.290647,
+    "geom:area_square_m":94184523.290681,
     "geom:bbox":"-90.904542,40.71919,-90.788354,40.807107",
     "geom:latitude":40.763288,
     "geom:longitude":-90.84632,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.763209,
     "lbl:longitude":-90.846318,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":71,
     "uscensus:geoid":1707148086,
     "uscensus:name":"Media",
     "uscensus:namelsad":"Media township",
+    "uscensus:population":340,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1707148086
+        "uscensus:geoid":"1707148086"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404496449,
-    "wof:lastmodified":1605055595,
+    "wof:lastmodified":1722233635,
     "wof:name":"Media Township",
     "wof:parent_id":102086929,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":392,
+    "wof:population":340,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

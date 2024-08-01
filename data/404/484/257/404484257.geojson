@@ -10,6 +10,12 @@
     "geom:latitude":40.58484,
     "geom:longitude":-79.564755,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.586135,
     "lbl:longitude":-79.565216,
     "lbl:max_zoom":16.0,
@@ -331,11 +337,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":4200502720,
     "uscensus:name":"Apollo",
     "uscensus:namelsad":"Apollo borough",
+    "uscensus:population":1568,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -345,8 +354,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200502720
+        "uscensus:geoid":"4200502720"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -362,11 +372,11 @@
         }
     ],
     "wof:id":404484257,
-    "wof:lastmodified":1605055456,
+    "wof:lastmodified":1722117767,
     "wof:name":"Apollo",
     "wof:parent_id":102081371,
     "wof:placetype":"localadmin",
-    "wof:population":1647,
+    "wof:population":1568,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

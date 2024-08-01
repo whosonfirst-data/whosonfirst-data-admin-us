@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000161,
-    "geom:area_square_m":1460915.556304,
+    "geom:area_square_m":1460915.556305,
     "geom:bbox":"-89.383354,42.845036,-89.369067,42.856471",
     "geom:latitude":42.850736,
     "geom:longitude":-89.376197,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "village"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.850739,
     "lbl:longitude":-89.376204,
     "lbl:max_zoom":17.0,
@@ -295,11 +301,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":5504510075,
     "uscensus:name":"Brooklyn",
     "uscensus:namelsad":"Brooklyn village",
+    "uscensus:population":505,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -309,8 +318,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5504510075
+        "uscensus:geoid":"5504510075"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -326,11 +336,11 @@
         }
     ],
     "wof:id":404491847,
-    "wof:lastmodified":1605055587,
+    "wof:lastmodified":1722117815,
     "wof:name":"Brooklyn",
     "wof:parent_id":102081827,
     "wof:placetype":"localadmin",
-    "wof:population":465,
+    "wof:population":505,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

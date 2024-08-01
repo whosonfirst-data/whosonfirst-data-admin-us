@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007574,
-    "geom:area_square_m":69288814.87498,
+    "geom:area_square_m":69288814.874979,
     "geom:bbox":"-72.912302,42.216439,-72.813422,42.345077",
     "geom:latitude":42.28439,
     "geom:longitude":-72.854939,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.283459,
     "lbl:longitude":-72.849052,
     "lbl:max_zoom":15.0,
@@ -124,11 +130,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":2501531785,
     "uscensus:name":"Huntington",
     "uscensus:namelsad":"Huntington town",
+    "uscensus:population":2071,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -138,8 +147,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2501531785
+        "uscensus:geoid":"2501531785"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -155,11 +165,11 @@
         }
     ],
     "wof:id":404476297,
-    "wof:lastmodified":1605055409,
+    "wof:lastmodified":1722117713,
     "wof:name":"Huntington",
     "wof:parent_id":102084459,
     "wof:placetype":"localadmin",
-    "wof:population":2180,
+    "wof:population":2071,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

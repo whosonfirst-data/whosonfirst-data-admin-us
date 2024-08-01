@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009504,
-    "geom:area_square_m":89442235.209633,
+    "geom:area_square_m":89442235.209644,
     "geom:bbox":"-89.152607,40.399187,-89.03775,40.487632",
     "geom:latitude":40.443008,
     "geom:longitude":-89.09715,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.443465,
     "lbl:longitude":-89.107668,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":113,
     "uscensus:geoid":1711318381,
     "uscensus:name":"Dale",
     "uscensus:namelsad":"Dale township",
+    "uscensus:population":1226,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1711318381
+        "uscensus:geoid":"1711318381"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404499173,
-    "wof:lastmodified":1605055543,
+    "wof:lastmodified":1722117859,
     "wof:name":"Dale Township",
     "wof:parent_id":102087573,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1233,
+    "wof:population":1226,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

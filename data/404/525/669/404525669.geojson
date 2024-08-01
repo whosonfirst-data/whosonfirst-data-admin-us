@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004054,
-    "geom:area_square_m":38020681.398343,
+    "geom:area_square_m":38020681.398338,
     "geom:bbox":"-82.690048,40.63706,-82.626165,40.710603",
     "geom:latitude":40.676224,
     "geom:longitude":-82.661143,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.683851,
     "lbl:longitude":-82.663693,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":117,
     "uscensus:geoid":3911777602,
     "uscensus:name":"Troy",
     "uscensus:namelsad":"Troy township",
+    "uscensus:population":1214,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3911777602
+        "uscensus:geoid":"3911777602"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465559
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404525669,
-    "wof:lastmodified":1605056053,
+    "wof:lastmodified":1722118017,
     "wof:name":"Troy Township",
     "wof:parent_id":102083749,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1129,
+    "wof:population":1214,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

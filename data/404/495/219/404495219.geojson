@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009284,
-    "geom:area_square_m":84231039.494906,
+    "geom:area_square_m":84231039.494927,
     "geom:bbox":"-89.13207,42.759551,-89.013244,42.84763",
     "geom:latitude":42.80014,
     "geom:longitude":-89.072478,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.791528,
     "lbl:longitude":-89.078325,
     "lbl:max_zoom":15.0,
@@ -115,11 +121,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":5510528075,
     "uscensus:name":"Fulton",
     "uscensus:namelsad":"Fulton town",
+    "uscensus:population":3650,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -129,8 +138,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5510528075
+        "uscensus:geoid":"5510528075"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468765
     ],
@@ -149,11 +159,11 @@
         }
     ],
     "wof:id":404495219,
-    "wof:lastmodified":1605055981,
+    "wof:lastmodified":1722117838,
     "wof:name":"Fulton",
     "wof:parent_id":102081829,
     "wof:placetype":"localadmin",
-    "wof:population":3252,
+    "wof:population":3650,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005985,
-    "geom:area_square_m":56849506.035336,
+    "geom:area_square_m":56849506.035296,
     "geom:bbox":"-79.921756,39.768641,-79.817215,39.847911",
     "geom:latitude":39.810894,
     "geom:longitude":-79.869449,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.811195,
     "lbl:longitude":-79.869448,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":4205154392,
     "uscensus:name":"Nicholson",
     "uscensus:namelsad":"Nicholson township",
+    "uscensus:population":1665,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4205154392
+        "uscensus:geoid":"4205154392"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463479
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404487053,
-    "wof:lastmodified":1605055883,
+    "wof:lastmodified":1722117784,
     "wof:name":"Nicholson Township",
     "wof:parent_id":102080959,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1805,
+    "wof:population":1665,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

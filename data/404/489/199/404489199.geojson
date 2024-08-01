@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010475,
-    "geom:area_square_m":93198548.300855,
+    "geom:area_square_m":93198548.300823,
     "geom:bbox":"-98.331701,43.937708,-98.210897,44.025473",
     "geom:latitude":43.981598,
     "geom:longitude":-98.271331,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.981517,
     "lbl:longitude":-98.271313,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":111,
     "uscensus:geoid":4611164820,
     "uscensus:name":"Twin Lake",
     "uscensus:namelsad":"Twin Lake township",
+    "uscensus:population":96,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4611164820
+        "uscensus:geoid":"4611164820"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729454637
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404489199,
-    "wof:lastmodified":1605055930,
+    "wof:lastmodified":1722117799,
     "wof:name":"Twin Lake Township",
     "wof:parent_id":102086061,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":86,
+    "wof:population":96,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

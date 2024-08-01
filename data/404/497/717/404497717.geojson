@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004292,
-    "geom:area_square_m":39641781.656317,
+    "geom:area_square_m":39641781.656327,
     "geom:bbox":"-88.652174,41.630992,-88.60224,41.719546",
     "geom:latitude":41.675288,
     "geom:longitude":-88.627168,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.675273,
     "lbl:longitude":-88.627162,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":37,
     "uscensus:geoid":1703767561,
     "uscensus:name":"Sandwich",
     "uscensus:namelsad":"Sandwich township",
+    "uscensus:population":7502,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1703767561
+        "uscensus:geoid":"1703767561"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404497717,
-    "wof:lastmodified":1605055504,
+    "wof:lastmodified":1722233639,
     "wof:name":"Sandwich Township",
     "wof:parent_id":102082847,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":7709,
+    "wof:population":7502,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

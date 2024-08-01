@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003665,
-    "geom:area_square_m":34238570.169394,
+    "geom:area_square_m":34238570.169373,
     "geom:bbox":"-73.807197,40.871721,-73.740597,40.9887",
     "geom:latitude":40.923082,
     "geom:longitude":-73.779949,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.917903,
     "lbl:longitude":-73.783221,
     "lbl:max_zoom":14.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":119,
     "uscensus:geoid":3611950617,
     "uscensus:name":"New Rochelle",
     "uscensus:namelsad":"New Rochelle city",
+    "uscensus:population":83742,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3611950617
+        "uscensus:geoid":"3611950617"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404523375,
-    "wof:lastmodified":1605056100,
+    "wof:lastmodified":1722118000,
     "wof:name":"New Rochelle",
     "wof:parent_id":102082373,
     "wof:placetype":"localadmin",
-    "wof:population":77062,
+    "wof:population":83742,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

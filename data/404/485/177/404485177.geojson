@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003277,
-    "geom:area_square_m":31051591.382237,
+    "geom:area_square_m":31051591.38226,
     "geom:bbox":"-75.641761,39.934701,-75.547867,40.012649",
     "geom:latitude":39.975618,
     "geom:longitude":-75.592724,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.979725,
     "lbl:longitude":-75.588099,
     "lbl:max_zoom":14.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":4202983080,
     "uscensus:name":"West Goshen",
     "uscensus:namelsad":"West Goshen township",
+    "uscensus:population":23674,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202983080
+        "uscensus:geoid":"4202983080"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729455979
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404485177,
-    "wof:lastmodified":1605055373,
+    "wof:lastmodified":1722117772,
     "wof:name":"West Goshen Township",
     "wof:parent_id":102081275,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":21866,
+    "wof:population":23674,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

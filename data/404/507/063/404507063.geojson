@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009202,
-    "geom:area_square_m":84171605.230942,
+    "geom:area_square_m":84171605.230926,
     "geom:bbox":"-85.179749,42.246399,-85.061154,42.33372",
     "geom:latitude":42.286936,
     "geom:longitude":-85.116107,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":42.290137,
     "lbl:longitude":-85.110275,
@@ -84,11 +87,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":2602525935,
     "uscensus:name":"Emmett",
     "uscensus:namelsad":"Emmett charter township",
+    "uscensus:population":11741,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -98,8 +104,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2602525935
+        "uscensus:geoid":"2602525935"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -115,11 +122,11 @@
         }
     ],
     "wof:id":404507063,
-    "wof:lastmodified":1605055772,
+    "wof:lastmodified":1722117911,
     "wof:name":"Emmett",
     "wof:parent_id":102082993,
     "wof:placetype":"localadmin",
-    "wof:population":11770,
+    "wof:population":11741,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

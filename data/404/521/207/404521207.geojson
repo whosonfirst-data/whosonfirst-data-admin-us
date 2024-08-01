@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012518,
-    "geom:area_square_m":111828875.686782,
+    "geom:area_square_m":111828875.686781,
     "geom:bbox":"-75.913617,43.688884,-75.774553,43.794195",
     "geom:latitude":43.742351,
     "geom:longitude":-75.844357,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.74278,
     "lbl:longitude":-75.844356,
     "lbl:max_zoom":17.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":3604583162,
     "uscensus:name":"Worth",
     "uscensus:namelsad":"Worth town",
+    "uscensus:population":199,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3604583162
+        "uscensus:geoid":"3604583162"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461899
     ],
@@ -116,12 +126,12 @@
         }
     ],
     "wof:id":404521207,
-    "wof:lastmodified":1605055637,
+    "wof:lastmodified":1722117984,
     "wof:name":"Worth",
     "wof:parent_id":102082357,
     "wof:placetype":"localadmin",
-    "wof:population":231,
-    "wof:population_rank":2,
+    "wof:population":199,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

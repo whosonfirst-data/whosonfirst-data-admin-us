@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000134,
-    "geom:area_square_m":1169769.458009,
+    "geom:area_square_m":1169769.458012,
     "geom:bbox":"-94.885223,44.939018,-94.873778,44.953372",
     "geom:latitude":44.945868,
     "geom:longitude":-94.879995,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.946012,
     "lbl:longitude":-94.880104,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":67,
     "uscensus:geoid":2706734676,
     "uscensus:name":"Lake Lillian",
     "uscensus:namelsad":"Lake Lillian city",
+    "uscensus:population":240,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2706734676
+        "uscensus:geoid":"2706734676"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,11 +90,11 @@
         }
     ],
     "wof:id":404513805,
-    "wof:lastmodified":1605056037,
+    "wof:lastmodified":1722117961,
     "wof:name":"Lake Lillian",
     "wof:parent_id":102087635,
     "wof:placetype":"localadmin",
-    "wof:population":238,
+    "wof:population":240,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010853,
-    "geom:area_square_m":96570704.800215,
+    "geom:area_square_m":96570704.800211,
     "geom:bbox":"-92.925105,43.935582,-92.798852,44.022741",
     "geom:latitude":43.978779,
     "geom:longitude":-92.86222,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.979166,
     "lbl:longitude":-92.862215,
     "lbl:max_zoom":17.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":39,
     "uscensus:geoid":2703902512,
     "uscensus:name":"Ashland",
     "uscensus:namelsad":"Ashland township",
+    "uscensus:population":304,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2703902512
+        "uscensus:geoid":"2703902512"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462783
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404509565,
-    "wof:lastmodified":1605055793,
+    "wof:lastmodified":1722117930,
     "wof:name":"Ashland Township",
     "wof:parent_id":102087097,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":319,
+    "wof:population":304,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011025,
-    "geom:area_square_m":96115747.634757,
+    "geom:area_square_m":96115747.634692,
     "geom:bbox":"-92.283932,45.121608,-92.156457,45.209642",
     "geom:latitude":45.165866,
     "geom:longitude":-92.219497,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.165693,
     "lbl:longitude":-92.219492,
     "lbl:max_zoom":17.0,
@@ -451,11 +457,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":109,
     "uscensus:geoid":5510926525,
     "uscensus:name":"Forest",
     "uscensus:namelsad":"Forest town",
+    "uscensus:population":633,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -465,8 +474,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5510926525
+        "uscensus:geoid":"5510926525"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462011
     ],
@@ -485,11 +495,11 @@
         }
     ],
     "wof:id":404493631,
-    "wof:lastmodified":1605055955,
+    "wof:lastmodified":1722117827,
     "wof:name":"Forest",
     "wof:parent_id":102081855,
     "wof:placetype":"localadmin",
-    "wof:population":629,
+    "wof:population":633,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

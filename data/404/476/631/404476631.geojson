@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004111,
-    "geom:area_square_m":37749566.235147,
+    "geom:area_square_m":37749566.235138,
     "geom:bbox":"-71.889345,42.023556,-71.804549,42.092778",
     "geom:latitude":42.052064,
     "geom:longitude":-71.848484,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.053084,
     "lbl:longitude":-71.847675,
     "lbl:max_zoom":15.0,
@@ -118,11 +124,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":2502773895,
     "uscensus:name":"Webster",
     "uscensus:namelsad":"Webster town",
+    "uscensus:population":17593,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -132,8 +141,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2502773895
+        "uscensus:geoid":"2502773895"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -149,11 +159,11 @@
         }
     ],
     "wof:id":404476631,
-    "wof:lastmodified":1605055409,
+    "wof:lastmodified":1722117716,
     "wof:name":"Webster",
     "wof:parent_id":102084655,
     "wof:placetype":"localadmin",
-    "wof:population":16767,
+    "wof:population":17593,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

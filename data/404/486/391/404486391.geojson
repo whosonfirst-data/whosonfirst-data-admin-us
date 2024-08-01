@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000583,
-    "geom:area_square_m":5498119.974671,
+    "geom:area_square_m":5498119.974669,
     "geom:bbox":"-76.944473,40.229781,-76.907115,40.259291",
     "geom:latitude":40.242192,
     "geom:longitude":-76.9274,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.240628,
     "lbl:longitude":-76.927121,
     "lbl:max_zoom":15.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":4204111000,
     "uscensus:name":"Camp Hill",
     "uscensus:namelsad":"Camp Hill borough",
+    "uscensus:population":8163,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4204111000
+        "uscensus:geoid":"4204111000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -104,11 +114,11 @@
         }
     ],
     "wof:id":404486391,
-    "wof:lastmodified":1605055858,
+    "wof:lastmodified":1722117780,
     "wof:name":"Camp Hill",
     "wof:parent_id":102081359,
     "wof:placetype":"localadmin",
-    "wof:population":7888,
+    "wof:population":8163,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

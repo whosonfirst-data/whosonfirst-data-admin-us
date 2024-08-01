@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000438,
-    "geom:area_square_m":4125708.643757,
+    "geom:area_square_m":4125708.643752,
     "geom:bbox":"-74.44973,40.434475,-74.423167,40.463228",
     "geom:latitude":40.450412,
     "geom:longitude":-74.435092,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.451394,
     "lbl:longitude":-74.432687,
     "lbl:max_zoom":15.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":3402346620,
     "uscensus:name":"Milltown",
     "uscensus:namelsad":"Milltown borough",
+    "uscensus:population":6968,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3402346620
+        "uscensus:geoid":"3402346620"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404478285,
-    "wof:lastmodified":1605055347,
+    "wof:lastmodified":1722117729,
     "wof:name":"Milltown",
     "wof:parent_id":102087417,
     "wof:placetype":"localadmin",
-    "wof:population":6893,
+    "wof:population":6968,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

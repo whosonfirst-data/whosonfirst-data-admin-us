@@ -163,7 +163,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2804767,
     "uscensus:awater":3785,
     "uscensus:classfp":"C5",
@@ -179,17 +180,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"69304",
     "uscensus:placens":"02397265",
+    "uscensus:population":841,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":375.0,
     "wd:latitude":44.153611,
     "wd:longitude":-92.899722,
     "wd:wordcount":1359,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404509573,
         85633793,
-        102087097
+        102087097,
+        404509573,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -198,10 +201,11 @@
         "gn:id":5052352,
         "gp:id":2516844,
         "qs_pg:id":936793,
-        "uscensus:geoid":2769304,
+        "uscensus:geoid":"2769304",
         "wd:id":"Q641210",
         "wk:page":"West Concord, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -222,11 +226,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883411,
+    "wof:lastmodified":1722116038,
     "wof:name":"West Concord",
     "wof:parent_id":404509573,
     "wof:placetype":"locality",
-    "wof:population":782,
+    "wof:population":841,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

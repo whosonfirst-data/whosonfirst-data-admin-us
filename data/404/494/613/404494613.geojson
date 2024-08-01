@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000875,
-    "geom:area_square_m":7679779.860647,
+    "geom:area_square_m":7679779.860646,
     "geom:bbox":"-92.808415,44.733732,-92.761447,44.768456",
     "geom:latitude":44.752394,
     "geom:longitude":-92.788378,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.752494,
     "lbl:longitude":-92.788741,
     "lbl:max_zoom":15.0,
@@ -97,11 +103,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":93,
     "uscensus:geoid":5509365375,
     "uscensus:name":"Prescott",
     "uscensus:namelsad":"Prescott city",
+    "uscensus:population":4485,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -111,8 +120,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5509365375
+        "uscensus:geoid":"5509365375"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -128,11 +138,11 @@
         }
     ],
     "wof:id":404494613,
-    "wof:lastmodified":1605055970,
+    "wof:lastmodified":1722117834,
     "wof:name":"Prescott",
     "wof:parent_id":102081311,
     "wof:placetype":"localadmin",
-    "wof:population":4258,
+    "wof:population":4485,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

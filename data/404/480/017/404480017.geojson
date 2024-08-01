@@ -10,6 +10,12 @@
     "geom:latitude":47.554083,
     "geom:longitude":-99.410683,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.554046,
     "lbl:longitude":-99.410793,
     "lbl:max_zoom":18.0,
@@ -94,11 +100,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":103,
     "uscensus:geoid":3810312820,
     "uscensus:name":"Cathay",
     "uscensus:namelsad":"Cathay city",
+    "uscensus:population":21,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -108,8 +117,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3810312820
+        "uscensus:geoid":"3810312820"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -125,11 +135,11 @@
         }
     ],
     "wof:id":404480017,
-    "wof:lastmodified":1605055916,
+    "wof:lastmodified":1722117742,
     "wof:name":"Cathay",
     "wof:parent_id":102081507,
     "wof:placetype":"localadmin",
-    "wof:population":43,
+    "wof:population":21,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

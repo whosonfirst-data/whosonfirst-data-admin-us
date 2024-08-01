@@ -10,6 +10,12 @@
     "geom:latitude":40.853566,
     "geom:longitude":-74.10691,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.85099,
     "lbl:longitude":-74.105017,
     "lbl:max_zoom":15.0,
@@ -67,11 +73,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3400376490,
     "uscensus:name":"Wallington",
     "uscensus:namelsad":"Wallington borough",
+    "uscensus:population":11825,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -81,8 +90,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400376490
+        "uscensus:geoid":"3400376490"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -98,11 +108,11 @@
         }
     ],
     "wof:id":404477745,
-    "wof:lastmodified":1605055434,
+    "wof:lastmodified":1722117725,
     "wof:name":"Wallington",
     "wof:parent_id":102086773,
     "wof:placetype":"localadmin",
-    "wof:population":11335,
+    "wof:population":11825,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

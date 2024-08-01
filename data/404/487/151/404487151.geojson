@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002671,
-    "geom:area_square_m":24861209.041069,
+    "geom:area_square_m":24861209.041068,
     "geom:bbox":"-77.42263,41.135957,-77.363264,41.210455",
     "geom:latitude":41.174222,
     "geom:longitude":-77.396226,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.173932,
     "lbl:longitude":-77.392697,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":4203520408,
     "uscensus:name":"Dunnstable",
     "uscensus:namelsad":"Dunnstable township",
+    "uscensus:population":1005,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4203520408
+        "uscensus:geoid":"4203520408"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462615
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404487151,
-    "wof:lastmodified":1605055880,
+    "wof:lastmodified":1722117785,
     "wof:name":"Dunnstable Township",
     "wof:parent_id":102080917,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1008,
+    "wof:population":1005,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

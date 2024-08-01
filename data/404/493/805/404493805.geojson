@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.020066,
-    "geom:area_square_m":170796247.159378,
+    "geom:area_square_m":170796247.15933,
     "geom:bbox":"-90.549928,46.413596,-90.339887,46.590041",
     "geom:latitude":46.500263,
     "geom:longitude":-90.422857,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.479575,
     "lbl:longitude":-90.395009,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":5505171875,
     "uscensus:name":"Saxon",
     "uscensus:namelsad":"Saxon town",
+    "uscensus:population":300,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5505171875
+        "uscensus:geoid":"5505171875"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404493805,
-    "wof:lastmodified":1605055946,
+    "wof:lastmodified":1722117828,
     "wof:name":"Saxon",
     "wof:parent_id":102081263,
     "wof:placetype":"localadmin",
-    "wof:population":324,
+    "wof:population":300,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

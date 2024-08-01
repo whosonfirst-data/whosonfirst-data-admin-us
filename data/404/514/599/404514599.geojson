@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010492,
-    "geom:area_square_m":93079209.141543,
+    "geom:area_square_m":93079209.141545,
     "geom:bbox":"-93.166478,44.109346,-93.045527,44.196716",
     "geom:latitude":44.15317,
     "geom:longitude":-93.106056,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.15325,
     "lbl:longitude":-93.106059,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":147,
     "uscensus:geoid":2714741840,
     "uscensus:name":"Merton",
     "uscensus:namelsad":"Merton township",
+    "uscensus:population":350,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2714741840
+        "uscensus:geoid":"2714741840"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729455365
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404514599,
-    "wof:lastmodified":1605056023,
+    "wof:lastmodified":1722117967,
     "wof:name":"Merton Township",
     "wof:parent_id":102087661,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":348,
+    "wof:population":350,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

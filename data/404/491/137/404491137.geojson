@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000279,
-    "geom:area_square_m":2482901.021914,
+    "geom:area_square_m":2482901.021915,
     "geom:bbox":"-97.540001,44.00201,-97.51027,44.020211",
     "geom:latitude":44.011675,
     "geom:longitude":-97.524635,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.011762,
     "lbl:longitude":-97.524642,
     "lbl:max_zoom":17.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":97,
     "uscensus:geoid":4609730460,
     "uscensus:name":"Howard",
     "uscensus:namelsad":"Howard city",
+    "uscensus:population":833,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4609730460
+        "uscensus:geoid":"4609730460"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404491137,
-    "wof:lastmodified":1605055585,
+    "wof:lastmodified":1722117811,
     "wof:name":"Howard",
     "wof:parent_id":102086063,
     "wof:placetype":"localadmin",
-    "wof:population":858,
+    "wof:population":833,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

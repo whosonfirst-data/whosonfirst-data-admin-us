@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000166,
-    "geom:area_square_m":1557406.966719,
+    "geom:area_square_m":1557406.96672,
     "geom:bbox":"-77.39885,40.526571,-77.380871,40.541691",
     "geom:latitude":40.533772,
     "geom:longitude":-77.38946,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.533584,
     "lbl:longitude":-77.389287,
     "lbl:max_zoom":17.0,
@@ -127,11 +133,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":67,
     "uscensus:geoid":4206762304,
     "uscensus:name":"Port Royal",
     "uscensus:namelsad":"Port Royal borough",
+    "uscensus:population":793,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -141,8 +150,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206762304
+        "uscensus:geoid":"4206762304"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -158,11 +168,11 @@
         }
     ],
     "wof:id":404483523,
-    "wof:lastmodified":1605055450,
+    "wof:lastmodified":1722117763,
     "wof:name":"Port Royal",
     "wof:parent_id":102081367,
     "wof:placetype":"localadmin",
-    "wof:population":925,
+    "wof:population":793,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

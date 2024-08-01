@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012515,
-    "geom:area_square_m":113009842.772144,
+    "geom:area_square_m":113009842.772118,
     "geom:bbox":"-91.02329,43.024093,-90.804707,43.133435",
     "geom:latitude":43.091015,
     "geom:longitude":-90.931943,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.0794,
     "lbl:longitude":-90.975908,
     "lbl:max_zoom":17.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":5502384750,
     "uscensus:name":"Wauzeka",
     "uscensus:namelsad":"Wauzeka town",
+    "uscensus:population":365,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5502384750
+        "uscensus:geoid":"5502384750"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457813
     ],
@@ -80,11 +90,11 @@
         }
     ],
     "wof:id":404493151,
-    "wof:lastmodified":1605055940,
+    "wof:lastmodified":1722117824,
     "wof:name":"Wauzeka",
     "wof:parent_id":102081315,
     "wof:placetype":"localadmin",
-    "wof:population":422,
+    "wof:population":365,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000297,
-    "geom:area_square_m":2787606.068848,
+    "geom:area_square_m":2787606.06885,
     "geom:bbox":"-74.869216,40.497491,-74.850008,40.518871",
     "geom:latitude":40.508642,
     "geom:longitude":-74.85987,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.508498,
     "lbl:longitude":-74.860049,
     "lbl:max_zoom":15.0,
@@ -85,11 +91,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":3401923700,
     "uscensus:name":"Flemington",
     "uscensus:namelsad":"Flemington borough",
+    "uscensus:population":4902,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -99,8 +108,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3401923700
+        "uscensus:geoid":"3401923700"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -116,11 +126,11 @@
         }
     ],
     "wof:id":404477453,
-    "wof:lastmodified":1605055420,
+    "wof:lastmodified":1722117722,
     "wof:name":"Flemington",
     "wof:parent_id":102085997,
     "wof:placetype":"localadmin",
-    "wof:population":4581,
+    "wof:population":4902,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

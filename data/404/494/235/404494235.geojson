@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.038397,
-    "geom:area_square_m":329981951.504921,
+    "geom:area_square_m":329981951.504912,
     "geom:bbox":"-90.043958,45.896916,-89.756542,46.069695",
     "geom:latitude":45.971784,
     "geom:longitude":-89.880374,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.983875,
     "lbl:longitude":-89.848857,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":5512540687,
     "uscensus:name":"Lac du Flambeau",
     "uscensus:namelsad":"Lac du Flambeau town",
+    "uscensus:population":3661,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5512540687
+        "uscensus:geoid":"5512540687"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404494235,
-    "wof:lastmodified":1605055963,
+    "wof:lastmodified":1722117831,
     "wof:name":"Lac Du Flambeau",
     "wof:parent_id":102081749,
     "wof:placetype":"localadmin",
-    "wof:population":3441,
+    "wof:population":3661,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

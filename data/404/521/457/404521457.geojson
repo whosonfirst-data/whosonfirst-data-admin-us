@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007008,
-    "geom:area_square_m":63411960.1829,
+    "geom:area_square_m":63411960.182903,
     "geom:bbox":"-75.718691,42.93111,-75.624264,43.007457",
     "geom:latitude":42.968933,
     "geom:longitude":-75.6726,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.969213,
     "lbl:longitude":-75.672603,
     "lbl:max_zoom":16.0,
@@ -103,11 +109,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":53,
     "uscensus:geoid":3605367785,
     "uscensus:name":"Smithfield",
     "uscensus:namelsad":"Smithfield town",
+    "uscensus:population":1100,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -117,8 +126,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3605367785
+        "uscensus:geoid":"3605367785"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462183
     ],
@@ -137,11 +147,11 @@
         }
     ],
     "wof:id":404521457,
-    "wof:lastmodified":1605055638,
+    "wof:lastmodified":1722117986,
     "wof:name":"Smithfield",
     "wof:parent_id":102080989,
     "wof:placetype":"localadmin",
-    "wof:population":1288,
+    "wof:population":1100,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

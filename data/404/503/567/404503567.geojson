@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00967,
-    "geom:area_square_m":93494739.044524,
+    "geom:area_square_m":93494739.044539,
     "geom:bbox":"-98.035861,38.522228,-97.924269,38.609895",
     "geom:latitude":38.566053,
     "geom:longitude":-97.980104,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.565949,
     "lbl:longitude":-97.980107,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":53,
     "uscensus:geoid":2005338600,
     "uscensus:name":"Langley",
     "uscensus:namelsad":"Langley township",
+    "uscensus:population":63,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2005338600
+        "uscensus:geoid":"2005338600"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468405
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404503567,
-    "wof:lastmodified":1605055313,
+    "wof:lastmodified":1722117886,
     "wof:name":"Langley Township",
     "wof:parent_id":102085323,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":74,
+    "wof:population":63,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

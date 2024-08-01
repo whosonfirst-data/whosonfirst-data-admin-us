@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001093,
-    "geom:area_square_m":9642465.281014,
+    "geom:area_square_m":9642465.281004,
     "geom:bbox":"-87.531948,44.442725,-87.489686,44.482002",
     "geom:latitude":44.460735,
     "geom:longitude":-87.513242,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.458354,
     "lbl:longitude":-87.514961,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":5506139350,
     "uscensus:name":"Kewaunee",
     "uscensus:namelsad":"Kewaunee city",
+    "uscensus:population":2798,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5506139350
+        "uscensus:geoid":"5506139350"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404493337,
-    "wof:lastmodified":1605055939,
+    "wof:lastmodified":1722117825,
     "wof:name":"Kewaunee",
     "wof:parent_id":102081295,
     "wof:placetype":"localadmin",
-    "wof:population":2952,
+    "wof:population":2798,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

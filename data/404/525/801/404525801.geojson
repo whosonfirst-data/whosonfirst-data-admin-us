@@ -10,6 +10,12 @@
     "geom:latitude":40.783819,
     "geom:longitude":-81.52531,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.78351,
     "lbl:longitude":-81.524919,
     "lbl:max_zoom":14.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":151,
     "uscensus:geoid":3915148244,
     "uscensus:name":"Massillon",
     "uscensus:namelsad":"Massillon city",
+    "uscensus:population":32439,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3915148244
+        "uscensus:geoid":"3915148244"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404525801,
-    "wof:lastmodified":1605056062,
+    "wof:lastmodified":1722118018,
     "wof:name":"Massillon",
     "wof:parent_id":102083731,
     "wof:placetype":"localadmin",
-    "wof:population":32149,
+    "wof:population":32439,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

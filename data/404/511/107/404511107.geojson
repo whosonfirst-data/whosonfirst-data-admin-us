@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000177,
-    "geom:area_square_m":1536663.699771,
+    "geom:area_square_m":1536663.699766,
     "geom:bbox":"-92.829363,45.382702,-92.795107,45.409369",
     "geom:latitude":45.394307,
     "geom:longitude":-92.814131,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.398239,
     "lbl:longitude":-92.813748,
     "lbl:max_zoom":17.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":2702510576,
     "uscensus:name":"Center City",
     "uscensus:namelsad":"Center City city",
+    "uscensus:population":635,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2702510576
+        "uscensus:geoid":"2702510576"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404511107,
-    "wof:lastmodified":1605055724,
+    "wof:lastmodified":1722117941,
     "wof:name":"Center City",
     "wof:parent_id":102086987,
     "wof:placetype":"localadmin",
-    "wof:population":628,
+    "wof:population":635,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

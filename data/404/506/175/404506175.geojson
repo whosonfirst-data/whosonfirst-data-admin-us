@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.020871,
-    "geom:area_square_m":182664539.232926,
+    "geom:area_square_m":182664539.232925,
     "geom:bbox":"-84.849951,44.857923,-84.725715,45.029676",
     "geom:latitude":44.943542,
     "geom:longitude":-84.787872,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.94335,
     "lbl:longitude":-84.787874,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":137,
     "uscensus:geoid":2613737360,
     "uscensus:name":"Hayes",
     "uscensus:namelsad":"Hayes township",
+    "uscensus:population":2807,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2613737360
+        "uscensus:geoid":"2613737360"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471483
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404506175,
-    "wof:lastmodified":1605055757,
+    "wof:lastmodified":1722117905,
     "wof:name":"Hayes Township",
     "wof:parent_id":102083019,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2619,
+    "wof:population":2807,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

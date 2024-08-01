@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010742,
-    "geom:area_square_m":93023603.759545,
+    "geom:area_square_m":93023603.759532,
     "geom:bbox":"-98.10324,45.501152,-97.979592,45.588713",
     "geom:latitude":45.544916,
     "geom:longitude":-98.041336,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.544942,
     "lbl:longitude":-98.041333,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":4601354980,
     "uscensus:name":"Riverside",
     "uscensus:namelsad":"Riverside township",
+    "uscensus:population":62,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4601354980
+        "uscensus:geoid":"4601354980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729477623
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404489441,
-    "wof:lastmodified":1605055924,
+    "wof:lastmodified":1722117800,
     "wof:name":"Riverside Township",
     "wof:parent_id":102086843,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":58,
+    "wof:population":62,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

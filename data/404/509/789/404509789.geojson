@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010657,
-    "geom:area_square_m":92193837.56986,
+    "geom:area_square_m":92193837.5698,
     "geom:bbox":"-93.512796,45.557997,-93.388804,45.645217",
     "geom:latitude":45.601774,
     "geom:longitude":-93.450371,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.601644,
     "lbl:longitude":-93.450371,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":59,
     "uscensus:geoid":2705971896,
     "uscensus:name":"Wyanett",
     "uscensus:namelsad":"Wyanett township",
+    "uscensus:population":1811,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2705971896
+        "uscensus:geoid":"2705971896"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464863
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404509789,
-    "wof:lastmodified":1605055799,
+    "wof:lastmodified":1722117932,
     "wof:name":"Wyanett Township",
     "wof:parent_id":102087813,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1729,
+    "wof:population":1811,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

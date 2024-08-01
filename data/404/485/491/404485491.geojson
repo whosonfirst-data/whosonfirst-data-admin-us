@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002953,
-    "geom:area_square_m":27725102.888978,
+    "geom:area_square_m":27725102.889002,
     "geom:bbox":"-78.76332,40.565181,-78.68964,40.637216",
     "geom:latitude":40.608983,
     "geom:longitude":-78.736405,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.60973,
     "lbl:longitude":-78.736973,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":4202182688,
     "uscensus:name":"West Carroll",
     "uscensus:namelsad":"West Carroll township",
+    "uscensus:population":1157,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202182688
+        "uscensus:geoid":"4202182688"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729453765
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404485491,
-    "wof:lastmodified":1605055361,
+    "wof:lastmodified":1722117774,
     "wof:name":"West Carroll Township",
     "wof:parent_id":102080879,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1296,
+    "wof:population":1157,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

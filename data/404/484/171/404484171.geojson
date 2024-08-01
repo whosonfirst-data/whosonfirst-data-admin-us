@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000568,
-    "geom:area_square_m":5337387.330244,
+    "geom:area_square_m":5337387.330263,
     "geom:bbox":"-80.003992,40.466322,-79.972115,40.501953",
     "geom:latitude":40.485099,
     "geom:longitude":-79.988818,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.48576,
     "lbl:longitude":-79.991233,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4200364240,
     "uscensus:name":"Reserve",
     "uscensus:namelsad":"Reserve township",
+    "uscensus:population":3145,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200364240
+        "uscensus:geoid":"4200364240"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474571
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404484171,
-    "wof:lastmodified":1605055469,
+    "wof:lastmodified":1722117766,
     "wof:name":"Reserve Township",
     "wof:parent_id":102080887,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3333,
+    "wof:population":3145,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

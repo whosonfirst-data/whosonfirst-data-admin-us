@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001847,
-    "geom:area_square_m":15990745.822074,
+    "geom:area_square_m":15990745.822067,
     "geom:bbox":"-88.923099,45.550539,-88.871253,45.586695",
     "geom:latitude":45.568562,
     "geom:longitude":-88.897347,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.568564,
     "lbl:longitude":-88.897348,
     "lbl:max_zoom":16.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":5504117425,
     "uscensus:name":"Crandon",
     "uscensus:namelsad":"Crandon city",
+    "uscensus:population":1703,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5504117425
+        "uscensus:geoid":"5504117425"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404494809,
-    "wof:lastmodified":1605055973,
+    "wof:lastmodified":1722117835,
     "wof:name":"Crandon",
     "wof:parent_id":102081885,
     "wof:placetype":"localadmin",
-    "wof:population":1920,
+    "wof:population":1703,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

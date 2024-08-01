@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000752,
-    "geom:area_square_m":7032926.897639,
+    "geom:area_square_m":7032926.897645,
     "geom:bbox":"-79.914582,40.847658,-79.875345,40.879168",
     "geom:latitude":40.861555,
     "geom:longitude":-79.896171,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.861658,
     "lbl:longitude":-79.896164,
     "lbl:max_zoom":15.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":4201910464,
     "uscensus:name":"Butler",
     "uscensus:namelsad":"Butler city",
+    "uscensus:population":13099,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201910464
+        "uscensus:geoid":"4201910464"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404485057,
-    "wof:lastmodified":1605055370,
+    "wof:lastmodified":1722117772,
     "wof:name":"Butler",
     "wof:parent_id":102083677,
     "wof:placetype":"localadmin",
-    "wof:population":13757,
+    "wof:population":13099,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

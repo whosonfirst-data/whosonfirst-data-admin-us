@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000304,
-    "geom:area_square_m":2879857.658228,
+    "geom:area_square_m":2879857.65823,
     "geom:bbox":"-78.516854,40.003498,-78.486064,40.025596",
     "geom:latitude":40.014878,
     "geom:longitude":-78.503336,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.01721,
     "lbl:longitude":-78.503086,
     "lbl:max_zoom":15.0,
@@ -190,22 +196,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":4200904944,
     "uscensus:name":"Bedford",
     "uscensus:namelsad":"Bedford borough",
+    "uscensus:population":2830,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688481,
-        102080939
+        102080939,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200904944
+        "uscensus:geoid":"4200904944"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -221,11 +231,11 @@
         }
     ],
     "wof:id":404484405,
-    "wof:lastmodified":1636499301,
+    "wof:lastmodified":1722117768,
     "wof:name":"Bedford",
     "wof:parent_id":102080939,
     "wof:placetype":"localadmin",
-    "wof:population":2841,
+    "wof:population":2830,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

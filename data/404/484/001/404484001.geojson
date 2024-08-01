@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000525,
-    "geom:area_square_m":4916876.879593,
+    "geom:area_square_m":4916876.879602,
     "geom:bbox":"-76.880881,40.788378,-76.848845,40.812539",
     "geom:latitude":40.80024,
     "geom:longitude":-76.864616,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.799956,
     "lbl:longitude":-76.863324,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":109,
     "uscensus:geoid":4210969216,
     "uscensus:name":"Selinsgrove",
     "uscensus:namelsad":"Selinsgrove borough",
+    "uscensus:population":5562,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4210969216
+        "uscensus:geoid":"4210969216"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404484001,
-    "wof:lastmodified":1605055458,
+    "wof:lastmodified":1722117765,
     "wof:name":"Selinsgrove",
     "wof:parent_id":102083759,
     "wof:placetype":"localadmin",
-    "wof:population":5654,
+    "wof:population":5562,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

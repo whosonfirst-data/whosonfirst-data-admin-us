@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011157,
-    "geom:area_square_m":94657035.838979,
+    "geom:area_square_m":94657035.838959,
     "geom:bbox":"-96.04799,46.629335,-95.919102,46.71781",
     "geom:latitude":46.673437,
     "geom:longitude":-95.983609,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.673402,
     "lbl:longitude":-95.983623,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":111,
     "uscensus:geoid":2711117162,
     "uscensus:name":"Dunn",
     "uscensus:namelsad":"Dunn township",
+    "uscensus:population":929,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2711117162
+        "uscensus:geoid":"2711117162"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478789
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404512741,
-    "wof:lastmodified":1605056127,
+    "wof:lastmodified":1722117953,
     "wof:name":"Dunn Township",
     "wof:parent_id":102087803,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":905,
+    "wof:population":929,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

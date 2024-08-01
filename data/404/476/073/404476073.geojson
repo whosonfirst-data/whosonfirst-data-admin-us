@@ -10,6 +10,12 @@
     "geom:latitude":42.350028,
     "geom:longitude":-72.046059,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.354697,
     "lbl:longitude":-72.050254,
     "lbl:max_zoom":16.0,
@@ -115,11 +121,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":2502750670,
     "uscensus:name":"Oakham",
     "uscensus:namelsad":"Oakham town",
+    "uscensus:population":1886,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -129,8 +138,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2502750670
+        "uscensus:geoid":"2502750670"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464295
     ],
@@ -149,11 +159,11 @@
         }
     ],
     "wof:id":404476073,
-    "wof:lastmodified":1605055405,
+    "wof:lastmodified":1722117712,
     "wof:name":"Oakham",
     "wof:parent_id":102084655,
     "wof:placetype":"localadmin",
-    "wof:population":1902,
+    "wof:population":1886,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

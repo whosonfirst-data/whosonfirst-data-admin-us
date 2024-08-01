@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000154,
-    "geom:area_square_m":1448749.464176,
+    "geom:area_square_m":1448749.464168,
     "geom:bbox":"-80.09943,40.414785,-80.074818,40.430924",
     "geom:latitude":40.422418,
     "geom:longitude":-80.088551,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.423502,
     "lbl:longitude":-80.089764,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4200366320,
     "uscensus:name":"Rosslyn Farms",
     "uscensus:namelsad":"Rosslyn Farms borough",
+    "uscensus:population":424,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200366320
+        "uscensus:geoid":"4200366320"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404482529,
-    "wof:lastmodified":1605055382,
+    "wof:lastmodified":1722117757,
     "wof:name":"Rosslyn Farms",
     "wof:parent_id":102080887,
     "wof:placetype":"localadmin",
-    "wof:population":427,
+    "wof:population":424,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

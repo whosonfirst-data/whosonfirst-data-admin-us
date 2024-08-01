@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010523,
-    "geom:area_square_m":93406162.02406,
+    "geom:area_square_m":93406162.024061,
     "geom:bbox":"-88.644334,44.096889,-88.404209,44.15627",
     "geom:latitude":44.121927,
     "geom:longitude":-88.543799,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.126695,
     "lbl:longitude":-88.553767,
     "lbl:max_zoom":16.0,
@@ -169,11 +175,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":139,
     "uscensus:geoid":5513982875,
     "uscensus:name":"Vinland",
     "uscensus:namelsad":"Vinland town",
+    "uscensus:population":1741,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -183,8 +192,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5513982875
+        "uscensus:geoid":"5513982875"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -200,11 +210,11 @@
         }
     ],
     "wof:id":404495547,
-    "wof:lastmodified":1605055994,
+    "wof:lastmodified":1722117840,
     "wof:name":"Vinland",
     "wof:parent_id":102081801,
     "wof:placetype":"localadmin",
-    "wof:population":1765,
+    "wof:population":1741,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

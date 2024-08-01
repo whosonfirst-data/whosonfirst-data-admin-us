@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010108,
-    "geom:area_square_m":94031066.416274,
+    "geom:area_square_m":94031066.416291,
     "geom:bbox":"-83.304215,41.166509,-83.18661,41.254913",
     "geom:latitude":41.210207,
     "geom:longitude":-83.245668,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.209764,
     "lbl:longitude":-83.245668,
     "lbl:max_zoom":15.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":147,
     "uscensus:geoid":3914743316,
     "uscensus:name":"Liberty",
     "uscensus:namelsad":"Liberty township",
+    "uscensus:population":2007,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3914743316
+        "uscensus:geoid":"3914743316"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404524247,
-    "wof:lastmodified":1605056113,
+    "wof:lastmodified":1722233682,
     "wof:name":"Liberty Township",
     "wof:parent_id":102084717,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2035,
+    "wof:population":2007,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

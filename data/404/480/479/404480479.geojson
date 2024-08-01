@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010975,
-    "geom:area_square_m":92813982.468451,
+    "geom:area_square_m":92813982.46845,
     "geom:bbox":"-100.33093,46.807491,-100.203075,46.895021",
     "geom:latitude":46.851265,
     "geom:longitude":-100.267087,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.851247,
     "lbl:longitude":-100.267079,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":3801575940,
     "uscensus:name":"Sterling",
     "uscensus:namelsad":"Sterling township",
+    "uscensus:population":164,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3801575940
+        "uscensus:geoid":"3801575940"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470239
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404480479,
-    "wof:lastmodified":1605055908,
+    "wof:lastmodified":1722117745,
     "wof:name":"Sterling Township",
     "wof:parent_id":102082107,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":149,
+    "wof:population":164,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

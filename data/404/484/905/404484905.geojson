@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00043,
-    "geom:area_square_m":4045286.687626,
+    "geom:area_square_m":4045286.687625,
     "geom:bbox":"-79.872347,40.409283,-79.838541,40.438428",
     "geom:latitude":40.425084,
     "geom:longitude":-79.854468,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.427215,
     "lbl:longitude":-79.854726,
     "lbl:max_zoom":15.0,
@@ -85,11 +91,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4200326592,
     "uscensus:name":"Forest Hills",
     "uscensus:namelsad":"Forest Hills borough",
+    "uscensus:population":6189,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -99,8 +108,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200326592
+        "uscensus:geoid":"4200326592"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -116,11 +126,11 @@
         }
     ],
     "wof:id":404484905,
-    "wof:lastmodified":1605055463,
+    "wof:lastmodified":1722117771,
     "wof:name":"Forest Hills",
     "wof:parent_id":102080887,
     "wof:placetype":"localadmin",
-    "wof:population":6518,
+    "wof:population":6189,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

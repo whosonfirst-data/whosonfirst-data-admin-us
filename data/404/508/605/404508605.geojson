@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.018041,
-    "geom:area_square_m":156969773.164649,
+    "geom:area_square_m":156969773.164723,
     "geom:bbox":"-83.640053,45.204641,-83.513882,45.370603",
     "geom:latitude":45.28057,
     "geom:longitude":-83.579539,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.280364,
     "lbl:longitude":-83.578699,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":141,
     "uscensus:geoid":2614143900,
     "uscensus:name":"Krakow",
     "uscensus:namelsad":"Krakow township",
+    "uscensus:population":680,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2614143900
+        "uscensus:geoid":"2614143900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466131
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404508605,
-    "wof:lastmodified":1605055737,
+    "wof:lastmodified":1722117923,
     "wof:name":"Krakow Township",
     "wof:parent_id":102082991,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":705,
+    "wof:population":680,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

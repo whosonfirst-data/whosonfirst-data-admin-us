@@ -10,6 +10,12 @@
     "geom:latitude":40.242923,
     "geom:longitude":-77.89301,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.242893,
     "lbl:longitude":-77.892948,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":4206156928,
     "uscensus:name":"Orbisonia",
     "uscensus:namelsad":"Orbisonia borough",
+    "uscensus:population":447,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206156928
+        "uscensus:geoid":"4206156928"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404485931,
-    "wof:lastmodified":1605055354,
+    "wof:lastmodified":1722117777,
     "wof:name":"Orbisonia",
     "wof:parent_id":102080901,
     "wof:placetype":"localadmin",
-    "wof:population":428,
+    "wof:population":447,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

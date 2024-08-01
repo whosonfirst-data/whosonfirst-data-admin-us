@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002445,
-    "geom:area_square_m":21466570.685886,
+    "geom:area_square_m":21466570.685896,
     "geom:bbox":"-85.654439,44.715142,-85.551588,44.779811",
     "geom:latitude":44.753632,
     "geom:longitude":-85.60151,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.755069,
     "lbl:longitude":-85.588128,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":55,
     "uscensus:geoid":2605580340,
     "uscensus:name":"Traverse City",
     "uscensus:namelsad":"Traverse City city",
+    "uscensus:population":15359,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2605580340
+        "uscensus:geoid":"2605580340"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404506707,
-    "wof:lastmodified":1605055751,
+    "wof:lastmodified":1722117909,
     "wof:name":"Traverse City",
     "wof:parent_id":102083133,
     "wof:placetype":"localadmin",
-    "wof:population":14482,
+    "wof:population":15359,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

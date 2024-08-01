@@ -10,6 +10,12 @@
     "geom:latitude":42.554813,
     "geom:longitude":-84.086164,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.554704,
     "lbl:longitude":-84.086164,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":93,
     "uscensus:geoid":2609340900,
     "uscensus:name":"Iosco",
     "uscensus:namelsad":"Iosco township",
+    "uscensus:population":3885,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2609340900
+        "uscensus:geoid":"2609340900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459121
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404505937,
-    "wof:lastmodified":1605055279,
+    "wof:lastmodified":1722117904,
     "wof:name":"Iosco Township",
     "wof:parent_id":102083145,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3801,
+    "wof:population":3885,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

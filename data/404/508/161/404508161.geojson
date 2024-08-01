@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010032,
-    "geom:area_square_m":92024007.142735,
+    "geom:area_square_m":92024007.142726,
     "geom:bbox":"-85.992772,42.069444,-85.877083,42.15729",
     "geom:latitude":42.113375,
     "geom:longitude":-85.934662,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.11343,
     "lbl:longitude":-85.934663,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":159,
     "uscensus:geoid":2615921060,
     "uscensus:name":"Decatur",
     "uscensus:namelsad":"Decatur township",
+    "uscensus:population":3527,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2615921060
+        "uscensus:geoid":"2615921060"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404508161,
-    "wof:lastmodified":1605055733,
+    "wof:lastmodified":1722233667,
     "wof:name":"Decatur Township",
     "wof:parent_id":102083051,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3726,
+    "wof:population":3527,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

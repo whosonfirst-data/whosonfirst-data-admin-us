@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00664,
-    "geom:area_square_m":61461837.459444,
+    "geom:area_square_m":61461837.459454,
     "geom:bbox":"-80.904485,41.500609,-80.809973,41.571377",
     "geom:latitude":41.536081,
     "geom:longitude":-80.85723,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.536033,
     "lbl:longitude":-80.85723,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":3900758870,
     "uscensus:name":"Orwell",
     "uscensus:namelsad":"Orwell township",
+    "uscensus:population":3066,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3900758870
+        "uscensus:geoid":"3900758870"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404524725,
-    "wof:lastmodified":1605056107,
+    "wof:lastmodified":1722233683,
     "wof:name":"Orwell Township",
     "wof:parent_id":102083657,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3106,
+    "wof:population":3066,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

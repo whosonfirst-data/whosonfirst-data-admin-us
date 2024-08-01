@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009891,
-    "geom:area_square_m":92526196.891984,
+    "geom:area_square_m":92526196.891956,
     "geom:bbox":"-90.214178,40.80046,-90.099976,40.888497",
     "geom:latitude":40.844362,
     "geom:longitude":-90.156902,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.844348,
     "lbl:longitude":-90.1569,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":1709533552,
     "uscensus:name":"Haw Creek",
     "uscensus:namelsad":"Haw Creek township",
+    "uscensus:population":346,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1709533552
+        "uscensus:geoid":"1709533552"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404498425,
-    "wof:lastmodified":1605055558,
+    "wof:lastmodified":1722233642,
     "wof:name":"Haw Creek Township",
     "wof:parent_id":102082867,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":461,
+    "wof:population":346,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

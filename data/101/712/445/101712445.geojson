@@ -128,7 +128,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2208796,
     "uscensus:awater":50176,
     "uscensus:classfp":"C1",
@@ -144,17 +145,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"55748",
     "uscensus:placens":"02399484",
+    "uscensus:population":1100,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"39",
     "wd:elevation":342.0,
     "wd:latitude":39.3242,
     "wd:longitude":-83.6919,
     "wd:wordcount":875,
     "wof:belongsto":[
-        85688485,
         102191575,
-        404523651,
         85633793,
-        102083645
+        102083645,
+        404523651,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -163,10 +166,11 @@
         "gn:id":4519701,
         "gp:id":2459067,
         "qs_pg:id":29762,
-        "uscensus:geoid":3955748,
+        "uscensus:geoid":"3955748",
         "wd:id":"Q1983015",
         "wk:page":"New Vienna, Ohio"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -187,11 +191,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690888829,
+    "wof:lastmodified":1722116288,
     "wof:name":"New Vienna",
     "wof:parent_id":404523651,
     "wof:placetype":"locality",
-    "wof:population":1224,
+    "wof:population":1100,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

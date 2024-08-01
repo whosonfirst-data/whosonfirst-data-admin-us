@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.032743,
-    "geom:area_square_m":320737028.983131,
+    "geom:area_square_m":320737028.983044,
     "geom:bbox":"-98.794649,37.557664,-98.464759,37.690012",
     "geom:latitude":37.610303,
     "geom:longitude":-98.642782,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "precinct"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.601908,
     "lbl:longitude":-98.645425,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":151,
     "uscensus:geoid":2015171248,
     "uscensus:name":"12",
     "uscensus:namelsad":"Township 12",
+    "uscensus:population":894,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2015171248
+        "uscensus:geoid":"2015171248"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458965
     ],
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404505595,
-    "wof:lastmodified":1605055278,
+    "wof:lastmodified":1722117901,
     "wof:name":"Township 12",
     "wof:parent_id":102085327,
     "wof:placetype":"localadmin",
-    "wof:population":917,
+    "wof:population":894,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

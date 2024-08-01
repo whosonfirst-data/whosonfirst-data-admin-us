@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000418,
-    "geom:area_square_m":3990162.272163,
+    "geom:area_square_m":3990162.272155,
     "geom:bbox":"-98.714027,39.43104,-98.684564,39.456108",
     "geom:latitude":39.440469,
     "geom:longitude":-98.699456,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.438288,
     "lbl:longitude":-98.700457,
     "lbl:max_zoom":16.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":141,
     "uscensus:geoid":2014153325,
     "uscensus:name":"Osborne",
     "uscensus:namelsad":"Osborne city",
+    "uscensus:population":1303,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2014153325
+        "uscensus:geoid":"2014153325"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404505349,
-    "wof:lastmodified":1605055285,
+    "wof:lastmodified":1722117899,
     "wof:name":"Osborne",
     "wof:parent_id":102082677,
     "wof:placetype":"localadmin",
-    "wof:population":1431,
+    "wof:population":1303,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

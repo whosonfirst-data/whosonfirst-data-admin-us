@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008496,
-    "geom:area_square_m":79558701.926456,
+    "geom:area_square_m":79558701.926436,
     "geom:bbox":"-78.282781,40.73641,-78.064031,40.816928",
     "geom:latitude":40.768873,
     "geom:longitude":-78.157809,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.774323,
     "lbl:longitude":-78.137921,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":4202776168,
     "uscensus:name":"Taylor",
     "uscensus:namelsad":"Taylor township",
+    "uscensus:population":837,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202776168
+        "uscensus:geoid":"4202776168"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469391
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404483097,
-    "wof:lastmodified":1605055440,
+    "wof:lastmodified":1722117760,
     "wof:name":"Taylor Township",
     "wof:parent_id":102081369,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":853,
+    "wof:population":837,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

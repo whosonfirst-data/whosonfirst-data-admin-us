@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.021816,
-    "geom:area_square_m":186703909.403354,
+    "geom:area_square_m":186703909.403382,
     "geom:bbox":"-85.865215,46.158319,-85.613069,46.245375",
     "geom:latitude":46.20177,
     "geom:longitude":-85.739086,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.201928,
     "lbl:longitude":-85.739135,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":97,
     "uscensus:geoid":2609765600,
     "uscensus:name":"Portage",
     "uscensus:namelsad":"Portage township",
+    "uscensus:population":938,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2609765600
+        "uscensus:geoid":"2609765600"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461129
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404505949,
-    "wof:lastmodified":1605055285,
+    "wof:lastmodified":1722117904,
     "wof:name":"Portage Township",
     "wof:parent_id":102083639,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":981,
+    "wof:population":938,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

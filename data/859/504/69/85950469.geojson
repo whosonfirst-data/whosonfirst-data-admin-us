@@ -100,7 +100,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":13063509,
     "uscensus:awater":337440,
     "uscensus:classfp":"U1",
@@ -116,23 +117,26 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"48220",
     "uscensus:placens":"02378185",
+    "uscensus:population":3515,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"25",
     "wof:belongsto":[
-        85688645,
         102191575,
-        404476041,
         85633793,
-        102084367
+        102084367,
+        404476041,
+        85688645
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "fips:code":"2548220",
         "gn:id":4945659,
         "qs_pg:id":99625,
-        "uscensus:geoid":2548220,
+        "uscensus:geoid":"2548220",
         "wd:id":"Q7055894",
         "wk:page":"North Lakeville, Massachusetts"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -150,11 +154,11 @@
         }
     ],
     "wof:id":85950469,
-    "wof:lastmodified":1690881922,
+    "wof:lastmodified":1722115953,
     "wof:name":"North Lakeville",
     "wof:parent_id":404476041,
     "wof:placetype":"locality",
-    "wof:population":2630,
+    "wof:population":3515,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

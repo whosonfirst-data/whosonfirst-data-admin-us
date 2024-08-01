@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009125,
-    "geom:area_square_m":76297469.602045,
+    "geom:area_square_m":76297469.602111,
     "geom:bbox":"-96.964116,47.410531,-96.848933,47.4979",
     "geom:latitude":47.454431,
     "geom:longitude":-96.911194,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.454178,
     "lbl:longitude":-96.9112,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":97,
     "uscensus:geoid":3809711540,
     "uscensus:name":"Caledonia",
     "uscensus:namelsad":"Caledonia township",
+    "uscensus:population":113,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3809711540
+        "uscensus:geoid":"3809711540"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404482395,
-    "wof:lastmodified":1605055383,
+    "wof:lastmodified":1722117756,
     "wof:name":"Caledonia Township",
     "wof:parent_id":102081481,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":111,
+    "wof:population":113,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

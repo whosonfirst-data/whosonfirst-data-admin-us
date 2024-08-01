@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010392,
-    "geom:area_square_m":92470497.839095,
+    "geom:area_square_m":92470497.839077,
     "geom:bbox":"-92.67823,43.93502,-92.557805,44.02196",
     "geom:latitude":43.978431,
     "geom:longitude":-92.618085,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.978487,
     "lbl:longitude":-92.618087,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":109,
     "uscensus:geoid":2710958234,
     "uscensus:name":"Salem",
     "uscensus:namelsad":"Salem township",
+    "uscensus:population":1065,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2710958234
+        "uscensus:geoid":"2710958234"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476059
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404512595,
-    "wof:lastmodified":1605056119,
+    "wof:lastmodified":1722117952,
     "wof:name":"Salem Township",
     "wof:parent_id":102087829,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1086,
+    "wof:population":1065,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

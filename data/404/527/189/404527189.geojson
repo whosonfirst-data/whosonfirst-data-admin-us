@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006647,
-    "geom:area_square_m":59183666.540201,
+    "geom:area_square_m":59183666.540196,
     "geom:bbox":"-72.284775,43.886505,-72.167818,43.993027",
     "geom:latitude":43.939304,
     "geom:longitude":-72.227113,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.939096,
     "lbl:longitude":-72.227111,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":5001779975,
     "uscensus:name":"West Fairlee",
     "uscensus:namelsad":"West Fairlee town",
+    "uscensus:population":631,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5001779975
+        "uscensus:geoid":"5001779975"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471027
     ],
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404527189,
-    "wof:lastmodified":1605055680,
+    "wof:lastmodified":1722118029,
     "wof:name":"West Fairlee",
     "wof:parent_id":102087431,
     "wof:placetype":"localadmin",
-    "wof:population":652,
+    "wof:population":631,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

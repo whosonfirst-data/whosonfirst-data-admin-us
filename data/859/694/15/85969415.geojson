@@ -9,7 +9,24 @@
     "geom:bbox":"-96.568564,46.703185,-96.547318,46.717767",
     "geom:latitude":46.710489,
     "geom:longitude":-96.55794,
+    "gn:admin1_code":"MN",
+    "gn:admin2_code":"27.0",
+    "gn:admin3_code":"1054.0",
+    "gn:asciiname":"Baker",
+    "gn:country_code":"US",
+    "gn:dem":285,
+    "gn:elevation":"286.0",
+    "gn:feature_class":"P",
+    "gn:feature_code":"PPL",
+    "gn:geonameid":5017015,
+    "gn:latitude":46.71302,
+    "gn:longitude":-96.55202,
+    "gn:modification_date":"2017-05-23",
+    "gn:name":"Baker",
+    "gn:population":55,
+    "gn:timezone":"America/Chicago",
     "iso:country":"US",
+    "lbl:bbox":"-96.57202,46.69302,-96.53202,46.73302",
     "lbl:latitude":46.710495,
     "lbl:longitude":-96.55794,
     "lbl:max_zoom":18.0,
@@ -87,6 +104,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":2613731,
     "uscensus:awater":0,
     "uscensus:classfp":"U1",
@@ -102,14 +121,16 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"03214",
     "uscensus:placens":"02583772",
+    "uscensus:population":46,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"27",
     "wd:wordcount":157,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404509107,
         85633793,
-        102087681
+        102087681,
+        404509107,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -118,13 +139,22 @@
         "gn:id":5017014,
         "gp:id":2358413,
         "qs_pg:id":911488,
-        "uscensus:geoid":2703214,
+        "uscensus:geoid":"2703214",
         "wd:id":"Q980017",
         "wk:page":"Baker, Minnesota"
     },
     "wof:concordances_alt":{
-        "qs_pg:id":1254499
+        "gn:id":[
+            5017015
+        ],
+        "qs_pg:id":[
+            1254499
+        ],
+        "wk:page":[
+            "Baker%2C_Minnesota"
+        ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -145,13 +175,17 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882948,
+    "wof:lastmodified":1722116399,
     "wof:name":"Baker",
     "wof:parent_id":404509107,
     "wof:placetype":"locality",
+    "wof:population":46,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1209626305
+    ],
     "wof:tags":[]
 },
   "bbox": [

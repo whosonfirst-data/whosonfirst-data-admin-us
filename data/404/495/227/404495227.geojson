@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010391,
-    "geom:area_square_m":94271082.267849,
+    "geom:area_square_m":94271082.267838,
     "geom:bbox":"-88.89652,42.754752,-88.777076,42.845934",
     "geom:latitude":42.800188,
     "geom:longitude":-88.836913,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.80013,
     "lbl:longitude":-88.836913,
     "lbl:max_zoom":16.0,
@@ -484,11 +490,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":5510544125,
     "uscensus:name":"Lima",
     "uscensus:namelsad":"Lima town",
+    "uscensus:population":1298,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -498,8 +507,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5510544125
+        "uscensus:geoid":"5510544125"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468379
     ],
@@ -518,11 +528,11 @@
         }
     ],
     "wof:id":404495227,
-    "wof:lastmodified":1605055979,
+    "wof:lastmodified":1722117838,
     "wof:name":"Lima",
     "wof:parent_id":102081829,
     "wof:placetype":"localadmin",
-    "wof:population":1280,
+    "wof:population":1298,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

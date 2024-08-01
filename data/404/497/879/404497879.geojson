@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010069,
-    "geom:area_square_m":96822501.185374,
+    "geom:area_square_m":96822501.185408,
     "geom:bbox":"-89.257463,38.911853,-89.137845,38.99922",
     "geom:latitude":38.956806,
     "geom:longitude":-89.196981,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.956762,
     "lbl:longitude":-89.196983,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":1705104377,
     "uscensus:name":"Bear Grove",
     "uscensus:namelsad":"Bear Grove township",
+    "uscensus:population":525,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1705104377
+        "uscensus:geoid":"1705104377"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404497879,
-    "wof:lastmodified":1605055497,
+    "wof:lastmodified":1722233639,
     "wof:name":"Bear Grove Township",
     "wof:parent_id":102082287,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":599,
+    "wof:population":525,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

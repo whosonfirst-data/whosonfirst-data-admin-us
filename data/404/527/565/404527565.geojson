@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010761,
-    "geom:area_square_m":94975196.308162,
+    "geom:area_square_m":94975196.308174,
     "geom:bbox":"-72.083851,44.38833,-71.933288,44.510398",
     "geom:latitude":44.455239,
     "geom:longitude":-72.011546,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.45327,
     "lbl:longitude":-72.012689,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":5000562200,
     "uscensus:name":"St. Johnsbury",
     "uscensus:namelsad":"St. Johnsbury town",
+    "uscensus:population":7403,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5000562200
+        "uscensus:geoid":"5000562200"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404527565,
-    "wof:lastmodified":1605055682,
+    "wof:lastmodified":1722118031,
     "wof:name":"St. Johnsbury",
     "wof:parent_id":102080755,
     "wof:placetype":"localadmin",
-    "wof:population":7603,
+    "wof:population":7403,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

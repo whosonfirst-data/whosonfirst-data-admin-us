@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008803,
-    "geom:area_square_m":83553221.057424,
+    "geom:area_square_m":83553221.057472,
     "geom:bbox":"-76.898143,39.810517,-76.741419,39.923155",
     "geom:latitude":39.86463,
     "geom:longitude":-76.81892,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.864444,
     "lbl:longitude":-76.811219,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":133,
     "uscensus:geoid":4213354904,
     "uscensus:name":"North Codorus",
     "uscensus:namelsad":"North Codorus township",
+    "uscensus:population":9226,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4213354904
+        "uscensus:geoid":"4213354904"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463393
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404487857,
-    "wof:lastmodified":1605055883,
+    "wof:lastmodified":1722117790,
     "wof:name":"North Codorus Township",
     "wof:parent_id":102080953,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":8905,
+    "wof:population":9226,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

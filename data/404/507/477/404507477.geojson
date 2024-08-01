@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014502,
-    "geom:area_square_m":129011910.216948,
+    "geom:area_square_m":129011910.216961,
     "geom:bbox":"-82.768871,43.946049,-82.594799,44.03339",
     "geom:latitude":43.990388,
     "geom:longitude":-82.681596,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.990293,
     "lbl:longitude":-82.681599,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":63,
     "uscensus:geoid":2606333080,
     "uscensus:name":"Gore",
     "uscensus:namelsad":"Gore township",
+    "uscensus:population":147,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2606333080
+        "uscensus:geoid":"2606333080"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729455765
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404507477,
-    "wof:lastmodified":1605055770,
+    "wof:lastmodified":1722117914,
     "wof:name":"Gore Township",
     "wof:parent_id":102083017,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":144,
+    "wof:population":147,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000672,
-    "geom:area_square_m":6238606.14352,
+    "geom:area_square_m":6238606.143515,
     "geom:bbox":"-75.995544,41.316058,-75.94785,41.345716",
     "geom:latitude":41.330629,
     "geom:longitude":-75.973584,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.32933,
     "lbl:longitude":-75.979514,
     "lbl:max_zoom":15.0,
@@ -421,11 +427,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":79,
     "uscensus:geoid":4207918048,
     "uscensus:name":"Dallas",
     "uscensus:namelsad":"Dallas borough",
+    "uscensus:population":2691,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -435,8 +444,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207918048
+        "uscensus:geoid":"4207918048"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -452,11 +462,11 @@
         }
     ],
     "wof:id":404486209,
-    "wof:lastmodified":1605055872,
+    "wof:lastmodified":1722117778,
     "wof:name":"Dallas",
     "wof:parent_id":102081351,
     "wof:placetype":"localadmin",
-    "wof:population":2804,
+    "wof:population":2691,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

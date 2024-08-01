@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009559,
-    "geom:area_square_m":91002840.083034,
+    "geom:area_square_m":91002840.082992,
     "geom:bbox":"-75.409478,39.588791,-75.247905,39.713642",
     "geom:latitude":39.655747,
     "geom:longitude":-75.321534,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.649321,
     "lbl:longitude":-75.287071,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":33,
     "uscensus:geoid":3403358530,
     "uscensus:name":"Pilesgrove",
     "uscensus:namelsad":"Pilesgrove township",
+    "uscensus:population":4224,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3403358530
+        "uscensus:geoid":"3403358530"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468283
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404477897,
-    "wof:lastmodified":1605055432,
+    "wof:lastmodified":1722117726,
     "wof:name":"Pilesgrove Township",
     "wof:parent_id":102083879,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":4016,
+    "wof:population":4224,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

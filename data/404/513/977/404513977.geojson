@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000696,
-    "geom:area_square_m":5673254.138228,
+    "geom:area_square_m":5673254.138238,
     "geom:bbox":"-96.957443,48.746015,-96.930556,48.784314",
     "geom:latitude":48.765937,
     "geom:longitude":-96.942755,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.772732,
     "lbl:longitude":-96.941145,
     "lbl:max_zoom":17.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":69,
     "uscensus:geoid":2706926576,
     "uscensus:name":"Hallock",
     "uscensus:namelsad":"Hallock city",
+    "uscensus:population":873,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2706926576
+        "uscensus:geoid":"2706926576"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,11 +96,11 @@
         }
     ],
     "wof:id":404513977,
-    "wof:lastmodified":1605056037,
+    "wof:lastmodified":1722117962,
     "wof:name":"Hallock",
     "wof:parent_id":102087613,
     "wof:placetype":"localadmin",
-    "wof:population":981,
+    "wof:population":873,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

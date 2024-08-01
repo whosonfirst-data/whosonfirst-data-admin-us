@@ -10,6 +10,12 @@
     "geom:latitude":45.855861,
     "geom:longitude":-96.917317,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.855844,
     "lbl:longitude":-96.917312,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":109,
     "uscensus:geoid":4610944820,
     "uscensus:name":"New Effington",
     "uscensus:namelsad":"New Effington town",
+    "uscensus:population":226,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4610944820
+        "uscensus:geoid":"4610944820"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404489179,
-    "wof:lastmodified":1605055937,
+    "wof:lastmodified":1722117799,
     "wof:name":"New Effington",
     "wof:parent_id":102086057,
     "wof:placetype":"localadmin",
-    "wof:population":256,
+    "wof:population":226,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

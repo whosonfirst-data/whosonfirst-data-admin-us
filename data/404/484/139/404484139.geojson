@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00167,
-    "geom:area_square_m":15732352.500475,
+    "geom:area_square_m":15732352.500474,
     "geom:bbox":"-80.084111,40.351043,-80.018433,40.401943",
     "geom:latitude":40.375238,
     "geom:longitude":-80.049444,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.3746,
     "lbl:longitude":-80.05266,
     "lbl:max_zoom":14.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4200351696,
     "uscensus:name":"Mount Lebanon",
     "uscensus:namelsad":"Mount Lebanon township",
+    "uscensus:population":32938,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200351696
+        "uscensus:geoid":"4200351696"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473307
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404484139,
-    "wof:lastmodified":1605055462,
+    "wof:lastmodified":1722117766,
     "wof:name":"Mount Lebanon Township",
     "wof:parent_id":102080887,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":33137,
+    "wof:population":32938,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012975,
-    "geom:area_square_m":122930140.036229,
+    "geom:area_square_m":122930140.036154,
     "geom:bbox":"-78.763206,39.889791,-78.655278,40.075359",
     "geom:latitude":39.987294,
     "geom:longitude":-78.720132,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.986669,
     "lbl:longitude":-78.715771,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":4200938576,
     "uscensus:name":"Juniata",
     "uscensus:namelsad":"Juniata township",
+    "uscensus:population":906,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200938576
+        "uscensus:geoid":"4200938576"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471849
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404484425,
-    "wof:lastmodified":1605055454,
+    "wof:lastmodified":1722117768,
     "wof:name":"Juniata Township",
     "wof:parent_id":102080939,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":954,
+    "wof:population":906,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

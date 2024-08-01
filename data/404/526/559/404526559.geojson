@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006038,
-    "geom:area_square_m":56969386.725783,
+    "geom:area_square_m":56969386.725774,
     "geom:bbox":"-83.630254,40.22937,-83.542831,40.309074",
     "geom:latitude":40.270006,
     "geom:longitude":-83.586529,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.269848,
     "lbl:longitude":-83.586531,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":91,
     "uscensus:geoid":3909188042,
     "uscensus:name":"Zane",
     "uscensus:namelsad":"Zane township",
+    "uscensus:population":1213,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3909188042
+        "uscensus:geoid":"3909188042"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463117
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404526559,
-    "wof:lastmodified":1605055642,
+    "wof:lastmodified":1722118024,
     "wof:name":"Zane Township",
     "wof:parent_id":102083729,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1140,
+    "wof:population":1213,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

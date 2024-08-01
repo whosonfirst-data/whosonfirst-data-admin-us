@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009933,
-    "geom:area_square_m":89572006.464821,
+    "geom:area_square_m":89572006.464805,
     "geom:bbox":"-83.932071,43.132782,-83.813783,43.22121",
     "geom:latitude":43.177148,
     "geom:longitude":-83.871761,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":43.177163,
     "lbl:longitude":-83.848614,
@@ -135,22 +138,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":2604955300,
     "uscensus:name":"Montrose",
     "uscensus:namelsad":"Montrose charter township",
+    "uscensus:population":5928,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688599,
-        102083111
+        102083111,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2604955300
+        "uscensus:geoid":"2604955300"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472791
     ],
@@ -169,11 +176,11 @@
         }
     ],
     "wof:id":404506615,
-    "wof:lastmodified":1636499356,
+    "wof:lastmodified":1722117908,
     "wof:name":"Montrose",
     "wof:parent_id":102083111,
     "wof:placetype":"localadmin",
-    "wof:population":6224,
+    "wof:population":5928,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

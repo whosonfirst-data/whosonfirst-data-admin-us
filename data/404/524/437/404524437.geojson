@@ -10,6 +10,12 @@
     "geom:latitude":41.377117,
     "geom:longitude":-81.930893,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.37871,
     "lbl:longitude":-81.9344,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":3903558408,
     "uscensus:name":"Olmsted",
     "uscensus:namelsad":"Olmsted township",
+    "uscensus:population":14442,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3903558408
+        "uscensus:geoid":"3903558408"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473603
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404524437,
-    "wof:lastmodified":1605056105,
+    "wof:lastmodified":1722118008,
     "wof:name":"Olmsted Township",
     "wof:parent_id":102084837,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":13513,
+    "wof:population":14442,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

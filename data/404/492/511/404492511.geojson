@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010545,
-    "geom:area_square_m":95400898.969931,
+    "geom:area_square_m":95400898.969926,
     "geom:bbox":"-88.188994,42.922858,-88.067252,43.017325",
     "geom:latitude":42.972586,
     "geom:longitude":-88.12912,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.973476,
     "lbl:longitude":-88.129117,
     "lbl:max_zoom":14.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":133,
     "uscensus:geoid":5513356375,
     "uscensus:name":"New Berlin",
     "uscensus:namelsad":"New Berlin city",
+    "uscensus:population":40260,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5513356375
+        "uscensus:geoid":"5513356375"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404492511,
-    "wof:lastmodified":1605056004,
+    "wof:lastmodified":1722117820,
     "wof:name":"New Berlin",
     "wof:parent_id":102081741,
     "wof:placetype":"localadmin",
-    "wof:population":39584,
+    "wof:population":40260,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

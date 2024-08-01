@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.015463,
-    "geom:area_square_m":151976075.278429,
+    "geom:area_square_m":151976075.278514,
     "geom:bbox":"-96.290444,37.300604,-96.143126,37.4171",
     "geom:latitude":37.358556,
     "geom:longitude":-96.213028,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.3555,
     "lbl:longitude":-96.213021,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":2004920325,
     "uscensus:name":"Elk Falls",
     "uscensus:namelsad":"Elk Falls township",
+    "uscensus:population":188,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2004920325
+        "uscensus:geoid":"2004920325"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404503445,
-    "wof:lastmodified":1605055327,
+    "wof:lastmodified":1722233659,
     "wof:name":"Elk Falls Township",
     "wof:parent_id":102084193,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":187,
+    "wof:population":188,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

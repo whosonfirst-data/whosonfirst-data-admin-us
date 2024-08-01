@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006456,
-    "geom:area_square_m":58569235.658865,
+    "geom:area_square_m":58569235.658854,
     "geom:bbox":"-72.557124,42.726689,-72.451194,42.858119",
     "geom:latitude":42.809092,
     "geom:longitude":-72.500364,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.819989,
     "lbl:longitude":-72.50398,
     "lbl:max_zoom":15.0,
@@ -91,11 +97,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":3300536660,
     "uscensus:name":"Hinsdale",
     "uscensus:namelsad":"Hinsdale town",
+    "uscensus:population":4006,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":33,
     "wof:belongsto":[
         102191575,
@@ -105,8 +114,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3300536660
+        "uscensus:geoid":"3300536660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -122,11 +132,11 @@
         }
     ],
     "wof:id":404477025,
-    "wof:lastmodified":1605055417,
+    "wof:lastmodified":1722117719,
     "wof:name":"Hinsdale",
     "wof:parent_id":102085643,
     "wof:placetype":"localadmin",
-    "wof:population":4046,
+    "wof:population":4006,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

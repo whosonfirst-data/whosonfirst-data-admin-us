@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009981,
-    "geom:area_square_m":87545298.267019,
+    "geom:area_square_m":87545298.266984,
     "geom:bbox":"-92.375529,44.771895,-92.256928,44.862301",
     "geom:latitude":44.816378,
     "geom:longitude":-92.3174,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.816847,
     "lbl:longitude":-92.31741,
     "lbl:max_zoom":17.0,
@@ -85,11 +91,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":93,
     "uscensus:geoid":5509329150,
     "uscensus:name":"Gilman",
     "uscensus:namelsad":"Gilman town",
+    "uscensus:population":1026,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -99,8 +108,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5509329150
+        "uscensus:geoid":"5509329150"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463173
     ],
@@ -119,12 +129,12 @@
         }
     ],
     "wof:id":404494503,
-    "wof:lastmodified":1605055960,
+    "wof:lastmodified":1722117833,
     "wof:name":"Gilman",
     "wof:parent_id":102081311,
     "wof:placetype":"localadmin",
-    "wof:population":959,
-    "wof:population_rank":2,
+    "wof:population":1026,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

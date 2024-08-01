@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010352,
-    "geom:area_square_m":98163052.481638,
+    "geom:area_square_m":98163052.48163,
     "geom:bbox":"-88.462647,39.879092,-88.331343,39.974759",
     "geom:latitude":39.924747,
     "geom:longitude":-88.403491,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.923322,
     "lbl:longitude":-88.403492,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":1701966547,
     "uscensus:name":"Sadorus",
     "uscensus:namelsad":"Sadorus township",
+    "uscensus:population":897,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1701966547
+        "uscensus:geoid":"1701966547"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404497345,
-    "wof:lastmodified":1605055503,
+    "wof:lastmodified":1722233637,
     "wof:name":"Sadorus Township",
     "wof:parent_id":102081657,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":967,
+    "wof:population":897,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

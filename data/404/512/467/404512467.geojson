@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000144,
-    "geom:area_square_m":1259573.190934,
+    "geom:area_square_m":1259573.190935,
     "geom:bbox":"-95.117904,44.78707,-95.086921,44.793939",
     "geom:latitude":44.791036,
     "geom:longitude":-95.102898,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.791145,
     "lbl:longitude":-95.1029,
     "lbl:max_zoom":17.0,
@@ -472,11 +478,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":129,
     "uscensus:geoid":2712914716,
     "uscensus:name":"Danube",
     "uscensus:namelsad":"Danube city",
+    "uscensus:population":445,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -486,8 +495,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2712914716
+        "uscensus:geoid":"2712914716"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -503,11 +513,11 @@
         }
     ],
     "wof:id":404512467,
-    "wof:lastmodified":1605056132,
+    "wof:lastmodified":1722117950,
     "wof:name":"Danube",
     "wof:parent_id":102087655,
     "wof:placetype":"localadmin",
-    "wof:population":505,
+    "wof:population":445,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

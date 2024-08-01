@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000378,
-    "geom:area_square_m":3528511.306264,
+    "geom:area_square_m":3528511.306269,
     "geom:bbox":"-74.751626,40.969078,-74.732451,40.999764",
     "geom:latitude":40.985936,
     "geom:longitude":-74.742861,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.985863,
     "lbl:longitude":-74.743044,
     "lbl:max_zoom":17.0,
@@ -97,11 +103,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":37,
     "uscensus:geoid":3403701330,
     "uscensus:name":"Andover",
     "uscensus:namelsad":"Andover borough",
+    "uscensus:population":603,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -111,8 +120,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3403701330
+        "uscensus:geoid":"3403701330"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -128,11 +138,11 @@
         }
     ],
     "wof:id":404477567,
-    "wof:lastmodified":1605055413,
+    "wof:lastmodified":1722117723,
     "wof:name":"Andover",
     "wof:parent_id":102086779,
     "wof:placetype":"localadmin",
-    "wof:population":606,
+    "wof:population":603,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

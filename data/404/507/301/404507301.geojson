@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.055344,
-    "geom:area_square_m":475920480.389569,
+    "geom:area_square_m":475920480.389352,
     "geom:bbox":"-86.616037,45.692079,-86.459112,46.158767",
     "geom:latitude":45.937594,
     "geom:longitude":-86.54172,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.951592,
     "lbl:longitude":-86.551046,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":2604131400,
     "uscensus:name":"Garden",
     "uscensus:namelsad":"Garden township",
+    "uscensus:population":774,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2604131400
+        "uscensus:geoid":"2604131400"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404507301,
-    "wof:lastmodified":1605055768,
+    "wof:lastmodified":1722233666,
     "wof:name":"Garden Township",
     "wof:parent_id":102083091,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":750,
+    "wof:population":774,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

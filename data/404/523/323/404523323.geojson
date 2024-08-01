@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010251,
-    "geom:area_square_m":91561956.013872,
+    "geom:area_square_m":91561956.013947,
     "geom:bbox":"-73.484185,43.690619,-73.350762,43.808481",
     "geom:latitude":43.750466,
     "geom:longitude":-73.416171,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.747832,
     "lbl:longitude":-73.414908,
     "lbl:max_zoom":17.0,
@@ -88,11 +94,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":3611560092,
     "uscensus:name":"Putnam",
     "uscensus:namelsad":"Putnam town",
+    "uscensus:population":562,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -102,8 +111,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3611560092
+        "uscensus:geoid":"3611560092"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471277
     ],
@@ -122,11 +132,11 @@
         }
     ],
     "wof:id":404523323,
-    "wof:lastmodified":1605056090,
+    "wof:lastmodified":1722118000,
     "wof:name":"Putnam",
     "wof:parent_id":102083153,
     "wof:placetype":"localadmin",
-    "wof:population":609,
+    "wof:population":562,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

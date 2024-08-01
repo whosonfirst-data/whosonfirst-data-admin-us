@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001587,
-    "geom:area_square_m":13786801.16244,
+    "geom:area_square_m":13786801.16243,
     "geom:bbox":"-85.096132,45.344864,-84.929935,45.384788",
     "geom:latitude":45.364984,
     "geom:longitude":-84.988657,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.366358,
     "lbl:longitude":-84.955188,
     "lbl:max_zoom":15.0,
@@ -58,22 +64,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":47,
     "uscensus:geoid":2604763820,
     "uscensus:name":"Petoskey",
     "uscensus:namelsad":"Petoskey city",
+    "uscensus:population":5846,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688599,
-        102083073
+        102083073,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2604763820
+        "uscensus:geoid":"2604763820"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -89,11 +99,11 @@
         }
     ],
     "wof:id":404506569,
-    "wof:lastmodified":1636499354,
+    "wof:lastmodified":1722117908,
     "wof:name":"Petoskey",
     "wof:parent_id":102083073,
     "wof:placetype":"localadmin",
-    "wof:population":5670,
+    "wof:population":5846,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

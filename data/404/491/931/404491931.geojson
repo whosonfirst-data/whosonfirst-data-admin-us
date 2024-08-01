@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.016608,
-    "geom:area_square_m":147277899.886439,
+    "geom:area_square_m":147277899.886428,
     "geom:bbox":"-90.313262,44.111281,-90.191358,44.249108",
     "geom:latitude":44.180179,
     "geom:longitude":-90.252111,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.179991,
     "lbl:longitude":-90.252113,
     "lbl:max_zoom":18.0,
@@ -211,22 +217,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":57,
     "uscensus:geoid":5505739800,
     "uscensus:name":"Kingston",
     "uscensus:namelsad":"Kingston town",
+    "uscensus:population":61,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081297
+        102081297,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5505739800
+        "uscensus:geoid":"5505739800"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468613
     ],
@@ -245,11 +255,11 @@
         }
     ],
     "wof:id":404491931,
-    "wof:lastmodified":1636499305,
+    "wof:lastmodified":1722117816,
     "wof:name":"Kingston",
     "wof:parent_id":102081297,
     "wof:placetype":"localadmin",
-    "wof:population":91,
+    "wof:population":61,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

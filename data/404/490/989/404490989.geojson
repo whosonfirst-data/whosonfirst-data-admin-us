@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012981,
-    "geom:area_square_m":116160168.526214,
+    "geom:area_square_m":116160168.526234,
     "geom:bbox":"-100.100774,43.586659,-99.98096,43.707841",
     "geom:latitude":43.641575,
     "geom:longitude":-100.039675,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.640722,
     "lbl:longitude":-100.038877,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":123,
     "uscensus:geoid":4612326140,
     "uscensus:name":"Greenwood",
     "uscensus:namelsad":"Greenwood township",
+    "uscensus:population":8,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4612326140
+        "uscensus:geoid":"4612326140"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463953
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404490989,
-    "wof:lastmodified":1605055527,
+    "wof:lastmodified":1722117810,
     "wof:name":"Greenwood Township",
     "wof:parent_id":102086855,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":7,
+    "wof:population":8,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

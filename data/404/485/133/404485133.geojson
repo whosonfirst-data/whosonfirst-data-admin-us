@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000348,
-    "geom:area_square_m":3296665.744335,
+    "geom:area_square_m":3296665.744333,
     "geom:bbox":"-75.933729,39.949256,-75.904049,39.969168",
     "geom:latitude":39.959277,
     "geom:longitude":-75.917614,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.96021,
     "lbl:longitude":-75.915848,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":4202958032,
     "uscensus:name":"Parkesburg",
     "uscensus:namelsad":"Parkesburg borough",
+    "uscensus:population":3928,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202958032
+        "uscensus:geoid":"4202958032"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404485133,
-    "wof:lastmodified":1605055355,
+    "wof:lastmodified":1722117772,
     "wof:name":"Parkesburg",
     "wof:parent_id":102081275,
     "wof:placetype":"localadmin",
-    "wof:population":3593,
+    "wof:population":3928,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

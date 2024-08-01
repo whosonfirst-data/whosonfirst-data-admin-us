@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001114,
-    "geom:area_square_m":10043014.531469,
+    "geom:area_square_m":10043014.531466,
     "geom:bbox":"-89.009648,43.168722,-88.970208,43.197971",
     "geom:latitude":43.183479,
     "geom:longitude":-88.989836,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.18356,
     "lbl:longitude":-88.989836,
     "lbl:max_zoom":15.0,
@@ -187,11 +193,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":55,
     "uscensus:geoid":5505583925,
     "uscensus:name":"Waterloo",
     "uscensus:namelsad":"Waterloo city",
+    "uscensus:population":3611,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -201,8 +210,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5505583925
+        "uscensus:geoid":"5505583925"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -218,11 +228,11 @@
         }
     ],
     "wof:id":404491921,
-    "wof:lastmodified":1605055592,
+    "wof:lastmodified":1722117816,
     "wof:name":"Waterloo",
     "wof:parent_id":102081287,
     "wof:placetype":"localadmin",
-    "wof:population":3333,
+    "wof:population":3611,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

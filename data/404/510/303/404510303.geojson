@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000265,
-    "geom:area_square_m":2365499.357555,
+    "geom:area_square_m":2365499.35756,
     "geom:bbox":"-92.200142,43.847046,-92.160251,43.861587",
     "geom:latitude":43.853069,
     "geom:longitude":-92.185729,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.853371,
     "lbl:longitude":-92.186682,
     "lbl:max_zoom":16.0,
@@ -70,11 +76,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":109,
     "uscensus:geoid":2710911008,
     "uscensus:name":"Chatfield",
     "uscensus:namelsad":"Chatfield city",
+    "uscensus:population":1149,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -84,8 +93,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2710911008
+        "uscensus:geoid":"2710911008"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -101,11 +111,11 @@
         }
     ],
     "wof:id":404510303,
-    "wof:lastmodified":1605055617,
+    "wof:lastmodified":1722117935,
     "wof:name":"Chatfield",
     "wof:parent_id":102087829,
     "wof:placetype":"localadmin",
-    "wof:population":1206,
+    "wof:population":1149,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

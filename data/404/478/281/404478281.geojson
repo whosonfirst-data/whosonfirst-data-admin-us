@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000785,
-    "geom:area_square_m":7377817.548795,
+    "geom:area_square_m":7377817.548793,
     "geom:bbox":"-74.382584,40.527592,-74.344594,40.555367",
     "geom:latitude":40.542383,
     "geom:longitude":-74.362842,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.540826,
     "lbl:longitude":-74.362481,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":3402345690,
     "uscensus:name":"Metuchen",
     "uscensus:namelsad":"Metuchen borough",
+    "uscensus:population":14977,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3402345690
+        "uscensus:geoid":"3402345690"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404478281,
-    "wof:lastmodified":1605055337,
+    "wof:lastmodified":1722117729,
     "wof:name":"Metuchen",
     "wof:parent_id":102087417,
     "wof:placetype":"localadmin",
-    "wof:population":13574,
+    "wof:population":14977,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

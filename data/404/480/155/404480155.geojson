@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000275,
-    "geom:area_square_m":2277762.394086,
+    "geom:area_square_m":2277762.394085,
     "geom:bbox":"-99.539021,47.955327,-99.517421,47.969812",
     "geom:latitude":47.962387,
     "geom:longitude":-99.529294,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.962563,
     "lbl:longitude":-99.529294,
     "lbl:max_zoom":17.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":3800549620,
     "uscensus:name":"Maddock",
     "uscensus:namelsad":"Maddock city",
+    "uscensus:population":384,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3800549620
+        "uscensus:geoid":"3800549620"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404480155,
-    "wof:lastmodified":1605055914,
+    "wof:lastmodified":1722117742,
     "wof:name":"Maddock",
     "wof:parent_id":102082071,
     "wof:placetype":"localadmin",
-    "wof:population":382,
+    "wof:population":384,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

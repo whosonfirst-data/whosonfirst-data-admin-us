@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010297,
-    "geom:area_square_m":98082422.583296,
+    "geom:area_square_m":98082422.583195,
     "geom:bbox":"-75.491031,39.557883,-75.320864,39.677304",
     "geom:latitude":39.61864,
     "geom:longitude":-75.420346,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.61697,
     "lbl:longitude":-75.42164,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":33,
     "uscensus:geoid":3403343200,
     "uscensus:name":"Mannington",
     "uscensus:namelsad":"Mannington township",
+    "uscensus:population":1468,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3403343200
+        "uscensus:geoid":"3403343200"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466961
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404477893,
-    "wof:lastmodified":1605055420,
+    "wof:lastmodified":1722117726,
     "wof:name":"Mannington Township",
     "wof:parent_id":102083879,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1806,
+    "wof:population":1468,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004318,
-    "geom:area_square_m":39842202.150811,
+    "geom:area_square_m":39842202.150804,
     "geom:bbox":"-71.365207,41.679936,-71.284404,41.776199",
     "geom:latitude":41.734195,
     "geom:longitude":-71.31925,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.736293,
     "lbl:longitude":-71.319871,
     "lbl:max_zoom":15.0,
@@ -97,11 +103,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":4400105140,
     "uscensus:name":"Barrington",
     "uscensus:namelsad":"Barrington town",
+    "uscensus:population":17061,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":44,
     "wof:belongsto":[
         102191575,
@@ -111,8 +120,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4400105140
+        "uscensus:geoid":"4400105140"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465499
     ],
@@ -131,11 +141,11 @@
         }
     ],
     "wof:id":404488301,
-    "wof:lastmodified":1605055802,
+    "wof:lastmodified":1722117793,
     "wof:name":"Barrington",
     "wof:parent_id":102081221,
     "wof:placetype":"localadmin",
-    "wof:population":16310,
+    "wof:population":17061,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010516,
-    "geom:area_square_m":92326758.288959,
+    "geom:area_square_m":92326758.288973,
     "geom:bbox":"-94.376009,44.717225,-94.253957,44.805325",
     "geom:latitude":44.761646,
     "geom:longitude":-94.314534,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.761347,
     "lbl:longitude":-94.308922,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":85,
     "uscensus:geoid":2708563436,
     "uscensus:name":"Sumter",
     "uscensus:namelsad":"Sumter township",
+    "uscensus:population":489,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2708563436
+        "uscensus:geoid":"2708563436"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729453757
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404510117,
-    "wof:lastmodified":1605055616,
+    "wof:lastmodified":1722117934,
     "wof:name":"Sumter Township",
     "wof:parent_id":102086993,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":535,
+    "wof:population":489,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

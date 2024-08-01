@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011128,
-    "geom:area_square_m":93653528.747735,
+    "geom:area_square_m":93653528.747713,
     "geom:bbox":"-94.159964,47.065265,-94.0297,47.153501",
     "geom:latitude":47.109689,
     "geom:longitude":-94.094464,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.110464,
     "lbl:longitude":-94.094465,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":2702155168,
     "uscensus:name":"Rogers",
     "uscensus:namelsad":"Rogers township",
+    "uscensus:population":70,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2702155168
+        "uscensus:geoid":"2702155168"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462349
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404511751,
-    "wof:lastmodified":1605055724,
+    "wof:lastmodified":1722117946,
     "wof:name":"Rogers Township",
     "wof:parent_id":102087905,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":63,
+    "wof:population":70,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

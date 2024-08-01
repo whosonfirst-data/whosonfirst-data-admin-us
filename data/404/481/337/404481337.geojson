@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011305,
-    "geom:area_square_m":92627171.342788,
+    "geom:area_square_m":92627171.342784,
     "geom:bbox":"-98.970579,48.457114,-98.84018,48.544232",
     "geom:latitude":48.500612,
     "geom:longitude":-98.905401,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.500601,
     "lbl:longitude":-98.9054,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":71,
     "uscensus:geoid":3807143100,
     "uscensus:name":"Klingstrup",
     "uscensus:namelsad":"Klingstrup township",
+    "uscensus:population":31,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3807143100
+        "uscensus:geoid":"3807143100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470655
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404481337,
-    "wof:lastmodified":1605055820,
+    "wof:lastmodified":1722117750,
     "wof:name":"Klingstrup Township",
     "wof:parent_id":102081517,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":46,
+    "wof:population":31,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009755,
-    "geom:area_square_m":90476216.601048,
+    "geom:area_square_m":90476216.601071,
     "geom:bbox":"-73.660619,41.355026,-73.536036,41.451338",
     "geom:latitude":41.403203,
     "geom:longitude":-73.598511,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.402998,
     "lbl:longitude":-73.598505,
     "lbl:max_zoom":15.0,
@@ -160,11 +166,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":79,
     "uscensus:geoid":3607968924,
     "uscensus:name":"Southeast",
     "uscensus:namelsad":"Southeast town",
+    "uscensus:population":18199,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -174,8 +183,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3607968924
+        "uscensus:geoid":"3607968924"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -191,11 +201,11 @@
         }
     ],
     "wof:id":404523055,
-    "wof:lastmodified":1605056088,
+    "wof:lastmodified":1722233678,
     "wof:name":"Southeast",
     "wof:parent_id":102083007,
     "wof:placetype":"localadmin",
-    "wof:population":18404,
+    "wof:population":18199,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

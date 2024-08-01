@@ -128,7 +128,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":6932030,
     "uscensus:awater":217264,
     "uscensus:classfp":"C5",
@@ -144,17 +145,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"31575",
     "uscensus:placens":"01583323",
+    "uscensus:population":1112,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"55",
     "wd:elevation":360.0,
     "wd:latitude":44.767778,
     "wd:longitude":-90.598889,
     "wd:wordcount":885,
     "wof:belongsto":[
-        85688517,
         102191575,
-        404491605,
         85633793,
-        102081269
+        102081269,
+        404491605,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -163,10 +166,11 @@
         "gn:id":5255102,
         "gp:id":2414752,
         "qs_pg:id":361553,
-        "uscensus:geoid":5531575,
+        "uscensus:geoid":"5531575",
         "wd:id":"Q1570368",
         "wk:page":"Greenwood, Wisconsin"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -187,11 +191,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889363,
+    "wof:lastmodified":1722116321,
     "wof:name":"Greenwood",
     "wof:parent_id":404491605,
     "wof:placetype":"locality",
-    "wof:population":1026,
+    "wof:population":1112,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

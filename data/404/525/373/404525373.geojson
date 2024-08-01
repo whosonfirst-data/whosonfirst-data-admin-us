@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000401,
-    "geom:area_square_m":3841018.210327,
+    "geom:area_square_m":3841018.210329,
     "geom:bbox":"-84.559705,39.223857,-84.53374,39.244094",
     "geom:latitude":39.233815,
     "geom:longitude":-84.546818,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.232489,
     "lbl:longitude":-84.546823,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":3906152752,
     "uscensus:name":"Mount Healthy",
     "uscensus:namelsad":"Mount Healthy city",
+    "uscensus:population":6853,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3906152752
+        "uscensus:geoid":"3906152752"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404525373,
-    "wof:lastmodified":1605056063,
+    "wof:lastmodified":1722118015,
     "wof:name":"Mount Healthy",
     "wof:parent_id":102083687,
     "wof:placetype":"localadmin",
-    "wof:population":6098,
+    "wof:population":6853,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

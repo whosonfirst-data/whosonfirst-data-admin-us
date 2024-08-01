@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00017,
-    "geom:area_square_m":1434535.234992,
+    "geom:area_square_m":1434535.234993,
     "geom:bbox":"-99.924831,46.850511,-99.91118,46.863863",
     "geom:latitude":46.856801,
     "geom:longitude":-99.918125,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.855791,
     "lbl:longitude":-99.918216,
     "lbl:max_zoom":17.0,
@@ -88,11 +94,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":43,
     "uscensus:geoid":3804375780,
     "uscensus:name":"Steele",
     "uscensus:namelsad":"Steele city",
+    "uscensus:population":652,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -102,8 +111,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3804375780
+        "uscensus:geoid":"3804375780"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -119,11 +129,11 @@
         }
     ],
     "wof:id":404482161,
-    "wof:lastmodified":1605055376,
+    "wof:lastmodified":1722117755,
     "wof:name":"Steele",
     "wof:parent_id":102082547,
     "wof:placetype":"localadmin",
-    "wof:population":715,
+    "wof:population":652,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000383,
-    "geom:area_square_m":3410715.198349,
+    "geom:area_square_m":3410715.198347,
     "geom:bbox":"-84.505243,43.872392,-84.472244,43.890372",
     "geom:latitude":43.881132,
     "geom:longitude":-84.488626,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.880988,
     "lbl:longitude":-84.485668,
     "lbl:max_zoom":16.0,
@@ -94,11 +100,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":2605106660,
     "uscensus:name":"Beaverton",
     "uscensus:namelsad":"Beaverton city",
+    "uscensus:population":1170,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -108,8 +117,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2605106660
+        "uscensus:geoid":"2605106660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -125,11 +135,11 @@
         }
     ],
     "wof:id":404506631,
-    "wof:lastmodified":1605055764,
+    "wof:lastmodified":1722117908,
     "wof:name":"Beaverton",
     "wof:parent_id":102083025,
     "wof:placetype":"localadmin",
-    "wof:population":1071,
+    "wof:population":1170,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

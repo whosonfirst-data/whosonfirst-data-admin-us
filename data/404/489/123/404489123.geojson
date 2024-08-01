@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010671,
-    "geom:area_square_m":92310918.047176,
+    "geom:area_square_m":92310918.047196,
     "geom:bbox":"-102.7039,45.559447,-102.58021,45.646548",
     "geom:latitude":45.603179,
     "geom:longitude":-102.642184,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.603183,
     "lbl:longitude":-102.642185,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":4610510300,
     "uscensus:name":"Cash",
     "uscensus:namelsad":"Cash township",
+    "uscensus:population":16,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4610510300
+        "uscensus:geoid":"4610510300"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456603
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404489123,
-    "wof:lastmodified":1605055936,
+    "wof:lastmodified":1722117798,
     "wof:name":"Cash Township",
     "wof:parent_id":102086801,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":14,
+    "wof:population":16,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

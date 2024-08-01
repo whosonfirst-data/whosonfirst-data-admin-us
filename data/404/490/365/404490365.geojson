@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003757,
-    "geom:area_square_m":33707250.081124,
+    "geom:area_square_m":33707250.081117,
     "geom:bbox":"-96.826393,43.464296,-96.628874,43.500412",
     "geom:latitude":43.48789,
     "geom:longitude":-96.743277,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.487716,
     "lbl:longitude":-96.760721,
     "lbl:max_zoom":14.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":83,
     "uscensus:geoid":4608359020,
     "uscensus:name":"Sioux Falls",
     "uscensus:namelsad":"Sioux Falls city",
+    "uscensus:population":39673,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4608359020
+        "uscensus:geoid":"4608359020"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404490365,
-    "wof:lastmodified":1605055506,
+    "wof:lastmodified":1722117806,
     "wof:name":"Sioux Falls",
     "wof:parent_id":102086863,
     "wof:placetype":"localadmin",
-    "wof:population":21095,
+    "wof:population":39673,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

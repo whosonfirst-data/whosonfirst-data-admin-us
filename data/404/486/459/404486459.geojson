@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000208,
-    "geom:area_square_m":1972799.559372,
+    "geom:area_square_m":1972799.559378,
     "geom:bbox":"-75.399685,39.911963,-75.378087,39.929567",
     "geom:latitude":39.919859,
     "geom:longitude":-75.388914,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.920635,
     "lbl:longitude":-75.389076,
     "lbl:max_zoom":15.0,
@@ -130,11 +136,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":4204548480,
     "uscensus:name":"Media",
     "uscensus:namelsad":"Media borough",
+    "uscensus:population":5862,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -144,8 +153,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4204548480
+        "uscensus:geoid":"4204548480"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -161,11 +171,11 @@
         }
     ],
     "wof:id":404486459,
-    "wof:lastmodified":1605055874,
+    "wof:lastmodified":1722117780,
     "wof:name":"Media",
     "wof:parent_id":102080913,
     "wof:placetype":"localadmin",
-    "wof:population":5327,
+    "wof:population":5862,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

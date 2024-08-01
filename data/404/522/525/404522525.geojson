@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013613,
-    "geom:area_square_m":124101871.019868,
+    "geom:area_square_m":124101871.019855,
     "geom:bbox":"-74.378823,42.434881,-74.224985,42.564789",
     "geom:latitude":42.502748,
     "geom:longitude":-74.292292,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.502307,
     "lbl:longitude":-74.29083,
     "lbl:max_zoom":17.0,
@@ -88,22 +94,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":3609510154,
     "uscensus:name":"Broome",
     "uscensus:namelsad":"Broome town",
+    "uscensus:population":873,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688543,
-        102083101
+        102083101,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3609510154
+        "uscensus:geoid":"3609510154"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469927
     ],
@@ -122,11 +132,11 @@
         }
     ],
     "wof:id":404522525,
-    "wof:lastmodified":1636499445,
+    "wof:lastmodified":1722117994,
     "wof:name":"Broome",
     "wof:parent_id":102083101,
     "wof:placetype":"localadmin",
-    "wof:population":973,
+    "wof:population":873,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

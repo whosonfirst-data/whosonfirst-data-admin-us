@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010325,
-    "geom:area_square_m":93852361.910831,
+    "geom:area_square_m":93852361.910851,
     "geom:bbox":"-90.426097,42.638236,-90.308025,42.726837",
     "geom:latitude":42.682372,
     "geom:longitude":-90.367006,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.682362,
     "lbl:longitude":-90.367007,
     "lbl:max_zoom":17.0,
@@ -61,11 +67,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":65,
     "uscensus:geoid":5506523262,
     "uscensus:name":"Elk Grove",
     "uscensus:namelsad":"Elk Grove town",
+    "uscensus:population":580,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -75,8 +84,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5506523262
+        "uscensus:geoid":"5506523262"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469109
     ],
@@ -95,11 +105,11 @@
         }
     ],
     "wof:id":404491731,
-    "wof:lastmodified":1605055575,
+    "wof:lastmodified":1722117815,
     "wof:name":"Elk Grove",
     "wof:parent_id":102081865,
     "wof:placetype":"localadmin",
-    "wof:population":551,
+    "wof:population":580,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

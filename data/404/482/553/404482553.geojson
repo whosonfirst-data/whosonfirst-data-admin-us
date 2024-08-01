@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000089,
-    "geom:area_square_m":836708.947673,
+    "geom:area_square_m":836708.947674,
     "geom:bbox":"-79.348362,40.687016,-79.336177,40.701455",
     "geom:latitude":40.694546,
     "geom:longitude":-79.342078,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.69472,
     "lbl:longitude":-79.341986,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":4200522832,
     "uscensus:name":"Elderton",
     "uscensus:namelsad":"Elderton borough",
+    "uscensus:population":323,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200522832
+        "uscensus:geoid":"4200522832"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404482553,
-    "wof:lastmodified":1605055385,
+    "wof:lastmodified":1722117757,
     "wof:name":"Elderton",
     "wof:parent_id":102081371,
     "wof:placetype":"localadmin",
-    "wof:population":356,
+    "wof:population":323,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

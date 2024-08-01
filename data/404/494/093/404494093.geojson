@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001024,
-    "geom:area_square_m":8790334.402753,
+    "geom:area_square_m":8790334.402756,
     "geom:bbox":"-91.514351,45.990319,-91.462186,46.027033",
     "geom:latitude":46.009366,
     "geom:longitude":-91.482615,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.008769,
     "lbl:longitude":-91.482196,
     "lbl:max_zoom":15.0,
@@ -103,11 +109,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":113,
     "uscensus:geoid":5511333450,
     "uscensus:name":"Hayward",
     "uscensus:namelsad":"Hayward city",
+    "uscensus:population":2584,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -117,8 +126,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5511333450
+        "uscensus:geoid":"5511333450"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -134,11 +144,11 @@
         }
     ],
     "wof:id":404494093,
-    "wof:lastmodified":1605055974,
+    "wof:lastmodified":1722117830,
     "wof:name":"Hayward",
     "wof:parent_id":102081743,
     "wof:placetype":"localadmin",
-    "wof:population":2318,
+    "wof:population":2584,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

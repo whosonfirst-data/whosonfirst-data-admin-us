@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00223,
-    "geom:area_square_m":20246690.549233,
+    "geom:area_square_m":20246690.549228,
     "geom:bbox":"-82.511356,42.727783,-82.467045,42.81398",
     "geom:latitude":42.764458,
     "geom:longitude":-82.489158,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.755871,
     "lbl:longitude":-82.488821,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":147,
     "uscensus:geoid":2614723820,
     "uscensus:name":"East China",
     "uscensus:namelsad":"East China township",
+    "uscensus:population":3648,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2614723820
+        "uscensus:geoid":"2614723820"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466401
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404508869,
-    "wof:lastmodified":1605055738,
+    "wof:lastmodified":1722117925,
     "wof:name":"East China Township",
     "wof:parent_id":102083053,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3788,
+    "wof:population":3648,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

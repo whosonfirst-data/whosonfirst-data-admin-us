@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01317,
-    "geom:area_square_m":109183883.765068,
+    "geom:area_square_m":109183883.765025,
     "geom:bbox":"-104.044144,47.80315,-103.954375,47.996082",
     "geom:latitude":47.897152,
     "geom:longitude":-104.004918,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.897006,
     "lbl:longitude":-104.000436,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":53,
     "uscensus:geoid":3805387820,
     "uscensus:name":"Yellowstone",
     "uscensus:namelsad":"Yellowstone township",
+    "uscensus:population":439,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3805387820
+        "uscensus:geoid":"3805387820"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404479477,
-    "wof:lastmodified":1605055472,
+    "wof:lastmodified":1722117738,
     "wof:name":"Yellowstone Township",
     "wof:parent_id":102082091,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":417,
+    "wof:population":439,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

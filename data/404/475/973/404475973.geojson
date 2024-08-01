@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003664,
-    "geom:area_square_m":33637227.795769,
+    "geom:area_square_m":33637227.795755,
     "geom:bbox":"-72.539684,42.034214,-72.45829,42.089722",
     "geom:latitude":42.059773,
     "geom:longitude":-72.499051,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.060221,
     "lbl:longitude":-72.499051,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":2501319645,
     "uscensus:name":"East Longmeadow",
     "uscensus:namelsad":"East Longmeadow town",
+    "uscensus:population":16378,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2501319645
+        "uscensus:geoid":"2501319645"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457783
     ],
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404475973,
-    "wof:lastmodified":1605055856,
+    "wof:lastmodified":1722117711,
     "wof:name":"East Longmeadow",
     "wof:parent_id":102084627,
     "wof:placetype":"localadmin",
-    "wof:population":15720,
+    "wof:population":16378,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

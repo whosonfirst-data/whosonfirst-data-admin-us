@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000093,
-    "geom:area_square_m":783244.798417,
+    "geom:area_square_m":783244.798416,
     "geom:bbox":"-96.832391,47.346412,-96.814473,47.354404",
     "geom:latitude":47.351044,
     "geom:longitude":-96.824755,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.351262,
     "lbl:longitude":-96.824758,
     "lbl:max_zoom":17.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":107,
     "uscensus:geoid":2710726630,
     "uscensus:name":"Halstad",
     "uscensus:namelsad":"Halstad city",
+    "uscensus:population":560,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2710726630
+        "uscensus:geoid":"2710726630"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404512285,
-    "wof:lastmodified":1605056131,
+    "wof:lastmodified":1722117949,
     "wof:name":"Halstad",
     "wof:parent_id":102087699,
     "wof:placetype":"localadmin",
-    "wof:population":597,
+    "wof:population":560,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

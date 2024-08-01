@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003254,
-    "geom:area_square_m":30745940.545478,
+    "geom:area_square_m":30745940.545462,
     "geom:bbox":"-80.452328,40.142219,-80.356722,40.206122",
     "geom:latitude":40.179156,
     "geom:longitude":-80.395221,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.177266,
     "lbl:longitude":-80.388033,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":4212506840,
     "uscensus:name":"Blaine",
     "uscensus:namelsad":"Blaine township",
+    "uscensus:population":616,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212506840
+        "uscensus:geoid":"4212506840"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404487701,
-    "wof:lastmodified":1605055878,
+    "wof:lastmodified":1722117789,
     "wof:name":"Blaine Township",
     "wof:parent_id":102081343,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":690,
+    "wof:population":616,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

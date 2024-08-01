@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00491,
-    "geom:area_square_m":46419178.291967,
+    "geom:area_square_m":46419178.291963,
     "geom:bbox":"-76.237457,40.091578,-76.131988,40.162968",
     "geom:latitude":40.125952,
     "geom:longitude":-76.177368,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.124447,
     "lbl:longitude":-76.176372,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":71,
     "uscensus:geoid":4207182824,
     "uscensus:name":"West Earl",
     "uscensus:namelsad":"West Earl township",
+    "uscensus:population":8461,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207182824
+        "uscensus:geoid":"4207182824"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404488065,
-    "wof:lastmodified":1605055805,
+    "wof:lastmodified":1722117791,
     "wof:name":"West Earl Township",
     "wof:parent_id":102081377,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":7868,
+    "wof:population":8461,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

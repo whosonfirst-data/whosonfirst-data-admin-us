@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012508,
-    "geom:area_square_m":112295735.770132,
+    "geom:area_square_m":112295735.770123,
     "geom:bbox":"-73.021704,43.39346,-72.870026,43.495757",
     "geom:latitude":43.440173,
     "geom:longitude":-72.944511,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.440148,
     "lbl:longitude":-72.94595,
     "lbl:max_zoom":15.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":5002175925,
     "uscensus:name":"Wallingford",
     "uscensus:namelsad":"Wallingford town",
+    "uscensus:population":2111,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5002175925
+        "uscensus:geoid":"5002175925"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404527411,
-    "wof:lastmodified":1605055683,
+    "wof:lastmodified":1722118030,
     "wof:name":"Wallingford",
     "wof:parent_id":102080771,
     "wof:placetype":"localadmin",
-    "wof:population":2079,
+    "wof:population":2111,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

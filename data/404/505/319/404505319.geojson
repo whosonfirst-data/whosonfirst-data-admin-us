@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.016519,
-    "geom:area_square_m":159835367.140437,
+    "geom:area_square_m":159835367.140477,
     "geom:bbox":"-95.802304,38.433705,-95.691767,38.594252",
     "geom:latitude":38.509571,
     "geom:longitude":-95.749421,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.509611,
     "lbl:longitude":-95.748685,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":139,
     "uscensus:geoid":2013952725,
     "uscensus:name":"Olivet",
     "uscensus:namelsad":"Olivet township",
+    "uscensus:population":231,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2013952725
+        "uscensus:geoid":"2013952725"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404505319,
-    "wof:lastmodified":1605055293,
+    "wof:lastmodified":1722233663,
     "wof:name":"Olivet Township",
     "wof:parent_id":102083421,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":232,
+    "wof:population":231,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

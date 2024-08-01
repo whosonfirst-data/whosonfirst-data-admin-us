@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006851,
-    "geom:area_square_m":62514930.750983,
+    "geom:area_square_m":62514930.750975,
     "geom:bbox":"-76.257529,42.407568,-76.157659,42.481042",
     "geom:latitude":42.444268,
     "geom:longitude":-76.207194,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.44421,
     "lbl:longitude":-76.207194,
     "lbl:max_zoom":17.0,
@@ -58,11 +64,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":3602332160,
     "uscensus:name":"Harford",
     "uscensus:namelsad":"Harford town",
+    "uscensus:population":859,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -72,8 +81,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3602332160
+        "uscensus:geoid":"3602332160"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468437
     ],
@@ -92,11 +102,11 @@
         }
     ],
     "wof:id":404522251,
-    "wof:lastmodified":1605056071,
+    "wof:lastmodified":1722117992,
     "wof:name":"Harford",
     "wof:parent_id":102083011,
     "wof:placetype":"localadmin",
-    "wof:population":943,
+    "wof:population":859,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

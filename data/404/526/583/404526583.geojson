@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006509,
-    "geom:area_square_m":60717820.267476,
+    "geom:area_square_m":60717820.267447,
     "geom:bbox":"-82.732236,40.99464,-82.630592,41.068825",
     "geom:latitude":41.029658,
     "geom:longitude":-82.678052,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.029477,
     "lbl:longitude":-82.66874,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":77,
     "uscensus:geoid":3907754712,
     "uscensus:name":"New Haven",
     "uscensus:namelsad":"New Haven township",
+    "uscensus:population":2397,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3907754712
+        "uscensus:geoid":"3907754712"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404526583,
-    "wof:lastmodified":1605055659,
+    "wof:lastmodified":1722233689,
     "wof:name":"New Haven Township",
     "wof:parent_id":102083735,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2621,
+    "wof:population":2397,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

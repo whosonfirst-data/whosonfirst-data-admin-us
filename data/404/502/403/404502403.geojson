@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000213,
-    "geom:area_square_m":2081251.650883,
+    "geom:area_square_m":2081251.650884,
     "geom:bbox":"-95.312819,37.906776,-95.293411,37.923564",
     "geom:latitude":37.916578,
     "geom:longitude":-95.302323,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.916841,
     "lbl:longitude":-95.300197,
     "lbl:max_zoom":17.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":2000137725,
     "uscensus:name":"La Harpe",
     "uscensus:namelsad":"La Harpe city",
+    "uscensus:population":488,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2000137725
+        "uscensus:geoid":"2000137725"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -104,11 +114,11 @@
         }
     ],
     "wof:id":404502403,
-    "wof:lastmodified":1605055275,
+    "wof:lastmodified":1722117879,
     "wof:name":"La Harpe",
     "wof:parent_id":102082659,
     "wof:placetype":"localadmin",
-    "wof:population":578,
+    "wof:population":488,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

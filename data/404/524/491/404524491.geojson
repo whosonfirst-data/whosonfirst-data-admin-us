@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007788,
-    "geom:area_square_m":74337560.031418,
+    "geom:area_square_m":74337560.031425,
     "geom:bbox":"-83.58777,39.414665,-83.453959,39.517715",
     "geom:latitude":39.469365,
     "geom:longitude":-83.533407,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.474,
     "lbl:longitude":-83.534412,
     "lbl:max_zoom":17.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":47,
     "uscensus:geoid":3904718154,
     "uscensus:name":"Concord",
     "uscensus:namelsad":"Concord township",
+    "uscensus:population":977,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3904718154
+        "uscensus:geoid":"3904718154"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473853
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404524491,
-    "wof:lastmodified":1605056107,
+    "wof:lastmodified":1722118008,
     "wof:name":"Concord Township",
     "wof:parent_id":102083691,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":901,
+    "wof:population":977,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008596,
-    "geom:area_square_m":83278754.436062,
+    "geom:area_square_m":83278754.436073,
     "geom:bbox":"-95.066041,38.389053,-94.918118,38.448077",
     "geom:latitude":38.418566,
     "geom:longitude":-94.992034,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.418617,
     "lbl:longitude":-94.992047,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":121,
     "uscensus:geoid":2012148700,
     "uscensus:name":"Mound",
     "uscensus:namelsad":"Mound township",
+    "uscensus:population":715,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2012148700
+        "uscensus:geoid":"2012148700"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729455565
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404502635,
-    "wof:lastmodified":1605055268,
+    "wof:lastmodified":1722117880,
     "wof:name":"Mound Township",
     "wof:parent_id":102085273,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":729,
+    "wof:population":715,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

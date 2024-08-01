@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000182,
-    "geom:area_square_m":1647560.908243,
+    "geom:area_square_m":1647560.908244,
     "geom:bbox":"-82.778955,42.887172,-82.758494,42.896814",
     "geom:latitude":42.891917,
     "geom:longitude":-82.768651,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.891931,
     "lbl:longitude":-82.768651,
     "lbl:max_zoom":17.0,
@@ -187,11 +193,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":2609952960,
     "uscensus:name":"Memphis",
     "uscensus:namelsad":"Memphis city",
+    "uscensus:population":748,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -201,8 +210,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2609952960
+        "uscensus:geoid":"2609952960"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -218,11 +228,11 @@
         }
     ],
     "wof:id":404505955,
-    "wof:lastmodified":1605055279,
+    "wof:lastmodified":1722117904,
     "wof:name":"Memphis",
     "wof:parent_id":102083047,
     "wof:placetype":"localadmin",
-    "wof:population":823,
+    "wof:population":748,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00039,
-    "geom:area_square_m":3669930.346522,
+    "geom:area_square_m":3669930.346527,
     "geom:bbox":"-74.968519,40.349741,-74.945334,40.373503",
     "geom:latitude":40.361508,
     "geom:longitude":-74.957382,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.361407,
     "lbl:longitude":-74.957382,
     "lbl:max_zoom":15.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":4201753712,
     "uscensus:name":"New Hope",
     "uscensus:namelsad":"New Hope borough",
+    "uscensus:population":2631,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201753712
+        "uscensus:geoid":"4201753712"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404482763,
-    "wof:lastmodified":1605055375,
+    "wof:lastmodified":1722117758,
     "wof:name":"New Hope",
     "wof:parent_id":102080987,
     "wof:placetype":"localadmin",
-    "wof:population":2528,
+    "wof:population":2631,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

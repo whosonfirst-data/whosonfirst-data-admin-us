@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000632,
-    "geom:area_square_m":5942444.379676,
+    "geom:area_square_m":5942444.379667,
     "geom:bbox":"-80.099958,40.468918,-80.047862,40.49943",
     "geom:latitude":40.482911,
     "geom:longitude":-80.0734,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.481586,
     "lbl:longitude":-80.073801,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4200374648,
     "uscensus:name":"Stowe",
     "uscensus:namelsad":"Stowe township",
+    "uscensus:population":6191,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200374648
+        "uscensus:geoid":"4200374648"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474465
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404484321,
-    "wof:lastmodified":1605055469,
+    "wof:lastmodified":1722117767,
     "wof:name":"Stowe Township",
     "wof:parent_id":102080887,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":6362,
+    "wof:population":6191,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

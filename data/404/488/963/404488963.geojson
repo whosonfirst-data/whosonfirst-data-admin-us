@@ -10,6 +10,12 @@
     "geom:latitude":43.727466,
     "geom:longitude":-97.59111,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.72762,
     "lbl:longitude":-97.591114,
     "lbl:max_zoom":18.0,
@@ -115,22 +121,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":87,
     "uscensus:geoid":4608760060,
     "uscensus:name":"Spencer",
     "uscensus:namelsad":"Spencer city",
+    "uscensus:population":137,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688693,
-        102086859
+        102086859,
+        85688693
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4608760060
+        "uscensus:geoid":"4608760060"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -146,11 +156,11 @@
         }
     ],
     "wof:id":404488963,
-    "wof:lastmodified":1636499365,
+    "wof:lastmodified":1722117797,
     "wof:name":"Spencer",
     "wof:parent_id":102086859,
     "wof:placetype":"localadmin",
-    "wof:population":154,
+    "wof:population":137,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

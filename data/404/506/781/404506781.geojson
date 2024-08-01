@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00057,
-    "geom:area_square_m":5188938.313865,
+    "geom:area_square_m":5188938.313862,
     "geom:bbox":"-86.228313,42.628152,-86.187611,42.650703",
     "geom:latitude":42.641065,
     "geom:longitude":-86.208257,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.642253,
     "lbl:longitude":-86.208253,
     "lbl:max_zoom":16.0,
@@ -160,22 +166,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":2600522740,
     "uscensus:name":"Douglas",
     "uscensus:namelsad":"Douglas city",
+    "uscensus:population":1411,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688599,
-        102083043
+        102083043,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2600522740
+        "uscensus:geoid":"2600522740"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -191,11 +201,11 @@
         }
     ],
     "wof:id":404506781,
-    "wof:lastmodified":1636499357,
+    "wof:lastmodified":1722117909,
     "wof:name":"Douglas",
     "wof:parent_id":102083043,
     "wof:placetype":"localadmin",
-    "wof:population":1232,
+    "wof:population":1411,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

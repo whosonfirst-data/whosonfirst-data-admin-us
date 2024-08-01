@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005483,
-    "geom:area_square_m":50505538.925143,
+    "geom:area_square_m":50505538.925091,
     "geom:bbox":"-76.556052,41.794537,-76.494186,41.910134",
     "geom:latitude":41.850797,
     "geom:longitude":-76.528198,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.849129,
     "lbl:longitude":-76.525134,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":4201578232,
     "uscensus:name":"Ulster",
     "uscensus:namelsad":"Ulster township",
+    "uscensus:population":1300,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201578232
+        "uscensus:geoid":"4201578232"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473983
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404484691,
-    "wof:lastmodified":1605055466,
+    "wof:lastmodified":1722117769,
     "wof:name":"Ulster Township",
     "wof:parent_id":102081319,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1337,
+    "wof:population":1300,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

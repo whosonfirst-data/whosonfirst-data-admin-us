@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006865,
-    "geom:area_square_m":63317642.30695,
+    "geom:area_square_m":63317642.306946,
     "geom:bbox":"-75.846708,41.717216,-75.750213,41.813567",
     "geom:latitude":41.759781,
     "geom:longitude":-75.800939,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.759067,
     "lbl:longitude":-75.800942,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":4211509128,
     "uscensus:name":"Brooklyn",
     "uscensus:namelsad":"Brooklyn township",
+    "uscensus:population":787,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4211509128
+        "uscensus:geoid":"4211509128"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465693
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404487255,
-    "wof:lastmodified":1605055895,
+    "wof:lastmodified":1722117786,
     "wof:name":"Brooklyn Township",
     "wof:parent_id":102081381,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":963,
+    "wof:population":787,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

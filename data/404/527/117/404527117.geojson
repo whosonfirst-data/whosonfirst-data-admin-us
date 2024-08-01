@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013364,
-    "geom:area_square_m":119360074.375926,
+    "geom:area_square_m":119360074.375905,
     "geom:bbox":"-72.820043,43.682831,-72.661898,43.824476",
     "geom:latitude":43.756286,
     "geom:longitude":-72.744249,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.756639,
     "lbl:longitude":-72.745813,
     "lbl:max_zoom":17.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":5002770375,
     "uscensus:name":"Stockbridge",
     "uscensus:namelsad":"Stockbridge town",
+    "uscensus:population":733,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5002770375
+        "uscensus:geoid":"5002770375"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471327
     ],
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404527117,
-    "wof:lastmodified":1605055681,
+    "wof:lastmodified":1722118028,
     "wof:name":"Stockbridge",
     "wof:parent_id":102080777,
     "wof:placetype":"localadmin",
-    "wof:population":736,
+    "wof:population":733,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

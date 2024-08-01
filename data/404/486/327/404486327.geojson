@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000466,
-    "geom:area_square_m":4423099.447586,
+    "geom:area_square_m":4423099.447577,
     "geom:bbox":"-75.408732,39.858342,-75.376738,39.888085",
     "geom:latitude":39.871528,
     "geom:longitude":-75.391823,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.871612,
     "lbl:longitude":-75.392067,
     "lbl:max_zoom":15.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":4204509080,
     "uscensus:name":"Brookhaven",
     "uscensus:namelsad":"Brookhaven borough",
+    "uscensus:population":8291,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4204509080
+        "uscensus:geoid":"4204509080"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404486327,
-    "wof:lastmodified":1605055875,
+    "wof:lastmodified":1722117779,
     "wof:name":"Brookhaven",
     "wof:parent_id":102080913,
     "wof:placetype":"localadmin",
-    "wof:population":8006,
+    "wof:population":8291,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

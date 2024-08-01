@@ -9,11 +9,23 @@
     "geom:bbox":"-112.053477,34.650911,-111.948723,34.765571",
     "geom:latitude":34.719756,
     "geom:longitude":-112.001263,
+    "gn:admin1_code":"AZ",
+    "gn:admin2_code":"25.0",
+    "gn:asciiname":"Cottonwood",
+    "gn:country_code":"US",
+    "gn:dem":1016,
     "gn:elevation":1014,
+    "gn:feature_class":"P",
+    "gn:feature_code":"PPL",
+    "gn:geonameid":5291033,
     "gn:latitude":34.73919,
     "gn:longitude":-112.00988,
+    "gn:modification_date":"2017-03-09",
+    "gn:name":"Cottonwood",
     "gn:population":11265,
+    "gn:timezone":"America/Phoenix",
     "iso:country":"US",
+    "lbl:bbox":"-112.02988,34.71919,-111.98988,34.75919",
     "lbl:latitude":34.734356,
     "lbl:longitude":-112.02387,
     "lbl:max_zoom":15.0,
@@ -167,6 +179,9 @@
     "name:zho_x_preferred":[
         "\u5361\u987f"
     ],
+    "name:zho_x_variant":[
+        "\u5361\u987f\u4f0d\u5fb7"
+    ],
     "qs:a0":"United States",
     "qs:a1":"*Arizona",
     "qs:a1_lc":"04",
@@ -186,7 +201,10 @@
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":13124,
+    "uscensus:population_date":"2023",
     "wd:elevation":1010.0,
     "wd:latitude":34.732222,
     "wd:longitude":-112.018611,
@@ -195,8 +213,8 @@
     "wof:belongsto":[
         102191575,
         85633793,
-        85688719,
-        102081535
+        102081535,
+        85688719
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -210,8 +228,17 @@
         "wk:page":"Cottonwood, Arizona"
     },
     "wof:concordances_alt":{
-        "qs_pg:id":462417
+        "gn:id":[
+            5291033
+        ],
+        "qs_pg:id":[
+            462417
+        ],
+        "wk:page":[
+            "Cottonwood%2C_Arizona"
+        ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg"
@@ -230,16 +257,17 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883399,
+    "wof:lastmodified":1722116395,
     "wof:name":"Cottonwood",
     "wof:parent_id":102081535,
     "wof:placetype":"locality",
-    "wof:population":11265,
+    "wof:population":13124,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[
-        1125384855
+        1125384855,
+        1327247601
     ],
     "wof:tags":[]
 },

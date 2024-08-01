@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00224,
-    "geom:area_square_m":21138032.825603,
+    "geom:area_square_m":21138032.825586,
     "geom:bbox":"-81.892549,40.234305,-81.811192,40.288995",
     "geom:latitude":40.261816,
     "geom:longitude":-81.84793,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.264284,
     "lbl:longitude":-81.844117,
     "lbl:max_zoom":15.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":3903118868,
     "uscensus:name":"Coshocton",
     "uscensus:namelsad":"Coshocton city",
+    "uscensus:population":11091,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3903118868
+        "uscensus:geoid":"3903118868"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404525105,
-    "wof:lastmodified":1605056049,
+    "wof:lastmodified":1722118013,
     "wof:name":"Coshocton",
     "wof:parent_id":102083635,
     "wof:placetype":"localadmin",
-    "wof:population":11216,
+    "wof:population":11091,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

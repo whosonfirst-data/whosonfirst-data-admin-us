@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008031,
-    "geom:area_square_m":76835331.274891,
+    "geom:area_square_m":76835331.274876,
     "geom:bbox":"-88.582309,39.272968,-88.470978,39.345872",
     "geom:latitude":39.309444,
     "geom:longitude":-88.526594,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.309444,
     "lbl:longitude":-88.526597,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":173,
     "uscensus:geoid":1717306002,
     "uscensus:name":"Big Spring",
     "uscensus:namelsad":"Big Spring township",
+    "uscensus:population":606,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1717306002
+        "uscensus:geoid":"1717306002"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466923
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404498707,
-    "wof:lastmodified":1605055557,
+    "wof:lastmodified":1722117856,
     "wof:name":"Big Spring Township",
     "wof:parent_id":102083519,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":698,
+    "wof:population":606,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

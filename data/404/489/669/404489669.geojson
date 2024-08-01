@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.016902,
-    "geom:area_square_m":147728126.207663,
+    "geom:area_square_m":147728126.207689,
     "geom:bbox":"-97.371715,44.976705,-97.174137,45.065143",
     "geom:latitude":45.020744,
     "geom:longitude":-97.272424,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.02107,
     "lbl:longitude":-97.272409,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":4602923180,
     "uscensus:name":"Fuller",
     "uscensus:namelsad":"Fuller township",
+    "uscensus:population":300,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4602923180
+        "uscensus:geoid":"4602923180"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478147
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404489669,
-    "wof:lastmodified":1605055925,
+    "wof:lastmodified":1722117802,
     "wof:name":"Fuller Township",
     "wof:parent_id":102086797,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":281,
+    "wof:population":300,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

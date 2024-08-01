@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003597,
-    "geom:area_square_m":33863646.966348,
+    "geom:area_square_m":33863646.966371,
     "geom:bbox":"-75.33633,40.368202,-75.244701,40.455354",
     "geom:latitude":40.408207,
     "geom:longitude":-75.283126,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.407424,
     "lbl:longitude":-75.27486,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":4201721760,
     "uscensus:name":"East Rockhill",
     "uscensus:namelsad":"East Rockhill township",
+    "uscensus:population":5784,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201721760
+        "uscensus:geoid":"4201721760"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471783
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404484811,
-    "wof:lastmodified":1605055454,
+    "wof:lastmodified":1722117770,
     "wof:name":"East Rockhill Township",
     "wof:parent_id":102080987,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":5706,
+    "wof:population":5784,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

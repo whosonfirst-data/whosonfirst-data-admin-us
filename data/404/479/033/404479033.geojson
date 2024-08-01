@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000053,
-    "geom:area_square_m":444777.637561,
+    "geom:area_square_m":444777.63756,
     "geom:bbox":"-99.787877,47.138806,-99.774578,47.144265",
     "geom:latitude":47.142062,
     "geom:longitude":-99.781332,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.142241,
     "lbl:longitude":-99.781332,
     "lbl:max_zoom":18.0,
@@ -109,11 +115,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":43,
     "uscensus:geoid":3804367180,
     "uscensus:name":"Robinson",
     "uscensus:namelsad":"Robinson city",
+    "uscensus:population":35,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -123,8 +132,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3804367180
+        "uscensus:geoid":"3804367180"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -140,11 +150,11 @@
         }
     ],
     "wof:id":404479033,
-    "wof:lastmodified":1605055482,
+    "wof:lastmodified":1722117734,
     "wof:name":"Robinson",
     "wof:parent_id":102082547,
     "wof:placetype":"localadmin",
-    "wof:population":37,
+    "wof:population":35,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

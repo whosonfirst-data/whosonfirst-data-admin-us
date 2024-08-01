@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010559,
-    "geom:area_square_m":93315735.023212,
+    "geom:area_square_m":93315735.023198,
     "geom:bbox":"-84.735617,44.334261,-84.612446,44.42144",
     "geom:latitude":44.377863,
     "geom:longitude":-84.674044,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.377949,
     "lbl:longitude":-84.674055,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":143,
     "uscensus:geoid":2614351780,
     "uscensus:name":"Markey",
     "uscensus:namelsad":"Markey township",
+    "uscensus:population":2433,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2614351780
+        "uscensus:geoid":"2614351780"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465033
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404508567,
-    "wof:lastmodified":1605055732,
+    "wof:lastmodified":1722117923,
     "wof:name":"Markey Township",
     "wof:parent_id":102083077,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2360,
+    "wof:population":2433,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

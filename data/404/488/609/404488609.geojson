@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005672,
-    "geom:area_square_m":49651843.577184,
+    "geom:area_square_m":49651843.577153,
     "geom:bbox":"-96.517223,44.889789,-96.451622,44.97765",
     "geom:latitude":44.933534,
     "geom:longitude":-96.484423,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.933678,
     "lbl:longitude":-96.484428,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":39,
     "uscensus:geoid":4603901780,
     "uscensus:name":"Antelope Valley",
     "uscensus:namelsad":"Antelope Valley township",
+    "uscensus:population":26,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4603901780
+        "uscensus:geoid":"4603901780"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469343
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404488609,
-    "wof:lastmodified":1605055816,
+    "wof:lastmodified":1722117795,
     "wof:name":"Antelope Valley Township",
     "wof:parent_id":102086025,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":25,
+    "wof:population":26,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

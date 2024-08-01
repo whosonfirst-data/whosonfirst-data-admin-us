@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009148,
-    "geom:area_square_m":83325408.307486,
+    "geom:area_square_m":83325408.307444,
     "geom:bbox":"-72.466104,42.501346,-72.35379,42.607832",
     "geom:latitude":42.553536,
     "geom:longitude":-72.40497,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.553277,
     "lbl:longitude":-72.404974,
     "lbl:max_zoom":17.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":2501174525,
     "uscensus:name":"Wendell",
     "uscensus:namelsad":"Wendell town",
+    "uscensus:population":921,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2501174525
+        "uscensus:geoid":"2501174525"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461965
     ],
@@ -116,11 +126,11 @@
         }
     ],
     "wof:id":404476339,
-    "wof:lastmodified":1605055393,
+    "wof:lastmodified":1722117714,
     "wof:name":"Wendell",
     "wof:parent_id":102084457,
     "wof:placetype":"localadmin",
-    "wof:population":848,
+    "wof:population":921,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

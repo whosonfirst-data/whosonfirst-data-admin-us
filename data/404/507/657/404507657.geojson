@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009006,
-    "geom:area_square_m":81808028.518711,
+    "geom:area_square_m":81808028.518731,
     "geom:bbox":"-84.48411,42.682788,-84.363458,42.770001",
     "geom:latitude":42.725145,
     "geom:longitude":-84.416584,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":42.723633,
     "lbl:longitude":-84.408002,
@@ -144,22 +147,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":65,
     "uscensus:geoid":2606553140,
     "uscensus:name":"Meridian",
     "uscensus:namelsad":"Meridian charter township",
+    "uscensus:population":43898,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688599,
-        102083649
+        102083649,
+        85688599
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2606553140
+        "uscensus:geoid":"2606553140"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -175,11 +182,11 @@
         }
     ],
     "wof:id":404507657,
-    "wof:lastmodified":1636499359,
+    "wof:lastmodified":1722117916,
     "wof:name":"Meridian",
     "wof:parent_id":102083649,
     "wof:placetype":"localadmin",
-    "wof:population":39688,
+    "wof:population":43898,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

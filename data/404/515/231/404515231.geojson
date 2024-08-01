@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000675,
-    "geom:area_square_m":5876456.864571,
+    "geom:area_square_m":5876456.864577,
     "geom:bbox":"-94.024996,45.22076,-93.979582,45.245862",
     "geom:latitude":45.233359,
     "geom:longitude":-94.005853,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.231244,
     "lbl:longitude":-94.007818,
     "lbl:max_zoom":15.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":171,
     "uscensus:geoid":2717140220,
     "uscensus:name":"Maple Lake",
     "uscensus:namelsad":"Maple Lake city",
+    "uscensus:population":2209,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2717140220
+        "uscensus:geoid":"2717140220"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,11 +96,11 @@
         }
     ],
     "wof:id":404515231,
-    "wof:lastmodified":1605056140,
+    "wof:lastmodified":1722117972,
     "wof:name":"Maple Lake",
     "wof:parent_id":102087815,
     "wof:placetype":"localadmin",
-    "wof:population":2059,
+    "wof:population":2209,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

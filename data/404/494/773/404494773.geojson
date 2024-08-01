@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.016252,
-    "geom:area_square_m":140387461.963666,
+    "geom:area_square_m":140387461.963659,
     "geom:bbox":"-90.677753,45.63561,-90.406127,45.725169",
     "geom:latitude":45.687807,
     "geom:longitude":-90.531244,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.680527,
     "lbl:longitude":-90.506632,
     "lbl:max_zoom":17.0,
@@ -211,11 +217,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":5509923200,
     "uscensus:name":"Elk",
     "uscensus:namelsad":"Elk town",
+    "uscensus:population":967,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -225,8 +234,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5509923200
+        "uscensus:geoid":"5509923200"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467379
     ],
@@ -245,11 +255,11 @@
         }
     ],
     "wof:id":404494773,
-    "wof:lastmodified":1605055976,
+    "wof:lastmodified":1722117835,
     "wof:name":"Elk",
     "wof:parent_id":102081833,
     "wof:placetype":"localadmin",
-    "wof:population":988,
+    "wof:population":967,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

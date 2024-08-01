@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010902,
-    "geom:area_square_m":95558263.278565,
+    "geom:area_square_m":95558263.278563,
     "geom:bbox":"-69.305521,44.808657,-69.160716,44.91077",
     "geom:latitude":44.860264,
     "geom:longitude":-69.232924,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.860211,
     "lbl:longitude":-69.232925,
     "lbl:max_zoom":15.0,
@@ -179,22 +185,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":2301949065,
     "uscensus:name":"Newport",
     "uscensus:namelsad":"Newport town",
+    "uscensus:population":3154,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688769,
-        102080723
+        102080723,
+        85688769
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2301949065
+        "uscensus:geoid":"2301949065"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -210,11 +220,11 @@
         }
     ],
     "wof:id":404474741,
-    "wof:lastmodified":1636499387,
+    "wof:lastmodified":1722117703,
     "wof:name":"Newport",
     "wof:parent_id":102080723,
     "wof:placetype":"localadmin",
-    "wof:population":3275,
+    "wof:population":3154,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

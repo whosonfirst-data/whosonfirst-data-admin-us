@@ -9,9 +9,23 @@
     "geom:bbox":"-89.100062,36.390926,-88.999291,36.465752",
     "geom:latitude":36.426499,
     "geom:longitude":-89.047725,
+    "gn:admin1_code":"TN",
+    "gn:admin2_code":"131.0",
+    "gn:asciiname":"Union City",
+    "gn:country_code":"US",
+    "gn:dem":105,
     "gn:elevation":102,
+    "gn:feature_class":"P",
+    "gn:feature_code":"PPLA2",
+    "gn:geonameid":4664170,
+    "gn:latitude":36.42423,
+    "gn:longitude":-89.05701,
+    "gn:modification_date":"2017-03-09",
+    "gn:name":"Union City",
     "gn:population":10895,
+    "gn:timezone":"America/Chicago",
     "iso:country":"US",
+    "lbl:bbox":"-89.07701,36.40423,-89.03701,36.44423",
     "lbl:latitude":36.428038,
     "lbl:longitude":-89.051154,
     "lbl:max_zoom":15.0,
@@ -169,7 +183,10 @@
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":10954,
+    "uscensus:population_date":"2023",
     "wd:elevation":102.0,
     "wd:latitude":36.424444,
     "wd:longitude":-89.050833,
@@ -177,8 +194,8 @@
     "wof:belongsto":[
         102191575,
         85633793,
-        85688701,
-        102086263
+        102086263,
+        85688701
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -192,8 +209,17 @@
         "wk:page":"Union City, Tennessee"
     },
     "wof:concordances_alt":{
-        "qs_pg:id":238678
+        "gn:id":[
+            4664170
+        ],
+        "qs_pg:id":[
+            238678
+        ],
+        "wk:page":[
+            "Union_City%2C_Tennessee"
+        ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg"
@@ -212,16 +238,17 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690888272,
+    "wof:lastmodified":1722116402,
     "wof:name":"Union City",
     "wof:parent_id":102086263,
     "wof:placetype":"locality",
-    "wof:population":10895,
+    "wof:population":10954,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[
-        1125355287
+        1125355287,
+        1293808287
     ],
     "wof:tags":[]
 },

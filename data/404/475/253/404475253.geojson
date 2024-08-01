@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.018686,
-    "geom:area_square_m":166876917.241229,
+    "geom:area_square_m":166876917.241184,
     "geom:bbox":"-69.788554,43.653985,-69.664745,43.893537",
     "geom:latitude":43.760849,
     "geom:longitude":-69.73354,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.760984,
     "lbl:longitude":-69.728502,
     "lbl:max_zoom":16.0,
@@ -215,22 +221,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":2302327295,
     "uscensus:name":"Georgetown",
     "uscensus:namelsad":"Georgetown town",
+    "uscensus:population":1091,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688769,
-        102087455
+        102087455,
+        85688769
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2302327295
+        "uscensus:geoid":"2302327295"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456987
     ],
@@ -249,11 +259,11 @@
         }
     ],
     "wof:id":404475253,
-    "wof:lastmodified":1636499378,
+    "wof:lastmodified":1722117706,
     "wof:name":"Georgetown",
     "wof:parent_id":102087455,
     "wof:placetype":"localadmin",
-    "wof:population":1042,
+    "wof:population":1091,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

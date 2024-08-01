@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000249,
-    "geom:area_square_m":2078329.366376,
+    "geom:area_square_m":2078329.366375,
     "geom:bbox":"-95.274392,47.524827,-95.247812,47.53599",
     "geom:latitude":47.530146,
     "geom:longitude":-95.259509,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.53043,
     "lbl:longitude":-95.259509,
     "lbl:max_zoom":18.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":2702959782,
     "uscensus:name":"Shevlin",
     "uscensus:namelsad":"Shevlin city",
+    "uscensus:population":142,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2702959782
+        "uscensus:geoid":"2702959782"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404509483,
-    "wof:lastmodified":1605055787,
+    "wof:lastmodified":1722117929,
     "wof:name":"Shevlin",
     "wof:parent_id":102087753,
     "wof:placetype":"localadmin",
-    "wof:population":176,
+    "wof:population":142,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

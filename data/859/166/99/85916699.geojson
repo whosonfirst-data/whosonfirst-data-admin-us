@@ -14,6 +14,7 @@
     "gn:longitude":-152.31222,
     "gn:population":13,
     "iso:country":"US",
+    "lbl:bbox":"-152.332186525,63.8628306266,-152.292186525,63.9028306266",
     "lbl:latitude":63.76887,
     "lbl:longitude":-152.348787,
     "lbl:max_zoom":18.0,
@@ -218,6 +219,7 @@
     "ne:UN_LAT":0.0,
     "ne:UN_LONG":0.0,
     "ne:WORLDCITY":0,
+    "ne:min_zoom":7.0,
     "qs:a0":"United States",
     "qs:a1":"*Alaska",
     "qs:a1_lc":"02",
@@ -232,19 +234,24 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
+    "reversegeo:latitude":63.882831,
+    "reversegeo:longitude":-152.312187,
     "src:geom":"quattroshapes",
     "src:geom_alt":[
         "naturalearth",
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
+    "uscensus:population":29,
+    "uscensus:population_date":"2022",
     "wd:wordcount":608,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688573,
-        102081905
+        102081905,
+        85688573
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -257,6 +264,12 @@
         "wd:id":"Q1837435",
         "wk:page":"Lake Minchumina, Alaska"
     },
+    "wof:concordances_alt":{
+        "wd:id":[
+            "Q1837435"
+        ]
+    },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "naturalearth",
@@ -276,15 +289,17 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690881670,
+    "wof:lastmodified":1722116395,
     "wof:name":"Lake Minchumina",
     "wof:parent_id":102081905,
     "wof:placetype":"locality",
-    "wof:population":13,
+    "wof:population":29,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1141906339
+    ],
     "wof:tags":[]
 },
   "bbox": [

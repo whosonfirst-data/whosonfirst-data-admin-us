@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010327,
-    "geom:area_square_m":94333658.613115,
+    "geom:area_square_m":94333658.613102,
     "geom:bbox":"-85.064855,42.333569,-84.94559,42.422182",
     "geom:latitude":42.377927,
     "geom:longitude":-85.004938,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.377885,
     "lbl:longitude":-85.00494,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":2602517880,
     "uscensus:name":"Convis",
     "uscensus:namelsad":"Convis township",
+    "uscensus:population":1510,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2602517880
+        "uscensus:geoid":"2602517880"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458821
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404507059,
-    "wof:lastmodified":1605055780,
+    "wof:lastmodified":1722117911,
     "wof:name":"Convis Township",
     "wof:parent_id":102082993,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1636,
+    "wof:population":1510,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

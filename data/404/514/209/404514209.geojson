@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010547,
-    "geom:area_square_m":91340093.546906,
+    "geom:area_square_m":91340093.546913,
     "geom:bbox":"-95.377729,45.499017,-95.254838,45.585293",
     "geom:latitude":45.542128,
     "geom:longitude":-95.316411,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.54217,
     "lbl:longitude":-95.316407,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":121,
     "uscensus:geoid":2712111332,
     "uscensus:name":"Chippewa Falls",
     "uscensus:namelsad":"Chippewa Falls township",
+    "uscensus:population":218,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2712111332
+        "uscensus:geoid":"2712111332"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456853
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404514209,
-    "wof:lastmodified":1605056027,
+    "wof:lastmodified":1722117964,
     "wof:name":"Chippewa Falls Township",
     "wof:parent_id":102087805,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":228,
+    "wof:population":218,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

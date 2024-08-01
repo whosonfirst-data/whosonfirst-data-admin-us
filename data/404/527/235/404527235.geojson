@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009628,
-    "geom:area_square_m":84709399.018085,
+    "geom:area_square_m":84709399.018105,
     "geom:bbox":"-72.202901,44.585664,-72.065884,44.703495",
     "geom:latitude":44.642322,
     "geom:longitude":-72.127616,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.646203,
     "lbl:longitude":-72.12632,
     "lbl:max_zoom":17.0,
@@ -292,11 +298,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":5000564075,
     "uscensus:name":"Sheffield",
     "uscensus:namelsad":"Sheffield town",
+    "uscensus:population":691,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -306,8 +315,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5000564075
+        "uscensus:geoid":"5000564075"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470657
     ],
@@ -326,11 +336,11 @@
         }
     ],
     "wof:id":404527235,
-    "wof:lastmodified":1605055679,
+    "wof:lastmodified":1722118029,
     "wof:name":"Sheffield",
     "wof:parent_id":102080755,
     "wof:placetype":"localadmin",
-    "wof:population":703,
+    "wof:population":691,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000713,
-    "geom:area_square_m":6315128.979467,
+    "geom:area_square_m":6315128.97949,
     "geom:bbox":"-95.643925,44.22226,-95.593358,44.260891",
     "geom:latitude":44.238952,
     "geom:longitude":-95.615362,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.23333,
     "lbl:longitude":-95.621307,
     "lbl:max_zoom":15.0,
@@ -88,11 +94,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":83,
     "uscensus:geoid":2708365308,
     "uscensus:name":"Tracy",
     "uscensus:namelsad":"Tracy city",
+    "uscensus:population":2040,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -102,8 +111,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2708365308
+        "uscensus:geoid":"2708365308"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -119,11 +129,11 @@
         }
     ],
     "wof:id":404512675,
-    "wof:lastmodified":1605056120,
+    "wof:lastmodified":1722117952,
     "wof:name":"Tracy",
     "wof:parent_id":102087885,
     "wof:placetype":"localadmin",
-    "wof:population":2163,
+    "wof:population":2040,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

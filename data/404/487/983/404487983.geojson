@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008222,
-    "geom:area_square_m":76462088.141112,
+    "geom:area_square_m":76462088.141088,
     "geom:bbox":"-80.519151,41.187425,-80.386117,41.271274",
     "geom:latitude":41.230545,
     "geom:longitude":-80.441426,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.230672,
     "lbl:longitude":-80.432436,
     "lbl:max_zoom":15.0,
@@ -91,11 +97,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":85,
     "uscensus:geoid":4208534064,
     "uscensus:name":"Hermitage",
     "uscensus:namelsad":"Hermitage city",
+    "uscensus:population":15923,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -105,8 +114,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4208534064
+        "uscensus:geoid":"4208534064"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -122,11 +132,11 @@
         }
     ],
     "wof:id":404487983,
-    "wof:lastmodified":1605055885,
+    "wof:lastmodified":1722117791,
     "wof:name":"Hermitage",
     "wof:parent_id":102080965,
     "wof:placetype":"localadmin",
-    "wof:population":16220,
+    "wof:population":15923,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

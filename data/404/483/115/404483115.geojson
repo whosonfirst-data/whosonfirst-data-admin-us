@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000126,
-    "geom:area_square_m":1173043.806157,
+    "geom:area_square_m":1173043.806155,
     "geom:bbox":"-76.420656,41.07035,-76.403271,41.085221",
     "geom:latitude":41.0768,
     "geom:longitude":-76.411532,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.07787,
     "lbl:longitude":-76.414557,
     "lbl:max_zoom":17.0,
@@ -106,22 +112,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":37,
     "uscensus:geoid":4203756912,
     "uscensus:name":"Orangeville",
     "uscensus:namelsad":"Orangeville borough",
+    "uscensus:population":479,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688481,
-        102080973
+        102080973,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4203756912
+        "uscensus:geoid":"4203756912"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -137,11 +147,11 @@
         }
     ],
     "wof:id":404483115,
-    "wof:lastmodified":1636499297,
+    "wof:lastmodified":1722117760,
     "wof:name":"Orangeville",
     "wof:parent_id":102080973,
     "wof:placetype":"localadmin",
-    "wof:population":508,
+    "wof:population":479,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

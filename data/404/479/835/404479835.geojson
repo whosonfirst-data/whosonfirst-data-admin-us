@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000116,
-    "geom:area_square_m":951854.360735,
+    "geom:area_square_m":951854.360736,
     "geom:bbox":"-103.469854,48.248485,-103.453671,48.255718",
     "geom:latitude":48.252117,
     "geom:longitude":-103.461783,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.252112,
     "lbl:longitude":-103.461783,
     "lbl:max_zoom":18.0,
@@ -70,11 +76,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":3810574780,
     "uscensus:name":"Springbrook",
     "uscensus:namelsad":"Springbrook city",
+    "uscensus:population":32,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -84,8 +93,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3810574780
+        "uscensus:geoid":"3810574780"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -101,11 +111,11 @@
         }
     ],
     "wof:id":404479835,
-    "wof:lastmodified":1605055474,
+    "wof:lastmodified":1722117740,
     "wof:name":"Springbrook",
     "wof:parent_id":102082069,
     "wof:placetype":"localadmin",
-    "wof:population":27,
+    "wof:population":32,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

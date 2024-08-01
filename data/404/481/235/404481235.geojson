@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000097,
-    "geom:area_square_m":800670.734148,
+    "geom:area_square_m":800670.734149,
     "geom:bbox":"-97.374138,47.915087,-97.357459,47.933061",
     "geom:latitude":47.924121,
     "geom:longitude":-97.365516,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.930294,
     "lbl:longitude":-97.362855,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":3803524060,
     "uscensus:name":"Emerado",
     "uscensus:namelsad":"Emerado city",
+    "uscensus:population":441,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3803524060
+        "uscensus:geoid":"3803524060"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404481235,
-    "wof:lastmodified":1605055824,
+    "wof:lastmodified":1722117749,
     "wof:name":"Emerado",
     "wof:parent_id":102081493,
     "wof:placetype":"localadmin",
-    "wof:population":414,
+    "wof:population":441,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

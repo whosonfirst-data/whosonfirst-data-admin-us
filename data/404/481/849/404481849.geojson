@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001122,
-    "geom:area_square_m":9207805.993314,
+    "geom:area_square_m":9207805.993313,
     "geom:bbox":"-97.442983,48.397565,-97.364617,48.434136",
     "geom:latitude":48.414236,
     "geom:longitude":-97.405525,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.415946,
     "lbl:longitude":-97.408188,
     "lbl:max_zoom":15.0,
@@ -109,22 +115,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":3809931820,
     "uscensus:name":"Grafton",
     "uscensus:namelsad":"Grafton city",
+    "uscensus:population":4059,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688525,
-        102082057
+        102082057,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3809931820
+        "uscensus:geoid":"3809931820"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -140,11 +150,11 @@
         }
     ],
     "wof:id":404481849,
-    "wof:lastmodified":1636499370,
+    "wof:lastmodified":1722117753,
     "wof:name":"Grafton",
     "wof:parent_id":102082057,
     "wof:placetype":"localadmin",
-    "wof:population":4284,
+    "wof:population":4059,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001745,
-    "geom:area_square_m":16701618.484968,
+    "geom:area_square_m":16701618.484958,
     "geom:bbox":"-84.564423,39.266673,-84.4855,39.304835",
     "geom:latitude":39.286088,
     "geom:longitude":-84.525825,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.286966,
     "lbl:longitude":-84.523141,
     "lbl:max_zoom":15.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":3906127706,
     "uscensus:name":"Forest Park",
     "uscensus:namelsad":"Forest Park city",
+    "uscensus:population":19839,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3906127706
+        "uscensus:geoid":"3906127706"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -104,11 +114,11 @@
         }
     ],
     "wof:id":404525453,
-    "wof:lastmodified":1605056054,
+    "wof:lastmodified":1722118016,
     "wof:name":"Forest Park",
     "wof:parent_id":102083687,
     "wof:placetype":"localadmin",
-    "wof:population":18720,
+    "wof:population":19839,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

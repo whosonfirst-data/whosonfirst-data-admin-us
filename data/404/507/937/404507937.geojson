@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000556,
-    "geom:area_square_m":5033832.562498,
+    "geom:area_square_m":5033832.562512,
     "geom:bbox":"-84.00755,42.89602,-83.972614,42.930326",
     "geom:latitude":42.912758,
     "geom:longitude":-83.989097,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.910763,
     "lbl:longitude":-83.989072,
     "lbl:max_zoom":15.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":155,
     "uscensus:geoid":2615523500,
     "uscensus:name":"Durand",
     "uscensus:namelsad":"Durand city",
+    "uscensus:population":3470,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2615523500
+        "uscensus:geoid":"2615523500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -104,11 +114,11 @@
         }
     ],
     "wof:id":404507937,
-    "wof:lastmodified":1605055768,
+    "wof:lastmodified":1722117918,
     "wof:name":"Durand",
     "wof:parent_id":102083041,
     "wof:placetype":"localadmin",
-    "wof:population":3446,
+    "wof:population":3470,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

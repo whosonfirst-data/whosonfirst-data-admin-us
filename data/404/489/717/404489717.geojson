@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004762,
-    "geom:area_square_m":40962108.727163,
+    "geom:area_square_m":40962108.727167,
     "geom:bbox":"-101.576538,45.90552,-101.451839,45.94432",
     "geom:latitude":45.924923,
     "geom:longitude":-101.514498,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.92492,
     "lbl:longitude":-101.51454,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":4603169260,
     "uscensus:name":"Watauga",
     "uscensus:namelsad":"Watauga township",
+    "uscensus:population":24,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4603169260
+        "uscensus:geoid":"4603169260"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456735
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404489717,
-    "wof:lastmodified":1605055936,
+    "wof:lastmodified":1722117802,
     "wof:name":"Watauga Township",
     "wof:parent_id":102086853,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":29,
+    "wof:population":24,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

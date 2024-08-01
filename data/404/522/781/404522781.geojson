@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.015155,
-    "geom:area_square_m":137481230.062616,
+    "geom:area_square_m":137481230.062637,
     "geom:bbox":"-77.313004,42.761265,-77.123018,42.856531",
     "geom:latitude":42.806011,
     "geom:longitude":-77.204352,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.808463,
     "lbl:longitude":-77.204355,
     "lbl:max_zoom":15.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":69,
     "uscensus:geoid":3606929531,
     "uscensus:name":"Gorham",
     "uscensus:namelsad":"Gorham town",
+    "uscensus:population":4080,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3606929531
+        "uscensus:geoid":"3606929531"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404522781,
-    "wof:lastmodified":1605056081,
+    "wof:lastmodified":1722233677,
     "wof:name":"Gorham",
     "wof:parent_id":102082359,
     "wof:placetype":"localadmin",
-    "wof:population":4247,
+    "wof:population":4080,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

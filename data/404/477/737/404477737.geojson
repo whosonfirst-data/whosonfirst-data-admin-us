@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000307,
-    "geom:area_square_m":2874165.341386,
+    "geom:area_square_m":2874165.341385,
     "geom:bbox":"-74.072023,40.845053,-74.04876,40.870691",
     "geom:latitude":40.857943,
     "geom:longitude":-74.059376,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.857989,
     "lbl:longitude":-74.059198,
     "lbl:max_zoom":18.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3400372480,
     "uscensus:name":"Teterboro",
     "uscensus:namelsad":"Teterboro borough",
+    "uscensus:population":71,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400372480
+        "uscensus:geoid":"3400372480"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404477737,
-    "wof:lastmodified":1605055413,
+    "wof:lastmodified":1722117724,
     "wof:name":"Teterboro",
     "wof:parent_id":102086773,
     "wof:placetype":"localadmin",
-    "wof:population":67,
+    "wof:population":71,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

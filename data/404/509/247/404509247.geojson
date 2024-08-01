@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000706,
-    "geom:area_square_m":5847035.391828,
+    "geom:area_square_m":5847035.391826,
     "geom:bbox":"-94.460989,47.932886,-94.428346,47.954855",
     "geom:latitude":47.943848,
     "geom:longitude":-94.444568,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.943891,
     "lbl:longitude":-94.444568,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":2700732606,
     "uscensus:name":"Kelliher",
     "uscensus:namelsad":"Kelliher city",
+    "uscensus:population":250,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2700732606
+        "uscensus:geoid":"2700732606"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404509247,
-    "wof:lastmodified":1605055795,
+    "wof:lastmodified":1722117928,
     "wof:name":"Kelliher",
     "wof:parent_id":102087773,
     "wof:placetype":"localadmin",
-    "wof:population":262,
+    "wof:population":250,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

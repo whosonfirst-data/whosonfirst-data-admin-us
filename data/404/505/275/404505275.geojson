@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008567,
-    "geom:area_square_m":82636291.609125,
+    "geom:area_square_m":82636291.609147,
     "geom:bbox":"-97.706056,38.696357,-97.594589,38.783721",
     "geom:latitude":38.735608,
     "geom:longitude":-97.650751,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.733858,
     "lbl:longitude":-97.651512,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":169,
     "uscensus:geoid":2016966125,
     "uscensus:name":"Smolan",
     "uscensus:namelsad":"Smolan township",
+    "uscensus:population":670,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2016966125
+        "uscensus:geoid":"2016966125"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404505275,
-    "wof:lastmodified":1605055281,
+    "wof:lastmodified":1722233663,
     "wof:name":"Smolan Township",
     "wof:parent_id":102083453,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":775,
+    "wof:population":670,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

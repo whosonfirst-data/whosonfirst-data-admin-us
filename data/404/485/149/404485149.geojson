@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002081,
-    "geom:area_square_m":19655583.634565,
+    "geom:area_square_m":19655583.634576,
     "geom:bbox":"-75.715477,40.149299,-75.641084,40.201773",
     "geom:latitude":40.180242,
     "geom:longitude":-75.677959,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.179588,
     "lbl:longitude":-75.675451,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":4202972088,
     "uscensus:name":"South Coventry",
     "uscensus:namelsad":"South Coventry township",
+    "uscensus:population":2802,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202972088
+        "uscensus:geoid":"4202972088"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456347
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404485149,
-    "wof:lastmodified":1605055374,
+    "wof:lastmodified":1722117772,
     "wof:name":"South Coventry Township",
     "wof:parent_id":102081275,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2604,
+    "wof:population":2802,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

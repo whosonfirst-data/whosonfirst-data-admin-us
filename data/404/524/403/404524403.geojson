@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002034,
-    "geom:area_square_m":18859562.042529,
+    "geom:area_square_m":18859562.042536,
     "geom:bbox":"-81.638124,41.384553,-81.567944,41.441854",
     "geom:latitude":41.419937,
     "geom:longitude":-81.603756,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.419578,
     "lbl:longitude":-81.603772,
     "lbl:max_zoom":14.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":3903529428,
     "uscensus:name":"Garfield Heights",
     "uscensus:namelsad":"Garfield Heights city",
+    "uscensus:population":28900,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3903529428
+        "uscensus:geoid":"3903529428"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404524403,
-    "wof:lastmodified":1605056116,
+    "wof:lastmodified":1722118008,
     "wof:name":"Garfield Heights",
     "wof:parent_id":102084837,
     "wof:placetype":"localadmin",
-    "wof:population":28849,
+    "wof:population":28900,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

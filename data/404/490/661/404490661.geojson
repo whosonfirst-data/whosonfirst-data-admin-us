@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010451,
-    "geom:area_square_m":91901871.594219,
+    "geom:area_square_m":91901871.594211,
     "geom:bbox":"-97.249363,44.629727,-97.127414,44.717155",
     "geom:latitude":44.673607,
     "geom:longitude":-97.188223,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.678901,
     "lbl:longitude":-97.167135,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":57,
     "uscensus:geoid":4605727860,
     "uscensus:name":"Hayti",
     "uscensus:namelsad":"Hayti township",
+    "uscensus:population":273,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4605727860
+        "uscensus:geoid":"4605727860"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460167
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404490661,
-    "wof:lastmodified":1605055512,
+    "wof:lastmodified":1722117808,
     "wof:name":"Hayti Township",
     "wof:parent_id":102086845,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":279,
+    "wof:population":273,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -10,6 +10,12 @@
     "geom:latitude":47.837332,
     "geom:longitude":-100.934268,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.837335,
     "lbl:longitude":-100.934268,
     "lbl:max_zoom":18.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":55,
     "uscensus:geoid":3805569140,
     "uscensus:name":"Ruso",
     "uscensus:namelsad":"Ruso city",
+    "uscensus:population":5,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3805569140
+        "uscensus:geoid":"3805569140"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404479501,
-    "wof:lastmodified":1605055477,
+    "wof:lastmodified":1722117738,
     "wof:name":"Ruso",
     "wof:parent_id":102082097,
     "wof:placetype":"localadmin",
-    "wof:population":4,
+    "wof:population":5,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

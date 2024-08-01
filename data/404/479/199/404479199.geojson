@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000088,
-    "geom:area_square_m":757769.97327,
+    "geom:area_square_m":757769.973268,
     "geom:bbox":"-100.168814,46.129891,-100.14977,46.138215",
     "geom:latitude":46.133772,
     "geom:longitude":-100.161057,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.134053,
     "lbl:longitude":-100.160912,
     "lbl:max_zoom":17.0,
@@ -91,11 +97,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":3802976500,
     "uscensus:name":"Strasburg",
     "uscensus:namelsad":"Strasburg city",
+    "uscensus:population":364,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -105,8 +114,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3802976500
+        "uscensus:geoid":"3802976500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -122,11 +132,11 @@
         }
     ],
     "wof:id":404479199,
-    "wof:lastmodified":1605055478,
+    "wof:lastmodified":1722117736,
     "wof:name":"Strasburg",
     "wof:parent_id":102081477,
     "wof:placetype":"localadmin",
-    "wof:population":409,
+    "wof:population":364,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

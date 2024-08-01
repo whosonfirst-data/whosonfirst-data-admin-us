@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000417,
-    "geom:area_square_m":3397471.092032,
+    "geom:area_square_m":3397471.092041,
     "geom:bbox":"-100.462476,48.816456,-100.42441,48.835299",
     "geom:latitude":48.824799,
     "geom:longitude":-100.442523,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.825889,
     "lbl:longitude":-100.445404,
     "lbl:max_zoom":15.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":3800908460,
     "uscensus:name":"Bottineau",
     "uscensus:namelsad":"Bottineau city",
+    "uscensus:population":2171,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3800908460
+        "uscensus:geoid":"3800908460"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,11 +96,11 @@
         }
     ],
     "wof:id":404480411,
-    "wof:lastmodified":1605055915,
+    "wof:lastmodified":1722117744,
     "wof:name":"Bottineau",
     "wof:parent_id":102082109,
     "wof:placetype":"localadmin",
-    "wof:population":2211,
+    "wof:population":2171,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

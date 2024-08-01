@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013688,
-    "geom:area_square_m":129544758.639386,
+    "geom:area_square_m":129544758.639371,
     "geom:bbox":"-87.806605,39.99851,-87.656787,40.14537",
     "geom:latitude":40.057584,
     "geom:longitude":-87.728195,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.053976,
     "lbl:longitude":-87.72822,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":183,
     "uscensus:geoid":1718311787,
     "uscensus:name":"Catlin",
     "uscensus:namelsad":"Catlin township",
+    "uscensus:population":3019,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1718311787
+        "uscensus:geoid":"1718311787"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404499181,
-    "wof:lastmodified":1605055544,
+    "wof:lastmodified":1722233645,
     "wof:name":"Catlin Township",
     "wof:parent_id":102083507,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3300,
+    "wof:population":3019,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

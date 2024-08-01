@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006708,
-    "geom:area_square_m":59871890.416501,
+    "geom:area_square_m":59871890.416462,
     "geom:bbox":"-69.697878,43.711748,-69.612323,43.854163",
     "geom:latitude":43.795493,
     "geom:longitude":-69.661527,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.797091,
     "lbl:longitude":-69.66088,
     "lbl:max_zoom":17.0,
@@ -121,11 +127,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":2301571955,
     "uscensus:name":"Southport",
     "uscensus:namelsad":"Southport town",
+    "uscensus:population":638,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
@@ -135,8 +144,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2301571955
+        "uscensus:geoid":"2301571955"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457843
     ],
@@ -155,11 +165,11 @@
         }
     ],
     "wof:id":404475717,
-    "wof:lastmodified":1605055856,
+    "wof:lastmodified":1722117709,
     "wof:name":"Southport",
     "wof:parent_id":102087447,
     "wof:placetype":"localadmin",
-    "wof:population":606,
+    "wof:population":638,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000272,
-    "geom:area_square_m":2560263.529375,
+    "geom:area_square_m":2560263.529382,
     "geom:bbox":"-75.564348,40.50496,-75.540566,40.529474",
     "geom:latitude":40.516432,
     "geom:longitude":-75.554484,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.515671,
     "lbl:longitude":-75.555654,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":77,
     "uscensus:geoid":4207746392,
     "uscensus:name":"Macungie",
     "uscensus:namelsad":"Macungie borough",
+    "uscensus:population":3263,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207746392
+        "uscensus:geoid":"4207746392"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404485963,
-    "wof:lastmodified":1605055356,
+    "wof:lastmodified":1722117777,
     "wof:name":"Macungie",
     "wof:parent_id":102081327,
     "wof:placetype":"localadmin",
-    "wof:population":3074,
+    "wof:population":3263,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

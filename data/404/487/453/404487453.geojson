@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003822,
-    "geom:area_square_m":35128605.982754,
+    "geom:area_square_m":35128605.982768,
     "geom:bbox":"-77.439697,41.939255,-77.30801,42.000079",
     "geom:latitude":41.980068,
     "geom:longitude":-77.372488,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.981704,
     "lbl:longitude":-77.357042,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":117,
     "uscensus:geoid":4211757224,
     "uscensus:name":"Osceola",
     "uscensus:namelsad":"Osceola township",
+    "uscensus:population":578,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4211757224
+        "uscensus:geoid":"4211757224"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463799
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404487453,
-    "wof:lastmodified":1605055884,
+    "wof:lastmodified":1722117787,
     "wof:name":"Osceola Township",
     "wof:parent_id":102080937,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":659,
+    "wof:population":578,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

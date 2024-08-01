@@ -184,7 +184,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":4450399,
     "uscensus:awater":79108,
     "uscensus:classfp":"C5",
@@ -200,17 +201,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"56620",
     "uscensus:placens":"01036182",
+    "uscensus:population":1310,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":467.0,
     "wd:latitude":47.680556,
     "wd:longitude":-99.136111,
     "wd:wordcount":1030,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404481045,
         85633793,
-        102081503
+        102081503,
+        404481045,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -219,10 +222,11 @@
         "gn:id":5060614,
         "gp:id":2458928,
         "qs_pg:id":1037426,
-        "uscensus:geoid":3856620,
+        "uscensus:geoid":"3856620",
         "wd:id":"Q182623",
         "wk:page":"New Rockford, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -243,11 +247,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882183,
+    "wof:lastmodified":1722115968,
     "wof:name":"New Rockford",
     "wof:parent_id":404481045,
     "wof:placetype":"locality",
-    "wof:population":1391,
+    "wof:population":1310,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

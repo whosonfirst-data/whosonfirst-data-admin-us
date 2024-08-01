@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009825,
-    "geom:area_square_m":85138370.897946,
+    "geom:area_square_m":85138370.897932,
     "geom:bbox":"-92.032352,45.466232,-91.909029,45.553228",
     "geom:latitude":45.507816,
     "geom:longitude":-91.966378,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.509828,
     "lbl:longitude":-91.966327,
     "lbl:max_zoom":17.0,
@@ -148,22 +154,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":5500518050,
     "uscensus:name":"Cumberland",
     "uscensus:namelsad":"Cumberland town",
+    "uscensus:population":824,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081847
+        102081847,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5500518050
+        "uscensus:geoid":"5500518050"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472333
     ],
@@ -182,11 +192,11 @@
         }
     ],
     "wof:id":404491489,
-    "wof:lastmodified":1636499312,
+    "wof:lastmodified":1722117813,
     "wof:name":"Cumberland",
     "wof:parent_id":102081847,
     "wof:placetype":"localadmin",
-    "wof:population":876,
+    "wof:population":824,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

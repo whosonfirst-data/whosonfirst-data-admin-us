@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004825,
-    "geom:area_square_m":42399067.580008,
+    "geom:area_square_m":42399067.580004,
     "geom:bbox":"-72.795505,44.670759,-72.704251,44.786457",
     "geom:latitude":44.716313,
     "geom:longitude":-72.754269,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.710251,
     "lbl:longitude":-72.761177,
     "lbl:max_zoom":17.0,
@@ -88,11 +94,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":5001577425,
     "uscensus:name":"Waterville",
     "uscensus:namelsad":"Waterville town",
+    "uscensus:population":672,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -102,8 +111,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5001577425
+        "uscensus:geoid":"5001577425"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469863
     ],
@@ -122,11 +132,11 @@
         }
     ],
     "wof:id":404527159,
-    "wof:lastmodified":1605055676,
+    "wof:lastmodified":1722118028,
     "wof:name":"Waterville",
     "wof:parent_id":102080785,
     "wof:placetype":"localadmin",
-    "wof:population":673,
+    "wof:population":672,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

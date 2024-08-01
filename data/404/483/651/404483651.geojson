@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000204,
-    "geom:area_square_m":1913521.888808,
+    "geom:area_square_m":1913521.888804,
     "geom:bbox":"-75.483933,40.655744,-75.462233,40.6707",
     "geom:latitude":40.663954,
     "geom:longitude":-75.474069,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.663718,
     "lbl:longitude":-75.474072,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":4209554872,
     "uscensus:name":"North Catasauqua",
     "uscensus:namelsad":"North Catasauqua borough",
+    "uscensus:population":3015,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4209554872
+        "uscensus:geoid":"4209554872"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404483651,
-    "wof:lastmodified":1605055440,
+    "wof:lastmodified":1722117764,
     "wof:name":"North Catasauqua",
     "wof:parent_id":102081395,
     "wof:placetype":"localadmin",
-    "wof:population":2849,
+    "wof:population":3015,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

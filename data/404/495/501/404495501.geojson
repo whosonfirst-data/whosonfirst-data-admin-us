@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009801,
-    "geom:area_square_m":86888070.671856,
+    "geom:area_square_m":86888070.671872,
     "geom:bbox":"-89.59798,44.155797,-89.481992,44.245725",
     "geom:latitude":44.199561,
     "geom:longitude":-89.541941,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.200457,
     "lbl:longitude":-89.551412,
     "lbl:max_zoom":17.0,
@@ -88,11 +94,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":137,
     "uscensus:geoid":5513763175,
     "uscensus:name":"Plainfield",
     "uscensus:namelsad":"Plainfield town",
+    "uscensus:population":510,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -102,8 +111,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5513763175
+        "uscensus:geoid":"5513763175"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470265
     ],
@@ -122,11 +132,11 @@
         }
     ],
     "wof:id":404495501,
-    "wof:lastmodified":1605055987,
+    "wof:lastmodified":1722117840,
     "wof:name":"Plainfield",
     "wof:parent_id":102081799,
     "wof:placetype":"localadmin",
-    "wof:population":550,
+    "wof:population":510,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

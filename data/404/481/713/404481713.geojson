@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011234,
-    "geom:area_square_m":92516218.682905,
+    "geom:area_square_m":92516218.682901,
     "geom:bbox":"-102.181241,48.196803,-102.051515,48.28388",
     "geom:latitude":48.240346,
     "geom:longitude":-102.116414,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.240324,
     "lbl:longitude":-102.116407,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":3806148860,
     "uscensus:name":"McAlmond",
     "uscensus:namelsad":"McAlmond township",
+    "uscensus:population":45,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3806148860
+        "uscensus:geoid":"3806148860"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473157
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404481713,
-    "wof:lastmodified":1605055827,
+    "wof:lastmodified":1722117752,
     "wof:name":"Mcalmond Township",
     "wof:parent_id":102082569,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":34,
+    "wof:population":45,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

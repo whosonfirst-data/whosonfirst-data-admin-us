@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000052,
-    "geom:area_square_m":491989.932667,
+    "geom:area_square_m":491989.932666,
     "geom:bbox":"-75.895221,40.568317,-75.883782,40.575466",
     "geom:latitude":40.57209,
     "geom:longitude":-75.889186,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.572183,
     "lbl:longitude":-75.889077,
     "lbl:max_zoom":18.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":4201142688,
     "uscensus:name":"Lenhartsville",
     "uscensus:namelsad":"Lenhartsville borough",
+    "uscensus:population":178,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201142688
+        "uscensus:geoid":"4201142688"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404484513,
-    "wof:lastmodified":1605055468,
+    "wof:lastmodified":1722117768,
     "wof:name":"Lenhartsville",
     "wof:parent_id":102080991,
     "wof:placetype":"localadmin",
-    "wof:population":165,
+    "wof:population":178,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

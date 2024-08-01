@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010999,
-    "geom:area_square_m":93471626.895245,
+    "geom:area_square_m":93471626.895255,
     "geom:bbox":"-98.536809,46.543694,-98.410155,46.631158",
     "geom:latitude":46.587473,
     "geom:longitude":-98.473349,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.587488,
     "lbl:longitude":-98.473349,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":3804570660,
     "uscensus:name":"Saratoga",
     "uscensus:namelsad":"Saratoga township",
+    "uscensus:population":68,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3804570660
+        "uscensus:geoid":"3804570660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478641
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404479073,
-    "wof:lastmodified":1605055479,
+    "wof:lastmodified":1722117735,
     "wof:name":"Saratoga Township",
     "wof:parent_id":102082571,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":52,
+    "wof:population":68,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

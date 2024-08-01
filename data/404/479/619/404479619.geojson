@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001078,
-    "geom:area_square_m":9005722.854258,
+    "geom:area_square_m":9005722.854273,
     "geom:bbox":"-97.857106,47.499526,-97.814391,47.528642",
     "geom:latitude":47.512515,
     "geom:longitude":-97.837268,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.510184,
     "lbl:longitude":-97.837268,
     "lbl:max_zoom":17.0,
@@ -85,11 +91,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":91,
     "uscensus:geoid":3809126420,
     "uscensus:name":"Finley",
     "uscensus:namelsad":"Finley city",
+    "uscensus:population":391,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -99,8 +108,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3809126420
+        "uscensus:geoid":"3809126420"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -116,11 +126,11 @@
         }
     ],
     "wof:id":404479619,
-    "wof:lastmodified":1605055472,
+    "wof:lastmodified":1722117739,
     "wof:name":"Finley",
     "wof:parent_id":102082055,
     "wof:placetype":"localadmin",
-    "wof:population":445,
+    "wof:population":391,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

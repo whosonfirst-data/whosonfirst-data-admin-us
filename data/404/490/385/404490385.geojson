@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00748,
-    "geom:area_square_m":66833668.087454,
+    "geom:area_square_m":66833668.087444,
     "geom:bbox":"-100.220528,43.683311,-100.099831,43.761082",
     "geom:latitude":43.728925,
     "geom:longitude":-100.159801,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.731941,
     "lbl:longitude":-100.15866,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":85,
     "uscensus:geoid":4608551780,
     "uscensus:name":"Pratt",
     "uscensus:namelsad":"Pratt township",
+    "uscensus:population":19,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4608551780
+        "uscensus:geoid":"4608551780"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460795
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404490385,
-    "wof:lastmodified":1605055514,
+    "wof:lastmodified":1722117806,
     "wof:name":"Pratt Township",
     "wof:parent_id":102086041,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":16,
+    "wof:population":19,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

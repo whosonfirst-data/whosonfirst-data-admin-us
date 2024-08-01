@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009309,
-    "geom:area_square_m":85727728.143206,
+    "geom:area_square_m":85727728.143196,
     "geom:bbox":"-86.455789,41.812568,-86.339788,41.899825",
     "geom:latitude":41.85836,
     "geom:longitude":-86.400264,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.86135,
     "lbl:longitude":-86.407422,
     "lbl:max_zoom":15.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":2602111420,
     "uscensus:name":"Buchanan",
     "uscensus:namelsad":"Buchanan township",
+    "uscensus:population":3440,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2602111420
+        "uscensus:geoid":"2602111420"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471467
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404506985,
-    "wof:lastmodified":1605055757,
+    "wof:lastmodified":1722117911,
     "wof:name":"Buchanan Township",
     "wof:parent_id":102083151,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3523,
+    "wof:population":3440,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010631,
-    "geom:area_square_m":92194973.919295,
+    "geom:area_square_m":92194973.919301,
     "geom:bbox":"-99.33879,45.419117,-99.215292,45.506594",
     "geom:latitude":45.462881,
     "geom:longitude":-99.276612,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.462814,
     "lbl:longitude":-99.27661,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":4604507980,
     "uscensus:name":"Bryant",
     "uscensus:namelsad":"Bryant township",
+    "uscensus:population":24,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4604507980
+        "uscensus:geoid":"4604507980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465975
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404488645,
-    "wof:lastmodified":1605055804,
+    "wof:lastmodified":1722117795,
     "wof:name":"Bryant Township",
     "wof:parent_id":102086789,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":19,
+    "wof:population":24,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

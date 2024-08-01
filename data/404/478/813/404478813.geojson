@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01105,
-    "geom:area_square_m":92837980.855191,
+    "geom:area_square_m":92837980.855205,
     "geom:bbox":"-100.495416,47.156395,-100.368003,47.243845",
     "geom:latitude":47.200138,
     "geom:longitude":-100.431697,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.200152,
     "lbl:longitude":-100.431696,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":3801511940,
     "uscensus:name":"Canfield",
     "uscensus:namelsad":"Canfield township",
+    "uscensus:population":13,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3801511940
+        "uscensus:geoid":"3801511940"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476281
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404478813,
-    "wof:lastmodified":1605055348,
+    "wof:lastmodified":1722117733,
     "wof:name":"Canfield Township",
     "wof:parent_id":102082107,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":11,
+    "wof:population":13,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

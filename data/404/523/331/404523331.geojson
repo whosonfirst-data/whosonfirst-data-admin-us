@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014929,
-    "geom:area_square_m":134820776.713693,
+    "geom:area_square_m":134820776.713636,
     "geom:bbox":"-77.136727,43.012463,-77.033222,43.161993",
     "geom:latitude":43.087046,
     "geom:longitude":-77.085764,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.087127,
     "lbl:longitude":-77.086454,
     "lbl:max_zoom":15.0,
@@ -196,11 +202,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":117,
     "uscensus:geoid":3611702440,
     "uscensus:name":"Arcadia",
     "uscensus:namelsad":"Arcadia town",
+    "uscensus:population":13568,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -210,8 +219,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3611702440
+        "uscensus:geoid":"3611702440"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -227,11 +237,11 @@
         }
     ],
     "wof:id":404523331,
-    "wof:lastmodified":1605056083,
+    "wof:lastmodified":1722233679,
     "wof:name":"Arcadia",
     "wof:parent_id":102082409,
     "wof:placetype":"localadmin",
-    "wof:population":14244,
+    "wof:population":13568,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010076,
-    "geom:area_square_m":94129093.358893,
+    "geom:area_square_m":94129093.358878,
     "geom:bbox":"-89.869693,40.886496,-89.754616,40.975033",
     "geom:latitude":40.93066,
     "geom:longitude":-89.812315,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.930643,
     "lbl:longitude":-89.812316,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":143,
     "uscensus:geoid":1714361938,
     "uscensus:name":"Princeville",
     "uscensus:namelsad":"Princeville township",
+    "uscensus:population":1510,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1714361938
+        "uscensus:geoid":"1714361938"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404498785,
-    "wof:lastmodified":1605055563,
+    "wof:lastmodified":1722233643,
     "wof:name":"Princeville Township",
     "wof:parent_id":102081247,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1628,
+    "wof:population":1510,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001259,
-    "geom:area_square_m":11787195.340534,
+    "geom:area_square_m":11787195.340524,
     "geom:bbox":"-77.886169,40.768492,-77.819037,40.807175",
     "geom:latitude":40.790994,
     "geom:longitude":-77.856818,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.793201,
     "lbl:longitude":-77.857336,
     "lbl:max_zoom":14.0,
@@ -61,22 +67,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":4202773808,
     "uscensus:name":"State College",
     "uscensus:namelsad":"State College borough",
+    "uscensus:population":40687,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688481,
-        102081369
+        102081369,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202773808
+        "uscensus:geoid":"4202773808"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -92,11 +102,11 @@
         }
     ],
     "wof:id":404485883,
-    "wof:lastmodified":1636499271,
+    "wof:lastmodified":1722117777,
     "wof:name":"State College",
     "wof:parent_id":102081369,
     "wof:placetype":"localadmin",
-    "wof:population":42034,
+    "wof:population":40687,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

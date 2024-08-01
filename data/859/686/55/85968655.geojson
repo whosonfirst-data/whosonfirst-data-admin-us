@@ -181,7 +181,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":20287632,
     "uscensus:awater":3650854,
     "uscensus:classfp":"C5",
@@ -197,17 +198,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"71734",
     "uscensus:placens":"02397378",
+    "uscensus:population":13614,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":485.0,
     "wd:latitude":43.62,
     "wd:longitude":-95.596389,
     "wd:wordcount":2838,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404512269,
         85633793,
-        102087607
+        102087607,
+        404512269,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -216,13 +219,14 @@
         "gn:id":4314051,
         "gp:id":2524022,
         "qs_pg:id":97837,
-        "uscensus:geoid":2771734,
+        "uscensus:geoid":"2771734",
         "wd:id":"Q988914",
         "wk:page":"Worthington, Minnesota"
     },
     "wof:concordances_alt":{
         "qs_pg:id":280106
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -243,11 +247,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882115,
+    "wof:lastmodified":1722115964,
     "wof:name":"Worthington",
     "wof:parent_id":404512269,
     "wof:placetype":"locality",
-    "wof:population":12764,
+    "wof:population":13614,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

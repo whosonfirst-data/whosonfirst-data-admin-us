@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.015446,
-    "geom:area_square_m":132959045.371319,
+    "geom:area_square_m":132959045.371393,
     "geom:bbox":"-101.824613,45.81867,-101.700235,45.944592",
     "geom:latitude":45.881189,
     "geom:longitude":-101.762698,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.88161,
     "lbl:longitude":-101.762383,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":4603115100,
     "uscensus:name":"Custer",
     "uscensus:namelsad":"Custer township",
+    "uscensus:population":31,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4603115100
+        "uscensus:geoid":"4603115100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456309
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404489855,
-    "wof:lastmodified":1605055935,
+    "wof:lastmodified":1722117803,
     "wof:name":"Custer Township",
     "wof:parent_id":102086853,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":33,
+    "wof:population":31,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

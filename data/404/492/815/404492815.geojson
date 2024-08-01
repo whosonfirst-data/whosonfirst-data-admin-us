@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.043316,
-    "geom:area_square_m":369850552.522929,
+    "geom:area_square_m":369850552.522831,
     "geom:bbox":"-91.428087,46.242503,-91.176109,46.416009",
     "geom:latitude":46.329221,
     "geom:longitude":-91.301955,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.329337,
     "lbl:longitude":-91.301956,
     "lbl:max_zoom":17.0,
@@ -88,11 +94,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":5500720887,
     "uscensus:name":"Drummond",
     "uscensus:namelsad":"Drummond town",
+    "uscensus:population":561,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -102,8 +111,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5500720887
+        "uscensus:geoid":"5500720887"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -119,11 +129,11 @@
         }
     ],
     "wof:id":404492815,
-    "wof:lastmodified":1605056007,
+    "wof:lastmodified":1722117822,
     "wof:name":"Drummond",
     "wof:parent_id":102081781,
     "wof:placetype":"localadmin",
-    "wof:population":463,
+    "wof:population":561,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

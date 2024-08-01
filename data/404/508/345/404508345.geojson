@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010896,
-    "geom:area_square_m":96725368.198452,
+    "geom:area_square_m":96725368.198519,
     "geom:bbox":"-85.326097,44.073341,-85.206135,44.164956",
     "geom:latitude":44.119315,
     "geom:longitude":-85.266063,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.119349,
     "lbl:longitude":-85.266063,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":133,
     "uscensus:geoid":2613338100,
     "uscensus:name":"Highland",
     "uscensus:namelsad":"Highland township",
+    "uscensus:population":1173,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2613338100
+        "uscensus:geoid":"2613338100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468869
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404508345,
-    "wof:lastmodified":1605055748,
+    "wof:lastmodified":1722117921,
     "wof:name":"Highland Township",
     "wof:parent_id":102083723,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1250,
+    "wof:population":1173,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

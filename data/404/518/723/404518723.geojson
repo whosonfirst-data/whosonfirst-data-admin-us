@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009965,
-    "geom:area_square_m":93724075.571558,
+    "geom:area_square_m":93724075.571564,
     "geom:bbox":"-97.824436,40.437441,-97.709701,40.524601",
     "geom:latitude":40.481001,
     "geom:longitude":-97.767089,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.480993,
     "lbl:longitude":-97.76709,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":59,
     "uscensus:geoid":3105932515,
     "uscensus:name":"Momence",
     "uscensus:namelsad":"Momence township",
+    "uscensus:population":66,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3105932515
+        "uscensus:geoid":"3105932515"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474755
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404518723,
-    "wof:lastmodified":1605055689,
+    "wof:lastmodified":1722117978,
     "wof:name":"Momence Township",
     "wof:parent_id":102084289,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":68,
+    "wof:population":66,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

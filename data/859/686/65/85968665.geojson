@@ -154,7 +154,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":904423,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -170,17 +171,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"37412",
     "uscensus:placens":"02395730",
+    "uscensus:population":200,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":513.0,
     "wd:latitude":43.747778,
     "wd:longitude":-95.947222,
     "wd:wordcount":1211,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404510267,
         85633793,
-        102087607
+        102087607,
+        404510267,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -189,10 +192,11 @@
         "gn:id":5034803,
         "gp:id":2440021,
         "qs_pg:id":945779,
-        "uscensus:geoid":2737412,
+        "uscensus:geoid":"2737412",
         "wd:id":"Q2346724",
         "wk:page":"Lismore, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -213,11 +217,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882114,
+    "wof:lastmodified":1722115964,
     "wof:name":"Lismore",
     "wof:parent_id":404510267,
     "wof:placetype":"locality",
-    "wof:population":227,
+    "wof:population":200,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010598,
-    "geom:area_square_m":92492786.759178,
+    "geom:area_square_m":92492786.759185,
     "geom:bbox":"-95.61445,45.064439,-95.491512,45.151716",
     "geom:latitude":45.108038,
     "geom:longitude":-95.553015,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.108058,
     "lbl:longitude":-95.553049,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":2702324722,
     "uscensus:name":"Grace",
     "uscensus:namelsad":"Grace township",
+    "uscensus:population":98,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2702324722
+        "uscensus:geoid":"2702324722"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464411
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404511781,
-    "wof:lastmodified":1605055730,
+    "wof:lastmodified":1722117946,
     "wof:name":"Grace Township",
     "wof:parent_id":102087793,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":95,
+    "wof:population":98,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

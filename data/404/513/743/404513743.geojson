@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010509,
-    "geom:area_square_m":93507918.305499,
+    "geom:area_square_m":93507918.305454,
     "geom:bbox":"-93.04574,43.935648,-92.924944,44.023058",
     "geom:latitude":43.979294,
     "geom:longitude":-92.985305,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.979304,
     "lbl:longitude":-92.985305,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":39,
     "uscensus:geoid":2703954502,
     "uscensus:name":"Ripley",
     "uscensus:namelsad":"Ripley township",
+    "uscensus:population":177,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2703954502
+        "uscensus:geoid":"2703954502"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464029
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404513743,
-    "wof:lastmodified":1605056046,
+    "wof:lastmodified":1722117960,
     "wof:name":"Ripley Township",
     "wof:parent_id":102087097,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":195,
+    "wof:population":177,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

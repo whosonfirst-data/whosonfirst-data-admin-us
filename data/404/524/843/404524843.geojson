@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005074,
-    "geom:area_square_m":47745620.726696,
+    "geom:area_square_m":47745620.72671,
     "geom:bbox":"-84.455281,40.422079,-84.33876,40.466289",
     "geom:latitude":40.444092,
     "geom:longitude":-84.397014,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.444043,
     "lbl:longitude":-84.396999,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":3901129848,
     "uscensus:name":"German",
     "uscensus:namelsad":"German township",
+    "uscensus:population":3672,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3901129848
+        "uscensus:geoid":"3901129848"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404524843,
-    "wof:lastmodified":1605056105,
+    "wof:lastmodified":1722233684,
     "wof:name":"German Township",
     "wof:parent_id":102084809,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3748,
+    "wof:population":3672,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

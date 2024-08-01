@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00063,
-    "geom:area_square_m":5218659.940261,
+    "geom:area_square_m":5218659.940258,
     "geom:bbox":"-100.392179,47.912568,-100.359629,47.934437",
     "geom:latitude":47.922573,
     "geom:longitude":-100.374543,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.922847,
     "lbl:longitude":-100.37215,
     "lbl:max_zoom":17.0,
@@ -124,11 +130,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":3804920300,
     "uscensus:name":"Drake",
     "uscensus:namelsad":"Drake city",
+    "uscensus:population":277,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -138,8 +147,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3804920300
+        "uscensus:geoid":"3804920300"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -155,11 +165,11 @@
         }
     ],
     "wof:id":404480877,
-    "wof:lastmodified":1605055915,
+    "wof:lastmodified":1722117747,
     "wof:name":"Drake",
     "wof:parent_id":102082517,
     "wof:placetype":"localadmin",
-    "wof:population":275,
+    "wof:population":277,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

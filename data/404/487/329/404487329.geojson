@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010692,
-    "geom:area_square_m":98675407.191782,
+    "geom:area_square_m":98675407.191809,
     "geom:bbox":"-75.320138,41.673942,-75.19428,41.775333",
     "geom:latitude":41.723795,
     "geom:longitude":-75.261357,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.724302,
     "lbl:longitude":-75.261362,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":127,
     "uscensus:geoid":4212742176,
     "uscensus:name":"Lebanon",
     "uscensus:namelsad":"Lebanon township",
+    "uscensus:population":688,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212742176
+        "uscensus:geoid":"4212742176"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465855
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404487329,
-    "wof:lastmodified":1605055896,
+    "wof:lastmodified":1722117786,
     "wof:name":"Lebanon Township",
     "wof:parent_id":102081379,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":684,
+    "wof:population":688,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

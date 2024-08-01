@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010955,
-    "geom:area_square_m":90218628.428039,
+    "geom:area_square_m":90218628.428065,
     "geom:bbox":"-97.903544,48.194845,-97.773563,48.281892",
     "geom:latitude":48.239009,
     "geom:longitude":-97.839762,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.238393,
     "lbl:longitude":-97.848362,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":3809951780,
     "uscensus:name":"Medford",
     "uscensus:namelsad":"Medford township",
+    "uscensus:population":70,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3809951780
+        "uscensus:geoid":"3809951780"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459657
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404482029,
-    "wof:lastmodified":1605055386,
+    "wof:lastmodified":1722117754,
     "wof:name":"Medford Township",
     "wof:parent_id":102082057,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":62,
+    "wof:population":70,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

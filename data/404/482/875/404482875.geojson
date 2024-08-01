@@ -10,6 +10,12 @@
     "geom:latitude":40.899213,
     "geom:longitude":-80.04865,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.899783,
     "lbl:longitude":-80.048986,
     "lbl:max_zoom":16.0,
@@ -94,11 +100,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":4201962752,
     "uscensus:name":"Prospect",
     "uscensus:namelsad":"Prospect borough",
+    "uscensus:population":1091,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -108,8 +117,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201962752
+        "uscensus:geoid":"4201962752"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -125,11 +135,11 @@
         }
     ],
     "wof:id":404482875,
-    "wof:lastmodified":1605055379,
+    "wof:lastmodified":1722117759,
     "wof:name":"Prospect",
     "wof:parent_id":102083677,
     "wof:placetype":"localadmin",
-    "wof:population":1169,
+    "wof:population":1091,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -174,7 +174,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":3112135,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -190,6 +191,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"04762",
     "uscensus:placens":"02394108",
+    "uscensus:population":735,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":387.0,
     "wd:latitude":45.451389,
@@ -197,11 +200,11 @@
     "wd:population":740,
     "wd:wordcount":778,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404510493,
         85633793,
-        102087719
+        102087719,
+        404510493,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -210,10 +213,11 @@
         "gn:id":5017727,
         "gp:id":2361642,
         "qs_pg:id":1050937,
-        "uscensus:geoid":2704762,
+        "uscensus:geoid":"2704762",
         "wd:id":"Q581832",
         "wk:page":"Belgrade, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -234,11 +238,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690886389,
+    "wof:lastmodified":1722116219,
     "wof:name":"Belgrade",
     "wof:parent_id":404510493,
     "wof:placetype":"locality",
-    "wof:population":740,
+    "wof:population":735,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

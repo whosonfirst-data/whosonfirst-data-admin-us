@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007586,
-    "geom:area_square_m":70015997.941233,
+    "geom:area_square_m":70015997.941318,
     "geom:bbox":"-90.335729,41.670365,-90.216354,41.782964",
     "geom:latitude":41.71477,
     "geom:longitude":-90.275566,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.722044,
     "lbl:longitude":-90.276465,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":161,
     "uscensus:geoid":1716116379,
     "uscensus:name":"Cordova",
     "uscensus:namelsad":"Cordova township",
+    "uscensus:population":839,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1716116379
+        "uscensus:geoid":"1716116379"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404499677,
-    "wof:lastmodified":1605055550,
+    "wof:lastmodified":1722233647,
     "wof:name":"Cordova Township",
     "wof:parent_id":102082281,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":896,
+    "wof:population":839,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

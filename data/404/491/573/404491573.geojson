@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012728,
-    "geom:area_square_m":111160332.920201,
+    "geom:area_square_m":111160332.920202,
     "geom:bbox":"-91.22714,45.002033,-91.085243,45.119956",
     "geom:latitude":45.067421,
     "geom:longitude":-91.151625,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.07546,
     "lbl:longitude":-91.145887,
     "lbl:max_zoom":17.0,
@@ -94,11 +100,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":5501703075,
     "uscensus:name":"Arthur",
     "uscensus:namelsad":"Arthur town",
+    "uscensus:population":784,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -108,8 +117,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5501703075
+        "uscensus:geoid":"5501703075"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471043
     ],
@@ -128,11 +138,11 @@
         }
     ],
     "wof:id":404491573,
-    "wof:lastmodified":1605055583,
+    "wof:lastmodified":1722117814,
     "wof:name":"Arthur",
     "wof:parent_id":102081787,
     "wof:placetype":"localadmin",
-    "wof:population":759,
+    "wof:population":784,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

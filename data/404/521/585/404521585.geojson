@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.028468,
-    "geom:area_square_m":251481424.161397,
+    "geom:area_square_m":251481424.161423,
     "geom:bbox":"-75.22657,44.297959,-75.058399,44.540218",
     "geom:latitude":44.405452,
     "geom:longitude":-75.140824,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.404433,
     "lbl:longitude":-75.142433,
     "lbl:max_zoom":16.0,
@@ -124,11 +130,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":89,
     "uscensus:geoid":3608964221,
     "uscensus:name":"Russell",
     "uscensus:namelsad":"Russell town",
+    "uscensus:population":1879,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -138,8 +147,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3608964221
+        "uscensus:geoid":"3608964221"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462519
     ],
@@ -158,11 +168,11 @@
         }
     ],
     "wof:id":404521585,
-    "wof:lastmodified":1605055639,
+    "wof:lastmodified":1722117987,
     "wof:name":"Russell",
     "wof:parent_id":102082379,
     "wof:placetype":"localadmin",
-    "wof:population":1856,
+    "wof:population":1879,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

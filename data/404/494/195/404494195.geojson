@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000118,
-    "geom:area_square_m":1019051.916753,
+    "geom:area_square_m":1019051.916749,
     "geom:bbox":"-91.225434,45.759058,-91.20986,45.773258",
     "geom:latitude":45.768312,
     "geom:longitude":-91.217905,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "village"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.769136,
     "lbl:longitude":-91.218669,
     "lbl:max_zoom":17.0,
@@ -109,22 +115,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":113,
     "uscensus:geoid":5511366050,
     "uscensus:name":"Radisson",
     "uscensus:namelsad":"Radisson village",
+    "uscensus:population":275,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081743
+        102081743,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5511366050
+        "uscensus:geoid":"5511366050"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -140,11 +150,11 @@
         }
     ],
     "wof:id":404494195,
-    "wof:lastmodified":1636499399,
+    "wof:lastmodified":1722117831,
     "wof:name":"Radisson",
     "wof:parent_id":102081743,
     "wof:placetype":"localadmin",
-    "wof:population":241,
+    "wof:population":275,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

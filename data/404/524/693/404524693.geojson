@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010283,
-    "geom:area_square_m":96291875.751968,
+    "geom:area_square_m":96291875.751989,
     "geom:bbox":"-82.339865,40.726006,-82.221796,40.814467",
     "geom:latitude":40.770063,
     "geom:longitude":-82.280908,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.770057,
     "lbl:longitude":-82.28091,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":3900579758,
     "uscensus:name":"Vermillion",
     "uscensus:namelsad":"Vermillion township",
+    "uscensus:population":2628,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3900579758
+        "uscensus:geoid":"3900579758"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404524693,
-    "wof:lastmodified":1605056106,
+    "wof:lastmodified":1722233683,
     "wof:name":"Vermillion Township",
     "wof:parent_id":102084829,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2618,
+    "wof:population":2628,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000606,
-    "geom:area_square_m":5668084.672697,
+    "geom:area_square_m":5668084.672703,
     "geom:bbox":"-74.130349,40.861515,-74.091913,40.893664",
     "geom:latitude":40.879148,
     "geom:longitude":-74.108505,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.880055,
     "lbl:longitude":-74.108506,
     "lbl:max_zoom":14.0,
@@ -229,11 +235,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3400325770,
     "uscensus:name":"Garfield",
     "uscensus:namelsad":"Garfield city",
+    "uscensus:population":32456,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -243,8 +252,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400325770
+        "uscensus:geoid":"3400325770"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -260,11 +270,11 @@
         }
     ],
     "wof:id":404477539,
-    "wof:lastmodified":1605055424,
+    "wof:lastmodified":1722117723,
     "wof:name":"Garfield",
     "wof:parent_id":102086773,
     "wof:placetype":"localadmin",
-    "wof:population":30487,
+    "wof:population":32456,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

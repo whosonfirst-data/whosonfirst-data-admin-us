@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004944,
-    "geom:area_square_m":46389834.804937,
+    "geom:area_square_m":46389834.8049,
     "geom:bbox":"-80.243563,40.588165,-80.14485,40.675436",
     "geom:latitude":40.641049,
     "geom:longitude":-80.184044,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.643613,
     "lbl:longitude":-80.179157,
     "lbl:max_zoom":15.0,
@@ -292,11 +298,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":4200722264,
     "uscensus:name":"Economy",
     "uscensus:namelsad":"Economy borough",
+    "uscensus:population":8962,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -306,8 +315,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200722264
+        "uscensus:geoid":"4200722264"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -323,11 +333,11 @@
         }
     ],
     "wof:id":404484437,
-    "wof:lastmodified":1605055456,
+    "wof:lastmodified":1722117768,
     "wof:name":"Economy",
     "wof:parent_id":102081323,
     "wof:placetype":"localadmin",
-    "wof:population":8970,
+    "wof:population":8962,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

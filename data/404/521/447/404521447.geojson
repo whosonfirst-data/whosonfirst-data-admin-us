@@ -10,6 +10,12 @@
     "geom:latitude":40.789185,
     "geom:longitude":-72.831978,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "Reservation"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.789217,
     "lbl:longitude":-72.831978,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":103,
     "uscensus:geoid":3610359106,
     "uscensus:name":"Poospatuck",
     "uscensus:namelsad":"Poospatuck Reservation",
+    "uscensus:population":441,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3610359106
+        "uscensus:geoid":"3610359106"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459543
     ],
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404521447,
-    "wof:lastmodified":1605055626,
+    "wof:lastmodified":1722117986,
     "wof:name":"Poospatuck",
     "wof:parent_id":102082395,
     "wof:placetype":"localadmin",
-    "wof:population":324,
+    "wof:population":441,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

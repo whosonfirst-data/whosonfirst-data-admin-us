@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001341,
-    "geom:area_square_m":12572000.199254,
+    "geom:area_square_m":12572000.19924,
     "geom:bbox":"-75.283738,40.640735,-75.190158,40.716659",
     "geom:latitude":40.685793,
     "geom:longitude":-75.220931,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.688493,
     "lbl:longitude":-75.216982,
     "lbl:max_zoom":14.0,
@@ -100,11 +106,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":4209521648,
     "uscensus:name":"Easton",
     "uscensus:namelsad":"Easton city",
+    "uscensus:population":29538,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -114,8 +123,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4209521648
+        "uscensus:geoid":"4209521648"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -131,11 +141,11 @@
         }
     ],
     "wof:id":404485997,
-    "wof:lastmodified":1605055356,
+    "wof:lastmodified":1722117777,
     "wof:name":"Easton",
     "wof:parent_id":102081395,
     "wof:placetype":"localadmin",
-    "wof:population":26800,
+    "wof:population":29538,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

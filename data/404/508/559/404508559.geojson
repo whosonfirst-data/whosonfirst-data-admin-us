@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010547,
-    "geom:area_square_m":93352906.499784,
+    "geom:area_square_m":93352906.499801,
     "geom:bbox":"-84.734046,44.247601,-84.610324,44.335237",
     "geom:latitude":44.291211,
     "geom:longitude":-84.672353,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.291189,
     "lbl:longitude":-84.672354,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":143,
     "uscensus:geoid":2614321640,
     "uscensus:name":"Denton",
     "uscensus:namelsad":"Denton township",
+    "uscensus:population":5396,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2614321640
+        "uscensus:geoid":"2614321640"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404508559,
-    "wof:lastmodified":1605055733,
+    "wof:lastmodified":1722117923,
     "wof:name":"Denton Township",
     "wof:parent_id":102083077,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":5557,
+    "wof:population":5396,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

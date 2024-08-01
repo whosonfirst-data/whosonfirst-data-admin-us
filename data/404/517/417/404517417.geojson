@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012118,
-    "geom:area_square_m":114780906.363746,
+    "geom:area_square_m":114780906.36376,
     "geom:bbox":"-93.018639,39.962822,-92.847477,40.037301",
     "geom:latitude":40.000692,
     "geom:longitude":-92.931603,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.000512,
     "lbl:longitude":-92.931596,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":2911553300,
     "uscensus:name":"North Salem",
     "uscensus:namelsad":"North Salem township",
+    "uscensus:population":111,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":29,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2911553300
+        "uscensus:geoid":"2911553300"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458125
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404517417,
-    "wof:lastmodified":1604969427,
+    "wof:lastmodified":1722117976,
     "wof:name":"North Salem Township",
     "wof:parent_id":102085269,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":149,
+    "wof:population":111,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

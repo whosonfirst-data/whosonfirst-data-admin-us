@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00006,
-    "geom:area_square_m":486809.954517,
+    "geom:area_square_m":486809.954515,
     "geom:bbox":"-98.694389,48.969352,-98.682094,48.978579",
     "geom:latitude":48.972884,
     "geom:longitude":-98.690295,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.972639,
     "lbl:longitude":-98.6909,
     "lbl:max_zoom":18.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":3801935060,
     "uscensus:name":"Hannah",
     "uscensus:namelsad":"Hannah city",
+    "uscensus:population":7,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3801935060
+        "uscensus:geoid":"3801935060"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404480753,
-    "wof:lastmodified":1605055906,
+    "wof:lastmodified":1722117746,
     "wof:name":"Hannah",
     "wof:parent_id":102081513,
     "wof:placetype":"localadmin",
-    "wof:population":15,
+    "wof:population":7,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

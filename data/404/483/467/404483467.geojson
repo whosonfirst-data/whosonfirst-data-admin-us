@@ -10,6 +10,12 @@
     "geom:latitude":40.453632,
     "geom:longitude":-79.032451,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.453661,
     "lbl:longitude":-79.032451,
     "lbl:max_zoom":18.0,
@@ -190,22 +196,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":63,
     "uscensus:geoid":4206303032,
     "uscensus:name":"Armagh",
     "uscensus:namelsad":"Armagh borough",
+    "uscensus:population":100,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688481,
-        102081387
+        102081387,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206303032
+        "uscensus:geoid":"4206303032"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -221,11 +231,11 @@
         }
     ],
     "wof:id":404483467,
-    "wof:lastmodified":1636499297,
+    "wof:lastmodified":1722117762,
     "wof:name":"Armagh",
     "wof:parent_id":102081387,
     "wof:placetype":"localadmin",
-    "wof:population":122,
+    "wof:population":100,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

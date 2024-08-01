@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008905,
-    "geom:area_square_m":83752463.582637,
+    "geom:area_square_m":83752463.582612,
     "geom:bbox":"-80.360873,40.425446,-80.188261,40.539373",
     "geom:latitude":40.478207,
     "geom:longitude":-80.281146,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.480863,
     "lbl:longitude":-80.281142,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4200325904,
     "uscensus:name":"Findlay",
     "uscensus:namelsad":"Findlay township",
+    "uscensus:population":6546,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200325904
+        "uscensus:geoid":"4200325904"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404484901,
-    "wof:lastmodified":1605055452,
+    "wof:lastmodified":1722117771,
     "wof:name":"Findlay Township",
     "wof:parent_id":102080887,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":5060,
+    "wof:population":6546,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

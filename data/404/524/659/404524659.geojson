@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005993,
-    "geom:area_square_m":55405871.061868,
+    "geom:area_square_m":55405871.06183,
     "geom:bbox":"-84.230012,41.587256,-84.111825,41.640549",
     "geom:latitude":41.613645,
     "geom:longitude":-84.171331,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.613507,
     "lbl:longitude":-84.171353,
     "lbl:max_zoom":16.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":3905122442,
     "uscensus:name":"Dover",
     "uscensus:namelsad":"Dover township",
+    "uscensus:population":1581,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3905122442
+        "uscensus:geoid":"3905122442"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404524659,
-    "wof:lastmodified":1605056106,
+    "wof:lastmodified":1722118010,
     "wof:name":"Dover Township",
     "wof:parent_id":102083693,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1578,
+    "wof:population":1581,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

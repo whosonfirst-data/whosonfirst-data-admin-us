@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002724,
-    "geom:area_square_m":25768436.348331,
+    "geom:area_square_m":25768436.348335,
     "geom:bbox":"-75.663767,40.056072,-75.581244,40.120798",
     "geom:latitude":40.088326,
     "geom:longitude":-75.622671,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.088209,
     "lbl:longitude":-75.622674,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":4202983832,
     "uscensus:name":"West Pikeland",
     "uscensus:namelsad":"West Pikeland township",
+    "uscensus:population":4034,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202983832
+        "uscensus:geoid":"4202983832"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461217
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404482945,
-    "wof:lastmodified":1605055390,
+    "wof:lastmodified":1722117759,
     "wof:name":"West Pikeland Township",
     "wof:parent_id":102081275,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":4024,
+    "wof:population":4034,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

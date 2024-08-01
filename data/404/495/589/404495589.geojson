@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012928,
-    "geom:area_square_m":111331609.028807,
+    "geom:area_square_m":111331609.0288,
     "geom:bbox":"-88.304915,45.804926,-88.175829,45.914852",
     "geom:latitude":45.857323,
     "geom:longitude":-88.240907,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.856843,
     "lbl:longitude":-88.237465,
     "lbl:max_zoom":17.0,
@@ -94,11 +100,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":37,
     "uscensus:geoid":5503716550,
     "uscensus:name":"Commonwealth",
     "uscensus:namelsad":"Commonwealth town",
+    "uscensus:population":403,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -108,8 +117,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5503716550
+        "uscensus:geoid":"5503716550"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470131
     ],
@@ -128,11 +138,11 @@
         }
     ],
     "wof:id":404495589,
-    "wof:lastmodified":1605055986,
+    "wof:lastmodified":1722117840,
     "wof:name":"Commonwealth",
     "wof:parent_id":102081313,
     "wof:placetype":"localadmin",
-    "wof:population":399,
+    "wof:population":403,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

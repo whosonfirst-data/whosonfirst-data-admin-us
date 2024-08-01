@@ -10,6 +10,12 @@
     "geom:latitude":40.076079,
     "geom:longitude":-77.029592,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.076075,
     "lbl:longitude":-77.029592,
     "lbl:max_zoom":17.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":133,
     "uscensus:geoid":4213327576,
     "uscensus:name":"Franklintown",
     "uscensus:namelsad":"Franklintown borough",
+    "uscensus:population":543,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4213327576
+        "uscensus:geoid":"4213327576"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404484209,
-    "wof:lastmodified":1605055465,
+    "wof:lastmodified":1722117767,
     "wof:name":"Franklintown",
     "wof:parent_id":102080953,
     "wof:placetype":"localadmin",
-    "wof:population":489,
+    "wof:population":543,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

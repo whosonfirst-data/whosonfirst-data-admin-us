@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008811,
-    "geom:area_square_m":83235270.229815,
+    "geom:area_square_m":83235270.229778,
     "geom:bbox":"-85.575982,40.149037,-85.442659,40.219344",
     "geom:latitude":40.183031,
     "geom:longitude":-85.512283,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.18409,
     "lbl:longitude":-85.512437,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":1803586084,
     "uscensus:name":"Yorktown",
     "uscensus:namelsad":"Yorktown town",
+    "uscensus:population":11740,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1803586084
+        "uscensus:geoid":"1803586084"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404500511,
-    "wof:lastmodified":1604530779,
+    "wof:lastmodified":1722117866,
     "wof:name":"Mount Pleasant Township",
     "wof:parent_id":102087155,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":14102,
+    "wof:population":11740,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

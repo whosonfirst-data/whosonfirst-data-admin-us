@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000241,
-    "geom:area_square_m":2282635.620018,
+    "geom:area_square_m":2282635.620015,
     "geom:bbox":"-75.989708,39.939032,-75.965627,39.956095",
     "geom:latitude":39.947281,
     "geom:longitude":-75.975392,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.947481,
     "lbl:longitude":-75.974205,
     "lbl:max_zoom":16.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":4202903384,
     "uscensus:name":"Atglen",
     "uscensus:namelsad":"Atglen borough",
+    "uscensus:population":1304,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202903384
+        "uscensus:geoid":"4202903384"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404483101,
-    "wof:lastmodified":1605055444,
+    "wof:lastmodified":1722117760,
     "wof:name":"Atglen",
     "wof:parent_id":102081275,
     "wof:placetype":"localadmin",
-    "wof:population":1406,
+    "wof:population":1304,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

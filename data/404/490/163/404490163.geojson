@@ -10,6 +10,12 @@
     "geom:latitude":44.412622,
     "geom:longitude":-96.947527,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.412683,
     "lbl:longitude":-96.94752,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":4601146440,
     "uscensus:name":"Oakwood",
     "uscensus:namelsad":"Oakwood township",
+    "uscensus:population":203,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4601146440
+        "uscensus:geoid":"4601146440"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461723
     ],
@@ -86,13 +96,13 @@
         }
     ],
     "wof:id":404490163,
-    "wof:lastmodified":1605055518,
+    "wof:lastmodified":1722117804,
     "wof:name":"Oakwood Township",
     "wof:parent_id":102086013,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":189,
-    "wof:population_rank":1,
+    "wof:population":203,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

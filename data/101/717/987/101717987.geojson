@@ -9,9 +9,12 @@
     "geom:bbox":"-75.893655,40.798753,-75.799384,40.850386",
     "geom:latitude":40.824886,
     "geom:longitude":-75.84644,
+    "gn:country":"US",
     "gn:elevation":458,
+    "gn:fcode":"PPL",
     "gn:population":3034,
     "iso:country":"US",
+    "lbl:bbox":"-75.89103,40.80481,-75.85103,40.84481",
     "lbl:latitude":40.820785,
     "lbl:longitude":-75.853589,
     "lbl:max_zoom":15.0,
@@ -21,6 +24,7 @@
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
+    "mz:note":"Quattroshapes Point Gazetteer import 20170519",
     "name:ara_x_preferred":[
         "\u0633\u0648\u0645\u064a\u062a \u0647\u064a\u0644"
     ],
@@ -108,13 +112,34 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
+    "qs_pg:aaroncc":"US",
+    "qs_pg:gn_country":"US",
+    "qs_pg:gn_fcode":"PPL",
+    "qs_pg:gn_id":5214775,
+    "qs_pg:gn_pop":3034,
+    "qs_pg:name":"Summit Hill",
+    "qs_pg:name_adm0":"United States",
+    "qs_pg:name_adm1":"Pennsylvania",
+    "qs_pg:photos":188,
+    "qs_pg:photos_1k":38,
+    "qs_pg:photos_9k":1,
+    "qs_pg:photos_9r":4,
+    "qs_pg:photos_all":201,
+    "qs_pg:photos_sr":4,
+    "qs_pg:pop_sr":4,
+    "qs_pg:qs_id":158027,
+    "qs_pg:qs_pg_placetype":"locality",
+    "qs_pg:qs_pg_placetype_gp":"Town",
+    "qs_pg:woe_adm0":23424977,
+    "qs_pg:woe_id":2501789,
     "src:geom":"uscensus",
     "src:geom_alt":[
         "quattroshapes_pg",
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":22510424,
     "uscensus:awater":1071180,
     "uscensus:classfp":"C5",
@@ -130,14 +155,20 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"75248",
     "uscensus:placens":"01215051",
+    "uscensus:population":3134,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"42",
     "wd:wordcount":951,
+    "woe:adm0_id":23424977,
+    "woe:name_adm0":"United States",
+    "woe:name_adm1":"Pennsylvania",
+    "woe:placetype":"Town",
     "wof:belongsto":[
-        85688481,
         102191575,
-        404485635,
         85633793,
-        102081331
+        102081331,
+        404485635,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -146,13 +177,25 @@
         "gn:id":5214800,
         "gp:id":28744931,
         "qs_pg:id":158027,
-        "uscensus:geoid":4275248,
+        "uscensus:geoid":"4275248",
         "wd:id":"Q1181894",
         "wk:page":"Summit Hill, Pennsylvania"
     },
     "wof:concordances_alt":{
-        "qs_pg:id":1344738
+        "gn:id":[
+            5214775
+        ],
+        "gp:id":[
+            2501789
+        ],
+        "qs_pg:id":[
+            158027
+        ],
+        "wd:id":[
+            "Q1181894"
+        ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -173,15 +216,17 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889805,
+    "wof:lastmodified":1722116401,
     "wof:name":"Summit Hill",
     "wof:parent_id":404485635,
     "wof:placetype":"locality",
-    "wof:population":3034,
+    "wof:population":3134,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1126041545
+    ],
     "wof:tags":[]
 },
   "bbox": [

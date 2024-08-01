@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006656,
-    "geom:area_square_m":60195049.93359,
+    "geom:area_square_m":60195049.933594,
     "geom:bbox":"-72.179031,42.961237,-72.057949,43.030801",
     "geom:latitude":42.994075,
     "geom:longitude":-72.1214,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.994794,
     "lbl:longitude":-72.121377,
     "lbl:max_zoom":17.0,
@@ -160,22 +166,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":3300550580,
     "uscensus:name":"Nelson",
     "uscensus:namelsad":"Nelson town",
+    "uscensus:population":659,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":33,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688689,
-        102085643
+        102085643,
+        85688689
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3300550580
+        "uscensus:geoid":"3300550580"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466871
     ],
@@ -194,11 +204,11 @@
         }
     ],
     "wof:id":404477031,
-    "wof:lastmodified":1636499291,
+    "wof:lastmodified":1722117719,
     "wof:name":"Nelson",
     "wof:parent_id":102085643,
     "wof:placetype":"localadmin",
-    "wof:population":729,
+    "wof:population":659,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

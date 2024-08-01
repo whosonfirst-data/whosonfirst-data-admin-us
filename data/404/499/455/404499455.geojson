@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010241,
-    "geom:area_square_m":96173668.444611,
+    "geom:area_square_m":96173668.444628,
     "geom:bbox":"-90.446891,40.539399,-90.329184,40.627753",
     "geom:latitude":40.583559,
     "geom:longitude":-90.388063,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.583587,
     "lbl:longitude":-90.388065,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":57,
     "uscensus:geoid":1705742574,
     "uscensus:name":"Lee",
     "uscensus:namelsad":"Lee township",
+    "uscensus:population":209,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1705742574
+        "uscensus:geoid":"1705742574"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465183
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404499455,
-    "wof:lastmodified":1605055542,
+    "wof:lastmodified":1722117860,
     "wof:name":"Lee Township",
     "wof:parent_id":102086207,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":237,
+    "wof:population":209,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

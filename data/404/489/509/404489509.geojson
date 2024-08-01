@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00886,
-    "geom:area_square_m":76593284.786658,
+    "geom:area_square_m":76593284.786657,
     "geom:bbox":"-98.456181,45.603657,-98.310686,45.676602",
     "geom:latitude":45.642855,
     "geom:longitude":-98.393603,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.640093,
     "lbl:longitude":-98.393615,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":4601323780,
     "uscensus:name":"Garland",
     "uscensus:namelsad":"Garland township",
+    "uscensus:population":69,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4601323780
+        "uscensus:geoid":"4601323780"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729454657
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404489509,
-    "wof:lastmodified":1605055930,
+    "wof:lastmodified":1722117801,
     "wof:name":"Garland Township",
     "wof:parent_id":102086843,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":64,
+    "wof:population":69,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

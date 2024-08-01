@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014208,
-    "geom:area_square_m":115382471.532553,
+    "geom:area_square_m":115382471.532583,
     "geom:bbox":"-98.606427,48.891595,-98.474655,49.000391",
     "geom:latitude":48.946251,
     "geom:longitude":-98.540199,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.945954,
     "lbl:longitude":-98.540193,
     "lbl:max_zoom":18.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":3801920460,
     "uscensus:name":"Dresden",
     "uscensus:namelsad":"Dresden township",
+    "uscensus:population":29,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3801920460
+        "uscensus:geoid":"3801920460"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729477291
     ],
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404478919,
-    "wof:lastmodified":1605055352,
+    "wof:lastmodified":1722117734,
     "wof:name":"Dresden Township",
     "wof:parent_id":102081513,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":41,
+    "wof:population":29,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

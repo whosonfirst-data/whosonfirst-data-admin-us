@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012974,
-    "geom:area_square_m":115595498.871108,
+    "geom:area_square_m":115595498.871077,
     "geom:bbox":"-72.574443,43.838291,-72.394865,43.966072",
     "geom:latitude":43.901941,
     "geom:longitude":-72.485228,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.902059,
     "lbl:longitude":-72.485216,
     "lbl:max_zoom":16.0,
@@ -64,11 +70,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":5001773675,
     "uscensus:name":"Tunbridge",
     "uscensus:namelsad":"Tunbridge town",
+    "uscensus:population":1373,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -78,8 +87,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5001773675
+        "uscensus:geoid":"5001773675"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472107
     ],
@@ -98,11 +108,11 @@
         }
     ],
     "wof:id":404527035,
-    "wof:lastmodified":1605055683,
+    "wof:lastmodified":1722118028,
     "wof:name":"Tunbridge",
     "wof:parent_id":102087431,
     "wof:placetype":"localadmin",
-    "wof:population":1284,
+    "wof:population":1373,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

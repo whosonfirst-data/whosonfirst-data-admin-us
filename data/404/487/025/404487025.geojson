@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009942,
-    "geom:area_square_m":92556883.399027,
+    "geom:area_square_m":92556883.398952,
     "geom:bbox":"-78.154833,41.059611,-78.038203,41.222311",
     "geom:latitude":41.156767,
     "geom:longitude":-78.109468,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.165171,
     "lbl:longitude":-78.108584,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":33,
     "uscensus:geoid":4203338784,
     "uscensus:name":"Karthaus",
     "uscensus:namelsad":"Karthaus township",
+    "uscensus:population":752,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4203338784
+        "uscensus:geoid":"4203338784"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463037
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404487025,
-    "wof:lastmodified":1605055882,
+    "wof:lastmodified":1722117784,
     "wof:name":"Karthaus Township",
     "wof:parent_id":102080967,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":811,
+    "wof:population":752,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

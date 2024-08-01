@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010562,
-    "geom:area_square_m":93217304.522406,
+    "geom:area_square_m":93217304.522435,
     "geom:bbox":"-88.859832,44.416155,-88.736455,44.503013",
     "geom:latitude":44.459553,
     "geom:longitude":-88.798188,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.459679,
     "lbl:longitude":-88.798191,
     "lbl:max_zoom":16.0,
@@ -685,11 +691,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":135,
     "uscensus:geoid":5513543075,
     "uscensus:name":"Lebanon",
     "uscensus:namelsad":"Lebanon town",
+    "uscensus:population":1613,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -699,8 +708,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5513543075
+        "uscensus:geoid":"5513543075"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474483
     ],
@@ -719,11 +729,11 @@
         }
     ],
     "wof:id":404492527,
-    "wof:lastmodified":1605056003,
+    "wof:lastmodified":1722117820,
     "wof:name":"Lebanon",
     "wof:parent_id":102081823,
     "wof:placetype":"localadmin",
-    "wof:population":1665,
+    "wof:population":1613,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

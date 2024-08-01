@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.031664,
-    "geom:area_square_m":280610092.528316,
+    "geom:area_square_m":280610092.528358,
     "geom:bbox":"-75.758115,44.117506,-75.446124,44.317014",
     "geom:latitude":44.217074,
     "geom:longitude":-75.602428,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.217251,
     "lbl:longitude":-75.602424,
     "lbl:max_zoom":16.0,
@@ -358,11 +364,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":3604502297,
     "uscensus:name":"Antwerp",
     "uscensus:namelsad":"Antwerp town",
+    "uscensus:population":1669,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -372,8 +381,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3604502297
+        "uscensus:geoid":"3604502297"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -389,11 +399,11 @@
         }
     ],
     "wof:id":404521913,
-    "wof:lastmodified":1605055632,
+    "wof:lastmodified":1722233674,
     "wof:name":"Antwerp",
     "wof:parent_id":102082357,
     "wof:placetype":"localadmin",
-    "wof:population":1846,
+    "wof:population":1669,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002233,
-    "geom:area_square_m":19535367.268755,
+    "geom:area_square_m":19535367.268765,
     "geom:bbox":"-92.770308,44.93785,-92.689541,44.989212",
     "geom:latitude":44.96377,
     "geom:longitude":-92.731654,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.967196,
     "lbl:longitude":-92.741726,
     "lbl:max_zoom":15.0,
@@ -157,11 +163,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":109,
     "uscensus:geoid":5510936250,
     "uscensus:name":"Hudson",
     "uscensus:namelsad":"Hudson city",
+    "uscensus:population":15473,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -171,8 +180,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5510936250
+        "uscensus:geoid":"5510936250"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -188,11 +198,11 @@
         }
     ],
     "wof:id":404493641,
-    "wof:lastmodified":1605055953,
+    "wof:lastmodified":1722117827,
     "wof:name":"Hudson",
     "wof:parent_id":102081855,
     "wof:placetype":"localadmin",
-    "wof:population":12719,
+    "wof:population":15473,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

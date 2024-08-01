@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008707,
-    "geom:area_square_m":79151165.837806,
+    "geom:area_square_m":79151165.837797,
     "geom:bbox":"-82.859339,42.630234,-82.729277,42.720843",
     "geom:latitude":42.678831,
     "geom:longitude":-82.806692,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.675152,
     "lbl:longitude":-82.813205,
     "lbl:max_zoom":14.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":2609915340,
     "uscensus:name":"Chesterfield",
     "uscensus:namelsad":"Chesterfield township",
+    "uscensus:population":45593,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2609915340
+        "uscensus:geoid":"2609915340"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459411
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404507389,
-    "wof:lastmodified":1605055782,
+    "wof:lastmodified":1722117914,
     "wof:name":"Chesterfield Township",
     "wof:parent_id":102083047,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":43381,
+    "wof:population":45593,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

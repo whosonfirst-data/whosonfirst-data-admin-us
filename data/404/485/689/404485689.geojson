@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006829,
-    "geom:area_square_m":64208172.983351,
+    "geom:area_square_m":64208172.983327,
     "geom:bbox":"-76.67804,40.447888,-76.500227,40.555157",
     "geom:latitude":40.502117,
     "geom:longitude":-76.588614,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.502137,
     "lbl:longitude":-76.587271,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":75,
     "uscensus:geoid":4207514944,
     "uscensus:name":"Cold Spring",
     "uscensus:namelsad":"Cold Spring township",
+    "uscensus:population":60,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207514944
+        "uscensus:geoid":"4207514944"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404485689,
-    "wof:lastmodified":1605055358,
+    "wof:lastmodified":1722117775,
     "wof:name":"Cold Spring Township",
     "wof:parent_id":102081341,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":52,
+    "wof:population":60,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

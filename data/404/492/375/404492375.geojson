@@ -10,6 +10,12 @@
     "geom:latitude":44.438988,
     "geom:longitude":-90.130114,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.438894,
     "lbl:longitude":-90.130269,
     "lbl:max_zoom":17.0,
@@ -70,11 +76,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":141,
     "uscensus:geoid":5514163100,
     "uscensus:name":"Pittsville",
     "uscensus:namelsad":"Pittsville city",
+    "uscensus:population":818,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -84,8 +93,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5514163100
+        "uscensus:geoid":"5514163100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -101,11 +111,11 @@
         }
     ],
     "wof:id":404492375,
-    "wof:lastmodified":1605056012,
+    "wof:lastmodified":1722117819,
     "wof:name":"Pittsville",
     "wof:parent_id":102081737,
     "wof:placetype":"localadmin",
-    "wof:population":874,
+    "wof:population":818,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

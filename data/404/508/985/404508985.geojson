@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01005,
-    "geom:area_square_m":92308050.246975,
+    "geom:area_square_m":92308050.246993,
     "geom:bbox":"-85.645332,41.983727,-85.528116,42.070703",
     "geom:latitude":42.027122,
     "geom:longitude":-85.586652,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.02703,
     "lbl:longitude":-85.586657,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":149,
     "uscensus:geoid":2614962480,
     "uscensus:name":"Park",
     "uscensus:namelsad":"Park township",
+    "uscensus:population":2382,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2614962480
+        "uscensus:geoid":"2614962480"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466947
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404508985,
-    "wof:lastmodified":1605055740,
+    "wof:lastmodified":1722117926,
     "wof:name":"Park Township",
     "wof:parent_id":102083093,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2600,
+    "wof:population":2382,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

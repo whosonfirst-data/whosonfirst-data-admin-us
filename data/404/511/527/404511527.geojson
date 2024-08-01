@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000451,
-    "geom:area_square_m":4000503.093252,
+    "geom:area_square_m":4000503.093245,
     "geom:bbox":"-93.908914,44.148333,-93.868538,44.174031",
     "geom:latitude":44.161598,
     "geom:longitude":-93.884713,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.161629,
     "lbl:longitude":-93.885047,
     "lbl:max_zoom":15.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":2701317378,
     "uscensus:name":"Eagle Lake",
     "uscensus:namelsad":"Eagle Lake city",
+    "uscensus:population":3251,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2701317378
+        "uscensus:geoid":"2701317378"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404511527,
-    "wof:lastmodified":1605055722,
+    "wof:lastmodified":1722117944,
     "wof:name":"Eagle Lake",
     "wof:parent_id":102087625,
     "wof:placetype":"localadmin",
-    "wof:population":2422,
+    "wof:population":3251,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

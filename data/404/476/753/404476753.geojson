@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004016,
-    "geom:area_square_m":36384659.336308,
+    "geom:area_square_m":36384659.336291,
     "geom:bbox":"-71.21944,42.853465,-71.106491,42.912257",
     "geom:latitude":42.882104,
     "geom:longitude":-71.170906,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.878891,
     "lbl:longitude":-71.171987,
     "lbl:max_zoom":15.0,
@@ -133,11 +139,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":3301532900,
     "uscensus:name":"Hampstead",
     "uscensus:namelsad":"Hampstead town",
+    "uscensus:population":9129,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":33,
     "wof:belongsto":[
         102191575,
@@ -147,8 +156,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3301532900
+        "uscensus:geoid":"3301532900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461845
     ],
@@ -167,11 +177,11 @@
         }
     ],
     "wof:id":404476753,
-    "wof:lastmodified":1605055393,
+    "wof:lastmodified":1722117717,
     "wof:name":"Hampstead",
     "wof:parent_id":102086507,
     "wof:placetype":"localadmin",
-    "wof:population":8523,
+    "wof:population":9129,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

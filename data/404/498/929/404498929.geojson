@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010046,
-    "geom:area_square_m":97189232.924623,
+    "geom:area_square_m":97189232.924559,
     "geom:bbox":"-88.585601,38.472507,-88.470751,38.563756",
     "geom:latitude":38.518086,
     "geom:longitude":-88.528071,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.518021,
     "lbl:longitude":-88.528072,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":191,
     "uscensus:geoid":1719137387,
     "uscensus:name":"Indian Prairie",
     "uscensus:namelsad":"Indian Prairie township",
+    "uscensus:population":664,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1719137387
+        "uscensus:geoid":"1719137387"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404498929,
-    "wof:lastmodified":1605055571,
+    "wof:lastmodified":1722233644,
     "wof:name":"Indian Prairie Township",
     "wof:parent_id":102082299,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":626,
+    "wof:population":664,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

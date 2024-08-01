@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013996,
-    "geom:area_square_m":130312886.706151,
+    "geom:area_square_m":130312886.706168,
     "geom:bbox":"-75.077151,41.079868,-74.882311,41.212373",
     "geom:latitude":41.151783,
     "geom:longitude":-74.992363,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.156782,
     "lbl:longitude":-74.99896,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":103,
     "uscensus:geoid":4210342512,
     "uscensus:name":"Lehman",
     "uscensus:namelsad":"Lehman township",
+    "uscensus:population":11127,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4210342512
+        "uscensus:geoid":"4210342512"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404483703,
-    "wof:lastmodified":1605055444,
+    "wof:lastmodified":1722117764,
     "wof:name":"Lehman Township",
     "wof:parent_id":102081385,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":10663,
+    "wof:population":11127,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

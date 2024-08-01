@@ -10,6 +10,12 @@
     "geom:latitude":43.682589,
     "geom:longitude":-90.263336,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "village"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.68346,
     "lbl:longitude":-90.263195,
     "lbl:max_zoom":17.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":57,
     "uscensus:geoid":5505781725,
     "uscensus:name":"Union Center",
     "uscensus:namelsad":"Union Center village",
+    "uscensus:population":217,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5505781725
+        "uscensus:geoid":"5505781725"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404491693,
-    "wof:lastmodified":1605055580,
+    "wof:lastmodified":1722117814,
     "wof:name":"Union Center",
     "wof:parent_id":102081297,
     "wof:placetype":"localadmin",
-    "wof:population":200,
+    "wof:population":217,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010153,
-    "geom:area_square_m":89944541.226281,
+    "geom:area_square_m":89944541.226264,
     "geom:bbox":"-94.98827,44.19524,-94.866017,44.282598",
     "geom:latitude":44.23878,
     "geom:longitude":-94.925138,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.238763,
     "lbl:longitude":-94.917785,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":2701508776,
     "uscensus:name":"Burnstown",
     "uscensus:namelsad":"Burnstown township",
+    "uscensus:population":259,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2701508776
+        "uscensus:geoid":"2701508776"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464737
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404511577,
-    "wof:lastmodified":1605055731,
+    "wof:lastmodified":1722117944,
     "wof:name":"Burnstown Township",
     "wof:parent_id":102087615,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":268,
+    "wof:population":259,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

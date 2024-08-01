@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009291,
-    "geom:area_square_m":83420046.659698,
+    "geom:area_square_m":83420046.659704,
     "geom:bbox":"-73.771113,43.373532,-73.678941,43.50998",
     "geom:latitude":43.437317,
     "geom:longitude":-73.723902,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.442807,
     "lbl:longitude":-73.719295,
     "lbl:max_zoom":15.0,
@@ -79,22 +85,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":113,
     "uscensus:geoid":3611340519,
     "uscensus:name":"Lake George",
     "uscensus:namelsad":"Lake George town",
+    "uscensus:population":3489,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688543,
-        102081791
+        102081791,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3611340519
+        "uscensus:geoid":"3611340519"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404523037,
-    "wof:lastmodified":1636499447,
+    "wof:lastmodified":1722233678,
     "wof:name":"Lake George",
     "wof:parent_id":102081791,
     "wof:placetype":"localadmin",
-    "wof:population":3515,
+    "wof:population":3489,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

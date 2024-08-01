@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008324,
-    "geom:area_square_m":77146111.652131,
+    "geom:area_square_m":77146111.652112,
     "geom:bbox":"-90.432469,41.411133,-90.319184,41.514085",
     "geom:latitude":41.452554,
     "geom:longitude":-90.366267,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.448625,
     "lbl:longitude":-90.361684,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":73,
     "uscensus:geoid":1707315677,
     "uscensus:name":"Colona",
     "uscensus:namelsad":"Colona township",
+    "uscensus:population":6613,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1707315677
+        "uscensus:geoid":"1707315677"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404498141,
-    "wof:lastmodified":1605055572,
+    "wof:lastmodified":1722233640,
     "wof:name":"Colona Township",
     "wof:parent_id":102086205,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":6822,
+    "wof:population":6613,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

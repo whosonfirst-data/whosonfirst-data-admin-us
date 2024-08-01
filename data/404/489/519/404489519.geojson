@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007287,
-    "geom:area_square_m":62716162.127921,
+    "geom:area_square_m":62716162.127993,
     "geom:bbox":"-98.218341,45.849594,-98.102692,45.936178",
     "geom:latitude":45.889231,
     "geom:longitude":-98.147506,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.908591,
     "lbl:longitude":-98.132233,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":4601328020,
     "uscensus:name":"Hecla",
     "uscensus:namelsad":"Hecla township",
+    "uscensus:population":31,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4601328020
+        "uscensus:geoid":"4601328020"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478733
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404489519,
-    "wof:lastmodified":1605055927,
+    "wof:lastmodified":1722117801,
     "wof:name":"Hecla Township",
     "wof:parent_id":102086843,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":45,
+    "wof:population":31,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

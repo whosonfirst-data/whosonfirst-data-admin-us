@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000741,
-    "geom:area_square_m":6902038.632601,
+    "geom:area_square_m":6902038.632611,
     "geom:bbox":"-77.47525,41.12371,-77.413616,41.153875",
     "geom:latitude":41.136533,
     "geom:longitude":-77.45216,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.133687,
     "lbl:longitude":-77.451704,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":4203544128,
     "uscensus:name":"Lock Haven",
     "uscensus:namelsad":"Lock Haven city",
+    "uscensus:population":8457,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4203544128
+        "uscensus:geoid":"4203544128"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404485269,
-    "wof:lastmodified":1605055361,
+    "wof:lastmodified":1722117773,
     "wof:name":"Lock Haven",
     "wof:parent_id":102080917,
     "wof:placetype":"localadmin",
-    "wof:population":9772,
+    "wof:population":8457,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

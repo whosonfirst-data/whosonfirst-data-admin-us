@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00229,
-    "geom:area_square_m":21990369.696212,
+    "geom:area_square_m":21990369.696202,
     "geom:bbox":"-82.706935,39.006273,-82.594801,39.066904",
     "geom:latitude":39.046,
     "geom:longitude":-82.64942,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.052027,
     "lbl:longitude":-82.642615,
     "lbl:max_zoom":15.0,
@@ -172,11 +178,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":79,
     "uscensus:geoid":3907937842,
     "uscensus:name":"Jackson",
     "uscensus:namelsad":"Jackson city",
+    "uscensus:population":6206,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -186,8 +195,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3907937842
+        "uscensus:geoid":"3907937842"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -203,11 +213,11 @@
         }
     ],
     "wof:id":404526689,
-    "wof:lastmodified":1605055645,
+    "wof:lastmodified":1722118025,
     "wof:name":"Jackson",
     "wof:parent_id":102084827,
     "wof:placetype":"localadmin",
-    "wof:population":6397,
+    "wof:population":6206,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

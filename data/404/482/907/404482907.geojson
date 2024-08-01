@@ -10,6 +10,12 @@
     "geom:latitude":40.424388,
     "geom:longitude":-78.6201,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.424637,
     "lbl:longitude":-78.619971,
     "lbl:max_zoom":17.0,
@@ -88,11 +94,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":4202143248,
     "uscensus:name":"Lilly",
     "uscensus:namelsad":"Lilly borough",
+    "uscensus:population":857,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -102,8 +111,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202143248
+        "uscensus:geoid":"4202143248"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -119,11 +129,11 @@
         }
     ],
     "wof:id":404482907,
-    "wof:lastmodified":1605055375,
+    "wof:lastmodified":1722117759,
     "wof:name":"Lilly",
     "wof:parent_id":102080879,
     "wof:placetype":"localadmin",
-    "wof:population":968,
+    "wof:population":857,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

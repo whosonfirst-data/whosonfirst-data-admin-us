@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014984,
-    "geom:area_square_m":132606545.735143,
+    "geom:area_square_m":132606545.735104,
     "geom:bbox":"-75.338866,44.235707,-75.194534,44.3677",
     "geom:latitude":44.297299,
     "geom:longitude":-75.265116,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.293806,
     "lbl:longitude":-75.265133,
     "lbl:max_zoom":16.0,
@@ -109,11 +115,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":89,
     "uscensus:geoid":3608923646,
     "uscensus:name":"Edwards",
     "uscensus:namelsad":"Edwards town",
+    "uscensus:population":1002,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -123,8 +132,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3608923646
+        "uscensus:geoid":"3608923646"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -140,11 +150,11 @@
         }
     ],
     "wof:id":404521575,
-    "wof:lastmodified":1605055631,
+    "wof:lastmodified":1722117987,
     "wof:name":"Edwards",
     "wof:parent_id":102082379,
     "wof:placetype":"localadmin",
-    "wof:population":1156,
+    "wof:population":1002,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

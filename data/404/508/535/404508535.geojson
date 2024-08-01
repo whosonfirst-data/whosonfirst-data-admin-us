@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008638,
-    "geom:area_square_m":79244561.087111,
+    "geom:area_square_m":79244561.087082,
     "geom:bbox":"-83.30603,42.02793,-83.133996,42.1844",
     "geom:latitude":42.108696,
     "geom:longitude":-83.228957,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":42.157668,
     "lbl:longitude":-83.280571,
@@ -93,11 +96,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":163,
     "uscensus:geoid":2616311220,
     "uscensus:name":"Brownstown",
     "uscensus:namelsad":"Brownstown charter township",
+    "uscensus:population":32611,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -107,8 +113,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2616311220
+        "uscensus:geoid":"2616311220"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465403
     ],
@@ -127,11 +134,11 @@
         }
     ],
     "wof:id":404508535,
-    "wof:lastmodified":1605055734,
+    "wof:lastmodified":1722117922,
     "wof:name":"Brownstown",
     "wof:parent_id":102083147,
     "wof:placetype":"localadmin",
-    "wof:population":30627,
+    "wof:population":32611,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

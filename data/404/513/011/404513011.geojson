@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008645,
-    "geom:area_square_m":77273531.842971,
+    "geom:area_square_m":77273531.842983,
     "geom:bbox":"-92.569769,43.673925,-92.449159,43.746953",
     "geom:latitude":43.710563,
     "geom:longitude":-92.508996,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.71054,
     "lbl:longitude":-92.508999,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":2709922328,
     "uscensus:name":"Frankford",
     "uscensus:namelsad":"Frankford township",
+    "uscensus:population":384,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2709922328
+        "uscensus:geoid":"2709922328"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462595
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404513011,
-    "wof:lastmodified":1605056042,
+    "wof:lastmodified":1722117955,
     "wof:name":"Frankford Township",
     "wof:parent_id":102087717,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":371,
+    "wof:population":384,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

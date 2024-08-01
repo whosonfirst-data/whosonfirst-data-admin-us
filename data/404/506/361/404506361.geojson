@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010539,
-    "geom:area_square_m":95842043.791197,
+    "geom:area_square_m":95842043.791173,
     "geom:bbox":"-83.565888,42.610741,-83.441914,42.701878",
     "geom:latitude":42.656745,
     "geom:longitude":-83.50412,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":42.65685,
     "lbl:longitude":-83.504116,
@@ -78,11 +81,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":2612586860,
     "uscensus:name":"White Lake",
     "uscensus:namelsad":"White Lake charter township",
+    "uscensus:population":31157,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -92,8 +98,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2612586860
+        "uscensus:geoid":"2612586860"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471699
     ],
@@ -112,11 +119,11 @@
         }
     ],
     "wof:id":404506361,
-    "wof:lastmodified":1605055758,
+    "wof:lastmodified":1722117907,
     "wof:name":"White Lake",
     "wof:parent_id":102083713,
     "wof:placetype":"localadmin",
-    "wof:population":30019,
+    "wof:population":31157,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

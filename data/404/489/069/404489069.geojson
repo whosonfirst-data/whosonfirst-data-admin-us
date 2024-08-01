@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000071,
-    "geom:area_square_m":625569.655604,
+    "geom:area_square_m":625569.655606,
     "geom:bbox":"-97.38704,44.754319,-97.374103,44.76187",
     "geom:latitude":44.758225,
     "geom:longitude":-97.380991,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.757413,
     "lbl:longitude":-97.383055,
     "lbl:max_zoom":18.0,
@@ -223,11 +229,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":57,
     "uscensus:geoid":4605727940,
     "uscensus:name":"Hazel",
     "uscensus:namelsad":"Hazel town",
+    "uscensus:population":102,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -237,8 +246,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4605727940
+        "uscensus:geoid":"4605727940"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -254,11 +264,11 @@
         }
     ],
     "wof:id":404489069,
-    "wof:lastmodified":1605055935,
+    "wof:lastmodified":1722117798,
     "wof:name":"Hazel",
     "wof:parent_id":102086845,
     "wof:placetype":"localadmin",
-    "wof:population":91,
+    "wof:population":102,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

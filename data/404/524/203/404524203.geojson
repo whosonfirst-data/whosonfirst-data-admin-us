@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006763,
-    "geom:area_square_m":63400653.394188,
+    "geom:area_square_m":63400653.394199,
     "geom:bbox":"-81.765531,40.66778,-81.649208,40.726765",
     "geom:latitude":40.697323,
     "geom:longitude":-81.707455,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.697267,
     "lbl:longitude":-81.70746,
     "lbl:max_zoom":15.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":169,
     "uscensus:geoid":3916959556,
     "uscensus:name":"Paint",
     "uscensus:namelsad":"Paint township",
+    "uscensus:population":3473,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3916959556
+        "uscensus:geoid":"3916959556"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404524203,
-    "wof:lastmodified":1605056106,
+    "wof:lastmodified":1722233681,
     "wof:name":"Paint Township",
     "wof:parent_id":102084731,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3209,
+    "wof:population":3473,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010328,
-    "geom:area_square_m":92620276.401847,
+    "geom:area_square_m":92620276.401838,
     "geom:bbox":"-85.801741,43.466952,-85.681823,43.563137",
     "geom:latitude":43.511532,
     "geom:longitude":-85.739338,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.50771,
     "lbl:longitude":-85.742543,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":123,
     "uscensus:geoid":2612326700,
     "uscensus:name":"Everett",
     "uscensus:namelsad":"Everett township",
+    "uscensus:population":1995,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2612326700
+        "uscensus:geoid":"2612326700"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473989
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404506319,
-    "wof:lastmodified":1605055765,
+    "wof:lastmodified":1722117906,
     "wof:name":"Everett Township",
     "wof:parent_id":102082987,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1862,
+    "wof:population":1995,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

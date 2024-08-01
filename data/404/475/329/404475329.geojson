@@ -10,6 +10,12 @@
     "geom:latitude":44.934145,
     "geom:longitude":-67.254415,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.939691,
     "lbl:longitude":-67.255234,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":2302917355,
     "uscensus:name":"Dennysville",
     "uscensus:namelsad":"Dennysville town",
+    "uscensus:population":315,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2302917355
+        "uscensus:geoid":"2302917355"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457731
     ],
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404475329,
-    "wof:lastmodified":1605055855,
+    "wof:lastmodified":1722117707,
     "wof:name":"Dennysville",
     "wof:parent_id":102081143,
     "wof:placetype":"localadmin",
-    "wof:population":342,
+    "wof:population":315,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

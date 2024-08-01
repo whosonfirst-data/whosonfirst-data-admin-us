@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006985,
-    "geom:area_square_m":64585003.428344,
+    "geom:area_square_m":64585003.428307,
     "geom:bbox":"-75.774471,41.555622,-75.647577,41.642263",
     "geom:latitude":41.603098,
     "geom:longitude":-75.703802,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.6094,
     "lbl:longitude":-75.705013,
     "lbl:max_zoom":16.0,
@@ -61,11 +67,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":69,
     "uscensus:geoid":4206905696,
     "uscensus:name":"Benton",
     "uscensus:namelsad":"Benton township",
+    "uscensus:population":1726,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -75,8 +84,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206905696
+        "uscensus:geoid":"4206905696"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467975
     ],
@@ -95,12 +105,12 @@
         }
     ],
     "wof:id":404488137,
-    "wof:lastmodified":1605055812,
+    "wof:lastmodified":1722117792,
     "wof:name":"Benton Township",
     "wof:parent_id":102081345,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1908,
+    "wof:population":1726,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

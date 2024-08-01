@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.015467,
-    "geom:area_square_m":148606103.496272,
+    "geom:area_square_m":148606103.496284,
     "geom:bbox":"-87.815656,38.953209,-87.684518,39.073676",
     "geom:latitude":39.013718,
     "geom:longitude":-87.749965,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.013575,
     "lbl:longitude":-87.749958,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":33,
     "uscensus:geoid":1703364720,
     "uscensus:name":"Robinson",
     "uscensus:namelsad":"Robinson township",
+    "uscensus:population":9109,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1703364720
+        "uscensus:geoid":"1703364720"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404497679,
-    "wof:lastmodified":1605055499,
+    "wof:lastmodified":1722233639,
     "wof:name":"Robinson Township",
     "wof:parent_id":102080809,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":9900,
+    "wof:population":9109,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

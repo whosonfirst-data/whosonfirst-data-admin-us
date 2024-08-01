@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000298,
-    "geom:area_square_m":2667983.749589,
+    "geom:area_square_m":2667983.749587,
     "geom:bbox":"-89.127544,43.528548,-89.094475,43.554387",
     "geom:latitude":43.541638,
     "geom:longitude":-89.11081,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "village"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.541703,
     "lbl:longitude":-89.103645,
     "lbl:max_zoom":17.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":5502112200,
     "uscensus:name":"Cambria",
     "uscensus:namelsad":"Cambria village",
+    "uscensus:population":766,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5502112200
+        "uscensus:geoid":"5502112200"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -104,11 +114,11 @@
         }
     ],
     "wof:id":404493175,
-    "wof:lastmodified":1605055947,
+    "wof:lastmodified":1722117824,
     "wof:name":"Cambria",
     "wof:parent_id":102081841,
     "wof:placetype":"localadmin",
-    "wof:population":767,
+    "wof:population":766,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

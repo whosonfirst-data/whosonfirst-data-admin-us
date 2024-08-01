@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000024,
-    "geom:area_square_m":215730.141227,
+    "geom:area_square_m":215730.141228,
     "geom:bbox":"-97.858476,44.360566,-97.853199,44.373139",
     "geom:latitude":44.366802,
     "geom:longitude":-97.855544,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.366928,
     "lbl:longitude":-97.855646,
     "lbl:max_zoom":18.0,
@@ -223,11 +229,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":4600532020,
     "uscensus:name":"Iroquois",
     "uscensus:namelsad":"Iroquois city",
+    "uscensus:population":64,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -237,8 +246,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4600532020
+        "uscensus:geoid":"4600532020"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -254,11 +264,11 @@
         }
     ],
     "wof:id":404489999,
-    "wof:lastmodified":1605055922,
+    "wof:lastmodified":1722117804,
     "wof:name":"Iroquois",
     "wof:parent_id":102086841,
     "wof:placetype":"localadmin",
-    "wof:population":66,
+    "wof:population":64,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

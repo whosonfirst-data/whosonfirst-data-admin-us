@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010801,
-    "geom:area_square_m":93151888.151285,
+    "geom:area_square_m":93151888.151325,
     "geom:bbox":"-102.694555,45.732492,-102.569778,45.819799",
     "geom:latitude":45.776141,
     "geom:longitude":-102.632005,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.776146,
     "lbl:longitude":-102.632007,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":4610538100,
     "uscensus:name":"Lodgepole",
     "uscensus:namelsad":"Lodgepole township",
+    "uscensus:population":28,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4610538100
+        "uscensus:geoid":"4610538100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462037
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404490759,
-    "wof:lastmodified":1605055519,
+    "wof:lastmodified":1722117809,
     "wof:name":"Lodgepole Township",
     "wof:parent_id":102086801,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":34,
+    "wof:population":28,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

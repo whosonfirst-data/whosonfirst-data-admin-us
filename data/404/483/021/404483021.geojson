@@ -10,6 +10,12 @@
     "geom:latitude":41.033825,
     "geom:longitude":-77.302322,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.032711,
     "lbl:longitude":-77.303168,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":4203544400,
     "uscensus:name":"Loganton",
     "uscensus:namelsad":"Loganton borough",
+    "uscensus:population":463,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4203544400
+        "uscensus:geoid":"4203544400"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404483021,
-    "wof:lastmodified":1605055446,
+    "wof:lastmodified":1722117760,
     "wof:name":"Loganton",
     "wof:parent_id":102080917,
     "wof:placetype":"localadmin",
-    "wof:population":468,
+    "wof:population":463,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

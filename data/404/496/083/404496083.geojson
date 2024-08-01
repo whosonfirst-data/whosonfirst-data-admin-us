@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009731,
-    "geom:area_square_m":94712340.703648,
+    "geom:area_square_m":94712340.703611,
     "geom:bbox":"-88.816417,38.037466,-88.704606,38.126365",
     "geom:latitude":38.081925,
     "geom:longitude":-88.760902,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.082108,
     "lbl:longitude":-88.760911,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":55,
     "uscensus:geoid":1705553637,
     "uscensus:name":"Northern",
     "uscensus:namelsad":"Northern township",
+    "uscensus:population":449,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1705553637
+        "uscensus:geoid":"1705553637"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404496083,
-    "wof:lastmodified":1605055595,
+    "wof:lastmodified":1722233633,
     "wof:name":"Northern Township",
     "wof:parent_id":102082283,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":476,
+    "wof:population":449,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000222,
-    "geom:area_square_m":1982890.036501,
+    "geom:area_square_m":1982890.036498,
     "geom:bbox":"-96.752588,43.753799,-96.726333,43.768313",
     "geom:latitude":43.760294,
     "geom:longitude":-96.737018,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.759319,
     "lbl:longitude":-96.736125,
     "lbl:max_zoom":16.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":4609903380,
     "uscensus:name":"Baltic",
     "uscensus:namelsad":"Baltic city",
+    "uscensus:population":1325,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4609903380
+        "uscensus:geoid":"4609903380"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -104,11 +114,11 @@
         }
     ],
     "wof:id":404491147,
-    "wof:lastmodified":1605055592,
+    "wof:lastmodified":1722117811,
     "wof:name":"Baltic",
     "wof:parent_id":102086007,
     "wof:placetype":"localadmin",
-    "wof:population":1089,
+    "wof:population":1325,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

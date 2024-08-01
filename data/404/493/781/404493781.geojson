@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001332,
-    "geom:area_square_m":11614791.27551,
+    "geom:area_square_m":11614791.275505,
     "geom:bbox":"-90.374722,45.105915,-90.307518,45.162687",
     "geom:latitude":45.136525,
     "geom:longitude":-90.343582,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.140393,
     "lbl:longitude":-90.343356,
     "lbl:max_zoom":15.0,
@@ -97,11 +103,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":119,
     "uscensus:geoid":5511950425,
     "uscensus:name":"Medford",
     "uscensus:namelsad":"Medford city",
+    "uscensus:population":4406,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -111,8 +120,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5511950425
+        "uscensus:geoid":"5511950425"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -128,11 +138,11 @@
         }
     ],
     "wof:id":404493781,
-    "wof:lastmodified":1605055956,
+    "wof:lastmodified":1722117828,
     "wof:name":"Medford",
     "wof:parent_id":102081769,
     "wof:placetype":"localadmin",
-    "wof:population":4326,
+    "wof:population":4406,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

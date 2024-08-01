@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010943,
-    "geom:area_square_m":94879568.575963,
+    "geom:area_square_m":94879568.575973,
     "geom:bbox":"-68.266776,45.4266,-68.115647,45.533611",
     "geom:latitude":45.478045,
     "geom:longitude":-68.19121,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "plantation"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.477735,
     "lbl:longitude":-68.191211,
     "lbl:max_zoom":18.0,
@@ -118,11 +124,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":2301981055,
     "uscensus:name":"Webster",
     "uscensus:namelsad":"Webster plantation",
+    "uscensus:population":66,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
@@ -132,8 +141,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2301981055
+        "uscensus:geoid":"2301981055"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466527
     ],
@@ -152,11 +162,11 @@
         }
     ],
     "wof:id":404474753,
-    "wof:lastmodified":1605055898,
+    "wof:lastmodified":1722117703,
     "wof:name":"Webster",
     "wof:parent_id":102080723,
     "wof:placetype":"localadmin",
-    "wof:population":85,
+    "wof:population":66,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

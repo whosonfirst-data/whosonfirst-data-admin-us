@@ -187,7 +187,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":40200499,
     "uscensus:awater":40328,
     "uscensus:classfp":"C1",
@@ -203,17 +204,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"42624",
     "uscensus:placens":"02395662",
+    "uscensus:population":17252,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"18",
     "wd:elevation":286.0,
     "wd:latitude":40.0522,
     "wd:longitude":-86.4717,
     "wd:wordcount":2002,
     "wof:belongsto":[
-        85688709,
         102191575,
-        404501079,
         85633793,
-        102086453
+        102086453,
+        404501079,
+        85688709
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -222,10 +225,11 @@
         "gn:id":4922673,
         "gp:id":2437669,
         "qs_pg:id":354365,
-        "uscensus:geoid":1842624,
+        "uscensus:geoid":"1842624",
         "wd:id":"Q922352",
         "wk:page":"Lebanon, Indiana"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -246,11 +250,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884763,
+    "wof:lastmodified":1722116118,
     "wof:name":"Lebanon",
     "wof:parent_id":404501079,
     "wof:placetype":"locality",
-    "wof:population":15792,
+    "wof:population":17252,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

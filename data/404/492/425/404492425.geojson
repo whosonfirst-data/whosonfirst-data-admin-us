@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001233,
-    "geom:area_square_m":10904622.892188,
+    "geom:area_square_m":10904622.892186,
     "geom:bbox":"-91.46085,44.293843,-91.377679,44.372331",
     "geom:latitude":44.332782,
     "geom:longitude":-91.4172,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.311914,
     "lbl:longitude":-91.412927,
     "lbl:max_zoom":16.0,
@@ -307,11 +313,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":121,
     "uscensus:geoid":5512136800,
     "uscensus:name":"Independence",
     "uscensus:namelsad":"Independence city",
+    "uscensus:population":1472,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -321,8 +330,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5512136800
+        "uscensus:geoid":"5512136800"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -338,11 +348,11 @@
         }
     ],
     "wof:id":404492425,
-    "wof:lastmodified":1605055999,
+    "wof:lastmodified":1722117819,
     "wof:name":"Independence",
     "wof:parent_id":102081731,
     "wof:placetype":"localadmin",
-    "wof:population":1336,
+    "wof:population":1472,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

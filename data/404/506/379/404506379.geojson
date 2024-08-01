@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010619,
-    "geom:area_square_m":93990768.379474,
+    "geom:area_square_m":93990768.379462,
     "geom:bbox":"-84.36956,44.247072,-84.244391,44.334469",
     "geom:latitude":44.29077,
     "geom:longitude":-84.308036,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.290769,
     "lbl:longitude":-84.308039,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":129,
     "uscensus:geoid":2612960300,
     "uscensus:name":"Ogemaw",
     "uscensus:namelsad":"Ogemaw township",
+    "uscensus:population":1165,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2612960300
+        "uscensus:geoid":"2612960300"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471071
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404506379,
-    "wof:lastmodified":1605055755,
+    "wof:lastmodified":1722117907,
     "wof:name":"Ogemaw Township",
     "wof:parent_id":102083113,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1223,
+    "wof:population":1165,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009731,
-    "geom:area_square_m":92228299.730173,
+    "geom:area_square_m":92228299.730149,
     "geom:bbox":"-100.403201,39.915035,-100.290054,40.00191",
     "geom:latitude":39.958523,
     "geom:longitude":-100.346518,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.958602,
     "lbl:longitude":-100.34654,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":39,
     "uscensus:geoid":2003930050,
     "uscensus:name":"Harlan",
     "uscensus:namelsad":"Harlan township",
+    "uscensus:population":35,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2003930050
+        "uscensus:geoid":"2003930050"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457949
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404502263,
-    "wof:lastmodified":1605055275,
+    "wof:lastmodified":1722117878,
     "wof:name":"Harlan Township",
     "wof:parent_id":102083441,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":21,
+    "wof:population":35,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

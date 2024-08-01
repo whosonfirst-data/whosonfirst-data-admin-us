@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000569,
-    "geom:area_square_m":5362720.934594,
+    "geom:area_square_m":5362720.934595,
     "geom:bbox":"-74.003734,40.322169,-73.970981,40.349444",
     "geom:latitude":40.336271,
     "geom:longitude":-73.985794,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.336388,
     "lbl:longitude":-73.985792,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":3402547130,
     "uscensus:name":"Monmouth Beach",
     "uscensus:namelsad":"Monmouth Beach borough",
+    "uscensus:population":3204,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3402547130
+        "uscensus:geoid":"3402547130"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404477503,
-    "wof:lastmodified":1605055414,
+    "wof:lastmodified":1722117723,
     "wof:name":"Monmouth Beach",
     "wof:parent_id":102085049,
     "wof:placetype":"localadmin",
-    "wof:population":3279,
+    "wof:population":3204,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

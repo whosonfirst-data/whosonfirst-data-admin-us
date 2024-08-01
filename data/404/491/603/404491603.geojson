@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010353,
-    "geom:area_square_m":91084488.717033,
+    "geom:area_square_m":91084488.717046,
     "geom:bbox":"-90.43624,44.59638,-90.315899,44.685154",
     "geom:latitude":44.640941,
     "geom:longitude":-90.376101,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.641016,
     "lbl:longitude":-90.376103,
     "lbl:max_zoom":16.0,
@@ -115,11 +121,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":5501927775,
     "uscensus:name":"Fremont",
     "uscensus:namelsad":"Fremont town",
+    "uscensus:population":1312,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -129,8 +138,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5501927775
+        "uscensus:geoid":"5501927775"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -146,11 +156,11 @@
         }
     ],
     "wof:id":404491603,
-    "wof:lastmodified":1605055580,
+    "wof:lastmodified":1722117814,
     "wof:name":"Fremont",
     "wof:parent_id":102081269,
     "wof:placetype":"localadmin",
-    "wof:population":1265,
+    "wof:population":1312,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

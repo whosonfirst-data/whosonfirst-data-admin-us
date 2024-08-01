@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000216,
-    "geom:area_square_m":1814229.132166,
+    "geom:area_square_m":1814229.132163,
     "geom:bbox":"-94.765107,47.208115,-94.744687,47.22331",
     "geom:latitude":47.214735,
     "geom:longitude":-94.757377,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.213975,
     "lbl:longitude":-94.759225,
     "lbl:max_zoom":18.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":57,
     "uscensus:geoid":2705735612,
     "uscensus:name":"Laporte",
     "uscensus:namelsad":"Laporte city",
+    "uscensus:population":141,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2705735612
+        "uscensus:geoid":"2705735612"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404509773,
-    "wof:lastmodified":1605055799,
+    "wof:lastmodified":1722117932,
     "wof:name":"Laporte",
     "wof:parent_id":102087907,
     "wof:placetype":"localadmin",
-    "wof:population":111,
+    "wof:population":141,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

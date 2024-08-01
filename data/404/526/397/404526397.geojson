@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008924,
-    "geom:area_square_m":83349457.150581,
+    "geom:area_square_m":83349457.150582,
     "geom:bbox":"-84.572657,40.9026,-84.456755,40.9901",
     "geom:latitude":40.944612,
     "geom:longitude":-84.520687,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.94642,
     "lbl:longitude":-84.520669,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":161,
     "uscensus:geoid":3916135756,
     "uscensus:name":"Hoaglin",
     "uscensus:namelsad":"Hoaglin township",
+    "uscensus:population":631,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3916135756
+        "uscensus:geoid":"3916135756"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463313
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404526397,
-    "wof:lastmodified":1605055643,
+    "wof:lastmodified":1722118023,
     "wof:name":"Hoaglin Township",
     "wof:parent_id":102083689,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":662,
+    "wof:population":631,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003311,
-    "geom:area_square_m":31377229.914253,
+    "geom:area_square_m":31377229.914294,
     "geom:bbox":"-75.123821,39.92521,-75.010146,39.996081",
     "geom:latitude":39.964915,
     "geom:longitude":-75.056366,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.973391,
     "lbl:longitude":-75.05251,
     "lbl:max_zoom":14.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":3400757660,
     "uscensus:name":"Pennsauken",
     "uscensus:namelsad":"Pennsauken township",
+    "uscensus:population":37288,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400757660
+        "uscensus:geoid":"3400757660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473793
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404478023,
-    "wof:lastmodified":1605055335,
+    "wof:lastmodified":1722117727,
     "wof:name":"Pennsauken Township",
     "wof:parent_id":102081131,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":35885,
+    "wof:population":37288,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

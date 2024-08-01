@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000467,
-    "geom:area_square_m":3877854.087199,
+    "geom:area_square_m":3877854.087198,
     "geom:bbox":"-98.193481,47.751988,-98.161175,47.773761",
     "geom:latitude":47.765268,
     "geom:longitude":-98.175529,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.765631,
     "lbl:longitude":-98.175221,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":63,
     "uscensus:geoid":3806349580,
     "uscensus:name":"McVille",
     "uscensus:namelsad":"McVille city",
+    "uscensus:population":379,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3806349580
+        "uscensus:geoid":"3806349580"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404479275,
-    "wof:lastmodified":1605055473,
+    "wof:lastmodified":1722117736,
     "wof:name":"Mcville",
     "wof:parent_id":102082083,
     "wof:placetype":"localadmin",
-    "wof:population":349,
+    "wof:population":379,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

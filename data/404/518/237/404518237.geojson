@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01722,
-    "geom:area_square_m":169738614.563042,
+    "geom:area_square_m":169738614.562998,
     "geom:bbox":"-92.251359,37.057097,-92.14098,37.219533",
     "geom:latitude":37.138271,
     "geom:longitude":-92.19557,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.138557,
     "lbl:longitude":-92.195568,
     "lbl:max_zoom":16.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":215,
     "uscensus:geoid":2921515022,
     "uscensus:name":"Clinton",
     "uscensus:namelsad":"Clinton township",
+    "uscensus:population":1579,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":29,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2921515022
+        "uscensus:geoid":"2921515022"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404518237,
-    "wof:lastmodified":1604530734,
+    "wof:lastmodified":1722233670,
     "wof:name":"Clinton Township",
     "wof:parent_id":102081225,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1652,
+    "wof:population":1579,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

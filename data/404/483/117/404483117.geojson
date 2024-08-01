@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006516,
-    "geom:area_square_m":60896509.371402,
+    "geom:area_square_m":60896509.371429,
     "geom:bbox":"-76.408328,40.831191,-76.273046,40.950512",
     "geom:latitude":40.899279,
     "geom:longitude":-76.33428,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.900862,
     "lbl:longitude":-76.333253,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":37,
     "uscensus:geoid":4203765240,
     "uscensus:name":"Roaring Creek",
     "uscensus:namelsad":"Roaring Creek township",
+    "uscensus:population":556,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4203765240
+        "uscensus:geoid":"4203765240"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469833
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404483117,
-    "wof:lastmodified":1605055443,
+    "wof:lastmodified":1722117761,
     "wof:name":"Roaring Creek Township",
     "wof:parent_id":102080973,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":545,
+    "wof:population":556,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

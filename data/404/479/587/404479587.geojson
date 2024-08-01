@@ -10,6 +10,12 @@
     "geom:latitude":46.041682,
     "geom:longitude":-100.924357,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.041453,
     "lbl:longitude":-100.924357,
     "lbl:max_zoom":18.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":85,
     "uscensus:geoid":3808571660,
     "uscensus:name":"Selfridge",
     "uscensus:namelsad":"Selfridge city",
+    "uscensus:population":118,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3808571660
+        "uscensus:geoid":"3808571660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,11 +96,11 @@
         }
     ],
     "wof:id":404479587,
-    "wof:lastmodified":1605055477,
+    "wof:lastmodified":1722117738,
     "wof:name":"Selfridge",
     "wof:parent_id":102082101,
     "wof:placetype":"localadmin",
-    "wof:population":160,
+    "wof:population":118,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

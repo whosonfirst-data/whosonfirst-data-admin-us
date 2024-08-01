@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012853,
-    "geom:area_square_m":125289918.867975,
+    "geom:area_square_m":125289918.867934,
     "geom:bbox":"-94.713573,37.90644,-94.614011,38.03735",
     "geom:latitude":37.971811,
     "geom:longitude":-94.663715,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.971879,
     "lbl:longitude":-94.663709,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":2001153100,
     "uscensus:name":"Osage",
     "uscensus:namelsad":"Osage township",
+    "uscensus:population":342,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2001153100
+        "uscensus:geoid":"2001153100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472555
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404503863,
-    "wof:lastmodified":1605055329,
+    "wof:lastmodified":1722117889,
     "wof:name":"Osage Township",
     "wof:parent_id":102082133,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":354,
+    "wof:population":342,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

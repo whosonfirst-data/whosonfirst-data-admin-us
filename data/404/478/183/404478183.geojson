@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00438,
-    "geom:area_square_m":41632957.039879,
+    "geom:area_square_m":41632957.039885,
     "geom:bbox":"-75.229017,39.715024,-75.113804,39.799097",
     "geom:latitude":39.761832,
     "geom:longitude":-75.168562,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.763233,
     "lbl:longitude":-75.168594,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":3401543440,
     "uscensus:name":"Mantua",
     "uscensus:namelsad":"Mantua township",
+    "uscensus:population":15446,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3401543440
+        "uscensus:geoid":"3401543440"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404478183,
-    "wof:lastmodified":1605055352,
+    "wof:lastmodified":1722117728,
     "wof:name":"Mantua Township",
     "wof:parent_id":102085999,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":15217,
+    "wof:population":15446,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

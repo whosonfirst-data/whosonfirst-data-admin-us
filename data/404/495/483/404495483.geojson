@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009548,
-    "geom:area_square_m":84894926.062293,
+    "geom:area_square_m":84894926.062273,
     "geom:bbox":"-89.598072,43.982,-89.482154,44.068506",
     "geom:latitude":44.024764,
     "geom:longitude":-89.540544,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.01571,
     "lbl:longitude":-89.565166,
     "lbl:max_zoom":17.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":137,
     "uscensus:geoid":5513716400,
     "uscensus:name":"Coloma",
     "uscensus:namelsad":"Coloma town",
+    "uscensus:population":747,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5513716400
+        "uscensus:geoid":"5513716400"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468753
     ],
@@ -116,11 +126,11 @@
         }
     ],
     "wof:id":404495483,
-    "wof:lastmodified":1605055981,
+    "wof:lastmodified":1722117840,
     "wof:name":"Coloma",
     "wof:parent_id":102081799,
     "wof:placetype":"localadmin",
-    "wof:population":753,
+    "wof:population":747,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

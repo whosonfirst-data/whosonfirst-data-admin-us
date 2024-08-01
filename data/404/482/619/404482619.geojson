@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009317,
-    "geom:area_square_m":88089214.213399,
+    "geom:area_square_m":88089214.213414,
     "geom:bbox":"-78.620512,40.059633,-78.482764,40.193008",
     "geom:latitude":40.129984,
     "geom:longitude":-78.554618,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.136703,
     "lbl:longitude":-78.55356,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":4200921788,
     "uscensus:name":"East St. Clair",
     "uscensus:namelsad":"East St. Clair township",
+    "uscensus:population":2889,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200921788
+        "uscensus:geoid":"4200921788"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457255
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404482619,
-    "wof:lastmodified":1605055378,
+    "wof:lastmodified":1722117758,
     "wof:name":"East St. Clair Township",
     "wof:parent_id":102080939,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3048,
+    "wof:population":2889,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

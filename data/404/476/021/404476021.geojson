@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004867,
-    "geom:area_square_m":44330107.841551,
+    "geom:area_square_m":44330107.84152,
     "geom:bbox":"-71.218672,42.515537,-71.130524,42.615268",
     "geom:latitude":42.560916,
     "geom:longitude":-71.165406,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.556339,
     "lbl:longitude":-71.164735,
     "lbl:max_zoom":14.0,
@@ -127,11 +133,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":2501780230,
     "uscensus:name":"Wilmington",
     "uscensus:namelsad":"Wilmington town",
+    "uscensus:population":23148,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -141,8 +150,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2501780230
+        "uscensus:geoid":"2501780230"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -158,11 +168,11 @@
         }
     ],
     "wof:id":404476021,
-    "wof:lastmodified":1605055407,
+    "wof:lastmodified":1722117712,
     "wof:name":"Wilmington",
     "wof:parent_id":102084643,
     "wof:placetype":"localadmin",
-    "wof:population":22325,
+    "wof:population":23148,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009818,
-    "geom:area_square_m":81942620.229965,
+    "geom:area_square_m":81942620.229936,
     "geom:bbox":"-95.056009,47.497723,-94.92754,47.586123",
     "geom:latitude":47.546292,
     "geom:longitude":-94.993626,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.551683,
     "lbl:longitude":-94.990198,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":2700717954,
     "uscensus:name":"Eckles",
     "uscensus:namelsad":"Eckles township",
+    "uscensus:population":1960,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2700717954
+        "uscensus:geoid":"2700717954"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461479
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404511383,
-    "wof:lastmodified":1605055721,
+    "wof:lastmodified":1722117943,
     "wof:name":"Eckles Township",
     "wof:parent_id":102087773,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1516,
+    "wof:population":1960,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

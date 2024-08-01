@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009538,
-    "geom:area_square_m":90701722.272028,
+    "geom:area_square_m":90701722.272042,
     "geom:bbox":"-88.812709,39.680905,-88.699833,39.792273",
     "geom:latitude":39.728182,
     "geom:longitude":-88.74777,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.71423,
     "lbl:longitude":-88.737575,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":139,
     "uscensus:geoid":1713920344,
     "uscensus:name":"Dora",
     "uscensus:namelsad":"Dora township",
+    "uscensus:population":682,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1713920344
+        "uscensus:geoid":"1713920344"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404498611,
-    "wof:lastmodified":1605055560,
+    "wof:lastmodified":1722233643,
     "wof:name":"Dora Township",
     "wof:parent_id":102082295,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":802,
+    "wof:population":682,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

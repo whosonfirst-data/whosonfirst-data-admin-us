@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.020947,
-    "geom:area_square_m":184566935.038008,
+    "geom:area_square_m":184566935.038005,
     "geom:bbox":"-83.645664,44.510911,-83.401467,44.5982",
     "geom:latitude":44.554411,
     "geom:longitude":-83.523271,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.554413,
     "lbl:longitude":-83.52327,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":2600153880,
     "uscensus:name":"Mikado",
     "uscensus:namelsad":"Mikado township",
+    "uscensus:population":880,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2600153880
+        "uscensus:geoid":"2600153880"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460643
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404505695,
-    "wof:lastmodified":1605055283,
+    "wof:lastmodified":1722117902,
     "wof:name":"Mikado Township",
     "wof:parent_id":102083003,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":947,
+    "wof:population":880,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

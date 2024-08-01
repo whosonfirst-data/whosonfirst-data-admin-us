@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.024499,
-    "geom:area_square_m":227088634.635331,
+    "geom:area_square_m":227088634.635281,
     "geom:bbox":"-78.814385,41.360675,-78.641117,41.518442",
     "geom:latitude":41.440523,
     "geom:longitude":-78.732347,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.476346,
     "lbl:longitude":-78.752274,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":47,
     "uscensus:geoid":4204764792,
     "uscensus:name":"Ridgway",
     "uscensus:namelsad":"Ridgway township",
+    "uscensus:population":2377,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4204764792
+        "uscensus:geoid":"4204764792"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460221
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404486715,
-    "wof:lastmodified":1605055866,
+    "wof:lastmodified":1722117782,
     "wof:name":"Ridgway Township",
     "wof:parent_id":102081265,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2523,
+    "wof:population":2377,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

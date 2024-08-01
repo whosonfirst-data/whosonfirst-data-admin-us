@@ -95,7 +95,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":753848,
     "uscensus:awater":0,
     "uscensus:classfp":"U1",
@@ -111,13 +112,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"03900",
     "uscensus:placens":"02584544",
+    "uscensus:population":141,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"46",
     "wof:belongsto":[
-        85688693,
         102191575,
-        404489435,
         85633793,
-        102086843
+        102086843,
+        404489435,
+        85688693
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -126,9 +129,10 @@
         "gn:id":5226172,
         "gp:id":2359971,
         "qs_pg:id":195484,
-        "uscensus:geoid":4603900,
+        "uscensus:geoid":"4603900",
         "wd:id":"Q4256956"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -149,11 +153,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690888229,
+    "wof:lastmodified":1722116249,
     "wof:name":"Bath",
     "wof:parent_id":404489435,
     "wof:placetype":"locality",
-    "wof:population":172,
+    "wof:population":141,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

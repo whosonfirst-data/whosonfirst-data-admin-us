@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006035,
-    "geom:area_square_m":53797285.286353,
+    "geom:area_square_m":53797285.286337,
     "geom:bbox":"-73.040215,43.804874,-72.958853,43.923154",
     "geom:latitude":43.865791,
     "geom:longitude":-73.004802,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.863356,
     "lbl:longitude":-73.005587,
     "lbl:max_zoom":18.0,
@@ -91,11 +97,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":5000128600,
     "uscensus:name":"Goshen",
     "uscensus:namelsad":"Goshen town",
+    "uscensus:population":182,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -105,8 +114,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5000128600
+        "uscensus:geoid":"5000128600"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471103
     ],
@@ -125,11 +135,11 @@
         }
     ],
     "wof:id":404527543,
-    "wof:lastmodified":1605055680,
+    "wof:lastmodified":1722118031,
     "wof:name":"Goshen",
     "wof:parent_id":102080765,
     "wof:placetype":"localadmin",
-    "wof:population":164,
+    "wof:population":182,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

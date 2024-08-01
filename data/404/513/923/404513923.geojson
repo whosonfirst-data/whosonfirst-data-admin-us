@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0002,
-    "geom:area_square_m":1714405.473813,
+    "geom:area_square_m":1714405.473811,
     "geom:bbox":"-95.304361,46.03999,-95.281225,46.052692",
     "geom:latitude":46.046236,
     "geom:longitude":-95.293132,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.046256,
     "lbl:longitude":-95.295666,
     "lbl:max_zoom":17.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":2704142398,
     "uscensus:name":"Miltona",
     "uscensus:namelsad":"Miltona city",
+    "uscensus:population":438,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2704142398
+        "uscensus:geoid":"2704142398"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404513923,
-    "wof:lastmodified":1605056038,
+    "wof:lastmodified":1722117962,
     "wof:name":"Miltona",
     "wof:parent_id":102087127,
     "wof:placetype":"localadmin",
-    "wof:population":424,
+    "wof:population":438,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

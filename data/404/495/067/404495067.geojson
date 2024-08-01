@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000648,
-    "geom:area_square_m":5772023.082543,
+    "geom:area_square_m":5772023.082535,
     "geom:bbox":"-88.041839,43.90505,-87.99719,43.927964",
     "geom:latitude":43.916521,
     "geom:longitude":-88.023066,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.914225,
     "lbl:longitude":-88.032698,
     "lbl:max_zoom":15.0,
@@ -340,11 +346,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":71,
     "uscensus:geoid":5507139525,
     "uscensus:name":"Kiel",
     "uscensus:namelsad":"Kiel city",
+    "uscensus:population":3616,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -354,8 +363,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5507139525
+        "uscensus:geoid":"5507139525"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -371,11 +381,11 @@
         }
     ],
     "wof:id":404495067,
-    "wof:lastmodified":1605055993,
+    "wof:lastmodified":1722117837,
     "wof:name":"Kiel",
     "wof:parent_id":102081871,
     "wof:placetype":"localadmin",
-    "wof:population":3429,
+    "wof:population":3616,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

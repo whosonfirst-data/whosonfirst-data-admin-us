@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001035,
-    "geom:area_square_m":9859627.586764,
+    "geom:area_square_m":9859627.586762,
     "geom:bbox":"-74.350885,39.57531,-74.310246,39.616769",
     "geom:latitude":39.5973,
     "geom:longitude":-74.330542,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.597604,
     "lbl:longitude":-74.330147,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":3402974210,
     "uscensus:name":"Tuckerton",
     "uscensus:namelsad":"Tuckerton borough",
+    "uscensus:population":3681,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3402974210
+        "uscensus:geoid":"3402974210"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404477805,
-    "wof:lastmodified":1605055421,
+    "wof:lastmodified":1722117725,
     "wof:name":"Tuckerton",
     "wof:parent_id":102081485,
     "wof:placetype":"localadmin",
-    "wof:population":3347,
+    "wof:population":3681,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

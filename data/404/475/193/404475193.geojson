@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.017797,
-    "geom:area_square_m":156268286.569433,
+    "geom:area_square_m":156268286.569395,
     "geom:bbox":"-69.75999,44.686877,-69.580692,44.824369",
     "geom:latitude":44.755349,
     "geom:longitude":-69.665732,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.755981,
     "lbl:longitude":-69.665753,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":2302568910,
     "uscensus:name":"Skowhegan",
     "uscensus:namelsad":"Skowhegan town",
+    "uscensus:population":8678,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2302568910
+        "uscensus:geoid":"2302568910"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404475193,
-    "wof:lastmodified":1605055839,
+    "wof:lastmodified":1722117706,
     "wof:name":"Skowhegan",
     "wof:parent_id":102087435,
     "wof:placetype":"localadmin",
-    "wof:population":8589,
+    "wof:population":8678,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

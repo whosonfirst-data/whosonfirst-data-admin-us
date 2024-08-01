@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010736,
-    "geom:area_square_m":95804863.329113,
+    "geom:area_square_m":95804863.329036,
     "geom:bbox":"-98.44574,43.759907,-98.325242,43.851058",
     "geom:latitude":43.805509,
     "geom:longitude":-98.385299,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.805573,
     "lbl:longitude":-98.385297,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4600348180,
     "uscensus:name":"Palatine",
     "uscensus:namelsad":"Palatine township",
+    "uscensus:population":70,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4600348180
+        "uscensus:geoid":"4600348180"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478917
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404489947,
-    "wof:lastmodified":1605055928,
+    "wof:lastmodified":1722117803,
     "wof:name":"Palatine Township",
     "wof:parent_id":102086839,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":63,
+    "wof:population":70,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

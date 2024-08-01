@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.028905,
-    "geom:area_square_m":278261902.182532,
+    "geom:area_square_m":278261902.182497,
     "geom:bbox":"-100.984353,38.785807,-100.814319,38.960489",
     "geom:latitude":38.873,
     "geom:longitude":-100.899477,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.872848,
     "lbl:longitude":-100.899491,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":109,
     "uscensus:geoid":2010920225,
     "uscensus:name":"Elkader",
     "uscensus:namelsad":"Elkader township",
+    "uscensus:population":12,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2010920225
+        "uscensus:geoid":"2010920225"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464131
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404504561,
-    "wof:lastmodified":1605055295,
+    "wof:lastmodified":1722117894,
     "wof:name":"Elkader Township",
     "wof:parent_id":102082177,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":8,
+    "wof:population":12,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

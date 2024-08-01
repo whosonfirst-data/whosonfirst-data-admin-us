@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00997,
-    "geom:area_square_m":93378816.984172,
+    "geom:area_square_m":93378816.984195,
     "geom:bbox":"-90.444339,40.713972,-90.328595,40.801605",
     "geom:latitude":40.757911,
     "geom:longitude":-90.386293,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.757929,
     "lbl:longitude":-90.386291,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":1709537361,
     "uscensus:name":"Indian Point",
     "uscensus:namelsad":"Indian Point township",
+    "uscensus:population":1401,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1709537361
+        "uscensus:geoid":"1709537361"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404496565,
-    "wof:lastmodified":1605055602,
+    "wof:lastmodified":1722233635,
     "wof:name":"Indian Point Township",
     "wof:parent_id":102082867,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1554,
+    "wof:population":1401,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

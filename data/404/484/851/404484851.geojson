@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000126,
-    "geom:area_square_m":1184533.598398,
+    "geom:area_square_m":1184533.598396,
     "geom:bbox":"-80.089504,40.498395,-80.074875,40.51226",
     "geom:latitude":40.505826,
     "geom:longitude":-80.081482,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.506257,
     "lbl:longitude":-80.08089,
     "lbl:max_zoom":16.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4200305504,
     "uscensus:name":"Ben Avon",
     "uscensus:namelsad":"Ben Avon borough",
+    "uscensus:population":1850,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200305504
+        "uscensus:geoid":"4200305504"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,11 +96,11 @@
         }
     ],
     "wof:id":404484851,
-    "wof:lastmodified":1605055457,
+    "wof:lastmodified":1722117770,
     "wof:name":"Ben Avon",
     "wof:parent_id":102080887,
     "wof:placetype":"localadmin",
-    "wof:population":1781,
+    "wof:population":1850,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

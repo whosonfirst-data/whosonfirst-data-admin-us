@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003626,
-    "geom:area_square_m":33769715.657433,
+    "geom:area_square_m":33769715.657436,
     "geom:bbox":"-80.385094,41.126492,-80.256223,41.157163",
     "geom:latitude":41.141416,
     "geom:longitude":-80.32024,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.141491,
     "lbl:longitude":-80.320242,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":85,
     "uscensus:geoid":4208585512,
     "uscensus:name":"Wilmington",
     "uscensus:namelsad":"Wilmington township",
+    "uscensus:population":1408,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4208585512
+        "uscensus:geoid":"4208585512"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468653
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404483755,
-    "wof:lastmodified":1605055435,
+    "wof:lastmodified":1722117764,
     "wof:name":"Wilmington Township",
     "wof:parent_id":102080965,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1415,
+    "wof:population":1408,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

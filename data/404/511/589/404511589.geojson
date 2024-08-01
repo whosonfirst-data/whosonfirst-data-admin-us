@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.015316,
-    "geom:area_square_m":135424578.729329,
+    "geom:area_square_m":135424578.729378,
     "geom:bbox":"-94.745992,44.282539,-94.623665,44.447306",
     "geom:latitude":44.351803,
     "geom:longitude":-94.688247,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.350115,
     "lbl:longitude":-94.68869,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":2701529960,
     "uscensus:name":"Home",
     "uscensus:namelsad":"Home township",
+    "uscensus:population":491,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2701529960
+        "uscensus:geoid":"2701529960"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461995
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404511589,
-    "wof:lastmodified":1605055723,
+    "wof:lastmodified":1722117945,
     "wof:name":"Home Township",
     "wof:parent_id":102087615,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":545,
+    "wof:population":491,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

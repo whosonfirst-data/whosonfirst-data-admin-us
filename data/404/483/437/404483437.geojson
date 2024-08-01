@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000108,
-    "geom:area_square_m":1016357.527325,
+    "geom:area_square_m":1016357.527326,
     "geom:bbox":"-76.454416,40.338251,-76.439462,40.34856",
     "geom:latitude":40.34332,
     "geom:longitude":-76.446867,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.343331,
     "lbl:longitude":-76.446868,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":75,
     "uscensus:geoid":4207583312,
     "uscensus:name":"West Lebanon",
     "uscensus:namelsad":"West Lebanon township",
+    "uscensus:population":837,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207583312
+        "uscensus:geoid":"4207583312"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404483437,
-    "wof:lastmodified":1605055439,
+    "wof:lastmodified":1722117762,
     "wof:name":"West Lebanon Township",
     "wof:parent_id":102081341,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":781,
+    "wof:population":837,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

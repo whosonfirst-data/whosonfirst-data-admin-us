@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000473,
-    "geom:area_square_m":4439136.075443,
+    "geom:area_square_m":4439136.075441,
     "geom:bbox":"-75.174378,40.642999,-75.134157,40.672316",
     "geom:latitude":40.659759,
     "geom:longitude":-75.157114,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.660317,
     "lbl:longitude":-75.160452,
     "lbl:max_zoom":15.0,
@@ -277,11 +283,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":3404101030,
     "uscensus:name":"Alpha",
     "uscensus:namelsad":"Alpha borough",
+    "uscensus:population":2348,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -291,8 +300,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3404101030
+        "uscensus:geoid":"3404101030"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -308,11 +318,11 @@
         }
     ],
     "wof:id":404478411,
-    "wof:lastmodified":1605055347,
+    "wof:lastmodified":1722117730,
     "wof:name":"Alpha",
     "wof:parent_id":102083873,
     "wof:placetype":"localadmin",
-    "wof:population":2369,
+    "wof:population":2348,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

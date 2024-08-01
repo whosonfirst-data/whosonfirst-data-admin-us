@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009899,
-    "geom:area_square_m":93288226.317252,
+    "geom:area_square_m":93288226.317322,
     "geom:bbox":"-86.924102,40.301333,-86.808945,40.388426",
     "geom:latitude":40.344755,
     "geom:longitude":-86.866396,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.344802,
     "lbl:longitude":-86.866392,
     "lbl:max_zoom":14.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":157,
     "uscensus:geoid":1815782070,
     "uscensus:name":"Wea",
     "uscensus:namelsad":"Wea township",
+    "uscensus:population":34599,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1815782070
+        "uscensus:geoid":"1815782070"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404501943,
-    "wof:lastmodified":1604530771,
+    "wof:lastmodified":1722233655,
     "wof:name":"Wea Township",
     "wof:parent_id":102087121,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":31660,
+    "wof:population":34599,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

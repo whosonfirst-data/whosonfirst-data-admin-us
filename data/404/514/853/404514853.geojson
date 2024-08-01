@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0105,
-    "geom:area_square_m":93155560.380037,
+    "geom:area_square_m":93155560.380025,
     "geom:bbox":"-93.527196,44.109114,-93.406487,44.19639",
     "geom:latitude":44.152758,
     "geom:longitude":-93.466817,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.15275,
     "lbl:longitude":-93.466813,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":161,
     "uscensus:geoid":2716106562,
     "uscensus:name":"Blooming Grove",
     "uscensus:namelsad":"Blooming Grove township",
+    "uscensus:population":563,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2716106562
+        "uscensus:geoid":"2716106562"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457025
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404514853,
-    "wof:lastmodified":1605056027,
+    "wof:lastmodified":1722117969,
     "wof:name":"Blooming Grove Township",
     "wof:parent_id":102087641,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":525,
+    "wof:population":563,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

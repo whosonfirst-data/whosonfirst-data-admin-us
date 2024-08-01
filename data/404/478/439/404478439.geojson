@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001652,
-    "geom:area_square_m":15471925.402563,
+    "geom:area_square_m":15471925.40257,
     "geom:bbox":"-74.624951,40.744049,-74.570819,40.794147",
     "geom:latitude":40.768708,
     "geom:longitude":-74.600276,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.768037,
     "lbl:longitude":-74.59976,
     "lbl:max_zoom":15.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":3402745330,
     "uscensus:name":"Mendham",
     "uscensus:namelsad":"Mendham borough",
+    "uscensus:population":4970,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3402745330
+        "uscensus:geoid":"3402745330"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,11 +96,11 @@
         }
     ],
     "wof:id":404478439,
-    "wof:lastmodified":1605055338,
+    "wof:lastmodified":1722117730,
     "wof:name":"Mendham",
     "wof:parent_id":102087413,
     "wof:placetype":"localadmin",
-    "wof:population":4981,
+    "wof:population":4970,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010624,
-    "geom:area_square_m":100889587.696502,
+    "geom:area_square_m":100889587.696335,
     "geom:bbox":"-93.760211,39.758525,-93.647718,39.874924",
     "geom:latitude":39.825001,
     "geom:longitude":-93.699458,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.830038,
     "lbl:longitude":-93.698386,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":117,
     "uscensus:geoid":2911765774,
     "uscensus:name":"Sampsel",
     "uscensus:namelsad":"Sampsel township",
+    "uscensus:population":251,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":29,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2911765774
+        "uscensus:geoid":"2911765774"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456553
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404517535,
-    "wof:lastmodified":1604969414,
+    "wof:lastmodified":1722117976,
     "wof:name":"Sampsel Township",
     "wof:parent_id":102086169,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":280,
+    "wof:population":251,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

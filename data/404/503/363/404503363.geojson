@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014037,
-    "geom:area_square_m":138550807.272429,
+    "geom:area_square_m":138550807.272263,
     "geom:bbox":"-97.149233,36.99896,-96.923372,37.128688",
     "geom:latitude":37.039013,
     "geom:longitude":-97.067324,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.0441,
     "lbl:longitude":-97.103251,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":2003507875,
     "uscensus:name":"Bolton",
     "uscensus:namelsad":"Bolton township",
+    "uscensus:population":1433,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2003507875
+        "uscensus:geoid":"2003507875"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404503363,
-    "wof:lastmodified":1605055315,
+    "wof:lastmodified":1722233659,
     "wof:name":"Bolton Township",
     "wof:parent_id":102082165,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1705,
+    "wof:population":1433,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

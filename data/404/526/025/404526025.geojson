@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002291,
-    "geom:area_square_m":21733169.733423,
+    "geom:area_square_m":21733169.733417,
     "geom:bbox":"-83.478884,39.857906,-83.389997,39.918891",
     "geom:latitude":39.893623,
     "geom:longitude":-83.437532,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.891236,
     "lbl:longitude":-83.444225,
     "lbl:max_zoom":15.0,
@@ -721,22 +727,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":97,
     "uscensus:geoid":3909744674,
     "uscensus:name":"London",
     "uscensus:namelsad":"London city",
+    "uscensus:population":10533,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688485,
-        102084757
+        102084757,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3909744674
+        "uscensus:geoid":"3909744674"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -752,12 +762,12 @@
         }
     ],
     "wof:id":404526025,
-    "wof:lastmodified":1636499327,
+    "wof:lastmodified":1722118020,
     "wof:name":"London",
     "wof:parent_id":102084757,
     "wof:placetype":"localadmin",
-    "wof:population":9904,
-    "wof:population_rank":5,
+    "wof:population":10533,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00683,
-    "geom:area_square_m":64730036.932139,
+    "geom:area_square_m":64730036.932105,
     "geom:bbox":"-76.603361,39.90445,-76.477691,40.012489",
     "geom:latitude":39.961952,
     "geom:longitude":-76.536195,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.95713,
     "lbl:longitude":-76.552985,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":133,
     "uscensus:geoid":4213345152,
     "uscensus:name":"Lower Windsor",
     "uscensus:namelsad":"Lower Windsor township",
+    "uscensus:population":7577,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4213345152
+        "uscensus:geoid":"4213345152"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463021
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404487821,
-    "wof:lastmodified":1605055882,
+    "wof:lastmodified":1722117790,
     "wof:name":"Lower Windsor Township",
     "wof:parent_id":102080953,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":7382,
+    "wof:population":7577,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

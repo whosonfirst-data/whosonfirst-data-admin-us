@@ -154,7 +154,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2328965,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -170,17 +171,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"59620",
     "uscensus:placens":"02395873",
+    "uscensus:population":1050,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":393.0,
     "wd:latitude":43.652222,
     "wd:longitude":-94.726944,
     "wd:wordcount":961,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404512251,
         85633793,
-        102087019
+        102087019,
+        404512251,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -189,10 +192,11 @@
         "gn:id":5047109,
         "gp:id":2492388,
         "qs_pg:id":1256053,
-        "uscensus:geoid":2759620,
+        "uscensus:geoid":"2759620",
         "wd:id":"Q2227982",
         "wk:page":"Sherburn, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -213,11 +217,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884091,
+    "wof:lastmodified":1722116078,
     "wof:name":"Sherburn",
     "wof:parent_id":404512251,
     "wof:placetype":"locality",
-    "wof:population":1137,
+    "wof:population":1050,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

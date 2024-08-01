@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004939,
-    "geom:area_square_m":46969852.439652,
+    "geom:area_square_m":46969852.439671,
     "geom:bbox":"-82.693417,39.68739,-82.523941,39.759545",
     "geom:latitude":39.724251,
     "geom:longitude":-82.603826,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.713248,
     "lbl:longitude":-82.59816,
     "lbl:max_zoom":14.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":3904541740,
     "uscensus:name":"Lancaster City",
     "uscensus:namelsad":"Lancaster City township",
+    "uscensus:population":41409,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3904541740
+        "uscensus:geoid":"3904541740"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404524579,
-    "wof:lastmodified":1605056117,
+    "wof:lastmodified":1722118009,
     "wof:name":"Lancaster City Township",
     "wof:parent_id":102083747,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":38754,
+    "wof:population":41409,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

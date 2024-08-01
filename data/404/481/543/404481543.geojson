@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000099,
-    "geom:area_square_m":851502.251785,
+    "geom:area_square_m":851502.251786,
     "geom:bbox":"-97.79038,46.102814,-97.778055,46.111056",
     "geom:latitude":46.106967,
     "geom:longitude":-97.78423,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.106938,
     "lbl:longitude":-97.784231,
     "lbl:max_zoom":18.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":81,
     "uscensus:geoid":3808115100,
     "uscensus:name":"Cogswell",
     "uscensus:namelsad":"Cogswell city",
+    "uscensus:population":70,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3808115100
+        "uscensus:geoid":"3808115100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404481543,
-    "wof:lastmodified":1605055827,
+    "wof:lastmodified":1722117751,
     "wof:name":"Cogswell",
     "wof:parent_id":102082115,
     "wof:placetype":"localadmin",
-    "wof:population":99,
+    "wof:population":70,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

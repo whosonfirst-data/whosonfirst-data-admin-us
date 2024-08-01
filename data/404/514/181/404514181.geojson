@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010787,
-    "geom:area_square_m":90045238.004973,
+    "geom:area_square_m":90045238.005038,
     "geom:bbox":"-95.811077,47.49889,-95.682048,47.586972",
     "geom:latitude":47.541601,
     "geom:longitude":-95.746639,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.535814,
     "lbl:longitude":-95.752992,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":119,
     "uscensus:geoid":2711955564,
     "uscensus:name":"Rosebud",
     "uscensus:namelsad":"Rosebud township",
+    "uscensus:population":306,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2711955564
+        "uscensus:geoid":"2711955564"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729454811
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404514181,
-    "wof:lastmodified":1605056021,
+    "wof:lastmodified":1722117964,
     "wof:name":"Rosebud Township",
     "wof:parent_id":102087599,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":351,
+    "wof:population":306,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

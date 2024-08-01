@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000701,
-    "geom:area_square_m":6557648.978258,
+    "geom:area_square_m":6557648.978249,
     "geom:bbox":"-75.657523,40.789002,-75.576558,40.813862",
     "geom:latitude":40.802307,
     "geom:longitude":-75.615911,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.804449,
     "lbl:longitude":-75.615297,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":4202557696,
     "uscensus:name":"Palmerton",
     "uscensus:namelsad":"Palmerton borough",
+    "uscensus:population":5616,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202557696
+        "uscensus:geoid":"4202557696"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404485631,
-    "wof:lastmodified":1605055372,
+    "wof:lastmodified":1722117775,
     "wof:name":"Palmerton",
     "wof:parent_id":102081331,
     "wof:placetype":"localadmin",
-    "wof:population":5414,
+    "wof:population":5616,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

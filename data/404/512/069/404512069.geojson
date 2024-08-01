@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011126,
-    "geom:area_square_m":94896516.895916,
+    "geom:area_square_m":94896516.895987,
     "geom:bbox":"-94.18882,46.33021,-94.06166,46.460475",
     "geom:latitude":46.384904,
     "geom:longitude":-94.110529,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.39579,
     "lbl:longitude":-94.104861,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":2703547824,
     "uscensus:name":"Oak Lawn",
     "uscensus:namelsad":"Oak Lawn township",
+    "uscensus:population":1831,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2703547824
+        "uscensus:geoid":"2703547824"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729479175
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404512069,
-    "wof:lastmodified":1605056133,
+    "wof:lastmodified":1722117948,
     "wof:name":"Oak Lawn Township",
     "wof:parent_id":102087093,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1792,
+    "wof:population":1831,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

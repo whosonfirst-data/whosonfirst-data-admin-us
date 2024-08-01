@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011264,
-    "geom:area_square_m":109035088.938883,
+    "geom:area_square_m":109035088.938894,
     "geom:bbox":"-95.360346,38.433767,-95.212271,38.521177",
     "geom:latitude":38.477751,
     "geom:longitude":-95.282759,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.477475,
     "lbl:longitude":-95.282748,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":59,
     "uscensus:geoid":2005952350,
     "uscensus:name":"Ohio",
     "uscensus:namelsad":"Ohio township",
+    "uscensus:population":758,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2005952350
+        "uscensus:geoid":"2005952350"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404503663,
-    "wof:lastmodified":1605055327,
+    "wof:lastmodified":1722233660,
     "wof:name":"Ohio Township",
     "wof:parent_id":102082121,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":770,
+    "wof:population":758,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

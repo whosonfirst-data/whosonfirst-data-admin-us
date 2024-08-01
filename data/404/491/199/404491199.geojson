@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000206,
-    "geom:area_square_m":1860398.912044,
+    "geom:area_square_m":1860398.912046,
     "geom:bbox":"-96.971096,43.109979,-96.951092,43.123823",
     "geom:latitude":43.116535,
     "geom:longitude":-96.959477,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.116556,
     "lbl:longitude":-96.959476,
     "lbl:max_zoom":17.0,
@@ -88,11 +94,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":4612511060,
     "uscensus:name":"Centerville",
     "uscensus:namelsad":"Centerville city",
+    "uscensus:population":957,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -102,8 +111,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4612511060
+        "uscensus:geoid":"4612511060"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -119,11 +129,11 @@
         }
     ],
     "wof:id":404491199,
-    "wof:lastmodified":1605055584,
+    "wof:lastmodified":1722117811,
     "wof:name":"Centerville",
     "wof:parent_id":102086867,
     "wof:placetype":"localadmin",
-    "wof:population":882,
+    "wof:population":957,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

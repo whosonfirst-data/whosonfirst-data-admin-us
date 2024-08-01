@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013946,
-    "geom:area_square_m":123439150.344968,
+    "geom:area_square_m":123439150.344967,
     "geom:bbox":"-90.872949,44.247555,-90.679875,44.335238",
     "geom:latitude":44.288609,
     "geom:longitude":-90.762151,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.291284,
     "lbl:longitude":-90.752969,
     "lbl:max_zoom":15.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":53,
     "uscensus:geoid":5505309900,
     "uscensus:name":"Brockway",
     "uscensus:namelsad":"Brockway town",
+    "uscensus:population":2956,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5505309900
+        "uscensus:geoid":"5505309900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458203
     ],
@@ -89,11 +99,11 @@
         }
     ],
     "wof:id":404493817,
-    "wof:lastmodified":1605055942,
+    "wof:lastmodified":1722117828,
     "wof:name":"Brockway",
     "wof:parent_id":102081821,
     "wof:placetype":"localadmin",
-    "wof:population":2828,
+    "wof:population":2956,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

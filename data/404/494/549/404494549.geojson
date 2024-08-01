@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006122,
-    "geom:area_square_m":54595422.041664,
+    "geom:area_square_m":54595422.041643,
     "geom:bbox":"-87.801492,43.804769,-87.724226,43.89237",
     "geom:latitude":43.847754,
     "geom:longitude":-87.76583,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.84716,
     "lbl:longitude":-87.765322,
     "lbl:max_zoom":17.0,
@@ -58,22 +64,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":117,
     "uscensus:geoid":5511754475,
     "uscensus:name":"Mosel",
     "uscensus:namelsad":"Mosel town",
+    "uscensus:population":744,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081869
+        102081869,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5511754475
+        "uscensus:geoid":"5511754475"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467055
     ],
@@ -92,11 +102,11 @@
         }
     ],
     "wof:id":404494549,
-    "wof:lastmodified":1636499407,
+    "wof:lastmodified":1722117833,
     "wof:name":"Mosel",
     "wof:parent_id":102081869,
     "wof:placetype":"localadmin",
-    "wof:population":790,
+    "wof:population":744,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

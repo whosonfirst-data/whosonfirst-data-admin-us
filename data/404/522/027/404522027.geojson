@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013834,
-    "geom:area_square_m":125618582.713853,
+    "geom:area_square_m":125618582.713833,
     "geom:bbox":"-76.740208,42.677311,-76.62076,42.822087",
     "geom:latitude":42.746956,
     "geom:longitude":-76.677389,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.746578,
     "lbl:longitude":-76.678543,
     "lbl:max_zoom":16.0,
@@ -61,11 +67,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":3601141740,
     "uscensus:name":"Ledyard",
     "uscensus:namelsad":"Ledyard town",
+    "uscensus:population":1639,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -75,8 +84,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3601141740
+        "uscensus:geoid":"3601141740"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -92,11 +102,11 @@
         }
     ],
     "wof:id":404522027,
-    "wof:lastmodified":1605056077,
+    "wof:lastmodified":1722233675,
     "wof:name":"Ledyard",
     "wof:parent_id":102083071,
     "wof:placetype":"localadmin",
-    "wof:population":1886,
+    "wof:population":1639,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

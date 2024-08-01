@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000138,
-    "geom:area_square_m":1304037.740094,
+    "geom:area_square_m":1304037.740095,
     "geom:bbox":"-79.247169,40.238114,-79.228582,40.25092",
     "geom:latitude":40.24494,
     "geom:longitude":-79.237487,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.244963,
     "lbl:longitude":-79.237626,
     "lbl:max_zoom":16.0,
@@ -70,11 +76,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":129,
     "uscensus:geoid":4212943232,
     "uscensus:name":"Ligonier",
     "uscensus:namelsad":"Ligonier borough",
+    "uscensus:population":1481,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -84,8 +93,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212943232
+        "uscensus:geoid":"4212943232"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -101,11 +111,11 @@
         }
     ],
     "wof:id":404487497,
-    "wof:lastmodified":1605055883,
+    "wof:lastmodified":1722117787,
     "wof:name":"Ligonier",
     "wof:parent_id":102081383,
     "wof:placetype":"localadmin",
-    "wof:population":1573,
+    "wof:population":1481,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

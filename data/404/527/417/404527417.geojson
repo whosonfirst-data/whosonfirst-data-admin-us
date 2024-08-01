@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00116,
-    "geom:area_square_m":10285078.055126,
+    "geom:area_square_m":10285078.055111,
     "geom:bbox":"-72.537486,44.180493,-72.482864,44.216218",
     "geom:latitude":44.199665,
     "geom:longitude":-72.508319,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.200037,
     "lbl:longitude":-72.506116,
     "lbl:max_zoom":15.0,
@@ -88,11 +94,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":5002303175,
     "uscensus:name":"Barre",
     "uscensus:namelsad":"Barre city",
+    "uscensus:population":8387,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -102,8 +111,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5002303175
+        "uscensus:geoid":"5002303175"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -119,11 +129,11 @@
         }
     ],
     "wof:id":404527417,
-    "wof:lastmodified":1605055682,
+    "wof:lastmodified":1722118030,
     "wof:name":"Barre",
     "wof:parent_id":102080779,
     "wof:placetype":"localadmin",
-    "wof:population":9052,
+    "wof:population":8387,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

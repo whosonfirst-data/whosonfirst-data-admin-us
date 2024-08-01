@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007014,
-    "geom:area_square_m":66107098.479307,
+    "geom:area_square_m":66107098.479299,
     "geom:bbox":"-81.809969,40.297268,-81.712279,40.373259",
     "geom:latitude":40.335436,
     "geom:longitude":-81.761274,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.335514,
     "lbl:longitude":-81.761266,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":3903184714,
     "uscensus:name":"White Eyes",
     "uscensus:namelsad":"White Eyes township",
+    "uscensus:population":1230,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3903184714
+        "uscensus:geoid":"3903184714"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404525135,
-    "wof:lastmodified":1605056048,
+    "wof:lastmodified":1722118013,
     "wof:name":"White Eyes Township",
     "wof:parent_id":102083635,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1194,
+    "wof:population":1230,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

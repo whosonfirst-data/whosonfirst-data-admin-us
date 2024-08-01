@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007497,
-    "geom:area_square_m":70674348.204278,
+    "geom:area_square_m":70674348.204281,
     "geom:bbox":"-79.787853,40.287509,-79.665107,40.387042",
     "geom:latitude":40.32936,
     "geom:longitude":-79.73346,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.324802,
     "lbl:longitude":-79.746712,
     "lbl:max_zoom":14.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":129,
     "uscensus:geoid":4212955128,
     "uscensus:name":"North Huntingdon",
     "uscensus:namelsad":"North Huntingdon township",
+    "uscensus:population":31788,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212955128
+        "uscensus:geoid":"4212955128"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465813
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404487547,
-    "wof:lastmodified":1605055895,
+    "wof:lastmodified":1722117788,
     "wof:name":"North Huntingdon Township",
     "wof:parent_id":102081383,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":30609,
+    "wof:population":31788,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

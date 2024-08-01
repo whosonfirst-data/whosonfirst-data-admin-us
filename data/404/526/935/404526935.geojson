@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008556,
-    "geom:area_square_m":82284042.184708,
+    "geom:area_square_m":82284042.184654,
     "geom:bbox":"-83.270817,38.882132,-83.158741,39.015791",
     "geom:latitude":38.943929,
     "geom:longitude":-83.23295,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.929262,
     "lbl:longitude":-83.232132,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":145,
     "uscensus:geoid":3914565522,
     "uscensus:name":"Rarden",
     "uscensus:namelsad":"Rarden township",
+    "uscensus:population":1041,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3914565522
+        "uscensus:geoid":"3914565522"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404526935,
-    "wof:lastmodified":1605055652,
+    "wof:lastmodified":1722233690,
     "wof:name":"Rarden Township",
     "wof:parent_id":102081373,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1249,
+    "wof:population":1041,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

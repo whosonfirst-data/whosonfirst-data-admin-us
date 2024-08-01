@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000021,
-    "geom:area_square_m":171293.783277,
+    "geom:area_square_m":171293.783276,
     "geom:bbox":"-99.005752,48.94255,-99.000251,48.946706",
     "geom:latitude":48.944477,
     "geom:longitude":-99.002947,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.944413,
     "lbl:longitude":-99.002947,
     "lbl:max_zoom":18.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":3809570780,
     "uscensus:name":"Sarles",
     "uscensus:namelsad":"Sarles city",
+    "uscensus:population":2,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3809570780
+        "uscensus:geoid":"3809570780"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404482369,
-    "wof:lastmodified":1605055384,
+    "wof:lastmodified":1722117756,
     "wof:name":"Sarles",
     "wof:parent_id":102082111,
     "wof:placetype":"localadmin",
-    "wof:population":4,
+    "wof:population":2,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

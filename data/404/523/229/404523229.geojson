@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014071,
-    "geom:area_square_m":128103526.772193,
+    "geom:area_square_m":128103526.7722,
     "geom:bbox":"-76.458405,42.545917,-76.261481,42.623588",
     "geom:latitude":42.58466,
     "geom:longitude":-76.35979,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.584752,
     "lbl:longitude":-76.359787,
     "lbl:max_zoom":15.0,
@@ -85,11 +91,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":109,
     "uscensus:geoid":3610930972,
     "uscensus:name":"Groton",
     "uscensus:namelsad":"Groton town",
+    "uscensus:population":5491,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -99,8 +108,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3610930972
+        "uscensus:geoid":"3610930972"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -116,11 +126,11 @@
         }
     ],
     "wof:id":404523229,
-    "wof:lastmodified":1605056085,
+    "wof:lastmodified":1722233679,
     "wof:name":"Groton",
     "wof:parent_id":102082355,
     "wof:placetype":"localadmin",
-    "wof:population":5950,
+    "wof:population":5491,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

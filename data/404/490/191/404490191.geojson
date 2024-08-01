@@ -10,6 +10,12 @@
     "geom:latitude":44.457119,
     "geom:longitude":-99.484384,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "unorganized territory"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.410779,
     "lbl:longitude":-99.534085,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":69,
     "uscensus:geoid":4606911150,
     "uscensus:name":"Central Hyde",
     "uscensus:namelsad":"Central Hyde UT",
+    "uscensus:population":330,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4606911150
+        "uscensus:geoid":"4606911150"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461441
     ],
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404490191,
-    "wof:lastmodified":1605055517,
+    "wof:lastmodified":1722117805,
     "wof:name":"Central Hyde",
     "wof:parent_id":102086809,
     "wof:placetype":"localadmin",
-    "wof:population":402,
+    "wof:population":330,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

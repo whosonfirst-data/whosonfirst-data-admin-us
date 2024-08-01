@@ -155,7 +155,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":4086891,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -171,16 +172,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"64860",
     "uscensus:placens":"01267608",
+    "uscensus:population":1075,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"46",
     "wd:latitude":42.991667,
     "wd:longitude":-97.863611,
     "wd:wordcount":895,
     "wof:belongsto":[
-        85688693,
         102191575,
-        404488765,
         85633793,
-        102086835
+        102086835,
+        404488765,
+        85688693
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -188,10 +191,11 @@
         "gn:id":5232489,
         "gp:id":2509386,
         "qs_pg:id":1244806,
-        "uscensus:geoid":4664860,
+        "uscensus:geoid":"4664860",
         "wd:id":"Q2537865",
         "wk:page":"Tyndall, South Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -209,11 +213,11 @@
         }
     ],
     "wof:id":101721893,
-    "wof:lastmodified":1690889629,
+    "wof:lastmodified":1722116339,
     "wof:name":"Tyndall",
     "wof:parent_id":404488765,
     "wof:placetype":"locality",
-    "wof:population":1067,
+    "wof:population":1075,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

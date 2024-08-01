@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00027,
-    "geom:area_square_m":2517518.503397,
+    "geom:area_square_m":2517518.503395,
     "geom:bbox":"-76.90862,40.954462,-76.877143,40.972033",
     "geom:latitude":40.964126,
     "geom:longitude":-76.889958,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.964825,
     "lbl:longitude":-76.887107,
     "lbl:max_zoom":15.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":119,
     "uscensus:geoid":4211942976,
     "uscensus:name":"Lewisburg",
     "uscensus:namelsad":"Lewisburg borough",
+    "uscensus:population":5255,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4211942976
+        "uscensus:geoid":"4211942976"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404487509,
-    "wof:lastmodified":1605055889,
+    "wof:lastmodified":1722117787,
     "wof:name":"Lewisburg",
     "wof:parent_id":102081335,
     "wof:placetype":"localadmin",
-    "wof:population":5792,
+    "wof:population":5255,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

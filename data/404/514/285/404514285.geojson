@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00085,
-    "geom:area_square_m":7601202.897732,
+    "geom:area_square_m":7601202.89772,
     "geom:bbox":"-92.413955,43.6742,-92.349259,43.709056",
     "geom:latitude":43.688755,
     "geom:longitude":-92.389689,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.685845,
     "lbl:longitude":-92.391934,
     "lbl:max_zoom":15.0,
@@ -85,11 +91,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":2704562104,
     "uscensus:name":"Spring Valley",
     "uscensus:namelsad":"Spring Valley city",
+    "uscensus:population":2459,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -99,8 +108,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2704562104
+        "uscensus:geoid":"2704562104"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -116,11 +126,11 @@
         }
     ],
     "wof:id":404514285,
-    "wof:lastmodified":1605056026,
+    "wof:lastmodified":1722117965,
     "wof:name":"Spring Valley",
     "wof:parent_id":102086997,
     "wof:placetype":"localadmin",
-    "wof:population":2479,
+    "wof:population":2459,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

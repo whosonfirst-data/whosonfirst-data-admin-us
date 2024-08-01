@@ -133,7 +133,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":746269,
     "uscensus:awater":26994,
     "uscensus:classfp":"C1",
@@ -149,17 +150,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"63200",
     "uscensus:placens":"02396434",
+    "uscensus:population":120,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"29",
     "wd:elevation":278.0,
     "wd:latitude":40.0417,
     "wd:longitude":-94.8219,
     "wd:wordcount":1755,
     "wof:belongsto":[
-        85688661,
         102191575,
-        404516219,
         85633793,
-        102087503
+        102087503,
+        404516219,
+        85688661
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -167,10 +170,11 @@
         "gn:id":5057076,
         "gp:id":2484815,
         "qs_pg:id":1163487,
-        "uscensus:geoid":2963200,
+        "uscensus:geoid":"2963200",
         "wd:id":"Q511587",
         "wk:page":"Rosendale, Missouri"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -188,11 +192,11 @@
         }
     ],
     "wof:id":85970681,
-    "wof:lastmodified":1690881605,
+    "wof:lastmodified":1722115934,
     "wof:name":"Rosendale",
     "wof:parent_id":404516219,
     "wof:placetype":"locality",
-    "wof:population":143,
+    "wof:population":120,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010329,
-    "geom:area_square_m":95783340.55206,
+    "geom:area_square_m":95783340.552044,
     "geom:bbox":"-89.04934,41.367337,-88.933368,41.469238",
     "geom:latitude":41.412636,
     "geom:longitude":-88.991075,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.411219,
     "lbl:longitude":-88.994175,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":1709978682,
     "uscensus:name":"Waltham",
     "uscensus:namelsad":"Waltham township",
+    "uscensus:population":415,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1709978682
+        "uscensus:geoid":"1709978682"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404497779,
-    "wof:lastmodified":1605055494,
+    "wof:lastmodified":1722233639,
     "wof:name":"Waltham Township",
     "wof:parent_id":102081255,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":446,
+    "wof:population":415,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

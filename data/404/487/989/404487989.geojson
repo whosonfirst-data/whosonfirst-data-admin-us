@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005818,
-    "geom:area_square_m":54136358.255731,
+    "geom:area_square_m":54136358.25571,
     "geom:bbox":"-80.392435,41.153893,-80.308864,41.23625",
     "geom:latitude":41.194628,
     "geom:longitude":-80.350997,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.193601,
     "lbl:longitude":-80.351544,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":85,
     "uscensus:geoid":4208540760,
     "uscensus:name":"Lackawannock",
     "uscensus:namelsad":"Lackawannock township",
+    "uscensus:population":2463,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4208540760
+        "uscensus:geoid":"4208540760"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466009
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404487989,
-    "wof:lastmodified":1605055896,
+    "wof:lastmodified":1722117791,
     "wof:name":"Lackawannock Township",
     "wof:parent_id":102080965,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2662,
+    "wof:population":2463,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -14,6 +14,7 @@
     "gn:longitude":-149.09421,
     "gn:population":378,
     "iso:country":"US",
+    "lbl:bbox":"-149.113003176,64.5437968131,-149.073003176,64.5837968131",
     "lbl:latitude":64.539139,
     "lbl:longitude":-149.077234,
     "lbl:max_zoom":17.0,
@@ -277,6 +278,7 @@
     "ne:UN_LAT":0.0,
     "ne:UN_LONG":0.0,
     "ne:WORLDCITY":0,
+    "ne:min_zoom":7.0,
     "qs:a0":"United States",
     "qs:a1":"*Alaska",
     "qs:a1_lc":"02",
@@ -291,13 +293,18 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
+    "reversegeo:latitude":64.563797,
+    "reversegeo:longitude":-149.093003,
     "src:geom":"quattroshapes",
     "src:geom_alt":[
         "naturalearth",
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":343,
+    "uscensus:population_date":"2023",
     "wd:elevation":107.0,
     "wd:latitude":64.558056,
     "wd:longitude":-149.090556,
@@ -305,8 +312,8 @@
     "wof:belongsto":[
         102191575,
         85633793,
-        85688573,
-        102081905
+        102081905,
+        85688573
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -319,6 +326,12 @@
         "wd:id":"Q80058",
         "wk:page":"Nenana, Alaska"
     },
+    "wof:concordances_alt":{
+        "wd:id":[
+            "Q80058"
+        ]
+    },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "naturalearth",
@@ -338,16 +351,17 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690881943,
+    "wof:lastmodified":1722116395,
     "wof:name":"Nenana",
     "wof:parent_id":102081905,
     "wof:placetype":"locality",
-    "wof:population":378,
+    "wof:population":343,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[
-        1125286445
+        1125286445,
+        1141906349
     ],
     "wof:tags":[]
 },

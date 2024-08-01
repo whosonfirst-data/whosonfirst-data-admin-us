@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011188,
-    "geom:area_square_m":93079781.264272,
+    "geom:area_square_m":93079781.264304,
     "geom:bbox":"-99.426067,47.673004,-99.297117,47.759983",
     "geom:latitude":47.716529,
     "geom:longitude":-99.361588,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.716504,
     "lbl:longitude":-99.361586,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":103,
     "uscensus:geoid":3810309260,
     "uscensus:name":"Bremen",
     "uscensus:namelsad":"Bremen township",
+    "uscensus:population":43,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3810309260
+        "uscensus:geoid":"3810309260"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471067
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404481955,
-    "wof:lastmodified":1605055821,
+    "wof:lastmodified":1722117753,
     "wof:name":"Bremen Township",
     "wof:parent_id":102081507,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":47,
+    "wof:population":43,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

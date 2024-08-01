@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010935,
-    "geom:area_square_m":92476053.211785,
+    "geom:area_square_m":92476053.211749,
     "geom:bbox":"-95.415062,46.803026,-95.288615,46.891576",
     "geom:latitude":46.847163,
     "geom:longitude":-95.351616,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.851799,
     "lbl:longitude":-95.350775,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":2700571356,
     "uscensus:name":"Wolf Lake",
     "uscensus:namelsad":"Wolf Lake township",
+    "uscensus:population":274,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2700571356
+        "uscensus:geoid":"2700571356"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459367
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404511365,
-    "wof:lastmodified":1605055713,
+    "wof:lastmodified":1722117943,
     "wof:name":"Wolf Lake Township",
     "wof:parent_id":102087001,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":242,
+    "wof:population":274,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

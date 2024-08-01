@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010371,
-    "geom:area_square_m":92345306.895933,
+    "geom:area_square_m":92345306.895948,
     "geom:bbox":"-90.191832,43.894075,-90.072239,43.981315",
     "geom:latitude":43.937682,
     "geom:longitude":-90.132057,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.937658,
     "lbl:longitude":-90.132057,
     "lbl:max_zoom":17.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":57,
     "uscensus:geoid":5505715225,
     "uscensus:name":"Clearfield",
     "uscensus:namelsad":"Clearfield town",
+    "uscensus:population":702,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5505715225
+        "uscensus:geoid":"5505715225"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467703
     ],
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404494149,
-    "wof:lastmodified":1605055977,
+    "wof:lastmodified":1722117831,
     "wof:name":"Clearfield",
     "wof:parent_id":102081297,
     "wof:placetype":"localadmin",
-    "wof:population":728,
+    "wof:population":702,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

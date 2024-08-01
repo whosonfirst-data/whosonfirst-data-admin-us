@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000432,
-    "geom:area_square_m":3985575.067217,
+    "geom:area_square_m":3985575.067213,
     "geom:bbox":"-80.151888,41.70401,-80.12536,41.72532",
     "geom:latitude":41.715923,
     "geom:longitude":-80.136369,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.716195,
     "lbl:longitude":-80.134794,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":39,
     "uscensus:geoid":4203967120,
     "uscensus:name":"Saegertown",
     "uscensus:namelsad":"Saegertown borough",
+    "uscensus:population":851,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4203967120
+        "uscensus:geoid":"4203967120"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404486173,
-    "wof:lastmodified":1605055865,
+    "wof:lastmodified":1722117778,
     "wof:name":"Saegertown",
     "wof:parent_id":102080911,
     "wof:placetype":"localadmin",
-    "wof:population":997,
+    "wof:population":851,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

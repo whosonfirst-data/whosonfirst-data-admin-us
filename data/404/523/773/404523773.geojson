@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000057,
-    "geom:area_square_m":543451.389472,
+    "geom:area_square_m":543451.389471,
     "geom:bbox":"-84.108239,39.67167,-84.099722,39.688912",
     "geom:latitude":39.67754,
     "geom:longitude":-84.104106,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.67607,
     "lbl:longitude":-84.102417,
     "lbl:max_zoom":17.0,
@@ -118,11 +124,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":57,
     "uscensus:geoid":3905740040,
     "uscensus:name":"Kettering",
     "uscensus:namelsad":"Kettering city",
+    "uscensus:population":730,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -132,8 +141,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3905740040
+        "uscensus:geoid":"3905740040"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -149,11 +159,11 @@
         }
     ],
     "wof:id":404523773,
-    "wof:lastmodified":1605056100,
+    "wof:lastmodified":1722118003,
     "wof:name":"Kettering",
     "wof:parent_id":102084765,
     "wof:placetype":"localadmin",
-    "wof:population":467,
+    "wof:population":730,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

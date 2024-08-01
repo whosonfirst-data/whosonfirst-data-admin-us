@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00071,
-    "geom:area_square_m":5833223.501235,
+    "geom:area_square_m":5833223.501232,
     "geom:bbox":"-100.01075,48.350518,-99.97194,48.378426",
     "geom:latitude":48.365603,
     "geom:longitude":-99.9906,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.364842,
     "lbl:longitude":-99.9923,
     "lbl:max_zoom":15.0,
@@ -130,11 +136,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":69,
     "uscensus:geoid":3806968860,
     "uscensus:name":"Rugby",
     "uscensus:namelsad":"Rugby city",
+    "uscensus:population":2446,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -144,8 +153,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3806968860
+        "uscensus:geoid":"3806968860"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -161,11 +171,11 @@
         }
     ],
     "wof:id":404481299,
-    "wof:lastmodified":1605055834,
+    "wof:lastmodified":1722117750,
     "wof:name":"Rugby",
     "wof:parent_id":102082085,
     "wof:placetype":"localadmin",
-    "wof:population":2876,
+    "wof:population":2446,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

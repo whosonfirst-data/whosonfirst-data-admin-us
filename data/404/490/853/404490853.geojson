@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000163,
-    "geom:area_square_m":1415787.027254,
+    "geom:area_square_m":1415787.027245,
     "geom:bbox":"-97.05115,45.29697,-97.029778,45.313832",
     "geom:latitude":45.305574,
     "geom:longitude":-97.039106,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.304933,
     "lbl:longitude":-97.036434,
     "lbl:max_zoom":17.0,
@@ -196,11 +202,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":109,
     "uscensus:geoid":4610962220,
     "uscensus:name":"Summit",
     "uscensus:namelsad":"Summit town",
+    "uscensus:population":277,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -210,8 +219,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4610962220
+        "uscensus:geoid":"4610962220"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -227,11 +237,11 @@
         }
     ],
     "wof:id":404490853,
-    "wof:lastmodified":1605055524,
+    "wof:lastmodified":1722117809,
     "wof:name":"Summit",
     "wof:parent_id":102086057,
     "wof:placetype":"localadmin",
-    "wof:population":288,
+    "wof:population":277,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

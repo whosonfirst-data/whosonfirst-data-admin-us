@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010462,
-    "geom:area_square_m":92549603.307295,
+    "geom:area_square_m":92549603.307276,
     "geom:bbox":"-92.310246,44.280277,-92.189319,44.367641",
     "geom:latitude":44.323916,
     "geom:longitude":-92.249863,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.323908,
     "lbl:longitude":-92.249865,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":157,
     "uscensus:geoid":2715769178,
     "uscensus:name":"West Albany",
     "uscensus:namelsad":"West Albany township",
+    "uscensus:population":383,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2715769178
+        "uscensus:geoid":"2715769178"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456297
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404514815,
-    "wof:lastmodified":1605056026,
+    "wof:lastmodified":1722117968,
     "wof:name":"West Albany Township",
     "wof:parent_id":102087697,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":398,
+    "wof:population":383,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

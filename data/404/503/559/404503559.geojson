@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014434,
-    "geom:area_square_m":139074215.15917,
+    "geom:area_square_m":139074215.159178,
     "geom:bbox":"-99.208222,38.769238,-99.039447,38.856979",
     "geom:latitude":38.812704,
     "geom:longitude":-99.123506,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.813042,
     "lbl:longitude":-99.123508,
     "lbl:max_zoom":17.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":2005173800,
     "uscensus:name":"Victoria",
     "uscensus:namelsad":"Victoria township",
+    "uscensus:population":799,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2005173800
+        "uscensus:geoid":"2005173800"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404503559,
-    "wof:lastmodified":1605055314,
+    "wof:lastmodified":1722233660,
     "wof:name":"Victoria Township",
     "wof:parent_id":102082161,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":876,
+    "wof:population":799,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

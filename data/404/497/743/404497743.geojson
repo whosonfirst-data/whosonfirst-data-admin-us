@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009771,
-    "geom:area_square_m":92427701.369761,
+    "geom:area_square_m":92427701.369728,
     "geom:bbox":"-89.029049,40.049842,-88.917481,40.140838",
     "geom:latitude":40.095569,
     "geom:longitude":-88.973487,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.095543,
     "lbl:longitude":-88.973494,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":39,
     "uscensus:geoid":1703974769,
     "uscensus:name":"Texas",
     "uscensus:namelsad":"Texas township",
+    "uscensus:population":1248,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1703974769
+        "uscensus:geoid":"1703974769"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404497743,
-    "wof:lastmodified":1605055502,
+    "wof:lastmodified":1722233639,
     "wof:name":"Texas Township",
     "wof:parent_id":102082269,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1246,
+    "wof:population":1248,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

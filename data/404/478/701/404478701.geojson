@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011498,
-    "geom:area_square_m":94527642.039879,
+    "geom:area_square_m":94527642.039815,
     "geom:bbox":"-99.847382,48.281934,-99.717766,48.371216",
     "geom:latitude":48.326625,
     "geom:longitude":-99.782636,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.326626,
     "lbl:longitude":-99.782636,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":3800563200,
     "uscensus:name":"Pleasant Lake",
     "uscensus:namelsad":"Pleasant Lake township",
+    "uscensus:population":69,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3800563200
+        "uscensus:geoid":"3800563200"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473407
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404478701,
-    "wof:lastmodified":1605055332,
+    "wof:lastmodified":1722117732,
     "wof:name":"Pleasant Lake Township",
     "wof:parent_id":102082071,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":74,
+    "wof:population":69,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

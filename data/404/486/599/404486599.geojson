@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01296,
-    "geom:area_square_m":120481017.709753,
+    "geom:area_square_m":120481017.709799,
     "geom:bbox":"-79.209775,41.190252,-79.058207,41.297372",
     "geom:latitude":41.250966,
     "geom:longitude":-79.127653,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.251252,
     "lbl:longitude":-79.121515,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":65,
     "uscensus:geoid":4206522872,
     "uscensus:name":"Eldred",
     "uscensus:namelsad":"Eldred township",
+    "uscensus:population":1251,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206522872
+        "uscensus:geoid":"4206522872"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460561
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404486599,
-    "wof:lastmodified":1605055868,
+    "wof:lastmodified":1722117781,
     "wof:name":"Eldred Township",
     "wof:parent_id":102083883,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1226,
+    "wof:population":1251,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

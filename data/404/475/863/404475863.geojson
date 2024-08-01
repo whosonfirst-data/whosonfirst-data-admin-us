@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01825,
-    "geom:area_square_m":160999249.310061,
+    "geom:area_square_m":160999249.310013,
     "geom:bbox":"-68.017219,44.341434,-67.87375,44.597708",
     "geom:latitude":44.482827,
     "geom:longitude":-67.938432,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.472369,
     "lbl:longitude":-67.931385,
     "lbl:max_zoom":16.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":2302974125,
     "uscensus:name":"Steuben",
     "uscensus:namelsad":"Steuben town",
+    "uscensus:population":1152,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2302974125
+        "uscensus:geoid":"2302974125"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457485
     ],
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404475863,
-    "wof:lastmodified":1605055855,
+    "wof:lastmodified":1722117710,
     "wof:name":"Steuben",
     "wof:parent_id":102081143,
     "wof:placetype":"localadmin",
-    "wof:population":1131,
+    "wof:population":1152,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

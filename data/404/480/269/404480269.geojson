@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013288,
-    "geom:area_square_m":108503995.599296,
+    "geom:area_square_m":108503995.599305,
     "geom:bbox":"-100.928894,48.632648,-100.71422,48.719434",
     "geom:latitude":48.670647,
     "geom:longitude":-100.84793,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.67609,
     "lbl:longitude":-100.848148,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":3800977740,
     "uscensus:name":"Tacoma",
     "uscensus:namelsad":"Tacoma township",
+    "uscensus:population":66,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3800977740
+        "uscensus:geoid":"3800977740"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471261
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404480269,
-    "wof:lastmodified":1605055910,
+    "wof:lastmodified":1722117743,
     "wof:name":"Tacoma Township",
     "wof:parent_id":102082109,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":61,
+    "wof:population":66,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

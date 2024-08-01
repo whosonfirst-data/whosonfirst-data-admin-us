@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.017819,
-    "geom:area_square_m":172542031.638735,
+    "geom:area_square_m":172542031.638775,
     "geom:bbox":"-96.597944,38.383755,-96.464612,38.521974",
     "geom:latitude":38.454494,
     "geom:longitude":-96.531462,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.452914,
     "lbl:longitude":-96.531466,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":2001768600,
     "uscensus:name":"Strong",
     "uscensus:namelsad":"Strong township",
+    "uscensus:population":517,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2001768600
+        "uscensus:geoid":"2001768600"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404502493,
-    "wof:lastmodified":1605055274,
+    "wof:lastmodified":1722233657,
     "wof:name":"Strong Township",
     "wof:parent_id":102082159,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":634,
+    "wof:population":517,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010415,
-    "geom:area_square_m":92539308.512654,
+    "geom:area_square_m":92539308.512765,
     "geom:bbox":"-96.768731,44.022003,-96.648305,44.109038",
     "geom:latitude":44.06557,
     "geom:longitude":-96.70855,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.065446,
     "lbl:longitude":-96.708551,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":101,
     "uscensus:geoid":4610112060,
     "uscensus:name":"Clare",
     "uscensus:namelsad":"Clare township",
+    "uscensus:population":153,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4610112060
+        "uscensus:geoid":"4610112060"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478915
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404489371,
-    "wof:lastmodified":1605055928,
+    "wof:lastmodified":1722117800,
     "wof:name":"Clare Township",
     "wof:parent_id":102086851,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":151,
+    "wof:population":153,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

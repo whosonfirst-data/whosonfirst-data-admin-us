@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011184,
-    "geom:area_square_m":103090447.736207,
+    "geom:area_square_m":103090447.736187,
     "geom:bbox":"-73.952446,41.735793,-73.852278,41.879091",
     "geom:latitude":41.801069,
     "geom:longitude":-73.905976,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.800247,
     "lbl:longitude":-73.906927,
     "lbl:max_zoom":14.0,
@@ -115,11 +121,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":3602737209,
     "uscensus:name":"Hyde Park",
     "uscensus:namelsad":"Hyde Park town",
+    "uscensus:population":21125,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -129,8 +138,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3602737209
+        "uscensus:geoid":"3602737209"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -146,11 +156,11 @@
         }
     ],
     "wof:id":404522295,
-    "wof:lastmodified":1605056070,
+    "wof:lastmodified":1722117992,
     "wof:name":"Hyde Park",
     "wof:parent_id":102082363,
     "wof:placetype":"localadmin",
-    "wof:population":21571,
+    "wof:population":21125,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

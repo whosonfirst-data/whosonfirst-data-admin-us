@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01037,
-    "geom:area_square_m":92676484.440055,
+    "geom:area_square_m":92676484.440025,
     "geom:bbox":"-98.205653,43.673007,-98.086401,43.761109",
     "geom:latitude":43.716725,
     "geom:longitude":-98.146177,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.716689,
     "lbl:longitude":-98.146177,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":4603505220,
     "uscensus:name":"Beulah",
     "uscensus:namelsad":"Beulah township",
+    "uscensus:population":355,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4603505220
+        "uscensus:geoid":"4603505220"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729454105
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404489733,
-    "wof:lastmodified":1605055929,
+    "wof:lastmodified":1722117802,
     "wof:name":"Beulah Township",
     "wof:parent_id":102086045,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":378,
+    "wof:population":355,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

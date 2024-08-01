@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009629,
-    "geom:area_square_m":84850596.736247,
+    "geom:area_square_m":84850596.736176,
     "geom:bbox":"-71.707095,44.484828,-71.556678,44.611372",
     "geom:latitude":44.54773,
     "geom:longitude":-71.628683,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.546739,
     "lbl:longitude":-71.636044,
     "lbl:max_zoom":17.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":5000930775,
     "uscensus:name":"Guildhall",
     "uscensus:namelsad":"Guildhall town",
+    "uscensus:population":256,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5000930775
+        "uscensus:geoid":"5000930775"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472803
     ],
@@ -80,11 +90,11 @@
         }
     ],
     "wof:id":404527523,
-    "wof:lastmodified":1605055685,
+    "wof:lastmodified":1722118031,
     "wof:name":"Guildhall",
     "wof:parent_id":102080725,
     "wof:placetype":"localadmin",
-    "wof:population":261,
+    "wof:population":256,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

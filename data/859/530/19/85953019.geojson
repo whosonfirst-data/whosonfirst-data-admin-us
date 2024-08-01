@@ -194,7 +194,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":20886023,
     "uscensus:awater":1552478,
     "uscensus:classfp":"C5",
@@ -210,17 +211,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"69970",
     "uscensus:placens":"02397299",
+    "uscensus:population":25738,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"27",
     "wd:elevation":287.0,
     "wd:latitude":45.084722,
     "wd:longitude":-93.01,
     "wd:wordcount":2377,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404514473,
         85633793,
-        102087007
+        102087007,
+        404514473,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -229,13 +232,14 @@
         "gn:id":5052664,
         "gp:id":23511054,
         "qs_pg:id":1051176,
-        "uscensus:geoid":2769970,
+        "uscensus:geoid":"2769970",
         "wd:id":"Q1986513",
         "wk:page":"White Bear Lake, Minnesota"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1056227
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -256,11 +260,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884092,
+    "wof:lastmodified":1722116078,
     "wof:name":"White Bear Lake",
     "wof:parent_id":404514473,
     "wof:placetype":"locality",
-    "wof:population":23797,
+    "wof:population":25738,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

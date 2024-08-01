@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006762,
-    "geom:area_square_m":63419273.208444,
+    "geom:area_square_m":63419273.208434,
     "geom:bbox":"-83.3049,40.643594,-83.188219,40.702325",
     "geom:latitude":40.673144,
     "geom:longitude":-83.246657,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.673239,
     "lbl:longitude":-83.24666,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":101,
     "uscensus:geoid":3910170240,
     "uscensus:name":"Salt Rock",
     "uscensus:namelsad":"Salt Rock township",
+    "uscensus:population":610,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3910170240
+        "uscensus:geoid":"3910170240"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404526253,
-    "wof:lastmodified":1605055656,
+    "wof:lastmodified":1722233688,
     "wof:name":"Salt Rock Township",
     "wof:parent_id":102084791,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":673,
+    "wof:population":610,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

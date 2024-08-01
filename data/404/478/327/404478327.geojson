@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000442,
-    "geom:area_square_m":4178751.670259,
+    "geom:area_square_m":4178751.670263,
     "geom:bbox":"-74.050571,40.167175,-74.006481,40.188893",
     "geom:latitude":40.179764,
     "geom:longitude":-74.024077,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.179902,
     "lbl:longitude":-74.018901,
     "lbl:max_zoom":15.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":3402504930,
     "uscensus:name":"Belmar",
     "uscensus:namelsad":"Belmar borough",
+    "uscensus:population":5816,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3402504930
+        "uscensus:geoid":"3402504930"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,11 +96,11 @@
         }
     ],
     "wof:id":404478327,
-    "wof:lastmodified":1605055351,
+    "wof:lastmodified":1722117729,
     "wof:name":"Belmar",
     "wof:parent_id":102085049,
     "wof:placetype":"localadmin",
-    "wof:population":5794,
+    "wof:population":5816,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

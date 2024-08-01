@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01041,
-    "geom:area_square_m":93302848.955214,
+    "geom:area_square_m":93302848.955142,
     "geom:bbox":"-97.00988,43.499773,-96.890085,43.587307",
     "geom:latitude":43.543501,
     "geom:longitude":-96.950057,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.543511,
     "lbl:longitude":-96.950051,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":4609968460,
     "uscensus:name":"Wall Lake",
     "uscensus:namelsad":"Wall Lake township",
+    "uscensus:population":1219,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4609968460
+        "uscensus:geoid":"4609968460"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472113
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404491249,
-    "wof:lastmodified":1605055587,
+    "wof:lastmodified":1722117812,
     "wof:name":"Wall Lake Township",
     "wof:parent_id":102086007,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1152,
+    "wof:population":1219,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

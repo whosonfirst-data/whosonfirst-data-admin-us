@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009323,
-    "geom:area_square_m":84222777.447629,
+    "geom:area_square_m":84222777.447705,
     "geom:bbox":"-89.012358,43.022007,-88.892424,43.111063",
     "geom:latitude":43.065458,
     "geom:longitude":-88.957509,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.064108,
     "lbl:longitude":-88.972029,
     "lbl:max_zoom":15.0,
@@ -67,11 +73,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":55,
     "uscensus:geoid":5505541700,
     "uscensus:name":"Lake Mills",
     "uscensus:namelsad":"Lake Mills town",
+    "uscensus:population":2185,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -81,8 +90,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5505541700
+        "uscensus:geoid":"5505541700"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466043
     ],
@@ -101,11 +111,11 @@
         }
     ],
     "wof:id":404494027,
-    "wof:lastmodified":1605055971,
+    "wof:lastmodified":1722117830,
     "wof:name":"Lake Mills",
     "wof:parent_id":102081287,
     "wof:placetype":"localadmin",
-    "wof:population":2070,
+    "wof:population":2185,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

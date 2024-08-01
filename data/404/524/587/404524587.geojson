@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010188,
-    "geom:area_square_m":96927842.608757,
+    "geom:area_square_m":96927842.608755,
     "geom:bbox":"-82.490329,39.654959,-82.366051,39.749038",
     "geom:latitude":39.701959,
     "geom:longitude":-82.428147,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.701909,
     "lbl:longitude":-82.428152,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":3904569120,
     "uscensus:name":"Rush Creek",
     "uscensus:namelsad":"Rush Creek township",
+    "uscensus:population":4064,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3904569120
+        "uscensus:geoid":"3904569120"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404524587,
-    "wof:lastmodified":1605056109,
+    "wof:lastmodified":1722233683,
     "wof:name":"Rush Creek Township",
     "wof:parent_id":102083747,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3893,
+    "wof:population":4064,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

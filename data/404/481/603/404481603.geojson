@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000429,
-    "geom:area_square_m":3583895.929773,
+    "geom:area_square_m":3583895.929774,
     "geom:bbox":"-101.379379,47.486025,-101.356146,47.51107",
     "geom:latitude":47.497535,
     "geom:longitude":-101.366137,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.496383,
     "lbl:longitude":-101.364754,
     "lbl:max_zoom":17.0,
@@ -85,11 +91,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":55,
     "uscensus:geoid":3805566980,
     "uscensus:name":"Riverdale",
     "uscensus:namelsad":"Riverdale city",
+    "uscensus:population":223,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -99,8 +108,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3805566980
+        "uscensus:geoid":"3805566980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -116,11 +126,11 @@
         }
     ],
     "wof:id":404481603,
-    "wof:lastmodified":1605055825,
+    "wof:lastmodified":1722117751,
     "wof:name":"Riverdale",
     "wof:parent_id":102082097,
     "wof:placetype":"localadmin",
-    "wof:population":205,
+    "wof:population":223,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

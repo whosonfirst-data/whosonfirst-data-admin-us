@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.017835,
-    "geom:area_square_m":156451319.690836,
+    "geom:area_square_m":156451319.690825,
     "geom:bbox":"-73.25906,44.722866,-72.976872,44.886844",
     "geom:latitude":44.810749,
     "geom:longitude":-73.145594,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.832308,
     "lbl:longitude":-73.15324,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":5001161750,
     "uscensus:name":"St. Albans",
     "uscensus:namelsad":"St. Albans town",
+    "uscensus:population":7125,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5001161750
+        "uscensus:geoid":"5001161750"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470007
     ],
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404527133,
-    "wof:lastmodified":1605055677,
+    "wof:lastmodified":1722118028,
     "wof:name":"St. Albans",
     "wof:parent_id":102080729,
     "wof:placetype":"localadmin",
-    "wof:population":5999,
+    "wof:population":7125,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01052,
-    "geom:area_square_m":95028541.1688,
+    "geom:area_square_m":95028541.168763,
     "geom:bbox":"-85.670247,43.027853,-85.542892,43.117275",
     "geom:latitude":43.07192,
     "geom:longitude":-85.610223,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":43.072633,
     "lbl:longitude":-85.610219,
@@ -99,11 +102,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":81,
     "uscensus:geoid":2608164660,
     "uscensus:name":"Plainfield",
     "uscensus:namelsad":"Plainfield charter township",
+    "uscensus:population":34083,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -113,8 +119,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2608164660
+        "uscensus:geoid":"2608164660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -130,11 +137,11 @@
         }
     ],
     "wof:id":404507861,
-    "wof:lastmodified":1605055771,
+    "wof:lastmodified":1722117917,
     "wof:name":"Plainfield",
     "wof:parent_id":102083023,
     "wof:placetype":"localadmin",
-    "wof:population":30952,
+    "wof:population":34083,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010319,
-    "geom:area_square_m":95753771.375876,
+    "geom:area_square_m":95753771.375913,
     "geom:bbox":"-79.604163,41.321008,-79.477822,41.414176",
     "geom:latitude":41.369255,
     "geom:longitude":-79.543169,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.37267,
     "lbl:longitude":-79.539802,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":121,
     "uscensus:geoid":4212160472,
     "uscensus:name":"Pinegrove",
     "uscensus:namelsad":"Pinegrove township",
+    "uscensus:population":1311,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212160472
+        "uscensus:geoid":"4212160472"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470859
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404483927,
-    "wof:lastmodified":1605055449,
+    "wof:lastmodified":1722117765,
     "wof:name":"Pinegrove Township",
     "wof:parent_id":102081279,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1354,
+    "wof:population":1311,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

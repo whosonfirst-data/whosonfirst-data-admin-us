@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.018309,
-    "geom:area_square_m":162120899.695414,
+    "geom:area_square_m":162120899.695429,
     "geom:bbox":"-70.325218,44.178572,-70.174374,44.362913",
     "geom:latitude":44.267083,
     "geom:longitude":-70.242932,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.267228,
     "lbl:longitude":-70.241503,
     "lbl:max_zoom":15.0,
@@ -112,11 +118,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":2300177800,
     "uscensus:name":"Turner",
     "uscensus:namelsad":"Turner town",
+    "uscensus:population":5913,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
@@ -126,8 +135,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2300177800
+        "uscensus:geoid":"2300177800"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729455553
     ],
@@ -146,11 +156,11 @@
         }
     ],
     "wof:id":404475351,
-    "wof:lastmodified":1605055849,
+    "wof:lastmodified":1722117707,
     "wof:name":"Turner",
     "wof:parent_id":102087457,
     "wof:placetype":"localadmin",
-    "wof:population":5734,
+    "wof:population":5913,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

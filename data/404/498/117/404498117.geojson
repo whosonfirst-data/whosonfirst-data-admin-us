@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01359,
-    "geom:area_square_m":127115086.267892,
+    "geom:area_square_m":127115086.267861,
     "geom:bbox":"-91.097456,40.806866,-90.902732,40.895697",
     "geom:latitude":40.847222,
     "geom:longitude":-90.982675,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.851207,
     "lbl:longitude":-90.982715,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":71,
     "uscensus:geoid":1707129444,
     "uscensus:name":"Gladstone",
     "uscensus:namelsad":"Gladstone township",
+    "uscensus:population":780,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1707129444
+        "uscensus:geoid":"1707129444"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404498117,
-    "wof:lastmodified":1605055564,
+    "wof:lastmodified":1722233640,
     "wof:name":"Gladstone Township",
     "wof:parent_id":102086929,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":962,
+    "wof:population":780,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

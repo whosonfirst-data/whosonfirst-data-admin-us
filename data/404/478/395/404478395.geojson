@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000363,
-    "geom:area_square_m":3426241.910602,
+    "geom:area_square_m":3426241.910584,
     "geom:bbox":"-74.053948,40.140105,-74.032072,40.165434",
     "geom:latitude":40.152193,
     "geom:longitude":-74.04293,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.152349,
     "lbl:longitude":-74.042722,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":3402570140,
     "uscensus:name":"Spring Lake Heights",
     "uscensus:namelsad":"Spring Lake Heights borough",
+    "uscensus:population":4834,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3402570140
+        "uscensus:geoid":"3402570140"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404478395,
-    "wof:lastmodified":1605055343,
+    "wof:lastmodified":1722117730,
     "wof:name":"Spring Lake Heights",
     "wof:parent_id":102085049,
     "wof:placetype":"localadmin",
-    "wof:population":4713,
+    "wof:population":4834,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

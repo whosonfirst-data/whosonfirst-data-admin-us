@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01384,
-    "geom:area_square_m":125157401.965619,
+    "geom:area_square_m":125157401.965641,
     "geom:bbox":"-78.311487,42.956842,-78.132924,43.044967",
     "geom:latitude":43.00117,
     "geom:longitude":-78.226113,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.00062,
     "lbl:longitude":-78.257448,
     "lbl:max_zoom":15.0,
@@ -124,11 +130,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":37,
     "uscensus:geoid":3603704726,
     "uscensus:name":"Batavia",
     "uscensus:namelsad":"Batavia town",
+    "uscensus:population":6254,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -138,8 +147,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3603704726
+        "uscensus:geoid":"3603704726"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469585
     ],
@@ -158,11 +168,11 @@
         }
     ],
     "wof:id":404522457,
-    "wof:lastmodified":1605056080,
+    "wof:lastmodified":1722117993,
     "wof:name":"Batavia",
     "wof:parent_id":102083105,
     "wof:placetype":"localadmin",
-    "wof:population":6809,
+    "wof:population":6254,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

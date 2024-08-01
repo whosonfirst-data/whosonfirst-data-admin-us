@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01073,
-    "geom:area_square_m":88217747.091121,
+    "geom:area_square_m":88217747.091101,
     "geom:bbox":"-102.310083,48.283695,-102.180815,48.372549",
     "geom:latitude":48.327466,
     "geom:longitude":-102.246541,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.313436,
     "lbl:longitude":-102.273399,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":3806160660,
     "uscensus:name":"Palermo",
     "uscensus:namelsad":"Palermo township",
+    "uscensus:population":35,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3806160660
+        "uscensus:geoid":"3806160660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478657
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404479241,
-    "wof:lastmodified":1605055479,
+    "wof:lastmodified":1722117736,
     "wof:name":"Palermo Township",
     "wof:parent_id":102082569,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":32,
+    "wof:population":35,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

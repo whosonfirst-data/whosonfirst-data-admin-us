@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000896,
-    "geom:area_square_m":8384109.778,
+    "geom:area_square_m":8384109.778017,
     "geom:bbox":"-74.146736,40.834056,-74.106786,40.876768",
     "geom:latitude":40.85747,
     "geom:longitude":-74.128212,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.853786,
     "lbl:longitude":-74.132897,
     "lbl:max_zoom":14.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":3403156550,
     "uscensus:name":"Passaic",
     "uscensus:namelsad":"Passaic city",
+    "uscensus:population":68903,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3403156550
+        "uscensus:geoid":"3403156550"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404477817,
-    "wof:lastmodified":1605055417,
+    "wof:lastmodified":1722117725,
     "wof:name":"Passaic",
     "wof:parent_id":102081133,
     "wof:placetype":"localadmin",
-    "wof:population":69781,
+    "wof:population":68903,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

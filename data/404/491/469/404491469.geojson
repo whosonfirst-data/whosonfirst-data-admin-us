@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008791,
-    "geom:area_square_m":78603447.084191,
+    "geom:area_square_m":78603447.084246,
     "geom:bbox":"-89.699791,43.642529,-89.599041,43.730881",
     "geom:latitude":43.686777,
     "geom:longitude":-89.649328,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.686736,
     "lbl:longitude":-89.64933,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":5500156750,
     "uscensus:name":"New Haven",
     "uscensus:namelsad":"New Haven town",
+    "uscensus:population":698,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5500156750
+        "uscensus:geoid":"5500156750"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472527
     ],
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404491469,
-    "wof:lastmodified":1605055588,
+    "wof:lastmodified":1722117813,
     "wof:name":"New Haven",
     "wof:parent_id":102081729,
     "wof:placetype":"localadmin",
-    "wof:population":655,
+    "wof:population":698,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

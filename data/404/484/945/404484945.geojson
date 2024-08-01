@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001743,
-    "geom:area_square_m":16377755.293824,
+    "geom:area_square_m":16377755.293835,
     "geom:bbox":"-79.869,40.520508,-79.80755,40.566534",
     "geom:latitude":40.547041,
     "geom:longitude":-79.838705,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.546156,
     "lbl:longitude":-79.839273,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4200332624,
     "uscensus:name":"Harmar",
     "uscensus:namelsad":"Harmar township",
+    "uscensus:population":3025,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200332624
+        "uscensus:geoid":"4200332624"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474379
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404484945,
-    "wof:lastmodified":1605055468,
+    "wof:lastmodified":1722117771,
     "wof:name":"Harmar Township",
     "wof:parent_id":102080887,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2921,
+    "wof:population":3025,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

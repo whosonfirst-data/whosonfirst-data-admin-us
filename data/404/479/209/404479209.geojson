@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011138,
-    "geom:area_square_m":93271142.493443,
+    "geom:area_square_m":93271142.493517,
     "geom:bbox":"-99.266349,47.326828,-99.138496,47.414407",
     "geom:latitude":47.370528,
     "geom:longitude":-99.202495,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.370494,
     "lbl:longitude":-99.202494,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":3803147900,
     "uscensus:name":"Longview",
     "uscensus:namelsad":"Longview township",
+    "uscensus:population":49,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3803147900
+        "uscensus:geoid":"3803147900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729454051
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404479209,
-    "wof:lastmodified":1605055481,
+    "wof:lastmodified":1722117736,
     "wof:name":"Longview Township",
     "wof:parent_id":102082089,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":47,
+    "wof:population":49,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

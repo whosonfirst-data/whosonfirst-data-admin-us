@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014937,
-    "geom:area_square_m":138961584.413388,
+    "geom:area_square_m":138961584.41343,
     "geom:bbox":"-91.114153,41.157008,-90.897166,41.246182",
     "geom:latitude":41.20599,
     "geom:longitude":-90.986484,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.201726,
     "lbl:longitude":-90.97771,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":131,
     "uscensus:geoid":1713152233,
     "uscensus:name":"New Boston",
     "uscensus:namelsad":"New Boston township",
+    "uscensus:population":1167,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1713152233
+        "uscensus:geoid":"1713152233"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404499813,
-    "wof:lastmodified":1605055549,
+    "wof:lastmodified":1722233647,
     "wof:name":"New Boston Township",
     "wof:parent_id":102080839,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1204,
+    "wof:population":1167,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

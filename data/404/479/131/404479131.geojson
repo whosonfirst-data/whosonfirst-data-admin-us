@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00026,
-    "geom:area_square_m":2135144.549525,
+    "geom:area_square_m":2135144.549534,
     "geom:bbox":"-100.415358,48.337785,-100.398123,48.355304",
     "geom:latitude":48.347121,
     "geom:longitude":-100.406983,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.347085,
     "lbl:longitude":-100.406869,
     "lbl:max_zoom":17.0,
@@ -64,11 +70,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":3804979420,
     "uscensus:name":"Towner",
     "uscensus:namelsad":"Towner city",
+    "uscensus:population":458,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -78,8 +87,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3804979420
+        "uscensus:geoid":"3804979420"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -95,11 +105,11 @@
         }
     ],
     "wof:id":404479131,
-    "wof:lastmodified":1605055478,
+    "wof:lastmodified":1722117735,
     "wof:name":"Towner",
     "wof:parent_id":102082517,
     "wof:placetype":"localadmin",
-    "wof:population":533,
+    "wof:population":458,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

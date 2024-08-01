@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00969,
-    "geom:area_square_m":94427292.963514,
+    "geom:area_square_m":94427292.963501,
     "geom:bbox":"-89.039846,37.950051,-88.928644,38.037895",
     "geom:latitude":37.993882,
     "geom:longitude":-88.984357,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.993895,
     "lbl:longitude":-88.984358,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":55,
     "uscensus:geoid":1705508940,
     "uscensus:name":"Browning",
     "uscensus:namelsad":"Browning township",
+    "uscensus:population":2363,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1705508940
+        "uscensus:geoid":"1705508940"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404496075,
-    "wof:lastmodified":1605055604,
+    "wof:lastmodified":1722233633,
     "wof:name":"Browning Township",
     "wof:parent_id":102082283,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2450,
+    "wof:population":2363,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

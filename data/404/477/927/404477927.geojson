@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000674,
-    "geom:area_square_m":6334597.721891,
+    "geom:area_square_m":6334597.721893,
     "geom:bbox":"-74.609267,40.526911,-74.566482,40.557665",
     "geom:latitude":40.542074,
     "geom:longitude":-74.589205,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.541087,
     "lbl:longitude":-74.589525,
     "lbl:max_zoom":15.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":3403543620,
     "uscensus:name":"Manville",
     "uscensus:namelsad":"Manville borough",
+    "uscensus:population":10779,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3403543620
+        "uscensus:geoid":"3403543620"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404477927,
-    "wof:lastmodified":1605055433,
+    "wof:lastmodified":1722117726,
     "wof:name":"Manville",
     "wof:parent_id":102085045,
     "wof:placetype":"localadmin",
-    "wof:population":10344,
+    "wof:population":10779,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

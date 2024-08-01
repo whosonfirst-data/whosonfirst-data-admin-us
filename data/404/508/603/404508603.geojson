@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001768,
-    "geom:area_square_m":16171490.176286,
+    "geom:area_square_m":16171490.176306,
     "geom:bbox":"-83.339928,42.274945,-83.289776,42.31205",
     "geom:latitude":42.293484,
     "geom:longitude":-83.314825,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.293488,
     "lbl:longitude":-83.314827,
     "lbl:max_zoom":14.0,
@@ -67,11 +73,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":163,
     "uscensus:geoid":2616340680,
     "uscensus:name":"Inkster",
     "uscensus:namelsad":"Inkster city",
+    "uscensus:population":25056,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -81,8 +90,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2616340680
+        "uscensus:geoid":"2616340680"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -98,11 +108,11 @@
         }
     ],
     "wof:id":404508603,
-    "wof:lastmodified":1605055738,
+    "wof:lastmodified":1722117923,
     "wof:name":"Inkster",
     "wof:parent_id":102083147,
     "wof:placetype":"localadmin",
-    "wof:population":25369,
+    "wof:population":25056,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

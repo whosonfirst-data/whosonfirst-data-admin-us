@@ -10,6 +10,12 @@
     "geom:latitude":45.480315,
     "geom:longitude":-90.997158,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "village"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.480273,
     "lbl:longitude":-90.997158,
     "lbl:max_zoom":18.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":107,
     "uscensus:geoid":5510780225,
     "uscensus:name":"Tony",
     "uscensus:namelsad":"Tony village",
+    "uscensus:population":98,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5510780225
+        "uscensus:geoid":"5510780225"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404492187,
-    "wof:lastmodified":1605056002,
+    "wof:lastmodified":1722117818,
     "wof:name":"Tony",
     "wof:parent_id":102081739,
     "wof:placetype":"localadmin",
-    "wof:population":113,
+    "wof:population":98,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

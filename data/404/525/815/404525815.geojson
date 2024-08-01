@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00937,
-    "geom:area_square_m":89029953.150219,
+    "geom:area_square_m":89029953.150221,
     "geom:bbox":"-84.814375,39.74353,-84.703575,39.828742",
     "geom:latitude":39.785938,
     "geom:longitude":-84.759059,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.785986,
     "lbl:longitude":-84.759061,
     "lbl:max_zoom":16.0,
@@ -58,11 +64,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":135,
     "uscensus:geoid":3913538010,
     "uscensus:name":"Jackson",
     "uscensus:namelsad":"Jackson township",
+    "uscensus:population":1139,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -72,8 +81,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3913538010
+        "uscensus:geoid":"3913538010"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466389
     ],
@@ -92,12 +102,12 @@
         }
     ],
     "wof:id":404525815,
-    "wof:lastmodified":1605056059,
+    "wof:lastmodified":1722118018,
     "wof:name":"Jackson Township",
     "wof:parent_id":102083757,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1190,
+    "wof:population":1139,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

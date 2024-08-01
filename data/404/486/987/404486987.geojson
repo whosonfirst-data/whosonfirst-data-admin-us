@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00457,
-    "geom:area_square_m":42491947.096325,
+    "geom:area_square_m":42491947.096322,
     "geom:bbox":"-76.076725,41.211105,-75.941789,41.270093",
     "geom:latitude":41.23893,
     "geom:longitude":-76.00875,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.238778,
     "lbl:longitude":-76.035805,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":79,
     "uscensus:geoid":4207961656,
     "uscensus:name":"Plymouth",
     "uscensus:namelsad":"Plymouth township",
+    "uscensus:population":1717,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207961656
+        "uscensus:geoid":"4207961656"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404486987,
-    "wof:lastmodified":1605055876,
+    "wof:lastmodified":1722117784,
     "wof:name":"Plymouth Township",
     "wof:parent_id":102081351,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1812,
+    "wof:population":1717,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

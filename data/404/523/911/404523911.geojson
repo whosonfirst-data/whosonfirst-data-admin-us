@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006614,
-    "geom:area_square_m":62329662.961546,
+    "geom:area_square_m":62329662.961541,
     "geom:bbox":"-82.375423,40.312777,-82.281524,40.387952",
     "geom:latitude":40.350016,
     "geom:longitude":-82.327679,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.350073,
     "lbl:longitude":-82.327669,
     "lbl:max_zoom":17.0,
@@ -58,11 +64,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":83,
     "uscensus:geoid":3908333880,
     "uscensus:name":"Harrison",
     "uscensus:namelsad":"Harrison township",
+    "uscensus:population":881,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -72,8 +81,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3908333880
+        "uscensus:geoid":"3908333880"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472657
     ],
@@ -92,12 +102,12 @@
         }
     ],
     "wof:id":404523911,
-    "wof:lastmodified":1605056098,
+    "wof:lastmodified":1722118004,
     "wof:name":"Harrison Township",
     "wof:parent_id":102084811,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":806,
+    "wof:population":881,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009507,
-    "geom:area_square_m":90961481.079413,
+    "geom:area_square_m":90961481.079391,
     "geom:bbox":"-90.149462,39.261732,-90.036547,39.346996",
     "geom:latitude":39.304389,
     "geom:longitude":-90.092647,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.304359,
     "lbl:longitude":-90.092642,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":117,
     "uscensus:geoid":1711780229,
     "uscensus:name":"Western Mound",
     "uscensus:namelsad":"Western Mound township",
+    "uscensus:population":247,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1711780229
+        "uscensus:geoid":"1711780229"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475025
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404496715,
-    "wof:lastmodified":1605055600,
+    "wof:lastmodified":1722117845,
     "wof:name":"Western Mound Township",
     "wof:parent_id":102082273,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":272,
+    "wof:population":247,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

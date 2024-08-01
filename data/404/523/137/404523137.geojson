@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.017019,
-    "geom:area_square_m":149238316.492487,
+    "geom:area_square_m":149238316.492477,
     "geom:bbox":"-75.059773,44.749427,-74.832367,44.914283",
     "geom:latitude":44.832037,
     "geom:longitude":-74.946745,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.825131,
     "lbl:longitude":-74.957945,
     "lbl:max_zoom":15.0,
@@ -250,22 +256,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":89,
     "uscensus:geoid":3608951330,
     "uscensus:name":"Norfolk",
     "uscensus:namelsad":"Norfolk town",
+    "uscensus:population":4389,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688543,
-        102082379
+        102082379,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3608951330
+        "uscensus:geoid":"3608951330"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -281,11 +291,11 @@
         }
     ],
     "wof:id":404523137,
-    "wof:lastmodified":1636499448,
+    "wof:lastmodified":1722233678,
     "wof:name":"Norfolk",
     "wof:parent_id":102082379,
     "wof:placetype":"localadmin",
-    "wof:population":4668,
+    "wof:population":4389,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

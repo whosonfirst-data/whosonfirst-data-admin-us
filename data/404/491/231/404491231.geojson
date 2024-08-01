@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008314,
-    "geom:area_square_m":74397866.277684,
+    "geom:area_square_m":74397866.277665,
     "geom:bbox":"-96.771492,43.587417,-96.651405,43.674629",
     "geom:latitude":43.639242,
     "geom:longitude":-96.710145,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.645274,
     "lbl:longitude":-96.71007,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":4609940660,
     "uscensus:name":"Mapleton",
     "uscensus:namelsad":"Mapleton township",
+    "uscensus:population":2075,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4609940660
+        "uscensus:geoid":"4609940660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404491231,
-    "wof:lastmodified":1605055588,
+    "wof:lastmodified":1722117812,
     "wof:name":"Mapleton Township",
     "wof:parent_id":102086007,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2188,
+    "wof:population":2075,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

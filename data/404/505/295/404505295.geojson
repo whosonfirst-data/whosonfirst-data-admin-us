@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002161,
-    "geom:area_square_m":21264200.761477,
+    "geom:area_square_m":21264200.761468,
     "geom:bbox":"-97.535293,37.200017,-97.364806,37.338425",
     "geom:latitude":37.262137,
     "geom:longitude":-97.428369,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.271514,
     "lbl:longitude":-97.397346,
     "lbl:max_zoom":15.0,
@@ -445,11 +451,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":191,
     "uscensus:geoid":2019176475,
     "uscensus:name":"Wellington",
     "uscensus:namelsad":"Wellington city",
+    "uscensus:population":7568,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -459,8 +468,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2019176475
+        "uscensus:geoid":"2019176475"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -476,11 +486,11 @@
         }
     ],
     "wof:id":404505295,
-    "wof:lastmodified":1605055282,
+    "wof:lastmodified":1722117899,
     "wof:name":"Wellington",
     "wof:parent_id":102085325,
     "wof:placetype":"localadmin",
-    "wof:population":8172,
+    "wof:population":7568,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

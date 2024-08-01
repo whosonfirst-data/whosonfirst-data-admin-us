@@ -142,7 +142,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1886370,
     "uscensus:awater":0,
     "uscensus:classfp":"C1",
@@ -158,6 +159,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"14730",
     "uscensus:placens":"02394645",
+    "uscensus:population":707,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"31",
     "wd:elevation":587.0,
     "wd:latitude":41.983611,
@@ -165,11 +168,11 @@
     "wd:population":661,
     "wd:wordcount":834,
     "wof:belongsto":[
-        85688563,
         102191575,
-        404518525,
         85633793,
-        102082205
+        102082205,
+        404518525,
+        85688563
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -177,10 +180,11 @@
         "gn:id":5067505,
         "gp:id":2398253,
         "qs_pg:id":896579,
-        "uscensus:geoid":3114730,
+        "uscensus:geoid":"3114730",
         "wd:id":"Q966246",
         "wk:page":"Elgin, Nebraska"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -198,11 +202,11 @@
         }
     ],
     "wof:id":85974029,
-    "wof:lastmodified":1690883546,
+    "wof:lastmodified":1722116045,
     "wof:name":"Elgin",
     "wof:parent_id":404518525,
     "wof:placetype":"locality",
-    "wof:population":661,
+    "wof:population":707,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

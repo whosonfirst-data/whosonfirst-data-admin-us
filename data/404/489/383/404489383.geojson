@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010348,
-    "geom:area_square_m":91846732.638323,
+    "geom:area_square_m":91846732.63838,
     "geom:bbox":"-102.36795,44.081211,-102.247776,44.168089",
     "geom:latitude":44.124653,
     "geom:longitude":-102.307669,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.124736,
     "lbl:longitude":-102.307674,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":103,
     "uscensus:geoid":4610310820,
     "uscensus:name":"Cedar Butte",
     "uscensus:namelsad":"Cedar Butte township",
+    "uscensus:population":43,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4610310820
+        "uscensus:geoid":"4610310820"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478629
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404489383,
-    "wof:lastmodified":1605055927,
+    "wof:lastmodified":1722117800,
     "wof:name":"Cedar Butte Township",
     "wof:parent_id":102086781,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":42,
+    "wof:population":43,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

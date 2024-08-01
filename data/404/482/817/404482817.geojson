@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000044,
-    "geom:area_square_m":411618.026647,
+    "geom:area_square_m":411618.02665,
     "geom:bbox":"-79.843269,40.405792,-79.833961,40.415077",
     "geom:latitude":40.410119,
     "geom:longitude":-79.838614,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.410107,
     "lbl:longitude":-79.838614,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4200312496,
     "uscensus:name":"Chalfant",
     "uscensus:namelsad":"Chalfant borough",
+    "uscensus:population":719,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200312496
+        "uscensus:geoid":"4200312496"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,11 +93,11 @@
         }
     ],
     "wof:id":404482817,
-    "wof:lastmodified":1605055378,
+    "wof:lastmodified":1722117759,
     "wof:name":"Chalfant",
     "wof:parent_id":102080887,
     "wof:placetype":"localadmin",
-    "wof:population":800,
+    "wof:population":719,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011045,
-    "geom:area_square_m":93410092.682839,
+    "geom:area_square_m":93410092.682757,
     "geom:bbox":"-98.565815,46.804739,-98.438835,46.892638",
     "geom:latitude":46.848671,
     "geom:longitude":-98.502228,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.848672,
     "lbl:longitude":-98.502231,
     "lbl:max_zoom":18.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":93,
     "uscensus:geoid":3809386740,
     "uscensus:name":"Winfield",
     "uscensus:namelsad":"Winfield township",
+    "uscensus:population":86,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3809386740
+        "uscensus:geoid":"3809386740"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460573
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404482459,
-    "wof:lastmodified":1605055389,
+    "wof:lastmodified":1722117756,
     "wof:name":"Winfield Township",
     "wof:parent_id":102082093,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":83,
+    "wof:population":86,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010287,
-    "geom:area_square_m":94303075.249932,
+    "geom:area_square_m":94303075.249938,
     "geom:bbox":"-89.978259,42.109008,-89.860272,42.196951",
     "geom:latitude":42.153037,
     "geom:longitude":-89.919178,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.153,
     "lbl:longitude":-89.919182,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":1701527832,
     "uscensus:name":"Freedom",
     "uscensus:namelsad":"Freedom township",
+    "uscensus:population":775,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1701527832
+        "uscensus:geoid":"1701527832"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457437
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404497435,
-    "wof:lastmodified":1605055501,
+    "wof:lastmodified":1722117849,
     "wof:name":"Freedom Township",
     "wof:parent_id":102082297,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":695,
+    "wof:population":775,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

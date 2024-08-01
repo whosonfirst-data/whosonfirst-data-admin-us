@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000393,
-    "geom:area_square_m":3729801.334574,
+    "geom:area_square_m":3729801.33457,
     "geom:bbox":"-75.199941,39.856772,-75.168912,39.880814",
     "geom:latitude":39.867621,
     "geom:longitude":-75.185197,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.867822,
     "lbl:longitude":-75.186258,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":3401549680,
     "uscensus:name":"National Park",
     "uscensus:namelsad":"National Park borough",
+    "uscensus:population":3063,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3401549680
+        "uscensus:geoid":"3401549680"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404477439,
-    "wof:lastmodified":1605055418,
+    "wof:lastmodified":1722117722,
     "wof:name":"National Park",
     "wof:parent_id":102085999,
     "wof:placetype":"localadmin",
-    "wof:population":3036,
+    "wof:population":3063,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

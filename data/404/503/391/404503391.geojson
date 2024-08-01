@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001332,
-    "geom:area_square_m":13078673.821896,
+    "geom:area_square_m":13078673.821891,
     "geom:bbox":"-94.73263,37.440287,-94.658189,37.491392",
     "geom:latitude":37.458379,
     "geom:longitude":-94.701574,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.452054,
     "lbl:longitude":-94.689508,
     "lbl:max_zoom":15.0,
@@ -94,11 +100,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":37,
     "uscensus:geoid":2003724850,
     "uscensus:name":"Frontenac",
     "uscensus:namelsad":"Frontenac city",
+    "uscensus:population":3372,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -108,8 +117,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2003724850
+        "uscensus:geoid":"2003724850"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -125,11 +135,11 @@
         }
     ],
     "wof:id":404503391,
-    "wof:lastmodified":1605055314,
+    "wof:lastmodified":1722117885,
     "wof:name":"Frontenac",
     "wof:parent_id":102082657,
     "wof:placetype":"localadmin",
-    "wof:population":3437,
+    "wof:population":3372,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

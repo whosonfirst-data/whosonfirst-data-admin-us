@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004114,
-    "geom:area_square_m":38177458.563399,
+    "geom:area_square_m":38177458.563391,
     "geom:bbox":"-83.883678,41.339206,-83.766822,41.386849",
     "geom:latitude":41.361586,
     "geom:longitude":-83.814756,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.364793,
     "lbl:longitude":-83.808878,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":173,
     "uscensus:geoid":3917383986,
     "uscensus:name":"Weston",
     "uscensus:namelsad":"Weston township",
+    "uscensus:population":2157,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3917383986
+        "uscensus:geoid":"3917383986"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404526529,
-    "wof:lastmodified":1605055650,
+    "wof:lastmodified":1722233689,
     "wof:name":"Weston Township",
     "wof:parent_id":102084781,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2336,
+    "wof:population":2157,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

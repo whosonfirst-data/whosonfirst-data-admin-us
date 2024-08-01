@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010825,
-    "geom:area_square_m":93500435.469378,
+    "geom:area_square_m":93500435.469353,
     "geom:bbox":"-93.513683,45.644424,-93.388866,45.734326",
     "geom:latitude":45.688793,
     "geom:longitude":-93.451107,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.6888,
     "lbl:longitude":-93.451114,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":59,
     "uscensus:geoid":2705914572,
     "uscensus:name":"Dalbo",
     "uscensus:namelsad":"Dalbo township",
+    "uscensus:population":800,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2705914572
+        "uscensus:geoid":"2705914572"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462163
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404509783,
-    "wof:lastmodified":1605055791,
+    "wof:lastmodified":1722117932,
     "wof:name":"Dalbo Township",
     "wof:parent_id":102087813,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":743,
+    "wof:population":800,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

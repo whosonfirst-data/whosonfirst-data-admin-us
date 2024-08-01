@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011151,
-    "geom:area_square_m":93381957.686948,
+    "geom:area_square_m":93381957.686866,
     "geom:bbox":"-100.673351,47.327464,-100.544889,47.414987",
     "geom:latitude":47.371134,
     "geom:longitude":-100.60919,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.371179,
     "lbl:longitude":-100.609206,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":83,
     "uscensus:geoid":3808322220,
     "uscensus:name":"Edgemont",
     "uscensus:namelsad":"Edgemont township",
+    "uscensus:population":17,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3808322220
+        "uscensus:geoid":"3808322220"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474211
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404481751,
-    "wof:lastmodified":1605055829,
+    "wof:lastmodified":1722117752,
     "wof:name":"Edgemont Township",
     "wof:parent_id":102082099,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":19,
+    "wof:population":17,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

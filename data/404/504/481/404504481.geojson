@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009638,
-    "geom:area_square_m":93181661.170885,
+    "geom:area_square_m":93181661.170812,
     "geom:bbox":"-97.592945,38.521695,-97.4823,38.609219",
     "geom:latitude":38.565461,
     "geom:longitude":-97.537614,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.565438,
     "lbl:longitude":-97.537615,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":113,
     "uscensus:geoid":2011307925,
     "uscensus:name":"Bonaville",
     "uscensus:namelsad":"Bonaville township",
+    "uscensus:population":87,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2011307925
+        "uscensus:geoid":"2011307925"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466873
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404504481,
-    "wof:lastmodified":1605055307,
+    "wof:lastmodified":1722117893,
     "wof:name":"Bonaville Township",
     "wof:parent_id":102083415,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":74,
+    "wof:population":87,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

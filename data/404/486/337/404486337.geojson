@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000389,
-    "geom:area_square_m":3659396.755152,
+    "geom:area_square_m":3659396.755154,
     "geom:bbox":"-79.272239,40.419323,-79.243945,40.443874",
     "geom:latitude":40.432491,
     "geom:longitude":-79.259881,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.431115,
     "lbl:longitude":-79.260844,
     "lbl:max_zoom":15.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":63,
     "uscensus:geoid":4206306904,
     "uscensus:name":"Blairsville",
     "uscensus:namelsad":"Blairsville borough",
+    "uscensus:population":3203,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206306904
+        "uscensus:geoid":"4206306904"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404486337,
-    "wof:lastmodified":1605055859,
+    "wof:lastmodified":1722117779,
     "wof:name":"Blairsville",
     "wof:parent_id":102081387,
     "wof:placetype":"localadmin",
-    "wof:population":3412,
+    "wof:population":3203,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

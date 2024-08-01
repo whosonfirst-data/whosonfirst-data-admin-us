@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010034,
-    "geom:area_square_m":86678938.175552,
+    "geom:area_square_m":86678938.175526,
     "geom:bbox":"-92.529107,45.640309,-92.406525,45.728706",
     "geom:latitude":45.685919,
     "geom:longitude":-92.467939,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.697204,
     "lbl:longitude":-92.473049,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":5509586350,
     "uscensus:name":"West Sweden",
     "uscensus:namelsad":"West Sweden town",
+    "uscensus:population":758,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5509586350
+        "uscensus:geoid":"5509586350"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464195
     ],
@@ -86,11 +96,11 @@
         }
     ],
     "wof:id":404494851,
-    "wof:lastmodified":1605055964,
+    "wof:lastmodified":1722117835,
     "wof:name":"West Sweden",
     "wof:parent_id":102081307,
     "wof:placetype":"localadmin",
-    "wof:population":699,
+    "wof:population":758,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

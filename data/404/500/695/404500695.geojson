@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009764,
-    "geom:area_square_m":92536173.478078,
+    "geom:area_square_m":92536173.478098,
     "geom:bbox":"-85.995038,39.926836,-85.861856,40.002288",
     "geom:latitude":39.964629,
     "geom:longitude":-85.928554,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.96459,
     "lbl:longitude":-85.928554,
     "lbl:max_zoom":14.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":57,
     "uscensus:geoid":1805722612,
     "uscensus:name":"Fall Creek",
     "uscensus:namelsad":"Fall Creek township",
+    "uscensus:population":74552,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1805722612
+        "uscensus:geoid":"1805722612"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404500695,
-    "wof:lastmodified":1604530777,
+    "wof:lastmodified":1722233650,
     "wof:name":"Fall Creek Township",
     "wof:parent_id":102087089,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":51613,
+    "wof:population":74552,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

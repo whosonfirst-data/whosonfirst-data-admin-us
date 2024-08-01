@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002587,
-    "geom:area_square_m":24123846.972463,
+    "geom:area_square_m":24123846.972461,
     "geom:bbox":"-74.324454,41.011995,-74.250458,41.072932",
     "geom:latitude":41.043974,
     "geom:longitude":-74.289996,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.040958,
     "lbl:longitude":-74.280192,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":3403176730,
     "uscensus:name":"Wanaque",
     "uscensus:namelsad":"Wanaque borough",
+    "uscensus:population":11048,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3403176730
+        "uscensus:geoid":"3403176730"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404477877,
-    "wof:lastmodified":1605055427,
+    "wof:lastmodified":1722117726,
     "wof:name":"Wanaque",
     "wof:parent_id":102081133,
     "wof:placetype":"localadmin",
-    "wof:population":11116,
+    "wof:population":11048,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -157,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":3785852,
     "uscensus:awater":29508,
     "uscensus:classfp":"C5",
@@ -173,6 +174,8 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"33775",
     "uscensus:placens":"00838151",
+    "uscensus:population":1515,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"31",
     "wd:elevation":535.0,
     "wd:latitude":42.13,
@@ -180,11 +183,11 @@
     "wd:population":1599,
     "wd:wordcount":1352,
     "wof:belongsto":[
-        85688563,
         102191575,
-        404519415,
         85633793,
-        102082205
+        102082205,
+        404519415,
+        85688563
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -192,13 +195,14 @@
         "gn:id":5073735,
         "gp:id":2457655,
         "qs_pg:id":996691,
-        "uscensus:geoid":3133775,
+        "uscensus:geoid":"3133775",
         "wd:id":"Q920445",
         "wk:page":"Neligh, Nebraska"
     },
     "wof:concordances_alt":{
         "qs_pg:id":1244734
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -216,11 +220,11 @@
         }
     ],
     "wof:id":85974031,
-    "wof:lastmodified":1690883549,
+    "wof:lastmodified":1722116046,
     "wof:name":"Neligh",
     "wof:parent_id":404519415,
     "wof:placetype":"locality",
-    "wof:population":1599,
+    "wof:population":1515,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

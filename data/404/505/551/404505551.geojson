@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009804,
-    "geom:area_square_m":93509126.664953,
+    "geom:area_square_m":93509126.664887,
     "geom:bbox":"-96.463806,39.478575,-96.351023,39.566173",
     "geom:latitude":39.522536,
     "geom:longitude":-96.407372,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.522538,
     "lbl:longitude":-96.407373,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":149,
     "uscensus:geoid":2014913800,
     "uscensus:name":"Clear Creek",
     "uscensus:namelsad":"Clear Creek township",
+    "uscensus:population":138,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2014913800
+        "uscensus:geoid":"2014913800"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458703
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404505551,
-    "wof:lastmodified":1605055277,
+    "wof:lastmodified":1722117901,
     "wof:name":"Clear Creek Township",
     "wof:parent_id":102082663,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":140,
+    "wof:population":138,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

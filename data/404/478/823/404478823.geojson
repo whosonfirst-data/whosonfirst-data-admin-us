@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011078,
-    "geom:area_square_m":93069287.858662,
+    "geom:area_square_m":93069287.858625,
     "geom:bbox":"-100.749492,47.156971,-100.621752,47.244457",
     "geom:latitude":47.200703,
     "geom:longitude":-100.685645,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.200681,
     "lbl:longitude":-100.685655,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":3801532740,
     "uscensus:name":"Grass Lake",
     "uscensus:namelsad":"Grass Lake township",
+    "uscensus:population":60,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3801532740
+        "uscensus:geoid":"3801532740"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475945
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404478823,
-    "wof:lastmodified":1605055346,
+    "wof:lastmodified":1722117733,
     "wof:name":"Grass Lake Township",
     "wof:parent_id":102082107,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":69,
+    "wof:population":60,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

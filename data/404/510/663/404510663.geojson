@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010898,
-    "geom:area_square_m":92232410.673581,
+    "geom:area_square_m":92232410.673572,
     "geom:bbox":"-92.55511,46.764827,-92.428054,46.852944",
     "geom:latitude":46.808701,
     "geom:longitude":-92.491762,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.808521,
     "lbl:longitude":-92.491755,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":137,
     "uscensus:geoid":2713707606,
     "uscensus:name":"Brevator",
     "uscensus:namelsad":"Brevator township",
+    "uscensus:population":1221,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2713707606
+        "uscensus:geoid":"2713707606"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404510663,
-    "wof:lastmodified":1605055620,
+    "wof:lastmodified":1722117938,
     "wof:name":"Brevator Township",
     "wof:parent_id":102087653,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1269,
+    "wof:population":1221,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

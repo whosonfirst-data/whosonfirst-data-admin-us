@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.020761,
-    "geom:area_square_m":181846265.287538,
+    "geom:area_square_m":181846265.287521,
     "geom:bbox":"-84.372081,44.854753,-84.131615,44.94228",
     "geom:latitude":44.898377,
     "geom:longitude":-84.251564,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.89883,
     "lbl:longitude":-84.251577,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":119,
     "uscensus:geoid":2611900940,
     "uscensus:name":"Albert",
     "uscensus:namelsad":"Albert township",
+    "uscensus:population":2592,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2611900940
+        "uscensus:geoid":"2611900940"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404507881,
-    "wof:lastmodified":1605055771,
+    "wof:lastmodified":1722117918,
     "wof:name":"Albert Township",
     "wof:parent_id":102083127,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2526,
+    "wof:population":2592,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

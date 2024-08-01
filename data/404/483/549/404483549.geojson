@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012232,
-    "geom:area_square_m":113620298.625799,
+    "geom:area_square_m":113620298.625773,
     "geom:bbox":"-76.252678,41.214028,-76.103097,41.379097",
     "geom:latitude":41.303667,
     "geom:longitude":-76.182317,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.300901,
     "lbl:longitude":-76.17502,
     "lbl:max_zoom":15.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":79,
     "uscensus:geoid":4207966272,
     "uscensus:name":"Ross",
     "uscensus:namelsad":"Ross township",
+    "uscensus:population":2746,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207966272
+        "uscensus:geoid":"4207966272"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470757
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404483549,
-    "wof:lastmodified":1605055448,
+    "wof:lastmodified":1722117763,
     "wof:name":"Ross Township",
     "wof:parent_id":102081351,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2937,
+    "wof:population":2746,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

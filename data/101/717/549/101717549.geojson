@@ -116,7 +116,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":23090978,
     "uscensus:awater":180187,
     "uscensus:classfp":"C5",
@@ -132,14 +133,16 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"73784",
     "uscensus:placens":"01215688",
+    "uscensus:population":173,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"42",
     "wd:wordcount":923,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404487347,
         85633793,
-        102081379
+        102081379,
+        404487347,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -148,10 +151,11 @@
         "gn:id":5213673,
         "gp:id":2499233,
         "qs_pg:id":1035787,
-        "uscensus:geoid":4273784,
+        "uscensus:geoid":"4273784",
         "wd:id":"Q1184584",
         "wk:page":"Starrucca, Pennsylvania"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -172,7 +176,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889802,
+    "wof:lastmodified":1722116350,
     "wof:name":"Starrucca",
     "wof:parent_id":404487347,
     "wof:placetype":"locality",

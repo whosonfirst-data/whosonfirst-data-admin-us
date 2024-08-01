@@ -14,6 +14,7 @@
     "gn:longitude":-144.06056,
     "gn:population":104,
     "iso:country":"US",
+    "lbl:bbox":"-144.080519655,65.805890319,-144.040519655,65.845890319",
     "lbl:latitude":65.789235,
     "lbl:longitude":-144.159967,
     "lbl:max_zoom":18.0,
@@ -253,6 +254,7 @@
     "ne:UN_LAT":0.0,
     "ne:UN_LONG":0.0,
     "ne:WORLDCITY":0,
+    "ne:min_zoom":6.7,
     "qs:a0":"United States",
     "qs:a1":"*Alaska",
     "qs:a1_lc":"02",
@@ -267,19 +269,24 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
+    "reversegeo:latitude":65.82589,
+    "reversegeo:longitude":-144.06052,
     "src:geom":"quattroshapes",
     "src:geom_alt":[
         "naturalearth",
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
+    "uscensus:population":95,
+    "uscensus:population_date":"2022",
     "wd:wordcount":671,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688573,
-        102081905
+        102081905,
+        85688573
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -292,6 +299,12 @@
         "wd:id":"Q974350",
         "wk:page":"Circle, Alaska"
     },
+    "wof:concordances_alt":{
+        "wd:id":[
+            "Q974350"
+        ]
+    },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "naturalearth",
@@ -311,15 +324,17 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690881984,
+    "wof:lastmodified":1722116395,
     "wof:name":"Circle",
     "wof:parent_id":102081905,
     "wof:placetype":"locality",
-    "wof:population":104,
+    "wof:population":95,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1141906901
+    ],
     "wof:tags":[]
 },
   "bbox": [

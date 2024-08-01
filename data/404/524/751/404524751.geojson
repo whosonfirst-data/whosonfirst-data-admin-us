@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011766,
-    "geom:area_square_m":110111785.168986,
+    "geom:area_square_m":110111785.168968,
     "geom:bbox":"-84.39738,40.772109,-84.223661,40.860112",
     "geom:latitude":40.813978,
     "geom:longitude":-84.29459,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.816037,
     "lbl:longitude":-84.294592,
     "lbl:max_zoom":15.0,
@@ -58,11 +64,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3900347656,
     "uscensus:name":"Marion",
     "uscensus:namelsad":"Marion township",
+    "uscensus:population":6702,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -72,8 +81,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3900347656
+        "uscensus:geoid":"3900347656"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404524751,
-    "wof:lastmodified":1605056110,
+    "wof:lastmodified":1722233683,
     "wof:name":"Marion Township",
     "wof:parent_id":102083673,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":6715,
+    "wof:population":6702,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

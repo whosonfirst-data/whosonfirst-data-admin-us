@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009771,
-    "geom:area_square_m":92964644.975007,
+    "geom:area_square_m":92964644.975021,
     "geom:bbox":"-96.919012,39.653222,-96.806339,39.740353",
     "geom:latitude":39.696801,
     "geom:longitude":-96.862759,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.696755,
     "lbl:longitude":-96.862784,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":201,
     "uscensus:geoid":2020104275,
     "uscensus:name":"Barnes",
     "uscensus:namelsad":"Barnes township",
+    "uscensus:population":221,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2020104275
+        "uscensus:geoid":"2020104275"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404503089,
-    "wof:lastmodified":1605055325,
+    "wof:lastmodified":1722233659,
     "wof:name":"Barnes Township",
     "wof:parent_id":102083411,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":212,
+    "wof:population":221,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010862,
-    "geom:area_square_m":93030320.620028,
+    "geom:area_square_m":93030320.620084,
     "geom:bbox":"-102.497582,46.118566,-102.372208,46.205979",
     "geom:latitude":46.162298,
     "geom:longitude":-102.434807,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.162276,
     "lbl:longitude":-102.434817,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":3800113500,
     "uscensus:name":"Chandler",
     "uscensus:namelsad":"Chandler township",
+    "uscensus:population":13,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3800113500
+        "uscensus:geoid":"3800113500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473775
     ],
@@ -83,7 +93,7 @@
         }
     ],
     "wof:id":404480215,
-    "wof:lastmodified":1605055915,
+    "wof:lastmodified":1722117743,
     "wof:name":"Chandler Township",
     "wof:parent_id":102082065,
     "wof:placetype":"localadmin",

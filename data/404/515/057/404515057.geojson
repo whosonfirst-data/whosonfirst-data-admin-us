@@ -10,6 +10,12 @@
     "geom:latitude":43.910651,
     "geom:longitude":-91.360534,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.909651,
     "lbl:longitude":-91.361443,
     "lbl:max_zoom":17.0,
@@ -154,11 +160,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":169,
     "uscensus:geoid":2716914518,
     "uscensus:name":"Dakota",
     "uscensus:namelsad":"Dakota city",
+    "uscensus:population":290,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -168,8 +177,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2716914518
+        "uscensus:geoid":"2716914518"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -185,11 +195,11 @@
         }
     ],
     "wof:id":404515057,
-    "wof:lastmodified":1605056140,
+    "wof:lastmodified":1722117970,
     "wof:name":"Dakota",
     "wof:parent_id":102087911,
     "wof:placetype":"localadmin",
-    "wof:population":323,
+    "wof:population":290,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

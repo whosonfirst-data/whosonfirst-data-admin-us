@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00991,
-    "geom:area_square_m":93200665.459847,
+    "geom:area_square_m":93200665.459868,
     "geom:bbox":"-99.17951,40.437659,-99.065681,40.525012",
     "geom:latitude":40.481346,
     "geom:longitude":-99.122598,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.481363,
     "lbl:longitude":-99.12259,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":3109932375,
     "uscensus:name":"Mirage",
     "uscensus:namelsad":"Mirage township",
+    "uscensus:population":912,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3109932375
+        "uscensus:geoid":"3109932375"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404518955,
-    "wof:lastmodified":1605055687,
+    "wof:lastmodified":1722233671,
     "wof:name":"Mirage Township",
     "wof:parent_id":102082807,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":890,
+    "wof:population":912,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -10,6 +10,12 @@
     "geom:latitude":45.084459,
     "geom:longitude":-97.478129,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.084458,
     "lbl:longitude":-97.47813,
     "lbl:max_zoom":18.0,
@@ -136,22 +142,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":4602968420,
     "uscensus:name":"Wallace",
     "uscensus:namelsad":"Wallace town",
+    "uscensus:population":94,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688693,
-        102086797
+        102086797,
+        85688693
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4602968420
+        "uscensus:geoid":"4602968420"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -167,11 +177,11 @@
         }
     ],
     "wof:id":404488553,
-    "wof:lastmodified":1636499368,
+    "wof:lastmodified":1722117795,
     "wof:name":"Wallace",
     "wof:parent_id":102086797,
     "wof:placetype":"localadmin",
-    "wof:population":85,
+    "wof:population":94,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

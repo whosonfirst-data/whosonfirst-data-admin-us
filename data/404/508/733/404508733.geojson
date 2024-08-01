@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010453,
-    "geom:area_square_m":92511611.131808,
+    "geom:area_square_m":92511611.131773,
     "geom:bbox":"-85.82127,44.25092,-85.700219,44.338317",
     "geom:latitude":44.29461,
     "geom:longitude":-85.760707,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.294623,
     "lbl:longitude":-85.760708,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":165,
     "uscensus:geoid":2616574220,
     "uscensus:name":"Slagle",
     "uscensus:namelsad":"Slagle township",
+    "uscensus:population":513,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2616574220
+        "uscensus:geoid":"2616574220"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404508733,
-    "wof:lastmodified":1605055741,
+    "wof:lastmodified":1722233668,
     "wof:name":"Slagle Township",
     "wof:parent_id":102083119,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":503,
+    "wof:population":513,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

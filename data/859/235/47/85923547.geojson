@@ -14,6 +14,7 @@
     "gn:longitude":-118.13674,
     "gn:population":156633,
     "iso:country":"US",
+    "lbl:bbox":"-118.155823,34.6780487254,-118.115823,34.7180487254",
     "lbl:latitude":34.689513,
     "lbl:longitude":-118.163699,
     "lbl:max_zoom":14.0,
@@ -347,6 +348,7 @@
     "ne:UN_LAT":0.0,
     "ne:UN_LONG":0.0,
     "ne:WORLDCITY":0,
+    "ne:min_zoom":6.0,
     "qs:a0":"United States",
     "qs:a1":"*California",
     "qs:a1_lc":"06",
@@ -361,13 +363,18 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
+    "reversegeo:latitude":34.698049,
+    "reversegeo:longitude":-118.135823,
     "src:geom":"quattroshapes",
     "src:geom_alt":[
         "naturalearth",
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":166236,
+    "uscensus:population_date":"2023",
     "wd:latitude":34.686944,
     "wd:longitude":-118.154167,
     "wd:population":156633,
@@ -375,8 +382,8 @@
     "wof:belongsto":[
         102191575,
         85633793,
-        85688637,
-        102086957
+        102086957,
+        85688637
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -389,6 +396,12 @@
         "wd:id":"Q494711",
         "wk:page":"Lancaster, California"
     },
+    "wof:concordances_alt":{
+        "wd:id":[
+            "Q494711"
+        ]
+    },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "naturalearth",
@@ -408,15 +421,17 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882873,
+    "wof:lastmodified":1722116396,
     "wof:name":"Lancaster",
     "wof:parent_id":102086957,
     "wof:placetype":"locality",
-    "wof:population":156633,
+    "wof:population":166236,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1141908693
+    ],
     "wof:tags":[]
 },
   "bbox": [

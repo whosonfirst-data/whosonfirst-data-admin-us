@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008059,
-    "geom:area_square_m":73365668.698796,
+    "geom:area_square_m":73365668.698787,
     "geom:bbox":"-82.973317,42.539331,-82.856017,42.630507",
     "geom:latitude":42.586131,
     "geom:longitude":-82.919027,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":42.591223,
     "lbl:longitude":-82.936626,
@@ -78,11 +81,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":2609916520,
     "uscensus:name":"Clinton",
     "uscensus:namelsad":"Clinton charter township",
+    "uscensus:population":99377,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -92,8 +98,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2609916520
+        "uscensus:geoid":"2609916520"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729455041
     ],
@@ -112,11 +119,11 @@
         }
     ],
     "wof:id":404507391,
-    "wof:lastmodified":1605055766,
+    "wof:lastmodified":1722117914,
     "wof:name":"Clinton",
     "wof:parent_id":102083047,
     "wof:placetype":"localadmin",
-    "wof:population":96796,
+    "wof:population":99377,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

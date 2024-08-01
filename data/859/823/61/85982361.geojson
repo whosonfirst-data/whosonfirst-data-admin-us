@@ -151,7 +151,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":779224,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -167,17 +168,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"30580",
     "uscensus:placens":"01036056",
+    "uscensus:population":403,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":478.0,
     "wd:latitude":48.513056,
     "wd:longitude":-101.220833,
     "wd:wordcount":800,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404479399,
         85633793,
-        102082063
+        102082063,
+        404479399,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -186,10 +189,11 @@
         "gn:id":5689300,
         "gp:id":2410962,
         "qs_pg:id":14766,
-        "uscensus:geoid":3830580,
+        "uscensus:geoid":"3830580",
         "wd:id":"Q782704",
         "wk:page":"Glenburn, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -210,11 +214,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884814,
+    "wof:lastmodified":1722116121,
     "wof:name":"Glenburn",
     "wof:parent_id":404479399,
     "wof:placetype":"locality",
-    "wof:population":380,
+    "wof:population":403,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

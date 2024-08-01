@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002684,
-    "geom:area_square_m":25412632.883953,
+    "geom:area_square_m":25412632.883959,
     "geom:bbox":"-83.104516,39.989289,-83.042568,40.065513",
     "geom:latitude":40.027171,
     "geom:longitude":-83.070386,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.027069,
     "lbl:longitude":-83.069915,
     "lbl:max_zoom":14.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":3904979002,
     "uscensus:name":"Upper Arlington",
     "uscensus:namelsad":"Upper Arlington city",
+    "uscensus:population":35743,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3904979002
+        "uscensus:geoid":"3904979002"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404524651,
-    "wof:lastmodified":1605056105,
+    "wof:lastmodified":1722118010,
     "wof:name":"Upper Arlington",
     "wof:parent_id":102080969,
     "wof:placetype":"localadmin",
-    "wof:population":33771,
+    "wof:population":35743,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

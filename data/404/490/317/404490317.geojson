@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01027,
-    "geom:area_square_m":92554601.812746,
+    "geom:area_square_m":92554601.812782,
     "geom:bbox":"-97.639067,43.168542,-97.518355,43.256189",
     "geom:latitude":43.211938,
     "geom:longitude":-97.578418,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.200513,
     "lbl:longitude":-97.578401,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":67,
     "uscensus:geoid":4606762620,
     "uscensus:name":"Sweet",
     "uscensus:namelsad":"Sweet township",
+    "uscensus:population":355,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4606762620
+        "uscensus:geoid":"4606762620"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464059
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404490317,
-    "wof:lastmodified":1605055528,
+    "wof:lastmodified":1722117805,
     "wof:name":"Sweet Township",
     "wof:parent_id":102086815,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":285,
+    "wof:population":355,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

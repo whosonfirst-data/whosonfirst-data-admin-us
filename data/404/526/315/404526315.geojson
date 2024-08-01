@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006005,
-    "geom:area_square_m":56544709.266917,
+    "geom:area_square_m":56544709.266962,
     "geom:bbox":"-81.480898,40.362257,-81.374453,40.43846",
     "geom:latitude":40.402271,
     "geom:longitude":-81.419726,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.40444,
     "lbl:longitude":-81.424014,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":157,
     "uscensus:geoid":3915781060,
     "uscensus:name":"Warwick",
     "uscensus:namelsad":"Warwick township",
+    "uscensus:population":2747,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3915781060
+        "uscensus:geoid":"3915781060"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404526315,
-    "wof:lastmodified":1605055650,
+    "wof:lastmodified":1722233688,
     "wof:name":"Warwick Township",
     "wof:parent_id":102084737,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2803,
+    "wof:population":2747,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

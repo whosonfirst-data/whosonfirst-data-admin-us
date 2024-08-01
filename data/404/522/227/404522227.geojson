@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01284,
-    "geom:area_square_m":117405354.32137,
+    "geom:area_square_m":117405354.321367,
     "geom:bbox":"-73.73134,42.249824,-73.577187,42.365804",
     "geom:latitude":42.311927,
     "geom:longitude":-73.650858,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.311355,
     "lbl:longitude":-73.650868,
     "lbl:max_zoom":15.0,
@@ -322,11 +328,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":3602128871,
     "uscensus:name":"Ghent",
     "uscensus:namelsad":"Ghent town",
+    "uscensus:population":5232,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -336,8 +345,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3602128871
+        "uscensus:geoid":"3602128871"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -353,11 +363,11 @@
         }
     ],
     "wof:id":404522227,
-    "wof:lastmodified":1605056067,
+    "wof:lastmodified":1722233675,
     "wof:name":"Ghent",
     "wof:parent_id":102082369,
     "wof:placetype":"localadmin",
-    "wof:population":5402,
+    "wof:population":5232,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010289,
-    "geom:area_square_m":96609875.565949,
+    "geom:area_square_m":96609875.565981,
     "geom:bbox":"-90.906087,40.545257,-90.789519,40.639201",
     "geom:latitude":40.592788,
     "geom:longitude":-90.847269,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.592896,
     "lbl:longitude":-90.847268,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":109,
     "uscensus:geoid":1710906483,
     "uscensus:name":"Blandinsville",
     "uscensus:namelsad":"Blandinsville township",
+    "uscensus:population":752,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1710906483
+        "uscensus:geoid":"1710906483"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404497925,
-    "wof:lastmodified":1605055494,
+    "wof:lastmodified":1722233640,
     "wof:name":"Blandinsville Township",
     "wof:parent_id":102080815,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":846,
+    "wof:population":752,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012224,
-    "geom:area_square_m":113690730.072218,
+    "geom:area_square_m":113690730.072183,
     "geom:bbox":"-86.467046,41.171426,-86.346689,41.274182",
     "geom:latitude":41.222709,
     "geom:longitude":-86.407069,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.222742,
     "lbl:longitude":-86.407054,
     "lbl:max_zoom":15.0,
@@ -61,11 +67,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":1809977444,
     "uscensus:name":"Union",
     "uscensus:namelsad":"Union township",
+    "uscensus:population":2805,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -75,8 +84,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1809977444
+        "uscensus:geoid":"1809977444"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -92,12 +102,12 @@
         }
     ],
     "wof:id":404501909,
-    "wof:lastmodified":1604530754,
+    "wof:lastmodified":1722233655,
     "wof:name":"Union Township",
     "wof:parent_id":102086441,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3088,
+    "wof:population":2805,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

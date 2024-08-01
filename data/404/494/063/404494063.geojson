@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008736,
-    "geom:area_square_m":78345795.184245,
+    "geom:area_square_m":78345795.184244,
     "geom:bbox":"-90.073606,43.46754,-89.954271,43.55528",
     "geom:latitude":43.507102,
     "geom:longitude":-90.017343,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.497753,
     "lbl:longitude":-90.04311,
     "lbl:max_zoom":16.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":111,
     "uscensus:geoid":5511166825,
     "uscensus:name":"Reedsburg",
     "uscensus:namelsad":"Reedsburg town",
+    "uscensus:population":1139,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5511166825
+        "uscensus:geoid":"5511166825"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464257
     ],
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404494063,
-    "wof:lastmodified":1605055964,
+    "wof:lastmodified":1722117830,
     "wof:name":"Reedsburg",
     "wof:parent_id":102081845,
     "wof:placetype":"localadmin",
-    "wof:population":1293,
+    "wof:population":1139,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

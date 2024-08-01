@@ -10,6 +10,12 @@
     "geom:latitude":42.81516,
     "geom:longitude":-89.861659,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "village"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.815085,
     "lbl:longitude":-89.861659,
     "lbl:max_zoom":18.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":5504908125,
     "uscensus:name":"Blanchardville",
     "uscensus:namelsad":"Blanchardville village",
+    "uscensus:population":198,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5504908125
+        "uscensus:geoid":"5504908125"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404491871,
-    "wof:lastmodified":1605055587,
+    "wof:lastmodified":1722117816,
     "wof:name":"Blanchardville",
     "wof:parent_id":102081277,
     "wof:placetype":"localadmin",
-    "wof:population":177,
+    "wof:population":198,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

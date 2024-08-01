@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009888,
-    "geom:area_square_m":92996682.299919,
+    "geom:area_square_m":92996682.299861,
     "geom:bbox":"-96.685467,40.436256,-96.571616,40.523828",
     "geom:latitude":40.479894,
     "geom:longitude":-96.628531,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.479961,
     "lbl:longitude":-96.628531,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":67,
     "uscensus:geoid":3106733915,
     "uscensus:name":"Nemaha",
     "uscensus:namelsad":"Nemaha township",
+    "uscensus:population":722,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3106733915
+        "uscensus:geoid":"3106733915"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467159
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404519233,
-    "wof:lastmodified":1605055666,
+    "wof:lastmodified":1722117979,
     "wof:name":"Nemaha Township",
     "wof:parent_id":102083491,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":591,
+    "wof:population":722,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

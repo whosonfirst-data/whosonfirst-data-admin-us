@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006041,
-    "geom:area_square_m":57136911.080842,
+    "geom:area_square_m":57136911.080871,
     "geom:bbox":"-80.160267,40.055784,-80.039888,40.149498",
     "geom:latitude":40.097217,
     "geom:longitude":-80.102007,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.099122,
     "lbl:longitude":-80.106102,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":4212554800,
     "uscensus:name":"North Bethlehem",
     "uscensus:namelsad":"North Bethlehem township",
+    "uscensus:population":1533,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212554800
+        "uscensus:geoid":"4212554800"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463761
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404487833,
-    "wof:lastmodified":1605055884,
+    "wof:lastmodified":1722117790,
     "wof:name":"North Bethlehem Township",
     "wof:parent_id":102081343,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1631,
+    "wof:population":1533,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

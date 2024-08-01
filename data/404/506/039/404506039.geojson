@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010379,
-    "geom:area_square_m":93742951.248967,
+    "geom:area_square_m":93742951.248928,
     "geom:bbox":"-85.193728,43.032071,-85.075033,43.120213",
     "geom:latitude":43.07606,
     "geom:longitude":-85.134312,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.076046,
     "lbl:longitude":-85.134317,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":67,
     "uscensus:geoid":2606761160,
     "uscensus:name":"Orleans",
     "uscensus:namelsad":"Orleans township",
+    "uscensus:population":2715,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2606761160
+        "uscensus:geoid":"2606761160"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471033
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404506039,
-    "wof:lastmodified":1605055755,
+    "wof:lastmodified":1722117904,
     "wof:name":"Orleans Township",
     "wof:parent_id":102083143,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2743,
+    "wof:population":2715,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

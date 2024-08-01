@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009293,
-    "geom:area_square_m":88028214.035551,
+    "geom:area_square_m":88028214.035553,
     "geom:bbox":"-93.50248,39.965123,-93.361704,40.033099",
     "geom:latitude":39.999436,
     "geom:longitude":-93.432298,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.999321,
     "lbl:longitude":-93.432295,
     "lbl:max_zoom":17.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":79,
     "uscensus:geoid":2907980224,
     "uscensus:name":"Wilson",
     "uscensus:namelsad":"Wilson township",
+    "uscensus:population":347,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":29,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2907980224
+        "uscensus:geoid":"2907980224"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404515609,
-    "wof:lastmodified":1604530797,
+    "wof:lastmodified":1722233668,
     "wof:name":"Wilson Township",
     "wof:parent_id":102080789,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":406,
+    "wof:population":347,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

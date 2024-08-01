@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006946,
-    "geom:area_square_m":65032969.931844,
+    "geom:area_square_m":65032969.931845,
     "geom:bbox":"-79.691976,40.751367,-79.515632,40.806483",
     "geom:latitude":40.784636,
     "geom:longitude":-79.603028,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.780312,
     "lbl:longitude":-79.603034,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":4200554856,
     "uscensus:name":"North Buffalo",
     "uscensus:namelsad":"North Buffalo township",
+    "uscensus:population":2633,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200554856
+        "uscensus:geoid":"4200554856"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474087
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404484297,
-    "wof:lastmodified":1605055467,
+    "wof:lastmodified":1722117767,
     "wof:name":"North Buffalo Township",
     "wof:parent_id":102081371,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3011,
+    "wof:population":2633,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008089,
-    "geom:area_square_m":73691673.809791,
+    "geom:area_square_m":73691673.809841,
     "geom:bbox":"-89.012153,42.494175,-88.893974,42.584169",
     "geom:latitude":42.543208,
     "geom:longitude":-88.944111,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.554825,
     "lbl:longitude":-88.923415,
     "lbl:max_zoom":15.0,
@@ -379,11 +385,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":5510581050,
     "uscensus:name":"Turtle",
     "uscensus:namelsad":"Turtle town",
+    "uscensus:population":2391,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -393,8 +402,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5510581050
+        "uscensus:geoid":"5510581050"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470505
     ],
@@ -413,11 +423,11 @@
         }
     ],
     "wof:id":404495351,
-    "wof:lastmodified":1605055988,
+    "wof:lastmodified":1722117839,
     "wof:name":"Turtle",
     "wof:parent_id":102081829,
     "wof:placetype":"localadmin",
-    "wof:population":2388,
+    "wof:population":2391,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

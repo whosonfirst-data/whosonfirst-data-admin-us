@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000338,
-    "geom:area_square_m":3190107.402022,
+    "geom:area_square_m":3190107.402026,
     "geom:bbox":"-77.997328,40.184022,-77.965469,40.206971",
     "geom:latitude":40.196955,
     "geom:longitude":-77.981922,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.199439,
     "lbl:longitude":-77.97794,
     "lbl:max_zoom":17.0,
@@ -100,22 +106,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":4206176632,
     "uscensus:name":"Three Springs",
     "uscensus:namelsad":"Three Springs borough",
+    "uscensus:population":435,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688481,
-        102080901
+        102080901,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206176632
+        "uscensus:geoid":"4206176632"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -131,11 +141,11 @@
         }
     ],
     "wof:id":404486051,
-    "wof:lastmodified":1636499383,
+    "wof:lastmodified":1722117777,
     "wof:name":"Three Springs",
     "wof:parent_id":102080901,
     "wof:placetype":"localadmin",
-    "wof:population":444,
+    "wof:population":435,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

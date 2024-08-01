@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004975,
-    "geom:area_square_m":48109363.049404,
+    "geom:area_square_m":48109363.049506,
     "geom:bbox":"-85.496452,38.510631,-85.415559,38.592434",
     "geom:latitude":38.554533,
     "geom:longitude":-85.457729,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.553009,
     "lbl:longitude":-85.456956,
     "lbl:max_zoom":17.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":1801905122,
     "uscensus:name":"Bethlehem",
     "uscensus:namelsad":"Bethlehem township",
+    "uscensus:population":374,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1801905122
+        "uscensus:geoid":"1801905122"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729454703
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404500183,
-    "wof:lastmodified":1604969692,
+    "wof:lastmodified":1722117864,
     "wof:name":"Bethlehem Township",
     "wof:parent_id":102086421,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":309,
+    "wof:population":374,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

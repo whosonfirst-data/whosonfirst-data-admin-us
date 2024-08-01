@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011267,
-    "geom:area_square_m":92948914.969354,
+    "geom:area_square_m":92948914.969392,
     "geom:bbox":"-98.162959,48.107825,-98.032736,48.194889",
     "geom:latitude":48.151357,
     "geom:longitude":-98.097897,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.151364,
     "lbl:longitude":-98.097897,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":63,
     "uscensus:geoid":3806370820,
     "uscensus:name":"Sarnia",
     "uscensus:namelsad":"Sarnia township",
+    "uscensus:population":45,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3806370820
+        "uscensus:geoid":"3806370820"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471703
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404481219,
-    "wof:lastmodified":1605055823,
+    "wof:lastmodified":1722117749,
     "wof:name":"Sarnia Township",
     "wof:parent_id":102082083,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":39,
+    "wof:population":45,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001164,
-    "geom:area_square_m":10817967.859756,
+    "geom:area_square_m":10817967.859767,
     "geom:bbox":"-76.943399,41.229598,-76.898594,41.267638",
     "geom:latitude":41.247198,
     "geom:longitude":-76.918367,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.250019,
     "lbl:longitude":-76.918363,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":81,
     "uscensus:geoid":4208150720,
     "uscensus:name":"Montoursville",
     "uscensus:namelsad":"Montoursville borough",
+    "uscensus:population":4666,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4208150720
+        "uscensus:geoid":"4208150720"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404485237,
-    "wof:lastmodified":1605055371,
+    "wof:lastmodified":1722117773,
     "wof:name":"Montoursville",
     "wof:parent_id":102081317,
     "wof:placetype":"localadmin",
-    "wof:population":4615,
+    "wof:population":4666,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

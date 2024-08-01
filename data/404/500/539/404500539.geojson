@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004663,
-    "geom:area_square_m":44376427.901415,
+    "geom:area_square_m":44376427.901405,
     "geom:bbox":"-85.121134,39.656998,-85.034556,39.71503",
     "geom:latitude":39.685994,
     "geom:longitude":-85.075113,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.685932,
     "lbl:longitude":-85.075109,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":1804181314,
     "uscensus:name":"Waterloo",
     "uscensus:namelsad":"Waterloo township",
+    "uscensus:population":528,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1804181314
+        "uscensus:geoid":"1804181314"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478491
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404500539,
-    "wof:lastmodified":1604969683,
+    "wof:lastmodified":1722117866,
     "wof:name":"Waterloo Township",
     "wof:parent_id":102086457,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":607,
+    "wof:population":528,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

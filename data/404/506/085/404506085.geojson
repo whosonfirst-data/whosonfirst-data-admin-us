@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01026,
-    "geom:area_square_m":93983063.957165,
+    "geom:area_square_m":93983063.957135,
     "geom:bbox":"-85.766066,42.157218,-85.647813,42.245281",
     "geom:latitude":42.201279,
     "geom:longitude":-85.706666,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":42.201252,
     "lbl:longitude":-85.706668,
@@ -588,11 +591,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":77,
     "uscensus:geoid":2607779300,
     "uscensus:name":"Texas",
     "uscensus:namelsad":"Texas charter township",
+    "uscensus:population":18299,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -602,8 +608,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2607779300
+        "uscensus:geoid":"2607779300"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470381
     ],
@@ -622,11 +629,11 @@
         }
     ],
     "wof:id":404506085,
-    "wof:lastmodified":1605055753,
+    "wof:lastmodified":1722117905,
     "wof:name":"Texas",
     "wof:parent_id":102083671,
     "wof:placetype":"localadmin",
-    "wof:population":14697,
+    "wof:population":18299,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000183,
-    "geom:area_square_m":1740878.03772,
+    "geom:area_square_m":1740878.037719,
     "geom:bbox":"-77.380745,39.780755,-77.361187,39.798369",
     "geom:latitude":39.789001,
     "geom:longitude":-77.369819,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.787194,
     "lbl:longitude":-77.36915,
     "lbl:max_zoom":17.0,
@@ -118,11 +124,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":4200124560,
     "uscensus:name":"Fairfield",
     "uscensus:namelsad":"Fairfield borough",
+    "uscensus:population":540,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -132,8 +141,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200124560
+        "uscensus:geoid":"4200124560"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -149,11 +159,11 @@
         }
     ],
     "wof:id":404482791,
-    "wof:lastmodified":1605055376,
+    "wof:lastmodified":1722117759,
     "wof:name":"Fairfield",
     "wof:parent_id":102080899,
     "wof:placetype":"localadmin",
-    "wof:population":507,
+    "wof:population":540,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

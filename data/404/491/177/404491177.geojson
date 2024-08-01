@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010244,
-    "geom:area_square_m":91681118.442275,
+    "geom:area_square_m":91681118.442268,
     "geom:bbox":"-97.129471,43.586769,-97.009682,43.674446",
     "geom:latitude":43.630361,
     "geom:longitude":-97.069409,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.617083,
     "lbl:longitude":-97.043651,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":4609930940,
     "uscensus:name":"Humboldt",
     "uscensus:namelsad":"Humboldt township",
+    "uscensus:population":303,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4609930940
+        "uscensus:geoid":"4609930940"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473393
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404491177,
-    "wof:lastmodified":1605055591,
+    "wof:lastmodified":1722117811,
     "wof:name":"Humboldt Township",
     "wof:parent_id":102086007,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":339,
+    "wof:population":303,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

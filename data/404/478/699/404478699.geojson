@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00011,
-    "geom:area_square_m":911675.110683,
+    "geom:area_square_m":911675.110681,
     "geom:bbox":"-99.211842,47.919596,-99.198536,47.9293",
     "geom:latitude":47.924208,
     "geom:longitude":-99.205912,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.924399,
     "lbl:longitude":-99.205912,
     "lbl:max_zoom":18.0,
@@ -94,11 +100,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":3800559020,
     "uscensus:name":"Oberon",
     "uscensus:namelsad":"Oberon city",
+    "uscensus:population":93,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -108,8 +117,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3800559020
+        "uscensus:geoid":"3800559020"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -125,11 +135,11 @@
         }
     ],
     "wof:id":404478699,
-    "wof:lastmodified":1605055349,
+    "wof:lastmodified":1722117732,
     "wof:name":"Oberon",
     "wof:parent_id":102082071,
     "wof:placetype":"localadmin",
-    "wof:population":105,
+    "wof:population":93,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

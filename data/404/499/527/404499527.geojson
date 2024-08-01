@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00963,
-    "geom:area_square_m":94176729.692949,
+    "geom:area_square_m":94176729.692947,
     "geom:bbox":"-89.491383,37.688,-89.379258,37.779299",
     "geom:latitude":37.73394,
     "geom:longitude":-89.435218,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.733746,
     "lbl:longitude":-89.435231,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":77,
     "uscensus:geoid":1707767522,
     "uscensus:name":"Sand Ridge",
     "uscensus:namelsad":"Sand Ridge township",
+    "uscensus:population":666,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1707767522
+        "uscensus:geoid":"1707767522"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404499527,
-    "wof:lastmodified":1605055544,
+    "wof:lastmodified":1722233646,
     "wof:name":"Sand Ridge Township",
     "wof:parent_id":102082841,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":816,
+    "wof:population":666,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

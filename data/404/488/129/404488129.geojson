@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.017833,
-    "geom:area_square_m":168478319.155338,
+    "geom:area_square_m":168478319.155287,
     "geom:bbox":"-79.163231,40.097454,-78.955917,40.264821",
     "geom:latitude":40.177364,
     "geom:longitude":-79.060133,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.21779,
     "lbl:longitude":-79.052751,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":111,
     "uscensus:geoid":4211138032,
     "uscensus:name":"Jenner",
     "uscensus:namelsad":"Jenner township",
+    "uscensus:population":3602,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4211138032
+        "uscensus:geoid":"4211138032"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466965
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404488129,
-    "wof:lastmodified":1605055808,
+    "wof:lastmodified":1722117792,
     "wof:name":"Jenner Township",
     "wof:parent_id":102081361,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":4122,
+    "wof:population":3602,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

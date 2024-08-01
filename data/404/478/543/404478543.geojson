@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01143,
-    "geom:area_square_m":93168850.088892,
+    "geom:area_square_m":93168850.088889,
     "geom:bbox":"-98.86902,48.717935,-98.737106,48.805004",
     "geom:latitude":48.761462,
     "geom:longitude":-98.803101,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.761443,
     "lbl:longitude":-98.803103,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":3801939660,
     "uscensus:name":"Huron",
     "uscensus:namelsad":"Huron township",
+    "uscensus:population":28,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3801939660
+        "uscensus:geoid":"3801939660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474891
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404478543,
-    "wof:lastmodified":1605055341,
+    "wof:lastmodified":1722117731,
     "wof:name":"Huron Township",
     "wof:parent_id":102081513,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":24,
+    "wof:population":28,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

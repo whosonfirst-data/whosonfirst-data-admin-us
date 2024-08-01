@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010893,
-    "geom:area_square_m":90242177.953709,
+    "geom:area_square_m":90242177.953691,
     "geom:bbox":"-92.957436,47.891908,-92.827614,47.97853",
     "geom:latitude":47.935677,
     "geom:longitude":-92.892461,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.93577,
     "lbl:longitude":-92.89246,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":137,
     "uscensus:geoid":2713770510,
     "uscensus:name":"Willow Valley",
     "uscensus:namelsad":"Willow Valley township",
+    "uscensus:population":112,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2713770510
+        "uscensus:geoid":"2713770510"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476835
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404510731,
-    "wof:lastmodified":1605055610,
+    "wof:lastmodified":1722117938,
     "wof:name":"Willow Valley Township",
     "wof:parent_id":102087653,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":126,
+    "wof:population":112,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

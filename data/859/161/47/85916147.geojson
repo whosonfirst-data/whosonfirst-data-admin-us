@@ -14,6 +14,7 @@
     "gn:longitude":-156.66139,
     "gn:population":374,
     "iso:country":"US",
+    "lbl:bbox":"-156.68137842,58.6687032258,-156.64137842,58.7087032258",
     "lbl:latitude":58.72456,
     "lbl:longitude":-156.52933,
     "lbl:max_zoom":17.0,
@@ -241,6 +242,7 @@
     "ne:UN_LAT":0.0,
     "ne:UN_LONG":0.0,
     "ne:WORLDCITY":0,
+    "ne:min_zoom":6.7,
     "qs:a0":"United States",
     "qs:a1":"*Alaska",
     "qs:a1_lc":"02",
@@ -255,19 +257,24 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4210",
+    "reversegeo:latitude":58.688703,
+    "reversegeo:longitude":-156.661378,
     "src:geom":"quattroshapes",
     "src:geom_alt":[
         "quattroshapes_pg",
         "naturalearth"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
+    "uscensus:population":296,
+    "uscensus:population_date":"2022",
     "wd:wordcount":915,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688573,
-        102083771
+        102083771,
+        85688573
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -280,6 +287,12 @@
         "wd:id":"Q532057",
         "wk:page":"King Salmon, Alaska"
     },
+    "wof:concordances_alt":{
+        "wd:id":[
+            "Q532057"
+        ]
+    },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -299,15 +312,17 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690881726,
+    "wof:lastmodified":1722116395,
     "wof:name":"King Salmon",
     "wof:parent_id":102083771,
     "wof:placetype":"locality",
-    "wof:population":374,
+    "wof:population":296,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1141906879
+    ],
     "wof:tags":[]
 },
   "bbox": [

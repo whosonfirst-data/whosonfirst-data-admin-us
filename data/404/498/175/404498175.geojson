@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010477,
-    "geom:area_square_m":97809994.838797,
+    "geom:area_square_m":97809994.838796,
     "geom:bbox":"-87.674767,40.935271,-87.525977,41.010341",
     "geom:latitude":40.973512,
     "geom:longitude":-87.598617,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.972597,
     "lbl:longitude":-87.59861,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":75,
     "uscensus:geoid":1707504520,
     "uscensus:name":"Beaverville",
     "uscensus:namelsad":"Beaverville township",
+    "uscensus:population":493,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1707504520
+        "uscensus:geoid":"1707504520"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404498175,
-    "wof:lastmodified":1605055563,
+    "wof:lastmodified":1722233640,
     "wof:name":"Beaverville Township",
     "wof:parent_id":102086209,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":609,
+    "wof:population":493,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

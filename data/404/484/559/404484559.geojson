@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003807,
-    "geom:area_square_m":35899984.800068,
+    "geom:area_square_m":35899984.800077,
     "geom:bbox":"-76.151994,40.277692,-76.034723,40.345151",
     "geom:latitude":40.312198,
     "geom:longitude":-76.096902,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.307165,
     "lbl:longitude":-76.09602,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":4201172208,
     "uscensus:name":"South Heidelberg",
     "uscensus:namelsad":"South Heidelberg township",
+    "uscensus:population":7775,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201172208
+        "uscensus:geoid":"4201172208"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471487
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404484559,
-    "wof:lastmodified":1605055452,
+    "wof:lastmodified":1722117769,
     "wof:name":"South Heidelberg Township",
     "wof:parent_id":102080991,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":7271,
+    "wof:population":7775,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

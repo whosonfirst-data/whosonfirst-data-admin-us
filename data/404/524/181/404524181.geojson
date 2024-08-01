@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009963,
-    "geom:area_square_m":95515779.418779,
+    "geom:area_square_m":95515779.418801,
     "geom:bbox":"-82.426259,39.116582,-82.306669,39.211243",
     "geom:latitude":39.163775,
     "geom:longitude":-82.366351,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.163884,
     "lbl:longitude":-82.366352,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":163,
     "uscensus:geoid":3916380192,
     "uscensus:name":"Vinton",
     "uscensus:namelsad":"Vinton township",
+    "uscensus:population":499,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3916380192
+        "uscensus:geoid":"3916380192"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474163
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404524181,
-    "wof:lastmodified":1605056108,
+    "wof:lastmodified":1722118006,
     "wof:name":"Vinton Township",
     "wof:parent_id":102084833,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":548,
+    "wof:population":499,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

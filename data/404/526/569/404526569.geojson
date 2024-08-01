@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007373,
-    "geom:area_square_m":68624557.409855,
+    "geom:area_square_m":68624557.409824,
     "geom:bbox":"-82.441952,41.137878,-82.340616,41.213004",
     "geom:latitude":41.175031,
     "geom:longitude":-82.391515,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.175483,
     "lbl:longitude":-82.391515,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":77,
     "uscensus:geoid":3907715364,
     "uscensus:name":"Clarksfield",
     "uscensus:namelsad":"Clarksfield township",
+    "uscensus:population":1573,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3907715364
+        "uscensus:geoid":"3907715364"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462969
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404526569,
-    "wof:lastmodified":1605055641,
+    "wof:lastmodified":1722118024,
     "wof:name":"Clarksfield Township",
     "wof:parent_id":102083735,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1625,
+    "wof:population":1573,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

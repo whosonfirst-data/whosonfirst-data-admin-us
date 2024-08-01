@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009773,
-    "geom:area_square_m":93445119.616631,
+    "geom:area_square_m":93445119.616723,
     "geom:bbox":"-98.490047,39.306629,-98.37712,39.39365",
     "geom:latitude":39.350182,
     "geom:longitude":-98.433575,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.350202,
     "lbl:longitude":-98.433579,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":123,
     "uscensus:geoid":2012356050,
     "uscensus:name":"Pittsburg",
     "uscensus:namelsad":"Pittsburg township",
+    "uscensus:population":264,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2012356050
+        "uscensus:geoid":"2012356050"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404502793,
-    "wof:lastmodified":1605055271,
+    "wof:lastmodified":1722233658,
     "wof:name":"Pittsburg Township",
     "wof:parent_id":102085275,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":298,
+    "wof:population":264,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001182,
-    "geom:area_square_m":10648129.463493,
+    "geom:area_square_m":10648129.463497,
     "geom:bbox":"-86.303117,43.235592,-86.238632,43.270744",
     "geom:latitude":43.251757,
     "geom:longitude":-86.271429,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.250967,
     "lbl:longitude":-86.27096,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":121,
     "uscensus:geoid":2612158640,
     "uscensus:name":"North Muskegon",
     "uscensus:namelsad":"North Muskegon city",
+    "uscensus:population":4082,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2612158640
+        "uscensus:geoid":"2612158640"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404506311,
-    "wof:lastmodified":1605055764,
+    "wof:lastmodified":1722117906,
     "wof:name":"North Muskegon",
     "wof:parent_id":102083707,
     "wof:placetype":"localadmin",
-    "wof:population":3786,
+    "wof:population":4082,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

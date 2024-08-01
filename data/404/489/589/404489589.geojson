@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.025786,
-    "geom:area_square_m":232805292.727675,
+    "geom:area_square_m":232805292.727673,
     "geom:bbox":"-98.678121,42.947407,-98.466229,43.170152",
     "geom:latitude":43.102225,
     "geom:longitude":-98.557512,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.118104,
     "lbl:longitude":-98.58526,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":4602371500,
     "uscensus:name":"White Swan",
     "uscensus:namelsad":"White Swan township",
+    "uscensus:population":731,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4602371500
+        "uscensus:geoid":"4602371500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478935
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404489589,
-    "wof:lastmodified":1605055928,
+    "wof:lastmodified":1722117801,
     "wof:name":"White Swan Township",
     "wof:parent_id":102086799,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":681,
+    "wof:population":731,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

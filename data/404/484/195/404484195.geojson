@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005535,
-    "geom:area_square_m":51309377.871276,
+    "geom:area_square_m":51309377.871266,
     "geom:bbox":"-75.983968,41.39737,-75.867101,41.471355",
     "geom:latitude":41.434923,
     "geom:longitude":-75.928417,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.429563,
     "lbl:longitude":-75.929536,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":131,
     "uscensus:geoid":4213155232,
     "uscensus:name":"Northmoreland",
     "uscensus:namelsad":"Northmoreland township",
+    "uscensus:population":1414,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4213155232
+        "uscensus:geoid":"4213155232"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471453
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404484195,
-    "wof:lastmodified":1605055452,
+    "wof:lastmodified":1722117767,
     "wof:name":"Northmoreland Township",
     "wof:parent_id":102080947,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1558,
+    "wof:population":1414,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

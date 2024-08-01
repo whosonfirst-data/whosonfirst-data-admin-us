@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.020436,
-    "geom:area_square_m":193087770.737281,
+    "geom:area_square_m":193087770.737303,
     "geom:bbox":"-85.111095,40.120356,-84.900283,40.222477",
     "geom:latitude":40.170404,
     "geom:longitude":-85.001903,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.171666,
     "lbl:longitude":-85.001913,
     "lbl:max_zoom":15.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":135,
     "uscensus:geoid":1813583942,
     "uscensus:name":"White River",
     "uscensus:namelsad":"White River township",
+    "uscensus:population":7100,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1813583942
+        "uscensus:geoid":"1813583942"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404500411,
-    "wof:lastmodified":1604530782,
+    "wof:lastmodified":1722233649,
     "wof:name":"White River Township",
     "wof:parent_id":102086449,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":7513,
+    "wof:population":7100,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

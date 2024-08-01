@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005978,
-    "geom:area_square_m":56826259.113093,
+    "geom:area_square_m":56826259.113099,
     "geom:bbox":"-80.519497,39.721216,-80.404093,39.791687",
     "geom:latitude":39.758482,
     "geom:longitude":-80.475884,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.75615,
     "lbl:longitude":-80.475888,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":59,
     "uscensus:geoid":4205973248,
     "uscensus:name":"Springhill",
     "uscensus:namelsad":"Springhill township",
+    "uscensus:population":305,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4205973248
+        "uscensus:geoid":"4205973248"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729454231
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404485777,
-    "wof:lastmodified":1605055364,
+    "wof:lastmodified":1722117776,
     "wof:name":"Springhill Township",
     "wof:parent_id":102080975,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":349,
+    "wof:population":305,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

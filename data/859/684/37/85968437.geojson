@@ -181,7 +181,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":331168,
     "uscensus:awater":46,
     "uscensus:classfp":"C5",
@@ -197,17 +198,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"71140",
     "uscensus:placens":"02397354",
+    "uscensus:population":165,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":406.0,
     "wd:latitude":47.926389,
     "wd:longitude":-91.800833,
     "wd:wordcount":841,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404514969,
         85633793,
-        102087653
+        102087653,
+        404514969,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -216,10 +219,11 @@
         "gn:id":5053214,
         "gp:id":2522398,
         "qs_pg:id":246513,
-        "uscensus:geoid":2771140,
+        "uscensus:geoid":"2771140",
         "wd:id":"Q2227768",
         "wk:page":"Winton, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -240,11 +244,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885189,
+    "wof:lastmodified":1722116144,
     "wof:name":"Winton",
     "wof:parent_id":404514969,
     "wof:placetype":"locality",
-    "wof:population":172,
+    "wof:population":165,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

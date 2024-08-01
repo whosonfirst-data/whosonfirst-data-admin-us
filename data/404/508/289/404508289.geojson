@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001152,
-    "geom:area_square_m":10487773.074411,
+    "geom:area_square_m":10487773.074399,
     "geom:bbox":"-83.402038,42.569324,-83.348412,42.608442",
     "geom:latitude":42.585818,
     "geom:longitude":-83.375623,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.585298,
     "lbl:longitude":-83.373797,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":2612561020,
     "uscensus:name":"Orchard Lake Village",
     "uscensus:namelsad":"Orchard Lake Village city",
+    "uscensus:population":2206,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2612561020
+        "uscensus:geoid":"2612561020"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404508289,
-    "wof:lastmodified":1605055735,
+    "wof:lastmodified":1722117921,
     "wof:name":"Orchard Lake Village",
     "wof:parent_id":102083713,
     "wof:placetype":"localadmin",
-    "wof:population":2375,
+    "wof:population":2206,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

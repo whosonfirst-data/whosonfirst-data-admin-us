@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000042,
-    "geom:area_square_m":403795.195639,
+    "geom:area_square_m":403795.195638,
     "geom:bbox":"-84.302535,39.165643,-84.294596,39.178577",
     "geom:latitude":39.171242,
     "geom:longitude":-84.298958,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.170052,
     "lbl:longitude":-84.299947,
     "lbl:max_zoom":18.0,
@@ -106,11 +112,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":3906150176,
     "uscensus:name":"Milford",
     "uscensus:namelsad":"Milford city",
+    "uscensus:population":24,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -120,8 +129,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3906150176
+        "uscensus:geoid":"3906150176"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -137,11 +147,11 @@
         }
     ],
     "wof:id":404526561,
-    "wof:lastmodified":1605055642,
+    "wof:lastmodified":1722118024,
     "wof:name":"Milford",
     "wof:parent_id":102083687,
     "wof:placetype":"localadmin",
-    "wof:population":29,
+    "wof:population":24,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012123,
-    "geom:area_square_m":115149974.044136,
+    "geom:area_square_m":115149974.04416,
     "geom:bbox":"-92.950985,39.743564,-92.853342,39.876917",
     "geom:latitude":39.811991,
     "geom:longitude":-92.901518,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.812547,
     "lbl:longitude":-92.902153,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":2911509406,
     "uscensus:name":"Bucklin",
     "uscensus:namelsad":"Bucklin township",
+    "uscensus:population":632,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":29,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2911509406
+        "uscensus:geoid":"2911509406"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404517403,
-    "wof:lastmodified":1604530725,
+    "wof:lastmodified":1722233670,
     "wof:name":"Bucklin Township",
     "wof:parent_id":102085269,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":733,
+    "wof:population":632,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

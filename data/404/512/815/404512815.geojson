@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010138,
-    "geom:area_square_m":88734636.128335,
+    "geom:area_square_m":88734636.128339,
     "geom:bbox":"-94.379434,44.892391,-94.256064,44.979471",
     "geom:latitude":44.937641,
     "geom:longitude":-94.315385,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.935922,
     "lbl:longitude":-94.314558,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":85,
     "uscensus:geoid":2708530662,
     "uscensus:name":"Hutchinson",
     "uscensus:namelsad":"Hutchinson township",
+    "uscensus:population":1225,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2708530662
+        "uscensus:geoid":"2708530662"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729479057
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404512815,
-    "wof:lastmodified":1605056130,
+    "wof:lastmodified":1722117953,
     "wof:name":"Hutchinson Township",
     "wof:parent_id":102086993,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1220,
+    "wof:population":1225,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

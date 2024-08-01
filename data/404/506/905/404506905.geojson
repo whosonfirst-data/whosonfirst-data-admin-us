@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010349,
-    "geom:area_square_m":94400619.76802,
+    "geom:area_square_m":94400619.768024,
     "geom:bbox":"-85.308409,42.419832,-85.189807,42.508328",
     "geom:latitude":42.464056,
     "geom:longitude":-85.249186,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.464011,
     "lbl:longitude":-85.249181,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":2601541860,
     "uscensus:name":"Johnstown",
     "uscensus:namelsad":"Johnstown township",
+    "uscensus:population":2916,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2601541860
+        "uscensus:geoid":"2601541860"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472151
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404506905,
-    "wof:lastmodified":1605055759,
+    "wof:lastmodified":1722117910,
     "wof:name":"Johnstown Township",
     "wof:parent_id":102083125,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3008,
+    "wof:population":2916,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

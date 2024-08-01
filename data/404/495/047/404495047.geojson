@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.021264,
-    "geom:area_square_m":184539219.072167,
+    "geom:area_square_m":184539219.072159,
     "geom:bbox":"-90.04279,45.380933,-89.795618,45.467789",
     "geom:latitude":45.424492,
     "geom:longitude":-89.919073,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.424617,
     "lbl:longitude":-89.919078,
     "lbl:max_zoom":17.0,
@@ -157,11 +163,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":69,
     "uscensus:geoid":5506980150,
     "uscensus:name":"Tomahawk",
     "uscensus:namelsad":"Tomahawk town",
+    "uscensus:population":468,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -171,8 +180,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5506980150
+        "uscensus:geoid":"5506980150"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468997
     ],
@@ -191,11 +201,11 @@
         }
     ],
     "wof:id":404495047,
-    "wof:lastmodified":1605055982,
+    "wof:lastmodified":1722117837,
     "wof:name":"Tomahawk",
     "wof:parent_id":102081889,
     "wof:placetype":"localadmin",
-    "wof:population":416,
+    "wof:population":468,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

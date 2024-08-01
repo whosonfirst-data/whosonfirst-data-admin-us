@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010406,
-    "geom:area_square_m":90734985.298597,
+    "geom:area_square_m":90734985.298625,
     "geom:bbox":"-90.823452,45.119022,-90.679441,45.20562",
     "geom:latitude":45.158666,
     "geom:longitude":-90.741479,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.162325,
     "lbl:longitude":-90.737632,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":119,
     "uscensus:geoid":5511926425,
     "uscensus:name":"Ford",
     "uscensus:namelsad":"Ford town",
+    "uscensus:population":262,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5511926425
+        "uscensus:geoid":"5511926425"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476373
     ],
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404492403,
-    "wof:lastmodified":1605056010,
+    "wof:lastmodified":1722117819,
     "wof:name":"Ford",
     "wof:parent_id":102081769,
     "wof:placetype":"localadmin",
-    "wof:population":268,
+    "wof:population":262,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0142,
-    "geom:area_square_m":123807157.154416,
+    "geom:area_square_m":123807157.154428,
     "geom:bbox":"-91.543617,45.114723,-91.377205,45.206538",
     "geom:latitude":45.162977,
     "geom:longitude":-91.460458,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.163204,
     "lbl:longitude":-91.460452,
     "lbl:max_zoom":16.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":5501708250,
     "uscensus:name":"Bloomer",
     "uscensus:namelsad":"Bloomer town",
+    "uscensus:population":1110,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5501708250
+        "uscensus:geoid":"5501708250"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470665
     ],
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404491575,
-    "wof:lastmodified":1605055582,
+    "wof:lastmodified":1722117814,
     "wof:name":"Bloomer",
     "wof:parent_id":102081787,
     "wof:placetype":"localadmin",
-    "wof:population":1050,
+    "wof:population":1110,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009884,
-    "geom:area_square_m":84985095.209673,
+    "geom:area_square_m":84985095.209665,
     "geom:bbox":"-92.406036,45.901959,-92.282964,45.983798",
     "geom:latitude":45.942786,
     "geom:longitude":-92.344656,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.9428,
     "lbl:longitude":-92.344653,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":5501359075,
     "uscensus:name":"Oakland",
     "uscensus:namelsad":"Oakland town",
+    "uscensus:population":1021,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5501359075
+        "uscensus:geoid":"5501359075"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476565
     ],
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404492987,
-    "wof:lastmodified":1605056011,
+    "wof:lastmodified":1722117823,
     "wof:name":"Oakland",
     "wof:parent_id":102081835,
     "wof:placetype":"localadmin",
-    "wof:population":827,
-    "wof:population_rank":2,
+    "wof:population":1021,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

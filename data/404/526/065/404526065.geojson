@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003774,
-    "geom:area_square_m":35165553.295077,
+    "geom:area_square_m":35165553.295102,
     "geom:bbox":"-81.465957,41.066197,-81.392114,41.135793",
     "geom:latitude":41.102146,
     "geom:longitude":-81.422966,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.103747,
     "lbl:longitude":-81.422983,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":153,
     "uscensus:geoid":3915376106,
     "uscensus:name":"Tallmadge",
     "uscensus:namelsad":"Tallmadge city",
+    "uscensus:population":18033,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3915376106
+        "uscensus:geoid":"3915376106"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,11 +93,11 @@
         }
     ],
     "wof:id":404526065,
-    "wof:lastmodified":1605055646,
+    "wof:lastmodified":1722118020,
     "wof:name":"Tallmadge",
     "wof:parent_id":102084807,
     "wof:placetype":"localadmin",
-    "wof:population":17257,
+    "wof:population":18033,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

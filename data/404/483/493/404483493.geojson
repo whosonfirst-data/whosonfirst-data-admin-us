@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008123,
-    "geom:area_square_m":75950969.160042,
+    "geom:area_square_m":75950969.160057,
     "geom:bbox":"-79.215327,40.838301,-79.101106,40.911346",
     "geom:latitude":40.874881,
     "geom:longitude":-79.158618,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.872384,
     "lbl:longitude":-79.134026,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":63,
     "uscensus:geoid":4206383416,
     "uscensus:name":"West Mahoning",
     "uscensus:namelsad":"West Mahoning township",
+    "uscensus:population":1316,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206383416
+        "uscensus:geoid":"4206383416"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470433
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404483493,
-    "wof:lastmodified":1605055446,
+    "wof:lastmodified":1722117763,
     "wof:name":"West Mahoning Township",
     "wof:parent_id":102081387,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1357,
+    "wof:population":1316,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

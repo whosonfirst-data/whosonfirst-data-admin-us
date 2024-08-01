@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000247,
-    "geom:area_square_m":2175140.332961,
+    "geom:area_square_m":2175140.332965,
     "geom:bbox":"-97.508295,44.695462,-97.491805,44.710778",
     "geom:latitude":44.703163,
     "geom:longitude":-97.50002,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.703211,
     "lbl:longitude":-97.50002,
     "lbl:max_zoom":18.0,
@@ -637,11 +643,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":4602567220,
     "uscensus:name":"Vienna",
     "uscensus:namelsad":"Vienna town",
+    "uscensus:population":54,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -651,8 +660,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4602567220
+        "uscensus:geoid":"4602567220"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -668,11 +678,11 @@
         }
     ],
     "wof:id":404489631,
-    "wof:lastmodified":1605055935,
+    "wof:lastmodified":1722117801,
     "wof:name":"Vienna",
     "wof:parent_id":102086035,
     "wof:placetype":"localadmin",
-    "wof:population":45,
+    "wof:population":54,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

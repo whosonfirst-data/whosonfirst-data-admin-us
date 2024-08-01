@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000528,
-    "geom:area_square_m":4981753.553576,
+    "geom:area_square_m":4981753.553571,
     "geom:bbox":"-76.611365,40.295591,-76.572317,40.32279",
     "geom:latitude":40.309905,
     "geom:longitude":-76.594279,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.309682,
     "lbl:longitude":-76.593979,
     "lbl:max_zoom":15.0,
@@ -259,11 +265,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":75,
     "uscensus:geoid":4207557720,
     "uscensus:name":"Palmyra",
     "uscensus:namelsad":"Palmyra borough",
+    "uscensus:population":7702,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -273,8 +282,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207557720
+        "uscensus:geoid":"4207557720"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -290,11 +300,11 @@
         }
     ],
     "wof:id":404483433,
-    "wof:lastmodified":1605055447,
+    "wof:lastmodified":1722117762,
     "wof:name":"Palmyra",
     "wof:parent_id":102081341,
     "wof:placetype":"localadmin",
-    "wof:population":7320,
+    "wof:population":7702,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01092,
-    "geom:area_square_m":93834052.846488,
+    "geom:area_square_m":93834052.846493,
     "geom:bbox":"-97.883924,45.935484,-97.757724,46.023015",
     "geom:latitude":45.979364,
     "geom:longitude":-97.820733,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.979131,
     "lbl:longitude":-97.820729,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":81,
     "uscensus:geoid":3808108980,
     "uscensus:name":"Brampton",
     "uscensus:namelsad":"Brampton township",
+    "uscensus:population":48,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3808108980
+        "uscensus:geoid":"3808108980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476775
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404479465,
-    "wof:lastmodified":1605055475,
+    "wof:lastmodified":1722117737,
     "wof:name":"Brampton Township",
     "wof:parent_id":102082115,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":59,
+    "wof:population":48,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

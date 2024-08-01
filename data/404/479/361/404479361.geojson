@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011237,
-    "geom:area_square_m":92704882.575418,
+    "geom:area_square_m":92704882.575427,
     "geom:bbox":"-98.681963,48.107844,-98.551903,48.194859",
     "geom:latitude":48.151333,
     "geom:longitude":-98.616719,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.151383,
     "lbl:longitude":-98.616701,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":71,
     "uscensus:geoid":3807159460,
     "uscensus:name":"Ontario",
     "uscensus:namelsad":"Ontario township",
+    "uscensus:population":71,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3807159460
+        "uscensus:geoid":"3807159460"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729477541
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404479361,
-    "wof:lastmodified":1605055477,
+    "wof:lastmodified":1722117737,
     "wof:name":"Ontario Township",
     "wof:parent_id":102081517,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":72,
+    "wof:population":71,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

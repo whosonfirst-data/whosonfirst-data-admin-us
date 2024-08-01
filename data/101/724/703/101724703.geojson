@@ -9,9 +9,12 @@
     "geom:bbox":"-94.753544,30.023697,-94.719126,30.065358",
     "geom:latitude":30.045079,
     "geom:longitude":-94.737316,
+    "gn:country":"US",
     "gn:elevation":22,
+    "gn:fcode":"PPL",
     "gn:population":1003,
     "iso:country":"US",
+    "lbl:bbox":"-94.76353,30.03383,-94.72353,30.07383",
     "lbl:latitude":30.050313,
     "lbl:longitude":-94.739922,
     "lbl:max_zoom":16.0,
@@ -21,7 +24,11 @@
     "mz:hierarchy_label":1,
     "mz:is_current":1,
     "mz:min_zoom":11.0,
+    "mz:note":"Quattroshapes Point Gazetteer import 20170519",
     "name:ara_x_preferred":[
+        "\u0623\u0645\u064a\u0633"
+    ],
+    "name:ara_x_variant":[
         "\u0623\u0645\u064a\u0633"
     ],
     "name:arz_x_preferred":[
@@ -146,21 +153,46 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
+    "qs_pg:aaroncc":"US",
+    "qs_pg:gn_country":"US",
+    "qs_pg:gn_fcode":"PPL",
+    "qs_pg:gn_id":4670667,
+    "qs_pg:gn_pop":1003,
+    "qs_pg:name":"Ames",
+    "qs_pg:name_adm0":"United States",
+    "qs_pg:name_adm1":"Texas",
+    "qs_pg:photos_9k":1,
+    "qs_pg:photos_9r":1,
+    "qs_pg:photos_all":2,
+    "qs_pg:photos_sr":0,
+    "qs_pg:pop_sr":3,
+    "qs_pg:qs_id":1049499,
+    "qs_pg:qs_pg_placetype":"locality",
+    "qs_pg:qs_pg_placetype_gp":"Town",
+    "qs_pg:woe_adm0":23424977,
+    "qs_pg:woe_id":2354284,
     "src:geom":"quattroshapes",
     "src:geom_alt":[
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":1137,
+    "uscensus:population_date":"2023",
     "wd:elevation":22.0,
     "wd:latitude":30.05222,
     "wd:longitude":-94.74083,
     "wd:wordcount":525,
+    "woe:adm0_id":23424977,
+    "woe:name_adm0":"United States",
+    "woe:name_adm1":"Texas",
+    "woe:placetype":"Town",
     "wof:belongsto":[
         102191575,
         85633793,
-        85688753,
-        102082465
+        102082465,
+        85688753
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -174,8 +206,20 @@
         "wk:page":"Ames, Texas"
     },
     "wof:concordances_alt":{
-        "qs_pg:id":1049499
+        "gn:id":[
+            4670667
+        ],
+        "gp:id":[
+            2354284
+        ],
+        "qs_pg:id":[
+            1049499
+        ],
+        "wd:id":[
+            "Q470253"
+        ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg"
@@ -194,16 +238,17 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690888930,
+    "wof:lastmodified":1722116402,
     "wof:name":"Ames",
     "wof:parent_id":102082465,
     "wof:placetype":"locality",
-    "wof:population":1003,
+    "wof:population":1137,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[
-        1125351827
+        1125351827,
+        1125961223
     ],
     "wof:tags":[]
 },

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008135,
-    "geom:area_square_m":74431660.70238,
+    "geom:area_square_m":74431660.7023,
     "geom:bbox":"-83.799564,42.222679,-83.675807,42.323706",
     "geom:latitude":42.275505,
     "geom:longitude":-83.731192,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.277612,
     "lbl:longitude":-83.735153,
     "lbl:max_zoom":14.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":161,
     "uscensus:geoid":2616103000,
     "uscensus:name":"Ann Arbor",
     "uscensus:namelsad":"Ann Arbor city",
+    "uscensus:population":119381,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2616103000
+        "uscensus:geoid":"2616103000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404506537,
-    "wof:lastmodified":1605055758,
+    "wof:lastmodified":1722117908,
     "wof:name":"Ann Arbor",
     "wof:parent_id":102083763,
     "wof:placetype":"localadmin",
-    "wof:population":113934,
+    "wof:population":119381,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010384,
-    "geom:area_square_m":93788880.078864,
+    "geom:area_square_m":93788880.078897,
     "geom:bbox":"-85.907435,43.030632,-85.787992,43.118911",
     "geom:latitude":43.074701,
     "geom:longitude":-85.847866,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.074731,
     "lbl:longitude":-85.847866,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":139,
     "uscensus:geoid":2613988820,
     "uscensus:name":"Wright",
     "uscensus:namelsad":"Wright township",
+    "uscensus:population":3179,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2613988820
+        "uscensus:geoid":"2613988820"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466233
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404508499,
-    "wof:lastmodified":1605055737,
+    "wof:lastmodified":1722117922,
     "wof:name":"Wright Township",
     "wof:parent_id":102083097,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3147,
+    "wof:population":3179,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

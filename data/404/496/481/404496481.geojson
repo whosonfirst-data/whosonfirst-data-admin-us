@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007454,
-    "geom:area_square_m":69874381.666382,
+    "geom:area_square_m":69874381.666364,
     "geom:bbox":"-88.124731,40.654801,-88.035615,40.743517",
     "geom:latitude":40.699046,
     "geom:longitude":-88.080168,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.69902,
     "lbl:longitude":-88.080161,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":75,
     "uscensus:geoid":1707563901,
     "uscensus:name":"Ridgeland",
     "uscensus:namelsad":"Ridgeland township",
+    "uscensus:population":308,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1707563901
+        "uscensus:geoid":"1707563901"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404496481,
-    "wof:lastmodified":1605055603,
+    "wof:lastmodified":1722233635,
     "wof:name":"Ridgeland Township",
     "wof:parent_id":102086209,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":369,
+    "wof:population":308,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

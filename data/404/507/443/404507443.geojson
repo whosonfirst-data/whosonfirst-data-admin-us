@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.041,
-    "geom:area_square_m":351807863.132116,
+    "geom:area_square_m":351807863.132089,
     "geom:bbox":"-84.615965,45.914711,-84.36309,46.158288",
     "geom:latitude":46.0579,
     "geom:longitude":-84.518159,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.059509,
     "lbl:longitude":-84.545844,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":97,
     "uscensus:geoid":2609751880,
     "uscensus:name":"Marquette",
     "uscensus:namelsad":"Marquette township",
+    "uscensus:population":610,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2609751880
+        "uscensus:geoid":"2609751880"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458095
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404507443,
-    "wof:lastmodified":1605055778,
+    "wof:lastmodified":1722117914,
     "wof:name":"Marquette Township",
     "wof:parent_id":102083639,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":603,
+    "wof:population":610,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

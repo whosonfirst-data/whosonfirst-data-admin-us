@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000096,
-    "geom:area_square_m":898727.361887,
+    "geom:area_square_m":898727.361886,
     "geom:bbox":"-79.148128,41.019042,-79.131322,41.031337",
     "geom:latitude":41.025046,
     "geom:longitude":-79.140508,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.025671,
     "lbl:longitude":-79.141337,
     "lbl:max_zoom":18.0,
@@ -61,11 +67,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":65,
     "uscensus:geoid":4206586568,
     "uscensus:name":"Worthville",
     "uscensus:namelsad":"Worthville borough",
+    "uscensus:population":71,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -75,8 +84,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206586568
+        "uscensus:geoid":"4206586568"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -92,11 +102,11 @@
         }
     ],
     "wof:id":404483513,
-    "wof:lastmodified":1605055449,
+    "wof:lastmodified":1722117763,
     "wof:name":"Worthville",
     "wof:parent_id":102083883,
     "wof:placetype":"localadmin",
-    "wof:population":67,
+    "wof:population":71,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

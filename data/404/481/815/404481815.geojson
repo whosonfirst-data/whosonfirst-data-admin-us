@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01098,
-    "geom:area_square_m":91803240.539525,
+    "geom:area_square_m":91803240.539545,
     "geom:bbox":"-97.474007,47.410966,-97.346401,47.498548",
     "geom:latitude":47.454433,
     "geom:longitude":-97.410309,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.45485,
     "lbl:longitude":-97.410324,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":97,
     "uscensus:geoid":3809768500,
     "uscensus:name":"Roseville",
     "uscensus:namelsad":"Roseville township",
+    "uscensus:population":91,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3809768500
+        "uscensus:geoid":"3809768500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475097
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404481815,
-    "wof:lastmodified":1605055831,
+    "wof:lastmodified":1722117753,
     "wof:name":"Roseville Township",
     "wof:parent_id":102081481,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":109,
+    "wof:population":91,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

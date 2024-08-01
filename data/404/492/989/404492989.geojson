@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010413,
-    "geom:area_square_m":89671975.245727,
+    "geom:area_square_m":89671975.245716,
     "geom:bbox":"-92.156105,45.815328,-92.031966,45.901058",
     "geom:latitude":45.858207,
     "geom:longitude":-92.093996,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.858158,
     "lbl:longitude":-92.093994,
     "lbl:max_zoom":17.0,
@@ -109,11 +115,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":5501370225,
     "uscensus:name":"Rusk",
     "uscensus:namelsad":"Rusk town",
+    "uscensus:population":485,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -123,8 +132,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5501370225
+        "uscensus:geoid":"5501370225"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476707
     ],
@@ -143,11 +153,11 @@
         }
     ],
     "wof:id":404492989,
-    "wof:lastmodified":1605056011,
+    "wof:lastmodified":1722117823,
     "wof:name":"Rusk",
     "wof:parent_id":102081835,
     "wof:placetype":"localadmin",
-    "wof:population":409,
+    "wof:population":485,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

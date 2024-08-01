@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00578,
-    "geom:area_square_m":54515340.079601,
+    "geom:area_square_m":54515340.07961,
     "geom:bbox":"-78.363122,40.242107,-78.251263,40.327835",
     "geom:latitude":40.288885,
     "geom:longitude":-78.306824,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.280435,
     "lbl:longitude":-78.301859,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":4201355592,
     "uscensus:name":"North Woodbury",
     "uscensus:namelsad":"North Woodbury township",
+    "uscensus:population":2405,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201355592
+        "uscensus:geoid":"4201355592"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474293
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404484719,
-    "wof:lastmodified":1605055468,
+    "wof:lastmodified":1722117770,
     "wof:name":"North Woodbury Township",
     "wof:parent_id":102081325,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2644,
+    "wof:population":2405,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

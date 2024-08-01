@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00943,
-    "geom:area_square_m":92700603.280846,
+    "geom:area_square_m":92700603.280829,
     "geom:bbox":"-97.694042,37.299904,-97.585107,37.387481",
     "geom:latitude":37.343821,
     "geom:longitude":-97.639185,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.343635,
     "lbl:longitude":-97.639185,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":191,
     "uscensus:geoid":2019167575,
     "uscensus:name":"Springdale",
     "uscensus:namelsad":"Springdale township",
+    "uscensus:population":672,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2019167575
+        "uscensus:geoid":"2019167575"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404505291,
-    "wof:lastmodified":1605055291,
+    "wof:lastmodified":1722233663,
     "wof:name":"Springdale Township",
     "wof:parent_id":102085325,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":753,
+    "wof:population":672,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

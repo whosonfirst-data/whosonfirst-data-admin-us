@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.019253,
-    "geom:area_square_m":173471741.569771,
+    "geom:area_square_m":173471741.569842,
     "geom:bbox":"-74.150062,43.1539,-73.977482,43.323085",
     "geom:latitude":43.226195,
     "geom:longitude":-74.068567,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.212673,
     "lbl:longitude":-74.077193,
     "lbl:max_zoom":16.0,
@@ -73,22 +79,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":91,
     "uscensus:geoid":3609123591,
     "uscensus:name":"Edinburg",
     "uscensus:namelsad":"Edinburg town",
+    "uscensus:population":1340,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688543,
-        102082413
+        102082413,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3609123591
+        "uscensus:geoid":"3609123591"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470333
     ],
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404523167,
-    "wof:lastmodified":1636499446,
+    "wof:lastmodified":1722117999,
     "wof:name":"Edinburg",
     "wof:parent_id":102082413,
     "wof:placetype":"localadmin",
-    "wof:population":1214,
+    "wof:population":1340,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

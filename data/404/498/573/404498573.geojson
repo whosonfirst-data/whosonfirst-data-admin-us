@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012325,
-    "geom:area_square_m":116668127.997322,
+    "geom:area_square_m":116668127.99732,
     "geom:bbox":"-90.567902,39.980359,-90.45313,40.102145",
     "geom:latitude":40.047216,
     "geom:longitude":-90.513462,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.049296,
     "lbl:longitude":-90.514233,
     "lbl:max_zoom":17.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":169,
     "uscensus:geoid":1716903350,
     "uscensus:name":"Bainbridge",
     "uscensus:namelsad":"Bainbridge township",
+    "uscensus:population":562,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1716903350
+        "uscensus:geoid":"1716903350"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467695
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404498573,
-    "wof:lastmodified":1605055564,
+    "wof:lastmodified":1722117856,
     "wof:name":"Bainbridge Township",
     "wof:parent_id":102082277,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":639,
+    "wof:population":562,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

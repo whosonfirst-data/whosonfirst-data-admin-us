@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010416,
-    "geom:area_square_m":91903835.182266,
+    "geom:area_square_m":91903835.182295,
     "geom:bbox":"-73.033253,44.428622,-72.888562,44.550303",
     "geom:latitude":44.476474,
     "geom:longitude":-72.962824,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.479209,
     "lbl:longitude":-72.964202,
     "lbl:max_zoom":15.0,
@@ -244,11 +250,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":5000736700,
     "uscensus:name":"Jericho",
     "uscensus:namelsad":"Jericho town",
+    "uscensus:population":5089,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -258,8 +267,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5000736700
+        "uscensus:geoid":"5000736700"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -275,11 +285,11 @@
         }
     ],
     "wof:id":404527493,
-    "wof:lastmodified":1605055683,
+    "wof:lastmodified":1722118031,
     "wof:name":"Jericho",
     "wof:parent_id":102087451,
     "wof:placetype":"localadmin",
-    "wof:population":5009,
+    "wof:population":5089,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

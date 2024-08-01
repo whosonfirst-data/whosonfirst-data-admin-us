@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013569,
-    "geom:area_square_m":121545463.367588,
+    "geom:area_square_m":121545463.367603,
     "geom:bbox":"-91.029568,43.509377,-90.909227,43.639197",
     "geom:latitude":43.580196,
     "geom:longitude":-90.972837,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.588459,
     "lbl:longitude":-90.972839,
     "lbl:max_zoom":16.0,
@@ -124,11 +130,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":123,
     "uscensus:geoid":5512337975,
     "uscensus:name":"Jefferson",
     "uscensus:namelsad":"Jefferson town",
+    "uscensus:population":1292,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -138,8 +147,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5512337975
+        "uscensus:geoid":"5512337975"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465339
     ],
@@ -158,11 +168,11 @@
         }
     ],
     "wof:id":404494109,
-    "wof:lastmodified":1605055968,
+    "wof:lastmodified":1722117830,
     "wof:name":"Jefferson",
     "wof:parent_id":102081733,
     "wof:placetype":"localadmin",
-    "wof:population":1143,
+    "wof:population":1292,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

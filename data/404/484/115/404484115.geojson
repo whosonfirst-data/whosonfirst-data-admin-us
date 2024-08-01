@@ -10,6 +10,12 @@
     "geom:latitude":40.329191,
     "geom:longitude":-79.64212,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.329485,
     "lbl:longitude":-79.641101,
     "lbl:max_zoom":17.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":129,
     "uscensus:geoid":4212958872,
     "uscensus:name":"Penn",
     "uscensus:namelsad":"Penn borough",
+    "uscensus:population":620,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212958872
+        "uscensus:geoid":"4212958872"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404484115,
-    "wof:lastmodified":1605055467,
+    "wof:lastmodified":1722117766,
     "wof:name":"Penn",
     "wof:parent_id":102081383,
     "wof:placetype":"localadmin",
-    "wof:population":475,
+    "wof:population":620,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011188,
-    "geom:area_square_m":92916594.266896,
+    "geom:area_square_m":92916594.266906,
     "geom:bbox":"-100.585417,47.76072,-100.456238,47.847779",
     "geom:latitude":47.804267,
     "geom:longitude":-100.520794,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.804268,
     "lbl:longitude":-100.520794,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":83,
     "uscensus:geoid":3808376540,
     "uscensus:name":"Strassburg",
     "uscensus:namelsad":"Strassburg township",
+    "uscensus:population":31,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3808376540
+        "uscensus:geoid":"3808376540"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729455229
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404479583,
-    "wof:lastmodified":1605055484,
+    "wof:lastmodified":1722117738,
     "wof:name":"Strassburg Township",
     "wof:parent_id":102082099,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":34,
+    "wof:population":31,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

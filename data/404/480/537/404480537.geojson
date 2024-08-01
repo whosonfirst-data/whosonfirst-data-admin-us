@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010596,
-    "geom:area_square_m":89178583.950222,
+    "geom:area_square_m":89178583.950235,
     "geom:bbox":"-97.324418,47.064388,-97.197202,47.151765",
     "geom:latitude":47.108205,
     "geom:longitude":-97.262622,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.108053,
     "lbl:longitude":-97.272328,
     "lbl:max_zoom":18.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":3801703340,
     "uscensus:name":"Arthur",
     "uscensus:namelsad":"Arthur township",
+    "uscensus:population":70,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3801703340
+        "uscensus:geoid":"3801703340"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472455
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404480537,
-    "wof:lastmodified":1605055912,
+    "wof:lastmodified":1722117745,
     "wof:name":"Arthur Township",
     "wof:parent_id":102082073,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":78,
+    "wof:population":70,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

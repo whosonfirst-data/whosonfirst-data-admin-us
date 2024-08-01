@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.019254,
-    "geom:area_square_m":166570760.377923,
+    "geom:area_square_m":166570760.377863,
     "geom:bbox":"-92.889433,45.556098,-92.650741,45.644335",
     "geom:latitude":45.602325,
     "geom:longitude":-92.765219,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.603622,
     "lbl:longitude":-92.765222,
     "lbl:max_zoom":17.0,
@@ -109,11 +115,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":5509577050,
     "uscensus:name":"Sterling",
     "uscensus:namelsad":"Sterling town",
+    "uscensus:population":732,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -123,8 +132,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5509577050
+        "uscensus:geoid":"5509577050"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473739
     ],
@@ -143,11 +153,11 @@
         }
     ],
     "wof:id":404491981,
-    "wof:lastmodified":1605055592,
+    "wof:lastmodified":1722117816,
     "wof:name":"Sterling",
     "wof:parent_id":102081307,
     "wof:placetype":"localadmin",
-    "wof:population":790,
+    "wof:population":732,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

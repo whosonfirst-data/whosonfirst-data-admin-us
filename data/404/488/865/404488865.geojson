@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010029,
-    "geom:area_square_m":89108064.582672,
+    "geom:area_square_m":89108064.582641,
     "geom:bbox":"-98.689253,44.022694,-98.570681,44.11103",
     "geom:latitude":44.066357,
     "geom:longitude":-98.631214,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "unorganized territory"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.066746,
     "lbl:longitude":-98.63123,
     "lbl:max_zoom":18.0,
@@ -130,11 +136,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":73,
     "uscensus:geoid":4607341820,
     "uscensus:name":"Media",
     "uscensus:namelsad":"Media UT",
+    "uscensus:population":65,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -144,8 +153,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4607341820
+        "uscensus:geoid":"4607341820"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468965
     ],
@@ -164,11 +174,11 @@
         }
     ],
     "wof:id":404488865,
-    "wof:lastmodified":1605055815,
+    "wof:lastmodified":1722117796,
     "wof:name":"Media",
     "wof:parent_id":102086005,
     "wof:placetype":"localadmin",
-    "wof:population":55,
+    "wof:population":65,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

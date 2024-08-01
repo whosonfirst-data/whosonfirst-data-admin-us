@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002561,
-    "geom:area_square_m":23898663.223888,
+    "geom:area_square_m":23898663.223942,
     "geom:bbox":"-81.650542,40.975845,-81.563789,41.041289",
     "geom:latitude":41.009455,
     "geom:longitude":-81.603704,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.012077,
     "lbl:longitude":-81.595829,
     "lbl:max_zoom":14.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":153,
     "uscensus:geoid":3915303828,
     "uscensus:name":"Barberton",
     "uscensus:namelsad":"Barberton city",
+    "uscensus:population":24563,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3915303828
+        "uscensus:geoid":"3915303828"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404525901,
-    "wof:lastmodified":1605056049,
+    "wof:lastmodified":1722118019,
     "wof:name":"Barberton",
     "wof:parent_id":102084807,
     "wof:placetype":"localadmin",
-    "wof:population":26550,
+    "wof:population":24563,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

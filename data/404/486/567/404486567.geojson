@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000222,
-    "geom:area_square_m":2108339.370601,
+    "geom:area_square_m":2108339.370603,
     "geom:bbox":"-75.306493,39.875204,-75.2863,39.898086",
     "geom:latitude":39.886431,
     "geom:longitude":-75.296418,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.88398,
     "lbl:longitude":-75.295425,
     "lbl:max_zoom":15.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":4204555664,
     "uscensus:name":"Norwood",
     "uscensus:namelsad":"Norwood borough",
+    "uscensus:population":5890,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4204555664
+        "uscensus:geoid":"4204555664"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -113,7 +123,7 @@
         }
     ],
     "wof:id":404486567,
-    "wof:lastmodified":1605055858,
+    "wof:lastmodified":1722117781,
     "wof:name":"Norwood",
     "wof:parent_id":102080913,
     "wof:placetype":"localadmin",

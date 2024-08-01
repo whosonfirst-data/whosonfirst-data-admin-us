@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005867,
-    "geom:area_square_m":56885167.597757,
+    "geom:area_square_m":56885167.597724,
     "geom:bbox":"-85.733949,38.300664,-85.633658,38.404435",
     "geom:latitude":38.361495,
     "geom:longitude":-85.679178,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.360062,
     "lbl:longitude":-85.67843,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":1801978128,
     "uscensus:name":"Utica",
     "uscensus:namelsad":"Utica township",
+    "uscensus:population":8815,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1801978128
+        "uscensus:geoid":"1801978128"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404501119,
-    "wof:lastmodified":1604530763,
+    "wof:lastmodified":1722233652,
     "wof:name":"Utica Township",
     "wof:parent_id":102086421,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":6016,
+    "wof:population":8815,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

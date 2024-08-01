@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011253,
-    "geom:area_square_m":91571302.491668,
+    "geom:area_square_m":91571302.491725,
     "geom:bbox":"-95.35248,48.79995,-95.220704,48.887276",
     "geom:latitude":48.842927,
     "geom:longitude":-95.287285,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.84346,
     "lbl:longitude":-95.287287,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":135,
     "uscensus:geoid":2713544080,
     "uscensus:name":"Moranville",
     "uscensus:namelsad":"Moranville township",
+    "uscensus:population":889,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2713544080
+        "uscensus:geoid":"2713544080"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478953
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404512935,
-    "wof:lastmodified":1605056128,
+    "wof:lastmodified":1722117954,
     "wof:name":"Moranville Township",
     "wof:parent_id":102087665,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":887,
+    "wof:population":889,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

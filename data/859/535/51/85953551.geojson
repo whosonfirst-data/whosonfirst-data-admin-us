@@ -159,7 +159,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1995015,
     "uscensus:awater":385436,
     "uscensus:classfp":"C5",
@@ -175,17 +176,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"51316",
     "uscensus:placens":"02396211",
+    "uscensus:population":384,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":298.0,
     "wd:latitude":45.035833,
     "wd:longitude":-92.954444,
     "wd:wordcount":759,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404510961,
         85633793,
-        102087659
+        102087659,
+        404510961,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -194,10 +197,11 @@
         "gn:id":5041676,
         "gp:id":2472400,
         "qs_pg:id":1101630,
-        "uscensus:geoid":2751316,
+        "uscensus:geoid":"2751316",
         "wd:id":"Q519307",
         "wk:page":"Pine Springs, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -218,11 +222,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882030,
+    "wof:lastmodified":1722115959,
     "wof:name":"Pine Springs",
     "wof:parent_id":404510961,
     "wof:placetype":"locality",
-    "wof:population":408,
+    "wof:population":384,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

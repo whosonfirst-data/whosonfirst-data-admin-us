@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012762,
-    "geom:area_square_m":118402780.705594,
+    "geom:area_square_m":118402780.705551,
     "geom:bbox":"-77.078487,41.343377,-76.827145,41.430554",
     "geom:latitude":41.383169,
     "geom:longitude":-76.947078,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.388283,
     "lbl:longitude":-76.959455,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":81,
     "uscensus:geoid":4208128352,
     "uscensus:name":"Gamble",
     "uscensus:namelsad":"Gamble township",
+    "uscensus:population":784,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4208128352
+        "uscensus:geoid":"4208128352"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464439
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404487109,
-    "wof:lastmodified":1605055888,
+    "wof:lastmodified":1722117785,
     "wof:name":"Gamble Township",
     "wof:parent_id":102081317,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":756,
+    "wof:population":784,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

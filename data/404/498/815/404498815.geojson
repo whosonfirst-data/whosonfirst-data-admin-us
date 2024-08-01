@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005134,
-    "geom:area_square_m":46931446.544284,
+    "geom:area_square_m":46931446.544342,
     "geom:bbox":"-89.80886,42.284284,-89.748442,42.371936",
     "geom:latitude":42.328383,
     "geom:longitude":-89.778682,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.328315,
     "lbl:longitude":-89.778682,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":177,
     "uscensus:geoid":1717724413,
     "uscensus:name":"Erin",
     "uscensus:namelsad":"Erin township",
+    "uscensus:population":369,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1717724413
+        "uscensus:geoid":"1717724413"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404498815,
-    "wof:lastmodified":1605055567,
+    "wof:lastmodified":1722117857,
     "wof:name":"Erin Township",
     "wof:parent_id":102083509,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":410,
+    "wof:population":369,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

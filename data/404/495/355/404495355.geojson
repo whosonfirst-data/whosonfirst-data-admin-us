@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010402,
-    "geom:area_square_m":91924962.005177,
+    "geom:area_square_m":91924962.005124,
     "geom:bbox":"-90.199153,44.336532,-90.079527,44.42456",
     "geom:latitude":44.380482,
     "geom:longitude":-90.139064,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.380539,
     "lbl:longitude":-90.139068,
     "lbl:max_zoom":17.0,
@@ -112,11 +118,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":141,
     "uscensus:geoid":5514120075,
     "uscensus:name":"Dexter",
     "uscensus:namelsad":"Dexter town",
+    "uscensus:population":352,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -126,8 +135,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5514120075
+        "uscensus:geoid":"5514120075"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468235
     ],
@@ -146,11 +156,11 @@
         }
     ],
     "wof:id":404495355,
-    "wof:lastmodified":1605055979,
+    "wof:lastmodified":1722117839,
     "wof:name":"Dexter",
     "wof:parent_id":102081737,
     "wof:placetype":"localadmin",
-    "wof:population":359,
+    "wof:population":352,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

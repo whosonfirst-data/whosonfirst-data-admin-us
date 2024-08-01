@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005968,
-    "geom:area_square_m":50382427.288284,
+    "geom:area_square_m":50382427.288277,
     "geom:bbox":"-96.92573,46.894911,-96.794993,46.977215",
     "geom:latitude":46.942865,
     "geom:longitude":-96.879228,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.939668,
     "lbl:longitude":-96.898135,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":3801765860,
     "uscensus:name":"Reed",
     "uscensus:namelsad":"Reed township",
+    "uscensus:population":1123,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3801765860
+        "uscensus:geoid":"3801765860"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476111
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404480523,
-    "wof:lastmodified":1605055919,
+    "wof:lastmodified":1722117745,
     "wof:name":"Reed Township",
     "wof:parent_id":102082073,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1175,
+    "wof:population":1123,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

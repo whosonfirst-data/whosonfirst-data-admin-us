@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010276,
-    "geom:area_square_m":91359861.649004,
+    "geom:area_square_m":91359861.64904,
     "geom:bbox":"-90.791824,43.985654,-90.67105,44.071838",
     "geom:latitude":44.02857,
     "geom:longitude":-90.731781,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.028728,
     "lbl:longitude":-90.731782,
     "lbl:max_zoom":17.0,
@@ -139,22 +145,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":81,
     "uscensus:geoid":5508140925,
     "uscensus:name":"Lafayette",
     "uscensus:namelsad":"Lafayette town",
+    "uscensus:population":449,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081777
+        102081777,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5508140925
+        "uscensus:geoid":"5508140925"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463963
     ],
@@ -173,11 +183,11 @@
         }
     ],
     "wof:id":404494295,
-    "wof:lastmodified":1636499401,
+    "wof:lastmodified":1722117832,
     "wof:name":"Lafayette",
     "wof:parent_id":102081777,
     "wof:placetype":"localadmin",
-    "wof:population":396,
+    "wof:population":449,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

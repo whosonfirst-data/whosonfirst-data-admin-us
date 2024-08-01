@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011269,
-    "geom:area_square_m":107127580.036428,
+    "geom:area_square_m":107127580.036399,
     "geom:bbox":"-81.171213,39.687659,-81.042361,39.81603",
     "geom:latitude":39.756407,
     "geom:longitude":-81.10479,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.762989,
     "lbl:longitude":-81.093169,
     "lbl:max_zoom":15.0,
@@ -61,11 +67,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":111,
     "uscensus:geoid":3911112966,
     "uscensus:name":"Center",
     "uscensus:namelsad":"Center township",
+    "uscensus:population":3399,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -75,8 +84,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3911112966
+        "uscensus:geoid":"3911112966"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -92,12 +102,12 @@
         }
     ],
     "wof:id":404526711,
-    "wof:lastmodified":1605055659,
+    "wof:lastmodified":1722233690,
     "wof:name":"Center Township",
     "wof:parent_id":102083663,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3647,
+    "wof:population":3399,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00009,
-    "geom:area_square_m":849388.960776,
+    "geom:area_square_m":849388.960777,
     "geom:bbox":"-78.186507,40.201583,-78.164915,40.210795",
     "geom:latitude":40.205307,
     "geom:longitude":-78.178305,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.205452,
     "lbl:longitude":-78.178453,
     "lbl:max_zoom":18.0,
@@ -179,22 +185,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":4206120152,
     "uscensus:name":"Dudley",
     "uscensus:namelsad":"Dudley borough",
+    "uscensus:population":180,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688481,
-        102080901
+        102080901,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206120152
+        "uscensus:geoid":"4206120152"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -210,11 +220,11 @@
         }
     ],
     "wof:id":404488061,
-    "wof:lastmodified":1636499369,
+    "wof:lastmodified":1722117791,
     "wof:name":"Dudley",
     "wof:parent_id":102080901,
     "wof:placetype":"localadmin",
-    "wof:population":184,
+    "wof:population":180,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

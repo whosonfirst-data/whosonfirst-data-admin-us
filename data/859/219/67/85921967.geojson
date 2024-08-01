@@ -21,7 +21,7 @@
     "mps:latitude":37.86336,
     "mps:longitude":-122.524301,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:is_funky":0,
     "mz:is_landuse_aoi":0,
     "mz:max_zoom":18.0,
@@ -63,10 +63,6 @@
         "Sausalito"
     ],
     "name:eng_x_preferred":[
-        "Marin City"
-    ],
-    "name:eng_x_variant":[
-        "Marin Cty",
         "Sausalito"
     ],
     "name:epo_x_preferred":[
@@ -221,7 +217,10 @@
     "src:geom":"quattroshapes",
     "src:geom_alt":[],
     "src:lbl_centroid":"yerbashapes",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":7021,
+    "uscensus:population_date":"2023",
     "wd:elevation":3.0,
     "wd:latitude":37.857778,
     "wd:longitude":-122.490278,
@@ -229,8 +228,8 @@
     "wof:belongsto":[
         102191575,
         85633793,
-        85688637,
-        102084353
+        102084353,
+        85688637
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -242,6 +241,7 @@
         "wd:id":"Q828729",
         "wk:page":"Sausalito, California"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geomhash":"78dd209bea92c82455cb21f9c86cadbd",
     "wof:hierarchy":[
@@ -254,11 +254,11 @@
         }
     ],
     "wof:id":85921967,
-    "wof:lastmodified":1690882518,
+    "wof:lastmodified":1722115907,
     "wof:name":"Sausalito",
     "wof:parent_id":102084353,
     "wof:placetype":"locality",
-    "wof:population":7061,
+    "wof:population":7021,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

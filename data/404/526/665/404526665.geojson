@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010132,
-    "geom:area_square_m":94129506.113911,
+    "geom:area_square_m":94129506.113956,
     "geom:bbox":"-83.535315,41.253178,-83.417291,41.341321",
     "geom:latitude":41.297331,
     "geom:longitude":-83.47657,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.297244,
     "lbl:longitude":-83.47657,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":173,
     "uscensus:geoid":3917351744,
     "uscensus:name":"Montgomery",
     "uscensus:namelsad":"Montgomery township",
+    "uscensus:population":4193,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3917351744
+        "uscensus:geoid":"3917351744"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404526665,
-    "wof:lastmodified":1605055657,
+    "wof:lastmodified":1722233689,
     "wof:name":"Montgomery Township",
     "wof:parent_id":102084781,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":4230,
+    "wof:population":4193,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

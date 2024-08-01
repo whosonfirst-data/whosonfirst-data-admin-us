@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010463,
-    "geom:area_square_m":92191205.850781,
+    "geom:area_square_m":92191205.850805,
     "geom:bbox":"-90.558338,44.509038,-90.435801,44.596501",
     "geom:latitude":44.552306,
     "geom:longitude":-90.497644,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.552774,
     "lbl:longitude":-90.498443,
     "lbl:max_zoom":17.0,
@@ -109,11 +115,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":5501930275,
     "uscensus:name":"Grant",
     "uscensus:namelsad":"Grant town",
+    "uscensus:population":855,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -123,8 +132,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5501930275
+        "uscensus:geoid":"5501930275"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457243
     ],
@@ -143,11 +153,11 @@
         }
     ],
     "wof:id":404493135,
-    "wof:lastmodified":1605055938,
+    "wof:lastmodified":1722117824,
     "wof:name":"Grant",
     "wof:parent_id":102081269,
     "wof:placetype":"localadmin",
-    "wof:population":916,
+    "wof:population":855,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

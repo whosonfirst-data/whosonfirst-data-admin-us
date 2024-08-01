@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.016188,
-    "geom:area_square_m":142630044.231283,
+    "geom:area_square_m":142630044.231303,
     "geom:bbox":"-89.845189,44.511192,-89.607286,44.598782",
     "geom:latitude":44.555649,
     "geom:longitude":-89.745911,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.562042,
     "lbl:longitude":-89.724395,
     "lbl:max_zoom":16.0,
@@ -106,11 +112,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":97,
     "uscensus:geoid":5509712725,
     "uscensus:name":"Carson",
     "uscensus:namelsad":"Carson town",
+    "uscensus:population":1374,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -120,8 +129,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5509712725
+        "uscensus:geoid":"5509712725"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467647
     ],
@@ -140,11 +150,11 @@
         }
     ],
     "wof:id":404494943,
-    "wof:lastmodified":1605055976,
+    "wof:lastmodified":1722117836,
     "wof:name":"Carson",
     "wof:parent_id":102081875,
     "wof:placetype":"localadmin",
-    "wof:population":1305,
+    "wof:population":1374,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

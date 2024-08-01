@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010188,
-    "geom:area_square_m":93291226.264096,
+    "geom:area_square_m":93291226.264091,
     "geom:bbox":"-83.544463,42.174344,-83.423076,42.265351",
     "geom:latitude":42.220212,
     "geom:longitude":-83.483934,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":42.236324,
     "lbl:longitude":-83.488071,
@@ -51,11 +54,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":163,
     "uscensus:geoid":2616381660,
     "uscensus:name":"Van Buren",
     "uscensus:namelsad":"Van Buren charter township",
+    "uscensus:population":29771,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -65,8 +71,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2616381660
+        "uscensus:geoid":"2616381660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466299
     ],
@@ -85,11 +92,11 @@
         }
     ],
     "wof:id":404508667,
-    "wof:lastmodified":1605055738,
+    "wof:lastmodified":1722117923,
     "wof:name":"Van Buren",
     "wof:parent_id":102083147,
     "wof:placetype":"localadmin",
-    "wof:population":28821,
+    "wof:population":29771,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

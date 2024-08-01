@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001007,
-    "geom:area_square_m":9041648.46992,
+    "geom:area_square_m":9041648.469917,
     "geom:bbox":"-84.641892,43.391953,-84.577886,43.422399",
     "geom:latitude":43.408185,
     "geom:longitude":-84.611891,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.409561,
     "lbl:longitude":-84.606461,
     "lbl:max_zoom":15.0,
@@ -319,11 +325,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":57,
     "uscensus:geoid":2605771000,
     "uscensus:name":"St. Louis",
     "uscensus:namelsad":"St. Louis city",
+    "uscensus:population":7008,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -333,8 +342,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2605771000
+        "uscensus:geoid":"2605771000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -350,11 +360,11 @@
         }
     ],
     "wof:id":404506733,
-    "wof:lastmodified":1605055758,
+    "wof:lastmodified":1722117909,
     "wof:name":"St. Louis",
     "wof:parent_id":102083717,
     "wof:placetype":"localadmin",
-    "wof:population":7482,
+    "wof:population":7008,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

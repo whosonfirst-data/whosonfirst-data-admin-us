@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009755,
-    "geom:area_square_m":93155938.148634,
+    "geom:area_square_m":93155938.148621,
     "geom:bbox":"-100.720646,39.393874,-100.608225,39.481606",
     "geom:latitude":39.437444,
     "geom:longitude":-100.66453,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.437408,
     "lbl:longitude":-100.664516,
     "lbl:max_zoom":18.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":179,
     "uscensus:geoid":2017907450,
     "uscensus:name":"Bloomfield",
     "uscensus:namelsad":"Bloomfield township",
+    "uscensus:population":39,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2017907450
+        "uscensus:geoid":"2017907450"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462205
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404505011,
-    "wof:lastmodified":1605055289,
+    "wof:lastmodified":1722117897,
     "wof:name":"Bloomfield Township",
     "wof:parent_id":102082157,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":34,
+    "wof:population":39,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

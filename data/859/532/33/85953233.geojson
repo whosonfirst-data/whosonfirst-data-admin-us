@@ -193,7 +193,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2337898,
     "uscensus:awater":3674,
     "uscensus:classfp":"C5",
@@ -209,17 +210,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"26936",
     "uscensus:placens":"02394283",
+    "uscensus:population":863,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":352.0,
     "wd:latitude":45.4975,
     "wd:longitude":-95.796667,
     "wd:wordcount":1006,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404510827,
         85633793,
-        102087669
+        102087669,
+        404510827,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -228,10 +231,11 @@
         "gn:id":5029234,
         "gp:id":2416939,
         "qs_pg:id":951084,
-        "uscensus:geoid":2726936,
+        "uscensus:geoid":"2726936",
         "wd:id":"Q943662",
         "wk:page":"Hancock, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -252,11 +256,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882068,
+    "wof:lastmodified":1722115961,
     "wof:name":"Hancock",
     "wof:parent_id":404510827,
     "wof:placetype":"locality",
-    "wof:population":765,
+    "wof:population":863,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

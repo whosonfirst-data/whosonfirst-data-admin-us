@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010847,
-    "geom:area_square_m":93980097.624834,
+    "geom:area_square_m":93980097.624895,
     "geom:bbox":"-93.882792,45.471749,-93.758268,45.560228",
     "geom:latitude":45.516001,
     "geom:longitude":-93.820653,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.515997,
     "lbl:longitude":-93.820657,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":141,
     "uscensus:geoid":2714158522,
     "uscensus:name":"Santiago",
     "uscensus:namelsad":"Santiago township",
+    "uscensus:population":1909,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2714158522
+        "uscensus:geoid":"2714158522"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729454609
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404510475,
-    "wof:lastmodified":1605055619,
+    "wof:lastmodified":1722117936,
     "wof:name":"Santiago Township",
     "wof:parent_id":102087609,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1895,
+    "wof:population":1909,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

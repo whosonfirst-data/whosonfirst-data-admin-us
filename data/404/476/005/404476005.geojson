@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005379,
-    "geom:area_square_m":49274333.132541,
+    "geom:area_square_m":49274333.132522,
     "geom:bbox":"-71.502626,42.156782,-71.380182,42.238206",
     "geom:latitude":42.197748,
     "geom:longitude":-71.444987,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.206869,
     "lbl:longitude":-71.434772,
     "lbl:max_zoom":15.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":2501730700,
     "uscensus:name":"Holliston",
     "uscensus:namelsad":"Holliston town",
+    "uscensus:population":15015,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2501730700
+        "uscensus:geoid":"2501730700"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465201
     ],
@@ -80,11 +90,11 @@
         }
     ],
     "wof:id":404476005,
-    "wof:lastmodified":1605055409,
+    "wof:lastmodified":1722117711,
     "wof:name":"Holliston",
     "wof:parent_id":102084643,
     "wof:placetype":"localadmin",
-    "wof:population":13547,
+    "wof:population":15015,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000873,
-    "geom:area_square_m":8254907.988748,
+    "geom:area_square_m":8254907.988756,
     "geom:bbox":"-79.901402,40.081929,-79.855704,40.114776",
     "geom:latitude":40.098348,
     "geom:longitude":-79.880077,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.098731,
     "lbl:longitude":-79.880419,
     "lbl:max_zoom":17.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":4212544512,
     "uscensus:name":"Long Branch",
     "uscensus:namelsad":"Long Branch borough",
+    "uscensus:population":414,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212544512
+        "uscensus:geoid":"4212544512"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404487799,
-    "wof:lastmodified":1605055877,
+    "wof:lastmodified":1722117789,
     "wof:name":"Long Branch",
     "wof:parent_id":102081343,
     "wof:placetype":"localadmin",
-    "wof:population":447,
+    "wof:population":414,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

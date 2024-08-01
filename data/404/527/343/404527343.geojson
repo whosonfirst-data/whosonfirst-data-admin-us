@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005709,
-    "geom:area_square_m":51832266.254246,
+    "geom:area_square_m":51832266.25423,
     "geom:bbox":"-72.565867,42.726933,-72.458412,42.824384",
     "geom:latitude":42.762216,
     "geom:longitude":-72.525921,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.754807,
     "lbl:longitude":-72.53855,
     "lbl:max_zoom":15.0,
@@ -136,22 +142,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":5002574800,
     "uscensus:name":"Vernon",
     "uscensus:namelsad":"Vernon town",
+    "uscensus:population":2193,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688763,
-        102080773
+        102080773,
+        85688763
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5002574800
+        "uscensus:geoid":"5002574800"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472879
     ],
@@ -170,11 +180,11 @@
         }
     ],
     "wof:id":404527343,
-    "wof:lastmodified":1636499340,
+    "wof:lastmodified":1722118030,
     "wof:name":"Vernon",
     "wof:parent_id":102080773,
     "wof:placetype":"localadmin",
-    "wof:population":2206,
+    "wof:population":2193,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

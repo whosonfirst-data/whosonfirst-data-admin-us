@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.019955,
-    "geom:area_square_m":179991853.906229,
+    "geom:area_square_m":179991853.906316,
     "geom:bbox":"-75.737859,43.092864,-75.506068,43.226178",
     "geom:latitude":43.159179,
     "geom:longitude":-75.618888,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.154861,
     "lbl:longitude":-75.609505,
     "lbl:max_zoom":15.0,
@@ -340,11 +346,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":65,
     "uscensus:geoid":3606577178,
     "uscensus:name":"Verona",
     "uscensus:namelsad":"Verona town",
+    "uscensus:population":5851,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -354,8 +363,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3606577178
+        "uscensus:geoid":"3606577178"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -371,11 +381,11 @@
         }
     ],
     "wof:id":404522813,
-    "wof:lastmodified":1605056078,
+    "wof:lastmodified":1722117996,
     "wof:name":"Verona",
     "wof:parent_id":102083149,
     "wof:placetype":"localadmin",
-    "wof:population":6293,
+    "wof:population":5851,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

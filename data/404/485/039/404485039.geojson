@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008539,
-    "geom:area_square_m":80161868.107994,
+    "geom:area_square_m":80161868.107965,
     "geom:bbox":"-78.653435,40.561072,-78.495224,40.638915",
     "geom:latitude":40.607256,
     "geom:longitude":-78.575166,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.603494,
     "lbl:longitude":-78.573654,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":4202114056,
     "uscensus:name":"Clearfield",
     "uscensus:namelsad":"Clearfield township",
+    "uscensus:population":1575,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202114056
+        "uscensus:geoid":"4202114056"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729453781
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404485039,
-    "wof:lastmodified":1605055361,
+    "wof:lastmodified":1722117771,
     "wof:name":"Clearfield Township",
     "wof:parent_id":102080879,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1604,
+    "wof:population":1575,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000465,
-    "geom:area_square_m":4124863.382654,
+    "geom:area_square_m":4124863.382665,
     "geom:bbox":"-88.404255,44.207762,-88.363209,44.229578",
     "geom:latitude":44.217766,
     "geom:longitude":-88.385902,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.217383,
     "lbl:longitude":-88.388597,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":5501550825,
     "uscensus:name":"Menasha",
     "uscensus:namelsad":"Menasha city",
+    "uscensus:population":2891,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5501550825
+        "uscensus:geoid":"5501550825"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404492907,
-    "wof:lastmodified":1605055996,
+    "wof:lastmodified":1722117822,
     "wof:name":"Menasha",
     "wof:parent_id":102081289,
     "wof:placetype":"localadmin",
-    "wof:population":2209,
+    "wof:population":2891,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

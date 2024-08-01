@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00989,
-    "geom:area_square_m":93696245.705909,
+    "geom:area_square_m":93696245.705929,
     "geom:bbox":"-81.010622,39.939939,-80.891713,40.03209",
     "geom:latitude":39.986343,
     "geom:longitude":-80.951247,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.986309,
     "lbl:longitude":-80.951238,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":3901372736,
     "uscensus:name":"Smith",
     "uscensus:namelsad":"Smith township",
+    "uscensus:population":1408,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3901372736
+        "uscensus:geoid":"3901372736"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471831
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404523597,
-    "wof:lastmodified":1605056093,
+    "wof:lastmodified":1722118002,
     "wof:name":"Smith Township",
     "wof:parent_id":102083721,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1543,
+    "wof:population":1408,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

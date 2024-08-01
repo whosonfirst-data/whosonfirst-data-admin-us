@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011261,
-    "geom:area_square_m":92738337.273925,
+    "geom:area_square_m":92738337.273937,
     "geom:bbox":"-102.440065,48.196799,-102.310036,48.283849",
     "geom:latitude":48.240322,
     "geom:longitude":-102.374925,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.240378,
     "lbl:longitude":-102.37495,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":3806164900,
     "uscensus:name":"Purcell",
     "uscensus:namelsad":"Purcell township",
+    "uscensus:population":90,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3806164900
+        "uscensus:geoid":"3806164900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475139
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404481247,
-    "wof:lastmodified":1605055831,
+    "wof:lastmodified":1722117749,
     "wof:name":"Purcell Township",
     "wof:parent_id":102082569,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":58,
+    "wof:population":90,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009163,
-    "geom:area_square_m":88696829.918721,
+    "geom:area_square_m":88696829.91875,
     "geom:bbox":"-95.065715,38.447221,-94.918202,38.527985",
     "geom:latitude":38.480904,
     "geom:longitude":-94.997814,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.481156,
     "lbl:longitude":-95.015086,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":121,
     "uscensus:geoid":2012153250,
     "uscensus:name":"Osawatomie",
     "uscensus:namelsad":"Osawatomie township",
+    "uscensus:population":724,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2012153250
+        "uscensus:geoid":"2012153250"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465955
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404504313,
-    "wof:lastmodified":1605055303,
+    "wof:lastmodified":1722117892,
     "wof:name":"Osawatomie Township",
     "wof:parent_id":102085273,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":728,
+    "wof:population":724,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

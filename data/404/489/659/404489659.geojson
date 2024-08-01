@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001301,
-    "geom:area_square_m":11809532.901744,
+    "geom:area_square_m":11809532.901766,
     "geom:bbox":"-96.96004,42.758732,-96.892446,42.801151",
     "geom:latitude":42.781107,
     "geom:longitude":-96.925628,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.783249,
     "lbl:longitude":-96.924403,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":4602766700,
     "uscensus:name":"Vermillion",
     "uscensus:namelsad":"Vermillion city",
+    "uscensus:population":12011,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4602766700
+        "uscensus:geoid":"4602766700"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404489659,
-    "wof:lastmodified":1605055926,
+    "wof:lastmodified":1722117802,
     "wof:name":"Vermillion",
     "wof:parent_id":102086833,
     "wof:placetype":"localadmin",
-    "wof:population":10571,
+    "wof:population":12011,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

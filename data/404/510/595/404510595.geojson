@@ -10,6 +10,12 @@
     "geom:latitude":44.781715,
     "geom:longitude":-95.350728,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.781658,
     "lbl:longitude":-95.35072,
     "lbl:max_zoom":17.0,
@@ -109,11 +115,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":129,
     "uscensus:geoid":2712956572,
     "uscensus:name":"Sacred Heart",
     "uscensus:namelsad":"Sacred Heart city",
+    "uscensus:population":490,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -123,8 +132,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2712956572
+        "uscensus:geoid":"2712956572"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -140,11 +150,11 @@
         }
     ],
     "wof:id":404510595,
-    "wof:lastmodified":1605055610,
+    "wof:lastmodified":1722117937,
     "wof:name":"Sacred Heart",
     "wof:parent_id":102087655,
     "wof:placetype":"localadmin",
-    "wof:population":548,
+    "wof:population":490,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

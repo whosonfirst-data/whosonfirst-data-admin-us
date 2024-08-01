@@ -151,7 +151,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2017213,
     "uscensus:awater":23622,
     "uscensus:classfp":"C5",
@@ -167,17 +168,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"27260",
     "uscensus:placens":"01036039",
+    "uscensus:population":494,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":382.0,
     "wd:latitude":46.105278,
     "wd:longitude":-97.637222,
     "wd:wordcount":911,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404481547,
         85633793,
-        102082115
+        102082115,
+        404481547,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -186,10 +189,11 @@
         "gn:id":5059237,
         "gp:id":2405517,
         "qs_pg:id":156452,
-        "uscensus:geoid":3827260,
+        "uscensus:geoid":"3827260",
         "wd:id":"Q2021484",
         "wk:page":"Forman, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -210,11 +214,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882627,
+    "wof:lastmodified":1722115995,
     "wof:name":"Forman",
     "wof:parent_id":404481547,
     "wof:placetype":"locality",
-    "wof:population":504,
+    "wof:population":494,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

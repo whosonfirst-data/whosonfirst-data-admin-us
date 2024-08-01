@@ -208,7 +208,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":193870181,
     "uscensus:awater":2077000,
     "uscensus:classfp":"C5",
@@ -224,17 +225,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"63418",
     "uscensus:placens":"00979430",
+    "uscensus:population":31652,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"36",
     "wd:elevation":139.0,
     "wd:latitude":43.219444,
     "wd:longitude":-75.463333,
     "wd:wordcount":3566,
     "wof:belongsto":[
-        85688543,
         102191575,
-        404522697,
         85633793,
-        102083149
+        102083149,
+        404522697,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -243,10 +246,11 @@
         "gn:id":5134295,
         "gp:id":2484260,
         "qs_pg:id":1051731,
-        "uscensus:geoid":3663418,
+        "uscensus:geoid":"3663418",
         "wd:id":"Q6586",
         "wk:page":"Rome, New York"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -267,11 +271,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883893,
+    "wof:lastmodified":1722116067,
     "wof:name":"Rome",
     "wof:parent_id":404522697,
     "wof:placetype":"locality",
-    "wof:population":33725,
+    "wof:population":31652,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

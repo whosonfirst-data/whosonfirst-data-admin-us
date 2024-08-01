@@ -10,6 +10,12 @@
     "geom:latitude":45.951704,
     "geom:longitude":-97.618442,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.951725,
     "lbl:longitude":-97.618443,
     "lbl:max_zoom":18.0,
@@ -439,11 +445,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":81,
     "uscensus:geoid":3808136140,
     "uscensus:name":"Havana",
     "uscensus:namelsad":"Havana city",
+    "uscensus:population":68,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -453,8 +462,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3808136140
+        "uscensus:geoid":"3808136140"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -470,11 +480,11 @@
         }
     ],
     "wof:id":404479473,
-    "wof:lastmodified":1605055481,
+    "wof:lastmodified":1722117738,
     "wof:name":"Havana",
     "wof:parent_id":102082115,
     "wof:placetype":"localadmin",
-    "wof:population":71,
+    "wof:population":68,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

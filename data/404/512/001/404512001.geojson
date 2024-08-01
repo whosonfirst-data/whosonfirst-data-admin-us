@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004317,
-    "geom:area_square_m":38072812.646447,
+    "geom:area_square_m":38072812.646453,
     "geom:bbox":"-93.160576,44.471149,-93.099956,44.543737",
     "geom:latitude":44.507745,
     "geom:longitude":-93.13002,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.507433,
     "lbl:longitude":-93.130022,
     "lbl:max_zoom":17.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":37,
     "uscensus:geoid":2703768530,
     "uscensus:name":"Waterford",
     "uscensus:namelsad":"Waterford township",
+    "uscensus:population":518,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2703768530
+        "uscensus:geoid":"2703768530"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729477919
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404512001,
-    "wof:lastmodified":1605056124,
+    "wof:lastmodified":1722117947,
     "wof:name":"Waterford Township",
     "wof:parent_id":102087895,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":497,
+    "wof:population":518,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

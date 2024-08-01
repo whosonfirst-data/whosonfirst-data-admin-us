@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00408,
-    "geom:area_square_m":38662258.918866,
+    "geom:area_square_m":38662258.918831,
     "geom:bbox":"-75.005403,39.938018,-74.882247,40.013644",
     "geom:latitude":39.978414,
     "geom:longitude":-74.941277,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.976251,
     "lbl:longitude":-74.941305,
     "lbl:max_zoom":14.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":3400547880,
     "uscensus:name":"Moorestown",
     "uscensus:namelsad":"Moorestown township",
+    "uscensus:population":21577,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400547880
+        "uscensus:geoid":"3400547880"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404477861,
-    "wof:lastmodified":1605055418,
+    "wof:lastmodified":1722117726,
     "wof:name":"Moorestown Township",
     "wof:parent_id":102087415,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":20726,
+    "wof:population":21577,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

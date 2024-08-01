@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00032,
-    "geom:area_square_m":2787027.979598,
+    "geom:area_square_m":2787027.979596,
     "geom:bbox":"-94.793157,45.126522,-94.756998,45.144183",
     "geom:latitude":45.135629,
     "geom:longitude":-94.776829,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.136398,
     "lbl:longitude":-94.781409,
     "lbl:max_zoom":16.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":67,
     "uscensus:geoid":2706702692,
     "uscensus:name":"Atwater",
     "uscensus:namelsad":"Atwater city",
+    "uscensus:population":1085,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2706702692
+        "uscensus:geoid":"2706702692"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404509867,
-    "wof:lastmodified":1605055789,
+    "wof:lastmodified":1722117932,
     "wof:name":"Atwater",
     "wof:parent_id":102087635,
     "wof:placetype":"localadmin",
-    "wof:population":1133,
+    "wof:population":1085,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

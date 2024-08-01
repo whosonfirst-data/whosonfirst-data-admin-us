@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010442,
-    "geom:area_square_m":91590311.332536,
+    "geom:area_square_m":91590311.332555,
     "geom:bbox":"-92.806401,44.764531,-92.65991,44.862667",
     "geom:latitude":44.815948,
     "geom:longitude":-92.72106,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.819164,
     "lbl:longitude":-92.721066,
     "lbl:max_zoom":15.0,
@@ -100,11 +106,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":93,
     "uscensus:geoid":5509315575,
     "uscensus:name":"Clifton",
     "uscensus:namelsad":"Clifton town",
+    "uscensus:population":2215,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -114,8 +123,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5509315575
+        "uscensus:geoid":"5509315575"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464443
     ],
@@ -134,11 +144,11 @@
         }
     ],
     "wof:id":404494491,
-    "wof:lastmodified":1605055965,
+    "wof:lastmodified":1722117833,
     "wof:name":"Clifton",
     "wof:parent_id":102081311,
     "wof:placetype":"localadmin",
-    "wof:population":2012,
+    "wof:population":2215,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

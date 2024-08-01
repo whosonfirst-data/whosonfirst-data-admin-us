@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01124,
-    "geom:area_square_m":102209396.514325,
+    "geom:area_square_m":102209396.514326,
     "geom:bbox":"-96.898939,42.611572,-96.780737,42.730183",
     "geom:latitude":42.661638,
     "geom:longitude":-96.846072,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.659328,
     "lbl:longitude":-96.847194,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":3105134125,
     "uscensus:name":"Newcastle",
     "uscensus:namelsad":"Newcastle township",
+    "uscensus:population":430,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3105134125
+        "uscensus:geoid":"3105134125"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404519865,
-    "wof:lastmodified":1605055672,
+    "wof:lastmodified":1722233672,
     "wof:name":"Newcastle Township",
     "wof:parent_id":102082809,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":499,
+    "wof:population":430,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

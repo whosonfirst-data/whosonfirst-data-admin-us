@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.038455,
-    "geom:area_square_m":339338841.298733,
+    "geom:area_square_m":339338841.298727,
     "geom:bbox":"-83.766232,44.417371,-83.316702,44.511764",
     "geom:latitude":44.468065,
     "geom:longitude":-83.543021,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":44.468109,
     "lbl:longitude":-83.542986,
@@ -54,11 +57,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":69,
     "uscensus:geoid":2606961340,
     "uscensus:name":"Oscoda",
     "uscensus:namelsad":"Oscoda charter township",
+    "uscensus:population":7190,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -68,8 +74,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2606961340
+        "uscensus:geoid":"2606961340"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -85,11 +92,11 @@
         }
     ],
     "wof:id":404507707,
-    "wof:lastmodified":1605055769,
+    "wof:lastmodified":1722117916,
     "wof:name":"Oscoda",
     "wof:parent_id":102083001,
     "wof:placetype":"localadmin",
-    "wof:population":6997,
+    "wof:population":7190,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

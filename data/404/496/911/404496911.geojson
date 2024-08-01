@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010397,
-    "geom:area_square_m":98902957.986685,
+    "geom:area_square_m":98902957.986728,
     "geom:bbox":"-90.91649,39.66331,-90.799457,39.757291",
     "geom:latitude":39.709023,
     "geom:longitude":-90.857787,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.708224,
     "lbl:longitude":-90.85778,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":149,
     "uscensus:geoid":1714952818,
     "uscensus:name":"New Salem",
     "uscensus:namelsad":"New Salem township",
+    "uscensus:population":485,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1714952818
+        "uscensus:geoid":"1714952818"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404496911,
-    "wof:lastmodified":1605055607,
+    "wof:lastmodified":1722233636,
     "wof:name":"New Salem Township",
     "wof:parent_id":102081665,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":573,
+    "wof:population":485,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

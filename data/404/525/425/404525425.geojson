@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008834,
-    "geom:area_square_m":83443127.955692,
+    "geom:area_square_m":83443127.955748,
     "geom:bbox":"-81.670899,40.149484,-81.524608,40.222468",
     "geom:latitude":40.189394,
     "geom:longitude":-81.601246,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.192132,
     "lbl:longitude":-81.601251,
     "lbl:max_zoom":17.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":59,
     "uscensus:geoid":3905984616,
     "uscensus:name":"Wheeling",
     "uscensus:namelsad":"Wheeling township",
+    "uscensus:population":679,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3905984616
+        "uscensus:geoid":"3905984616"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465257
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404525425,
-    "wof:lastmodified":1605056051,
+    "wof:lastmodified":1722118015,
     "wof:name":"Wheeling Township",
     "wof:parent_id":102084783,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":686,
+    "wof:population":679,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

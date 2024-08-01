@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01008,
-    "geom:area_square_m":88560480.156725,
+    "geom:area_square_m":88560480.156672,
     "geom:bbox":"-89.102886,44.67976,-88.981496,44.768349",
     "geom:latitude":44.723177,
     "geom:longitude":-89.04202,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.708746,
     "lbl:longitude":-89.041337,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":5511524775,
     "uscensus:name":"Fairbanks",
     "uscensus:namelsad":"Fairbanks town",
+    "uscensus:population":537,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5511524775
+        "uscensus:geoid":"5511524775"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465729
     ],
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404494305,
-    "wof:lastmodified":1605055969,
+    "wof:lastmodified":1722117832,
     "wof:name":"Fairbanks",
     "wof:parent_id":102081859,
     "wof:placetype":"localadmin",
-    "wof:population":616,
+    "wof:population":537,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

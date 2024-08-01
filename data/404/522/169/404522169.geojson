@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.017373,
-    "geom:area_square_m":152006404.132986,
+    "geom:area_square_m":152006404.132992,
     "geom:bbox":"-73.521172,44.904695,-73.337907,45.01084",
     "geom:latitude":44.959098,
     "geom:longitude":-73.432277,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.959661,
     "lbl:longitude":-73.432296,
     "lbl:max_zoom":15.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":3601913750,
     "uscensus:name":"Champlain",
     "uscensus:namelsad":"Champlain town",
+    "uscensus:population":5657,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3601913750
+        "uscensus:geoid":"3601913750"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -104,11 +114,11 @@
         }
     ],
     "wof:id":404522169,
-    "wof:lastmodified":1605056067,
+    "wof:lastmodified":1722233675,
     "wof:name":"Champlain",
     "wof:parent_id":102081797,
     "wof:placetype":"localadmin",
-    "wof:population":5754,
+    "wof:population":5657,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

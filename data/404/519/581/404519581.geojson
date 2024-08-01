@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010022,
-    "geom:area_square_m":93393902.360008,
+    "geom:area_square_m":93393902.35998,
     "geom:bbox":"-97.368145,41.046653,-97.253102,41.134447",
     "geom:latitude":41.090467,
     "geom:longitude":-97.310701,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.090593,
     "lbl:longitude":-97.310702,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":3102340815,
     "uscensus:name":"Read",
     "uscensus:namelsad":"Read township",
+    "uscensus:population":183,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3102340815
+        "uscensus:geoid":"3102340815"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404519581,
-    "wof:lastmodified":1605055667,
+    "wof:lastmodified":1722233671,
     "wof:name":"Read Township",
     "wof:parent_id":102082839,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":181,
+    "wof:population":183,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

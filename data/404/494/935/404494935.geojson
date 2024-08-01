@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00622,
-    "geom:area_square_m":56232644.130018,
+    "geom:area_square_m":56232644.130003,
     "geom:bbox":"-91.022901,42.988884,-90.902715,43.065993",
     "geom:latitude":43.018412,
     "geom:longitude":-90.950423,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.016548,
     "lbl:longitude":-90.943269,
     "lbl:max_zoom":18.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":43,
     "uscensus:geoid":5504352150,
     "uscensus:name":"Millville",
     "uscensus:namelsad":"Millville town",
+    "uscensus:population":130,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5504352150
+        "uscensus:geoid":"5504352150"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465319
     ],
@@ -116,11 +126,11 @@
         }
     ],
     "wof:id":404494935,
-    "wof:lastmodified":1605055968,
+    "wof:lastmodified":1722117836,
     "wof:name":"Millville",
     "wof:parent_id":102081857,
     "wof:placetype":"localadmin",
-    "wof:population":166,
+    "wof:population":130,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

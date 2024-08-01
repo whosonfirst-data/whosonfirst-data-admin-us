@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000499,
-    "geom:area_square_m":4393179.171194,
+    "geom:area_square_m":4393179.17119,
     "geom:bbox":"-94.231057,44.544868,-94.18931,44.567235",
     "geom:latitude":44.555469,
     "geom:longitude":-94.212359,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.552962,
     "lbl:longitude":-94.221369,
     "lbl:max_zoom":15.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":143,
     "uscensus:geoid":2714323300,
     "uscensus:name":"Gaylord",
     "uscensus:namelsad":"Gaylord city",
+    "uscensus:population":2326,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2714323300
+        "uscensus:geoid":"2714323300"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404510479,
-    "wof:lastmodified":1605055612,
+    "wof:lastmodified":1722117936,
     "wof:name":"Gaylord",
     "wof:parent_id":102087775,
     "wof:placetype":"localadmin",
-    "wof:population":2305,
+    "wof:population":2326,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

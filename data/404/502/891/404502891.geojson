@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008891,
-    "geom:area_square_m":85218963.686507,
+    "geom:area_square_m":85218963.686631,
     "geom:bbox":"-96.644808,39.117358,-96.501001,39.256254",
     "geom:latitude":39.181716,
     "geom:longitude":-96.574301,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.150924,
     "lbl:longitude":-96.559182,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":161,
     "uscensus:geoid":2016144275,
     "uscensus:name":"Manhattan",
     "uscensus:namelsad":"Manhattan township",
+    "uscensus:population":2190,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2016144275
+        "uscensus:geoid":"2016144275"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457761
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404502891,
-    "wof:lastmodified":1605055274,
+    "wof:lastmodified":1722117881,
     "wof:name":"Manhattan Township",
     "wof:parent_id":102084179,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2444,
+    "wof:population":2190,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

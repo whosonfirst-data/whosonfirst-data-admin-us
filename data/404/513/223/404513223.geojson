@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011312,
-    "geom:area_square_m":93483157.522699,
+    "geom:area_square_m":93483157.522727,
     "geom:bbox":"-96.11171,48.01956,-95.98141,48.10706",
     "geom:latitude":48.063263,
     "geom:longitude":-96.046663,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.06323,
     "lbl:longitude":-96.046667,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":113,
     "uscensus:geoid":2711360898,
     "uscensus:name":"Smiley",
     "uscensus:namelsad":"Smiley township",
+    "uscensus:population":590,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2711360898
+        "uscensus:geoid":"2711360898"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462573
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404513223,
-    "wof:lastmodified":1605056042,
+    "wof:lastmodified":1722117956,
     "wof:name":"Smiley Township",
     "wof:parent_id":102086989,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":580,
+    "wof:population":590,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

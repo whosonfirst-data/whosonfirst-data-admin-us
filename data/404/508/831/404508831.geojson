@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010419,
-    "geom:area_square_m":93167487.666741,
+    "geom:area_square_m":93167487.666762,
     "geom:bbox":"-84.60796,43.6405,-84.487044,43.72799",
     "geom:latitude":43.6842,
     "geom:longitude":-84.547679,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.684184,
     "lbl:longitude":-84.547659,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":111,
     "uscensus:geoid":2611131820,
     "uscensus:name":"Geneva",
     "uscensus:namelsad":"Geneva township",
+    "uscensus:population":1071,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2611131820
+        "uscensus:geoid":"2611131820"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468137
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404508831,
-    "wof:lastmodified":1605055745,
+    "wof:lastmodified":1722117925,
     "wof:name":"Geneva Township",
     "wof:parent_id":102082997,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1056,
+    "wof:population":1071,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

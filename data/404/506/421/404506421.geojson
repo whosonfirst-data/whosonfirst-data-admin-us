@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010512,
-    "geom:area_square_m":93170908.825872,
+    "geom:area_square_m":93170908.825892,
     "geom:bbox":"-85.82145,44.164197,-85.698898,44.25135",
     "geom:latitude":44.207822,
     "geom:longitude":-85.760588,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.207876,
     "lbl:longitude":-85.760576,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":165,
     "uscensus:geoid":2616574820,
     "uscensus:name":"South Branch",
     "uscensus:namelsad":"South Branch township",
+    "uscensus:population":349,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2616574820
+        "uscensus:geoid":"2616574820"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404506421,
-    "wof:lastmodified":1605055760,
+    "wof:lastmodified":1722117907,
     "wof:name":"South Branch Township",
     "wof:parent_id":102083119,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":383,
+    "wof:population":349,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

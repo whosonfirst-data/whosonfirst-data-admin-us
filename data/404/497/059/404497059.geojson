@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006519,
-    "geom:area_square_m":63237506.786419,
+    "geom:area_square_m":63237506.786412,
     "geom:bbox":"-89.257759,38.300533,-89.145501,38.361082",
     "geom:latitude":38.330921,
     "geom:longitude":-89.201625,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.33097,
     "lbl:longitude":-89.201645,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":189,
     "uscensus:geoid":1718902544,
     "uscensus:name":"Ashley",
     "uscensus:namelsad":"Ashley township",
+    "uscensus:population":744,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1718902544
+        "uscensus:geoid":"1718902544"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404497059,
-    "wof:lastmodified":1605055500,
+    "wof:lastmodified":1722233636,
     "wof:name":"Ashley Township",
     "wof:parent_id":102082871,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":816,
+    "wof:population":744,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

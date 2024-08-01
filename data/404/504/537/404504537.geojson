@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009742,
-    "geom:area_square_m":93384664.565964,
+    "geom:area_square_m":93384664.565937,
     "geom:bbox":"-98.154029,39.131999,-98.041718,39.219405",
     "geom:latitude":39.175743,
     "geom:longitude":-98.097883,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.175752,
     "lbl:longitude":-98.097887,
     "lbl:max_zoom":18.0,
@@ -58,11 +64,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":2010563525,
     "uscensus:name":"Scott",
     "uscensus:namelsad":"Scott township",
+    "uscensus:population":91,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -72,8 +81,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2010563525
+        "uscensus:geoid":"2010563525"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404504537,
-    "wof:lastmodified":1605055304,
+    "wof:lastmodified":1722233661,
     "wof:name":"Scott Township",
     "wof:parent_id":102082151,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":104,
+    "wof:population":91,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

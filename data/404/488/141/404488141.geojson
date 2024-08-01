@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00022,
-    "geom:area_square_m":2043509.353568,
+    "geom:area_square_m":2043509.353569,
     "geom:bbox":"-77.236625,41.271083,-77.218216,41.287764",
     "geom:latitude":41.278336,
     "geom:longitude":-77.227335,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.277453,
     "lbl:longitude":-77.227339,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":81,
     "uscensus:geoid":4208167616,
     "uscensus:name":"Salladasburg",
     "uscensus:namelsad":"Salladasburg borough",
+    "uscensus:population":246,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4208167616
+        "uscensus:geoid":"4208167616"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404488141,
-    "wof:lastmodified":1605055817,
+    "wof:lastmodified":1722117792,
     "wof:name":"Salladasburg",
     "wof:parent_id":102081317,
     "wof:placetype":"localadmin",
-    "wof:population":238,
+    "wof:population":246,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

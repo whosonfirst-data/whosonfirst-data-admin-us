@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005661,
-    "geom:area_square_m":54221767.438262,
+    "geom:area_square_m":54221767.438254,
     "geom:bbox":"-94.956715,39.200606,-94.775532,39.329755",
     "geom:latitude":39.231211,
     "geom:longitude":-94.885555,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.224111,
     "lbl:longitude":-94.859234,
     "lbl:max_zoom":16.0,
@@ -58,11 +64,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":103,
     "uscensus:geoid":2010317450,
     "uscensus:name":"Delaware",
     "uscensus:namelsad":"Delaware township",
+    "uscensus:population":1096,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -72,8 +81,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2010317450
+        "uscensus:geoid":"2010317450"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467491
     ],
@@ -92,12 +102,12 @@
         }
     ],
     "wof:id":404504457,
-    "wof:lastmodified":1605055309,
+    "wof:lastmodified":1722117893,
     "wof:name":"Delaware Township",
     "wof:parent_id":102083429,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1019,
+    "wof:population":1096,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

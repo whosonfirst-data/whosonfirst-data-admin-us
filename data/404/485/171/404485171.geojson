@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000504,
-    "geom:area_square_m":4777554.210891,
+    "geom:area_square_m":4777554.210892,
     "geom:bbox":"-75.62312,39.94636,-75.588142,39.97401",
     "geom:latitude":39.960125,
     "geom:longitude":-75.6058,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.959518,
     "lbl:longitude":-75.606068,
     "lbl:max_zoom":15.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":4202982704,
     "uscensus:name":"West Chester",
     "uscensus:namelsad":"West Chester borough",
+    "uscensus:population":19658,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202982704
+        "uscensus:geoid":"4202982704"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404485171,
-    "wof:lastmodified":1605055374,
+    "wof:lastmodified":1722117772,
     "wof:name":"West Chester",
     "wof:parent_id":102081275,
     "wof:placetype":"localadmin",
-    "wof:population":18461,
+    "wof:population":19658,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000115,
-    "geom:area_square_m":959128.694574,
+    "geom:area_square_m":959128.694576,
     "geom:bbox":"-100.448836,47.478595,-100.434386,47.490438",
     "geom:latitude":47.483989,
     "geom:longitude":-100.442533,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.482868,
     "lbl:longitude":-100.442673,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":83,
     "uscensus:geoid":3808349020,
     "uscensus:name":"McClusky",
     "uscensus:namelsad":"McClusky city",
+    "uscensus:population":319,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3808349020
+        "uscensus:geoid":"3808349020"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404479573,
-    "wof:lastmodified":1605055477,
+    "wof:lastmodified":1722117738,
     "wof:name":"Mcclusky",
     "wof:parent_id":102082099,
     "wof:placetype":"localadmin",
-    "wof:population":380,
+    "wof:population":319,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

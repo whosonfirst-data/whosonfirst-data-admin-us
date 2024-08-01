@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010722,
-    "geom:area_square_m":93131691.687896,
+    "geom:area_square_m":93131691.687882,
     "geom:bbox":"-99.462555,45.331972,-99.33879,45.419531",
     "geom:latitude":45.375809,
     "geom:longitude":-99.400551,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.375888,
     "lbl:longitude":-99.400551,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":4604524740,
     "uscensus:name":"Glover",
     "uscensus:namelsad":"Glover township",
+    "uscensus:population":36,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4604524740
+        "uscensus:geoid":"4604524740"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469139
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404488653,
-    "wof:lastmodified":1605055815,
+    "wof:lastmodified":1722117795,
     "wof:name":"Glover Township",
     "wof:parent_id":102086789,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":48,
+    "wof:population":36,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

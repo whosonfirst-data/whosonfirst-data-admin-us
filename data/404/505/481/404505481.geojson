@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011326,
-    "geom:area_square_m":109559586.095274,
+    "geom:area_square_m":109559586.095315,
     "geom:bbox":"-99.254525,38.479209,-99.142553,38.581778",
     "geom:latitude":38.530376,
     "geom:longitude":-99.198366,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.530249,
     "lbl:longitude":-99.19837,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":165,
     "uscensus:geoid":2016542500,
     "uscensus:name":"Lone Star",
     "uscensus:namelsad":"Lone Star township",
+    "uscensus:population":229,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2016542500
+        "uscensus:geoid":"2016542500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404505481,
-    "wof:lastmodified":1605055289,
+    "wof:lastmodified":1722233664,
     "wof:name":"Lone Star Township",
     "wof:parent_id":102082713,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":321,
+    "wof:population":229,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

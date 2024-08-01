@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005314,
-    "geom:area_square_m":50668697.121217,
+    "geom:area_square_m":50668697.121222,
     "geom:bbox":"-88.809051,39.521208,-88.71686,39.580241",
     "geom:latitude":39.550756,
     "geom:longitude":-88.762837,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.550793,
     "lbl:longitude":-88.762838,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":173,
     "uscensus:geoid":1717375588,
     "uscensus:name":"Todds Point",
     "uscensus:namelsad":"Todds Point township",
+    "uscensus:population":458,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1717375588
+        "uscensus:geoid":"1717375588"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404498739,
-    "wof:lastmodified":1605055556,
+    "wof:lastmodified":1722233643,
     "wof:name":"Todds Point Township",
     "wof:parent_id":102083519,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":441,
+    "wof:population":458,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

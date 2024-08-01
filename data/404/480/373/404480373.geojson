@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010978,
-    "geom:area_square_m":92980111.577678,
+    "geom:area_square_m":92980111.577655,
     "geom:bbox":"-100.584754,46.721426,-100.457144,46.808934",
     "geom:latitude":46.765083,
     "geom:longitude":-100.520928,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.765111,
     "lbl:longitude":-100.520933,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":3801508780,
     "uscensus:name":"Boyd",
     "uscensus:namelsad":"Boyd township",
+    "uscensus:population":133,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3801508780
+        "uscensus:geoid":"3801508780"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475701
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404480373,
-    "wof:lastmodified":1605055919,
+    "wof:lastmodified":1722117744,
     "wof:name":"Boyd Township",
     "wof:parent_id":102082107,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":134,
+    "wof:population":133,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

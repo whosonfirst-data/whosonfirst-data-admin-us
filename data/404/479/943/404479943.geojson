@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0108,
-    "geom:area_square_m":92507724.890074,
+    "geom:area_square_m":92507724.890115,
     "geom:bbox":"-98.379479,46.109704,-98.253758,46.197036",
     "geom:latitude":46.153344,
     "geom:longitude":-98.316833,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.153333,
     "lbl:longitude":-98.316833,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":3802187940,
     "uscensus:name":"Yorktown",
     "uscensus:namelsad":"Yorktown township",
+    "uscensus:population":40,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3802187940
+        "uscensus:geoid":"3802187940"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729455271
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404479943,
-    "wof:lastmodified":1605055485,
+    "wof:lastmodified":1722117741,
     "wof:name":"Yorktown Township",
     "wof:parent_id":102082079,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":50,
+    "wof:population":40,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

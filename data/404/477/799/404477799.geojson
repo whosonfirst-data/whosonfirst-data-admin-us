@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00033,
-    "geom:area_square_m":3127242.046494,
+    "geom:area_square_m":3127242.046483,
     "geom:bbox":"-74.226124,39.932561,-74.189313,39.950969",
     "geom:latitude":39.941772,
     "geom:longitude":-74.208683,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.940646,
     "lbl:longitude":-74.206863,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":3402969510,
     "uscensus:name":"South Toms River",
     "uscensus:namelsad":"South Toms River borough",
+    "uscensus:population":3736,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3402969510
+        "uscensus:geoid":"3402969510"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404477799,
-    "wof:lastmodified":1605055412,
+    "wof:lastmodified":1722117725,
     "wof:name":"South Toms River",
     "wof:parent_id":102081485,
     "wof:placetype":"localadmin",
-    "wof:population":3684,
+    "wof:population":3736,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

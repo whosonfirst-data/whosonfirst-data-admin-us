@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001544,
-    "geom:area_square_m":14293224.230738,
+    "geom:area_square_m":14293224.230718,
     "geom:bbox":"-96.165031,41.50906,-96.094706,41.562136",
     "geom:latitude":41.541609,
     "geom:longitude":-96.136181,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.543553,
     "lbl:longitude":-96.136696,
     "lbl:max_zoom":15.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":177,
     "uscensus:geoid":3117705350,
     "uscensus:name":"Blair",
     "uscensus:namelsad":"Blair city",
+    "uscensus:population":7967,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3117705350
+        "uscensus:geoid":"3117705350"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,11 +96,11 @@
         }
     ],
     "wof:id":404520619,
-    "wof:lastmodified":1605055698,
+    "wof:lastmodified":1722117983,
     "wof:name":"Blair",
     "wof:parent_id":102082783,
     "wof:placetype":"localadmin",
-    "wof:population":7990,
+    "wof:population":7967,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -154,7 +154,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":11147454,
     "uscensus:awater":261986,
     "uscensus:classfp":"C1",
@@ -170,17 +171,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"40418",
     "uscensus:placens":"02394999",
+    "uscensus:population":609,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":432.0,
     "wd:latitude":47.320556,
     "wd:longitude":-93.298611,
     "wd:wordcount":787,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404513305,
         85633793,
-        102086963
+        102086963,
+        404513305,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -189,10 +192,11 @@
         "gn:id":5036605,
         "gp:id":2445457,
         "qs_pg:id":1164819,
-        "uscensus:geoid":2740418,
+        "uscensus:geoid":"2740418",
         "wd:id":"Q2177962",
         "wk:page":"Marble, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -213,11 +217,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690881614,
+    "wof:lastmodified":1722115934,
     "wof:name":"Marble",
     "wof:parent_id":404513305,
     "wof:placetype":"locality",
-    "wof:population":701,
+    "wof:population":609,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

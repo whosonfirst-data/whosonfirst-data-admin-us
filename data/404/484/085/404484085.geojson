@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000771,
-    "geom:area_square_m":7135111.731768,
+    "geom:area_square_m":7135111.731766,
     "geom:bbox":"-75.426981,41.574715,-75.385199,41.597906",
     "geom:latitude":41.586561,
     "geom:longitude":-75.404675,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.587394,
     "lbl:longitude":-75.404674,
     "lbl:max_zoom":16.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":127,
     "uscensus:geoid":4212781712,
     "uscensus:name":"Waymart",
     "uscensus:namelsad":"Waymart borough",
+    "uscensus:population":1290,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212781712
+        "uscensus:geoid":"4212781712"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404484085,
-    "wof:lastmodified":1605055456,
+    "wof:lastmodified":1722117766,
     "wof:name":"Waymart",
     "wof:parent_id":102081379,
     "wof:placetype":"localadmin",
-    "wof:population":1341,
+    "wof:population":1290,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

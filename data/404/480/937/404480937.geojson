@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009784,
-    "geom:area_square_m":83664362.704035,
+    "geom:area_square_m":83664362.704016,
     "geom:bbox":"-102.372435,46.205556,-102.247439,46.284503",
     "geom:latitude":46.244874,
     "geom:longitude":-102.310007,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.244938,
     "lbl:longitude":-102.310032,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":3804142420,
     "uscensus:name":"Kern",
     "uscensus:namelsad":"Kern township",
+    "uscensus:population":15,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3804142420
+        "uscensus:geoid":"3804142420"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469339
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404480937,
-    "wof:lastmodified":1605055906,
+    "wof:lastmodified":1722117747,
     "wof:name":"Kern Township",
     "wof:parent_id":102081495,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":20,
+    "wof:population":15,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

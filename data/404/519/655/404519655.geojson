@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000545,
-    "geom:area_square_m":5051250.164035,
+    "geom:area_square_m":5051250.164036,
     "geom:bbox":"-99.666896,41.393189,-99.615303,41.416693",
     "geom:latitude":41.405128,
     "geom:longitude":-99.640124,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.40439,
     "lbl:longitude":-99.641891,
     "lbl:max_zoom":15.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":3104106610,
     "uscensus:name":"Broken Bow",
     "uscensus:namelsad":"Broken Bow city",
+    "uscensus:population":3542,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3104106610
+        "uscensus:geoid":"3104106610"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -104,11 +114,11 @@
         }
     ],
     "wof:id":404519655,
-    "wof:lastmodified":1605055672,
+    "wof:lastmodified":1722117980,
     "wof:name":"Broken Bow",
     "wof:parent_id":102084301,
     "wof:placetype":"localadmin",
-    "wof:population":3559,
+    "wof:population":3542,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010285,
-    "geom:area_square_m":93446224.772841,
+    "geom:area_square_m":93446224.772756,
     "geom:bbox":"-88.189774,42.669106,-88.070725,42.757098",
     "geom:latitude":42.713214,
     "geom:longitude":-88.130224,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.713087,
     "lbl:longitude":-88.130225,
     "lbl:max_zoom":15.0,
@@ -226,22 +232,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":101,
     "uscensus:geoid":5510120625,
     "uscensus:name":"Dover",
     "uscensus:namelsad":"Dover town",
+    "uscensus:population":4113,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081763
+        102081763,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5510120625
+        "uscensus:geoid":"5510120625"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -257,11 +267,11 @@
         }
     ],
     "wof:id":404492317,
-    "wof:lastmodified":1636499428,
+    "wof:lastmodified":1722117818,
     "wof:name":"Dover",
     "wof:parent_id":102081763,
     "wof:placetype":"localadmin",
-    "wof:population":4051,
+    "wof:population":4113,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

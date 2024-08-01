@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000186,
-    "geom:area_square_m":1749835.168231,
+    "geom:area_square_m":1749835.168226,
     "geom:bbox":"-79.982652,40.469436,-79.964756,40.495511",
     "geom:latitude":40.481679,
     "geom:longitude":-79.97361,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.480367,
     "lbl:longitude":-79.975708,
     "lbl:max_zoom":15.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4200349920,
     "uscensus:name":"Millvale",
     "uscensus:namelsad":"Millvale borough",
+    "uscensus:population":3250,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200349920
+        "uscensus:geoid":"4200349920"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404484241,
-    "wof:lastmodified":1605055463,
+    "wof:lastmodified":1722117767,
     "wof:name":"Millvale",
     "wof:parent_id":102080887,
     "wof:placetype":"localadmin",
-    "wof:population":3744,
+    "wof:population":3250,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

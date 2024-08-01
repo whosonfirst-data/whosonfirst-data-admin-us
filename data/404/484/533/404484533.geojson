@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003805,
-    "geom:area_square_m":35834557.862985,
+    "geom:area_square_m":35834557.862987,
     "geom:bbox":"-76.17628,40.366899,-76.052961,40.426816",
     "geom:latitude":40.396403,
     "geom:longitude":-76.119776,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.397699,
     "lbl:longitude":-76.115616,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":4201155088,
     "uscensus:name":"North Heidelberg",
     "uscensus:namelsad":"North Heidelberg township",
+    "uscensus:population":1223,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201155088
+        "uscensus:geoid":"4201155088"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471375
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404484533,
-    "wof:lastmodified":1605055452,
+    "wof:lastmodified":1722117769,
     "wof:name":"North Heidelberg Township",
     "wof:parent_id":102080991,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1214,
+    "wof:population":1223,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

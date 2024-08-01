@@ -148,7 +148,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":3460058,
     "uscensus:awater":637768,
     "uscensus:classfp":"C5",
@@ -164,17 +165,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"64140",
     "uscensus:placens":"01036228",
+    "uscensus:population":375,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":672.0,
     "wd:latitude":48.561944,
     "wd:longitude":-102.646111,
     "wd:wordcount":836,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404480357,
         85633793,
-        102081499
+        102081499,
+        404480357,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -183,10 +186,11 @@
         "gn:id":5691114,
         "gp:id":2476161,
         "qs_pg:id":1052910,
-        "uscensus:geoid":3864140,
+        "uscensus:geoid":"3864140",
         "wd:id":"Q2362193",
         "wk:page":"Powers Lake, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -207,11 +211,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882590,
+    "wof:lastmodified":1722115993,
     "wof:name":"Powers Lake",
     "wof:parent_id":404480357,
     "wof:placetype":"locality",
-    "wof:population":280,
+    "wof:population":375,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

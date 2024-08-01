@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010881,
-    "geom:area_square_m":90670797.692193,
+    "geom:area_square_m":90670797.692182,
     "geom:bbox":"-98.372126,47.587137,-98.243825,47.672479",
     "geom:latitude":47.629797,
     "geom:longitude":-98.30794,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.629753,
     "lbl:longitude":-98.307926,
     "lbl:max_zoom":18.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":39,
     "uscensus:geoid":3803986300,
     "uscensus:name":"Willow",
     "uscensus:namelsad":"Willow township",
+    "uscensus:population":48,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3803986300
+        "uscensus:geoid":"3803986300"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471377
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404480695,
-    "wof:lastmodified":1605055910,
+    "wof:lastmodified":1722117746,
     "wof:name":"Willow Township",
     "wof:parent_id":102081479,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":53,
+    "wof:population":48,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

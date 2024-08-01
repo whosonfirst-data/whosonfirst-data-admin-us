@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010053,
-    "geom:area_square_m":94207606.956141,
+    "geom:area_square_m":94207606.956177,
     "geom:bbox":"-87.882613,40.682184,-87.763763,40.772182",
     "geom:latitude":40.727232,
     "geom:longitude":-87.823083,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.727258,
     "lbl:longitude":-87.823079,
     "lbl:max_zoom":17.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":75,
     "uscensus:geoid":1707517367,
     "uscensus:name":"Crescent",
     "uscensus:namelsad":"Crescent township",
+    "uscensus:population":519,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1707517367
+        "uscensus:geoid":"1707517367"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404498181,
-    "wof:lastmodified":1605055563,
+    "wof:lastmodified":1722233641,
     "wof:name":"Crescent Township",
     "wof:parent_id":102086209,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":590,
+    "wof:population":519,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -154,7 +154,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1988975,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -170,17 +171,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"22976",
     "uscensus:placens":"02394836",
+    "uscensus:population":12,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":424.0,
     "wd:latitude":47.783611,
     "wd:longitude":-94.431389,
     "wd:wordcount":711,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404511385,
         85633793,
-        102087773
+        102087773,
+        404511385,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -188,10 +191,11 @@
         "gn:id":5027587,
         "gp:id":2408169,
         "qs_pg:id":600561,
-        "uscensus:geoid":2722976,
+        "uscensus:geoid":"2722976",
         "wd:id":"Q784521",
         "wk:page":"Funkley, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -209,11 +213,11 @@
         }
     ],
     "wof:id":85968943,
-    "wof:lastmodified":1690882512,
+    "wof:lastmodified":1722115988,
     "wof:name":"Funkley",
     "wof:parent_id":404511385,
     "wof:placetype":"locality",
-    "wof:population":5,
+    "wof:population":12,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

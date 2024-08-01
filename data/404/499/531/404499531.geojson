@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011051,
-    "geom:area_square_m":105069955.924685,
+    "geom:area_square_m":105069955.924682,
     "geom:bbox":"-88.587523,39.695052,-88.472389,39.792134",
     "geom:latitude":39.743671,
     "geom:longitude":-88.529966,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.743705,
     "lbl:longitude":-88.529967,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":139,
     "uscensus:geoid":1713945083,
     "uscensus:name":"Lowe",
     "uscensus:namelsad":"Lowe township",
+    "uscensus:population":1755,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1713945083
+        "uscensus:geoid":"1713945083"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404499531,
-    "wof:lastmodified":1605055546,
+    "wof:lastmodified":1722233646,
     "wof:name":"Lowe Township",
     "wof:parent_id":102082295,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1723,
+    "wof:population":1755,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

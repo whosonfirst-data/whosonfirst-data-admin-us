@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006336,
-    "geom:area_square_m":57229955.481211,
+    "geom:area_square_m":57229955.481273,
     "geom:bbox":"-75.709363,43.033219,-75.596668,43.151445",
     "geom:latitude":43.076933,
     "geom:longitude":-75.662099,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.080496,
     "lbl:longitude":-75.672321,
     "lbl:max_zoom":15.0,
@@ -91,11 +97,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":53,
     "uscensus:geoid":3605354837,
     "uscensus:name":"Oneida",
     "uscensus:namelsad":"Oneida city",
+    "uscensus:population":10094,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -105,8 +114,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3605354837
+        "uscensus:geoid":"3605354837"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -122,11 +132,11 @@
         }
     ],
     "wof:id":404522679,
-    "wof:lastmodified":1605056078,
+    "wof:lastmodified":1722117995,
     "wof:name":"Oneida",
     "wof:parent_id":102080989,
     "wof:placetype":"localadmin",
-    "wof:population":11393,
+    "wof:population":10094,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

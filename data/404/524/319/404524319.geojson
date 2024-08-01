@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006653,
-    "geom:area_square_m":62442484.777732,
+    "geom:area_square_m":62442484.77778,
     "geom:bbox":"-81.413788,40.579308,-81.317738,40.653096",
     "geom:latitude":40.617098,
     "geom:longitude":-81.365273,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.616238,
     "lbl:longitude":-81.365271,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":157,
     "uscensus:geoid":3915770443,
     "uscensus:name":"Sandy",
     "uscensus:namelsad":"Sandy township",
+    "uscensus:population":2930,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3915770443
+        "uscensus:geoid":"3915770443"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404524319,
-    "wof:lastmodified":1605056117,
+    "wof:lastmodified":1722233682,
     "wof:name":"Sandy Township",
     "wof:parent_id":102084737,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2979,
+    "wof:population":2930,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

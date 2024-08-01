@@ -423,7 +423,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":85663869,
     "uscensus:awater":4821088,
     "uscensus:classfp":"C5",
@@ -439,6 +440,8 @@
     "uscensus:pcinecta":"Y",
     "uscensus:placefp":"45140",
     "uscensus:placens":"00873658",
+    "uscensus:population":115474,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"33",
     "wd:elevation":64.0,
     "wd:latitude":42.990833,
@@ -446,11 +449,11 @@
     "wd:population":109565,
     "wd:wordcount":5475,
     "wof:belongsto":[
-        85688689,
         102191575,
-        404477191,
         85633793,
-        102085493
+        102085493,
+        404477191,
+        85688689
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -462,10 +465,11 @@
         "gp:id":2444674,
         "nyt:id":"N22824380748720519541",
         "qs_pg:id":1051449,
-        "uscensus:geoid":3345140,
+        "uscensus:geoid":"3345140",
         "wd:id":"Q48370",
         "wk:page":"Manchester, New Hampshire"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -486,12 +490,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884554,
+    "wof:lastmodified":1722116106,
     "wof:megacity":0,
     "wof:name":"Manchester",
     "wof:parent_id":404477191,
     "wof:placetype":"locality",
-    "wof:population":109565,
+    "wof:population":115474,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:scale":7,

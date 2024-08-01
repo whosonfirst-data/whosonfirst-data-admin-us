@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00846,
-    "geom:area_square_m":80277317.614333,
+    "geom:area_square_m":80277317.614266,
     "geom:bbox":"-96.694215,39.827007,-96.582,39.914674",
     "geom:latitude":39.875024,
     "geom:longitude":-96.637718,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.888256,
     "lbl:longitude":-96.643371,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":117,
     "uscensus:geoid":2011745075,
     "uscensus:name":"Marysville",
     "uscensus:namelsad":"Marysville township",
+    "uscensus:population":264,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2011745075
+        "uscensus:geoid":"2011745075"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464185
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404504133,
-    "wof:lastmodified":1605055295,
+    "wof:lastmodified":1722117891,
     "wof:name":"Marysville Township",
     "wof:parent_id":102082145,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":233,
+    "wof:population":264,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

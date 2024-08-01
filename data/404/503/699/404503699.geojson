@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.026347,
-    "geom:area_square_m":259945452.741912,
+    "geom:area_square_m":259945452.741823,
     "geom:bbox":"-98.81247,36.998845,-98.6219,37.138789",
     "geom:latitude":37.068594,
     "geom:longitude":-98.717053,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.068601,
     "lbl:longitude":-98.717047,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":2000720925,
     "uscensus:name":"Elwood",
     "uscensus:namelsad":"Elwood township",
+    "uscensus:population":201,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2000720925
+        "uscensus:geoid":"2000720925"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404503699,
-    "wof:lastmodified":1605055327,
+    "wof:lastmodified":1722233660,
     "wof:name":"Elwood Township",
     "wof:parent_id":102083437,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":241,
+    "wof:population":201,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

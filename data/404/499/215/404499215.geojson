@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010007,
-    "geom:area_square_m":92783810.212335,
+    "geom:area_square_m":92783810.212303,
     "geom:bbox":"-87.787302,41.383082,-87.670148,41.469839",
     "geom:latitude":41.426653,
     "geom:longitude":-87.728803,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.426624,
     "lbl:longitude":-87.728803,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":197,
     "uscensus:geoid":1719749958,
     "uscensus:name":"Monee",
     "uscensus:namelsad":"Monee township",
+    "uscensus:population":15321,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1719749958
+        "uscensus:geoid":"1719749958"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404499215,
-    "wof:lastmodified":1605055548,
+    "wof:lastmodified":1722233645,
     "wof:name":"Monee Township",
     "wof:parent_id":102080845,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":15669,
+    "wof:population":15321,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

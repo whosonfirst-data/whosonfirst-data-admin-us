@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000015,
-    "geom:area_square_m":140788.139494,
+    "geom:area_square_m":140788.139493,
     "geom:bbox":"-76.677518,41.0499,-76.671071,41.0551",
     "geom:latitude":41.052294,
     "geom:longitude":-76.674914,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.052013,
     "lbl:longitude":-76.674865,
     "lbl:max_zoom":17.0,
@@ -70,11 +76,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":93,
     "uscensus:geoid":4209381424,
     "uscensus:name":"Washingtonville",
     "uscensus:namelsad":"Washingtonville borough",
+    "uscensus:population":202,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -84,8 +93,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4209381424
+        "uscensus:geoid":"4209381424"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -101,11 +111,11 @@
         }
     ],
     "wof:id":404483635,
-    "wof:lastmodified":1605055440,
+    "wof:lastmodified":1722117763,
     "wof:name":"Washingtonville",
     "wof:parent_id":102080931,
     "wof:placetype":"localadmin",
-    "wof:population":273,
+    "wof:population":202,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000135,
-    "geom:area_square_m":1253916.013541,
+    "geom:area_square_m":1253916.01354,
     "geom:bbox":"-79.719172,41.176093,-79.699333,41.185666",
     "geom:latitude":41.180334,
     "geom:longitude":-79.709338,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.180113,
     "lbl:longitude":-79.708533,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":121,
     "uscensus:geoid":4212123568,
     "uscensus:name":"Emlenton",
     "uscensus:namelsad":"Emlenton borough",
+    "uscensus:population":596,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212123568
+        "uscensus:geoid":"4212123568"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404483923,
-    "wof:lastmodified":1605055442,
+    "wof:lastmodified":1722117765,
     "wof:name":"Emlenton",
     "wof:parent_id":102081279,
     "wof:placetype":"localadmin",
-    "wof:population":617,
+    "wof:population":596,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

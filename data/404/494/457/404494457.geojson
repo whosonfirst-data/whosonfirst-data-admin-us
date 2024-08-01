@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009784,
-    "geom:area_square_m":89017557.810307,
+    "geom:area_square_m":89017557.810288,
     "geom:bbox":"-88.423697,42.581625,-88.305576,42.669449",
     "geom:latitude":42.626744,
     "geom:longitude":-88.362836,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.625387,
     "lbl:longitude":-88.362659,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":127,
     "uscensus:geoid":5512746725,
     "uscensus:name":"Lyons",
     "uscensus:namelsad":"Lyons town",
+    "uscensus:population":3703,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5512746725
+        "uscensus:geoid":"5512746725"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404494457,
-    "wof:lastmodified":1605055974,
+    "wof:lastmodified":1722117833,
     "wof:name":"Lyons",
     "wof:parent_id":102081883,
     "wof:placetype":"localadmin",
-    "wof:population":3698,
+    "wof:population":3703,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

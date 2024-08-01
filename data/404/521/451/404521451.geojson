@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01182,
-    "geom:area_square_m":107259404.708252,
+    "geom:area_square_m":107259404.708259,
     "geom:bbox":"-75.559655,42.739402,-75.428668,42.840129",
     "geom:latitude":42.789758,
     "geom:longitude":-75.493993,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.789683,
     "lbl:longitude":-75.493987,
     "lbl:max_zoom":15.0,
@@ -221,22 +227,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":53,
     "uscensus:geoid":3605331720,
     "uscensus:name":"Hamilton",
     "uscensus:namelsad":"Hamilton town",
+    "uscensus:population":6380,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688543,
-        102080989
+        102080989,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3605331720
+        "uscensus:geoid":"3605331720"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -252,11 +262,11 @@
         }
     ],
     "wof:id":404521451,
-    "wof:lastmodified":1636499325,
+    "wof:lastmodified":1722233673,
     "wof:name":"Hamilton",
     "wof:parent_id":102080989,
     "wof:placetype":"localadmin",
-    "wof:population":6690,
+    "wof:population":6380,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009731,
-    "geom:area_square_m":93272870.855638,
+    "geom:area_square_m":93272870.855597,
     "geom:bbox":"-99.048158,39.133014,-98.935695,39.220727",
     "geom:latitude":39.176754,
     "geom:longitude":-98.991938,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.176838,
     "lbl:longitude":-98.991938,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":141,
     "uscensus:geoid":2014149450,
     "uscensus:name":"Natoma",
     "uscensus:namelsad":"Natoma township",
+    "uscensus:population":317,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2014149450
+        "uscensus:geoid":"2014149450"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404502951,
-    "wof:lastmodified":1605055272,
+    "wof:lastmodified":1722233658,
     "wof:name":"Natoma Township",
     "wof:parent_id":102082677,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":367,
+    "wof:population":317,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013816,
-    "geom:area_square_m":117174753.79431,
+    "geom:area_square_m":117174753.794333,
     "geom:bbox":"-92.205692,46.647677,-91.931717,46.749237",
     "geom:latitude":46.694146,
     "geom:longitude":-92.082235,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.70563,
     "lbl:longitude":-92.103,
     "lbl:max_zoom":14.0,
@@ -121,22 +127,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":5503178650,
     "uscensus:name":"Superior",
     "uscensus:namelsad":"Superior city",
+    "uscensus:population":26423,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081291
+        102081291,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5503178650
+        "uscensus:geoid":"5503178650"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -152,11 +162,11 @@
         }
     ],
     "wof:id":404492713,
-    "wof:lastmodified":1636499424,
+    "wof:lastmodified":1722117821,
     "wof:name":"Superior",
     "wof:parent_id":102081291,
     "wof:placetype":"localadmin",
-    "wof:population":27244,
+    "wof:population":26423,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

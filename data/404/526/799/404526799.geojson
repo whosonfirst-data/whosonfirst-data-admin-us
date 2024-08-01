@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009495,
-    "geom:area_square_m":88207313.098871,
+    "geom:area_square_m":88207313.098862,
     "geom:bbox":"-83.188037,41.254912,-83.069043,41.342205",
     "geom:latitude":41.297154,
     "geom:longitude":-83.130473,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.294177,
     "lbl:longitude":-83.130591,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":143,
     "uscensus:geoid":3914303730,
     "uscensus:name":"Ballville",
     "uscensus:namelsad":"Ballville township",
+    "uscensus:population":5997,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3914303730
+        "uscensus:geoid":"3914303730"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404526799,
-    "wof:lastmodified":1605055641,
+    "wof:lastmodified":1722118026,
     "wof:name":"Ballville Township",
     "wof:parent_id":102083653,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":5985,
+    "wof:population":5997,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

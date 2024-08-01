@@ -136,7 +136,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":567333,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -152,17 +153,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"35020",
     "uscensus:placens":"01036079",
+    "uscensus:population":123,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":431.0,
     "wd:latitude":47.313889,
     "wd:longitude":-98.188333,
     "wd:wordcount":808,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404482159,
         85633793,
-        102081479
+        102081479,
+        404482159,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -171,10 +174,11 @@
         "gn:id":5059546,
         "gp:id":2417066,
         "qs_pg:id":240655,
-        "uscensus:geoid":3835020,
+        "uscensus:geoid":"3835020",
         "wd:id":"Q2445954",
         "wk:page":"Hannaford, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -195,11 +199,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882594,
+    "wof:lastmodified":1722115993,
     "wof:name":"Hannaford",
     "wof:parent_id":404482159,
     "wof:placetype":"locality",
-    "wof:population":131,
+    "wof:population":123,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

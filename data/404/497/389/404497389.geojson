@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01056,
-    "geom:area_square_m":98004328.043179,
+    "geom:area_square_m":98004328.043178,
     "geom:bbox":"-89.277817,41.309121,-89.163705,41.408512",
     "geom:latitude":41.361168,
     "geom:longitude":-89.219476,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.360339,
     "lbl:longitude":-89.218718,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":1701132265,
     "uscensus:name":"Hall",
     "uscensus:namelsad":"Hall township",
+    "uscensus:population":8247,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1701132265
+        "uscensus:geoid":"1701132265"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404497389,
-    "wof:lastmodified":1605055503,
+    "wof:lastmodified":1722233638,
     "wof:name":"Hall Township",
     "wof:parent_id":102082267,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":8300,
+    "wof:population":8247,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

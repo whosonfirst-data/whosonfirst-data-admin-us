@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011096,
-    "geom:area_square_m":92767460.662499,
+    "geom:area_square_m":92767460.662492,
     "geom:bbox":"-98.883748,47.413605,-98.755382,47.500606",
     "geom:latitude":47.457123,
     "geom:longitude":-98.819553,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.457161,
     "lbl:longitude":-98.819552,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":3803136260,
     "uscensus:name":"Haven",
     "uscensus:namelsad":"Haven township",
+    "uscensus:population":35,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3803136260
+        "uscensus:geoid":"3803136260"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471879
     ],
@@ -77,7 +87,7 @@
         }
     ],
     "wof:id":404481085,
-    "wof:lastmodified":1605055823,
+    "wof:lastmodified":1722117748,
     "wof:name":"Haven Township",
     "wof:parent_id":102082089,
     "wof:placetype":"localadmin",

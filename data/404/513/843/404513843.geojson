@@ -10,6 +10,12 @@
     "geom:latitude":48.356734,
     "geom:longitude":-96.329729,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.356714,
     "lbl:longitude":-96.329736,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":89,
     "uscensus:geoid":2708945520,
     "uscensus:name":"Newfolden",
     "uscensus:namelsad":"Newfolden city",
+    "uscensus:population":345,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2708945520
+        "uscensus:geoid":"2708945520"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404513843,
-    "wof:lastmodified":1605056035,
+    "wof:lastmodified":1722117961,
     "wof:name":"Newfolden",
     "wof:parent_id":102087695,
     "wof:placetype":"localadmin",
-    "wof:population":368,
+    "wof:population":345,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -17,7 +17,7 @@
     "mps:latitude":40.609258,
     "mps:longitude":-103.84454,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":12.0,
     "name:eng_x_preferred":[
         "Raymer (New Raymer)"
@@ -41,18 +41,24 @@
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":111,
+    "uscensus:population_date":"2023",
     "wof:belongsto":[
         102191575,
         85633793,
-        85688603,
-        102086117
+        102086117,
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":5580263,
         "gp:id":2458899,
-        "qs_pg:id":462128
+        "qs_pg:id":462128,
+        "uscensus:geoid":"0863045"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg"
@@ -68,10 +74,12 @@
         }
     ],
     "wof:id":85929139,
-    "wof:lastmodified":1582336179,
+    "wof:lastmodified":1722115904,
     "wof:name":"Raymer (New Raymer)",
     "wof:parent_id":102086117,
     "wof:placetype":"locality",
+    "wof:population":111,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

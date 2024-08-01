@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011097,
-    "geom:area_square_m":94063661.415453,
+    "geom:area_square_m":94063661.415454,
     "geom:bbox":"-93.192095,46.67985,-93.061529,46.766871",
     "geom:latitude":46.723455,
     "geom:longitude":-93.127479,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.723177,
     "lbl:longitude":-93.127483,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":2700127602,
     "uscensus:name":"Haugen",
     "uscensus:namelsad":"Haugen township",
+    "uscensus:population":160,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2700127602
+        "uscensus:geoid":"2700127602"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463647
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404511209,
-    "wof:lastmodified":1605055728,
+    "wof:lastmodified":1722117942,
     "wof:name":"Haugen Township",
     "wof:parent_id":102087811,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":178,
+    "wof:population":160,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

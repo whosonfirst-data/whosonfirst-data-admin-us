@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009995,
-    "geom:area_square_m":90884303.416613,
+    "geom:area_square_m":90884303.416571,
     "geom:bbox":"-83.446139,42.613356,-83.325395,42.705918",
     "geom:latitude":42.660424,
     "geom:longitude":-83.38716,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":42.660501,
     "lbl:longitude":-83.387168,
@@ -213,11 +216,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":2612584240,
     "uscensus:name":"Waterford",
     "uscensus:namelsad":"Waterford charter township",
+    "uscensus:population":69394,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -227,8 +233,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2612584240
+        "uscensus:geoid":"2612584240"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468837
     ],
@@ -247,11 +254,11 @@
         }
     ],
     "wof:id":404508389,
-    "wof:lastmodified":1605055748,
+    "wof:lastmodified":1722117921,
     "wof:name":"Waterford",
     "wof:parent_id":102083713,
     "wof:placetype":"localadmin",
-    "wof:population":71707,
+    "wof:population":69394,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012874,
-    "geom:area_square_m":116363999.973859,
+    "geom:area_square_m":116363999.973877,
     "geom:bbox":"-74.11062,42.979378,-73.950715,43.079126",
     "geom:latitude":43.029341,
     "geom:longitude":-74.030879,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.029352,
     "lbl:longitude":-74.030871,
     "lbl:max_zoom":15.0,
@@ -247,11 +253,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":91,
     "uscensus:geoid":3609128112,
     "uscensus:name":"Galway",
     "uscensus:namelsad":"Galway town",
+    "uscensus:population":3515,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -261,8 +270,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3609128112
+        "uscensus:geoid":"3609128112"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -278,11 +288,11 @@
         }
     ],
     "wof:id":404521591,
-    "wof:lastmodified":1605055634,
+    "wof:lastmodified":1722233674,
     "wof:name":"Galway",
     "wof:parent_id":102082413,
     "wof:placetype":"localadmin",
-    "wof:population":3545,
+    "wof:population":3515,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

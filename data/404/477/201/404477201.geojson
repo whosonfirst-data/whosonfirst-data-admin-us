@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014264,
-    "geom:area_square_m":126039300.831834,
+    "geom:area_square_m":126039300.831855,
     "geom:bbox":"-71.161666,44.339205,-71.012882,44.44037",
     "geom:latitude":44.389628,
     "geom:longitude":-71.087535,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.389481,
     "lbl:longitude":-71.08753,
     "lbl:max_zoom":17.0,
@@ -112,22 +118,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":3300768980,
     "uscensus:name":"Shelburne",
     "uscensus:namelsad":"Shelburne town",
+    "uscensus:population":358,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":33,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688689,
-        102085529
+        102085529,
+        85688689
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3300768980
+        "uscensus:geoid":"3300768980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468087
     ],
@@ -146,11 +156,11 @@
         }
     ],
     "wof:id":404477201,
-    "wof:lastmodified":1636499294,
+    "wof:lastmodified":1722117720,
     "wof:name":"Shelburne",
     "wof:parent_id":102085529,
     "wof:placetype":"localadmin",
-    "wof:population":372,
+    "wof:population":358,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

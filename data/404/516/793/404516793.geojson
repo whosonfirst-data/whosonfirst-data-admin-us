@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013695,
-    "geom:area_square_m":129934603.577058,
+    "geom:area_square_m":129934603.577082,
     "geom:bbox":"-94.454361,39.834036,-94.318285,39.937464",
     "geom:latitude":39.886037,
     "geom:longitude":-94.386148,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.885947,
     "lbl:longitude":-94.38617,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":63,
     "uscensus:geoid":2906310720,
     "uscensus:name":"Camden",
     "uscensus:namelsad":"Camden township",
+    "uscensus:population":1652,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":29,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2906310720
+        "uscensus:geoid":"2906310720"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404516793,
-    "wof:lastmodified":1604530745,
+    "wof:lastmodified":1722233669,
     "wof:name":"Camden Township",
     "wof:parent_id":102086139,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1751,
+    "wof:population":1652,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007751,
-    "geom:area_square_m":64594361.998602,
+    "geom:area_square_m":64594361.998575,
     "geom:bbox":"-96.962607,47.584846,-96.849896,47.672186",
     "geom:latitude":47.624845,
     "geom:longitude":-96.916851,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.625322,
     "lbl:longitude":-96.923558,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":97,
     "uscensus:geoid":3809705940,
     "uscensus:name":"Belmont",
     "uscensus:namelsad":"Belmont township",
+    "uscensus:population":77,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3809705940
+        "uscensus:geoid":"3809705940"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458561
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404482385,
-    "wof:lastmodified":1605055382,
+    "wof:lastmodified":1722117756,
     "wof:name":"Belmont Township",
     "wof:parent_id":102081481,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":76,
+    "wof:population":77,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

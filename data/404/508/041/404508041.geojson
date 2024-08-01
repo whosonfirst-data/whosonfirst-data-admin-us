@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010276,
-    "geom:area_square_m":91966838.743462,
+    "geom:area_square_m":91966838.743449,
     "geom:bbox":"-83.235879,43.585164,-83.114619,43.675493",
     "geom:latitude":43.630025,
     "geom:longitude":-83.175051,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.63,
     "lbl:longitude":-83.175049,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":157,
     "uscensus:geoid":2615725300,
     "uscensus:name":"Elkland",
     "uscensus:namelsad":"Elkland township",
+    "uscensus:population":3493,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2615725300
+        "uscensus:geoid":"2615725300"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404508041,
-    "wof:lastmodified":1605055735,
+    "wof:lastmodified":1722233667,
     "wof:name":"Elkland Township",
     "wof:parent_id":102082989,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3528,
+    "wof:population":3493,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

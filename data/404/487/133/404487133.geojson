@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000759,
-    "geom:area_square_m":7113654.729957,
+    "geom:area_square_m":7113654.729963,
     "geom:bbox":"-78.696721,40.724182,-78.655231,40.76039",
     "geom:latitude":40.746516,
     "geom:longitude":-78.682185,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.748196,
     "lbl:longitude":-78.685335,
     "lbl:max_zoom":17.0,
@@ -64,11 +70,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":33,
     "uscensus:geoid":4203383736,
     "uscensus:name":"Westover",
     "uscensus:namelsad":"Westover borough",
+    "uscensus:population":348,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -78,8 +87,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4203383736
+        "uscensus:geoid":"4203383736"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -95,11 +105,11 @@
         }
     ],
     "wof:id":404487133,
-    "wof:lastmodified":1605055879,
+    "wof:lastmodified":1722117785,
     "wof:name":"Westover",
     "wof:parent_id":102080967,
     "wof:placetype":"localadmin",
-    "wof:population":390,
+    "wof:population":348,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

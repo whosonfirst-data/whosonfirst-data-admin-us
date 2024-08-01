@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009081,
-    "geom:area_square_m":83499199.499516,
+    "geom:area_square_m":83499199.499506,
     "geom:bbox":"-76.38154,41.918976,-76.25855,41.998481",
     "geom:latitude":41.960052,
     "geom:longitude":-76.321286,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.961262,
     "lbl:longitude":-76.322095,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":4201585672,
     "uscensus:name":"Windham",
     "uscensus:namelsad":"Windham township",
+    "uscensus:population":815,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201585672
+        "uscensus:geoid":"4201585672"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473859
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404484697,
-    "wof:lastmodified":1605055465,
+    "wof:lastmodified":1722117769,
     "wof:name":"Windham Township",
     "wof:parent_id":102081319,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":933,
+    "wof:population":815,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

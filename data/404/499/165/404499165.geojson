@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005805,
-    "geom:area_square_m":54640473.922131,
+    "geom:area_square_m":54640473.922134,
     "geom:bbox":"-89.040585,40.400127,-88.922146,40.486622",
     "geom:latitude":40.428087,
     "geom:longitude":-88.980997,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.418559,
     "lbl:longitude":-88.984537,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":113,
     "uscensus:geoid":1711306626,
     "uscensus:name":"Bloomington",
     "uscensus:namelsad":"Bloomington township",
+    "uscensus:population":2605,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1711306626
+        "uscensus:geoid":"1711306626"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465545
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404499165,
-    "wof:lastmodified":1605055545,
+    "wof:lastmodified":1722117859,
     "wof:name":"Bloomington Township",
     "wof:parent_id":102087573,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2851,
+    "wof:population":2605,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

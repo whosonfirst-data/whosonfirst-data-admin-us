@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000601,
-    "geom:area_square_m":5591863.071714,
+    "geom:area_square_m":5591863.071717,
     "geom:bbox":"-77.029818,41.219017,-76.9787,41.244161",
     "geom:latitude":41.229437,
     "geom:longitude":-77.000683,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.229415,
     "lbl:longitude":-77.000302,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":81,
     "uscensus:geoid":4208172648,
     "uscensus:name":"South Williamsport",
     "uscensus:namelsad":"South Williamsport borough",
+    "uscensus:population":6166,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4208172648
+        "uscensus:geoid":"4208172648"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404485345,
-    "wof:lastmodified":1605055373,
+    "wof:lastmodified":1722117773,
     "wof:name":"South Williamsport",
     "wof:parent_id":102081317,
     "wof:placetype":"localadmin",
-    "wof:population":6379,
+    "wof:population":6166,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

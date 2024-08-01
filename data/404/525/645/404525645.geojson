@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007188,
-    "geom:area_square_m":67051243.935822,
+    "geom:area_square_m":67051243.935843,
     "geom:bbox":"-81.195679,40.988057,-81.098608,41.063285",
     "geom:latitude":41.025425,
     "geom:longitude":-81.146915,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.025457,
     "lbl:longitude":-81.146916,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":133,
     "uscensus:geoid":3913302862,
     "uscensus:name":"Atwater",
     "uscensus:namelsad":"Atwater township",
+    "uscensus:population":2572,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3913302862
+        "uscensus:geoid":"3913302862"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404525645,
-    "wof:lastmodified":1605056051,
+    "wof:lastmodified":1722118017,
     "wof:name":"Atwater Township",
     "wof:parent_id":102084819,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2740,
+    "wof:population":2572,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

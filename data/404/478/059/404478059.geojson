@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001414,
-    "geom:area_square_m":13225968.489504,
+    "geom:area_square_m":13225968.4895,
     "geom:bbox":"-74.329478,40.826833,-74.259998,40.869797",
     "geom:latitude":40.848864,
     "geom:longitude":-74.297038,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.847023,
     "lbl:longitude":-74.303306,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":3401378510,
     "uscensus:name":"West Caldwell",
     "uscensus:namelsad":"West Caldwell township",
+    "uscensus:population":10799,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3401378510
+        "uscensus:geoid":"3401378510"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476635
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404478059,
-    "wof:lastmodified":1605055349,
+    "wof:lastmodified":1722117727,
     "wof:name":"West Caldwell Township",
     "wof:parent_id":102085043,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":10759,
+    "wof:population":10799,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

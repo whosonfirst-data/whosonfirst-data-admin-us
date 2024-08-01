@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009913,
-    "geom:area_square_m":91540959.90654,
+    "geom:area_square_m":91540959.90656,
     "geom:bbox":"-87.914361,41.643933,-87.795708,41.7335",
     "geom:latitude":41.687835,
     "geom:longitude":-87.854339,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.688726,
     "lbl:longitude":-87.854338,
     "lbl:max_zoom":14.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":1703157355,
     "uscensus:name":"Palos",
     "uscensus:namelsad":"Palos township",
+    "uscensus:population":54545,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1703157355
+        "uscensus:geoid":"1703157355"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404496277,
-    "wof:lastmodified":1605055603,
+    "wof:lastmodified":1722233634,
     "wof:name":"Palos Township",
     "wof:parent_id":102084317,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":54615,
+    "wof:population":54545,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

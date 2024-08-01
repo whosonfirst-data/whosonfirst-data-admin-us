@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.026202,
-    "geom:area_square_m":240531995.345503,
+    "geom:area_square_m":240531995.345475,
     "geom:bbox":"-75.783858,41.997864,-75.553076,42.12809",
     "geom:latitude":42.063641,
     "geom:longitude":-75.659739,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.061056,
     "lbl:longitude":-75.659711,
     "lbl:max_zoom":15.0,
@@ -185,22 +191,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":3600782535,
     "uscensus:name":"Windsor",
     "uscensus:namelsad":"Windsor town",
+    "uscensus:population":5635,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688543,
-        102081755
+        102081755,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3600782535
+        "uscensus:geoid":"3600782535"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -216,11 +226,11 @@
         }
     ],
     "wof:id":404521833,
-    "wof:lastmodified":1636499321,
+    "wof:lastmodified":1722233674,
     "wof:name":"Windsor",
     "wof:parent_id":102081755,
     "wof:placetype":"localadmin",
-    "wof:population":6274,
+    "wof:population":5635,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

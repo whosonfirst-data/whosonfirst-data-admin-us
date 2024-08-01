@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010871,
-    "geom:area_square_m":91342025.978867,
+    "geom:area_square_m":91342025.978862,
     "geom:bbox":"-94.791742,47.149894,-94.663597,47.23775",
     "geom:latitude":47.193439,
     "geom:longitude":-94.726967,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.193572,
     "lbl:longitude":-94.706203,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":57,
     "uscensus:geoid":2705734838,
     "uscensus:name":"Lakeport",
     "uscensus:namelsad":"Lakeport township",
+    "uscensus:population":861,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2705734838
+        "uscensus:geoid":"2705734838"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476689
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404512845,
-    "wof:lastmodified":1605056121,
+    "wof:lastmodified":1722117953,
     "wof:name":"Lakeport Township",
     "wof:parent_id":102087907,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":845,
+    "wof:population":861,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

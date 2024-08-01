@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011209,
-    "geom:area_square_m":107619349.688855,
+    "geom:area_square_m":107619349.688849,
     "geom:bbox":"-84.247147,39.004847,-84.101609,39.122242",
     "geom:latitude":39.06258,
     "geom:longitude":-84.170521,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.058754,
     "lbl:longitude":-84.170518,
     "lbl:max_zoom":14.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":3902504157,
     "uscensus:name":"Batavia",
     "uscensus:namelsad":"Batavia township",
+    "uscensus:population":28162,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3902504157
+        "uscensus:geoid":"3902504157"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404525013,
-    "wof:lastmodified":1605056051,
+    "wof:lastmodified":1722233684,
     "wof:name":"Batavia Township",
     "wof:parent_id":102084793,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":23280,
+    "wof:population":28162,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

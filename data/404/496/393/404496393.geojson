@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009945,
-    "geom:area_square_m":93206329.914304,
+    "geom:area_square_m":93206329.914384,
     "geom:bbox":"-88.35366,40.67373,-88.237001,40.76209",
     "geom:latitude":40.717844,
     "geom:longitude":-88.295418,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.717879,
     "lbl:longitude":-88.295416,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":1710512723,
     "uscensus:name":"Chatsworth",
     "uscensus:namelsad":"Chatsworth township",
+    "uscensus:population":1319,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1710512723
+        "uscensus:geoid":"1710512723"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404496393,
-    "wof:lastmodified":1605055602,
+    "wof:lastmodified":1722233634,
     "wof:name":"Chatsworth Township",
     "wof:parent_id":102082873,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1366,
+    "wof:population":1319,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

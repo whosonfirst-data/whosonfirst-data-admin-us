@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010473,
-    "geom:area_square_m":95457930.070504,
+    "geom:area_square_m":95457930.070518,
     "geom:bbox":"-76.696655,42.477906,-76.521,42.54991",
     "geom:latitude":42.512408,
     "geom:longitude":-76.616871,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.514973,
     "lbl:longitude":-76.616879,
     "lbl:max_zoom":15.0,
@@ -133,11 +139,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":109,
     "uscensus:geoid":3610975990,
     "uscensus:name":"Ulysses",
     "uscensus:namelsad":"Ulysses town",
+    "uscensus:population":4693,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -147,8 +156,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3610975990
+        "uscensus:geoid":"3610975990"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -164,11 +174,11 @@
         }
     ],
     "wof:id":404521649,
-    "wof:lastmodified":1605055635,
+    "wof:lastmodified":1722233674,
     "wof:name":"Ulysses",
     "wof:parent_id":102082355,
     "wof:placetype":"localadmin",
-    "wof:population":4900,
+    "wof:population":4693,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

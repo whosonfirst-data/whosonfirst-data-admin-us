@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009944,
-    "geom:area_square_m":92423904.514782,
+    "geom:area_square_m":92423904.514747,
     "geom:bbox":"-97.368118,41.221059,-97.252657,41.308391",
     "geom:latitude":41.264572,
     "geom:longitude":-97.310564,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.264578,
     "lbl:longitude":-97.310569,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":3102347605,
     "uscensus:name":"Summit",
     "uscensus:namelsad":"Summit township",
+    "uscensus:population":195,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3102347605
+        "uscensus:geoid":"3102347605"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468057
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404519591,
-    "wof:lastmodified":1605055669,
+    "wof:lastmodified":1722117980,
     "wof:name":"Summit Township",
     "wof:parent_id":102082839,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":178,
+    "wof:population":195,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

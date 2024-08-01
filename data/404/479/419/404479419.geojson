@@ -10,6 +10,12 @@
     "geom:latitude":48.730805,
     "geom:longitude":-101.827042,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.73071,
     "lbl:longitude":-101.82743,
     "lbl:max_zoom":18.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":75,
     "uscensus:geoid":3807579140,
     "uscensus:name":"Tolley",
     "uscensus:namelsad":"Tolley city",
+    "uscensus:population":42,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3807579140
+        "uscensus:geoid":"3807579140"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404479419,
-    "wof:lastmodified":1605055479,
+    "wof:lastmodified":1722117737,
     "wof:name":"Tolley",
     "wof:parent_id":102082063,
     "wof:placetype":"localadmin",
-    "wof:population":47,
+    "wof:population":42,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

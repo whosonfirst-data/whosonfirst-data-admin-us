@@ -10,6 +10,12 @@
     "geom:latitude":42.742991,
     "geom:longitude":-76.131959,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.741317,
     "lbl:longitude":-76.131958,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":3602359773,
     "uscensus:name":"Preble",
     "uscensus:namelsad":"Preble town",
+    "uscensus:population":1312,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3602359773
+        "uscensus:geoid":"3602359773"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460737
     ],
@@ -83,11 +93,11 @@
         }
     ],
     "wof:id":404521313,
-    "wof:lastmodified":1605055632,
+    "wof:lastmodified":1722117985,
     "wof:name":"Preble",
     "wof:parent_id":102083011,
     "wof:placetype":"localadmin",
-    "wof:population":1393,
+    "wof:population":1312,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010382,
-    "geom:area_square_m":94147991.704136,
+    "geom:area_square_m":94147991.704176,
     "geom:bbox":"-83.689438,42.782577,-83.568299,42.873277",
     "geom:latitude":42.828492,
     "geom:longitude":-83.628842,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.82851,
     "lbl:longitude":-83.628841,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":2612538720,
     "uscensus:name":"Holly",
     "uscensus:namelsad":"Holly township",
+    "uscensus:population":12287,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2612538720
+        "uscensus:geoid":"2612538720"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404508197,
-    "wof:lastmodified":1605055742,
+    "wof:lastmodified":1722233667,
     "wof:name":"Holly Township",
     "wof:parent_id":102083713,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":11362,
+    "wof:population":12287,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006358,
-    "geom:area_square_m":59110156.975647,
+    "geom:area_square_m":59110156.975624,
     "geom:bbox":"-82.841444,41.214949,-82.739136,41.289705",
     "geom:latitude":41.249833,
     "geom:longitude":-82.785499,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.242676,
     "lbl:longitude":-82.767859,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":77,
     "uscensus:geoid":3907745514,
     "uscensus:name":"Lyme",
     "uscensus:namelsad":"Lyme township",
+    "uscensus:population":857,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3907745514
+        "uscensus:geoid":"3907745514"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464207
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404526581,
-    "wof:lastmodified":1605055649,
+    "wof:lastmodified":1722118024,
     "wof:name":"Lyme Township",
     "wof:parent_id":102083735,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":853,
+    "wof:population":857,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

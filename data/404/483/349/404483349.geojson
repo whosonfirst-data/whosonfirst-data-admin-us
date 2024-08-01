@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000744,
-    "geom:area_square_m":6899339.605119,
+    "geom:area_square_m":6899339.605123,
     "geom:bbox":"-78.752668,41.415415,-78.713054,41.438979",
     "geom:latitude":41.426989,
     "geom:longitude":-78.729677,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.427194,
     "lbl:longitude":-78.727306,
     "lbl:max_zoom":15.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":47,
     "uscensus:geoid":4204764784,
     "uscensus:name":"Ridgway",
     "uscensus:namelsad":"Ridgway borough",
+    "uscensus:population":3938,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4204764784
+        "uscensus:geoid":"4204764784"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404483349,
-    "wof:lastmodified":1605055442,
+    "wof:lastmodified":1722117762,
     "wof:name":"Ridgway",
     "wof:parent_id":102081265,
     "wof:placetype":"localadmin",
-    "wof:population":4078,
+    "wof:population":3938,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

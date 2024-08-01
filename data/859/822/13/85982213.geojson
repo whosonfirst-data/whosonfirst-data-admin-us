@@ -142,7 +142,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":197942,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -158,17 +159,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"44700",
     "uscensus:placens":"01036116",
+    "uscensus:population":38,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"38",
     "wd:elevation":452.0,
     "wd:latitude":48.896389,
     "wd:longitude":-100.911389,
     "wd:wordcount":767,
     "wof:belongsto":[
-        85688525,
         102191575,
-        404478733,
         85633793,
-        102082109
+        102082109,
+        404478733,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -176,10 +179,11 @@
         "gn:id":5690084,
         "gp:id":2436135,
         "qs_pg:id":1343225,
-        "uscensus:geoid":3844700,
+        "uscensus:geoid":"3844700",
         "wd:id":"Q2540630",
         "wk:page":"Landa, North Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -197,7 +201,7 @@
         }
     ],
     "wof:id":85982213,
-    "wof:lastmodified":1690885255,
+    "wof:lastmodified":1722116148,
     "wof:name":"Landa",
     "wof:parent_id":404478733,
     "wof:placetype":"locality",

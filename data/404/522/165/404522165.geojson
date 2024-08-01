@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012855,
-    "geom:area_square_m":113344550.510591,
+    "geom:area_square_m":113344550.510581,
     "geom:bbox":"-73.642979,44.454346,-73.338636,44.563615",
     "geom:latitude":44.515568,
     "geom:longitude":-73.535124,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.500573,
     "lbl:longitude":-73.588111,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":3601903221,
     "uscensus:name":"Au Sable",
     "uscensus:namelsad":"Au Sable town",
+    "uscensus:population":3140,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3601903221
+        "uscensus:geoid":"3601903221"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,11 +90,11 @@
         }
     ],
     "wof:id":404522165,
-    "wof:lastmodified":1605056074,
+    "wof:lastmodified":1722117991,
     "wof:name":"Au Sable",
     "wof:parent_id":102081797,
     "wof:placetype":"localadmin",
-    "wof:population":3146,
+    "wof:population":3140,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

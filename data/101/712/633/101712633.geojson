@@ -185,7 +185,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":21330137,
     "uscensus:awater":677186,
     "uscensus:classfp":"C2",
@@ -201,17 +202,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"37842",
     "uscensus:placens":"02395447",
+    "uscensus:population":6206,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"39",
     "wd:elevation":211.0,
     "wd:latitude":39.0508,
     "wd:longitude":-82.6397,
     "wd:wordcount":1399,
     "wof:belongsto":[
-        85688485,
         102191575,
-        404526689,
         85633793,
-        102084827
+        102084827,
+        404526689,
+        85688485
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -220,10 +223,11 @@
         "gn:id":4515318,
         "gp:id":2428179,
         "qs_pg:id":688027,
-        "uscensus:geoid":3937842,
+        "uscensus:geoid":"3937842",
         "wd:id":"Q1903275",
         "wk:page":"Jackson, Ohio"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -244,11 +248,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690888772,
+    "wof:lastmodified":1722116285,
     "wof:name":"Jackson",
     "wof:parent_id":404526689,
     "wof:placetype":"locality",
-    "wof:population":6397,
+    "wof:population":6206,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

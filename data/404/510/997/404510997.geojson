@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000058,
-    "geom:area_square_m":496748.079875,
+    "geom:area_square_m":496748.079876,
     "geom:bbox":"-96.689442,46.434248,-96.67684,46.441534",
     "geom:latitude":46.437568,
     "geom:longitude":-96.683225,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.437935,
     "lbl:longitude":-96.683735,
     "lbl:max_zoom":18.0,
@@ -262,11 +268,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":167,
     "uscensus:geoid":2716732786,
     "uscensus:name":"Kent",
     "uscensus:namelsad":"Kent city",
+    "uscensus:population":64,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -276,8 +285,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2716732786
+        "uscensus:geoid":"2716732786"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -293,11 +303,11 @@
         }
     ],
     "wof:id":404510997,
-    "wof:lastmodified":1605055610,
+    "wof:lastmodified":1722117940,
     "wof:name":"Kent",
     "wof:parent_id":102087021,
     "wof:placetype":"localadmin",
-    "wof:population":81,
+    "wof:population":64,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

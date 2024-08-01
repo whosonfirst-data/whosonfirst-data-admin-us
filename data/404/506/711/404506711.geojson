@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001741,
-    "geom:area_square_m":15646644.565324,
+    "geom:area_square_m":15646644.565323,
     "geom:bbox":"-84.690862,43.350234,-84.626154,43.400718",
     "geom:latitude":43.379968,
     "geom:longitude":-84.655632,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.380926,
     "lbl:longitude":-84.656159,
     "lbl:max_zoom":15.0,
@@ -127,11 +133,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":57,
     "uscensus:geoid":2605701540,
     "uscensus:name":"Alma",
     "uscensus:namelsad":"Alma city",
+    "uscensus:population":9364,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -141,8 +150,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2605701540
+        "uscensus:geoid":"2605701540"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -158,11 +168,11 @@
         }
     ],
     "wof:id":404506711,
-    "wof:lastmodified":1605055765,
+    "wof:lastmodified":1722117909,
     "wof:name":"Alma",
     "wof:parent_id":102083717,
     "wof:placetype":"localadmin",
-    "wof:population":9383,
+    "wof:population":9364,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

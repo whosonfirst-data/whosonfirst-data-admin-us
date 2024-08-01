@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010129,
-    "geom:area_square_m":92791211.940776,
+    "geom:area_square_m":92791211.94076,
     "geom:bbox":"-96.823336,42.162617,-96.628621,42.221046",
     "geom:latitude":42.19413,
     "geom:longitude":-96.719572,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.191614,
     "lbl:longitude":-96.719563,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":173,
     "uscensus:geoid":3117317022,
     "uscensus:name":"Flournoy",
     "uscensus:namelsad":"Flournoy township",
+    "uscensus:population":259,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3117317022
+        "uscensus:geoid":"3117317022"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404518989,
-    "wof:lastmodified":1605055694,
+    "wof:lastmodified":1722233671,
     "wof:name":"Flournoy Township",
     "wof:parent_id":102082737,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":296,
+    "wof:population":259,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

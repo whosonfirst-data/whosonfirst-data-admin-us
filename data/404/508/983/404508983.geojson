@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010581,
-    "geom:area_square_m":97325369.705338,
+    "geom:area_square_m":97325369.705399,
     "geom:bbox":"-85.537421,41.896786,-85.409685,41.98469",
     "geom:latitude":41.94006,
     "geom:longitude":-85.470492,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.940835,
     "lbl:longitude":-85.470507,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":149,
     "uscensus:geoid":2614959400,
     "uscensus:name":"Nottawa",
     "uscensus:namelsad":"Nottawa township",
+    "uscensus:population":3726,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2614959400
+        "uscensus:geoid":"2614959400"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404508983,
-    "wof:lastmodified":1605055739,
+    "wof:lastmodified":1722233668,
     "wof:name":"Nottawa Township",
     "wof:parent_id":102083093,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3858,
+    "wof:population":3726,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

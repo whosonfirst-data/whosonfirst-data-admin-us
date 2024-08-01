@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008175,
-    "geom:area_square_m":77232760.991453,
+    "geom:area_square_m":77232760.991456,
     "geom:bbox":"-78.698671,40.11566,-78.571573,40.230592",
     "geom:latitude":40.17555,
     "geom:longitude":-78.636998,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.174996,
     "lbl:longitude":-78.651872,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":4200983972,
     "uscensus:name":"West St. Clair",
     "uscensus:namelsad":"West St. Clair township",
+    "uscensus:population":1646,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200983972
+        "uscensus:geoid":"4200983972"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460213
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404482637,
-    "wof:lastmodified":1605055388,
+    "wof:lastmodified":1722117758,
     "wof:name":"West St. Clair Township",
     "wof:parent_id":102080939,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1730,
+    "wof:population":1646,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

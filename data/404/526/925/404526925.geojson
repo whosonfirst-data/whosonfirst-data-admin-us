@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003379,
-    "geom:area_square_m":32060832.787703,
+    "geom:area_square_m":32060832.787692,
     "geom:bbox":"-84.255486,39.834272,-84.157087,39.92297",
     "geom:latitude":39.879036,
     "geom:longitude":-84.19294,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.885892,
     "lbl:longitude":-84.179931,
     "lbl:max_zoom":15.0,
@@ -88,11 +94,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":113,
     "uscensus:geoid":3911379492,
     "uscensus:name":"Vandalia",
     "uscensus:namelsad":"Vandalia city",
+    "uscensus:population":14938,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -102,8 +111,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3911379492
+        "uscensus:geoid":"3911379492"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -119,11 +129,11 @@
         }
     ],
     "wof:id":404526925,
-    "wof:lastmodified":1605055651,
+    "wof:lastmodified":1722118027,
     "wof:name":"Vandalia",
     "wof:parent_id":102083667,
     "wof:placetype":"localadmin",
-    "wof:population":15246,
+    "wof:population":14938,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

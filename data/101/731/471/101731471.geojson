@@ -9,9 +9,23 @@
     "geom:bbox":"-81.839471,38.03938,-81.765361,38.084237",
     "geom:latitude":38.06313,
     "geom:longitude":-81.804628,
+    "gn:admin1_code":"WV",
+    "gn:admin2_code":"5",
+    "gn:asciiname":"Madison",
+    "gn:country_code":"US",
+    "gn:dem":221,
     "gn:elevation":214,
+    "gn:feature_class":"P",
+    "gn:feature_code":"PPLA2",
+    "gn:geonameid":4813565,
+    "gn:latitude":38.06705,
+    "gn:longitude":-81.81929,
+    "gn:modification_date":"2017-03-09",
+    "gn:name":"Madison",
     "gn:population":3076,
+    "gn:timezone":"America/New_York",
     "iso:country":"US",
+    "lbl:bbox":"-81.83929,38.04705,-81.79929,38.08705",
     "lbl:latitude":38.069085,
     "lbl:longitude":-81.804067,
     "lbl:max_zoom":15.0,
@@ -158,7 +172,10 @@
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":2742,
+    "uscensus:population_date":"2023",
     "wd:elevation":214.0,
     "wd:latitude":38.061944,
     "wd:longitude":-81.818333,
@@ -166,8 +183,8 @@
     "wof:belongsto":[
         102191575,
         85633793,
-        85688589,
-        102082589
+        102082589,
+        85688589
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -180,8 +197,17 @@
         "wk:page":"Madison, West Virginia"
     },
     "wof:concordances_alt":{
-        "qs_pg:id":927069
+        "gn:id":[
+            4813565
+        ],
+        "qs_pg:id":[
+            927069
+        ],
+        "wk:page":[
+            "Madison%2C_West_Virginia"
+        ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg"
@@ -197,16 +223,17 @@
         }
     ],
     "wof:id":101731471,
-    "wof:lastmodified":1690888062,
+    "wof:lastmodified":1722116404,
     "wof:name":"Madison",
     "wof:parent_id":102082589,
     "wof:placetype":"locality",
-    "wof:population":3076,
+    "wof:population":2742,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[
-        1125341013
+        1125341013,
+        1209230751
     ],
     "wof:tags":[]
 },

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005219,
-    "geom:area_square_m":49898230.534469,
+    "geom:area_square_m":49898230.53447,
     "geom:bbox":"-84.349296,39.309535,-84.253365,39.40138",
     "geom:latitude":39.357082,
     "geom:longitude":-84.302352,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.353087,
     "lbl:longitude":-84.299325,
     "lbl:max_zoom":14.0,
@@ -112,11 +118,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":165,
     "uscensus:geoid":3916548188,
     "uscensus:name":"Mason",
     "uscensus:namelsad":"Mason city",
+    "uscensus:population":35660,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -126,8 +135,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3916548188
+        "uscensus:geoid":"3916548188"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -143,11 +153,11 @@
         }
     ],
     "wof:id":404526209,
-    "wof:lastmodified":1605055655,
+    "wof:lastmodified":1722118021,
     "wof:name":"Mason",
     "wof:parent_id":102082423,
     "wof:placetype":"localadmin",
-    "wof:population":30712,
+    "wof:population":35660,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

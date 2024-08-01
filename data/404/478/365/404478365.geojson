@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008358,
-    "geom:area_square_m":78767918.244097,
+    "geom:area_square_m":78767918.244031,
     "geom:bbox":"-74.327377,40.278071,-74.197471,40.395373",
     "geom:latitude":40.342694,
     "geom:longitude":-74.25672,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.344987,
     "lbl:longitude":-74.262107,
     "lbl:max_zoom":14.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":3402544070,
     "uscensus:name":"Marlboro",
     "uscensus:namelsad":"Marlboro township",
+    "uscensus:population":41398,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3402544070
+        "uscensus:geoid":"3402544070"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404478365,
-    "wof:lastmodified":1605055332,
+    "wof:lastmodified":1722117729,
     "wof:name":"Marlboro Township",
     "wof:parent_id":102085049,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":40191,
+    "wof:population":41398,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

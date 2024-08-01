@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009874,
-    "geom:area_square_m":94353133.502796,
+    "geom:area_square_m":94353133.502772,
     "geom:bbox":"-89.812749,39.347663,-89.699276,39.435828",
     "geom:latitude":39.391659,
     "geom:longitude":-89.756053,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.391674,
     "lbl:longitude":-89.756048,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":117,
     "uscensus:geoid":1711753052,
     "uscensus:name":"Nilwood",
     "uscensus:namelsad":"Nilwood township",
+    "uscensus:population":568,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1711753052
+        "uscensus:geoid":"1711753052"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404496707,
-    "wof:lastmodified":1605055594,
+    "wof:lastmodified":1722233635,
     "wof:name":"Nilwood Township",
     "wof:parent_id":102082273,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":637,
+    "wof:population":568,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

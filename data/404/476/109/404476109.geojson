@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007639,
-    "geom:area_square_m":69863099.887666,
+    "geom:area_square_m":69863099.887645,
     "geom:bbox":"-73.289193,42.25706,-73.159942,42.368068",
     "geom:latitude":42.302002,
     "geom:longitude":-73.234118,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.301107,
     "lbl:longitude":-73.239499,
     "lbl:max_zoom":15.0,
@@ -115,11 +121,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":2500334655,
     "uscensus:name":"Lee",
     "uscensus:namelsad":"Lee town",
+    "uscensus:population":5694,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -129,8 +138,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2500334655
+        "uscensus:geoid":"2500334655"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -146,11 +156,11 @@
         }
     ],
     "wof:id":404476109,
-    "wof:lastmodified":1605055403,
+    "wof:lastmodified":1722117712,
     "wof:name":"Lee",
     "wof:parent_id":102084369,
     "wof:placetype":"localadmin",
-    "wof:population":5943,
+    "wof:population":5694,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

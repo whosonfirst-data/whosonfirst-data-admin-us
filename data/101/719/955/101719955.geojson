@@ -77,7 +77,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":771148,
     "uscensus:awater":2464,
     "uscensus:classfp":"U1",
@@ -93,14 +94,16 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"71080",
     "uscensus:placens":"02630040",
+    "uscensus:population":455,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"42",
     "wd:wordcount":96,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404483447,
         85633793,
-        102081327
+        102081327,
+        404483447,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -109,10 +112,11 @@
         "gn:id":5212465,
         "gp:id":2494572,
         "qs_pg:id":1177298,
-        "uscensus:geoid":4271080,
+        "uscensus:geoid":"4271080",
         "wd:id":"Q508400",
         "wk:page":"Slatedale, Pennsylvania"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -133,7 +137,7 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889491,
+    "wof:lastmodified":1722116330,
     "wof:name":"Slatedale",
     "wof:parent_id":404483447,
     "wof:placetype":"locality",

@@ -21,7 +21,7 @@
     "mps:latitude":36.283156,
     "mps:longitude":-92.491926,
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":1,
     "mz:min_zoom":11.0,
     "name:ara_x_preferred":[
         "\u063a\u0627\u0632\u0641\u064a\u0644"
@@ -156,7 +156,10 @@
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":2223,
+    "uscensus:population_date":"2023",
     "wd:elevation":233.0,
     "wd:latitude":36.283056,
     "wd:longitude":-92.49,
@@ -164,8 +167,8 @@
     "wof:belongsto":[
         102191575,
         85633793,
-        85688549,
-        102082013
+        102082013,
+        85688549
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -177,6 +180,7 @@
         "wd:id":"Q79601",
         "wk:page":"Gassville, Arkansas"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg"
@@ -192,11 +196,11 @@
         }
     ],
     "wof:id":85919439,
-    "wof:lastmodified":1690881936,
+    "wof:lastmodified":1722115906,
     "wof:name":"Gassville",
     "wof:parent_id":102082013,
     "wof:placetype":"locality",
-    "wof:population":2078,
+    "wof:population":2223,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

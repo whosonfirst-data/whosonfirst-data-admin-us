@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008151,
-    "geom:area_square_m":75649773.101043,
+    "geom:area_square_m":75649773.101063,
     "geom:bbox":"-96.563788,41.306473,-96.482909,41.429881",
     "geom:latitude":41.358376,
     "geom:longitude":-96.52528,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.359032,
     "lbl:longitude":-96.524508,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":155,
     "uscensus:geoid":3115539625,
     "uscensus:name":"Pohocco",
     "uscensus:namelsad":"Pohocco township",
+    "uscensus:population":1276,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3115539625
+        "uscensus:geoid":"3115539625"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729455359
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404520973,
-    "wof:lastmodified":1605055711,
+    "wof:lastmodified":1722117983,
     "wof:name":"Pohocco Township",
     "wof:parent_id":102082199,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1185,
+    "wof:population":1276,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010792,
-    "geom:area_square_m":94037866.315009,
+    "geom:area_square_m":94037866.315081,
     "geom:bbox":"-97.494923,45.15156,-97.371312,45.239603",
     "geom:latitude":45.195631,
     "geom:longitude":-97.432856,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.195613,
     "lbl:longitude":-97.432856,
     "lbl:max_zoom":18.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":37,
     "uscensus:geoid":4603770820,
     "uscensus:name":"Wheatland",
     "uscensus:namelsad":"Wheatland township",
+    "uscensus:population":78,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4603770820
+        "uscensus:geoid":"4603770820"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478553
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404489805,
-    "wof:lastmodified":1605055927,
+    "wof:lastmodified":1722117802,
     "wof:name":"Wheatland Township",
     "wof:parent_id":102086871,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":62,
+    "wof:population":78,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

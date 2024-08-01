@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002011,
-    "geom:area_square_m":18870498.352829,
+    "geom:area_square_m":18870498.352815,
     "geom:bbox":"-80.632578,40.617199,-80.518989,40.655009",
     "geom:latitude":40.64211,
     "geom:longitude":-80.590159,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.63859,
     "lbl:longitude":-80.612845,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":3902944226,
     "uscensus:name":"Liverpool",
     "uscensus:namelsad":"Liverpool township",
+    "uscensus:population":3783,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3902944226
+        "uscensus:geoid":"3902944226"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404525077,
-    "wof:lastmodified":1605056051,
+    "wof:lastmodified":1722118013,
     "wof:name":"Liverpool Township",
     "wof:parent_id":102083745,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":4047,
+    "wof:population":3783,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

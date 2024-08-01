@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000825,
-    "geom:area_square_m":7706483.188883,
+    "geom:area_square_m":7706483.188876,
     "geom:bbox":"-75.851766,40.929681,-75.789378,40.952678",
     "geom:latitude":40.942014,
     "geom:longitude":-75.82092,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.940407,
     "lbl:longitude":-75.823042,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":4202581856,
     "uscensus:name":"Weatherly",
     "uscensus:namelsad":"Weatherly borough",
+    "uscensus:population":2551,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202581856
+        "uscensus:geoid":"4202581856"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404485639,
-    "wof:lastmodified":1605055370,
+    "wof:lastmodified":1722117775,
     "wof:name":"Weatherly",
     "wof:parent_id":102081331,
     "wof:placetype":"localadmin",
-    "wof:population":2525,
+    "wof:population":2551,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000329,
-    "geom:area_square_m":3062225.855847,
+    "geom:area_square_m":3062225.855839,
     "geom:bbox":"-75.967215,41.23015,-75.93015,41.249978",
     "geom:latitude":41.240414,
     "geom:longitude":-75.950515,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.240535,
     "lbl:longitude":-75.951771,
     "lbl:max_zoom":15.0,
@@ -283,11 +289,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":79,
     "uscensus:geoid":4207961648,
     "uscensus:name":"Plymouth",
     "uscensus:namelsad":"Plymouth borough",
+    "uscensus:population":5755,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -297,8 +306,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207961648
+        "uscensus:geoid":"4207961648"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -314,11 +324,11 @@
         }
     ],
     "wof:id":404483547,
-    "wof:lastmodified":1605055449,
+    "wof:lastmodified":1722117763,
     "wof:name":"Plymouth",
     "wof:parent_id":102081351,
     "wof:placetype":"localadmin",
-    "wof:population":5951,
+    "wof:population":5755,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

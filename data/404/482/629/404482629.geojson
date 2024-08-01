@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000016,
-    "geom:area_square_m":149287.401908,
+    "geom:area_square_m":149287.401907,
     "geom:bbox":"-78.646803,40.104671,-78.639622,40.112541",
     "geom:latitude":40.108408,
     "geom:longitude":-78.643067,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.108795,
     "lbl:longitude":-78.642765,
     "lbl:max_zoom":18.0,
@@ -64,11 +70,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":4200953928,
     "uscensus:name":"New Paris",
     "uscensus:namelsad":"New Paris borough",
+    "uscensus:population":191,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -78,8 +87,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200953928
+        "uscensus:geoid":"4200953928"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -95,11 +105,11 @@
         }
     ],
     "wof:id":404482629,
-    "wof:lastmodified":1605055379,
+    "wof:lastmodified":1722117758,
     "wof:name":"New Paris",
     "wof:parent_id":102080939,
     "wof:placetype":"localadmin",
-    "wof:population":186,
+    "wof:population":191,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

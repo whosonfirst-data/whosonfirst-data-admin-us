@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012109,
-    "geom:area_square_m":116701832.251454,
+    "geom:area_square_m":116701832.251436,
     "geom:bbox":"-88.362376,38.730905,-88.257774,38.852124",
     "geom:latitude":38.79115,
     "geom:longitude":-88.310118,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.791271,
     "lbl:longitude":-88.310117,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":1702560261,
     "uscensus:name":"Pixley",
     "uscensus:namelsad":"Pixley township",
+    "uscensus:population":533,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1702560261
+        "uscensus:geoid":"1702560261"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404497565,
-    "wof:lastmodified":1605055496,
+    "wof:lastmodified":1722233638,
     "wof:name":"Pixley Township",
     "wof:parent_id":102086203,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":589,
+    "wof:population":533,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

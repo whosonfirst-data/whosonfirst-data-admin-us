@@ -10,6 +10,12 @@
     "geom:latitude":43.994027,
     "geom:longitude":-72.457113,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.992053,
     "lbl:longitude":-72.458311,
     "lbl:max_zoom":16.0,
@@ -154,11 +160,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":5001713525,
     "uscensus:name":"Chelsea",
     "uscensus:namelsad":"Chelsea town",
+    "uscensus:population":1261,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -168,8 +177,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5001713525
+        "uscensus:geoid":"5001713525"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -185,11 +195,11 @@
         }
     ],
     "wof:id":404527169,
-    "wof:lastmodified":1605055677,
+    "wof:lastmodified":1722118029,
     "wof:name":"Chelsea",
     "wof:parent_id":102087431,
     "wof:placetype":"localadmin",
-    "wof:population":1238,
+    "wof:population":1261,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000439,
-    "geom:area_square_m":4179869.477967,
+    "geom:area_square_m":4179869.477965,
     "geom:bbox":"-75.336208,39.637185,-75.315127,39.66374",
     "geom:latitude":39.650305,
     "geom:longitude":-75.325117,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.650362,
     "lbl:longitude":-75.325322,
     "lbl:max_zoom":15.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":33,
     "uscensus:geoid":3403382720,
     "uscensus:name":"Woodstown",
     "uscensus:namelsad":"Woodstown borough",
+    "uscensus:population":3728,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3403382720
+        "uscensus:geoid":"3403382720"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404477907,
-    "wof:lastmodified":1605055412,
+    "wof:lastmodified":1722117726,
     "wof:name":"Woodstown",
     "wof:parent_id":102083879,
     "wof:placetype":"localadmin",
-    "wof:population":3505,
+    "wof:population":3728,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

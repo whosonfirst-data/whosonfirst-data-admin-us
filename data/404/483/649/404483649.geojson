@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000461,
-    "geom:area_square_m":4319164.327618,
+    "geom:area_square_m":4319164.327614,
     "geom:bbox":"-75.330709,40.730455,-75.297526,40.75148",
     "geom:latitude":40.739938,
     "geom:longitude":-75.313144,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.741035,
     "lbl:longitude":-75.312827,
     "lbl:max_zoom":15.0,
@@ -343,11 +349,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":4209552808,
     "uscensus:name":"Nazareth",
     "uscensus:namelsad":"Nazareth borough",
+    "uscensus:population":6061,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -357,8 +366,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4209552808
+        "uscensus:geoid":"4209552808"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -374,11 +384,11 @@
         }
     ],
     "wof:id":404483649,
-    "wof:lastmodified":1605055445,
+    "wof:lastmodified":1722117763,
     "wof:name":"Nazareth",
     "wof:parent_id":102081395,
     "wof:placetype":"localadmin",
-    "wof:population":5746,
+    "wof:population":6061,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

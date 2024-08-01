@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010605,
-    "geom:area_square_m":91308911.149517,
+    "geom:area_square_m":91308911.149532,
     "geom:bbox":"-94.010457,45.823126,-93.885971,45.911858",
     "geom:latitude":45.867292,
     "geom:longitude":-93.949478,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.867783,
     "lbl:longitude":-93.949476,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":97,
     "uscensus:geoid":2709744224,
     "uscensus:name":"Morrill",
     "uscensus:namelsad":"Morrill township",
+    "uscensus:population":715,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2709744224
+        "uscensus:geoid":"2709744224"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478273
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404510037,
-    "wof:lastmodified":1605055614,
+    "wof:lastmodified":1722117933,
     "wof:name":"Morrill Township",
     "wof:parent_id":102087847,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":696,
+    "wof:population":715,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

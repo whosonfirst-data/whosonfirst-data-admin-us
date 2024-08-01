@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010309,
-    "geom:area_square_m":91656972.155695,
+    "geom:area_square_m":91656972.155666,
     "geom:bbox":"-88.042936,43.978996,-87.922321,44.066413",
     "geom:latitude":44.023002,
     "geom:longitude":-87.983402,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.022723,
     "lbl:longitude":-87.983399,
     "lbl:max_zoom":17.0,
@@ -100,11 +106,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":71,
     "uscensus:geoid":5507122275,
     "uscensus:name":"Eaton",
     "uscensus:namelsad":"Eaton town",
+    "uscensus:population":816,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -114,8 +123,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5507122275
+        "uscensus:geoid":"5507122275"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471373
     ],
@@ -134,11 +144,11 @@
         }
     ],
     "wof:id":404495059,
-    "wof:lastmodified":1605055992,
+    "wof:lastmodified":1722117837,
     "wof:name":"Eaton",
     "wof:parent_id":102081871,
     "wof:placetype":"localadmin",
-    "wof:population":833,
+    "wof:population":816,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

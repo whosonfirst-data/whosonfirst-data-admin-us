@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000013,
-    "geom:area_square_m":121488.018205,
+    "geom:area_square_m":121488.018204,
     "geom:bbox":"-79.524462,40.806017,-79.519055,40.811823",
     "geom:latitude":40.808227,
     "geom:longitude":-79.522029,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.80779,
     "lbl:longitude":-79.521986,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":4200502752,
     "uscensus:name":"Applewold",
     "uscensus:namelsad":"Applewold borough",
+    "uscensus:population":330,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200502752
+        "uscensus:geoid":"4200502752"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404482547,
-    "wof:lastmodified":1605055390,
+    "wof:lastmodified":1722117757,
     "wof:name":"Applewold",
     "wof:parent_id":102081371,
     "wof:placetype":"localadmin",
-    "wof:population":310,
+    "wof:population":330,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

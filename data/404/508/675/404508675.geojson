@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011376,
-    "geom:area_square_m":100970414.053237,
+    "geom:area_square_m":100970414.05322,
     "geom:bbox":"-86.280183,44.077223,-86.159391,44.175623",
     "geom:latitude":44.125644,
     "geom:longitude":-86.220182,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.12558,
     "lbl:longitude":-86.220189,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":2610530620,
     "uscensus:name":"Free Soil",
     "uscensus:namelsad":"Free Soil township",
+    "uscensus:population":848,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2610530620
+        "uscensus:geoid":"2610530620"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404508675,
-    "wof:lastmodified":1605055734,
+    "wof:lastmodified":1722233668,
     "wof:name":"Free Soil Township",
     "wof:parent_id":102083743,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":822,
+    "wof:population":848,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

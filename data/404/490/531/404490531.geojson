@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010054,
-    "geom:area_square_m":87475213.968834,
+    "geom:area_square_m":87475213.968837,
     "geom:bbox":"-96.576109,45.23987,-96.452726,45.326695",
     "geom:latitude":45.281853,
     "geom:longitude":-96.517566,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.2833,
     "lbl:longitude":-96.517561,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":4605105500,
     "uscensus:name":"Big Stone",
     "uscensus:namelsad":"Big Stone township",
+    "uscensus:population":317,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4605105500
+        "uscensus:geoid":"4605105500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461761
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404490531,
-    "wof:lastmodified":1605055518,
+    "wof:lastmodified":1722117807,
     "wof:name":"Big Stone Township",
     "wof:parent_id":102086849,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":314,
+    "wof:population":317,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

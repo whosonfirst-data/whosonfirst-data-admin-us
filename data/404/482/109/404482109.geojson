@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.019455,
-    "geom:area_square_m":160608362.130305,
+    "geom:area_square_m":160608362.130315,
     "geom:bbox":"-103.608774,48.005225,-103.474437,48.198172",
     "geom:latitude":48.114607,
     "geom:longitude":-103.530314,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.124718,
     "lbl:longitude":-103.522312,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":3810576340,
     "uscensus:name":"Stony Creek",
     "uscensus:namelsad":"Stony Creek township",
+    "uscensus:population":785,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3810576340
+        "uscensus:geoid":"3810576340"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458977
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404482109,
-    "wof:lastmodified":1605055384,
+    "wof:lastmodified":1722117754,
     "wof:name":"Stony Creek Township",
     "wof:parent_id":102082069,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":558,
+    "wof:population":785,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

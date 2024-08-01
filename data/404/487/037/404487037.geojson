@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000635,
-    "geom:area_square_m":5939631.999283,
+    "geom:area_square_m":5939631.999288,
     "geom:bbox":"-78.715917,40.807714,-78.678212,40.839143",
     "geom:latitude":40.821755,
     "geom:longitude":-78.7019,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.823395,
     "lbl:longitude":-78.705331,
     "lbl:max_zoom":18.0,
@@ -67,11 +73,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":33,
     "uscensus:geoid":4203354344,
     "uscensus:name":"New Washington",
     "uscensus:namelsad":"New Washington borough",
+    "uscensus:population":51,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -81,8 +90,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4203354344
+        "uscensus:geoid":"4203354344"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -98,11 +108,11 @@
         }
     ],
     "wof:id":404487037,
-    "wof:lastmodified":1605055884,
+    "wof:lastmodified":1722117784,
     "wof:name":"New Washington",
     "wof:parent_id":102080967,
     "wof:placetype":"localadmin",
-    "wof:population":59,
+    "wof:population":51,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

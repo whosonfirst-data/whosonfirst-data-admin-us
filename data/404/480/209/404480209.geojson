@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011352,
-    "geom:area_square_m":92684477.692035,
+    "geom:area_square_m":92684477.692067,
     "geom:bbox":"-103.276489,48.633229,-103.145837,48.720595",
     "geom:latitude":48.676902,
     "geom:longitude":-103.211207,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.676878,
     "lbl:longitude":-103.211209,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":23,
     "uscensus:geoid":3802360700,
     "uscensus:name":"Palmer",
     "uscensus:namelsad":"Palmer township",
+    "uscensus:population":22,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3802360700
+        "uscensus:geoid":"3802360700"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474369
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404480209,
-    "wof:lastmodified":1605055916,
+    "wof:lastmodified":1722117743,
     "wof:name":"Palmer Township",
     "wof:parent_id":102082081,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":17,
+    "wof:population":22,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

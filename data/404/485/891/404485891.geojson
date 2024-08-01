@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000135,
-    "geom:area_square_m":1282340.859914,
+    "geom:area_square_m":1282340.859915,
     "geom:bbox":"-75.78872,39.818865,-75.775261,39.830673",
     "geom:latitude":39.82477,
     "geom:longitude":-75.781973,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.824794,
     "lbl:longitude":-75.781973,
     "lbl:max_zoom":16.0,
@@ -88,11 +94,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":4202903656,
     "uscensus:name":"Avondale",
     "uscensus:namelsad":"Avondale borough",
+    "uscensus:population":1261,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -102,8 +111,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202903656
+        "uscensus:geoid":"4202903656"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -119,11 +129,11 @@
         }
     ],
     "wof:id":404485891,
-    "wof:lastmodified":1605055370,
+    "wof:lastmodified":1722117777,
     "wof:name":"Avondale",
     "wof:parent_id":102081275,
     "wof:placetype":"localadmin",
-    "wof:population":1265,
+    "wof:population":1261,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

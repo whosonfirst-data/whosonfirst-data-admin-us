@@ -10,6 +10,12 @@
     "geom:latitude":45.599342,
     "geom:longitude":-92.59008,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.599383,
     "lbl:longitude":-92.59008,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":5509541900,
     "uscensus:name":"Laketown",
     "uscensus:namelsad":"Laketown town",
+    "uscensus:population":1032,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5509541900
+        "uscensus:geoid":"5509541900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465023
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404494741,
-    "wof:lastmodified":1605055967,
+    "wof:lastmodified":1722117835,
     "wof:name":"Laketown",
     "wof:parent_id":102081307,
     "wof:placetype":"localadmin",
-    "wof:population":961,
-    "wof:population_rank":2,
+    "wof:population":1032,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

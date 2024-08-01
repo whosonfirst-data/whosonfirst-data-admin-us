@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01075,
-    "geom:area_square_m":88231351.805198,
+    "geom:area_square_m":88231351.805209,
     "geom:bbox":"-97.535742,48.369061,-97.40454,48.456102",
     "geom:latitude":48.41243,
     "geom:longitude":-97.473155,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.412499,
     "lbl:longitude":-97.482774,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":3809931860,
     "uscensus:name":"Grafton",
     "uscensus:namelsad":"Grafton township",
+    "uscensus:population":275,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3809931860
+        "uscensus:geoid":"3809931860"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472561
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404481851,
-    "wof:lastmodified":1605055825,
+    "wof:lastmodified":1722117753,
     "wof:name":"Grafton Township",
     "wof:parent_id":102082057,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":288,
+    "wof:population":275,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

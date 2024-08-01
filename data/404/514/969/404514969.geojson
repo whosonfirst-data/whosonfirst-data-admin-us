@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00004,
-    "geom:area_square_m":330273.928947,
+    "geom:area_square_m":330273.928948,
     "geom:bbox":"-91.803287,47.924185,-91.797842,47.932502",
     "geom:latitude":47.928416,
     "geom:longitude":-91.800428,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.92845,
     "lbl:longitude":-91.800576,
     "lbl:max_zoom":18.0,
@@ -106,22 +112,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":137,
     "uscensus:geoid":2713771140,
     "uscensus:name":"Winton",
     "uscensus:namelsad":"Winton city",
+    "uscensus:population":165,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688727,
-        102087653
+        102087653,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2713771140
+        "uscensus:geoid":"2713771140"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -137,11 +147,11 @@
         }
     ],
     "wof:id":404514969,
-    "wof:lastmodified":1636499430,
+    "wof:lastmodified":1722117970,
     "wof:name":"Winton",
     "wof:parent_id":102087653,
     "wof:placetype":"localadmin",
-    "wof:population":172,
+    "wof:population":165,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

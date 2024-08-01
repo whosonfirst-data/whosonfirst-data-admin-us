@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000441,
-    "geom:area_square_m":4096922.416187,
+    "geom:area_square_m":4096922.416183,
     "geom:bbox":"-75.861519,41.294525,-75.822139,41.317695",
     "geom:latitude":41.305753,
     "geom:longitude":-75.841616,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.305522,
     "lbl:longitude":-75.841622,
     "lbl:max_zoom":15.0,
@@ -529,11 +535,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":79,
     "uscensus:geoid":4207986856,
     "uscensus:name":"Wyoming",
     "uscensus:namelsad":"Wyoming borough",
+    "uscensus:population":3118,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -543,8 +552,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207986856
+        "uscensus:geoid":"4207986856"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -560,11 +570,11 @@
         }
     ],
     "wof:id":404483559,
-    "wof:lastmodified":1605055436,
+    "wof:lastmodified":1722117763,
     "wof:name":"Wyoming",
     "wof:parent_id":102081351,
     "wof:placetype":"localadmin",
-    "wof:population":3073,
+    "wof:population":3118,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

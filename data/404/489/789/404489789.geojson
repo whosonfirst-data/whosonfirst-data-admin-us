@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010672,
-    "geom:area_square_m":92849557.058528,
+    "geom:area_square_m":92849557.058541,
     "geom:bbox":"-97.612301,45.239459,-97.4888,45.326536",
     "geom:latitude":45.282953,
     "geom:longitude":-97.550694,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.282957,
     "lbl:longitude":-97.550705,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":37,
     "uscensus:geoid":4603756940,
     "uscensus:name":"Rusk",
     "uscensus:namelsad":"Rusk township",
+    "uscensus:population":120,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4603756940
+        "uscensus:geoid":"4603756940"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456971
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404489789,
-    "wof:lastmodified":1605055937,
+    "wof:lastmodified":1722117802,
     "wof:name":"Rusk Township",
     "wof:parent_id":102086871,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":118,
+    "wof:population":120,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

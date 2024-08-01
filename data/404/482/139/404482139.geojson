@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01083,
-    "geom:area_square_m":90243066.580829,
+    "geom:area_square_m":90243066.580847,
     "geom:bbox":"-99.777458,47.587934,-99.650079,47.673458",
     "geom:latitude":47.630685,
     "geom:longitude":-99.713618,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.630733,
     "lbl:longitude":-99.713624,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":103,
     "uscensus:geoid":3810369660,
     "uscensus:name":"St. Anna",
     "uscensus:namelsad":"St. Anna township",
+    "uscensus:population":25,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3810369660
+        "uscensus:geoid":"3810369660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459221
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404482139,
-    "wof:lastmodified":1605055384,
+    "wof:lastmodified":1722117755,
     "wof:name":"St. Anna Township",
     "wof:parent_id":102081507,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":18,
+    "wof:population":25,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

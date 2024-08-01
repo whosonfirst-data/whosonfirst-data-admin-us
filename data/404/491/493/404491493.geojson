@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010452,
-    "geom:area_square_m":90983397.8946,
+    "geom:area_square_m":90983397.894615,
     "geom:bbox":"-91.665652,45.206873,-91.541138,45.293094",
     "geom:latitude":45.250306,
     "geom:longitude":-91.603809,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.24994,
     "lbl:longitude":-91.60381,
     "lbl:max_zoom":17.0,
@@ -139,11 +145,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":5500520650,
     "uscensus:name":"Dovre",
     "uscensus:namelsad":"Dovre town",
+    "uscensus:population":839,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -153,8 +162,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5500520650
+        "uscensus:geoid":"5500520650"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472413
     ],
@@ -173,11 +183,11 @@
         }
     ],
     "wof:id":404491493,
-    "wof:lastmodified":1605055588,
+    "wof:lastmodified":1722117813,
     "wof:name":"Dovre",
     "wof:parent_id":102081847,
     "wof:placetype":"localadmin",
-    "wof:population":849,
+    "wof:population":839,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

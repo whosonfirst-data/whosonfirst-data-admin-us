@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000332,
-    "geom:area_square_m":3087580.587194,
+    "geom:area_square_m":3087580.587197,
     "geom:bbox":"-75.920671,41.248492,-75.892914,41.277074",
     "geom:latitude":41.261417,
     "geom:longitude":-75.907107,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.258622,
     "lbl:longitude":-75.907316,
     "lbl:max_zoom":15.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":79,
     "uscensus:geoid":4207922672,
     "uscensus:name":"Edwardsville",
     "uscensus:namelsad":"Edwardsville borough",
+    "uscensus:population":4932,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207922672
+        "uscensus:geoid":"4207922672"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404486221,
-    "wof:lastmodified":1605055861,
+    "wof:lastmodified":1722117778,
     "wof:name":"Edwardsville",
     "wof:parent_id":102081351,
     "wof:placetype":"localadmin",
-    "wof:population":4816,
+    "wof:population":4932,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

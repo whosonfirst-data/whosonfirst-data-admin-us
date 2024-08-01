@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.030201,
-    "geom:area_square_m":264130545.117831,
+    "geom:area_square_m":264130545.117823,
     "geom:bbox":"-84.491251,44.854944,-84.367716,45.112968",
     "geom:latitude":44.986156,
     "geom:longitude":-84.428984,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.984302,
     "lbl:longitude":-84.428987,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":137,
     "uscensus:geoid":2613714840,
     "uscensus:name":"Charlton",
     "uscensus:namelsad":"Charlton township",
+    "uscensus:population":1393,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2613714840
+        "uscensus:geoid":"2613714840"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729466755
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404508377,
-    "wof:lastmodified":1605055739,
+    "wof:lastmodified":1722117921,
     "wof:name":"Charlton Township",
     "wof:parent_id":102083019,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1354,
+    "wof:population":1393,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

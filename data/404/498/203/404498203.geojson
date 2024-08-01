@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008212,
-    "geom:area_square_m":76663713.591884,
+    "geom:area_square_m":76663713.59189,
     "geom:bbox":"-87.818875,40.946644,-87.673858,41.007546",
     "geom:latitude":40.977018,
     "geom:longitude":-87.744763,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.976917,
     "lbl:longitude":-87.74475,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":75,
     "uscensus:geoid":1707557589,
     "uscensus:name":"Papineau",
     "uscensus:namelsad":"Papineau township",
+    "uscensus:population":427,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1707557589
+        "uscensus:geoid":"1707557589"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404498203,
-    "wof:lastmodified":1605055561,
+    "wof:lastmodified":1722233641,
     "wof:name":"Papineau Township",
     "wof:parent_id":102086209,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":499,
+    "wof:population":427,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

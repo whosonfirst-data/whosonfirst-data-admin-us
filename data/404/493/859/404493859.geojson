@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009823,
-    "geom:area_square_m":85895085.594501,
+    "geom:area_square_m":85895085.594468,
     "geom:bbox":"-92.619455,44.949104,-92.496674,45.03576",
     "geom:latitude":44.99399,
     "geom:longitude":-92.558628,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.014349,
     "lbl:longitude":-92.56764,
     "lbl:max_zoom":16.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":109,
     "uscensus:geoid":5510983400,
     "uscensus:name":"Warren",
     "uscensus:namelsad":"Warren town",
+    "uscensus:population":1800,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5510983400
+        "uscensus:geoid":"5510983400"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458487
     ],
@@ -80,11 +90,11 @@
         }
     ],
     "wof:id":404493859,
-    "wof:lastmodified":1605055943,
+    "wof:lastmodified":1722117829,
     "wof:name":"Warren",
     "wof:parent_id":102081855,
     "wof:placetype":"localadmin",
-    "wof:population":1591,
+    "wof:population":1800,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

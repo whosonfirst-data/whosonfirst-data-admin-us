@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000289,
-    "geom:area_square_m":2697369.602248,
+    "geom:area_square_m":2697369.602252,
     "geom:bbox":"-79.862059,40.871355,-79.834363,40.885829",
     "geom:latitude":40.878838,
     "geom:longitude":-79.847257,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.88063,
     "lbl:longitude":-79.847523,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":4201920904,
     "uscensus:name":"East Butler",
     "uscensus:namelsad":"East Butler borough",
+    "uscensus:population":743,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201920904
+        "uscensus:geoid":"4201920904"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404485079,
-    "wof:lastmodified":1605055357,
+    "wof:lastmodified":1722117772,
     "wof:name":"East Butler",
     "wof:parent_id":102083677,
     "wof:placetype":"localadmin",
-    "wof:population":732,
+    "wof:population":743,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

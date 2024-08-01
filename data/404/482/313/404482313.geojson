@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011378,
-    "geom:area_square_m":92902868.982719,
+    "geom:area_square_m":92902868.982721,
     "geom:bbox":"-102.233949,48.633037,-102.102467,48.72035",
     "geom:latitude":48.676746,
     "geom:longitude":-102.168399,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.676771,
     "lbl:longitude":-102.168401,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":101,
     "uscensus:geoid":3810123660,
     "uscensus:name":"Elmdale",
     "uscensus:namelsad":"Elmdale township",
+    "uscensus:population":44,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3810123660
+        "uscensus:geoid":"3810123660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458713
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404482313,
-    "wof:lastmodified":1605055382,
+    "wof:lastmodified":1722117756,
     "wof:name":"Elmdale Township",
     "wof:parent_id":102082117,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":50,
+    "wof:population":44,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

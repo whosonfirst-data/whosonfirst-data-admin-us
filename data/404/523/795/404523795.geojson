@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000231,
-    "geom:area_square_m":2209250.799321,
+    "geom:area_square_m":2209250.79932,
     "geom:bbox":"-84.409014,39.196316,-84.385198,39.211805",
     "geom:latitude":39.203865,
     "geom:longitude":-84.39777,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.203956,
     "lbl:longitude":-84.395387,
     "lbl:max_zoom":15.0,
@@ -88,11 +94,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":3906121266,
     "uscensus:name":"Deer Park",
     "uscensus:namelsad":"Deer Park city",
+    "uscensus:population":5336,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -102,8 +111,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3906121266
+        "uscensus:geoid":"3906121266"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -119,11 +129,11 @@
         }
     ],
     "wof:id":404523795,
-    "wof:lastmodified":1605056094,
+    "wof:lastmodified":1722118004,
     "wof:name":"Deer Park",
     "wof:parent_id":102083687,
     "wof:placetype":"localadmin",
-    "wof:population":5736,
+    "wof:population":5336,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

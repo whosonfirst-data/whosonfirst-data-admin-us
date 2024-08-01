@@ -157,7 +157,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":1387536,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -173,17 +174,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"45772",
     "uscensus:placens":"02395210",
+    "uscensus:population":363,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":361.0,
     "wd:latitude":45.630278,
     "wd:longitude":-94.753611,
     "wd:wordcount":852,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404510513,
         85633793,
-        102087719
+        102087719,
+        404510513,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -192,10 +195,11 @@
         "gn:id":5039125,
         "gp:id":2458780,
         "qs_pg:id":1051112,
-        "uscensus:geoid":2745772,
+        "uscensus:geoid":"2745772",
         "wd:id":"Q2229450",
         "wk:page":"New Munich, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -216,11 +220,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690886391,
+    "wof:lastmodified":1722116219,
     "wof:name":"New Munich",
     "wof:parent_id":404510513,
     "wof:placetype":"locality",
-    "wof:population":320,
+    "wof:population":363,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

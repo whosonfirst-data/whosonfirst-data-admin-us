@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000943,
-    "geom:area_square_m":8441179.734865,
+    "geom:area_square_m":8441179.734871,
     "geom:bbox":"-94.133009,43.623023,-94.080473,43.663176",
     "geom:latitude":43.64044,
     "geom:longitude":-94.100379,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.638839,
     "lbl:longitude":-94.099975,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":43,
     "uscensus:geoid":2704306688,
     "uscensus:name":"Blue Earth",
     "uscensus:namelsad":"Blue Earth city",
+    "uscensus:population":3163,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2704306688
+        "uscensus:geoid":"2704306688"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,11 +93,11 @@
         }
     ],
     "wof:id":404513941,
-    "wof:lastmodified":1605056037,
+    "wof:lastmodified":1722117962,
     "wof:name":"Blue Earth",
     "wof:parent_id":102087833,
     "wof:placetype":"localadmin",
-    "wof:population":3353,
+    "wof:population":3163,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

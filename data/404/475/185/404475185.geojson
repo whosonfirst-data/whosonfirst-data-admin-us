@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011428,
-    "geom:area_square_m":100381733.52891,
+    "geom:area_square_m":100381733.528912,
     "geom:bbox":"-68.965192,44.680674,-68.781153,44.783378",
     "geom:latitude":44.735007,
     "geom:longitude":-68.889605,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.730684,
     "lbl:longitude":-68.887871,
     "lbl:max_zoom":15.0,
@@ -85,11 +91,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":2301930795,
     "uscensus:name":"Hampden",
     "uscensus:namelsad":"Hampden town",
+    "uscensus:population":7975,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
@@ -99,8 +108,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2301930795
+        "uscensus:geoid":"2301930795"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -116,11 +126,11 @@
         }
     ],
     "wof:id":404475185,
-    "wof:lastmodified":1605055857,
+    "wof:lastmodified":1722117706,
     "wof:name":"Hampden",
     "wof:parent_id":102080723,
     "wof:placetype":"localadmin",
-    "wof:population":7257,
+    "wof:population":7975,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

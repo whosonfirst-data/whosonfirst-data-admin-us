@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011376,
-    "geom:area_square_m":100684924.470894,
+    "geom:area_square_m":100684924.470965,
     "geom:bbox":"-94.025254,44.239288,-93.871805,44.370083",
     "geom:latitude":44.292167,
     "geom:longitude":-93.935848,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.308404,
     "lbl:longitude":-93.921934,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":79,
     "uscensus:geoid":2707932480,
     "uscensus:name":"Kasota",
     "uscensus:namelsad":"Kasota township",
+    "uscensus:population":1600,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2707932480
+        "uscensus:geoid":"2707932480"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478971
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404512351,
-    "wof:lastmodified":1605056128,
+    "wof:lastmodified":1722117950,
     "wof:name":"Kasota Township",
     "wof:parent_id":102087831,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1581,
+    "wof:population":1600,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

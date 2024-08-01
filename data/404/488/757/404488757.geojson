@@ -10,6 +10,12 @@
     "geom:latitude":44.43395,
     "geom:longitude":-97.988516,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.433827,
     "lbl:longitude":-97.989678,
     "lbl:max_zoom":18.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":4600573020,
     "uscensus:name":"Yale",
     "uscensus:namelsad":"Yale town",
+    "uscensus:population":111,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4600573020
+        "uscensus:geoid":"4600573020"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404488757,
-    "wof:lastmodified":1605055812,
+    "wof:lastmodified":1722117796,
     "wof:name":"Yale",
     "wof:parent_id":102086841,
     "wof:placetype":"localadmin",
-    "wof:population":108,
+    "wof:population":111,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

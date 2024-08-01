@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004155,
-    "geom:area_square_m":38761021.413204,
+    "geom:area_square_m":38761021.413237,
     "geom:bbox":"-81.785747,40.988196,-81.687624,41.062362",
     "geom:latitude":41.024139,
     "geom:longitude":-81.739906,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.050465,
     "lbl:longitude":-81.762435,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":103,
     "uscensus:geoid":3910380318,
     "uscensus:name":"Wadsworth",
     "uscensus:namelsad":"Wadsworth township",
+    "uscensus:population":4431,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3910380318
+        "uscensus:geoid":"3910380318"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465477
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404526457,
-    "wof:lastmodified":1605055657,
+    "wof:lastmodified":1722118023,
     "wof:name":"Wadsworth Township",
     "wof:parent_id":102081391,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":4191,
+    "wof:population":4431,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

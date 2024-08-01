@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.020605,
-    "geom:area_square_m":167333923.274079,
+    "geom:area_square_m":167333923.274033,
     "geom:bbox":"-97.425789,48.8906,-97.189749,49.000684",
     "geom:latitude":48.945972,
     "geom:longitude":-97.319926,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.945667,
     "lbl:longitude":-97.319053,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":67,
     "uscensus:geoid":3806761620,
     "uscensus:name":"Pembina",
     "uscensus:namelsad":"Pembina township",
+    "uscensus:population":60,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3806761620
+        "uscensus:geoid":"3806761620"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475319
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404481473,
-    "wof:lastmodified":1605055832,
+    "wof:lastmodified":1722117751,
     "wof:name":"Pembina Township",
     "wof:parent_id":102081509,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":82,
+    "wof:population":60,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

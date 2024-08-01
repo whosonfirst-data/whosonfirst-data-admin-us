@@ -187,7 +187,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":7964119,
     "uscensus:awater":469805,
     "uscensus:classfp":"U1",
@@ -203,13 +204,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"37860",
     "uscensus:placens":"02378074",
+    "uscensus:population":7557,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"33",
     "wof:belongsto":[
-        85688689,
         102191575,
-        404477187,
         85633793,
-        102085493
+        102085493,
+        404477187,
+        85688689
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -218,8 +221,9 @@
         "gn:id":5087752,
         "gp:id":2425257,
         "qs_pg:id":821652,
-        "uscensus:geoid":3337860
+        "uscensus:geoid":"3337860"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -240,11 +244,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1636497893,
+    "wof:lastmodified":1722115919,
     "wof:name":"Hudson",
     "wof:parent_id":404477187,
     "wof:placetype":"locality",
-    "wof:population":7336,
+    "wof:population":7557,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

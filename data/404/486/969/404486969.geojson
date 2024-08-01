@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000985,
-    "geom:area_square_m":9167320.820493,
+    "geom:area_square_m":9167320.820499,
     "geom:bbox":"-76.024345,41.184178,-75.975614,41.220382",
     "geom:latitude":41.200384,
     "geom:longitude":-76.000248,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.200159,
     "lbl:longitude":-75.999879,
     "lbl:max_zoom":15.0,
@@ -61,11 +67,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":79,
     "uscensus:geoid":4207952584,
     "uscensus:name":"Nanticoke",
     "uscensus:namelsad":"Nanticoke city",
+    "uscensus:population":10615,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -75,8 +84,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207952584
+        "uscensus:geoid":"4207952584"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -92,11 +102,11 @@
         }
     ],
     "wof:id":404486969,
-    "wof:lastmodified":1605055869,
+    "wof:lastmodified":1722117784,
     "wof:name":"Nanticoke",
     "wof:parent_id":102081351,
     "wof:placetype":"localadmin",
-    "wof:population":10465,
+    "wof:population":10615,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

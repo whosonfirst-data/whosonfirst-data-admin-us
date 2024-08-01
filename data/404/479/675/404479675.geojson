@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011094,
-    "geom:area_square_m":92603306.523477,
+    "geom:area_square_m":92603306.523456,
     "geom:bbox":"-97.219337,47.497715,-97.091987,47.585231",
     "geom:latitude":47.54142,
     "geom:longitude":-97.155672,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.54142,
     "lbl:longitude":-97.155675,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":97,
     "uscensus:geoid":3809787100,
     "uscensus:name":"Wold",
     "uscensus:namelsad":"Wold township",
+    "uscensus:population":123,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3809787100
+        "uscensus:geoid":"3809787100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475301
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404479675,
-    "wof:lastmodified":1605055472,
+    "wof:lastmodified":1722117739,
     "wof:name":"Wold Township",
     "wof:parent_id":102081481,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":100,
+    "wof:population":123,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

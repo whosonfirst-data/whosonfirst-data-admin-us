@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000106,
-    "geom:area_square_m":990465.160787,
+    "geom:area_square_m":990465.160789,
     "geom:bbox":"-78.356489,40.818992,-78.345871,40.831689",
     "geom:latitude":40.825074,
     "geom:longitude":-78.351013,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.825039,
     "lbl:longitude":-78.350913,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":33,
     "uscensus:geoid":4203335928,
     "uscensus:name":"Houtzdale",
     "uscensus:namelsad":"Houtzdale borough",
+    "uscensus:population":743,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4203335928
+        "uscensus:geoid":"4203335928"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404482997,
-    "wof:lastmodified":1605055376,
+    "wof:lastmodified":1722117760,
     "wof:name":"Houtzdale",
     "wof:parent_id":102080967,
     "wof:placetype":"localadmin",
-    "wof:population":797,
+    "wof:population":743,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

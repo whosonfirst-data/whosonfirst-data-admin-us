@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010679,
-    "geom:area_square_m":90700343.068688,
+    "geom:area_square_m":90700343.068674,
     "geom:bbox":"-92.056522,46.57567,-91.931044,46.662259",
     "geom:latitude":46.618628,
     "geom:longitude":-91.993581,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.613917,
     "lbl:longitude":-91.984388,
     "lbl:max_zoom":16.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":5503161250,
     "uscensus:name":"Parkland",
     "uscensus:namelsad":"Parkland town",
+    "uscensus:population":1251,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5503161250
+        "uscensus:geoid":"5503161250"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474769
     ],
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404492705,
-    "wof:lastmodified":1605056004,
+    "wof:lastmodified":1722117821,
     "wof:name":"Parkland",
     "wof:parent_id":102081291,
     "wof:placetype":"localadmin",
-    "wof:population":1220,
+    "wof:population":1251,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

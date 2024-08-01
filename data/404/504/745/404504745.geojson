@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009586,
-    "geom:area_square_m":93457342.004459,
+    "geom:area_square_m":93457342.004454,
     "geom:bbox":"-98.252137,37.912013,-98.142031,37.999436",
     "geom:latitude":37.955703,
     "geom:longitude":-98.197067,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.955702,
     "lbl:longitude":-98.197066,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":155,
     "uscensus:geoid":2015577175,
     "uscensus:name":"Westminster",
     "uscensus:namelsad":"Westminster township",
+    "uscensus:population":188,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2015577175
+        "uscensus:geoid":"2015577175"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404504745,
-    "wof:lastmodified":1605055312,
+    "wof:lastmodified":1722233662,
     "wof:name":"Westminster Township",
     "wof:parent_id":102082171,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":196,
+    "wof:population":188,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

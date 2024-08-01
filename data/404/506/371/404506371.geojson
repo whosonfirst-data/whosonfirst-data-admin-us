@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01044,
-    "geom:area_square_m":93215945.903548,
+    "geom:area_square_m":93215945.903536,
     "geom:bbox":"-86.399177,43.730916,-86.277931,43.819417",
     "geom:latitude":43.775064,
     "geom:longitude":-86.338432,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.775078,
     "lbl:longitude":-86.338437,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":127,
     "uscensus:geoid":2612785040,
     "uscensus:name":"Weare",
     "uscensus:namelsad":"Weare township",
+    "uscensus:population":1241,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2612785040
+        "uscensus:geoid":"2612785040"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471387
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404506371,
-    "wof:lastmodified":1605055757,
+    "wof:lastmodified":1722117907,
     "wof:name":"Weare Township",
     "wof:parent_id":102083141,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1210,
+    "wof:population":1241,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

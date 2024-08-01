@@ -169,7 +169,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":3455695,
     "uscensus:awater":0,
     "uscensus:classfp":"C5",
@@ -185,17 +186,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"23445",
     "uscensus:placens":"02394445",
+    "uscensus:population":790,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"31",
     "wd:elevation":312.0,
     "wd:latitude":40.165,
     "wd:longitude":-95.9458,
     "wd:wordcount":852,
     "wof:belongsto":[
-        85688563,
         102191575,
-        404520739,
         85633793,
-        102082741
+        102082741,
+        404520739,
+        85688563
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -204,10 +207,11 @@
         "gn:id":5070522,
         "gp:id":2425509,
         "qs_pg:id":198161,
-        "uscensus:geoid":3123445,
+        "uscensus:geoid":"3123445",
         "wd:id":"Q963170",
         "wk:page":"Humboldt, Nebraska"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -228,11 +232,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885896,
+    "wof:lastmodified":1722116188,
     "wof:name":"Humboldt",
     "wof:parent_id":404520739,
     "wof:placetype":"locality",
-    "wof:population":877,
+    "wof:population":790,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

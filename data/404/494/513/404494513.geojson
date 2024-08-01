@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010568,
-    "geom:area_square_m":92290393.304179,
+    "geom:area_square_m":92290393.304175,
     "geom:bbox":"-88.364826,45.02607,-88.239971,45.114547",
     "geom:latitude":45.070292,
     "geom:longitude":-88.302324,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.070259,
     "lbl:longitude":-88.302335,
     "lbl:max_zoom":17.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":83,
     "uscensus:geoid":5508304275,
     "uscensus:name":"Bagley",
     "uscensus:namelsad":"Bagley town",
+    "uscensus:population":279,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5508304275
+        "uscensus:geoid":"5508304275"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467253
     ],
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404494513,
-    "wof:lastmodified":1605055975,
+    "wof:lastmodified":1722117833,
     "wof:name":"Bagley",
     "wof:parent_id":102081293,
     "wof:placetype":"localadmin",
-    "wof:population":291,
+    "wof:population":279,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

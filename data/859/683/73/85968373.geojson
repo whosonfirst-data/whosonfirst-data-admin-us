@@ -160,7 +160,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2587959,
     "uscensus:awater":20945,
     "uscensus:classfp":"C5",
@@ -176,17 +177,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"39050",
     "uscensus:placens":"02395072",
+    "uscensus:population":584,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"27",
     "wd:elevation":376.0,
     "wd:latitude":47.636944,
     "wd:longitude":-95.886389,
     "wd:wordcount":856,
     "wof:belongsto":[
-        85688727,
         102191575,
-        404510195,
         85633793,
-        102087599
+        102087599,
+        404510195,
+        85688727
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -195,10 +198,11 @@
         "gn:id":5037044,
         "gp:id":2448062,
         "qs_pg:id":156351,
-        "uscensus:geoid":2739050,
+        "uscensus:geoid":"2739050",
         "wd:id":"Q2227871",
         "wk:page":"McIntosh, Minnesota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -219,11 +223,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690885220,
+    "wof:lastmodified":1722116146,
     "wof:name":"McIntosh",
     "wof:parent_id":404510195,
     "wof:placetype":"locality",
-    "wof:population":625,
+    "wof:population":584,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

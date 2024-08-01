@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011159,
-    "geom:area_square_m":106369674.272543,
+    "geom:area_square_m":106369674.272541,
     "geom:bbox":"-83.670196,39.498869,-83.509208,39.617725",
     "geom:latitude":39.566645,
     "geom:longitude":-83.588062,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.577714,
     "lbl:longitude":-83.586837,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":47,
     "uscensus:geoid":3904738388,
     "uscensus:name":"Jasper",
     "uscensus:namelsad":"Jasper township",
+    "uscensus:population":687,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3904738388
+        "uscensus:geoid":"3904738388"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404524495,
-    "wof:lastmodified":1605056115,
+    "wof:lastmodified":1722233682,
     "wof:name":"Jasper Township",
     "wof:parent_id":102083691,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":745,
+    "wof:population":687,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

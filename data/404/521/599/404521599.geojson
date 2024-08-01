@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010221,
-    "geom:area_square_m":93854672.341832,
+    "geom:area_square_m":93854672.341849,
     "geom:bbox":"-78.3087,41.998968,-78.190934,42.086675",
     "geom:latitude":42.042964,
     "geom:longitude":-78.249788,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.042862,
     "lbl:longitude":-78.249793,
     "lbl:max_zoom":16.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3600328563,
     "uscensus:name":"Genesee",
     "uscensus:namelsad":"Genesee town",
+    "uscensus:population":1605,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3600328563
+        "uscensus:geoid":"3600328563"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461067
     ],
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404521599,
-    "wof:lastmodified":1605055633,
+    "wof:lastmodified":1722117987,
     "wof:name":"Genesee",
     "wof:parent_id":102082403,
     "wof:placetype":"localadmin",
-    "wof:population":1693,
+    "wof:population":1605,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

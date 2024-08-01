@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010348,
-    "geom:area_square_m":93128746.059153,
+    "geom:area_square_m":93128746.059136,
     "geom:bbox":"-98.345624,43.233426,-98.226762,43.340547",
     "geom:latitude":43.294693,
     "geom:longitude":-98.281411,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.294852,
     "lbl:longitude":-98.28144,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":43,
     "uscensus:geoid":4604331500,
     "uscensus:name":"Independence",
     "uscensus:namelsad":"Independence township",
+    "uscensus:population":141,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4604331500
+        "uscensus:geoid":"4604331500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459795
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404490031,
-    "wof:lastmodified":1605055511,
+    "wof:lastmodified":1722117804,
     "wof:name":"Independence Township",
     "wof:parent_id":102086053,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":119,
+    "wof:population":141,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

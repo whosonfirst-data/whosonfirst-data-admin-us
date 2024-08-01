@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009409,
-    "geom:area_square_m":91624760.548102,
+    "geom:area_square_m":91624760.548255,
     "geom:bbox":"-97.592119,37.999459,-97.4818,38.086908",
     "geom:latitude":38.044034,
     "geom:longitude":-97.537557,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.045376,
     "lbl:longitude":-97.540491,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":79,
     "uscensus:geoid":2007929625,
     "uscensus:name":"Halstead",
     "uscensus:namelsad":"Halstead township",
+    "uscensus:population":411,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2007929625
+        "uscensus:geoid":"2007929625"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464907
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404504071,
-    "wof:lastmodified":1605055298,
+    "wof:lastmodified":1722117890,
     "wof:name":"Halstead Township",
     "wof:parent_id":102083457,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":365,
+    "wof:population":411,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

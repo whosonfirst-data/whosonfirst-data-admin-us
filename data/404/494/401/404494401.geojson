@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010353,
-    "geom:area_square_m":92441964.555908,
+    "geom:area_square_m":92441964.555876,
     "geom:bbox":"-90.910999,43.725334,-90.79066,43.8131",
     "geom:latitude":43.769466,
     "geom:longitude":-90.851431,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.769174,
     "lbl:longitude":-90.851409,
     "lbl:max_zoom":17.0,
@@ -214,22 +220,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":81,
     "uscensus:geoid":5508164425,
     "uscensus:name":"Portland",
     "uscensus:namelsad":"Portland town",
+    "uscensus:population":845,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081777
+        102081777,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5508164425
+        "uscensus:geoid":"5508164425"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463807
     ],
@@ -248,11 +258,11 @@
         }
     ],
     "wof:id":404494401,
-    "wof:lastmodified":1636499401,
+    "wof:lastmodified":1722117832,
     "wof:name":"Portland",
     "wof:parent_id":102081777,
     "wof:placetype":"localadmin",
-    "wof:population":808,
+    "wof:population":845,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

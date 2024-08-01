@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010406,
-    "geom:area_square_m":92910796.020066,
+    "geom:area_square_m":92910796.020072,
     "geom:bbox":"-86.158457,43.728329,-86.037884,43.81614",
     "geom:latitude":43.772459,
     "geom:longitude":-86.098434,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.772331,
     "lbl:longitude":-86.098452,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":127,
     "uscensus:geoid":2612717180,
     "uscensus:name":"Colfax",
     "uscensus:namelsad":"Colfax township",
+    "uscensus:population":454,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2612717180
+        "uscensus:geoid":"2612717180"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469793
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404506363,
-    "wof:lastmodified":1605055751,
+    "wof:lastmodified":1722117907,
     "wof:name":"Colfax Township",
     "wof:parent_id":102083141,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":462,
+    "wof:population":454,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

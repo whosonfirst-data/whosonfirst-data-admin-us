@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012233,
-    "geom:area_square_m":109477565.130386,
+    "geom:area_square_m":109477565.130345,
     "geom:bbox":"-73.243247,43.584749,-73.09569,43.68004",
     "geom:latitude":43.632645,
     "geom:longitude":-73.174152,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.632117,
     "lbl:longitude":-73.174152,
     "lbl:max_zoom":15.0,
@@ -70,11 +76,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":5002111950,
     "uscensus:name":"Castleton",
     "uscensus:namelsad":"Castleton town",
+    "uscensus:population":4442,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -84,8 +93,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5002111950
+        "uscensus:geoid":"5002111950"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -101,11 +111,11 @@
         }
     ],
     "wof:id":404527287,
-    "wof:lastmodified":1605055678,
+    "wof:lastmodified":1722118029,
     "wof:name":"Castleton",
     "wof:parent_id":102080771,
     "wof:placetype":"localadmin",
-    "wof:population":4717,
+    "wof:population":4442,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

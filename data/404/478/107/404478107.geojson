@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001085,
-    "geom:area_square_m":10160544.668083,
+    "geom:area_square_m":10160544.668076,
     "geom:bbox":"-74.238256,40.745083,-74.189759,40.788213",
     "geom:latitude":40.765056,
     "geom:longitude":-74.211654,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.765519,
     "lbl:longitude":-74.20724,
     "lbl:max_zoom":14.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":3401319390,
     "uscensus:name":"East Orange",
     "uscensus:namelsad":"East Orange city",
+    "uscensus:population":69556,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3401319390
+        "uscensus:geoid":"3401319390"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404478107,
-    "wof:lastmodified":1605055344,
+    "wof:lastmodified":1722117727,
     "wof:name":"East Orange",
     "wof:parent_id":102085043,
     "wof:placetype":"localadmin",
-    "wof:population":64270,
+    "wof:population":69556,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

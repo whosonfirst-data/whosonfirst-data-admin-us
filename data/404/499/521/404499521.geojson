@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009904,
-    "geom:area_square_m":95351127.239671,
+    "geom:area_square_m":95351127.23971,
     "geom:bbox":"-88.807601,38.82447,-88.693531,38.914617",
     "geom:latitude":38.869306,
     "geom:longitude":-88.750668,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.869284,
     "lbl:longitude":-88.75067,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":1705140533,
     "uscensus:name":"La Clede",
     "uscensus:namelsad":"La Clede township",
+    "uscensus:population":859,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1705140533
+        "uscensus:geoid":"1705140533"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404499521,
-    "wof:lastmodified":1605055543,
+    "wof:lastmodified":1722233646,
     "wof:name":"La Clede Township",
     "wof:parent_id":102082287,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":909,
+    "wof:population":859,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

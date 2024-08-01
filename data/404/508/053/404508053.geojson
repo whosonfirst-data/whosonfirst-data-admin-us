@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01036,
-    "geom:area_square_m":93659803.491614,
+    "geom:area_square_m":93659803.491632,
     "geom:bbox":"-83.226685,42.972824,-83.104013,43.064378",
     "geom:latitude":43.018527,
     "geom:longitude":-83.165393,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.018489,
     "lbl:longitude":-83.165395,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":87,
     "uscensus:geoid":2608704040,
     "uscensus:name":"Attica",
     "uscensus:namelsad":"Attica township",
+    "uscensus:population":4713,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2608704040
+        "uscensus:geoid":"2608704040"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404508053,
-    "wof:lastmodified":1605055737,
+    "wof:lastmodified":1722117919,
     "wof:name":"Attica Township",
     "wof:parent_id":102083637,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":4755,
+    "wof:population":4713,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.016963,
-    "geom:area_square_m":152059627.819862,
+    "geom:area_square_m":152059627.819903,
     "geom:bbox":"-73.470566,43.471694,-73.301863,43.628017",
     "geom:latitude":43.536703,
     "geom:longitude":-73.380507,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.527092,
     "lbl:longitude":-73.373678,
     "lbl:max_zoom":15.0,
@@ -148,11 +154,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":3611581633,
     "uscensus:name":"Whitehall",
     "uscensus:namelsad":"Whitehall town",
+    "uscensus:population":3993,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -162,8 +171,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3611581633
+        "uscensus:geoid":"3611581633"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -179,11 +189,11 @@
         }
     ],
     "wof:id":404523329,
-    "wof:lastmodified":1605056099,
+    "wof:lastmodified":1722233679,
     "wof:name":"Whitehall",
     "wof:parent_id":102083153,
     "wof:placetype":"localadmin",
-    "wof:population":4042,
+    "wof:population":3993,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

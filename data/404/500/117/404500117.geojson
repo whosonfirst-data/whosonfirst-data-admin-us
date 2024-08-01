@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006792,
-    "geom:area_square_m":63586406.288655,
+    "geom:area_square_m":63586406.288644,
     "geom:bbox":"-84.880704,40.745952,-84.802144,40.834685",
     "geom:latitude":40.7904,
     "geom:longitude":-84.841184,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.790344,
     "lbl:longitude":-84.841182,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":1800167068,
     "uscensus:name":"St. Marys",
     "uscensus:namelsad":"St. Marys township",
+    "uscensus:population":1278,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1800167068
+        "uscensus:geoid":"1800167068"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478379
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404500117,
-    "wof:lastmodified":1604969682,
+    "wof:lastmodified":1722117864,
     "wof:name":"St. Marys Township",
     "wof:parent_id":102087151,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1308,
+    "wof:population":1278,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

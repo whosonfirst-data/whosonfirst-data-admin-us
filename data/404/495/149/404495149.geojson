@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009775,
-    "geom:area_square_m":88910983.242153,
+    "geom:area_square_m":88910983.242216,
     "geom:bbox":"-89.486119,42.595748,-89.366768,42.6836",
     "geom:latitude":42.64104,
     "geom:longitude":-89.428824,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.639832,
     "lbl:longitude":-89.429632,
     "lbl:max_zoom":16.0,
@@ -121,22 +127,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":5504519075,
     "uscensus:name":"Decatur",
     "uscensus:namelsad":"Decatur town",
+    "uscensus:population":1709,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081827
+        102081827,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5504519075
+        "uscensus:geoid":"5504519075"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472447
     ],
@@ -155,11 +165,11 @@
         }
     ],
     "wof:id":404495149,
-    "wof:lastmodified":1636499420,
+    "wof:lastmodified":1722117837,
     "wof:name":"Decatur",
     "wof:parent_id":102081827,
     "wof:placetype":"localadmin",
-    "wof:population":1767,
+    "wof:population":1709,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

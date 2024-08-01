@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003767,
-    "geom:area_square_m":35029326.953186,
+    "geom:area_square_m":35029326.953168,
     "geom:bbox":"-77.194271,41.195999,-77.089647,41.269065",
     "geom:latitude":41.237717,
     "geom:longitude":-77.14615,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.239603,
     "lbl:longitude":-77.158416,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":81,
     "uscensus:geoid":4208186456,
     "uscensus:name":"Woodward",
     "uscensus:namelsad":"Woodward township",
+    "uscensus:population":2009,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4208186456
+        "uscensus:geoid":"4208186456"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729454395
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404485359,
-    "wof:lastmodified":1605055364,
+    "wof:lastmodified":1722117773,
     "wof:name":"Woodward Township",
     "wof:parent_id":102081317,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2200,
+    "wof:population":2009,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

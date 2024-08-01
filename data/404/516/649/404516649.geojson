@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012313,
-    "geom:area_square_m":117442529.836329,
+    "geom:area_square_m":117442529.836332,
     "geom:bbox":"-92.850786,39.473093,-92.696592,39.611375",
     "geom:latitude":39.522784,
     "geom:longitude":-92.757295,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.518796,
     "lbl:longitude":-92.743264,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":2904177902,
     "uscensus:name":"Wayland",
     "uscensus:namelsad":"Wayland township",
+    "uscensus:population":152,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":29,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2904177902
+        "uscensus:geoid":"2904177902"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458107
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404516649,
-    "wof:lastmodified":1604969578,
+    "wof:lastmodified":1722117975,
     "wof:name":"Wayland Township",
     "wof:parent_id":102087475,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":157,
+    "wof:population":152,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

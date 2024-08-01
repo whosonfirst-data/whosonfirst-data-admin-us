@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011041,
-    "geom:area_square_m":92769855.760515,
+    "geom:area_square_m":92769855.760524,
     "geom:bbox":"-97.19734,47.151634,-97.070025,47.238814",
     "geom:latitude":47.195271,
     "geom:longitude":-97.133704,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.195318,
     "lbl:longitude":-97.133705,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":3801705900,
     "uscensus:name":"Bell",
     "uscensus:namelsad":"Bell township",
+    "uscensus:population":40,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3801705900
+        "uscensus:geoid":"3801705900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474285
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404478861,
-    "wof:lastmodified":1605055338,
+    "wof:lastmodified":1722117733,
     "wof:name":"Bell Township",
     "wof:parent_id":102082073,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":36,
+    "wof:population":40,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

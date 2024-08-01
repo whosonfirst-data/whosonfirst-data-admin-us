@@ -10,6 +10,12 @@
     "geom:latitude":43.589304,
     "geom:longitude":-98.437636,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.589281,
     "lbl:longitude":-98.43764,
     "lbl:max_zoom":17.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4600361700,
     "uscensus:name":"Stickney",
     "uscensus:namelsad":"Stickney town",
+    "uscensus:population":318,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4600361700
+        "uscensus:geoid":"4600361700"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404489955,
-    "wof:lastmodified":1605055922,
+    "wof:lastmodified":1722117803,
     "wof:name":"Stickney",
     "wof:parent_id":102086839,
     "wof:placetype":"localadmin",
-    "wof:population":284,
+    "wof:population":318,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

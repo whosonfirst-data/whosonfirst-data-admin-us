@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000031,
-    "geom:area_square_m":276959.992751,
+    "geom:area_square_m":276959.99275,
     "geom:bbox":"-96.05859,44.232788,-96.04827,44.240041",
     "geom:latitude":44.237215,
     "geom:longitude":-96.051938,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.237607,
     "lbl:longitude":-96.051388,
     "lbl:max_zoom":18.0,
@@ -460,11 +466,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":83,
     "uscensus:geoid":2708321410,
     "uscensus:name":"Florence",
     "uscensus:namelsad":"Florence city",
+    "uscensus:population":25,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -474,8 +483,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2708321410
+        "uscensus:geoid":"2708321410"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -491,11 +501,11 @@
         }
     ],
     "wof:id":404509727,
-    "wof:lastmodified":1605055800,
+    "wof:lastmodified":1722117931,
     "wof:name":"Florence",
     "wof:parent_id":102087885,
     "wof:placetype":"localadmin",
-    "wof:population":39,
+    "wof:population":25,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

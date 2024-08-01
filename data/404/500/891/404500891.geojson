@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012666,
-    "geom:area_square_m":123341162.994574,
+    "geom:area_square_m":123341162.994601,
     "geom:bbox":"-86.133328,37.958171,-86.011114,38.113464",
     "geom:latitude":38.045582,
     "geom:longitude":-86.069822,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.047109,
     "lbl:longitude":-86.064891,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":1806106544,
     "uscensus:name":"Boone",
     "uscensus:namelsad":"Boone township",
+    "uscensus:population":1309,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1806106544
+        "uscensus:geoid":"1806106544"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404500891,
-    "wof:lastmodified":1604530784,
+    "wof:lastmodified":1722233651,
     "wof:name":"Boone Township",
     "wof:parent_id":102087165,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1391,
+    "wof:population":1309,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

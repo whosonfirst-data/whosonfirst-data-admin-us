@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01134,
-    "geom:area_square_m":92911348.71557,
+    "geom:area_square_m":92911348.715561,
     "geom:bbox":"-103.146558,48.459463,-103.015555,48.547036",
     "geom:latitude":48.503009,
     "geom:longitude":-103.081056,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.503008,
     "lbl:longitude":-103.081063,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":3810574260,
     "uscensus:name":"South Meadow",
     "uscensus:namelsad":"South Meadow township",
+    "uscensus:population":25,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3810574260
+        "uscensus:geoid":"3810574260"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456661
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404482105,
-    "wof:lastmodified":1605055376,
+    "wof:lastmodified":1722117754,
     "wof:name":"South Meadow Township",
     "wof:parent_id":102082069,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":23,
+    "wof:population":25,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

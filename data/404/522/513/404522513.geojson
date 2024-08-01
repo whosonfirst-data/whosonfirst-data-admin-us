@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.031494,
-    "geom:area_square_m":295455574.892208,
+    "geom:area_square_m":295455574.892154,
     "geom:bbox":"-73.4385,40.534265,-73.263286,40.784297",
     "geom:latitude":40.652157,
     "geom:longitude":-73.353933,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.62651,
     "lbl:longitude":-73.352268,
     "lbl:max_zoom":13.0,
@@ -323,11 +329,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":103,
     "uscensus:geoid":3610304000,
     "uscensus:name":"Babylon",
     "uscensus:namelsad":"Babylon town",
+    "uscensus:population":217046,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -339,8 +348,9 @@
     "wof:concordances":{
         "gp:id":12610006,
         "qs_pg:id":402663,
-        "uscensus:geoid":3610304000
+        "uscensus:geoid":"3610304000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -357,11 +367,11 @@
         }
     ],
     "wof:id":404522513,
-    "wof:lastmodified":1605056081,
+    "wof:lastmodified":1722233676,
     "wof:name":"Babylon",
     "wof:parent_id":102082395,
     "wof:placetype":"localadmin",
-    "wof:population":213603,
+    "wof:population":217046,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

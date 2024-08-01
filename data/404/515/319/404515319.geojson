@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010943,
-    "geom:area_square_m":103139510.988633,
+    "geom:area_square_m":103139510.988636,
     "geom:bbox":"-94.350103,40.296716,-94.21425,40.38665",
     "geom:latitude":40.341052,
     "geom:longitude":-94.277813,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.342153,
     "lbl:longitude":-94.277818,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":75,
     "uscensus:geoid":2907533328,
     "uscensus:name":"Howard",
     "uscensus:namelsad":"Howard township",
+    "uscensus:population":100,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":29,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2907533328
+        "uscensus:geoid":"2907533328"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729479809
     ],
@@ -86,7 +96,7 @@
         }
     ],
     "wof:id":404515319,
-    "wof:lastmodified":1604970181,
+    "wof:lastmodified":1722117972,
     "wof:name":"Howard Township",
     "wof:parent_id":102085311,
     "wof:placetype":"localadmin",

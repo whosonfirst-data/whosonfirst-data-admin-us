@@ -145,7 +145,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":2420655,
     "uscensus:awater":433,
     "uscensus:classfp":"C5",
@@ -161,16 +162,18 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"66260",
     "uscensus:placens":"01267610",
+    "uscensus:population":878,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"46",
     "wd:latitude":43.583611,
     "wd:longitude":-96.464444,
     "wd:wordcount":860,
     "wof:belongsto":[
-        85688693,
         102191575,
-        404491245,
         85633793,
-        102086007
+        102086007,
+        404491245,
+        85688693
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -179,10 +182,11 @@
         "gn:id":5232557,
         "gp:id":2510933,
         "qs_pg:id":466676,
-        "uscensus:geoid":4666260,
+        "uscensus:geoid":"4666260",
         "wd:id":"Q2800844",
         "wk:page":"Valley Springs, South Dakota"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -203,11 +207,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889598,
+    "wof:lastmodified":1722116337,
     "wof:name":"Valley Springs",
     "wof:parent_id":404491245,
     "wof:placetype":"locality",
-    "wof:population":759,
+    "wof:population":878,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

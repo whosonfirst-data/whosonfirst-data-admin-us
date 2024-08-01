@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000121,
-    "geom:area_square_m":1138318.494286,
+    "geom:area_square_m":1138318.494285,
     "geom:bbox":"-80.298611,40.361785,-80.285033,40.378633",
     "geom:latitude":40.368664,
     "geom:longitude":-80.291209,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.367405,
     "lbl:longitude":-80.291106,
     "lbl:max_zoom":17.0,
@@ -127,11 +133,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":4212549240,
     "uscensus:name":"Midway",
     "uscensus:namelsad":"Midway borough",
+    "uscensus:population":915,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -141,8 +150,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212549240
+        "uscensus:geoid":"4212549240"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -158,11 +168,11 @@
         }
     ],
     "wof:id":404483975,
-    "wof:lastmodified":1605055450,
+    "wof:lastmodified":1722117765,
     "wof:name":"Midway",
     "wof:parent_id":102081343,
     "wof:placetype":"localadmin",
-    "wof:population":913,
+    "wof:population":915,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

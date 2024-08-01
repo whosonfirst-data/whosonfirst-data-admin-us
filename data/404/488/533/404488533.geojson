@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010293,
-    "geom:area_square_m":93288631.532368,
+    "geom:area_square_m":93288631.532352,
     "geom:bbox":"-97.042886,42.822665,-96.924266,42.910065",
     "geom:latitude":42.866291,
     "geom:longitude":-96.983504,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.866314,
     "lbl:longitude":-96.983523,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":4602760260,
     "uscensus:name":"Spirit Mound",
     "uscensus:namelsad":"Spirit Mound township",
+    "uscensus:population":220,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4602760260
+        "uscensus:geoid":"4602760260"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465241
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404488533,
-    "wof:lastmodified":1605055801,
+    "wof:lastmodified":1722117794,
     "wof:name":"Spirit Mound Township",
     "wof:parent_id":102086833,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":218,
+    "wof:population":220,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

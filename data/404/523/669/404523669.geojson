@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006994,
-    "geom:area_square_m":65850265.680806,
+    "geom:area_square_m":65850265.680811,
     "geom:bbox":"-81.992636,40.37564,-81.893872,40.451309",
     "geom:latitude":40.413353,
     "geom:longitude":-81.942926,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.413342,
     "lbl:longitude":-81.942921,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":3903115266,
     "uscensus:name":"Clark",
     "uscensus:namelsad":"Clark township",
+    "uscensus:population":658,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3903115266
+        "uscensus:geoid":"3903115266"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470961
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404523669,
-    "wof:lastmodified":1605056088,
+    "wof:lastmodified":1722118003,
     "wof:name":"Clark Township",
     "wof:parent_id":102083635,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":586,
+    "wof:population":658,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

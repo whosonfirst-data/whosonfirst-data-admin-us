@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.021615,
-    "geom:area_square_m":188022809.605873,
+    "geom:area_square_m":188022809.605865,
     "geom:bbox":"-89.920156,45.206649,-89.755608,45.381543",
     "geom:latitude":45.293423,
     "geom:longitude":-89.857452,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.294094,
     "lbl:longitude":-89.857453,
     "lbl:max_zoom":17.0,
@@ -100,11 +106,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":69,
     "uscensus:geoid":5506932650,
     "uscensus:name":"Harding",
     "uscensus:namelsad":"Harding town",
+    "uscensus:population":371,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -114,8 +123,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5506932650
+        "uscensus:geoid":"5506932650"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471517
     ],
@@ -134,11 +144,11 @@
         }
     ],
     "wof:id":404491993,
-    "wof:lastmodified":1605055584,
+    "wof:lastmodified":1722117816,
     "wof:name":"Harding",
     "wof:parent_id":102081889,
     "wof:placetype":"localadmin",
-    "wof:population":372,
+    "wof:population":371,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

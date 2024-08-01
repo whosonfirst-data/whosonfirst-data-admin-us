@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000099,
-    "geom:area_square_m":924920.835489,
+    "geom:area_square_m":924920.83549,
     "geom:bbox":"-75.409128,40.75332,-75.392652,40.764158",
     "geom:latitude":40.758527,
     "geom:longitude":-75.401352,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.758741,
     "lbl:longitude":-75.401352,
     "lbl:max_zoom":18.0,
@@ -106,11 +112,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":4209512656,
     "uscensus:name":"Chapman",
     "uscensus:namelsad":"Chapman borough",
+    "uscensus:population":220,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -120,8 +129,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4209512656
+        "uscensus:geoid":"4209512656"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -137,12 +147,12 @@
         }
     ],
     "wof:id":404485991,
-    "wof:lastmodified":1605055355,
+    "wof:lastmodified":1722117777,
     "wof:name":"Chapman",
     "wof:parent_id":102081395,
     "wof:placetype":"localadmin",
-    "wof:population":199,
-    "wof:population_rank":1,
+    "wof:population":220,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

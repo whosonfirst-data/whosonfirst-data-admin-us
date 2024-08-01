@@ -10,6 +10,12 @@
     "geom:latitude":48.619859,
     "geom:longitude":-103.936689,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.620552,
     "lbl:longitude":-103.933614,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":105,
     "uscensus:geoid":3810533500,
     "uscensus:name":"Grenora",
     "uscensus:namelsad":"Grenora city",
+    "uscensus:population":214,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3810533500
+        "uscensus:geoid":"3810533500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404482069,
-    "wof:lastmodified":1605055389,
+    "wof:lastmodified":1722117754,
     "wof:name":"Grenora",
     "wof:parent_id":102082069,
     "wof:placetype":"localadmin",
-    "wof:population":244,
+    "wof:population":214,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

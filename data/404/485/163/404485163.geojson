@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00163,
-    "geom:area_square_m":15440003.629572,
+    "geom:area_square_m":15440003.62959,
     "geom:bbox":"-75.879238,39.96155,-75.806615,40.004886",
     "geom:latitude":39.984841,
     "geom:longitude":-75.850219,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.982755,
     "lbl:longitude":-75.855342,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":4202979544,
     "uscensus:name":"Valley",
     "uscensus:namelsad":"Valley township",
+    "uscensus:population":7969,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202979544
+        "uscensus:geoid":"4202979544"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404485163,
-    "wof:lastmodified":1605055365,
+    "wof:lastmodified":1722117772,
     "wof:name":"Valley Township",
     "wof:parent_id":102081275,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":6794,
+    "wof:population":7969,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

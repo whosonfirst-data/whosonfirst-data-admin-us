@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.016683,
-    "geom:area_square_m":150309768.811142,
+    "geom:area_square_m":150309768.811102,
     "geom:bbox":"-73.986197,43.1789,-73.748056,43.278919",
     "geom:latitude":43.226858,
     "geom:longitude":-73.884742,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.230979,
     "lbl:longitude":-73.88475,
     "lbl:max_zoom":15.0,
@@ -232,11 +238,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":91,
     "uscensus:geoid":3609118223,
     "uscensus:name":"Corinth",
     "uscensus:namelsad":"Corinth town",
+    "uscensus:population":6623,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -246,8 +255,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3609118223
+        "uscensus:geoid":"3609118223"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -263,11 +273,11 @@
         }
     ],
     "wof:id":404521589,
-    "wof:lastmodified":1605055632,
+    "wof:lastmodified":1722233674,
     "wof:name":"Corinth",
     "wof:parent_id":102082413,
     "wof:placetype":"localadmin",
-    "wof:population":6531,
+    "wof:population":6623,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

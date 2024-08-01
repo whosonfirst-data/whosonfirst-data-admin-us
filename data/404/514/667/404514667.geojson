@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000417,
-    "geom:area_square_m":3633281.500574,
+    "geom:area_square_m":3633281.500572,
     "geom:bbox":"-95.932796,45.231579,-95.891121,45.253768",
     "geom:latitude":45.244087,
     "geom:longitude":-95.911181,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.244557,
     "lbl:longitude":-95.911184,
     "lbl:max_zoom":18.0,
@@ -94,11 +100,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":151,
     "uscensus:geoid":2715129672,
     "uscensus:name":"Holloway",
     "uscensus:namelsad":"Holloway city",
+    "uscensus:population":84,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -108,8 +117,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2715129672
+        "uscensus:geoid":"2715129672"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -125,11 +135,11 @@
         }
     ],
     "wof:id":404514667,
-    "wof:lastmodified":1605056018,
+    "wof:lastmodified":1722117967,
     "wof:name":"Holloway",
     "wof:parent_id":102087023,
     "wof:placetype":"localadmin",
-    "wof:population":92,
+    "wof:population":84,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

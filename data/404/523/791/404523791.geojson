@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000071,
-    "geom:area_square_m":676706.248844,
+    "geom:area_square_m":676706.248842,
     "geom:bbox":"-84.46329,39.211427,-84.447826,39.219509",
     "geom:latitude":39.215345,
     "geom:longitude":-84.455542,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "village"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.214632,
     "lbl:longitude":-84.458008,
     "lbl:max_zoom":17.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":3906102428,
     "uscensus:name":"Arlington Heights",
     "uscensus:namelsad":"Arlington Heights village",
+    "uscensus:population":810,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3906102428
+        "uscensus:geoid":"3906102428"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404523791,
-    "wof:lastmodified":1605056084,
+    "wof:lastmodified":1722118004,
     "wof:name":"Arlington Heights",
     "wof:parent_id":102083687,
     "wof:placetype":"localadmin",
-    "wof:population":745,
+    "wof:population":810,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

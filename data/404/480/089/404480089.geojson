@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010819,
-    "geom:area_square_m":90900387.325722,
+    "geom:area_square_m":90900387.32572,
     "geom:bbox":"-98.467304,47.153387,-98.339996,47.240645",
     "geom:latitude":47.197545,
     "geom:longitude":-98.402827,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.197131,
     "lbl:longitude":-98.402824,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3800362460,
     "uscensus:name":"Pierce",
     "uscensus:namelsad":"Pierce township",
+    "uscensus:population":65,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3800362460
+        "uscensus:geoid":"3800362460"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473493
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404480089,
-    "wof:lastmodified":1605055914,
+    "wof:lastmodified":1722117742,
     "wof:name":"Pierce Township",
     "wof:parent_id":102082051,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":74,
+    "wof:population":65,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

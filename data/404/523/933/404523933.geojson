@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012459,
-    "geom:area_square_m":119564381.127733,
+    "geom:area_square_m":119564381.127716,
     "geom:bbox":"-83.385637,39.041477,-83.211629,39.160832",
     "geom:latitude":39.09253,
     "geom:longitude":-83.295094,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.093819,
     "lbl:longitude":-83.293448,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":131,
     "uscensus:geoid":3913150078,
     "uscensus:name":"Mifflin",
     "uscensus:namelsad":"Mifflin township",
+    "uscensus:population":1193,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3913150078
+        "uscensus:geoid":"3913150078"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471999
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404523933,
-    "wof:lastmodified":1605056094,
+    "wof:lastmodified":1722118004,
     "wof:name":"Mifflin Township",
     "wof:parent_id":102084711,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1305,
+    "wof:population":1193,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

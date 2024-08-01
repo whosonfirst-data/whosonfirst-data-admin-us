@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000122,
-    "geom:area_square_m":1021169.557316,
+    "geom:area_square_m":1021169.557315,
     "geom:bbox":"-99.404892,47.460137,-99.394042,47.471877",
     "geom:latitude":47.466071,
     "geom:longitude":-99.399315,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.465993,
     "lbl:longitude":-99.399243,
     "lbl:max_zoom":18.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":103,
     "uscensus:geoid":3810377660,
     "uscensus:name":"Sykeston",
     "uscensus:namelsad":"Sykeston city",
+    "uscensus:population":99,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3810377660
+        "uscensus:geoid":"3810377660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404479797,
-    "wof:lastmodified":1605055469,
+    "wof:lastmodified":1722117740,
     "wof:name":"Sykeston",
     "wof:parent_id":102081507,
     "wof:placetype":"localadmin",
-    "wof:population":117,
+    "wof:population":99,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

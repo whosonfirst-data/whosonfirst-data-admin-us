@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014472,
-    "geom:area_square_m":133316847.496675,
+    "geom:area_square_m":133316847.496673,
     "geom:bbox":"-75.476376,41.784637,-75.322278,41.904438",
     "geom:latitude":41.841406,
     "geom:longitude":-75.399092,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.841302,
     "lbl:longitude":-75.397626,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":127,
     "uscensus:geoid":4212762600,
     "uscensus:name":"Preston",
     "uscensus:namelsad":"Preston township",
+    "uscensus:population":1009,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212762600
+        "uscensus:geoid":"4212762600"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473547
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404484081,
-    "wof:lastmodified":1605055464,
+    "wof:lastmodified":1722117766,
     "wof:name":"Preston Township",
     "wof:parent_id":102081379,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1014,
+    "wof:population":1009,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

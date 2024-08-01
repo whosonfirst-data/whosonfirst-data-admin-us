@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000426,
-    "geom:area_square_m":3661917.972504,
+    "geom:area_square_m":3661917.972511,
     "geom:bbox":"-98.539552,45.991689,-98.508011,46.02041",
     "geom:latitude":46.004355,
     "geom:longitude":-98.525354,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.002781,
     "lbl:longitude":-98.524041,
     "lbl:max_zoom":16.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":3802123220,
     "uscensus:name":"Ellendale",
     "uscensus:namelsad":"Ellendale city",
+    "uscensus:population":1093,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3802123220
+        "uscensus:geoid":"3802123220"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -104,11 +114,11 @@
         }
     ],
     "wof:id":404479901,
-    "wof:lastmodified":1605055470,
+    "wof:lastmodified":1722117741,
     "wof:name":"Ellendale",
     "wof:parent_id":102082079,
     "wof:placetype":"localadmin",
-    "wof:population":1394,
+    "wof:population":1093,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

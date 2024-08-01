@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009818,
-    "geom:area_square_m":92341862.130525,
+    "geom:area_square_m":92341862.130455,
     "geom:bbox":"-98.278235,40.437254,-98.165086,40.524677",
     "geom:latitude":40.480951,
     "geom:longitude":-98.221668,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.480961,
     "lbl:longitude":-98.221671,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":3103519105,
     "uscensus:name":"Glenvil",
     "uscensus:namelsad":"Glenvil township",
+    "uscensus:population":394,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3103519105
+        "uscensus:geoid":"3103519105"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404519727,
-    "wof:lastmodified":1605055676,
+    "wof:lastmodified":1722233671,
     "wof:name":"Glenvil Township",
     "wof:parent_id":102082241,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":443,
+    "wof:population":394,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002058,
-    "geom:area_square_m":18790075.254197,
+    "geom:area_square_m":18790075.254193,
     "geom:bbox":"-71.725984,42.389163,-71.65674,42.436744",
     "geom:latitude":42.411899,
     "geom:longitude":-71.688837,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.413681,
     "lbl:longitude":-71.685405,
     "lbl:max_zoom":15.0,
@@ -67,11 +73,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":2502714395,
     "uscensus:name":"Clinton",
     "uscensus:namelsad":"Clinton town",
+    "uscensus:population":15530,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -81,8 +90,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2502714395
+        "uscensus:geoid":"2502714395"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -98,11 +108,11 @@
         }
     ],
     "wof:id":404476543,
-    "wof:lastmodified":1605055400,
+    "wof:lastmodified":1722117715,
     "wof:name":"Clinton",
     "wof:parent_id":102084655,
     "wof:placetype":"localadmin",
-    "wof:population":13606,
+    "wof:population":15530,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

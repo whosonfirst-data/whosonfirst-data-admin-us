@@ -10,6 +10,12 @@
     "geom:latitude":45.456917,
     "geom:longitude":-97.673227,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.456892,
     "lbl:longitude":-97.673226,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":37,
     "uscensus:geoid":4603739580,
     "uscensus:name":"Lynn",
     "uscensus:namelsad":"Lynn township",
+    "uscensus:population":32,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4603739580
+        "uscensus:geoid":"4603739580"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729478931
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404489777,
-    "wof:lastmodified":1605055928,
+    "wof:lastmodified":1722117802,
     "wof:name":"Lynn Township",
     "wof:parent_id":102086871,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":41,
+    "wof:population":32,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

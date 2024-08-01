@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010431,
-    "geom:area_square_m":93812474.368729,
+    "geom:area_square_m":93812474.368703,
     "geom:bbox":"-86.277293,43.294704,-86.157471,43.383832",
     "geom:latitude":43.339183,
     "geom:longitude":-86.217334,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.339143,
     "lbl:longitude":-86.217334,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":121,
     "uscensus:geoid":2612119660,
     "uscensus:name":"Dalton",
     "uscensus:namelsad":"Dalton township",
+    "uscensus:population":9562,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2612119660
+        "uscensus:geoid":"2612119660"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404507899,
-    "wof:lastmodified":1605055781,
+    "wof:lastmodified":1722233667,
     "wof:name":"Dalton Township",
     "wof:parent_id":102083707,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":9300,
+    "wof:population":9562,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

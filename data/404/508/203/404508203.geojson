@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000465,
-    "geom:area_square_m":4222308.824635,
+    "geom:area_square_m":4222308.824629,
     "geom:bbox":"-83.341965,42.683893,-83.303094,42.701346",
     "geom:latitude":42.692132,
     "geom:longitude":-83.321482,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.691812,
     "lbl:longitude":-83.321507,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":2612544440,
     "uscensus:name":"Lake Angelus",
     "uscensus:namelsad":"Lake Angelus city",
+    "uscensus:population":288,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2612544440
+        "uscensus:geoid":"2612544440"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404508203,
-    "wof:lastmodified":1605055737,
+    "wof:lastmodified":1722117920,
     "wof:name":"Lake Angelus",
     "wof:parent_id":102083713,
     "wof:placetype":"localadmin",
-    "wof:population":290,
+    "wof:population":288,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

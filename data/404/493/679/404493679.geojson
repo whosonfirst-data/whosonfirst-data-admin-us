@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009757,
-    "geom:area_square_m":86092580.745959,
+    "geom:area_square_m":86092580.745962,
     "geom:bbox":"-90.199101,44.424292,-90.079519,44.511883",
     "geom:latitude":44.469763,
     "geom:longitude":-90.139728,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.48245,
     "lbl:longitude":-90.138936,
     "lbl:max_zoom":17.0,
@@ -388,11 +394,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":141,
     "uscensus:geoid":5514188575,
     "uscensus:name":"Wood",
     "uscensus:namelsad":"Wood town",
+    "uscensus:population":750,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -402,8 +411,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5514188575
+        "uscensus:geoid":"5514188575"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461367
     ],
@@ -422,11 +432,11 @@
         }
     ],
     "wof:id":404493679,
-    "wof:lastmodified":1605055953,
+    "wof:lastmodified":1722117827,
     "wof:name":"Wood",
     "wof:parent_id":102081737,
     "wof:placetype":"localadmin",
-    "wof:population":796,
+    "wof:population":750,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

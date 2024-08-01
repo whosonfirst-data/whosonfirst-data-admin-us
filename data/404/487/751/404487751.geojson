@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000163,
-    "geom:area_square_m":1537442.902935,
+    "geom:area_square_m":1537442.902933,
     "geom:bbox":"-79.867805,40.10492,-79.850088,40.121253",
     "geom:latitude":40.113038,
     "geom:longitude":-79.859152,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.112697,
     "lbl:longitude":-79.857072,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":4212520328,
     "uscensus:name":"Dunlevy",
     "uscensus:namelsad":"Dunlevy borough",
+    "uscensus:population":364,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212520328
+        "uscensus:geoid":"4212520328"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404487751,
-    "wof:lastmodified":1605055888,
+    "wof:lastmodified":1722117789,
     "wof:name":"Dunlevy",
     "wof:parent_id":102081343,
     "wof:placetype":"localadmin",
-    "wof:population":381,
+    "wof:population":364,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

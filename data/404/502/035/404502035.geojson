@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011025,
-    "geom:area_square_m":105094324.920797,
+    "geom:area_square_m":105094324.920843,
     "geom:bbox":"-87.532194,39.52001,-87.382418,39.607937",
     "geom:latitude":39.566428,
     "geom:longitude":-87.467997,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.563814,
     "lbl:longitude":-87.467997,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":167,
     "uscensus:geoid":1816722882,
     "uscensus:name":"Fayette",
     "uscensus:namelsad":"Fayette township",
+    "uscensus:population":2722,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1816722882
+        "uscensus:geoid":"1816722882"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404502035,
-    "wof:lastmodified":1604530707,
+    "wof:lastmodified":1722117876,
     "wof:name":"Fayette Township",
     "wof:parent_id":102087183,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2630,
+    "wof:population":2722,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

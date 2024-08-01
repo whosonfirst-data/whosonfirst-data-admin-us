@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000647,
-    "geom:area_square_m":6041200.346444,
+    "geom:area_square_m":6041200.346449,
     "geom:bbox":"-74.026583,40.954289,-73.974695,40.971994",
     "geom:latitude":40.962231,
     "geom:longitude":-73.997599,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.962809,
     "lbl:longitude":-73.997603,
     "lbl:max_zoom":15.0,
@@ -85,11 +91,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3400330540,
     "uscensus:name":"Haworth",
     "uscensus:namelsad":"Haworth borough",
+    "uscensus:population":3322,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -99,8 +108,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400330540
+        "uscensus:geoid":"3400330540"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -116,11 +126,11 @@
         }
     ],
     "wof:id":404477291,
-    "wof:lastmodified":1605055430,
+    "wof:lastmodified":1722117721,
     "wof:name":"Haworth",
     "wof:parent_id":102086773,
     "wof:placetype":"localadmin",
-    "wof:population":3382,
+    "wof:population":3322,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

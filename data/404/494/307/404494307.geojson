@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010671,
-    "geom:area_square_m":93750801.450305,
+    "geom:area_square_m":93750801.450297,
     "geom:bbox":"-89.224338,44.680426,-89.102433,44.769178",
     "geom:latitude":44.724866,
     "geom:longitude":-89.163356,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.724848,
     "lbl:longitude":-89.163355,
     "lbl:max_zoom":17.0,
@@ -193,11 +199,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":5511528825,
     "uscensus:name":"Germania",
     "uscensus:namelsad":"Germania town",
+    "uscensus:population":348,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -207,8 +216,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5511528825
+        "uscensus:geoid":"5511528825"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462643
     ],
@@ -227,11 +237,11 @@
         }
     ],
     "wof:id":404494307,
-    "wof:lastmodified":1605055958,
+    "wof:lastmodified":1722117832,
     "wof:name":"Germania",
     "wof:parent_id":102081859,
     "wof:placetype":"localadmin",
-    "wof:population":332,
+    "wof:population":348,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

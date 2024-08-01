@@ -10,6 +10,12 @@
     "geom:latitude":46.848793,
     "geom:longitude":-98.248835,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.84868,
     "lbl:longitude":-98.248853,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3800337180,
     "uscensus:name":"Hemen",
     "uscensus:namelsad":"Hemen township",
+    "uscensus:population":24,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3800337180
+        "uscensus:geoid":"3800337180"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471229
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404480063,
-    "wof:lastmodified":1605055910,
+    "wof:lastmodified":1722117742,
     "wof:name":"Hemen Township",
     "wof:parent_id":102082051,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":27,
+    "wof:population":24,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

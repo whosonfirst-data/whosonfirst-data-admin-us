@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01061,
-    "geom:area_square_m":100661382.70144,
+    "geom:area_square_m":100661382.701452,
     "geom:bbox":"-80.07966,39.840785,-79.915278,39.955466",
     "geom:latitude":39.891454,
     "geom:longitude":-79.989794,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.882538,
     "lbl:longitude":-80.00464,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":59,
     "uscensus:geoid":4205917648,
     "uscensus:name":"Cumberland",
     "uscensus:namelsad":"Cumberland township",
+    "uscensus:population":6146,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4205917648
+        "uscensus:geoid":"4205917648"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404485643,
-    "wof:lastmodified":1605055357,
+    "wof:lastmodified":1722117775,
     "wof:name":"Cumberland Township",
     "wof:parent_id":102080975,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":6623,
+    "wof:population":6146,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.017889,
-    "geom:area_square_m":170479344.404579,
+    "geom:area_square_m":170479344.404553,
     "geom:bbox":"-89.535076,39.524303,-89.366449,39.669645",
     "geom:latitude":39.583724,
     "geom:longitude":-89.461269,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.582567,
     "lbl:longitude":-89.462868,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":1702170798,
     "uscensus:name":"South Fork",
     "uscensus:namelsad":"South Fork township",
+    "uscensus:population":2467,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1702170798
+        "uscensus:geoid":"1702170798"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404497527,
-    "wof:lastmodified":1605055493,
+    "wof:lastmodified":1722233638,
     "wof:name":"South Fork Township",
     "wof:parent_id":102082289,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2788,
+    "wof:population":2467,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

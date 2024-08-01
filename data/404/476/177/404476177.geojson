@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011273,
-    "geom:area_square_m":104049357.236508,
+    "geom:area_square_m":104049357.236565,
     "geom:bbox":"-71.201162,41.603676,-71.009541,41.767556",
     "geom:latitude":41.713662,
     "geom:longitude":-71.101406,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.727136,
     "lbl:longitude":-71.099956,
     "lbl:max_zoom":14.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":2500523000,
     "uscensus:name":"Fall River",
     "uscensus:namelsad":"Fall River city",
+    "uscensus:population":93840,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2500523000
+        "uscensus:geoid":"2500523000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404476177,
-    "wof:lastmodified":1605055410,
+    "wof:lastmodified":1722117713,
     "wof:name":"Fall River",
     "wof:parent_id":102084407,
     "wof:placetype":"localadmin",
-    "wof:population":88857,
+    "wof:population":93840,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

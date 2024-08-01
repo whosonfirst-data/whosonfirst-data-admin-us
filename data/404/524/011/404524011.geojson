@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009718,
-    "geom:area_square_m":91234048.981594,
+    "geom:area_square_m":91234048.981666,
     "geom:bbox":"-83.305688,40.555364,-83.188421,40.644216",
     "geom:latitude":40.602222,
     "geom:longitude":-83.245369,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.602004,
     "lbl:longitude":-83.248496,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":101,
     "uscensus:geoid":3910106348,
     "uscensus:name":"Big Island",
     "uscensus:namelsad":"Big Island township",
+    "uscensus:population":1180,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3910106348
+        "uscensus:geoid":"3910106348"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474805
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404524011,
-    "wof:lastmodified":1605056112,
+    "wof:lastmodified":1722118005,
     "wof:name":"Big Island Township",
     "wof:parent_id":102084791,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1205,
+    "wof:population":1180,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

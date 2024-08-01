@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010389,
-    "geom:area_square_m":94238983.736866,
+    "geom:area_square_m":94238983.736878,
     "geom:bbox":"-74.087249,42.752992,-73.906785,42.896869",
     "geom:latitude":42.813311,
     "geom:longitude":-74.012867,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.810621,
     "lbl:longitude":-74.019011,
     "lbl:max_zoom":14.0,
@@ -397,11 +403,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":93,
     "uscensus:geoid":3609363935,
     "uscensus:name":"Rotterdam",
     "uscensus:namelsad":"Rotterdam town",
+    "uscensus:population":30521,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -411,8 +420,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3609363935
+        "uscensus:geoid":"3609363935"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -428,11 +438,11 @@
         }
     ],
     "wof:id":404522519,
-    "wof:lastmodified":1605056072,
+    "wof:lastmodified":1722117994,
     "wof:name":"Rotterdam",
     "wof:parent_id":102081765,
     "wof:placetype":"localadmin",
-    "wof:population":29094,
+    "wof:population":30521,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

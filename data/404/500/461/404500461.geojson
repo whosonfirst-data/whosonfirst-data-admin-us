@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013835,
-    "geom:area_square_m":128471445.355464,
+    "geom:area_square_m":128471445.355442,
     "geom:bbox":"-86.193923,41.273648,-86.056553,41.376704",
     "geom:latitude":41.324946,
     "geom:longitude":-86.125619,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.324842,
     "lbl:longitude":-86.12562,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":1809906778,
     "uscensus:name":"Bourbon",
     "uscensus:namelsad":"Bourbon township",
+    "uscensus:population":2810,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1809906778
+        "uscensus:geoid":"1809906778"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404500461,
-    "wof:lastmodified":1604530784,
+    "wof:lastmodified":1722233649,
     "wof:name":"Bourbon Township",
     "wof:parent_id":102086441,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":3152,
+    "wof:population":2810,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010858,
-    "geom:area_square_m":90633291.532526,
+    "geom:area_square_m":90633291.532518,
     "geom:bbox":"-94.67168,47.497085,-94.542902,47.584529",
     "geom:latitude":47.540839,
     "geom:longitude":-94.607854,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.541028,
     "lbl:longitude":-94.607863,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":2700763274,
     "uscensus:name":"Sugar Bush",
     "uscensus:namelsad":"Sugar Bush township",
+    "uscensus:population":212,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2700763274
+        "uscensus:geoid":"2700763274"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464303
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404509263,
-    "wof:lastmodified":1605055797,
+    "wof:lastmodified":1722117928,
     "wof:name":"Sugar Bush Township",
     "wof:parent_id":102087773,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":247,
+    "wof:population":212,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

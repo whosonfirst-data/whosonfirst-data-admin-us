@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004958,
-    "geom:area_square_m":46703109.621864,
+    "geom:area_square_m":46703109.621889,
     "geom:bbox":"-74.209053,40.324526,-74.133157,40.427111",
     "geom:latitude":40.376809,
     "geom:longitude":-74.172534,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.378713,
     "lbl:longitude":-74.176323,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":3402532640,
     "uscensus:name":"Holmdel",
     "uscensus:namelsad":"Holmdel township",
+    "uscensus:population":17402,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3402532640
+        "uscensus:geoid":"3402532640"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475105
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404478347,
-    "wof:lastmodified":1605055342,
+    "wof:lastmodified":1722117729,
     "wof:name":"Holmdel Township",
     "wof:parent_id":102085049,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":16773,
+    "wof:population":17402,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

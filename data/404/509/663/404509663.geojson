@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010412,
-    "geom:area_square_m":93184125.813529,
+    "geom:area_square_m":93184125.81346,
     "geom:bbox":"-93.169096,43.586654,-93.049239,43.673865",
     "geom:latitude":43.630251,
     "geom:longitude":-93.109211,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.630259,
     "lbl:longitude":-93.109225,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":47,
     "uscensus:geoid":2704747788,
     "uscensus:name":"Oakland",
     "uscensus:namelsad":"Oakland township",
+    "uscensus:population":355,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2704747788
+        "uscensus:geoid":"2704747788"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463891
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404509663,
-    "wof:lastmodified":1605055796,
+    "wof:lastmodified":1722117931,
     "wof:name":"Oakland Township",
     "wof:parent_id":102087887,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":396,
+    "wof:population":355,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010706,
-    "geom:area_square_m":91417560.031219,
+    "geom:area_square_m":91417560.0312,
     "geom:bbox":"-98.78736,46.28263,-98.661376,46.369887",
     "geom:latitude":46.325523,
     "geom:longitude":-98.724668,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.320575,
     "lbl:longitude":-98.735153,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":3804531100,
     "uscensus:name":"Golden Glen",
     "uscensus:namelsad":"Golden Glen township",
+    "uscensus:population":117,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3804531100
+        "uscensus:geoid":"3804531100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470891
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404480803,
-    "wof:lastmodified":1605055909,
+    "wof:lastmodified":1722117747,
     "wof:name":"Golden Glen Township",
     "wof:parent_id":102082571,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":108,
+    "wof:population":117,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

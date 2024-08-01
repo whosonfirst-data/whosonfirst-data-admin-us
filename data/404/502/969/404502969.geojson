@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009665,
-    "geom:area_square_m":92874720.219731,
+    "geom:area_square_m":92874720.219664,
     "geom:bbox":"-97.928895,38.958115,-97.81679,39.0454",
     "geom:latitude":39.001678,
     "geom:longitude":-97.872902,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.001642,
     "lbl:longitude":-97.872903,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":143,
     "uscensus:geoid":2014348500,
     "uscensus:name":"Morton",
     "uscensus:namelsad":"Morton township",
+    "uscensus:population":404,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2014348500
+        "uscensus:geoid":"2014348500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404502969,
-    "wof:lastmodified":1605055271,
+    "wof:lastmodified":1722233658,
     "wof:name":"Morton Township",
     "wof:parent_id":102084197,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":463,
+    "wof:population":404,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

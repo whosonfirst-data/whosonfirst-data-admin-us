@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.018583,
-    "geom:area_square_m":169117928.568874,
+    "geom:area_square_m":169117928.568903,
     "geom:bbox":"-77.244057,42.494279,-77.063767,42.669671",
     "geom:latitude":42.609031,
     "geom:longitude":-77.154811,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.623051,
     "lbl:longitude":-77.154805,
     "lbl:max_zoom":15.0,
@@ -664,22 +670,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":123,
     "uscensus:geoid":3612338583,
     "uscensus:name":"Jerusalem",
     "uscensus:namelsad":"Jerusalem town",
+    "uscensus:population":4214,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688543,
-        102083079
+        102083079,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3612338583
+        "uscensus:geoid":"3612338583"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -695,11 +705,11 @@
         }
     ],
     "wof:id":404523017,
-    "wof:lastmodified":1636499450,
+    "wof:lastmodified":1722233678,
     "wof:name":"Jerusalem",
     "wof:parent_id":102083079,
     "wof:placetype":"localadmin",
-    "wof:population":4469,
+    "wof:population":4214,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.021998,
-    "geom:area_square_m":196562315.822756,
+    "geom:area_square_m":196562315.82272,
     "geom:bbox":"-75.645751,43.656185,-75.377692,43.782063",
     "geom:latitude":43.729146,
     "geom:longitude":-75.528458,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.724426,
     "lbl:longitude":-75.528453,
     "lbl:max_zoom":16.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":3604945854,
     "uscensus:name":"Martinsburg",
     "uscensus:namelsad":"Martinsburg town",
+    "uscensus:population":1320,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3604945854
+        "uscensus:geoid":"3604945854"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462459
     ],
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404521863,
-    "wof:lastmodified":1605055639,
+    "wof:lastmodified":1722117989,
     "wof:name":"Martinsburg",
     "wof:parent_id":102085867,
     "wof:placetype":"localadmin",
-    "wof:population":1433,
+    "wof:population":1320,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

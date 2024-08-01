@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005958,
-    "geom:area_square_m":54473078.740263,
+    "geom:area_square_m":54473078.740248,
     "geom:bbox":"-74.479683,42.279548,-74.346087,42.373873",
     "geom:latitude":42.323319,
     "geom:longitude":-74.413829,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.317415,
     "lbl:longitude":-74.413852,
     "lbl:max_zoom":17.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":39,
     "uscensus:geoid":3603959751,
     "uscensus:name":"Prattsville",
     "uscensus:namelsad":"Prattsville town",
+    "uscensus:population":762,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3603959751
+        "uscensus:geoid":"3603959751"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,11 +96,11 @@
         }
     ],
     "wof:id":404522365,
-    "wof:lastmodified":1605056065,
+    "wof:lastmodified":1722117993,
     "wof:name":"Prattsville",
     "wof:parent_id":102082393,
     "wof:placetype":"localadmin",
-    "wof:population":700,
+    "wof:population":762,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

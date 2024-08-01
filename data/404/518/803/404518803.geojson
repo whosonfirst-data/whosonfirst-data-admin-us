@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011409,
-    "geom:area_square_m":105911078.992128,
+    "geom:area_square_m":105911078.992078,
     "geom:bbox":"-98.1751,41.281511,-98.057547,41.394453",
     "geom:latitude":41.344541,
     "geom:longitude":-98.119196,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.34429,
     "lbl:longitude":-98.122338,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":3112529540,
     "uscensus:name":"Loup Ferry",
     "uscensus:namelsad":"Loup Ferry township",
+    "uscensus:population":71,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3112529540
+        "uscensus:geoid":"3112529540"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474151
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404518803,
-    "wof:lastmodified":1605055688,
+    "wof:lastmodified":1722117978,
     "wof:name":"Loup Ferry Township",
     "wof:parent_id":102083487,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":70,
+    "wof:population":71,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

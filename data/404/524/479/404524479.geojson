@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.015731,
-    "geom:area_square_m":148747454.251289,
+    "geom:area_square_m":148747454.25129,
     "geom:bbox":"-84.708539,40.062768,-84.560527,40.178833",
     "geom:latitude":40.118402,
     "geom:longitude":-84.638491,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.120979,
     "lbl:longitude":-84.648355,
     "lbl:max_zoom":15.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":37,
     "uscensus:geoid":3903732354,
     "uscensus:name":"Greenville",
     "uscensus:namelsad":"Greenville township",
+    "uscensus:population":17032,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3903732354
+        "uscensus:geoid":"3903732354"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404524479,
-    "wof:lastmodified":1605056104,
+    "wof:lastmodified":1722233682,
     "wof:name":"Greenville Township",
     "wof:parent_id":102084823,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":17613,
+    "wof:population":17032,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

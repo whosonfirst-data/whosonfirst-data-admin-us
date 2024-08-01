@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005342,
-    "geom:area_square_m":49847966.461727,
+    "geom:area_square_m":49847966.461691,
     "geom:bbox":"-79.212372,40.964584,-79.125562,41.040481",
     "geom:latitude":40.999886,
     "geom:longitude":-79.170341,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.000053,
     "lbl:longitude":-79.173863,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":65,
     "uscensus:geoid":4206564960,
     "uscensus:name":"Ringgold",
     "uscensus:namelsad":"Ringgold township",
+    "uscensus:population":758,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206564960
+        "uscensus:geoid":"4206564960"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461025
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404486623,
-    "wof:lastmodified":1605055871,
+    "wof:lastmodified":1722117781,
     "wof:name":"Ringgold Township",
     "wof:parent_id":102083883,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":741,
+    "wof:population":758,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

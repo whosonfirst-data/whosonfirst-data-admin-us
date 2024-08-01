@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010905,
-    "geom:area_square_m":93552258.617933,
+    "geom:area_square_m":93552258.617881,
     "geom:bbox":"-98.881508,46.025506,-98.755633,46.112871",
     "geom:latitude":46.069158,
     "geom:longitude":-98.818391,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.068993,
     "lbl:longitude":-98.81838,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":3802132500,
     "uscensus:name":"Grand Valley",
     "uscensus:namelsad":"Grand Valley township",
+    "uscensus:population":31,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3802132500
+        "uscensus:geoid":"3802132500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474685
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404479907,
-    "wof:lastmodified":1605055470,
+    "wof:lastmodified":1722117741,
     "wof:name":"Grand Valley Township",
     "wof:parent_id":102082079,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":25,
+    "wof:population":31,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010544,
-    "geom:area_square_m":89273453.456307,
+    "geom:area_square_m":89273453.456336,
     "geom:bbox":"-68.563457,46.743597,-68.440131,46.831869",
     "geom:latitude":46.787474,
     "geom:longitude":-68.501657,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.787353,
     "lbl:longitude":-68.501652,
     "lbl:max_zoom":17.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":2300360300,
     "uscensus:name":"Portage Lake",
     "uscensus:namelsad":"Portage Lake town",
+    "uscensus:population":365,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2300360300
+        "uscensus:geoid":"2300360300"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456229
     ],
@@ -80,11 +90,11 @@
         }
     ],
     "wof:id":404475481,
-    "wof:lastmodified":1605055851,
+    "wof:lastmodified":1722117708,
     "wof:name":"Portage Lake",
     "wof:parent_id":102081161,
     "wof:placetype":"localadmin",
-    "wof:population":391,
+    "wof:population":365,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

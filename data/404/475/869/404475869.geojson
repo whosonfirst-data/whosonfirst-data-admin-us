@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014946,
-    "geom:area_square_m":130861592.079761,
+    "geom:area_square_m":130861592.079724,
     "geom:bbox":"-67.726551,44.848708,-67.561037,44.99349",
     "geom:latitude":44.919796,
     "geom:longitude":-67.649657,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.921139,
     "lbl:longitude":-67.651234,
     "lbl:max_zoom":18.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":2302981685,
     "uscensus:name":"Wesley",
     "uscensus:namelsad":"Wesley town",
+    "uscensus:population":123,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2302981685
+        "uscensus:geoid":"2302981685"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729454045
     ],
@@ -80,11 +90,11 @@
         }
     ],
     "wof:id":404475869,
-    "wof:lastmodified":1605055844,
+    "wof:lastmodified":1722117711,
     "wof:name":"Wesley",
     "wof:parent_id":102081143,
     "wof:placetype":"localadmin",
-    "wof:population":98,
+    "wof:population":123,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

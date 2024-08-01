@@ -14,6 +14,7 @@
     "gn:longitude":-160.37639,
     "gn:population":817,
     "iso:country":"US",
+    "lbl:bbox":"-160.398323433,59.050361007,-160.358323433,59.090361007",
     "lbl:latitude":58.991407,
     "lbl:longitude":-160.447125,
     "lbl:max_zoom":17.0,
@@ -271,6 +272,7 @@
     "ne:UN_LAT":0.0,
     "ne:UN_LONG":0.0,
     "ne:WORLDCITY":0,
+    "ne:min_zoom":6.0,
     "qs:a0":"United States",
     "qs:a1":"*Alaska",
     "qs:a1_lc":"02",
@@ -285,21 +287,26 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
+    "reversegeo:latitude":59.070361,
+    "reversegeo:longitude":-160.378323,
     "src:geom":"quattroshapes",
     "src:geom_alt":[
         "quattroshapes_pg",
         "naturalearth"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":778,
+    "uscensus:population_date":"2023",
     "wd:latitude":59.059134,
     "wd:longitude":-160.383186,
     "wd:wordcount":731,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688573,
-        102080995
+        102080995,
+        85688573
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -313,8 +320,14 @@
         "wk:page":"Togiak, Alaska"
     },
     "wof:concordances_alt":{
-        "qs_pg:id":1053406
+        "qs_pg:id":[
+            1053406
+        ],
+        "wd:id":[
+            "Q79258"
+        ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -334,16 +347,17 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882080,
+    "wof:lastmodified":1722116394,
     "wof:name":"Togiak",
     "wof:parent_id":102080995,
     "wof:placetype":"locality",
-    "wof:population":817,
+    "wof:population":778,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[
-        1125383245
+        1125383245,
+        1141908709
     ],
     "wof:tags":[]
 },

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.016976,
-    "geom:area_square_m":149743172.913921,
+    "geom:area_square_m":149743172.913968,
     "geom:bbox":"-69.915359,44.393894,-69.76048,44.581312",
     "geom:latitude":44.490197,
     "geom:longitude":-69.841882,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.489147,
     "lbl:longitude":-69.843041,
     "lbl:max_zoom":15.0,
@@ -538,11 +544,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":2301104020,
     "uscensus:name":"Belgrade",
     "uscensus:namelsad":"Belgrade town",
+    "uscensus:population":3414,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
@@ -552,8 +561,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2301104020
+        "uscensus:geoid":"2301104020"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729455781
     ],
@@ -572,11 +582,11 @@
         }
     ],
     "wof:id":404475565,
-    "wof:lastmodified":1605055849,
+    "wof:lastmodified":1722117708,
     "wof:name":"Belgrade",
     "wof:parent_id":102087461,
     "wof:placetype":"localadmin",
-    "wof:population":3189,
+    "wof:population":3414,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

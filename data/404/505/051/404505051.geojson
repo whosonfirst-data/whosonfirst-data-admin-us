@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009649,
-    "geom:area_square_m":93628113.250016,
+    "geom:area_square_m":93628113.250026,
     "geom:bbox":"-98.036022,38.260495,-97.924427,38.347914",
     "geom:latitude":38.304156,
     "geom:longitude":-97.980248,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.304147,
     "lbl:longitude":-97.980247,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":159,
     "uscensus:geoid":2015960725,
     "uscensus:name":"Rockville",
     "uscensus:namelsad":"Rockville township",
+    "uscensus:population":133,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2015960725
+        "uscensus:geoid":"2015960725"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463249
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404505051,
-    "wof:lastmodified":1605055292,
+    "wof:lastmodified":1722117897,
     "wof:name":"Rockville Township",
     "wof:parent_id":102082709,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":144,
+    "wof:population":133,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

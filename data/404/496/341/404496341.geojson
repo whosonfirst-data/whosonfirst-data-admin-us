@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009416,
-    "geom:area_square_m":90428898.291624,
+    "geom:area_square_m":90428898.291606,
     "geom:bbox":"-88.468423,39.00101,-88.360504,39.089966",
     "geom:latitude":39.045401,
     "geom:longitude":-88.41479,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.045296,
     "lbl:longitude":-88.414794,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":1704906145,
     "uscensus:name":"Bishop",
     "uscensus:namelsad":"Bishop township",
+    "uscensus:population":1673,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1704906145
+        "uscensus:geoid":"1704906145"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404496341,
-    "wof:lastmodified":1605055599,
+    "wof:lastmodified":1722233634,
     "wof:name":"Bishop Township",
     "wof:parent_id":102081667,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1408,
+    "wof:population":1673,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

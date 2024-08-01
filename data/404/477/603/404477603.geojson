@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004661,
-    "geom:area_square_m":44547650.449029,
+    "geom:area_square_m":44547650.449023,
     "geom:bbox":"-74.501592,39.335544,-74.404054,39.417678",
     "geom:latitude":39.377558,
     "geom:longitude":-74.45156,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.377094,
     "lbl:longitude":-74.451563,
     "lbl:max_zoom":14.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":3400102080,
     "uscensus:name":"Atlantic City",
     "uscensus:namelsad":"Atlantic City city",
+    "uscensus:population":38464,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400102080
+        "uscensus:geoid":"3400102080"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404477603,
-    "wof:lastmodified":1605055420,
+    "wof:lastmodified":1722117723,
     "wof:name":"Atlantic City",
     "wof:parent_id":102083869,
     "wof:placetype":"localadmin",
-    "wof:population":39558,
+    "wof:population":38464,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

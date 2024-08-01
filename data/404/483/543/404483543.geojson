@@ -10,6 +10,12 @@
     "geom:latitude":41.173201,
     "geom:longitude":-76.286961,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.173721,
     "lbl:longitude":-76.287259,
     "lbl:max_zoom":17.0,
@@ -46,11 +52,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":79,
     "uscensus:geoid":4207953448,
     "uscensus:name":"New Columbus",
     "uscensus:namelsad":"New Columbus borough",
+    "uscensus:population":221,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -60,8 +69,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207953448
+        "uscensus:geoid":"4207953448"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -77,11 +87,11 @@
         }
     ],
     "wof:id":404483543,
-    "wof:lastmodified":1605055442,
+    "wof:lastmodified":1722117763,
     "wof:name":"New Columbus",
     "wof:parent_id":102081351,
     "wof:placetype":"localadmin",
-    "wof:population":227,
+    "wof:population":221,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

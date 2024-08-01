@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006116,
-    "geom:area_square_m":58654116.750865,
+    "geom:area_square_m":58654116.750878,
     "geom:bbox":"-83.524492,39.082923,-83.426803,39.195944",
     "geom:latitude":39.145544,
     "geom:longitude":-83.483908,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.145483,
     "lbl:longitude":-83.492048,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":71,
     "uscensus:geoid":3907148034,
     "uscensus:name":"Marshall",
     "uscensus:namelsad":"Marshall township",
+    "uscensus:population":1033,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3907148034
+        "uscensus:geoid":"3907148034"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465739
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404525491,
-    "wof:lastmodified":1605056054,
+    "wof:lastmodified":1722118016,
     "wof:name":"Marshall Township",
     "wof:parent_id":102084797,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1029,
+    "wof:population":1033,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

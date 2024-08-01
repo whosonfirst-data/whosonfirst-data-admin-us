@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009943,
-    "geom:area_square_m":86772709.774631,
+    "geom:area_square_m":86772709.774576,
     "geom:bbox":"-94.634901,45.065534,-94.502159,45.152763",
     "geom:latitude":45.107348,
     "geom:longitude":-94.574764,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.112092,
     "lbl:longitude":-94.592692,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":93,
     "uscensus:geoid":2709337466,
     "uscensus:name":"Litchfield",
     "uscensus:namelsad":"Litchfield township",
+    "uscensus:population":836,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2709337466
+        "uscensus:geoid":"2709337466"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729479061
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404512411,
-    "wof:lastmodified":1605056130,
+    "wof:lastmodified":1722117950,
     "wof:name":"Litchfield Township",
     "wof:parent_id":102087663,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":832,
+    "wof:population":836,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

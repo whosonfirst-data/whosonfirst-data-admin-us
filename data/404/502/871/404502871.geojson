@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009786,
-    "geom:area_square_m":94729574.271699,
+    "geom:area_square_m":94729574.271707,
     "geom:bbox":"-98.369606,38.43468,-98.257019,38.522176",
     "geom:latitude":38.478389,
     "geom:longitude":-98.313257,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.478401,
     "lbl:longitude":-98.313257,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":159,
     "uscensus:geoid":2015921900,
     "uscensus:name":"Eureka",
     "uscensus:namelsad":"Eureka township",
+    "uscensus:population":36,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2015921900
+        "uscensus:geoid":"2015921900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404502871,
-    "wof:lastmodified":1605055273,
+    "wof:lastmodified":1722233658,
     "wof:name":"Eureka Township",
     "wof:parent_id":102082709,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":52,
+    "wof:population":36,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

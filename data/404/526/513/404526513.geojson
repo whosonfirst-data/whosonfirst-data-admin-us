@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006575,
-    "geom:area_square_m":61638713.167607,
+    "geom:area_square_m":61638713.167618,
     "geom:bbox":"-81.877201,40.667187,-81.765051,40.726553",
     "geom:latitude":40.6969,
     "geom:longitude":-81.821187,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.696961,
     "lbl:longitude":-81.821181,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":169,
     "uscensus:geoid":3916970198,
     "uscensus:name":"Salt Creek",
     "uscensus:namelsad":"Salt Creek township",
+    "uscensus:population":4497,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3916970198
+        "uscensus:geoid":"3916970198"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404526513,
-    "wof:lastmodified":1605055658,
+    "wof:lastmodified":1722233689,
     "wof:name":"Salt Creek Township",
     "wof:parent_id":102084731,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":4309,
+    "wof:population":4497,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

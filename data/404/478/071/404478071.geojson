@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000399,
-    "geom:area_square_m":3837439.426582,
+    "geom:area_square_m":3837439.426572,
     "geom:bbox":"-74.855336,38.957064,-74.820497,38.989156",
     "geom:latitude":38.97171,
     "geom:longitude":-74.837585,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.972548,
     "lbl:longitude":-74.836136,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":3400981200,
     "uscensus:name":"Wildwood Crest",
     "uscensus:namelsad":"Wildwood Crest borough",
+    "uscensus:population":3063,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400981200
+        "uscensus:geoid":"3400981200"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404478071,
-    "wof:lastmodified":1605055337,
+    "wof:lastmodified":1722117727,
     "wof:name":"Wildwood Crest",
     "wof:parent_id":102086777,
     "wof:placetype":"localadmin",
-    "wof:population":3270,
+    "wof:population":3063,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

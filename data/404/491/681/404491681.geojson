@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010266,
-    "geom:area_square_m":92723656.094326,
+    "geom:area_square_m":92723656.094322,
     "geom:bbox":"-89.838262,43.031697,-89.719645,43.118931",
     "geom:latitude":43.075362,
     "geom:longitude":-89.779143,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.075372,
     "lbl:longitude":-89.77914,
     "lbl:max_zoom":17.0,
@@ -532,11 +538,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":5502582525,
     "uscensus:name":"Vermont",
     "uscensus:namelsad":"Vermont town",
+    "uscensus:population":852,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -546,8 +555,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5502582525
+        "uscensus:geoid":"5502582525"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469287
     ],
@@ -566,11 +576,11 @@
         }
     ],
     "wof:id":404491681,
-    "wof:lastmodified":1605055576,
+    "wof:lastmodified":1722117814,
     "wof:name":"Vermont",
     "wof:parent_id":102081795,
     "wof:placetype":"localadmin",
-    "wof:population":819,
+    "wof:population":852,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

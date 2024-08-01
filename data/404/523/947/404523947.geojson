@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000395,
-    "geom:area_square_m":3669236.543086,
+    "geom:area_square_m":3669236.543085,
     "geom:bbox":"-81.243533,41.273735,-81.209514,41.289955",
     "geom:latitude":41.281929,
     "geom:longitude":-81.222276,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "village"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.282045,
     "lbl:longitude":-81.222271,
     "lbl:max_zoom":16.0,
@@ -262,11 +268,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":133,
     "uscensus:geoid":3913347180,
     "uscensus:name":"Mantua",
     "uscensus:namelsad":"Mantua village",
+    "uscensus:population":1009,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -276,8 +285,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3913347180
+        "uscensus:geoid":"3913347180"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -293,11 +303,11 @@
         }
     ],
     "wof:id":404523947,
-    "wof:lastmodified":1605056091,
+    "wof:lastmodified":1722118005,
     "wof:name":"Mantua",
     "wof:parent_id":102084819,
     "wof:placetype":"localadmin",
-    "wof:population":1043,
+    "wof:population":1009,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

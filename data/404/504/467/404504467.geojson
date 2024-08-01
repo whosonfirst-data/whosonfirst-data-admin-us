@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.003354,
-    "geom:area_square_m":32116355.332476,
+    "geom:area_square_m":32116355.33247,
     "geom:bbox":"-94.965625,39.202868,-94.826175,39.274209",
     "geom:latitude":39.242801,
     "geom:longitude":-94.897074,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.251444,
     "lbl:longitude":-94.899295,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":103,
     "uscensus:geoid":2010338650,
     "uscensus:name":"Lansing",
     "uscensus:namelsad":"Lansing city",
+    "uscensus:population":11221,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2010338650
+        "uscensus:geoid":"2010338650"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404504467,
-    "wof:lastmodified":1605055308,
+    "wof:lastmodified":1722117893,
     "wof:name":"Lansing",
     "wof:parent_id":102083429,
     "wof:placetype":"localadmin",
-    "wof:population":11265,
+    "wof:population":11221,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

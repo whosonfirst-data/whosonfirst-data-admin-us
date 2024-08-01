@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012201,
-    "geom:area_square_m":112318063.788443,
+    "geom:area_square_m":112318063.78844,
     "geom:bbox":"-80.519417,41.849507,-80.348345,41.940322",
     "geom:latitude":41.88716,
     "geom:longitude":-80.430197,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.885631,
     "lbl:longitude":-80.429911,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":4204915736,
     "uscensus:name":"Conneaut",
     "uscensus:namelsad":"Conneaut township",
+    "uscensus:population":4049,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4204915736
+        "uscensus:geoid":"4204915736"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460541
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404486555,
-    "wof:lastmodified":1605055868,
+    "wof:lastmodified":1722117781,
     "wof:name":"Conneaut Township",
     "wof:parent_id":102080955,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":4290,
+    "wof:population":4049,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

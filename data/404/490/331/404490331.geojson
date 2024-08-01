@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000137,
-    "geom:area_square_m":1233389.518494,
+    "geom:area_square_m":1233389.518496,
     "geom:bbox":"-96.796335,43.083674,-96.764173,43.090996",
     "geom:latitude":43.086753,
     "geom:longitude":-96.782019,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.087311,
     "lbl:longitude":-96.772923,
     "lbl:max_zoom":17.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":83,
     "uscensus:geoid":4608304980,
     "uscensus:name":"Beresford",
     "uscensus:namelsad":"Beresford city",
+    "uscensus:population":361,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4608304980
+        "uscensus:geoid":"4608304980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404490331,
-    "wof:lastmodified":1605055506,
+    "wof:lastmodified":1722117806,
     "wof:name":"Beresford",
     "wof:parent_id":102086863,
     "wof:placetype":"localadmin",
-    "wof:population":359,
+    "wof:population":361,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

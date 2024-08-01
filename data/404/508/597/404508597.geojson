@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000745,
-    "geom:area_square_m":6799700.410241,
+    "geom:area_square_m":6799700.410226,
     "geom:bbox":"-82.951802,42.421354,-82.910722,42.450772",
     "geom:latitude":42.439012,
     "geom:longitude":-82.929254,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.439086,
     "lbl:longitude":-82.931298,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":163,
     "uscensus:geoid":2616336700,
     "uscensus:name":"Harper Woods",
     "uscensus:namelsad":"Harper Woods city",
+    "uscensus:population":14895,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2616336700
+        "uscensus:geoid":"2616336700"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404508597,
-    "wof:lastmodified":1605055742,
+    "wof:lastmodified":1722117923,
     "wof:name":"Harper Woods",
     "wof:parent_id":102083147,
     "wof:placetype":"localadmin",
-    "wof:population":14236,
+    "wof:population":14895,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

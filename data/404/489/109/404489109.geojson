@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.015938,
-    "geom:area_square_m":141592028.438726,
+    "geom:area_square_m":141592028.438508,
     "geom:bbox":"-103.326337,43.994943,-103.037895,44.136686",
     "geom:latitude":44.071549,
     "geom:longitude":-103.220428,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.068767,
     "lbl:longitude":-103.226164,
     "lbl:max_zoom":14.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":103,
     "uscensus:geoid":4610352980,
     "uscensus:name":"Rapid City",
     "uscensus:namelsad":"Rapid City city",
+    "uscensus:population":79404,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4610352980
+        "uscensus:geoid":"4610352980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404489109,
-    "wof:lastmodified":1605055929,
+    "wof:lastmodified":1722117798,
     "wof:name":"Rapid City",
     "wof:parent_id":102086781,
     "wof:placetype":"localadmin",
-    "wof:population":67956,
+    "wof:population":79404,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

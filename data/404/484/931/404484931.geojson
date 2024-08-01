@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002167,
-    "geom:area_square_m":20372512.002419,
+    "geom:area_square_m":20372512.002424,
     "geom:bbox":"-79.915015,40.491527,-79.85527,40.552101",
     "geom:latitude":40.524712,
     "geom:longitude":-79.889792,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.52143,
     "lbl:longitude":-79.892209,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4200327120,
     "uscensus:name":"Fox Chapel",
     "uscensus:namelsad":"Fox Chapel borough",
+    "uscensus:population":5180,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200327120
+        "uscensus:geoid":"4200327120"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404484931,
-    "wof:lastmodified":1605055451,
+    "wof:lastmodified":1722117771,
     "wof:name":"Fox Chapel",
     "wof:parent_id":102080887,
     "wof:placetype":"localadmin",
-    "wof:population":5388,
+    "wof:population":5180,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

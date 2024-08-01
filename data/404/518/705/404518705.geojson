@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010134,
-    "geom:area_square_m":93562618.175434,
+    "geom:area_square_m":93562618.175357,
     "geom:bbox":"-96.905999,41.655198,-96.789903,41.742763",
     "geom:latitude":41.698951,
     "geom:longitude":-96.847973,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.698981,
     "lbl:longitude":-96.84798,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":53,
     "uscensus:geoid":3105351910,
     "uscensus:name":"Webster",
     "uscensus:namelsad":"Webster township",
+    "uscensus:population":820,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3105351910
+        "uscensus:geoid":"3105351910"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404518705,
-    "wof:lastmodified":1605055690,
+    "wof:lastmodified":1722233671,
     "wof:name":"Webster Township",
     "wof:parent_id":102082773,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":886,
+    "wof:population":820,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

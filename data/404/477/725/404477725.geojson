@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00028,
-    "geom:area_square_m":2612117.126724,
+    "geom:area_square_m":2612117.126726,
     "geom:bbox":"-73.942836,40.9933,-73.921784,41.0137",
     "geom:latitude":41.002602,
     "geom:longitude":-73.932656,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.002612,
     "lbl:longitude":-73.932656,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3400364170,
     "uscensus:name":"Rockleigh",
     "uscensus:namelsad":"Rockleigh borough",
+    "uscensus:population":405,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400364170
+        "uscensus:geoid":"3400364170"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404477725,
-    "wof:lastmodified":1605055421,
+    "wof:lastmodified":1722117724,
     "wof:name":"Rockleigh",
     "wof:parent_id":102086773,
     "wof:placetype":"localadmin",
-    "wof:population":531,
+    "wof:population":405,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

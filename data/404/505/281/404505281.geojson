@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.019316,
-    "geom:area_square_m":186179276.487666,
+    "geom:area_square_m":186179276.487688,
     "geom:bbox":"-97.928629,38.696325,-97.817379,38.871099",
     "geom:latitude":38.783921,
     "geom:longitude":-97.872984,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.783962,
     "lbl:longitude":-97.872984,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":169,
     "uscensus:geoid":2016967500,
     "uscensus:name":"Spring Creek",
     "uscensus:namelsad":"Spring Creek township",
+    "uscensus:population":411,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2016967500
+        "uscensus:geoid":"2016967500"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404505281,
-    "wof:lastmodified":1605055281,
+    "wof:lastmodified":1722233663,
     "wof:name":"Spring Creek Township",
     "wof:parent_id":102083453,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":410,
+    "wof:population":411,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

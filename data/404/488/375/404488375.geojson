@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005779,
-    "geom:area_square_m":53249642.622744,
+    "geom:area_square_m":53249642.622678,
     "geom:bbox":"-71.472667,41.772381,-71.369694,41.861831",
     "geom:latitude":41.823011,
     "geom:longitude":-71.418712,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.826974,
     "lbl:longitude":-71.419702,
     "lbl:max_zoom":14.0,
@@ -127,11 +133,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":4400759000,
     "uscensus:name":"Providence",
     "uscensus:namelsad":"Providence city",
+    "uscensus:population":190792,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":44,
     "wof:belongsto":[
         102191575,
@@ -141,8 +150,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4400759000
+        "uscensus:geoid":"4400759000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -158,11 +168,11 @@
         }
     ],
     "wof:id":404488375,
-    "wof:lastmodified":1605055818,
+    "wof:lastmodified":1722117793,
     "wof:name":"Providence",
     "wof:parent_id":102081597,
     "wof:placetype":"localadmin",
-    "wof:population":178042,
+    "wof:population":190792,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

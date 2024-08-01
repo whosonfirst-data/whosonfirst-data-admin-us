@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000039,
-    "geom:area_square_m":367904.422747,
+    "geom:area_square_m":367904.422746,
     "geom:bbox":"-79.196299,39.938791,-79.186837,39.94552",
     "geom:latitude":39.942259,
     "geom:longitude":-79.191746,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.942304,
     "lbl:longitude":-79.191747,
     "lbl:max_zoom":18.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":111,
     "uscensus:geoid":4211153416,
     "uscensus:name":"New Centerville",
     "uscensus:namelsad":"New Centerville borough",
+    "uscensus:population":123,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4211153416
+        "uscensus:geoid":"4211153416"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404484025,
-    "wof:lastmodified":1605055455,
+    "wof:lastmodified":1722117766,
     "wof:name":"New Centerville",
     "wof:parent_id":102081361,
     "wof:placetype":"localadmin",
-    "wof:population":133,
+    "wof:population":123,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

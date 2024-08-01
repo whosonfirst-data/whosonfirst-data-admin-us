@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00456,
-    "geom:area_square_m":41080616.564875,
+    "geom:area_square_m":41080616.564877,
     "geom:bbox":"-98.227542,43.196838,-98.109463,43.254096",
     "geom:latitude":43.233092,
     "geom:longitude":-98.159089,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.232913,
     "lbl:longitude":-98.157968,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":43,
     "uscensus:geoid":4604317740,
     "uscensus:name":"East Choteau",
     "uscensus:namelsad":"East Choteau township",
+    "uscensus:population":35,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4604317740
+        "uscensus:geoid":"4604317740"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459117
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404490025,
-    "wof:lastmodified":1605055509,
+    "wof:lastmodified":1722117804,
     "wof:name":"East Choteau Township",
     "wof:parent_id":102086053,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":119,
+    "wof:population":35,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

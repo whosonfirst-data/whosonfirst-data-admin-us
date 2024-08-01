@@ -9,11 +9,23 @@
     "geom:bbox":"-121.488365,38.361368,-121.269025,38.452701",
     "geom:latitude":38.415999,
     "geom:longitude":-121.384138,
+    "gn:admin1_code":"CA",
+    "gn:admin2_code":"67",
+    "gn:asciiname":"Elk Grove",
+    "gn:country_code":"US",
+    "gn:dem":17,
     "gn:elevation":14,
+    "gn:feature_class":"P",
+    "gn:feature_code":"PPL",
+    "gn:geonameid":5346111,
     "gn:latitude":38.4088,
     "gn:longitude":-121.37162,
+    "gn:modification_date":"2017-03-09",
+    "gn:name":"Elk Grove",
     "gn:population":153015,
+    "gn:timezone":"America/Los_Angeles",
     "iso:country":"US",
+    "lbl:bbox":"-121.39162,38.3888,-121.35162,38.4288",
     "lbl:latitude":38.412619,
     "lbl:longitude":-121.375019,
     "lbl:max_zoom":14.0,
@@ -220,7 +232,10 @@
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":178444,
+    "uscensus:population_date":"2023",
     "wd:latitude":38.438333,
     "wd:longitude":-121.381944,
     "wd:population":153015,
@@ -228,8 +243,8 @@
     "wof:belongsto":[
         102191575,
         85633793,
-        85688637,
-        102082889
+        102082889,
+        85688637
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -243,8 +258,17 @@
         "wk:page":"Elk Grove, California"
     },
     "wof:concordances_alt":{
-        "qs_pg:id":1147379
+        "gn:id":[
+            5346111
+        ],
+        "qs_pg:id":[
+            1147379
+        ],
+        "wk:page":[
+            "Elk_Grove%2C_California"
+        ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg"
@@ -263,15 +287,17 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690882630,
+    "wof:lastmodified":1722116395,
     "wof:name":"Elk Grove",
     "wof:parent_id":102082889,
     "wof:placetype":"locality",
-    "wof:population":153015,
+    "wof:population":178444,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1209325555
+    ],
     "wof:tags":[]
 },
   "bbox": [

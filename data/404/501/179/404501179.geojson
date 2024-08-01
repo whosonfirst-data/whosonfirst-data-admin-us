@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011749,
-    "geom:area_square_m":109556634.62119,
+    "geom:area_square_m":109556634.621258,
     "geom:bbox":"-85.245776,41.001897,-85.087394,41.113647",
     "geom:latitude":41.050684,
     "geom:longitude":-85.164403,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.045407,
     "lbl:longitude":-85.170826,
     "lbl:max_zoom":14.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":1800381620,
     "uscensus:name":"Wayne",
     "uscensus:namelsad":"Wayne township",
+    "uscensus:population":109686,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1800381620
+        "uscensus:geoid":"1800381620"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404501179,
-    "wof:lastmodified":1604530770,
+    "wof:lastmodified":1722233652,
     "wof:name":"Wayne Township",
     "wof:parent_id":102087177,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":103803,
+    "wof:population":109686,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

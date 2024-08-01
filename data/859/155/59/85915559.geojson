@@ -14,6 +14,7 @@
     "gn:longitude":-166.73472,
     "gn:population":674,
     "iso:country":"US",
+    "lbl:bbox":"-166.828020062,68.327726053,-166.788020062,68.367726053",
     "lbl:latitude":68.352905,
     "lbl:longitude":-166.755464,
     "lbl:max_zoom":17.0,
@@ -280,6 +281,7 @@
     "ne:UN_LAT":0.0,
     "ne:UN_LONG":0.0,
     "ne:WORLDCITY":0,
+    "ne:min_zoom":5.0,
     "qs:a0":"United States",
     "qs:a1":"*Alaska",
     "qs:a1_lc":"02",
@@ -294,13 +296,18 @@
     "qs:pop":0,
     "qs:source":"AUS Census",
     "qs:type":"G4110",
+    "reversegeo:latitude":68.347726,
+    "reversegeo:longitude":-166.80802,
     "src:geom":"quattroshapes",
     "src:geom_alt":[
         "quattroshapes_pg",
         "naturalearth"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":781,
+    "uscensus:population_date":"2023",
     "wd:elevation":2.0,
     "wd:latitude":68.3469,
     "wd:longitude":-166.763,
@@ -308,8 +315,8 @@
     "wof:belongsto":[
         102191575,
         85633793,
-        85688573,
-        102081001
+        102081001,
+        85688573
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -322,6 +329,12 @@
         "wd:id":"Q79813",
         "wk:page":"Point Hope, Alaska"
     },
+    "wof:concordances_alt":{
+        "wd:id":[
+            "Q79813"
+        ]
+    },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -341,16 +354,17 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690884468,
+    "wof:lastmodified":1722116394,
     "wof:name":"Point Hope",
     "wof:parent_id":102081001,
     "wof:placetype":"locality",
-    "wof:population":674,
+    "wof:population":781,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[
-        1125286519
+        1125286519,
+        1141909341
     ],
     "wof:tags":[]
 },

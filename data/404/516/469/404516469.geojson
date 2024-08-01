@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00987,
-    "geom:area_square_m":94314205.992963,
+    "geom:area_square_m":94314205.992855,
     "geom:bbox":"-93.759044,39.350673,-93.645028,39.437815",
     "geom:latitude":39.394213,
     "geom:longitude":-93.701995,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.394229,
     "lbl:longitude":-93.701996,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":33,
     "uscensus:geoid":2903359510,
     "uscensus:name":"Prairie",
     "uscensus:namelsad":"Prairie township",
+    "uscensus:population":138,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":29,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2903359510
+        "uscensus:geoid":"2903359510"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458507
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404516469,
-    "wof:lastmodified":1604969581,
+    "wof:lastmodified":1722117974,
     "wof:name":"Prairie Township",
     "wof:parent_id":102085313,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":169,
+    "wof:population":138,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

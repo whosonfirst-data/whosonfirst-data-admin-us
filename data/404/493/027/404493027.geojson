@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000712,
-    "geom:area_square_m":6227184.688697,
+    "geom:area_square_m":6227184.688702,
     "geom:bbox":"-90.636578,44.925464,-90.525385,44.958733",
     "geom:latitude":44.948471,
     "geom:longitude":-90.562098,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.949622,
     "lbl:longitude":-90.564373,
     "lbl:max_zoom":17.0,
@@ -103,11 +109,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":5501960825,
     "uscensus:name":"Owen",
     "uscensus:namelsad":"Owen city",
+    "uscensus:population":907,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -117,8 +126,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5501960825
+        "uscensus:geoid":"5501960825"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -134,11 +144,11 @@
         }
     ],
     "wof:id":404493027,
-    "wof:lastmodified":1605055951,
+    "wof:lastmodified":1722117823,
     "wof:name":"Owen",
     "wof:parent_id":102081269,
     "wof:placetype":"localadmin",
-    "wof:population":940,
+    "wof:population":907,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

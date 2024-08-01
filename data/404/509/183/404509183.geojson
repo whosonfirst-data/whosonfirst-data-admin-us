@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010831,
-    "geom:area_square_m":92692413.705144,
+    "geom:area_square_m":92692413.705159,
     "geom:bbox":"-93.179243,46.158104,-93.05387,46.245441",
     "geom:latitude":46.201697,
     "geom:longitude":-93.116393,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.201719,
     "lbl:longitude":-93.116393,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":2700167540,
     "uscensus:name":"Wagner",
     "uscensus:namelsad":"Wagner township",
+    "uscensus:population":343,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2700167540
+        "uscensus:geoid":"2700167540"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464649
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404509183,
-    "wof:lastmodified":1605055799,
+    "wof:lastmodified":1722117927,
     "wof:name":"Wagner Township",
     "wof:parent_id":102087811,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":332,
+    "wof:population":343,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010209,
-    "geom:area_square_m":94145103.457381,
+    "geom:area_square_m":94145103.457413,
     "geom:bbox":"-71.123989,41.711778,-70.907184,41.817787",
     "geom:latitude":41.771432,
     "geom:longitude":-71.015754,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.786103,
     "lbl:longitude":-71.059039,
     "lbl:max_zoom":15.0,
@@ -379,11 +385,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":2500525240,
     "uscensus:name":"Freetown",
     "uscensus:namelsad":"Freetown town",
+    "uscensus:population":9290,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":25,
     "wof:belongsto":[
         102191575,
@@ -393,8 +402,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2500525240
+        "uscensus:geoid":"2500525240"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465701
     ],
@@ -413,11 +423,11 @@
         }
     ],
     "wof:id":404476179,
-    "wof:lastmodified":1605055411,
+    "wof:lastmodified":1722117713,
     "wof:name":"Freetown",
     "wof:parent_id":102084407,
     "wof:placetype":"localadmin",
-    "wof:population":8870,
+    "wof:population":9290,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

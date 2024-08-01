@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.021988,
-    "geom:area_square_m":198231845.482074,
+    "geom:area_square_m":198231845.482171,
     "geom:bbox":"-74.719823,43.08913,-74.534657,43.289003",
     "geom:latitude":43.188589,
     "geom:longitude":-74.629554,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.188905,
     "lbl:longitude":-74.62956,
     "lbl:max_zoom":17.0,
@@ -127,11 +133,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":3603571784,
     "uscensus:name":"Stratford",
     "uscensus:namelsad":"Stratford town",
+    "uscensus:population":530,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -141,8 +150,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3603571784
+        "uscensus:geoid":"3603571784"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729467717
     ],
@@ -161,11 +171,11 @@
         }
     ],
     "wof:id":404522447,
-    "wof:lastmodified":1605056067,
+    "wof:lastmodified":1722117993,
     "wof:name":"Stratford",
     "wof:parent_id":102081813,
     "wof:placetype":"localadmin",
-    "wof:population":610,
+    "wof:population":530,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009919,
-    "geom:area_square_m":94665251.997857,
+    "geom:area_square_m":94665251.997795,
     "geom:bbox":"-85.951523,39.436091,-85.836309,39.52509",
     "geom:latitude":39.480793,
     "geom:longitude":-85.894146,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.480768,
     "lbl:longitude":-85.894148,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":145,
     "uscensus:geoid":1814533070,
     "uscensus:name":"Hendricks",
     "uscensus:namelsad":"Hendricks township",
+    "uscensus:population":1197,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1814533070
+        "uscensus:geoid":"1814533070"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729475699
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404501539,
-    "wof:lastmodified":1604969662,
+    "wof:lastmodified":1722117873,
     "wof:name":"Hendricks Township",
     "wof:parent_id":102086435,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1286,
+    "wof:population":1197,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

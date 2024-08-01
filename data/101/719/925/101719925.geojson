@@ -100,6 +100,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":3992160,
     "uscensus:awater":749512,
     "uscensus:classfp":"U1",
@@ -115,14 +117,16 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"41080",
     "uscensus:placens":"02633880",
+    "uscensus:population":595,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"42",
     "wd:wordcount":445,
     "wof:belongsto":[
-        85688481,
         102191575,
-        404487665,
         85633793,
-        102080947
+        102080947,
+        404487665,
+        85688481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -131,9 +135,10 @@
         "gn:id":5196974,
         "gp:id":2435267,
         "qs_pg:id":361785,
-        "uscensus:geoid":4241080,
+        "uscensus:geoid":"4241080",
         "wd:id":"Q5969578"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -154,10 +159,12 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889530,
+    "wof:lastmodified":1722116332,
     "wof:name":"Lake Winola",
     "wof:parent_id":404487665,
     "wof:placetype":"locality",
+    "wof:population":595,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

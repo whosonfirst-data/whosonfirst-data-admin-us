@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010138,
-    "geom:area_square_m":94456815.820278,
+    "geom:area_square_m":94456815.820292,
     "geom:bbox":"-89.985059,41.061876,-89.868347,41.149525",
     "geom:latitude":41.105796,
     "geom:longitude":-89.926657,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.105807,
     "lbl:longitude":-89.926653,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":175,
     "uscensus:geoid":1717530627,
     "uscensus:name":"Goshen",
     "uscensus:namelsad":"Goshen township",
+    "uscensus:population":565,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1717530627
+        "uscensus:geoid":"1717530627"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404496845,
-    "wof:lastmodified":1605055595,
+    "wof:lastmodified":1722233636,
     "wof:name":"Goshen Township",
     "wof:parent_id":102083523,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":686,
+    "wof:population":565,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

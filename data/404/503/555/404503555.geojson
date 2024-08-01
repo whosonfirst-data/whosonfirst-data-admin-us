@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.033889,
-    "geom:area_square_m":325781663.495718,
+    "geom:area_square_m":325781663.495908,
     "geom:bbox":"-99.225403,38.849524,-99.0375,39.133238",
     "geom:latitude":38.973438,
     "geom:longitude":-99.105937,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.970856,
     "lbl:longitude":-99.094725,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":51,
     "uscensus:geoid":2005131525,
     "uscensus:name":"Herzog",
     "uscensus:namelsad":"Herzog township",
+    "uscensus:population":823,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2005131525
+        "uscensus:geoid":"2005131525"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404503555,
-    "wof:lastmodified":1605055323,
+    "wof:lastmodified":1722233659,
     "wof:name":"Herzog Township",
     "wof:parent_id":102082161,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":894,
+    "wof:population":823,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.020799,
-    "geom:area_square_m":180951887.851065,
+    "geom:area_square_m":180951887.851003,
     "geom:bbox":"-84.009048,45.198821,-83.881223,45.372902",
     "geom:latitude":45.285379,
     "geom:longitude":-83.945885,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.285294,
     "lbl:longitude":-83.946741,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":141,
     "uscensus:geoid":2614108700,
     "uscensus:name":"Bismarck",
     "uscensus:namelsad":"Bismarck township",
+    "uscensus:population":362,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2614108700
+        "uscensus:geoid":"2614108700"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471089
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404506187,
-    "wof:lastmodified":1605055756,
+    "wof:lastmodified":1722117905,
     "wof:name":"Bismarck Township",
     "wof:parent_id":102082991,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":386,
+    "wof:population":362,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

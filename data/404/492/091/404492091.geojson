@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.027682,
-    "geom:area_square_m":250075815.351168,
+    "geom:area_square_m":250075815.351008,
     "geom:bbox":"-88.066025,42.920823,-87.863807,43.192581",
     "geom:latitude":43.06405,
     "geom:longitude":-87.967096,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.058829,
     "lbl:longitude":-87.943373,
     "lbl:max_zoom":13.0,
@@ -343,11 +349,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":79,
     "uscensus:geoid":5507953000,
     "uscensus:name":"Milwaukee",
     "uscensus:namelsad":"Milwaukee city",
+    "uscensus:population":561385,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -357,8 +366,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5507953000
+        "uscensus:geoid":"5507953000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -374,11 +384,11 @@
         }
     ],
     "wof:id":404492091,
-    "wof:lastmodified":1605056000,
+    "wof:lastmodified":1722117817,
     "wof:name":"Milwaukee",
     "wof:parent_id":102081837,
     "wof:placetype":"localadmin",
-    "wof:population":594833,
+    "wof:population":561385,
     "wof:population_rank":11,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

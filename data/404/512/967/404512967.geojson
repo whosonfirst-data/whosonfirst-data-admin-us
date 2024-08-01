@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002355,
-    "geom:area_square_m":19888814.157488,
+    "geom:area_square_m":19888814.157471,
     "geom:bbox":"-95.100807,46.879573,-95.00787,46.945554",
     "geom:latitude":46.916972,
     "geom:longitude":-95.057619,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.921493,
     "lbl:longitude":-95.054464,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":57,
     "uscensus:geoid":2705749768,
     "uscensus:name":"Park Rapids",
     "uscensus:namelsad":"Park Rapids city",
+    "uscensus:population":4302,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2705749768
+        "uscensus:geoid":"2705749768"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404512967,
-    "wof:lastmodified":1605056128,
+    "wof:lastmodified":1722117954,
     "wof:name":"Park Rapids",
     "wof:parent_id":102087907,
     "wof:placetype":"localadmin",
-    "wof:population":3709,
+    "wof:population":4302,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

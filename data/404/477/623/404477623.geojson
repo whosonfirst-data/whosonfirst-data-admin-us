@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000421,
-    "geom:area_square_m":4029332.918552,
+    "geom:area_square_m":4029332.91855,
     "geom:bbox":"-74.542962,39.298224,-74.508858,39.324541",
     "geom:latitude":39.308656,
     "geom:longitude":-74.524916,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.307874,
     "lbl:longitude":-74.523755,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":3400141370,
     "uscensus:name":"Longport",
     "uscensus:namelsad":"Longport borough",
+    "uscensus:population":878,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400141370
+        "uscensus:geoid":"3400141370"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404477623,
-    "wof:lastmodified":1605055428,
+    "wof:lastmodified":1722117724,
     "wof:name":"Longport",
     "wof:parent_id":102083869,
     "wof:placetype":"localadmin",
-    "wof:population":895,
+    "wof:population":878,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

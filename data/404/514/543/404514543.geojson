@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010237,
-    "geom:area_square_m":90416846.505571,
+    "geom:area_square_m":90416846.505593,
     "geom:bbox":"-92.671362,44.368521,-92.550519,44.456422",
     "geom:latitude":44.412839,
     "geom:longitude":-92.610497,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.423326,
     "lbl:longitude":-92.584789,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":2704924416,
     "uscensus:name":"Goodhue",
     "uscensus:namelsad":"Goodhue township",
+    "uscensus:population":537,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2704924416
+        "uscensus:geoid":"2704924416"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729454583
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404514543,
-    "wof:lastmodified":1605056020,
+    "wof:lastmodified":1722117966,
     "wof:name":"Goodhue Township",
     "wof:parent_id":102087843,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":525,
+    "wof:population":537,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

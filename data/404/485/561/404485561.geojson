@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005673,
-    "geom:area_square_m":53040096.946366,
+    "geom:area_square_m":53040096.946374,
     "geom:bbox":"-80.519188,40.851338,-80.407434,40.906163",
     "geom:latitude":40.878646,
     "geom:longitude":-80.463561,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.882695,
     "lbl:longitude":-80.466544,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":73,
     "uscensus:geoid":4207343824,
     "uscensus:name":"Little Beaver",
     "uscensus:namelsad":"Little Beaver township",
+    "uscensus:population":1202,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4207343824
+        "uscensus:geoid":"4207343824"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729477787
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404485561,
-    "wof:lastmodified":1605055355,
+    "wof:lastmodified":1722117775,
     "wof:name":"Little Beaver Township",
     "wof:parent_id":102080929,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1411,
+    "wof:population":1202,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

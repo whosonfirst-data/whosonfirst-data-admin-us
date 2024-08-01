@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000417,
-    "geom:area_square_m":3730142.343914,
+    "geom:area_square_m":3730142.343909,
     "geom:bbox":"-90.35253,43.647512,-90.322599,43.673282",
     "geom:latitude":43.655975,
     "geom:longitude":-90.336459,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.654354,
     "lbl:longitude":-90.337873,
     "lbl:max_zoom":16.0,
@@ -88,11 +94,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":123,
     "uscensus:geoid":5512334825,
     "uscensus:name":"Hillsboro",
     "uscensus:namelsad":"Hillsboro city",
+    "uscensus:population":1420,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -102,8 +111,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5512334825
+        "uscensus:geoid":"5512334825"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -119,11 +129,11 @@
         }
     ],
     "wof:id":404492437,
-    "wof:lastmodified":1605056000,
+    "wof:lastmodified":1722117819,
     "wof:name":"Hillsboro",
     "wof:parent_id":102081733,
     "wof:placetype":"localadmin",
-    "wof:population":1417,
+    "wof:population":1420,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

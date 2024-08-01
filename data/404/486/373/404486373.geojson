@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000386,
-    "geom:area_square_m":3606804.759269,
+    "geom:area_square_m":3606804.759268,
     "geom:bbox":"-75.267727,40.855635,-75.241461,40.880087",
     "geom:latitude":40.867558,
     "geom:longitude":-75.253496,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.868286,
     "lbl:longitude":-75.254552,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":4209558696,
     "uscensus:name":"Pen Argyl",
     "uscensus:namelsad":"Pen Argyl borough",
+    "uscensus:population":3462,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4209558696
+        "uscensus:geoid":"4209558696"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404486373,
-    "wof:lastmodified":1605055876,
+    "wof:lastmodified":1722117780,
     "wof:name":"Pen Argyl",
     "wof:parent_id":102081395,
     "wof:placetype":"localadmin",
-    "wof:population":3595,
+    "wof:population":3462,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

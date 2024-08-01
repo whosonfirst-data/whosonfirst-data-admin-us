@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.021388,
-    "geom:area_square_m":195553079.001541,
+    "geom:area_square_m":195553079.001584,
     "geom:bbox":"-75.859275,42.244091,-75.672303,42.385027",
     "geom:latitude":42.3187,
     "geom:longitude":-75.769178,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.317108,
     "lbl:longitude":-75.769176,
     "lbl:max_zoom":15.0,
@@ -103,11 +109,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":3601730422,
     "uscensus:name":"Greene",
     "uscensus:namelsad":"Greene town",
+    "uscensus:population":5078,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -117,8 +126,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3601730422
+        "uscensus:geoid":"3601730422"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -134,11 +144,11 @@
         }
     ],
     "wof:id":404522133,
-    "wof:lastmodified":1605056066,
+    "wof:lastmodified":1722233675,
     "wof:name":"Greene",
     "wof:parent_id":102082367,
     "wof:placetype":"localadmin",
-    "wof:population":5604,
+    "wof:population":5078,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

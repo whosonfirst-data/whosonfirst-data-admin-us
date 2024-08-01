@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.017276,
-    "geom:area_square_m":160584060.409823,
+    "geom:area_square_m":160584060.409801,
     "geom:bbox":"-87.526757,41.16609,-87.429138,41.348415",
     "geom:latitude":41.258772,
     "geom:longitude":-87.478495,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.259224,
     "lbl:longitude":-87.477846,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":89,
     "uscensus:geoid":1808982574,
     "uscensus:name":"West Creek",
     "uscensus:namelsad":"West Creek township",
+    "uscensus:population":7881,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1808982574
+        "uscensus:geoid":"1808982574"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404500431,
-    "wof:lastmodified":1604530777,
+    "wof:lastmodified":1722233649,
     "wof:name":"West Creek Township",
     "wof:parent_id":102087149,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":6826,
+    "wof:population":7881,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.016269,
-    "geom:area_square_m":140341276.737223,
+    "geom:area_square_m":140341276.737215,
     "geom:bbox":"-88.365788,45.718094,-88.177835,45.808834",
     "geom:latitude":45.763586,
     "geom:longitude":-88.271717,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.763516,
     "lbl:longitude":-88.271723,
     "lbl:max_zoom":17.0,
@@ -106,22 +112,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":37,
     "uscensus:geoid":5503735600,
     "uscensus:name":"Homestead",
     "uscensus:namelsad":"Homestead town",
+    "uscensus:population":396,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081313
+        102081313,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5503735600
+        "uscensus:geoid":"5503735600"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729473551
     ],
@@ -140,11 +150,11 @@
         }
     ],
     "wof:id":404491773,
-    "wof:lastmodified":1636499313,
+    "wof:lastmodified":1722117815,
     "wof:name":"Homestead",
     "wof:parent_id":102081313,
     "wof:placetype":"localadmin",
-    "wof:population":336,
+    "wof:population":396,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

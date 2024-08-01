@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009692,
-    "geom:area_square_m":93473765.864385,
+    "geom:area_square_m":93473765.864379,
     "geom:bbox":"-99.042626,38.696752,-98.929199,38.783975",
     "geom:latitude":38.740255,
     "geom:longitude":-98.985943,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.740215,
     "lbl:longitude":-98.985943,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":167,
     "uscensus:geoid":2016780125,
     "uscensus:name":"Winterset",
     "uscensus:namelsad":"Winterset township",
+    "uscensus:population":55,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2016780125
+        "uscensus:geoid":"2016780125"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462889
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404505253,
-    "wof:lastmodified":1605055291,
+    "wof:lastmodified":1722117899,
     "wof:name":"Winterset Township",
     "wof:parent_id":102084163,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":67,
+    "wof:population":55,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

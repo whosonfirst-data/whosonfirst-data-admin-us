@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013945,
-    "geom:area_square_m":133697196.821037,
+    "geom:area_square_m":133697196.821148,
     "geom:bbox":"-96.03906,39.08766,-95.905138,39.216696",
     "geom:latitude":39.162281,
     "geom:longitude":-95.967422,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.166168,
     "lbl:longitude":-95.959465,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":177,
     "uscensus:geoid":2017761425,
     "uscensus:name":"Rossville",
     "uscensus:namelsad":"Rossville township",
+    "uscensus:population":1885,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2017761425
+        "uscensus:geoid":"2017761425"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404504949,
-    "wof:lastmodified":1605055303,
+    "wof:lastmodified":1722233663,
     "wof:name":"Rossville Township",
     "wof:parent_id":102084175,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1907,
+    "wof:population":1885,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

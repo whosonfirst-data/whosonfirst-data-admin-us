@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011389,
-    "geom:area_square_m":99920319.417283,
+    "geom:area_square_m":99920319.417316,
     "geom:bbox":"-88.528075,44.764937,-88.365547,44.855445",
     "geom:latitude":44.806164,
     "geom:longitude":-88.437895,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.798992,
     "lbl:longitude":-88.403242,
     "lbl:max_zoom":16.0,
@@ -322,11 +328,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":5511583725,
     "uscensus:name":"Washington",
     "uscensus:namelsad":"Washington town",
+    "uscensus:population":1993,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -336,8 +345,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5511583725
+        "uscensus:geoid":"5511583725"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465809
     ],
@@ -356,11 +366,11 @@
         }
     ],
     "wof:id":404494419,
-    "wof:lastmodified":1605055970,
+    "wof:lastmodified":1722117832,
     "wof:name":"Washington",
     "wof:parent_id":102081859,
     "wof:placetype":"localadmin",
-    "wof:population":1895,
+    "wof:population":1993,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

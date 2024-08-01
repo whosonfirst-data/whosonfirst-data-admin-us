@@ -10,6 +10,12 @@
     "geom:latitude":43.98929,
     "geom:longitude":-88.937998,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.989322,
     "lbl:longitude":-88.937997,
     "lbl:max_zoom":18.0,
@@ -742,11 +748,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":137,
     "uscensus:geoid":5513706925,
     "uscensus:name":"Berlin",
     "uscensus:namelsad":"Berlin city",
+    "uscensus:population":90,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -756,8 +765,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5513706925
+        "uscensus:geoid":"5513706925"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -773,11 +783,11 @@
         }
     ],
     "wof:id":404492541,
-    "wof:lastmodified":1605056012,
+    "wof:lastmodified":1722117820,
     "wof:name":"Berlin",
     "wof:parent_id":102081799,
     "wof:placetype":"localadmin",
-    "wof:population":89,
+    "wof:population":90,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

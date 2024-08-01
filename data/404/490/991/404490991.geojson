@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009986,
-    "geom:area_square_m":90251342.260366,
+    "geom:area_square_m":90251342.260362,
     "geom:bbox":"-100.127095,42.998145,-100.008265,43.082601",
     "geom:latitude":43.04042,
     "geom:longitude":-100.06764,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.04049,
     "lbl:longitude":-100.067647,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":123,
     "uscensus:geoid":4612330820,
     "uscensus:name":"Huggins",
     "uscensus:namelsad":"Huggins township",
+    "uscensus:population":15,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4612330820
+        "uscensus:geoid":"4612330820"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458059
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404490991,
-    "wof:lastmodified":1605055506,
+    "wof:lastmodified":1722117810,
     "wof:name":"Huggins Township",
     "wof:parent_id":102086855,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":22,
+    "wof:population":15,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

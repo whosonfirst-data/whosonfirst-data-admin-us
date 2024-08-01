@@ -10,6 +10,12 @@
     "geom:latitude":46.675797,
     "geom:longitude":-97.816255,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.677287,
     "lbl:longitude":-97.814509,
     "lbl:max_zoom":18.0,
@@ -94,22 +100,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3800357180,
     "uscensus:name":"Nome",
     "uscensus:namelsad":"Nome city",
+    "uscensus:population":48,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688525,
-        102082051
+        102082051,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3800357180
+        "uscensus:geoid":"3800357180"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -125,11 +135,11 @@
         }
     ],
     "wof:id":404480081,
-    "wof:lastmodified":1636499389,
+    "wof:lastmodified":1722117742,
     "wof:name":"Nome",
     "wof:parent_id":102082051,
     "wof:placetype":"localadmin",
-    "wof:population":62,
+    "wof:population":48,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

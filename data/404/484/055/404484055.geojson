@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008265,
-    "geom:area_square_m":76252708.221884,
+    "geom:area_square_m":76252708.221857,
     "geom:bbox":"-75.974632,41.710971,-75.84575,41.782135",
     "geom:latitude":41.746688,
     "geom:longitude":-75.909847,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.74657,
     "lbl:longitude":-75.909861,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":4211519264,
     "uscensus:name":"Dimock",
     "uscensus:namelsad":"Dimock township",
+    "uscensus:population":1215,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4211519264
+        "uscensus:geoid":"4211519264"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729472407
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404484055,
-    "wof:lastmodified":1605055457,
+    "wof:lastmodified":1722117766,
     "wof:name":"Dimock Township",
     "wof:parent_id":102081381,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1497,
+    "wof:population":1215,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

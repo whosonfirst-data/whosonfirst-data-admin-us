@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006969,
-    "geom:area_square_m":67163775.732632,
+    "geom:area_square_m":67163775.732668,
     "geom:bbox":"-85.573514,38.752575,-85.461318,38.825023",
     "geom:latitude":38.793054,
     "geom:longitude":-85.514883,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.7959,
     "lbl:longitude":-85.514881,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":77,
     "uscensus:geoid":1807770398,
     "uscensus:name":"Smyrna",
     "uscensus:namelsad":"Smyrna township",
+    "uscensus:population":1089,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1807770398
+        "uscensus:geoid":"1807770398"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729453807
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404500087,
-    "wof:lastmodified":1604969685,
+    "wof:lastmodified":1722117863,
     "wof:name":"Smyrna Township",
     "wof:parent_id":102087103,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1096,
+    "wof:population":1089,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

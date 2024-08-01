@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006738,
-    "geom:area_square_m":62459341.293625,
+    "geom:area_square_m":62459341.293629,
     "geom:bbox":"-82.292137,41.404719,-82.102004,41.485224",
     "geom:latitude":41.44096,
     "geom:longitude":-82.18392,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.444665,
     "lbl:longitude":-82.185388,
     "lbl:max_zoom":14.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":93,
     "uscensus:geoid":3909344856,
     "uscensus:name":"Lorain",
     "uscensus:namelsad":"Lorain city",
+    "uscensus:population":65337,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3909344856
+        "uscensus:geoid":"3909344856"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404525315,
-    "wof:lastmodified":1605056055,
+    "wof:lastmodified":1722118015,
     "wof:name":"Lorain",
     "wof:parent_id":102083683,
     "wof:placetype":"localadmin",
-    "wof:population":64097,
+    "wof:population":65337,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

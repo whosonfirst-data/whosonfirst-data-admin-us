@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01024,
-    "geom:area_square_m":96739097.518206,
+    "geom:area_square_m":96739097.518198,
     "geom:bbox":"-89.147794,40.136357,-89.028582,40.224313",
     "geom:latitude":40.180784,
     "geom:longitude":-89.088074,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.18064,
     "lbl:longitude":-89.088085,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":39,
     "uscensus:geoid":1703903714,
     "uscensus:name":"Barnett",
     "uscensus:namelsad":"Barnett township",
+    "uscensus:population":365,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1703903714
+        "uscensus:geoid":"1703903714"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457733
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404497729,
-    "wof:lastmodified":1605055505,
+    "wof:lastmodified":1722117851,
     "wof:name":"Barnett Township",
     "wof:parent_id":102082269,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":406,
+    "wof:population":365,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

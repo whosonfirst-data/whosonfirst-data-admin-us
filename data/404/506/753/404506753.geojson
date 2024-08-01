@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.042192,
-    "geom:area_square_m":370662109.609917,
+    "geom:area_square_m":370662109.609808,
     "geom:bbox":"-83.888588,44.595359,-83.645707,44.856801",
     "geom:latitude":44.726147,
     "geom:longitude":-83.797325,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.72606,
     "lbl:longitude":-83.819305,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":2600154740,
     "uscensus:name":"Mitchell",
     "uscensus:namelsad":"Mitchell township",
+    "uscensus:population":365,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2600154740
+        "uscensus:geoid":"2600154740"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469575
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404506753,
-    "wof:lastmodified":1605055751,
+    "wof:lastmodified":1722117909,
     "wof:name":"Mitchell Township",
     "wof:parent_id":102083003,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":352,
+    "wof:population":365,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

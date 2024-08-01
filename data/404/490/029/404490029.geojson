@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00845,
-    "geom:area_square_m":75835671.61827,
+    "geom:area_square_m":75835671.618245,
     "geom:bbox":"-98.589143,43.427431,-98.469925,43.498916",
     "geom:latitude":43.463137,
     "geom:longitude":-98.529721,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.463151,
     "lbl:longitude":-98.529721,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":43,
     "uscensus:geoid":4604329700,
     "uscensus:name":"Holland",
     "uscensus:namelsad":"Holland township",
+    "uscensus:population":167,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4604329700
+        "uscensus:geoid":"4604329700"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404490029,
-    "wof:lastmodified":1605055521,
+    "wof:lastmodified":1722117804,
     "wof:name":"Holland Township",
     "wof:parent_id":102086053,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":156,
+    "wof:population":167,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

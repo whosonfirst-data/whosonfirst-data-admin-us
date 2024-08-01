@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000795,
-    "geom:area_square_m":7377227.252105,
+    "geom:area_square_m":7377227.252108,
     "geom:bbox":"-75.558005,41.33205,-75.505247,41.359624",
     "geom:latitude":41.341712,
     "geom:longitude":-75.531543,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.342349,
     "lbl:longitude":-75.531545,
     "lbl:max_zoom":15.0,
@@ -769,11 +775,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":69,
     "uscensus:geoid":4206951208,
     "uscensus:name":"Moscow",
     "uscensus:namelsad":"Moscow borough",
+    "uscensus:population":2017,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -783,8 +792,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4206951208
+        "uscensus:geoid":"4206951208"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -800,11 +810,11 @@
         }
     ],
     "wof:id":404486831,
-    "wof:lastmodified":1605055872,
+    "wof:lastmodified":1722117783,
     "wof:name":"Moscow",
     "wof:parent_id":102081345,
     "wof:placetype":"localadmin",
-    "wof:population":2026,
+    "wof:population":2017,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

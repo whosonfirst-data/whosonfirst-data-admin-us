@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000193,
-    "geom:area_square_m":1813046.324205,
+    "geom:area_square_m":1813046.32421,
     "geom:bbox":"-74.601509,40.492989,-74.57715,40.50937",
     "geom:latitude":40.500201,
     "geom:longitude":-74.592128,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.499618,
     "lbl:longitude":-74.592319,
     "lbl:max_zoom":17.0,
@@ -133,11 +139,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":3403546590,
     "uscensus:name":"Millstone",
     "uscensus:namelsad":"Millstone borough",
+    "uscensus:population":446,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -147,8 +156,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3403546590
+        "uscensus:geoid":"3403546590"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -164,11 +174,11 @@
         }
     ],
     "wof:id":404477367,
-    "wof:lastmodified":1605055426,
+    "wof:lastmodified":1722117722,
     "wof:name":"Millstone",
     "wof:parent_id":102085045,
     "wof:placetype":"localadmin",
-    "wof:population":418,
+    "wof:population":446,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

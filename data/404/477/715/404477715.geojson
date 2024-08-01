@@ -10,6 +10,12 @@
     "geom:latitude":40.831299,
     "geom:longitude":-74.014707,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.83093,
     "lbl:longitude":-74.014364,
     "lbl:max_zoom":15.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3400362910,
     "uscensus:name":"Ridgefield",
     "uscensus:namelsad":"Ridgefield borough",
+    "uscensus:population":11417,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400362910
+        "uscensus:geoid":"3400362910"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404477715,
-    "wof:lastmodified":1605055422,
+    "wof:lastmodified":1722117724,
     "wof:name":"Ridgefield",
     "wof:parent_id":102086773,
     "wof:placetype":"localadmin",
-    "wof:population":11032,
+    "wof:population":11417,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

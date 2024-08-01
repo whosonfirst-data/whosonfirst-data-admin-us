@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.021729,
-    "geom:area_square_m":185519515.667764,
+    "geom:area_square_m":185519515.667732,
     "geom:bbox":"-85.239336,46.24543,-85.113329,46.4195",
     "geom:latitude":46.332373,
     "geom:longitude":-85.176466,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.332471,
     "lbl:longitude":-85.176497,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":33,
     "uscensus:geoid":2603339860,
     "uscensus:name":"Hulbert",
     "uscensus:namelsad":"Hulbert township",
+    "uscensus:population":177,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2603339860
+        "uscensus:geoid":"2603339860"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456715
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404507189,
-    "wof:lastmodified":1605055774,
+    "wof:lastmodified":1722117912,
     "wof:name":"Hulbert Township",
     "wof:parent_id":102083033,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":168,
+    "wof:population":177,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

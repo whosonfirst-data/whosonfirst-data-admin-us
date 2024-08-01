@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.012113,
-    "geom:area_square_m":109246277.626406,
+    "geom:area_square_m":109246277.626412,
     "geom:bbox":"-73.13495,43.117147,-73.001787,43.213817",
     "geom:latitude":43.165366,
     "geom:longitude":-73.067657,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.165753,
     "lbl:longitude":-73.067672,
     "lbl:max_zoom":15.0,
@@ -400,11 +406,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":5000342850,
     "uscensus:name":"Manchester",
     "uscensus:namelsad":"Manchester town",
+    "uscensus:population":4481,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -414,8 +423,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5000342850
+        "uscensus:geoid":"5000342850"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -431,11 +441,11 @@
         }
     ],
     "wof:id":404527469,
-    "wof:lastmodified":1605055683,
+    "wof:lastmodified":1722233691,
     "wof:name":"Manchester",
     "wof:parent_id":102087439,
     "wof:placetype":"localadmin",
-    "wof:population":4391,
+    "wof:population":4481,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

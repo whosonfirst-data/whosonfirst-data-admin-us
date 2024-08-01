@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007262,
-    "geom:area_square_m":69155943.036026,
+    "geom:area_square_m":69155943.036082,
     "geom:bbox":"-91.266049,39.546099,-91.14839,39.669669",
     "geom:latitude":39.631308,
     "geom:longitude":-91.191836,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.637527,
     "lbl:longitude":-91.187829,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":149,
     "uscensus:geoid":1714914390,
     "uscensus:name":"Cincinnati",
     "uscensus:namelsad":"Cincinnati township",
+    "uscensus:population":22,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1714914390
+        "uscensus:geoid":"1714914390"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464927
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404499071,
-    "wof:lastmodified":1605055540,
+    "wof:lastmodified":1722117858,
     "wof:name":"Cincinnati Township",
     "wof:parent_id":102081665,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":31,
+    "wof:population":22,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

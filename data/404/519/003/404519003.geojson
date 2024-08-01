@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.017171,
-    "geom:area_square_m":159177885.624306,
+    "geom:area_square_m":159177885.624248,
     "geom:bbox":"-96.405936,41.393034,-96.11717,41.480886",
     "geom:latitude":41.4356,
     "geom:longitude":-96.256941,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.436687,
     "lbl:longitude":-96.256945,
     "lbl:max_zoom":15.0,
@@ -199,11 +205,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":177,
     "uscensus:geoid":3117749131,
     "uscensus:name":"7",
     "uscensus:namelsad":"Township 7",
+    "uscensus:population":2724,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -213,8 +222,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3117749131
+        "uscensus:geoid":"3117749131"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -230,11 +240,11 @@
         }
     ],
     "wof:id":404519003,
-    "wof:lastmodified":1605055672,
+    "wof:lastmodified":1722233671,
     "wof:name":"7",
     "wof:parent_id":102082783,
     "wof:placetype":"localadmin",
-    "wof:population":2657,
+    "wof:population":2724,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

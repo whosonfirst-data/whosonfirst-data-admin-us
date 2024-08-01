@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002767,
-    "geom:area_square_m":26080941.815038,
+    "geom:area_square_m":26080941.815034,
     "geom:bbox":"-75.960708,40.296401,-75.890362,40.371239",
     "geom:latitude":40.339978,
     "geom:longitude":-75.926648,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.346978,
     "lbl:longitude":-75.924261,
     "lbl:max_zoom":14.0,
@@ -217,11 +223,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":11,
     "uscensus:geoid":4201163624,
     "uscensus:name":"Reading",
     "uscensus:namelsad":"Reading city",
+    "uscensus:population":94903,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -231,8 +240,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4201163624
+        "uscensus:geoid":"4201163624"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -248,11 +258,11 @@
         }
     ],
     "wof:id":404484545,
-    "wof:lastmodified":1605055460,
+    "wof:lastmodified":1722117769,
     "wof:name":"Reading",
     "wof:parent_id":102080991,
     "wof:placetype":"localadmin",
-    "wof:population":88082,
+    "wof:population":94903,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

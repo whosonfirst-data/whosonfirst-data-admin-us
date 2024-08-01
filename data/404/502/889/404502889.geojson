@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00505,
-    "geom:area_square_m":48401226.865646,
+    "geom:area_square_m":48401226.865652,
     "geom:bbox":"-96.690275,39.124135,-96.529361,39.228795",
     "geom:latitude":39.188423,
     "geom:longitude":-96.608359,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.191034,
     "lbl:longitude":-96.598334,
     "lbl:max_zoom":14.0,
@@ -316,22 +322,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":161,
     "uscensus:geoid":2016144250,
     "uscensus:name":"Manhattan",
     "uscensus:namelsad":"Manhattan city",
+    "uscensus:population":53674,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688555,
-        102084179
+        102084179,
+        85688555
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2016144250
+        "uscensus:geoid":"2016144250"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -347,11 +357,11 @@
         }
     ],
     "wof:id":404502889,
-    "wof:lastmodified":1636499264,
+    "wof:lastmodified":1722117881,
     "wof:name":"Manhattan",
     "wof:parent_id":102084179,
     "wof:placetype":"localadmin",
-    "wof:population":52135,
+    "wof:population":53674,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

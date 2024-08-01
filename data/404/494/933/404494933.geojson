@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01022,
-    "geom:area_square_m":92309798.916376,
+    "geom:area_square_m":92309798.91638,
     "geom:bbox":"-90.78502,43.031951,-90.665913,43.119333",
     "geom:latitude":43.075153,
     "geom:longitude":-90.724823,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.075607,
     "lbl:longitude":-90.72482,
     "lbl:max_zoom":17.0,
@@ -130,22 +136,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":43,
     "uscensus:geoid":5504349350,
     "uscensus:name":"Marion",
     "uscensus:namelsad":"Marion town",
+    "uscensus:population":649,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081857
+        102081857,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5504349350
+        "uscensus:geoid":"5504349350"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465789
     ],
@@ -164,11 +174,11 @@
         }
     ],
     "wof:id":404494933,
-    "wof:lastmodified":1636499405,
+    "wof:lastmodified":1722117836,
     "wof:name":"Marion",
     "wof:parent_id":102081857,
     "wof:placetype":"localadmin",
-    "wof:population":572,
+    "wof:population":649,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

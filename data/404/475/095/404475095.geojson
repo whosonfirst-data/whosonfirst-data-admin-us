@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014587,
-    "geom:area_square_m":126891780.255278,
+    "geom:area_square_m":126891780.255267,
     "geom:bbox":"-69.582557,45.225302,-69.424481,45.353595",
     "geom:latitude":45.28957,
     "geom:longitude":-69.503122,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.289409,
     "lbl:longitude":-69.503117,
     "lbl:max_zoom":17.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":2302146580,
     "uscensus:name":"Monson",
     "uscensus:namelsad":"Monson town",
+    "uscensus:population":640,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":23,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2302146580
+        "uscensus:geoid":"2302146580"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456945
     ],
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404475095,
-    "wof:lastmodified":1605055853,
+    "wof:lastmodified":1722117705,
     "wof:name":"Monson",
     "wof:parent_id":102087465,
     "wof:placetype":"localadmin",
-    "wof:population":686,
+    "wof:population":640,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

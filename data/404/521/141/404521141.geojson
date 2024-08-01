@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010358,
-    "geom:area_square_m":94595480.450073,
+    "geom:area_square_m":94595480.450056,
     "geom:bbox":"-78.074238,42.347442,-77.955856,42.43543",
     "geom:latitude":42.391385,
     "geom:longitude":-78.015101,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.391278,
     "lbl:longitude":-78.015104,
     "lbl:max_zoom":17.0,
@@ -115,11 +121,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3600301319,
     "uscensus:name":"Allen",
     "uscensus:namelsad":"Allen town",
+    "uscensus:population":488,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -129,8 +138,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3600301319
+        "uscensus:geoid":"3600301319"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462677
     ],
@@ -149,11 +159,11 @@
         }
     ],
     "wof:id":404521141,
-    "wof:lastmodified":1605055640,
+    "wof:lastmodified":1722117984,
     "wof:name":"Allen",
     "wof:parent_id":102082403,
     "wof:placetype":"localadmin",
-    "wof:population":448,
+    "wof:population":488,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002715,
-    "geom:area_square_m":26048186.591746,
+    "geom:area_square_m":26048186.59177,
     "geom:bbox":"-84.695395,39.078386,-84.579666,39.124279",
     "geom:latitude":39.102922,
     "geom:longitude":-84.632653,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.102106,
     "lbl:longitude":-84.626982,
     "lbl:max_zoom":14.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":61,
     "uscensus:geoid":3906121504,
     "uscensus:name":"Delhi",
     "uscensus:namelsad":"Delhi township",
+    "uscensus:population":28436,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3906121504
+        "uscensus:geoid":"3906121504"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404525445,
-    "wof:lastmodified":1605056060,
+    "wof:lastmodified":1722118016,
     "wof:name":"Delhi Township",
     "wof:parent_id":102083687,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":29510,
+    "wof:population":28436,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

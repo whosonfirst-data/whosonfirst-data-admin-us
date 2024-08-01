@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010472,
-    "geom:area_square_m":92774073.700132,
+    "geom:area_square_m":92774073.700142,
     "geom:bbox":"-98.094235,44.19468,-97.97358,44.28298",
     "geom:latitude":44.238878,
     "geom:longitude":-98.034012,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.238857,
     "lbl:longitude":-98.034016,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":4600548780,
     "uscensus:name":"Pearl Creek",
     "uscensus:namelsad":"Pearl Creek township",
+    "uscensus:population":95,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4600548780
+        "uscensus:geoid":"4600548780"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459775
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404490009,
-    "wof:lastmodified":1605055511,
+    "wof:lastmodified":1722117804,
     "wof:name":"Pearl Creek Township",
     "wof:parent_id":102086841,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":107,
+    "wof:population":95,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

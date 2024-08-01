@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000091,
-    "geom:area_square_m":861587.706473,
+    "geom:area_square_m":861587.706472,
     "geom:bbox":"-78.769948,40.371087,-78.753656,40.381604",
     "geom:latitude":40.376378,
     "geom:longitude":-78.761566,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.376124,
     "lbl:longitude":-78.760764,
     "lbl:max_zoom":17.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":4202175136,
     "uscensus:name":"Summerhill",
     "uscensus:namelsad":"Summerhill borough",
+    "uscensus:population":466,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4202175136
+        "uscensus:geoid":"4202175136"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404483055,
-    "wof:lastmodified":1605055440,
+    "wof:lastmodified":1722117760,
     "wof:name":"Summerhill",
     "wof:parent_id":102080879,
     "wof:placetype":"localadmin",
-    "wof:population":490,
+    "wof:population":466,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009699,
-    "geom:area_square_m":93318042.917429,
+    "geom:area_square_m":93318042.917481,
     "geom:bbox":"-97.037685,38.87035,-96.926377,38.958423",
     "geom:latitude":38.914392,
     "geom:longitude":-96.982049,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.914481,
     "lbl:longitude":-96.982054,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":41,
     "uscensus:geoid":2004159900,
     "uscensus:name":"Rinehart",
     "uscensus:namelsad":"Rinehart township",
+    "uscensus:population":203,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2004159900
+        "uscensus:geoid":"2004159900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471093
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404503509,
-    "wof:lastmodified":1605055324,
+    "wof:lastmodified":1722117886,
     "wof:name":"Rinehart Township",
     "wof:parent_id":102082691,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":212,
+    "wof:population":203,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000122,
-    "geom:area_square_m":1154783.335986,
+    "geom:area_square_m":1154783.335988,
     "geom:bbox":"-76.856699,40.272881,-76.840381,40.284914",
     "geom:latitude":40.278005,
     "geom:longitude":-76.848332,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.27807,
     "lbl:longitude":-76.848994,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":43,
     "uscensus:geoid":4204358712,
     "uscensus:name":"Penbrook",
     "uscensus:namelsad":"Penbrook borough",
+    "uscensus:population":3244,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4204358712
+        "uscensus:geoid":"4204358712"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404486197,
-    "wof:lastmodified":1605055869,
+    "wof:lastmodified":1722117778,
     "wof:name":"Penbrook",
     "wof:parent_id":102081347,
     "wof:placetype":"localadmin",
-    "wof:population":3008,
+    "wof:population":3244,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

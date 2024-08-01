@@ -10,6 +10,12 @@
     "geom:latitude":44.502836,
     "geom:longitude":-71.91512,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.497892,
     "lbl:longitude":-71.91435,
     "lbl:max_zoom":17.0,
@@ -97,11 +103,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":5000537900,
     "uscensus:name":"Kirby",
     "uscensus:namelsad":"Kirby town",
+    "uscensus:population":587,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -111,8 +120,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5000537900
+        "uscensus:geoid":"5000537900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471443
     ],
@@ -131,11 +141,11 @@
         }
     ],
     "wof:id":404527555,
-    "wof:lastmodified":1605055681,
+    "wof:lastmodified":1722118031,
     "wof:name":"Kirby",
     "wof:parent_id":102080755,
     "wof:placetype":"localadmin",
-    "wof:population":493,
+    "wof:population":587,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

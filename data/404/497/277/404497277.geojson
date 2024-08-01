@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010359,
-    "geom:area_square_m":97780462.968191,
+    "geom:area_square_m":97780462.968198,
     "geom:bbox":"-91.145333,40.194463,-91.025687,40.283571",
     "geom:latitude":40.239026,
     "geom:longitude":-91.085559,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.238904,
     "lbl:longitude":-91.085563,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":67,
     "uscensus:geoid":1706714104,
     "uscensus:name":"Chili",
     "uscensus:namelsad":"Chili township",
+    "uscensus:population":601,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1706714104
+        "uscensus:geoid":"1706714104"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404497277,
-    "wof:lastmodified":1605055497,
+    "wof:lastmodified":1722233637,
     "wof:name":"Chili Township",
     "wof:parent_id":102082845,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":657,
+    "wof:population":601,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

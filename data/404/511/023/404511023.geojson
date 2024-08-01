@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001295,
-    "geom:area_square_m":11188243.878577,
+    "geom:area_square_m":11188243.878573,
     "geom:bbox":"-93.002058,45.669581,-92.939415,45.713515",
     "geom:latitude":45.687486,
     "geom:longitude":-92.965483,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.683571,
     "lbl:longitude":-92.971091,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":2702556266,
     "uscensus:name":"Rush City",
     "uscensus:namelsad":"Rush City city",
+    "uscensus:population":3344,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2702556266
+        "uscensus:geoid":"2702556266"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404511023,
-    "wof:lastmodified":1605055716,
+    "wof:lastmodified":1722117940,
     "wof:name":"Rush City",
     "wof:parent_id":102086987,
     "wof:placetype":"localadmin",
-    "wof:population":3079,
+    "wof:population":3344,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

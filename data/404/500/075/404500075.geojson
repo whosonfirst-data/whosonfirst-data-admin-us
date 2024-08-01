@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009653,
-    "geom:area_square_m":90968517.735182,
+    "geom:area_square_m":90968517.735189,
     "geom:bbox":"-85.130855,40.307456,-85.01748,40.395334",
     "geom:latitude":40.351259,
     "geom:longitude":-85.07421,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.351258,
     "lbl:longitude":-85.07421,
     "lbl:max_zoom":17.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":75,
     "uscensus:geoid":1807538034,
     "uscensus:name":"Jefferson",
     "uscensus:namelsad":"Jefferson township",
+    "uscensus:population":677,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1807538034
+        "uscensus:geoid":"1807538034"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729453955
     ],
@@ -89,12 +99,12 @@
         }
     ],
     "wof:id":404500075,
-    "wof:lastmodified":1604969686,
+    "wof:lastmodified":1722117863,
     "wof:name":"Jefferson Township",
     "wof:parent_id":102086251,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":770,
+    "wof:population":677,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

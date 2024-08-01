@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010746,
-    "geom:area_square_m":92479863.202812,
+    "geom:area_square_m":92479863.202831,
     "geom:bbox":"-99.098055,45.853059,-98.97346,45.940037",
     "geom:latitude":45.896525,
     "geom:longitude":-99.035661,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.896534,
     "lbl:longitude":-99.035661,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":89,
     "uscensus:geoid":4608967980,
     "uscensus:name":"Wacker",
     "uscensus:namelsad":"Wacker township",
+    "uscensus:population":16,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4608967980
+        "uscensus:geoid":"4608967980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458849
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404490617,
-    "wof:lastmodified":1605055509,
+    "wof:lastmodified":1722117808,
     "wof:name":"Wacker Township",
     "wof:parent_id":102086837,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":15,
+    "wof:population":16,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011015,
-    "geom:area_square_m":92999280.848982,
+    "geom:area_square_m":92999280.84895,
     "geom:bbox":"-100.455973,46.894869,-100.327922,46.98235",
     "geom:latitude":46.938552,
     "geom:longitude":-100.392121,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.938566,
     "lbl:longitude":-100.392126,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":3801572900,
     "uscensus:name":"Sibley Butte",
     "uscensus:namelsad":"Sibley Butte township",
+    "uscensus:population":10,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3801572900
+        "uscensus:geoid":"3801572900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470077
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404480477,
-    "wof:lastmodified":1605055908,
+    "wof:lastmodified":1722117745,
     "wof:name":"Sibley Butte Township",
     "wof:parent_id":102082107,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":15,
+    "wof:population":10,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

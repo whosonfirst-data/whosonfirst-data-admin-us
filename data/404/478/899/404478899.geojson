@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01094,
-    "geom:area_square_m":92819731.363411,
+    "geom:area_square_m":92819731.363376,
     "geom:bbox":"-97.682006,46.629653,-97.555943,46.716936",
     "geom:latitude":46.673278,
     "geom:longitude":-97.61897,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.673277,
     "lbl:longitude":-97.61898,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":17,
     "uscensus:geoid":3801763580,
     "uscensus:name":"Pontiac",
     "uscensus:namelsad":"Pontiac township",
+    "uscensus:population":89,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3801763580
+        "uscensus:geoid":"3801763580"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729476869
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404478899,
-    "wof:lastmodified":1605055350,
+    "wof:lastmodified":1722117733,
     "wof:name":"Pontiac Township",
     "wof:parent_id":102082073,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":100,
+    "wof:population":89,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

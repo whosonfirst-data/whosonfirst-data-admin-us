@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011302,
-    "geom:area_square_m":93548744.935448,
+    "geom:area_square_m":93548744.935486,
     "geom:bbox":"-101.486188,47.934848,-101.356853,48.023104",
     "geom:latitude":47.978997,
     "geom:longitude":-101.421479,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.979053,
     "lbl:longitude":-101.421487,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":101,
     "uscensus:geoid":3810138260,
     "uscensus:name":"Hilton",
     "uscensus:namelsad":"Hilton township",
+    "uscensus:population":59,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3810138260
+        "uscensus:geoid":"3810138260"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457057
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404482485,
-    "wof:lastmodified":1605055377,
+    "wof:lastmodified":1722117757,
     "wof:name":"Hilton Township",
     "wof:parent_id":102082117,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":53,
+    "wof:population":59,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

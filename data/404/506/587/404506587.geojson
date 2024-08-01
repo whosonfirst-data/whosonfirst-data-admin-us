@@ -5,7 +5,7 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009784,
-    "geom:area_square_m":88480024.754074,
+    "geom:area_square_m":88480024.754064,
     "geom:bbox":"-83.928942,42.956548,-83.811158,43.045585",
     "geom:latitude":43.002687,
     "geom:longitude":-83.872253,
@@ -15,6 +15,9 @@
     ],
     "label:eng_x_preferred_placetype":[
         "charter township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
     ],
     "lbl:latitude":43.001011,
     "lbl:longitude":-83.877248,
@@ -123,11 +126,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":49,
     "uscensus:geoid":2604916260,
     "uscensus:name":"Clayton",
     "uscensus:namelsad":"Clayton charter township",
+    "uscensus:population":7361,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -137,8 +143,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2604916260
+        "uscensus:geoid":"2604916260"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -154,11 +161,11 @@
         }
     ],
     "wof:id":404506587,
-    "wof:lastmodified":1605055757,
+    "wof:lastmodified":1722233665,
     "wof:name":"Clayton",
     "wof:parent_id":102083111,
     "wof:placetype":"localadmin",
-    "wof:population":7581,
+    "wof:population":7361,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

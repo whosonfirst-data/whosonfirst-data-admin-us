@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000113,
-    "geom:area_square_m":1063068.83695,
+    "geom:area_square_m":1063068.836946,
     "geom:bbox":"-80.222047,40.242924,-80.202729,40.256231",
     "geom:latitude":40.249451,
     "geom:longitude":-80.211131,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.250792,
     "lbl:longitude":-80.209662,
     "lbl:max_zoom":16.0,
@@ -442,11 +448,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":4212535896,
     "uscensus:name":"Houston",
     "uscensus:namelsad":"Houston borough",
+    "uscensus:population":1152,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -456,8 +465,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4212535896
+        "uscensus:geoid":"4212535896"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -473,11 +483,11 @@
         }
     ],
     "wof:id":404483971,
-    "wof:lastmodified":1605055442,
+    "wof:lastmodified":1722117765,
     "wof:name":"Houston",
     "wof:parent_id":102081343,
     "wof:placetype":"localadmin",
-    "wof:population":1296,
+    "wof:population":1152,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

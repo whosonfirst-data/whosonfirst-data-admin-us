@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001463,
-    "geom:area_square_m":13639684.086486,
+    "geom:area_square_m":13639684.08649,
     "geom:bbox":"-74.12445,41.042908,-74.071829,41.087052",
     "geom:latitude":41.063352,
     "geom:longitude":-74.098489,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.066625,
     "lbl:longitude":-74.096343,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3400375140,
     "uscensus:name":"Upper Saddle River",
     "uscensus:namelsad":"Upper Saddle River borough",
+    "uscensus:population":8480,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400375140
+        "uscensus:geoid":"3400375140"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404477741,
-    "wof:lastmodified":1605055424,
+    "wof:lastmodified":1722117725,
     "wof:name":"Upper Saddle River",
     "wof:parent_id":102086773,
     "wof:placetype":"localadmin",
-    "wof:population":8208,
+    "wof:population":8480,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

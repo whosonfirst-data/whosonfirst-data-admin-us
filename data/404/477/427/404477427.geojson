@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000354,
-    "geom:area_square_m":3309754.274278,
+    "geom:area_square_m":3309754.274289,
     "geom:bbox":"-74.218528,40.785694,-74.191412,40.828913",
     "geom:latitude":40.804039,
     "geom:longitude":-74.204303,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.804709,
     "lbl:longitude":-74.202965,
     "lbl:max_zoom":15.0,
@@ -76,11 +82,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":13,
     "uscensus:geoid":3401326610,
     "uscensus:name":"Glen Ridge",
     "uscensus:namelsad":"Glen Ridge borough",
+    "uscensus:population":7952,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -90,8 +99,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3401326610
+        "uscensus:geoid":"3401326610"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -107,11 +117,11 @@
         }
     ],
     "wof:id":404477427,
-    "wof:lastmodified":1605055429,
+    "wof:lastmodified":1722117722,
     "wof:name":"Glen Ridge",
     "wof:parent_id":102085043,
     "wof:placetype":"localadmin",
-    "wof:population":7527,
+    "wof:population":7952,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

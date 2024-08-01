@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014781,
-    "geom:area_square_m":140851988.958348,
+    "geom:area_square_m":140851988.958377,
     "geom:bbox":"-88.472073,39.520409,-88.358209,39.65182",
     "geom:latitude":39.586407,
     "geom:longitude":-88.415186,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.586217,
     "lbl:longitude":-88.415187,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":29,
     "uscensus:geoid":1702954014,
     "uscensus:name":"North Okaw",
     "uscensus:namelsad":"North Okaw township",
+    "uscensus:population":979,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1702954014
+        "uscensus:geoid":"1702954014"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729474679
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404496269,
-    "wof:lastmodified":1605055598,
+    "wof:lastmodified":1722117842,
     "wof:name":"North Okaw Township",
     "wof:parent_id":102086931,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":983,
+    "wof:population":979,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

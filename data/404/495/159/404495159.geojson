@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00974,
-    "geom:area_square_m":88476237.254463,
+    "geom:area_square_m":88476237.254529,
     "geom:bbox":"-89.603263,42.682559,-89.486113,42.770442",
     "geom:latitude":42.725997,
     "geom:longitude":-89.543003,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.72669,
     "lbl:longitude":-89.53719,
     "lbl:max_zoom":17.0,
@@ -100,11 +106,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":45,
     "uscensus:geoid":5504554850,
     "uscensus:name":"Mount Pleasant",
     "uscensus:namelsad":"Mount Pleasant town",
+    "uscensus:population":626,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -114,8 +123,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5504554850
+        "uscensus:geoid":"5504554850"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729468023
     ],
@@ -134,11 +144,11 @@
         }
     ],
     "wof:id":404495159,
-    "wof:lastmodified":1605055978,
+    "wof:lastmodified":1722117837,
     "wof:name":"Mount Pleasant",
     "wof:parent_id":102081827,
     "wof:placetype":"localadmin",
-    "wof:population":598,
+    "wof:population":626,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

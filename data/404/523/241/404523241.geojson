@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.01231,
-    "geom:area_square_m":113659826.479217,
+    "geom:area_square_m":113659826.479204,
     "geom:bbox":"-74.303632,41.64124,-74.083727,41.75214",
     "geom:latitude":41.694903,
     "geom:longitude":-74.186889,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.69971,
     "lbl:longitude":-74.177721,
     "lbl:max_zoom":15.0,
@@ -91,11 +97,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":111,
     "uscensus:geoid":3611128255,
     "uscensus:name":"Gardiner",
     "uscensus:namelsad":"Gardiner town",
+    "uscensus:population":5615,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -105,8 +114,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3611128255
+        "uscensus:geoid":"3611128255"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -122,11 +132,11 @@
         }
     ],
     "wof:id":404523241,
-    "wof:lastmodified":1605056094,
+    "wof:lastmodified":1722117999,
     "wof:name":"Gardiner",
     "wof:parent_id":102081775,
     "wof:placetype":"localadmin",
-    "wof:population":5713,
+    "wof:population":5615,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

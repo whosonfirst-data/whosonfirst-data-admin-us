@@ -10,6 +10,12 @@
     "geom:latitude":43.702297,
     "geom:longitude":-91.011167,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "village"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.702456,
     "lbl:longitude":-91.011166,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":123,
     "uscensus:geoid":5512316900,
     "uscensus:name":"Coon Valley",
     "uscensus:namelsad":"Coon Valley village",
+    "uscensus:population":762,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5512316900
+        "uscensus:geoid":"5512316900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404494005,
-    "wof:lastmodified":1605055974,
+    "wof:lastmodified":1722117830,
     "wof:name":"Coon Valley",
     "wof:parent_id":102081733,
     "wof:placetype":"localadmin",
-    "wof:population":765,
+    "wof:population":762,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

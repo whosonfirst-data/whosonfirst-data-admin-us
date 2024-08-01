@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000865,
-    "geom:area_square_m":8065157.798329,
+    "geom:area_square_m":8065157.798313,
     "geom:bbox":"-74.155441,41.018621,-74.114609,41.048721",
     "geom:latitude":41.033213,
     "geom:longitude":-74.133297,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.033282,
     "lbl:longitude":-74.133288,
     "lbl:max_zoom":15.0,
@@ -82,11 +88,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":3400300700,
     "uscensus:name":"Allendale",
     "uscensus:namelsad":"Allendale borough",
+    "uscensus:population":6791,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":34,
     "wof:belongsto":[
         102191575,
@@ -96,8 +105,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3400300700
+        "uscensus:geoid":"3400300700"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -113,11 +123,11 @@
         }
     ],
     "wof:id":404477279,
-    "wof:lastmodified":1605055427,
+    "wof:lastmodified":1722117721,
     "wof:name":"Allendale",
     "wof:parent_id":102086773,
     "wof:placetype":"localadmin",
-    "wof:population":6505,
+    "wof:population":6791,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009961,
-    "geom:area_square_m":89793597.019471,
+    "geom:area_square_m":89793597.019465,
     "geom:bbox":"-74.224215,43.129561,-74.122729,43.253979",
     "geom:latitude":43.193351,
     "geom:longitude":-74.174688,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.193635,
     "lbl:longitude":-74.174689,
     "lbl:max_zoom":15.0,
@@ -202,11 +208,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":35,
     "uscensus:geoid":3603551407,
     "uscensus:name":"Northampton",
     "uscensus:namelsad":"Northampton town",
+    "uscensus:population":2481,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -216,8 +225,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3603551407
+        "uscensus:geoid":"3603551407"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -233,11 +243,11 @@
         }
     ],
     "wof:id":404522443,
-    "wof:lastmodified":1605056077,
+    "wof:lastmodified":1722233676,
     "wof:name":"Northampton",
     "wof:parent_id":102081813,
     "wof:placetype":"localadmin",
-    "wof:population":2670,
+    "wof:population":2481,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

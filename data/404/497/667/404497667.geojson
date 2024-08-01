@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009006,
-    "geom:area_square_m":83158131.272628,
+    "geom:area_square_m":83158131.272541,
     "geom:bbox":"-87.799102,41.64623,-87.67975,41.735525",
     "geom:latitude":41.690297,
     "geom:longitude":-87.7438,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.703924,
     "lbl:longitude":-87.767973,
     "lbl:max_zoom":14.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":31,
     "uscensus:geoid":1703183531,
     "uscensus:name":"Worth",
     "uscensus:namelsad":"Worth township",
+    "uscensus:population":146045,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1703183531
+        "uscensus:geoid":"1703183531"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404497667,
-    "wof:lastmodified":1605055491,
+    "wof:lastmodified":1722233639,
     "wof:name":"Worth Township",
     "wof:parent_id":102084317,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":152633,
+    "wof:population":146045,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

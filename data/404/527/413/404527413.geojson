@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008225,
-    "geom:area_square_m":73610141.282888,
+    "geom:area_square_m":73610141.282863,
     "geom:bbox":"-73.431229,43.567904,-73.280337,43.67343",
     "geom:latitude":43.634464,
     "geom:longitude":-73.368731,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.648275,
     "lbl:longitude":-73.368741,
     "lbl:max_zoom":17.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":5002180875,
     "uscensus:name":"West Haven",
     "uscensus:namelsad":"West Haven town",
+    "uscensus:population":244,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":50,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5002180875
+        "uscensus:geoid":"5002180875"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470345
     ],
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404527413,
-    "wof:lastmodified":1605055678,
+    "wof:lastmodified":1722118030,
     "wof:name":"West Haven",
     "wof:parent_id":102080771,
     "wof:placetype":"localadmin",
-    "wof:population":264,
+    "wof:population":244,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

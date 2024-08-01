@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.007446,
-    "geom:area_square_m":67907922.060334,
+    "geom:area_square_m":67907922.060318,
     "geom:bbox":"-83.31993,42.442033,-83.200512,42.517463",
     "geom:latitude":42.476484,
     "geom:longitude":-83.260533,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.4737,
     "lbl:longitude":-83.267776,
     "lbl:max_zoom":14.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":125,
     "uscensus:geoid":2612574900,
     "uscensus:name":"Southfield",
     "uscensus:namelsad":"Southfield city",
+    "uscensus:population":75687,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2612574900
+        "uscensus:geoid":"2612574900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,11 +90,11 @@
         }
     ],
     "wof:id":404508305,
-    "wof:lastmodified":1605055743,
+    "wof:lastmodified":1722117921,
     "wof:name":"Southfield",
     "wof:parent_id":102083713,
     "wof:placetype":"localadmin",
-    "wof:population":71739,
+    "wof:population":75687,
     "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

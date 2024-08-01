@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001004,
-    "geom:area_square_m":9593684.129761,
+    "geom:area_square_m":9593684.129738,
     "geom:bbox":"-101.071135,39.350542,-100.997499,39.405149",
     "geom:latitude":39.384231,
     "geom:longitude":-101.045764,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.38479,
     "lbl:longitude":-101.048111,
     "lbl:max_zoom":15.0,
@@ -79,11 +85,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":193,
     "uscensus:geoid":2019314650,
     "uscensus:name":"Colby",
     "uscensus:namelsad":"Colby city",
+    "uscensus:population":5589,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -93,8 +102,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2019314650
+        "uscensus:geoid":"2019314650"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -110,11 +120,11 @@
         }
     ],
     "wof:id":404505303,
-    "wof:lastmodified":1605055286,
+    "wof:lastmodified":1722117899,
     "wof:name":"Colby",
     "wof:parent_id":102082669,
     "wof:placetype":"localadmin",
-    "wof:population":5387,
+    "wof:population":5589,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

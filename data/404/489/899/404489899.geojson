@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0102,
-    "geom:area_square_m":91980318.867805,
+    "geom:area_square_m":91980318.867754,
     "geom:bbox":"-103.936345,43.130068,-103.818338,43.217188",
     "geom:latitude":43.173644,
     "geom:longitude":-103.877319,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.173732,
     "lbl:longitude":-103.877323,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":47,
     "uscensus:geoid":4604752180,
     "uscensus:name":"Provo",
     "uscensus:namelsad":"Provo township",
+    "uscensus:population":34,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4604752180
+        "uscensus:geoid":"4604752180"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456325
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404489899,
-    "wof:lastmodified":1605055935,
+    "wof:lastmodified":1722117803,
     "wof:name":"Provo Township",
     "wof:parent_id":102086081,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":33,
+    "wof:population":34,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

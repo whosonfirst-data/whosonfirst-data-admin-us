@@ -10,6 +10,12 @@
     "geom:latitude":40.436164,
     "geom:longitude":-89.661376,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.436178,
     "lbl:longitude":-89.661369,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":179,
     "uscensus:geoid":1717967483,
     "uscensus:name":"Sand Prairie",
     "uscensus:namelsad":"Sand Prairie township",
+    "uscensus:population":1257,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1717967483
+        "uscensus:geoid":"1717967483"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404499013,
-    "wof:lastmodified":1605055539,
+    "wof:lastmodified":1722233644,
     "wof:name":"Sand Prairie Township",
     "wof:parent_id":102083515,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1441,
+    "wof:population":1257,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

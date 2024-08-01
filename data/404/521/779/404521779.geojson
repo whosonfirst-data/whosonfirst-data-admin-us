@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011214,
-    "geom:area_square_m":102555974.286661,
+    "geom:area_square_m":102555974.286665,
     "geom:bbox":"-78.826058,42.259087,-78.69661,42.34699",
     "geom:latitude":42.30292,
     "geom:longitude":-78.761037,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.30295,
     "lbl:longitude":-78.761034,
     "lbl:max_zoom":17.0,
@@ -148,22 +154,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":9,
     "uscensus:geoid":3600945161,
     "uscensus:name":"Mansfield",
     "uscensus:namelsad":"Mansfield town",
+    "uscensus:population":848,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688543,
-        102081853
+        102081853,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3600945161
+        "uscensus:geoid":"3600945161"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460805
     ],
@@ -182,11 +192,11 @@
         }
     ],
     "wof:id":404521779,
-    "wof:lastmodified":1636499322,
+    "wof:lastmodified":1722117988,
     "wof:name":"Mansfield",
     "wof:parent_id":102081853,
     "wof:placetype":"localadmin",
-    "wof:population":808,
+    "wof:population":848,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010605,
-    "geom:area_square_m":89247403.153053,
+    "geom:area_square_m":89247403.153115,
     "geom:bbox":"-98.594281,47.066451,-98.467271,47.153495",
     "geom:latitude":47.111334,
     "geom:longitude":-98.52873,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.109949,
     "lbl:longitude":-98.52873,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":93,
     "uscensus:geoid":3809332860,
     "uscensus:name":"Gray",
     "uscensus:namelsad":"Gray township",
+    "uscensus:population":42,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3809332860
+        "uscensus:geoid":"3809332860"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729459731
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404482247,
-    "wof:lastmodified":1605055386,
+    "wof:lastmodified":1722117755,
     "wof:name":"Gray Township",
     "wof:parent_id":102082093,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":41,
+    "wof:population":42,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

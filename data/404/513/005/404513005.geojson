@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010432,
-    "geom:area_square_m":93363522.915329,
+    "geom:area_square_m":93363522.915307,
     "geom:bbox":"-92.689463,43.586768,-92.56911,43.67401",
     "geom:latitude":43.630368,
     "geom:longitude":-92.629311,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.630436,
     "lbl:longitude":-92.62931,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":2709911728,
     "uscensus:name":"Clayton",
     "uscensus:namelsad":"Clayton township",
+    "uscensus:population":165,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2709911728
+        "uscensus:geoid":"2709911728"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463615
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404513005,
-    "wof:lastmodified":1605056045,
+    "wof:lastmodified":1722117955,
     "wof:name":"Clayton Township",
     "wof:parent_id":102087717,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":158,
+    "wof:population":165,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

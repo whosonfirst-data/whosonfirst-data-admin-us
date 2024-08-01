@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.021162,
-    "geom:area_square_m":191673253.302373,
+    "geom:area_square_m":191673253.302403,
     "geom:bbox":"-98.781712,42.8027,-98.662844,42.998535",
     "geom:latitude":42.902709,
     "geom:longitude":-98.718994,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.903027,
     "lbl:longitude":-98.722166,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":3101546310,
     "uscensus:name":"Spencer",
     "uscensus:namelsad":"Spencer township",
+    "uscensus:population":539,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":31,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3101546310
+        "uscensus:geoid":"3101546310"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404519325,
-    "wof:lastmodified":1605055668,
+    "wof:lastmodified":1722233671,
     "wof:name":"Spencer Township",
     "wof:parent_id":102082225,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":651,
+    "wof:population":539,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009973,
-    "geom:area_square_m":92364978.654365,
+    "geom:area_square_m":92364978.654395,
     "geom:bbox":"-89.166585,41.454254,-89.04934,41.541697",
     "geom:latitude":41.497731,
     "geom:longitude":-89.108466,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.497734,
     "lbl:longitude":-89.108467,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":99,
     "uscensus:geoid":1709976238,
     "uscensus:name":"Troy Grove",
     "uscensus:namelsad":"Troy Grove township",
+    "uscensus:population":1266,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1709976238
+        "uscensus:geoid":"1709976238"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404496595,
-    "wof:lastmodified":1605055593,
+    "wof:lastmodified":1722233635,
     "wof:name":"Troy Grove Township",
     "wof:parent_id":102081255,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1333,
+    "wof:population":1266,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

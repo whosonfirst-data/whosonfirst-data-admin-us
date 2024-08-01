@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010197,
-    "geom:area_square_m":92359375.404257,
+    "geom:area_square_m":92359375.404274,
     "geom:bbox":"-78.074217,42.862754,-77.934234,42.946523",
     "geom:latitude":42.905269,
     "geom:longitude":-78.007424,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.904902,
     "lbl:longitude":-78.007424,
     "lbl:max_zoom":15.0,
@@ -139,11 +145,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":37,
     "uscensus:geoid":3603756792,
     "uscensus:name":"Pavilion",
     "uscensus:namelsad":"Pavilion town",
+    "uscensus:population":2240,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -153,8 +162,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3603756792
+        "uscensus:geoid":"3603756792"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -170,11 +180,11 @@
         }
     ],
     "wof:id":404522467,
-    "wof:lastmodified":1605056079,
+    "wof:lastmodified":1722117994,
     "wof:name":"Pavilion",
     "wof:parent_id":102083105,
     "wof:placetype":"localadmin",
-    "wof:population":2495,
+    "wof:population":2240,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

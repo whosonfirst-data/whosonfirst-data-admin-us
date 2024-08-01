@@ -10,6 +10,12 @@
     "geom:latitude":44.738221,
     "geom:longitude":-98.508932,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.738224,
     "lbl:longitude":-98.508932,
     "lbl:max_zoom":17.0,
@@ -94,22 +100,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":4611564300,
     "uscensus:name":"Tulare",
     "uscensus:namelsad":"Tulare town",
+    "uscensus:population":205,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688693,
-        102086027
+        102086027,
+        85688693
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4611564300
+        "uscensus:geoid":"4611564300"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -125,11 +135,11 @@
         }
     ],
     "wof:id":404489239,
-    "wof:lastmodified":1636499391,
+    "wof:lastmodified":1722117799,
     "wof:name":"Tulare",
     "wof:parent_id":102086027,
     "wof:placetype":"localadmin",
-    "wof:population":207,
+    "wof:population":205,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

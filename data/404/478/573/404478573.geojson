@@ -10,6 +10,12 @@
     "geom:latitude":45.942511,
     "geom:longitude":-98.782019,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.942517,
     "lbl:longitude":-98.782019,
     "lbl:max_zoom":18.0,
@@ -247,22 +253,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":21,
     "uscensus:geoid":3802126980,
     "uscensus:name":"Forbes",
     "uscensus:namelsad":"Forbes city",
+    "uscensus:population":38,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688525,
-        102082079
+        102082079,
+        85688525
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3802126980
+        "uscensus:geoid":"3802126980"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -278,11 +288,11 @@
         }
     ],
     "wof:id":404478573,
-    "wof:lastmodified":1636499270,
+    "wof:lastmodified":1722117731,
     "wof:name":"Forbes",
     "wof:parent_id":102082079,
     "wof:placetype":"localadmin",
-    "wof:population":53,
+    "wof:population":38,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

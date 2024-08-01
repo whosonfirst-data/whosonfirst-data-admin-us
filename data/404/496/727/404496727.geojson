@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.005638,
-    "geom:area_square_m":54211861.121098,
+    "geom:area_square_m":54211861.121065,
     "geom:bbox":"-89.708084,38.917435,-89.637049,38.999581",
     "geom:latitude":38.958294,
     "geom:longitude":-89.673191,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.958466,
     "lbl:longitude":-89.67319,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":119,
     "uscensus:geoid":1711952428,
     "uscensus:name":"New Douglas",
     "uscensus:namelsad":"New Douglas township",
+    "uscensus:population":518,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1711952428
+        "uscensus:geoid":"1711952428"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404496727,
-    "wof:lastmodified":1605055608,
+    "wof:lastmodified":1722233635,
     "wof:name":"New Douglas Township",
     "wof:parent_id":102082849,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":509,
+    "wof:population":518,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

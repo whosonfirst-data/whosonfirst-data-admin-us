@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010301,
-    "geom:area_square_m":91796125.492074,
+    "geom:area_square_m":91796125.49205,
     "geom:bbox":"-93.527239,43.847997,-93.406553,43.935205",
     "geom:latitude":43.891545,
     "geom:longitude":-93.466364,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.891619,
     "lbl:longitude":-93.446704,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":161,
     "uscensus:geoid":2716145880,
     "uscensus:name":"New Richland",
     "uscensus:namelsad":"New Richland township",
+    "uscensus:population":432,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2716145880
+        "uscensus:geoid":"2716145880"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729454111
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404514867,
-    "wof:lastmodified":1605056019,
+    "wof:lastmodified":1722117969,
     "wof:name":"New Richland Township",
     "wof:parent_id":102087641,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":443,
+    "wof:population":432,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

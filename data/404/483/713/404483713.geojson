@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000239,
-    "geom:area_square_m":2199002.913536,
+    "geom:area_square_m":2199002.913537,
     "geom:bbox":"-78.388682,41.941288,-78.374475,41.96626",
     "geom:latitude":41.95621,
     "geom:longitude":-78.381806,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.956046,
     "lbl:longitude":-78.382385,
     "lbl:max_zoom":17.0,
@@ -73,11 +79,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":83,
     "uscensus:geoid":4208322888,
     "uscensus:name":"Eldred",
     "uscensus:namelsad":"Eldred borough",
+    "uscensus:population":736,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -87,8 +96,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4208322888
+        "uscensus:geoid":"4208322888"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -104,11 +114,11 @@
         }
     ],
     "wof:id":404483713,
-    "wof:lastmodified":1605055441,
+    "wof:lastmodified":1722117764,
     "wof:name":"Eldred",
     "wof:parent_id":102080951,
     "wof:placetype":"localadmin",
-    "wof:population":825,
+    "wof:population":736,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

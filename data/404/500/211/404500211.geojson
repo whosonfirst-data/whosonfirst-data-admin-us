@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009866,
-    "geom:area_square_m":95113999.711116,
+    "geom:area_square_m":95113999.711106,
     "geom:bbox":"-87.130156,38.727284,-87.018331,38.818324",
     "geom:latitude":38.772305,
     "geom:longitude":-87.074318,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.772201,
     "lbl:longitude":-87.074319,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":27,
     "uscensus:geoid":1802706274,
     "uscensus:name":"Bogard",
     "uscensus:namelsad":"Bogard township",
+    "uscensus:population":1587,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1802706274
+        "uscensus:geoid":"1802706274"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729477409
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404500211,
-    "wof:lastmodified":1604969675,
+    "wof:lastmodified":1722117864,
     "wof:name":"Bogard Township",
     "wof:parent_id":102087011,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1473,
+    "wof:population":1587,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

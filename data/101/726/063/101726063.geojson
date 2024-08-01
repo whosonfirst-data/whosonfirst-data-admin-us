@@ -9,9 +9,23 @@
     "geom:bbox":"-96.456111,33.225578,-96.297988,33.337975",
     "geom:latitude":33.298304,
     "geom:longitude":-96.397715,
+    "gn:admin1_code":"TX",
+    "gn:admin2_code":"85.0",
+    "gn:asciiname":"Blue Ridge",
+    "gn:country_code":"US",
+    "gn:dem":186,
     "gn:elevation":187,
+    "gn:feature_class":"P",
+    "gn:feature_code":"PPL",
+    "gn:geonameid":4675153,
+    "gn:latitude":33.29789,
+    "gn:longitude":-96.40165,
+    "gn:modification_date":"2017-03-09",
+    "gn:name":"Blue Ridge",
     "gn:population":822,
+    "gn:timezone":"America/Chicago",
     "iso:country":"US",
+    "lbl:bbox":"-96.42165,33.27789,-96.38165,33.31789",
     "lbl:latitude":33.301146,
     "lbl:longitude":-96.400411,
     "lbl:max_zoom":17.0,
@@ -319,7 +333,10 @@
         "quattroshapes_pg"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":1200,
+    "uscensus:population_date":"2023",
     "wd:elevation":187.0,
     "wd:latitude":33.2992,
     "wd:longitude":-96.4017,
@@ -327,8 +344,8 @@
     "wof:belongsto":[
         102191575,
         85633793,
-        85688753,
-        102086765
+        102086765,
+        85688753
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -342,8 +359,17 @@
         "wk:page":"Blue Ridge, Texas"
     },
     "wof:concordances_alt":{
-        "qs_pg:id":1318423
+        "gn:id":[
+            4675153
+        ],
+        "qs_pg:id":[
+            1318423
+        ],
+        "wk:page":[
+            "Blue_Ridge%2C_Texas"
+        ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg"
@@ -362,16 +388,17 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690889420,
+    "wof:lastmodified":1722116403,
     "wof:name":"Blue Ridge",
     "wof:parent_id":102086765,
     "wof:placetype":"locality",
-    "wof:population":822,
-    "wof:population_rank":2,
+    "wof:population":1200,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[
-        1125347165
+        1125347165,
+        1343877843
     ],
     "wof:tags":[]
 },

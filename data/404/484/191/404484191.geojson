@@ -10,6 +10,12 @@
     "geom:latitude":41.626957,
     "geom:longitude":-75.786185,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.627462,
     "lbl:longitude":-75.786367,
     "lbl:max_zoom":17.0,
@@ -103,11 +109,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":131,
     "uscensus:geoid":4213154400,
     "uscensus:name":"Nicholson",
     "uscensus:namelsad":"Nicholson borough",
+    "uscensus:population":709,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -117,8 +126,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4213154400
+        "uscensus:geoid":"4213154400"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -134,11 +144,11 @@
         }
     ],
     "wof:id":404484191,
-    "wof:lastmodified":1605055461,
+    "wof:lastmodified":1722117766,
     "wof:name":"Nicholson",
     "wof:parent_id":102080947,
     "wof:placetype":"localadmin",
-    "wof:population":767,
+    "wof:population":709,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

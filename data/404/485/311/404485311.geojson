@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00189,
-    "geom:area_square_m":17917699.18612,
+    "geom:area_square_m":17917699.186129,
     "geom:bbox":"-77.68565,39.905803,-77.62369,39.960649",
     "geom:latitude":39.931434,
     "geom:longitude":-77.65564,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.933581,
     "lbl:longitude":-77.652586,
     "lbl:max_zoom":14.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":55,
     "uscensus:geoid":4205512536,
     "uscensus:name":"Chambersburg",
     "uscensus:namelsad":"Chambersburg borough",
+    "uscensus:population":22245,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4205512536
+        "uscensus:geoid":"4205512536"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404485311,
-    "wof:lastmodified":1605055372,
+    "wof:lastmodified":1722117773,
     "wof:name":"Chambersburg",
     "wof:parent_id":102081365,
     "wof:placetype":"localadmin",
-    "wof:population":20268,
+    "wof:population":22245,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

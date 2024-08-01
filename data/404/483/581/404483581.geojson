@@ -10,6 +10,12 @@
     "geom:latitude":41.225292,
     "geom:longitude":-77.216485,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.22811,
     "lbl:longitude":-77.204266,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":81,
     "uscensus:geoid":4208160128,
     "uscensus:name":"Piatt",
     "uscensus:namelsad":"Piatt township",
+    "uscensus:population":1031,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4208160128
+        "uscensus:geoid":"4208160128"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729469651
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404483581,
-    "wof:lastmodified":1605055442,
+    "wof:lastmodified":1722117763,
     "wof:name":"Piatt Township",
     "wof:parent_id":102081317,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1180,
+    "wof:population":1031,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

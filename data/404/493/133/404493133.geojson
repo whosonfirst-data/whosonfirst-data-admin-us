@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0211,
-    "geom:area_square_m":185507342.785488,
+    "geom:area_square_m":185507342.785533,
     "geom:bbox":"-90.92235,44.596124,-90.800589,44.77101",
     "geom:latitude":44.683343,
     "geom:longitude":-90.861261,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.683396,
     "lbl:longitude":-90.861259,
     "lbl:max_zoom":18.0,
@@ -109,11 +115,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":19,
     "uscensus:geoid":5501926775,
     "uscensus:name":"Foster",
     "uscensus:namelsad":"Foster town",
+    "uscensus:population":118,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
@@ -123,8 +132,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5501926775
+        "uscensus:geoid":"5501926775"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457633
     ],
@@ -143,11 +153,11 @@
         }
     ],
     "wof:id":404493133,
-    "wof:lastmodified":1605055940,
+    "wof:lastmodified":1722117824,
     "wof:name":"Foster",
     "wof:parent_id":102081269,
     "wof:placetype":"localadmin",
-    "wof:population":95,
+    "wof:population":118,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

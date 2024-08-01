@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000139,
-    "geom:area_square_m":1306788.513883,
+    "geom:area_square_m":1306788.513881,
     "geom:bbox":"-79.785057,40.399859,-79.769419,40.422399",
     "geom:latitude":40.407779,
     "geom:longitude":-79.776344,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.406153,
     "lbl:longitude":-79.776228,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4200360712,
     "uscensus:name":"Pitcairn",
     "uscensus:namelsad":"Pitcairn borough",
+    "uscensus:population":2987,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200360712
+        "uscensus:geoid":"4200360712"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404484161,
-    "wof:lastmodified":1605055452,
+    "wof:lastmodified":1722117766,
     "wof:name":"Pitcairn",
     "wof:parent_id":102080887,
     "wof:placetype":"localadmin",
-    "wof:population":3294,
+    "wof:population":2987,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

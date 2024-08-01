@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.028682,
-    "geom:area_square_m":279302102.725688,
+    "geom:area_square_m":279302102.725576,
     "geom:bbox":"-101.927689,37.913936,-101.816706,38.175184",
     "geom:latitude":38.044615,
     "geom:longitude":-101.871925,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":38.044506,
     "lbl:longitude":-101.871918,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":75,
     "uscensus:geoid":2007545650,
     "uscensus:name":"Medway",
     "uscensus:namelsad":"Medway township",
+    "uscensus:population":42,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2007545650
+        "uscensus:geoid":"2007545650"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729471031
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404503969,
-    "wof:lastmodified":1605055324,
+    "wof:lastmodified":1722117890,
     "wof:name":"Medway Township",
     "wof:parent_id":102082675,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":60,
+    "wof:population":42,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

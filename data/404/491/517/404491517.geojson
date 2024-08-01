@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010784,
-    "geom:area_square_m":91565249.216662,
+    "geom:area_square_m":91565249.216697,
     "geom:bbox":"-91.55337,46.589422,-91.426145,46.676041",
     "geom:latitude":46.632869,
     "geom:longitude":-91.489929,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.632911,
     "lbl:longitude":-91.489932,
     "lbl:max_zoom":17.0,
@@ -283,22 +289,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":7,
     "uscensus:geoid":5500760775,
     "uscensus:name":"Oulu",
     "uscensus:namelsad":"Oulu town",
+    "uscensus:population":580,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081781
+        102081781,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5500760775
+        "uscensus:geoid":"5500760775"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729470515
     ],
@@ -317,11 +327,11 @@
         }
     ],
     "wof:id":404491517,
-    "wof:lastmodified":1636499309,
+    "wof:lastmodified":1722117813,
     "wof:name":"Oulu",
     "wof:parent_id":102081781,
     "wof:placetype":"localadmin",
-    "wof:population":527,
+    "wof:population":580,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

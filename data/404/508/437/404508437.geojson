@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.001789,
-    "geom:area_square_m":16165246.794802,
+    "geom:area_square_m":16165246.794808,
     "geom:bbox":"-86.25181,43.026922,-86.185202,43.077527",
     "geom:latitude":43.055348,
     "geom:longitude":-86.220125,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.060214,
     "lbl:longitude":-86.220132,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":139,
     "uscensus:geoid":2613933340,
     "uscensus:name":"Grand Haven",
     "uscensus:namelsad":"Grand Haven city",
+    "uscensus:population":11002,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2613933340
+        "uscensus:geoid":"2613933340"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404508437,
-    "wof:lastmodified":1605055737,
+    "wof:lastmodified":1722117922,
     "wof:name":"Grand Haven",
     "wof:parent_id":102083097,
     "wof:placetype":"localadmin",
-    "wof:population":10412,
+    "wof:population":11002,
     "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

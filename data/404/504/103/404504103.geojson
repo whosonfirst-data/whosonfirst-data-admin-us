@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.018946,
-    "geom:area_square_m":184711462.667304,
+    "geom:area_square_m":184711462.667292,
     "geom:bbox":"-100.22709,37.912959,-100.009195,38.001015",
     "geom:latitude":37.957021,
     "geom:longitude":-100.117981,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.956933,
     "lbl:longitude":-100.117979,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":83,
     "uscensus:geoid":2008366900,
     "uscensus:name":"South Roscoe",
     "uscensus:namelsad":"South Roscoe township",
+    "uscensus:population":42,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2008366900
+        "uscensus:geoid":"2008366900"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729463971
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404504103,
-    "wof:lastmodified":1605055295,
+    "wof:lastmodified":1722117890,
     "wof:name":"South Roscoe Township",
     "wof:parent_id":102082679,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":62,
+    "wof:population":42,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

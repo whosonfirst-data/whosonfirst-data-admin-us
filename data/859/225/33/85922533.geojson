@@ -163,7 +163,10 @@
     "src:geom":"quattroshapes",
     "src:geom_alt":[],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"wk",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
+    "uscensus:population":1407,
+    "uscensus:population_date":"2023",
     "wd:latitude":37.678889,
     "wd:longitude":-122.455556,
     "wd:population":1792,
@@ -171,15 +174,17 @@
     "wof:belongsto":[
         102191575,
         85633793,
-        85688637,
-        102085387
+        102085387,
+        85688637
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":5338703,
+        "uscensus:geoid":"0614736",
         "wd:id":"Q987296",
         "wk:page":"Colma, California"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geomhash":"39e6d929672ce77f446f25bb2fd8f0e5",
     "wof:hierarchy":[
@@ -192,11 +197,11 @@
         }
     ],
     "wof:id":85922533,
-    "wof:lastmodified":1690885090,
+    "wof:lastmodified":1722116138,
     "wof:name":"Colma",
     "wof:parent_id":102085387,
     "wof:placetype":"locality",
-    "wof:population":1792,
+    "wof:population":1407,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -154,7 +154,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:aland":18740904,
     "uscensus:awater":40377,
     "uscensus:classfp":"C1",
@@ -170,17 +171,19 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"70850",
     "uscensus:placens":"02399849",
+    "uscensus:population":20483,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":"17",
     "wd:elevation":183.0,
     "wd:latitude":41.6,
     "wd:longitude":-87.6,
     "wd:wordcount":1220,
     "wof:belongsto":[
-        85688697,
         102191575,
-        404497591,
         85633793,
-        102084317
+        102084317,
+        404497591,
+        85688697
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -189,10 +192,11 @@
         "gn:id":4911934,
         "gp:id":2496364,
         "qs_pg:id":1050464,
-        "uscensus:geoid":1770850,
+        "uscensus:geoid":"1770850",
         "wd:id":"Q404614",
         "wk:page":"South Holland, Illinois"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -213,11 +217,11 @@
     "wof:lang":[
         "eng"
     ],
-    "wof:lastmodified":1690883017,
+    "wof:lastmodified":1722116017,
     "wof:name":"South Holland",
     "wof:parent_id":404497591,
     "wof:placetype":"locality",
-    "wof:population":22030,
+    "wof:population":20483,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

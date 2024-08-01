@@ -90,7 +90,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":1321047,
     "uscensus:awater":0,
     "uscensus:classfp":"U1",
@@ -106,13 +107,15 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"11550",
     "uscensus:placens":"02584245",
+    "uscensus:population":43,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"36",
     "wof:belongsto":[
-        85688543,
         102191575,
-        404522003,
         85633793,
-        102082381
+        102082381,
+        404522003,
+        85688543
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -120,9 +123,10 @@
         "gn:id":5111010,
         "gp:id":2372768,
         "qs_pg:id":396173,
-        "uscensus:geoid":3611550,
+        "uscensus:geoid":"3611550",
         "wd:id":"Q5736231"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -139,11 +143,11 @@
         }
     ],
     "wof:id":85979633,
-    "wof:lastmodified":1690881861,
+    "wof:lastmodified":1722115949,
     "wof:name":"Byersville",
     "wof:parent_id":404522003,
     "wof:placetype":"locality",
-    "wof:population":47,
+    "wof:population":43,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

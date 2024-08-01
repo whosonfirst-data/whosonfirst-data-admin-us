@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010178,
-    "geom:area_square_m":94450306.277114,
+    "geom:area_square_m":94450306.277096,
     "geom:bbox":"-89.97281,41.320946,-89.856614,41.409686",
     "geom:latitude":41.365278,
     "geom:longitude":-89.91462,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.365189,
     "lbl:longitude":-89.914641,
     "lbl:max_zoom":16.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":73,
     "uscensus:geoid":1707301582,
     "uscensus:name":"Annawan",
     "uscensus:namelsad":"Annawan township",
+    "uscensus:population":1096,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1707301582
+        "uscensus:geoid":"1707301582"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404498131,
-    "wof:lastmodified":1605055565,
+    "wof:lastmodified":1722233640,
     "wof:name":"Annawan Township",
     "wof:parent_id":102086205,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1112,
+    "wof:population":1096,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

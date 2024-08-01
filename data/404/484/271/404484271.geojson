@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008728,
-    "geom:area_square_m":81627321.968223,
+    "geom:area_square_m":81627321.968228,
     "geom:bbox":"-79.614529,40.805192,-79.480315,40.894085",
     "geom:latitude":40.855436,
     "geom:longitude":-79.556223,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.852687,
     "lbl:longitude":-79.568348,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":4200521160,
     "uscensus:name":"East Franklin",
     "uscensus:namelsad":"East Franklin township",
+    "uscensus:population":3744,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200521160
+        "uscensus:geoid":"4200521160"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404484271,
-    "wof:lastmodified":1605055465,
+    "wof:lastmodified":1722117767,
     "wof:name":"East Franklin Township",
     "wof:parent_id":102081371,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":4082,
+    "wof:population":3744,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

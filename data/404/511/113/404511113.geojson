@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009499,
-    "geom:area_square_m":82553507.162205,
+    "geom:area_square_m":82553507.162181,
     "geom:bbox":"-92.815345,45.296042,-92.674543,45.383213",
     "geom:latitude":45.343192,
     "geom:longitude":-92.758545,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.339452,
     "lbl:longitude":-92.759886,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":2702522310,
     "uscensus:name":"Franconia",
     "uscensus:namelsad":"Franconia township",
+    "uscensus:population":1751,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":27,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2702522310
+        "uscensus:geoid":"2702522310"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464717
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404511113,
-    "wof:lastmodified":1605055731,
+    "wof:lastmodified":1722117941,
     "wof:name":"Franconia Township",
     "wof:parent_id":102086987,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1805,
+    "wof:population":1751,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

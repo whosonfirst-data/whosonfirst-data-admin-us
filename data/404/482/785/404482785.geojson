@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002115,
-    "geom:area_square_m":20070758.832576,
+    "geom:area_square_m":20070758.832586,
     "geom:bbox":"-77.027486,39.831108,-76.954932,39.894976",
     "geom:latitude":39.860786,
     "geom:longitude":-76.991708,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.858525,
     "lbl:longitude":-76.994256,
     "lbl:max_zoom":15.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":1,
     "uscensus:geoid":4200105880,
     "uscensus:name":"Berwick",
     "uscensus:namelsad":"Berwick township",
+    "uscensus:population":2441,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200105880
+        "uscensus:geoid":"4200105880"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729458493
     ],
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404482785,
-    "wof:lastmodified":1605055382,
+    "wof:lastmodified":1722117759,
     "wof:name":"Berwick Township",
     "wof:parent_id":102080899,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2389,
+    "wof:population":2441,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

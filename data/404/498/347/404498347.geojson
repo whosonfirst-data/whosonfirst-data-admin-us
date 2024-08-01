@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009901,
-    "geom:area_square_m":91317598.899527,
+    "geom:area_square_m":91317598.899507,
     "geom:bbox":"-88.376107,41.72261,-88.26188,41.812105",
     "geom:latitude":41.767273,
     "geom:longitude":-88.318905,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.767285,
     "lbl:longitude":-88.318915,
     "lbl:max_zoom":14.0,
@@ -55,11 +61,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":89,
     "uscensus:geoid":1708903025,
     "uscensus:name":"Aurora",
     "uscensus:namelsad":"Aurora township",
+    "uscensus:population":125705,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -69,8 +78,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1708903025
+        "uscensus:geoid":"1708903025"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -86,12 +96,12 @@
         }
     ],
     "wof:id":404498347,
-    "wof:lastmodified":1605055563,
+    "wof:lastmodified":1722233641,
     "wof:name":"Aurora Township",
     "wof:parent_id":102086925,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":146149,
+    "wof:population":125705,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

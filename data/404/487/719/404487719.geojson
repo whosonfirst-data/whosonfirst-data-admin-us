@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000071,
-    "geom:area_square_m":677720.616459,
+    "geom:area_square_m":677720.616461,
     "geom:bbox":"-76.337113,39.72129,-76.318956,39.731783",
     "geom:latitude":39.726707,
     "geom:longitude":-76.327131,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.727478,
     "lbl:longitude":-76.327129,
     "lbl:max_zoom":17.0,
@@ -205,11 +211,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":133,
     "uscensus:geoid":4213318800,
     "uscensus:name":"Delta",
     "uscensus:namelsad":"Delta borough",
+    "uscensus:population":705,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -219,8 +228,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4213318800
+        "uscensus:geoid":"4213318800"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -236,11 +246,11 @@
         }
     ],
     "wof:id":404487719,
-    "wof:lastmodified":1605055896,
+    "wof:lastmodified":1722117789,
     "wof:name":"Delta",
     "wof:parent_id":102080953,
     "wof:placetype":"localadmin",
-    "wof:population":728,
+    "wof:population":705,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

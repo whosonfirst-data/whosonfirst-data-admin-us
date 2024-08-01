@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00357,
-    "geom:area_square_m":33492576.183991,
+    "geom:area_square_m":33492576.183995,
     "geom:bbox":"-79.816997,40.61181,-79.717121,40.672255",
     "geom:latitude":40.649972,
     "geom:longitude":-79.767365,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.644751,
     "lbl:longitude":-79.758299,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":3,
     "uscensus:geoid":4200325400,
     "uscensus:name":"Fawn",
     "uscensus:namelsad":"Fawn township",
+    "uscensus:population":2123,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200325400
+        "uscensus:geoid":"4200325400"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456941
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404482827,
-    "wof:lastmodified":1605055377,
+    "wof:lastmodified":1722117759,
     "wof:name":"Fawn Township",
     "wof:parent_id":102080887,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2376,
+    "wof:population":2123,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

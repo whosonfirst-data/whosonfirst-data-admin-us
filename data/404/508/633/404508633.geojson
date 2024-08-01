@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.029091,
-    "geom:area_square_m":248241217.726459,
+    "geom:area_square_m":248241217.726385,
     "geom:bbox":"-87.761509,46.246569,-87.613081,46.478453",
     "geom:latitude":46.36111,
     "geom:longitude":-87.68028,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.361222,
     "lbl:longitude":-87.676326,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":103,
     "uscensus:geoid":2610379780,
     "uscensus:name":"Tilden",
     "uscensus:namelsad":"Tilden township",
+    "uscensus:population":1060,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2610379780
+        "uscensus:geoid":"2610379780"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404508633,
-    "wof:lastmodified":1605055737,
+    "wof:lastmodified":1722117923,
     "wof:name":"Tilden Township",
     "wof:parent_id":102083039,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1013,
+    "wof:population":1060,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

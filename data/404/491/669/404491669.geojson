@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.029002,
-    "geom:area_square_m":261917432.573734,
+    "geom:area_square_m":261917432.573917,
     "geom:bbox":"-89.57166,42.998213,-89.246741,43.172032",
     "geom:latitude":43.08258,
     "geom:longitude":-89.393029,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.081817,
     "lbl:longitude":-89.396584,
     "lbl:max_zoom":13.0,
@@ -154,22 +160,26 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":25,
     "uscensus:geoid":5502548000,
     "uscensus:name":"Madison",
     "uscensus:namelsad":"Madison city",
+    "uscensus:population":280305,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":55,
     "wof:belongsto":[
         102191575,
         85633793,
-        85688517,
-        102081795
+        102081795,
+        85688517
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":5502548000
+        "uscensus:geoid":"5502548000"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -185,11 +195,11 @@
         }
     ],
     "wof:id":404491669,
-    "wof:lastmodified":1636499309,
+    "wof:lastmodified":1722117814,
     "wof:name":"Madison",
     "wof:parent_id":102081795,
     "wof:placetype":"localadmin",
-    "wof:population":233209,
+    "wof:population":280305,
     "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

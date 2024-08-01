@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010855,
-    "geom:area_square_m":92690333.759873,
+    "geom:area_square_m":92690333.75989,
     "geom:bbox":"-103.175736,46.279826,-103.049852,46.366882",
     "geom:latitude":46.32328,
     "geom:longitude":-103.112768,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.323334,
     "lbl:longitude":-103.112766,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":87,
     "uscensus:geoid":3808787340,
     "uscensus:name":"Woodberry",
     "uscensus:namelsad":"Woodberry township",
+    "uscensus:population":32,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3808787340
+        "uscensus:geoid":"3808787340"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729461043
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404482177,
-    "wof:lastmodified":1605055390,
+    "wof:lastmodified":1722117755,
     "wof:name":"Woodberry Township",
     "wof:parent_id":102081491,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":31,
+    "wof:population":32,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

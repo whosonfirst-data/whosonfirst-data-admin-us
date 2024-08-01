@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.020894,
-    "geom:area_square_m":184917946.891742,
+    "geom:area_square_m":184917946.891768,
     "geom:bbox":"-86.062487,44.251182,-85.820579,44.342149",
     "geom:latitude":44.2962,
     "geom:longitude":-85.941376,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.295991,
     "lbl:longitude":-85.941381,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":101,
     "uscensus:geoid":2610122320,
     "uscensus:name":"Dickson",
     "uscensus:namelsad":"Dickson township",
+    "uscensus:population":981,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2610122320
+        "uscensus:geoid":"2610122320"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,12 +84,12 @@
         }
     ],
     "wof:id":404507497,
-    "wof:lastmodified":1605055772,
+    "wof:lastmodified":1722117914,
     "wof:name":"Dickson Township",
     "wof:parent_id":102083761,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":993,
+    "wof:population":981,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

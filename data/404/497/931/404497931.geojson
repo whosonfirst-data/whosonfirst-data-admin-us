@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.008867,
-    "geom:area_square_m":83369650.511755,
+    "geom:area_square_m":83369650.511771,
     "geom:bbox":"-90.79107,40.4555,-90.673964,40.545257",
     "geom:latitude":40.502175,
     "geom:longitude":-90.737365,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.480891,
     "lbl:longitude":-90.751151,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":109,
     "uscensus:geoid":1710924101,
     "uscensus:name":"Emmet",
     "uscensus:namelsad":"Emmet township",
+    "uscensus:population":1231,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1710924101
+        "uscensus:geoid":"1710924101"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404497931,
-    "wof:lastmodified":1605055485,
+    "wof:lastmodified":1722117852,
     "wof:name":"Emmet Township",
     "wof:parent_id":102080815,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1288,
+    "wof:population":1231,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006971,
-    "geom:area_square_m":64310670.518754,
+    "geom:area_square_m":64310670.518738,
     "geom:bbox":"-75.576315,41.703634,-75.467344,41.783186",
     "geom:latitude":41.743702,
     "geom:longitude":-75.522109,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.745819,
     "lbl:longitude":-75.526504,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":4211534096,
     "uscensus:name":"Herrick",
     "uscensus:namelsad":"Herrick township",
+    "uscensus:population":711,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4211534096
+        "uscensus:geoid":"4211534096"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729462861
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404487273,
-    "wof:lastmodified":1605055881,
+    "wof:lastmodified":1722117786,
     "wof:name":"Herrick Township",
     "wof:parent_id":102081381,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":713,
+    "wof:population":711,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -10,6 +10,12 @@
     "geom:latitude":48.452084,
     "geom:longitude":-98.878441,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.452061,
     "lbl:longitude":-98.878441,
     "lbl:max_zoom":18.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":71,
     "uscensus:geoid":3807175580,
     "uscensus:name":"Starkweather",
     "uscensus:namelsad":"Starkweather city",
+    "uscensus:population":97,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3807175580
+        "uscensus:geoid":"3807175580"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,11 +93,11 @@
         }
     ],
     "wof:id":404482319,
-    "wof:lastmodified":1605055391,
+    "wof:lastmodified":1722117756,
     "wof:name":"Starkweather",
     "wof:parent_id":102081517,
     "wof:placetype":"localadmin",
-    "wof:population":117,
+    "wof:population":97,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

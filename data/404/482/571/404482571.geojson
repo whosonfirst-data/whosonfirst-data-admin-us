@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000042,
-    "geom:area_square_m":393371.480815,
+    "geom:area_square_m":393371.480816,
     "geom:bbox":"-79.344263,40.995879,-79.334027,41.002496",
     "geom:latitude":40.999158,
     "geom:longitude":-79.33954,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "borough"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.999607,
     "lbl:longitude":-79.339639,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":4200571976,
     "uscensus:name":"South Bethlehem",
     "uscensus:namelsad":"South Bethlehem borough",
+    "uscensus:population":475,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200571976
+        "uscensus:geoid":"4200571976"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -74,11 +84,11 @@
         }
     ],
     "wof:id":404482571,
-    "wof:lastmodified":1605055389,
+    "wof:lastmodified":1722117757,
     "wof:name":"South Bethlehem",
     "wof:parent_id":102081371,
     "wof:placetype":"localadmin",
-    "wof:population":481,
+    "wof:population":475,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

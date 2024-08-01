@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010952,
-    "geom:area_square_m":102616240.881739,
+    "geom:area_square_m":102616240.881767,
     "geom:bbox":"-87.652686,40.687267,-87.525964,40.777665",
     "geom:latitude":40.732626,
     "geom:longitude":-87.588551,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.732365,
     "lbl:longitude":-87.58855,
     "lbl:max_zoom":16.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":75,
     "uscensus:geoid":1707569225,
     "uscensus:name":"Sheldon",
     "uscensus:namelsad":"Sheldon township",
+    "uscensus:population":1181,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1707569225
+        "uscensus:geoid":"1707569225"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404498209,
-    "wof:lastmodified":1605055569,
+    "wof:lastmodified":1722233641,
     "wof:name":"Sheldon Township",
     "wof:parent_id":102086209,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1374,
+    "wof:population":1181,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

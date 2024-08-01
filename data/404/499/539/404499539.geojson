@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009686,
-    "geom:area_square_m":92675167.886444,
+    "geom:area_square_m":92675167.8865,
     "geom:bbox":"-89.47432,39.261055,-89.363498,39.348851",
     "geom:latitude":39.30503,
     "geom:longitude":-89.418853,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":39.305046,
     "lbl:longitude":-89.418846,
     "lbl:max_zoom":17.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":135,
     "uscensus:geoid":1713566092,
     "uscensus:name":"Rountree",
     "uscensus:namelsad":"Rountree township",
+    "uscensus:population":223,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1713566092
+        "uscensus:geoid":"1713566092"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465509
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404499539,
-    "wof:lastmodified":1605055545,
+    "wof:lastmodified":1722117861,
     "wof:name":"Rountree Township",
     "wof:parent_id":102080819,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":240,
+    "wof:population":223,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

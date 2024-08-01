@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010054,
-    "geom:area_square_m":94148151.768465,
+    "geom:area_square_m":94148151.768561,
     "geom:bbox":"-84.571521,40.727969,-84.455856,40.815632",
     "geom:latitude":40.771826,
     "geom:longitude":-84.513884,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.771853,
     "lbl:longitude":-84.513883,
     "lbl:max_zoom":17.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":161,
     "uscensus:geoid":3916187136,
     "uscensus:name":"York",
     "uscensus:namelsad":"York township",
+    "uscensus:population":719,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":39,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3916187136
+        "uscensus:geoid":"3916187136"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404526117,
-    "wof:lastmodified":1605055651,
+    "wof:lastmodified":1722233688,
     "wof:name":"York Township",
     "wof:parent_id":102083689,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":728,
+    "wof:population":719,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

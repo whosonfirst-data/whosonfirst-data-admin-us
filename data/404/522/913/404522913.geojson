@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.013122,
-    "geom:area_square_m":121419238.085725,
+    "geom:area_square_m":121419238.085723,
     "geom:bbox":"-74.134511,41.490593,-73.953307,41.615695",
     "geom:latitude":41.553046,
     "geom:longitude":-74.059897,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.541898,
     "lbl:longitude":-74.076367,
     "lbl:max_zoom":14.0,
@@ -85,11 +91,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":71,
     "uscensus:geoid":3607150045,
     "uscensus:name":"Newburgh",
     "uscensus:namelsad":"Newburgh town",
+    "uscensus:population":31712,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -99,8 +108,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3607150045
+        "uscensus:geoid":"3607150045"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -116,11 +126,11 @@
         }
     ],
     "wof:id":404522913,
-    "wof:lastmodified":1605056074,
+    "wof:lastmodified":1722117997,
     "wof:name":"Newburgh",
     "wof:parent_id":102083061,
     "wof:placetype":"localadmin",
-    "wof:population":29801,
+    "wof:population":31712,
     "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.006583,
-    "geom:area_square_m":62051873.551318,
+    "geom:area_square_m":62051873.551296,
     "geom:bbox":"-85.862296,40.291397,-85.785572,40.378923",
     "geom:latitude":40.335231,
     "geom:longitude":-85.823698,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.334985,
     "lbl:longitude":-85.823698,
     "lbl:max_zoom":17.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":95,
     "uscensus:geoid":1809518820,
     "uscensus:name":"Duck Creek",
     "uscensus:namelsad":"Duck Creek township",
+    "uscensus:population":514,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":18,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1809518820
+        "uscensus:geoid":"1809518820"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404500451,
-    "wof:lastmodified":1604530783,
+    "wof:lastmodified":1722233649,
     "wof:name":"Duck Creek Township",
     "wof:parent_id":102086407,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":548,
+    "wof:population":514,
     "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

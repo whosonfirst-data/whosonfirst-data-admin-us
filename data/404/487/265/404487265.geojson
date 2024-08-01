@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.009011,
-    "geom:area_square_m":83099008.552485,
+    "geom:area_square_m":83099008.552486,
     "geom:bbox":"-75.659049,41.720498,-75.558148,41.822016",
     "geom:latitude":41.772624,
     "geom:longitude":-75.610139,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":41.772839,
     "lbl:longitude":-75.609469,
     "lbl:max_zoom":16.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":115,
     "uscensus:geoid":4211529024,
     "uscensus:name":"Gibson",
     "uscensus:namelsad":"Gibson township",
+    "uscensus:population":1001,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4211529024
+        "uscensus:geoid":"4211529024"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729465495
     ],
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404487265,
-    "wof:lastmodified":1605055894,
+    "wof:lastmodified":1722117786,
     "wof:name":"Gibson Township",
     "wof:parent_id":102081381,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":1221,
+    "wof:population":1001,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

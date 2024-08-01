@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.011881,
-    "geom:area_square_m":111357960.376479,
+    "geom:area_square_m":111357960.376504,
     "geom:bbox":"-79.425674,40.646696,-79.251517,40.766062",
     "geom:latitude":40.71306,
     "geom:longitude":-79.34693,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":40.725495,
     "lbl:longitude":-79.369949,
     "lbl:max_zoom":15.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":5,
     "uscensus:geoid":4200561576,
     "uscensus:name":"Plumcreek",
     "uscensus:namelsad":"Plumcreek township",
+    "uscensus:population":2059,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":42,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4200561576
+        "uscensus:geoid":"4200561576"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729456499
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404482567,
-    "wof:lastmodified":1605055375,
+    "wof:lastmodified":1722117757,
     "wof:name":"Plumcreek Township",
     "wof:parent_id":102081371,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":2375,
+    "wof:population":2059,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

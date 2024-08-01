@@ -9,11 +9,24 @@
     "geom:bbox":"-73.221588,41.526651,-73.189824,41.559463",
     "geom:latitude":41.544523,
     "geom:longitude":-73.204772,
+    "gn:admin1_code":"CT",
+    "gn:admin2_code":"5",
+    "gn:admin3_code":"87910.0",
+    "gn:asciiname":"Woodbury Center",
+    "gn:country_code":"US",
+    "gn:dem":138,
     "gn:elevation":130,
+    "gn:feature_class":"P",
+    "gn:feature_code":"PPL",
+    "gn:geonameid":7257433,
     "gn:latitude":41.54453,
     "gn:longitude":-73.20476,
+    "gn:modification_date":"2017-05-23",
+    "gn:name":"Woodbury Center",
     "gn:population":1294,
+    "gn:timezone":"America/New_York",
     "iso:country":"US",
+    "lbl:bbox":"-73.22476,41.52453,-73.18476,41.56453",
     "lbl:latitude":41.544686,
     "lbl:longitude":-73.203699,
     "lbl:max_zoom":16.0,
@@ -169,7 +182,8 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"geonames",
+    "src:population":"uscensus",
+    "src:population_date":"2022",
     "uscensus:aland":5038322,
     "uscensus:awater":0,
     "uscensus:classfp":"U2",
@@ -185,14 +199,16 @@
     "uscensus:pcinecta":"N",
     "uscensus:placefp":"87980",
     "uscensus:placens":"02377886",
+    "uscensus:population":1325,
+    "uscensus:population_date":"2022",
     "uscensus:statefp":"09",
     "wd:wordcount":2144,
     "wof:belongsto":[
-        85688629,
         102191575,
-        404496053,
         85633793,
-        102085375
+        102085375,
+        404496053,
+        85688629
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -200,12 +216,18 @@
         "gn:id":4846028,
         "gp:id":2522952,
         "qs_pg:id":467338,
-        "uscensus:geoid":987980,
+        "uscensus:geoid":"0987980",
         "wd:id":"Q607420"
     },
     "wof:concordances_alt":{
-        "qs_pg:id":669756
+        "gn:id":[
+            7257433
+        ],
+        "qs_pg:id":[
+            669756
+        ]
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes_pg",
@@ -223,15 +245,17 @@
         }
     ],
     "wof:id":85931205,
-    "wof:lastmodified":1690883632,
+    "wof:lastmodified":1722116396,
     "wof:name":"Woodbury Center",
     "wof:parent_id":404496053,
     "wof:placetype":"locality",
-    "wof:population":1294,
+    "wof:population":1325,
     "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
-    "wof:supersedes":[],
+    "wof:supersedes":[
+        1193031777
+    ],
     "wof:tags":[]
 },
   "bbox": [

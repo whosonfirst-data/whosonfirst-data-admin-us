@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.00349,
-    "geom:area_square_m":31869313.198082,
+    "geom:area_square_m":31869313.198078,
     "geom:bbox":"-82.914935,42.361037,-82.810717,42.426282",
     "geom:latitude":42.39124,
     "geom:longitude":-82.869345,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.387987,
     "lbl:longitude":-82.874468,
     "lbl:max_zoom":15.0,
@@ -40,11 +46,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":163,
     "uscensus:geoid":2616335520,
     "uscensus:name":"Grosse Pointe Farms",
     "uscensus:namelsad":"Grosse Pointe Farms city",
+    "uscensus:population":9757,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":26,
     "wof:belongsto":[
         102191575,
@@ -54,8 +63,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2616335520
+        "uscensus:geoid":"2616335520"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -71,11 +81,11 @@
         }
     ],
     "wof:id":404508589,
-    "wof:lastmodified":1605055741,
+    "wof:lastmodified":1722117923,
     "wof:name":"Grosse Pointe Farms",
     "wof:parent_id":102083147,
     "wof:placetype":"localadmin",
-    "wof:population":9479,
+    "wof:population":9757,
     "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

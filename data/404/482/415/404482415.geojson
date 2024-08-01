@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.010703,
-    "geom:area_square_m":90513209.526569,
+    "geom:area_square_m":90513209.526633,
     "geom:bbox":"-99.069181,46.80434,-98.945188,46.892289",
     "geom:latitude":46.848289,
     "geom:longitude":-99.006886,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.84847,
     "lbl:longitude":-99.006891,
     "lbl:max_zoom":18.0,
@@ -43,11 +49,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":93,
     "uscensus:geoid":3809354100,
     "uscensus:name":"Moon Lake",
     "uscensus:namelsad":"Moon Lake township",
+    "uscensus:population":63,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":38,
     "wof:belongsto":[
         102191575,
@@ -57,8 +66,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3809354100
+        "uscensus:geoid":"3809354100"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729457461
     ],
@@ -77,12 +87,12 @@
         }
     ],
     "wof:id":404482415,
-    "wof:lastmodified":1605055379,
+    "wof:lastmodified":1722117756,
     "wof:name":"Moon Lake Township",
     "wof:parent_id":102082093,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":65,
+    "wof:population":63,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

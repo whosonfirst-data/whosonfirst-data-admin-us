@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.014399,
-    "geom:area_square_m":140388065.427553,
+    "geom:area_square_m":140388065.427586,
     "geom:bbox":"-99.187245,37.912555,-99.022136,38.000242",
     "geom:latitude":37.956325,
     "geom:longitude":-99.104647,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":37.956356,
     "lbl:longitude":-99.104623,
     "lbl:max_zoom":18.0,
@@ -49,11 +55,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":47,
     "uscensus:geoid":2004705850,
     "uscensus:name":"Belpre",
     "uscensus:namelsad":"Belpre township",
+    "uscensus:population":180,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":20,
     "wof:belongsto":[
         102191575,
@@ -63,8 +72,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":2004705850
+        "uscensus:geoid":"2004705850"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -80,12 +90,12 @@
         }
     ],
     "wof:id":404502303,
-    "wof:lastmodified":1605055271,
+    "wof:lastmodified":1722233657,
     "wof:name":"Belpre Township",
     "wof:parent_id":102083425,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":178,
+    "wof:population":180,
     "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

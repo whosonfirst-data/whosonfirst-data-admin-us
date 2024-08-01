@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.088622,
-    "geom:area_square_m":795171398.415803,
+    "geom:area_square_m":795171398.415728,
     "geom:bbox":"-75.10265,43.241401,-74.775617,43.734781",
     "geom:latitude":43.478294,
     "geom:longitude":-74.920919,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.467529,
     "lbl:longitude":-74.918443,
     "lbl:max_zoom":16.0,
@@ -550,11 +556,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":43,
     "uscensus:geoid":3604354507,
     "uscensus:name":"Ohio",
     "uscensus:namelsad":"Ohio town",
+    "uscensus:population":969,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":36,
     "wof:belongsto":[
         102191575,
@@ -564,8 +573,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3604354507
+        "uscensus:geoid":"3604354507"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729460177
     ],
@@ -584,12 +594,12 @@
         }
     ],
     "wof:id":404521895,
-    "wof:lastmodified":1605055628,
+    "wof:lastmodified":1722117989,
     "wof:name":"Ohio",
     "wof:parent_id":102081877,
     "wof:placetype":"localadmin",
-    "wof:population":1002,
-    "wof:population_rank":3,
+    "wof:population":969,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.002227,
-    "geom:area_square_m":19875994.416912,
+    "geom:area_square_m":19875994.416934,
     "geom:bbox":"-99.359205,43.745422,-99.302107,43.824875",
     "geom:latitude":43.786059,
     "geom:longitude":-99.326967,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "city"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.806522,
     "lbl:longitude":-99.334525,
     "lbl:max_zoom":15.0,
@@ -124,11 +130,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":4601511220,
     "uscensus:name":"Chamberlain",
     "uscensus:namelsad":"Chamberlain city",
+    "uscensus:population":2491,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":46,
     "wof:belongsto":[
         102191575,
@@ -138,8 +147,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":4601511220
+        "uscensus:geoid":"4601511220"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -155,11 +165,11 @@
         }
     ],
     "wof:id":404489463,
-    "wof:lastmodified":1605055925,
+    "wof:lastmodified":1722117800,
     "wof:name":"Chamberlain",
     "wof:parent_id":102086817,
     "wof:placetype":"localadmin",
-    "wof:population":2387,
+    "wof:population":2491,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

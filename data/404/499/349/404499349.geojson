@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.031878,
-    "geom:area_square_m":291782637.098765,
+    "geom:area_square_m":291782637.098774,
     "geom:bbox":"-89.173929,42.150266,-88.940218,42.32666",
     "geom:latitude":42.248562,
     "geom:longitude":-89.074213,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "township"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.264299,
     "lbl:longitude":-89.111505,
     "lbl:max_zoom":14.0,
@@ -52,11 +58,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":201,
     "uscensus:geoid":1720165013,
     "uscensus:name":"Rockford",
     "uscensus:namelsad":"Rockford township",
+    "uscensus:population":167522,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":17,
     "wof:belongsto":[
         102191575,
@@ -66,8 +75,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":1720165013
+        "uscensus:geoid":"1720165013"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:country":"US",
     "wof:geom_alt":[
         "quattroshapes"
@@ -83,12 +93,12 @@
         }
     ],
     "wof:id":404499349,
-    "wof:lastmodified":1605055544,
+    "wof:lastmodified":1722233645,
     "wof:name":"Rockford Township",
     "wof:parent_id":102080827,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"township",
-    "wof:population":178527,
+    "wof:population":167522,
     "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],

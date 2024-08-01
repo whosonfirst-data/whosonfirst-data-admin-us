@@ -5,11 +5,17 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.004852,
-    "geom:area_square_m":43888839.221254,
+    "geom:area_square_m":43888839.221303,
     "geom:bbox":"-71.088073,42.958282,-70.999906,43.020875",
     "geom:latitude":42.988916,
     "geom:longitude":-71.04488,
     "iso:country":"US",
+    "label:eng_x_preferred_placetype":[
+        "town"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.989888,
     "lbl:longitude":-71.044881,
     "lbl:max_zoom":15.0,
@@ -97,11 +103,14 @@
         "quattroshapes"
     ],
     "src:lbl_centroid":"mapshaper",
-    "src:population":"quattroshapes",
+    "src:population":"uscensus",
+    "src:population_date":"2023",
     "uscensus:countyfp":15,
     "uscensus:geoid":3301507220,
     "uscensus:name":"Brentwood",
     "uscensus:namelsad":"Brentwood town",
+    "uscensus:population":4682,
+    "uscensus:population_date":"2023",
     "uscensus:statefp":33,
     "wof:belongsto":[
         102191575,
@@ -111,8 +120,9 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "uscensus:geoid":3301507220
+        "uscensus:geoid":"3301507220"
     },
+    "wof:concordances_official":"uscensus:geoid",
     "wof:coterminous":[
         1729464865
     ],
@@ -131,11 +141,11 @@
         }
     ],
     "wof:id":404476699,
-    "wof:lastmodified":1605055407,
+    "wof:lastmodified":1722117717,
     "wof:name":"Brentwood",
     "wof:parent_id":102086507,
     "wof:placetype":"localadmin",
-    "wof:population":4486,
+    "wof:population":4682,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-us",
     "wof:superseded_by":[],
